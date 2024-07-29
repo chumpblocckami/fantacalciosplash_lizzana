@@ -48,14 +48,17 @@ with st.expander("Iscrivi una squadra", expanded=True):
         allenatore  = st.text_input("Nominativo: " )
 
         portiere = st.multiselect(label="Portiere", 
+                                  default="Scegli un portiere",
                                                       options=st.session_state["portieri"],
                                                       max_selections=1)
 
         movimento = st.multiselect(label="Giocatori", 
                                    options=st.session_state["movimento"],
+                                   default="Scegli 3 titolari"
                                    max_selections=3)
         
         riserve = st.multiselect(label="Riserve",  
+                                 default="Scegli 3 riserve",
                                  options=st.session_state["movimento"],  
                                  max_selections=3)
         
@@ -94,3 +97,6 @@ with st.expander("Giocatori", expanded=False) :
 with st.expander("Squadre", expanded=False):
     btn_reload_squadre = st.button("Reload", on_click=load)
     st.table(st.session_state['squadre'])
+
+
+st.write("Made with 🍻 by GSP")
