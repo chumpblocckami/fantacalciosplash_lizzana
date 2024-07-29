@@ -54,7 +54,7 @@ with st.expander("Iscrivi una squadra", expanded=True):
 
         movimento = st.multiselect(label="Giocatori", 
                                    options=st.session_state["movimento"],
-                                   default="Scegli 3 titolari"
+                                   default="Scegli 3 titolari",
                                    max_selections=3)
         
         riserve = st.multiselect(label="Riserve",  
