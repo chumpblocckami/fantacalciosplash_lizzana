@@ -74,7 +74,7 @@ for edition, tab in zip(editions, tabs):
 st.markdown(
     """
     <div style="text-align: center;">
-        <h1>Made with 🍻 by GSP</h1>
+        <h5>Made with 🍻 by GSP</h5>
     </div>
     """,
     unsafe_allow_html=True,
