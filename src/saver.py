@@ -12,9 +12,12 @@ class Saver:
 
     def init_repo(self):
         try:
+            github_username = os.environ["GITHUB_USER"]
+            personal_access_token = os.environ["GITHUB_TOKEN"]
+
             origin = self.repo.remote(name="origin")
             origin.set_url(
-                "https://github.com/chumpblocckami/fantacalciosplash_lizzana"
+                f"https://{github_username}:{personal_access_token}@github.com/{github_username}/fantacalciosplash_lizzana"
             )
             origin.push(refspec=f"{self.branch}:{self.branch}")
         except GitCommandError as e:
