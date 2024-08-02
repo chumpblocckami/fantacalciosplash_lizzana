@@ -1,5 +1,5 @@
 [theme]
-base="dark" #or "light" or backgroundColor="#FFFFFF"
+base="light" #or "dark" or backgroundColor="#FFFFFF"
 primaryColor="orange"
 secondaryBackgroundColor="#F0F2F6"
 #textColor="orange"
