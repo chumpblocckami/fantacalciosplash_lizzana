@@ -66,7 +66,7 @@ class Saver:
         )
         file_path = self.get_path(f"assets/{edition}_squadre.xlsx")
         squadre = pd.read_excel(file_path)
-        pd.concat([squadre, squadra]).drop(columns=[0]).to_excel(file_path, index=None)
+        pd.concat([squadre, squadra]).to_excel(file_path, index=None)
 
         self.commit_and_push(file_path, commit_message=f"Added {allenatore} team")
         self.pull_latest()
