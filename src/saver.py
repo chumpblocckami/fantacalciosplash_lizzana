@@ -59,7 +59,7 @@ class Saver:
 
         giocatori_in_squadra = [allenatore] + portiere + titolari + riserve
         squadra = pd.DataFrame(
-            giocatori_in_squadra,
+            [giocatori_in_squadra],
             columns="Fantallenatore,Portiere,Titolare 1,Titolare 2,Titolare 3,Riserva".split(
                 ","
             ),
