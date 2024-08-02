@@ -58,7 +58,7 @@ for edition, tab in zip(editions, tabs):
                 on_click=loader.load_points,
                 key=f"{edition}_reload_players",
             )
-            punteggi = st.session_state["giocatori"][edition].copy()
+            punteggi = st.session_state["punteggi"][edition].copy()
             st.table(punteggi)
 
         with st.expander("Classifica 💯", expanded=not is_current_edition(edition)):
