@@ -8,17 +8,16 @@ class Saver:
     def __init__(self, repo_path: str) -> None:
         self.repo = Repo(repo_path, search_parent_directories=True)
         self.branch = "main"
-        self.init_repo()
+        self.github_username = os.environ["GITHUB_USER"]
+        self.access_token = os.environ["GITHUB_TOKEN"]
+        self.remote_repo = os.environ["REMOTE_REPO"]
+        self.endpoint = f"https://{self.github_username}:{self.access_token}@github.com/{self.github_username}/{self.remote_repo}.git"
 
     def init_repo(self):
         try:
-            github_username = os.environ["GITHUB_USER"]
-            personal_access_token = os.environ["GITHUB_TOKEN"]
 
             origin = self.repo.remote(name="origin")
-            origin.set_url(
-                f"https://{github_username}:{personal_access_token}@github.com/{github_username}/fantacalciosplash_lizzana"
-            )
+
             origin.push(refspec=f"{self.branch}:{self.branch}")
         except GitCommandError as e:
             print(f"GitCommandError: {e}")
@@ -31,6 +30,7 @@ class Saver:
         self.repo.index.add([file_path])
         self.repo.index.commit(commit_message)
         origin = self.repo.remote(name="origin")
+        origin.set_url(self.endpoint)
         origin.push(refspec=f"{self.branch}:{self.branch}")
 
     def pull_latest(self):
