@@ -4,7 +4,27 @@ import streamlit as st
 from src.env import BUDGET
 
 
-def read_data(editions):
+class Loader:
+    def __init__(self, edition: int) -> None:
+        self.edition = edition
+
+    def load_points(self):
+        st.session_state["squadre"][self.edition] = pd.read_excel(
+            f"./assets/{self.edition}_squadre.xlsx"
+        )
+
+    def load_rankings(self):
+        st.session_state["punteggi"][self.edition] = pd.read_excel(
+            f"./assets/{self.edition}_punteggi.xlsx"
+        )
+
+    def load_teams(self):
+        st.session_state["classifica"][self.edition] = pd.read_excel(
+            f"./assets/{self.edition}_classifica.xlsx"
+        )
+
+
+def read_data(editions: list):
 
     st.session_state["giocatori"] = {}
     st.session_state["squadre"] = {}
@@ -15,15 +35,10 @@ def read_data(editions):
         st.session_state["giocatori"][edition] = pd.read_excel(
             f"./assets/{edition}_giocatori.xlsx"
         )
-        st.session_state["squadre"][edition] = pd.read_excel(
-            f"./assets/{edition}_squadre.xlsx"
-        )
-        st.session_state["punteggi"][edition] = pd.read_excel(
-            f"./assets/{edition}_punteggi.xlsx"
-        )
-        st.session_state["classifica"][edition] = pd.read_excel(
-            f"./assets/{edition}_classifica.xlsx"
-        )
+        loader = Loader(edition=edition)
+        loader.load_points()
+        loader.load_teams()
+        loader.load_rankings()
 
 
 def init_session_state(editions: int):

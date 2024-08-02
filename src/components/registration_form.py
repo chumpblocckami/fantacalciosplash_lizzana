@@ -1,14 +1,18 @@
+import os
+
 import pandas as pd
 import streamlit as st
 
 from src.env import BUDGET
-from src.utils import submit_team, update_budget
+from src.saver import Saver
+from src.utils import update_budget
 
 
 class RegistrationForm:
     def __init__(self, edition):
         self.edition = edition
         self.edition_data = st.session_state["giocatori"][self.edition]
+        self.saver = Saver(repo_path=os.path.dirname(os.path.realpath(__file__)))
         pass
 
     def render(self):
@@ -35,9 +39,9 @@ class RegistrationForm:
 
         riserve = st.multiselect(
             label="Riserve",
-            placeholder="Scegli 3 riserve",
+            placeholder="Scegli 1 riserva",
             options=self.edition_data.loc[self.edition_data["Ruolo"] == "Movimento"],
-            max_selections=3,
+            max_selections=1,
             key=f"riserve_{self.edition}",
         )
 
@@ -45,4 +49,12 @@ class RegistrationForm:
 
         btn_submit = st.button("Iscrivi squadra", key=f"iscrizione_{self.edition}")
         if btn_submit:
-            submit_team(allenatore, portiere, titolari, riserve, self.edition)
+            output = self.saver.submit_team(
+                allenatore,
+                portiere,
+                titolari,
+                riserve,
+                self.edition,
+                st.session_state["budget"],
+            )
+            st.write(output)
