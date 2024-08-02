@@ -39,5 +39,5 @@ def update_budget(budget: st.empty):
             budget.write(f"Budget: {st.session_state['budget']}")
 
 
-def is_current_edition(edition):
+def check_current_edition(edition: int) -> bool:
     return int(edition) == dt.now().year
