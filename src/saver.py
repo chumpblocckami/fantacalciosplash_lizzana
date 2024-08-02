@@ -8,6 +8,13 @@ class Saver:
     def __init__(self, repo_path: str) -> None:
         self.repo = Repo(repo_path, search_parent_directories=True)
         self.branch = "main"
+        self.init_repo()
+
+    def init_repo(self):
+        self.repo.config_writer().set_value("user", "name", "chumpblocckami").release()
+        self.repo.config_writer().set_value(
+            "user", "email", "mazzolauni@gmail.com"
+        ).release()
 
     def commit_and_push(self, file_path: str, commit_message: str):
 
@@ -57,10 +64,3 @@ class Saver:
         self.commit_and_push(file_path, commit_message=f"Added {allenatore} team")
         self.pull_latest()
         return "Fantasquadra iscritta!"
-
-
-if __name__ == "__main__":
-    dir_path = os.path.dirname(os.path.realpath(__file__))
-    file_path = dir_path + "/test.py"
-    saver = Saver(dir_path)
-    saver.commit_and_push(file_path=file_path, commit_message="Updated")
