@@ -1,3 +1,5 @@
+from datetime import datetime as dt
+
 import pandas as pd
 import streamlit as st
 
@@ -22,9 +24,9 @@ def get_players():
     return list(giocatori_disponibili)
 
 
-def load():
-    st.session_state["squadre"] = pd.read_csv(
-        "./assets/2024_squadre.csv", delimiter=","
+def load(edition: int):
+    st.session_state["squadre"][edition] = pd.read_csv(
+        f"./assets/{edition}_squadre.csv", delimiter=","
     )
 
 
@@ -37,31 +39,33 @@ def update_budget(budget: st.empty):
             budget.write(f"Budget: {st.session_state['budget']}")
 
 
-def submit_team():
-    giocatori_doppi = set(st.session_state["titolari"]).intersection(
-        set(st.session_state["riserve"])
-    )
+def submit_team(allenatore, portiere, titolari, riserve, edition):
+    giocatori_doppi = set(titolari).intersection(set(riserve))
+
     if len(giocatori_doppi) > 0:
         st.write(
             f"Giocatori presenti sia come titolari che come riserve: {giocatori_doppi}"
         )
-    elif st.session_state["budget"] < 0:
+        return
+
+    if st.session_state["budget"] < 0:
         st.write("Il budget non può essere minore di zero!")
-    else:
-        giocatori_in_squadra = (
-            st.session_state["portiere"]
-            + st.session_state["titolari"]
-            + st.session_state["riserve"]
-        )
-        giocatori_in_squadra.append(st.session_state["allenatore"])
-        squadra = pd.Series(
-            giocatori_in_squadra,
-            index="Portiere,Giocatore1,Giocatore2,Giocatore3,Riserva1,Riserva2,Riserva3,Allenatore".split(
-                ","
-            ),
-        )
-        squadre = pd.read_csv("./assets/2024_squadre.csv", delimiter=",")
-        squadre.append(squadra, ignore_index=True).to_excel(
-            "./assets/2024_squadre.xlsx", index=None
-        )
-        st.write("Fantasquadra iscritta!")
+        return
+
+    giocatori_in_squadra = portiere + titolari + riserve
+    giocatori_in_squadra.append(allenatore)
+    squadra = pd.Series(
+        giocatori_in_squadra,
+        index="Portiere,Giocatore1,Giocatore2,Giocatore3,Riserva1,Riserva2,Riserva3,Allenatore".split(
+            ","
+        ),
+    )
+    squadre = pd.read_csv(f"./assets/{edition}_squadre.csv", delimiter=",")
+    squadre.append(squadra, ignore_index=True).to_excel(
+        f"./assets/{edition}_squadre.xlsx", index=None
+    )
+    st.write("Fantasquadra iscritta!")
+
+
+def is_current_edition(edition):
+    return int(edition) == dt.now().year
