@@ -1,7 +1,7 @@
 import os
 
 import pandas as pd
-from git import Repo
+from git import GitCommandError, Repo
 
 
 class Saver:
@@ -11,10 +11,14 @@ class Saver:
         self.init_repo()
 
     def init_repo(self):
-        self.repo.config_writer().set_value("user", "name", "chumpblocckami").release()
-        self.repo.config_writer().set_value(
-            "user", "email", "mazzolauni@gmail.com"
-        ).release()
+        try:
+            origin = self.repo.remote(name="origin")
+            origin.set_url(
+                "https://github.com/chumpblocckami/fantacalciosplash_lizzana"
+            )
+            origin.push(refspec=f"{self.branch}:{self.branch}")
+        except GitCommandError as e:
+            print(f"GitCommandError: {e}")
 
     def commit_and_push(self, file_path: str, commit_message: str):
 
