@@ -2,7 +2,7 @@ import os
 
 import streamlit as st
 from PIL import Image
-
+import datetime as dt 
 from src.components.registration_form import RegistrationForm
 from src.loader import Loader, init_session_state
 from src.utils import check_current_edition
@@ -40,6 +40,12 @@ for edition, tab in zip(editions, tabs):
 
         with st.expander("Quotazione giocatori 💰", expanded=False):
             giocatori = st.session_state["giocatori"][edition].copy()
+            st.download_button(
+                label="Scarica ⏬",
+                data=giocatori.to_csv().encode("utf-8"),
+                file_name=f"{edition}_giocatori.csv",
+                mime="text/csv",
+            )
             st.table(giocatori)
 
         with st.expander("Squadre iscritte 👯‍♀️", expanded=False):
@@ -50,7 +56,16 @@ for edition, tab in zip(editions, tabs):
                     key=f"{edition}_reload_teams",
                 )
             squadre = st.session_state["squadre"][edition].copy()
-            st.table(squadre)
+            today =  dt.datetime.now()
+            if today.month == 8 and today.day <= 14:
+                st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
+                         Al momento sono visibili solo i nomi dei fantallenatori.""")
+                st.table(squadre["Fantallenatore"])
+                # todo: visualizza un grafico con 
+                #1. giocatore piu preso
+                #2. squadra con piu giocatori
+            else:
+                st.table(squadre)
 
         with st.expander("Punteggi giocatore 🍿", expanded=False):
             if is_current_edition:

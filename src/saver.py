@@ -1,9 +1,10 @@
 import os
-
 import pandas as pd
 from git import GitCommandError, Repo
 
+from dotenv import load_dotenv
 
+load_dotenv()
 class Saver:
     def __init__(self, repo_path: str) -> None:
         self.repo = Repo(repo_path, search_parent_directories=True)
@@ -49,6 +50,10 @@ class Saver:
         edition: int,
         budget: int,
     ):
+        chosen_team = [x.split(" | ")[1] for x in titolari + riserve]
+        if len(set(chosen_team)) < len(chosen_team):
+            return f"Non puoi convocare due giocatori di movimento della stessa squadra!"
+    
         giocatori_doppi = set(titolari).intersection(set(riserve))
 
         if len(giocatori_doppi) > 0:

@@ -50,7 +50,7 @@ def filter_dataframe(df: pd.DataFrame, key: str) -> pd.DataFrame:
             if user_text_input:
                 df = df[df[column].str.contains(user_text_input)]
 
-        elif column == "Quota":
+        elif column == "Quotazione":
             _min = float(df[column].min())
             _max = float(df[column].max())
             step = (_max - _min) / 100
