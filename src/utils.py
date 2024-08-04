@@ -9,7 +9,7 @@ from src.env import BUDGET
 def get_cost(player):
     cost = (
         st.session_state["data"]
-        .loc[st.session_state["data"]["Nominativo"] == player]["Quota"]
+        .loc[st.session_state["data"]["Nominativo"] == player]["Quotazione"]
         .astype(float)
     )
     if cost.empty:
@@ -30,13 +30,12 @@ def load(edition: int):
     )
 
 
-def update_budget(budget: st.empty):
-    st.session_state["budget"] = BUDGET
-    for key in st.session_state:
-        if key == "portiere" or key == "titolari" or key == "riserve":
-            somma_quote = sum([get_cost(player) for player in st.session_state[key]])
-            st.session_state["budget"] -= somma_quote
-            budget.write(f"Budget: {st.session_state['budget']}")
+def update_budget(players, data):
+    player_names = [player.split(" | ")[0] for player in players]
+    print(player_names)
+    costs = sum([float(data.loc[data["Nominativo"]==name]["Quotazione"]) for name in player_names])
+    print(costs)
+    return BUDGET - costs
 
 
 def check_current_edition(edition: int) -> bool:

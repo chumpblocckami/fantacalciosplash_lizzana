@@ -16,22 +16,22 @@ class RegistrationForm:
         pass
 
     def render(self):
-        budget = st.empty()
-        budget.write(f"Budget: {st.session_state['budget']}")
+        lbl_budget = st.empty()
+        lbl_budget.write(f"Budget: {st.session_state['budget']}")
 
         allenatore = st.text_input("Nominativo: ", key=f"coach_{self.edition}")
 
         portiere = st.multiselect(
             label="Portiere",
             placeholder="Scegli un portiere",
-            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Portiere"],
+            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Portiere"][["Nominativo","Squadra"]].agg(' | '.join, axis=1),
             max_selections=1,
             key=f"portiere_{self.edition}",
         )
 
         titolari = st.multiselect(
             label="Giocatori",
-            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Movimento"],
+            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Movimento"][["Nominativo","Squadra"]].agg(' | '.join, axis=1),
             placeholder="Scegli 3 titolari",
             max_selections=3,
             key=f"movimento_{self.edition}",
@@ -40,21 +40,22 @@ class RegistrationForm:
         riserve = st.multiselect(
             label="Riserve",
             placeholder="Scegli 1 riserva",
-            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Movimento"],
+            options=self.edition_data.loc[self.edition_data["Ruolo"] == "Movimento"][["Nominativo","Squadra"]].agg(' | '.join, axis=1),
             max_selections=1,
             key=f"riserve_{self.edition}",
         )
 
-        update_budget(budget)
+        lbl_budget.write(f"Budget: {update_budget(portiere+titolari+riserve, self.edition_data)}")
 
         btn_submit = st.button("Iscrivi squadra", key=f"iscrizione_{self.edition}")
         if btn_submit:
-            output = self.saver.submit_team(
-                allenatore,
-                portiere,
-                titolari,
-                riserve,
-                self.edition,
-                st.session_state["budget"],
-            )
+            with st.spinner("Iscrizione formazione..."):
+                output = self.saver.submit_team(
+                    allenatore,
+                    portiere,
+                    titolari,
+                    riserve,
+                    self.edition,
+                    st.session_state["budget"],
+                )
             st.write(output)
