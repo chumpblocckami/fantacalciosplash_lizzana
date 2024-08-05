@@ -71,15 +71,16 @@ for edition, tab in zip(editions, tabs):
                     key=f"{edition}_reload_teams",
                 )
             squadre = st.session_state["squadre"][edition].copy()
-            if today.month == 8 and today.day < 14 and today.hour < 14:
-                st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
-                         Al momento sono visibili solo i nomi dei fantallenatori.""")
-                st.table(squadre["Fantallenatore"])
-                SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
-                # todo: visualizza un grafico con 
-                #1. giocatore piu preso
-                #2. squadra con piu giocatori
-                #3. etc
+            if today.month == 8:
+                if today.day == 14:
+                    if today.hour >= 14:
+                        st.table(squadre)
+                    else:
+                        st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
+                            Al momento sono visibili solo i nomi dei fantallenatori.""")
+                
+                        st.table(squadre["Fantallenatore"])
+                        SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
             else:
                 st.table(squadre)
 
