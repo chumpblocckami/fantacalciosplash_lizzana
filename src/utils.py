@@ -1,5 +1,5 @@
 from datetime import datetime as dt
-
+import pytz 
 import pandas as pd
 import streamlit as st
 
@@ -39,4 +39,4 @@ def update_budget(players, data):
 
 
 def check_current_edition(edition: int) -> bool:
-    return int(edition) == dt.now().year
+    return int(edition) == dt.datetime.now(pytz.country_names.get("Rome")).year

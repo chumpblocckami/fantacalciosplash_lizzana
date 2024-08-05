@@ -1,5 +1,5 @@
 import os
-
+import pytz
 import streamlit as st
 from PIL import Image
 import datetime as dt 
@@ -22,8 +22,13 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-with st.expander("Regolamento"):
-    st.write('''Regolamento qui:''')
+with open("./assets/2024_regolamento.pdf", "rb") as pdf_file:
+    pdf_byte = pdf_file.read()
+
+st.download_button(label="Scarica regolamento",
+                        data=pdf_byte,
+                        file_name="2024_regolamento.pdf",
+                        mime='application/octet-stream')
 
 editions = list(set([x.split("_")[0] for x in os.listdir("./assets")]))
 editions.sort(reverse=True)
@@ -32,13 +37,13 @@ with st.spinner("Caricamento..."):
     init_session_state(editions)
 
 tabs = st.tabs(editions)
-today =  dt.datetime.now()
+today =  dt.datetime.now(pytz.country_names.get("Rome"))
 
 for edition, tab in zip(editions, tabs):
     loader = Loader(edition=edition)
     is_current_edition = check_current_edition(edition)
     with tab:
-        if is_current_edition and today.day < 14:
+        if is_current_edition and today.day < 14 and today.hour < 14:
             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
                 registration_form = RegistrationForm(edition=edition)
                 registration_form.render()
@@ -61,7 +66,7 @@ for edition, tab in zip(editions, tabs):
                     key=f"{edition}_reload_teams",
                 )
             squadre = st.session_state["squadre"][edition].copy()
-            if today.month == 8 and today.day < 14:
+            if today.month == 8 and today.day < 14 and today.hour < 14:
                 st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
                          Al momento sono visibili solo i nomi dei fantallenatori.""")
                 st.table(squadre["Fantallenatore"])
