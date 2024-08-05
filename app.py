@@ -87,7 +87,7 @@ for edition, tab in zip(editions, tabs):
         with st.expander("Punteggi giocatore 🍿", expanded=False):
             if is_current_edition:
                 btn_reload_points = st.button(
-                    "Reload",
+                    "Ricarica punteggi",
                     on_click=loader.load_points,
                     key=f"{edition}_reload_players",
                 )
@@ -97,7 +97,7 @@ for edition, tab in zip(editions, tabs):
         with st.expander("Classifica 💯", expanded=not is_current_edition):
             if is_current_edition:
                 btn_reload_rankings = st.button(
-                    "Ricarica squadre",
+                    "Ricarica classifica",
                     on_click=loader.load_rankings,
                     key=f"{edition}_reload_rankings",
                 )
