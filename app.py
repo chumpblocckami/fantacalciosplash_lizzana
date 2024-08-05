@@ -4,6 +4,7 @@ import streamlit as st
 from PIL import Image
 import datetime as dt 
 from src.components.registration_form import RegistrationForm
+from src.components.support_graph import SupportGraph
 from src.loader import Loader, init_session_state
 from src.utils import check_current_edition
 
@@ -21,6 +22,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+with st.expander("Regolamento"):
+    st.write('''Regolamento qui:''')
+
 editions = list(set([x.split("_")[0] for x in os.listdir("./assets")]))
 editions.sort(reverse=True)
 
@@ -28,12 +32,13 @@ with st.spinner("Caricamento..."):
     init_session_state(editions)
 
 tabs = st.tabs(editions)
+today =  dt.datetime.now()
 
 for edition, tab in zip(editions, tabs):
     loader = Loader(edition=edition)
     is_current_edition = check_current_edition(edition)
     with tab:
-        if is_current_edition:
+        if is_current_edition and today.day < 14:
             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
                 registration_form = RegistrationForm(edition=edition)
                 registration_form.render()
@@ -56,14 +61,15 @@ for edition, tab in zip(editions, tabs):
                     key=f"{edition}_reload_teams",
                 )
             squadre = st.session_state["squadre"][edition].copy()
-            today =  dt.datetime.now()
-            if today.month == 8 and today.day <= 14:
+            if today.month == 8 and today.day < 14:
                 st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
                          Al momento sono visibili solo i nomi dei fantallenatori.""")
                 st.table(squadre["Fantallenatore"])
+                SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
                 # todo: visualizza un grafico con 
                 #1. giocatore piu preso
                 #2. squadra con piu giocatori
+                #3. etc
             else:
                 st.table(squadre)
 
@@ -80,7 +86,7 @@ for edition, tab in zip(editions, tabs):
         with st.expander("Classifica 💯", expanded=not is_current_edition):
             if is_current_edition:
                 btn_reload_rankings = st.button(
-                    "Reload",
+                    "Ricarica squadre",
                     on_click=loader.load_rankings,
                     key=f"{edition}_reload_rankings",
                 )
