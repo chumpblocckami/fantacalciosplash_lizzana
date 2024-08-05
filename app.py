@@ -2,7 +2,7 @@ import os
 import pytz
 import streamlit as st
 from PIL import Image
-import datetime as dt 
+from datetime import datetime as dt
 from src.components.registration_form import RegistrationForm
 from src.components.support_graph import SupportGraph
 from src.loader import Loader, init_session_state
