@@ -72,9 +72,10 @@ for edition, tab in zip(editions, tabs):
                 )
             squadre = st.session_state["squadre"][edition].copy()
             if today.month == 8:
-                if today.day >= 14:
-                    if today == 14 and today.hour >= 14:
-                        st.table(squadre)
+                if today.day <= 14:
+                    if today == 14:
+                        if today.hour >= 14:
+                            st.table(squadre)
                     else:
                         st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
                             Al momento sono visibili solo i nomi dei fantallenatori.""")
