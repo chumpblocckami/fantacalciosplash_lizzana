@@ -39,4 +39,4 @@ def update_budget(players, data):
 
 
 def check_current_edition(edition: int) -> bool:
-    return int(edition) == dt.datetime.now(pytz.country_names.get("Rome")).year
+    return int(edition) == dt.now(pytz.country_names.get("Rome")).year

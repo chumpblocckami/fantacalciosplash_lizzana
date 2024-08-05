@@ -37,7 +37,7 @@ with st.spinner("Caricamento..."):
     init_session_state(editions)
 
 tabs = st.tabs(editions)
-today =  dt.datetime.now(pytz.country_names.get("Rome"))
+today =  dt.now(pytz.country_names.get("Rome"))
 
 for edition, tab in zip(editions, tabs):
     loader = Loader(edition=edition)
