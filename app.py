@@ -66,7 +66,7 @@ for edition, tab in zip(editions, tabs):
         with st.expander("Squadre iscritte 👯‍♀️", expanded=False):
             if is_current_edition:
                 btn_reload_teams = st.button(
-                    "Reload",
+                    "Aggiorna squadre",
                     on_click=loader.load_teams,
                     key=f"{edition}_reload_teams",
                 )
@@ -78,16 +78,17 @@ for edition, tab in zip(editions, tabs):
                             st.table(squadre)
                     else:
                         st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
-                            Al momento sono visibili solo i nomi dei fantallenatori.""")
+                            Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche.""")
                         st.table(squadre["Fantallenatore"])
             else:
                 st.table(squadre)
-            SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
+            if squadre.shape[0] > 5:
+                SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
 
         with st.expander("Punteggi giocatore 🍿", expanded=False):
             if is_current_edition:
                 btn_reload_points = st.button(
-                    "Ricarica punteggi",
+                    "Aggiorna punteggi",
                     on_click=loader.load_points,
                     key=f"{edition}_reload_players",
                 )
@@ -97,7 +98,7 @@ for edition, tab in zip(editions, tabs):
         with st.expander("Classifica 💯", expanded=not is_current_edition):
             if is_current_edition:
                 btn_reload_rankings = st.button(
-                    "Ricarica classifica",
+                    "Aggiorna classifica",
                     on_click=loader.load_rankings,
                     key=f"{edition}_reload_rankings",
                 )

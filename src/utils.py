@@ -32,9 +32,7 @@ def load(edition: int):
 
 def update_budget(players, data):
     player_names = [player.split(" | ")[0] for player in players]
-    print(player_names)
     costs = sum([float(data.loc[data["Nominativo"]==name]["Quotazione"]) for name in player_names])
-    print(costs)
     return BUDGET - costs
 
 
