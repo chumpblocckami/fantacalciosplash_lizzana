@@ -45,9 +45,10 @@ class RegistrationForm:
             key=f"riserve_{self.edition}",
         )
 
-        lbl_budget.write(f"Budget: {update_budget(portiere+titolari+riserve, self.edition_data)}")
+        remaining_budget = update_budget(portiere+titolari+riserve, self.edition_data)
+        lbl_budget.write(f"Budget: {remaining_budget}")
 
-        btn_submit = st.button("Iscrivi squadra", key=f"iscrizione_{self.edition}")
+        btn_submit = st.button("Iscrivi squadra", key=f"iscrizione_{self.edition}",disabled=remaining_budget>0)
         if btn_submit:
             with st.spinner("Iscrizione formazione..."):
                 output = self.saver.submit_team(
