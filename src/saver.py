@@ -48,20 +48,7 @@ class Saver:
         titolari: list,
         riserve: list,
         edition: int,
-        budget: int,
     ):
-        chosen_team = [x.split(" | ")[1] for x in titolari + riserve]
-        if len(set(chosen_team)) < len(chosen_team):
-            return f"Non puoi convocare due giocatori di movimento della stessa squadra!"
-    
-        giocatori_doppi = set(titolari).intersection(set(riserve))
-
-        if len(giocatori_doppi) > 0:
-            return f"Giocatori presenti sia come titolari che come riserve: {giocatori_doppi}"
-
-        if budget < 0:
-            return "Il budget non può essere minore di zero!"
-
         giocatori_in_squadra = [allenatore] + portiere + titolari + riserve
         squadra = pd.DataFrame(
             [giocatori_in_squadra],
