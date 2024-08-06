@@ -10,4 +10,4 @@ class SupportGraph():
 
     def render(self, data: np.array):
         data: list = list(itertools.chain(*[x[1] for x in data]))
-        return st.bar_chart(pd.DataFrame(Counter(data).most_common(10), columns=["Giocatore","Acquisti"]).sort_values("Acquisti"), x="Giocatore",y="Acquisti")
+        return st.bar_chart(pd.DataFrame(Counter(data).most_common(20), columns=["Giocatore","Acquisti"]).sort_values("Acquisti"), x="Giocatore",y="Acquisti")
