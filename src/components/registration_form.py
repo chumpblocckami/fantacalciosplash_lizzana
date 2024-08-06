@@ -51,7 +51,7 @@ class RegistrationForm:
         if not is_validate:
             for error in outputs:
                 st.error(f"{error}")
-                
+
         btn_submit = st.button("Iscrivi squadra", key=f"iscrizione_{self.edition}",disabled=(not is_validate))
         if btn_submit:
             with st.spinner("Iscrizione formazione..."):
@@ -61,6 +61,5 @@ class RegistrationForm:
                         titolari,
                         riserve,
                         self.edition,
-                        st.session_state["budget"],
                     )
                 st.write(success_message)
