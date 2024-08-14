@@ -78,7 +78,7 @@ for edition, tab in zip(editions, tabs):
             squadre = st.session_state["squadre"][edition].copy()
             if today.month == 8:
                 if today.day <= 14:
-                    if today == 14:
+                    if today.day == 14:
                         if today.hour >= 12:
                             st.table(squadre)
                         else:
