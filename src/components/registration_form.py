@@ -1,9 +1,7 @@
 import os
 
-import pandas as pd
 import streamlit as st
 
-from constants import BUDGET
 from src.saver import Saver
 from src.utils import update_budget, validate
 

@@ -49,8 +49,8 @@ tabs = st.tabs(editions)
 for edition, tab in zip(editions, tabs):
     loader = Loader(edition=edition)
     is_current_edition = check_current_edition(edition)
-    with st.spinner("Caricamento nuovi dati..."):
-        loader.check_load_new_data()
+    # with st.spinner("Caricamento nuovi dati..."):
+    # loader.check_load_new_data()
     with tab:
         if is_current_edition:
             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=SHOW_ELEMENTS):
