@@ -51,7 +51,7 @@ for edition, tab in zip(editions, tabs):
             if today.month == 8:
                 if today.day <= 14:
                     if today.day == 14:
-                        if today.hour >= 14:
+                        if today.hour >= 12:
                             st.write("Iscrizioni chiuse! Ci vediamo sul gonfiabile")
                         else:
                             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
@@ -79,7 +79,7 @@ for edition, tab in zip(editions, tabs):
             if today.month == 8:
                 if today.day <= 14:
                     if today == 14:
-                        if today.hour >= 14:
+                        if today.hour >= 12:
                             st.table(squadre)
                     else:
                         st.write(
@@ -87,6 +87,8 @@ for edition, tab in zip(editions, tabs):
                             Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche."""
                         )
                         st.table(squadre["Fantallenatore"])
+                else:
+                    st.table(squadre)
             else:
                 st.table(squadre)
             if squadre.shape[0] > 5:
