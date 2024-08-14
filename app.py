@@ -1,8 +1,10 @@
 import os
+from datetime import datetime as dt
+
 import pytz
 import streamlit as st
 from PIL import Image
-from datetime import datetime as dt
+
 from src.components.registration_form import RegistrationForm
 from src.components.support_graph import SupportGraph
 from src.loader import Loader, init_session_state
@@ -25,10 +27,12 @@ st.markdown(
 with open("./assets/2024_regolamento.pdf", "rb") as pdf_file:
     pdf_byte = pdf_file.read()
 
-st.download_button(label="Scarica regolamento",
-                        data=pdf_byte,
-                        file_name="2024_regolamento.pdf",
-                        mime='application/octet-stream')
+st.download_button(
+    label="Scarica regolamento",
+    data=pdf_byte,
+    file_name="2024_regolamento.pdf",
+    mime="application/octet-stream",
+)
 
 editions = list(set([x.split("_")[0] for x in os.listdir("./assets")]))
 editions.sort(reverse=True)
@@ -37,7 +41,7 @@ with st.spinner("Caricamento..."):
     init_session_state(editions)
 
 tabs = st.tabs(editions)
-today =  dt.now(pytz.country_names.get("Rome"))
+today = dt.now(pytz.country_names.get("Rome"))
 
 for edition, tab in zip(editions, tabs):
     loader = Loader(edition=edition)
@@ -46,7 +50,7 @@ for edition, tab in zip(editions, tabs):
         if is_current_edition:
             if today.month == 8:
                 if today.day <= 14:
-                    if today.day == 14 and today.hour > 14:
+                    if today.day == 14 and today.hour >= 14:
                         st.write("Iscrizioni chiuse! Ci vediamo sul gonfiabile")
                     else:
                         with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
@@ -77,8 +81,10 @@ for edition, tab in zip(editions, tabs):
                         if today.hour >= 14:
                             st.table(squadre)
                     else:
-                        st.write("""Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
-                            Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche.""")
+                        st.write(
+                            """Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
+                            Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche."""
+                        )
                         st.table(squadre["Fantallenatore"])
             else:
                 st.table(squadre)
