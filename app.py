@@ -81,12 +81,12 @@ for edition, tab in zip(editions, tabs):
                     if today == 14:
                         if today.hour >= 12:
                             st.table(squadre)
-                    else:
-                        st.write(
-                            """Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
-                            Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche."""
-                        )
-                        st.table(squadre["Fantallenatore"])
+                        else:
+                            st.write(
+                                """Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
+                                Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche."""
+                            )
+                            st.table(squadre["Fantallenatore"])
                 else:
                     st.table(squadre)
             else:
