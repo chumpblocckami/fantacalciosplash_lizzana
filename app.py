@@ -50,12 +50,13 @@ for edition, tab in zip(editions, tabs):
         if is_current_edition:
             if today.month == 8:
                 if today.day <= 14:
-                    if today.day == 14 and today.hour >= 14:
-                        st.write("Iscrizioni chiuse! Ci vediamo sul gonfiabile")
-                    else:
-                        with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
-                            registration_form = RegistrationForm(edition=edition)
-                            registration_form.render()
+                    if today.day == 14:
+                        if today.hour >= 14:
+                            st.write("Iscrizioni chiuse! Ci vediamo sul gonfiabile")
+                        else:
+                            with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=True):
+                                registration_form = RegistrationForm(edition=edition)
+                                registration_form.render()
 
         with st.expander("Quotazione giocatori 💰", expanded=False):
             giocatori = st.session_state["giocatori"][edition].copy()
