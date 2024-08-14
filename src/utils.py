@@ -1,6 +1,7 @@
 from datetime import datetime as dt
-import pytz 
+
 import pandas as pd
+import pytz
 import streamlit as st
 
 from src.env import BUDGET
@@ -32,27 +33,39 @@ def load(edition: int):
 
 def update_budget(players, data):
     player_names = [player.split(" | ")[0] for player in players]
-    costs = sum([float(data.loc[data["Nominativo"]==name]["Quotazione"]) for name in player_names])
+    costs = sum(
+        [
+            float(data.loc[data["Nominativo"] == name]["Quotazione"])
+            for name in player_names
+        ]
+    )
     return BUDGET - costs
 
 
 def check_current_edition(edition: int) -> bool:
     return int(edition) == dt.now(pytz.country_names.get("Rome")).year
 
-def validate(titolari:list, riserve:list, budget:float):
+
+def validate(allenatore: str, titolari: list, riserve: list, budget: float):
     errors = []
     flag = True
     chosen_team = [x.split(" | ")[1] for x in titolari + riserve]
     if len(set(chosen_team)) < len(chosen_team):
-            errors.append(f"Non puoi convocare due giocatori di movimento della stessa squadra!")
-            flag = False
-    
+        errors.append(
+            f"Non puoi convocare due giocatori di movimento della stessa squadra!"
+        )
+        flag = False
+
     giocatori_doppi = set(titolari).intersection(set(riserve))
     if len(giocatori_doppi) > 0:
-            errors.append(f"Giocatori presenti sia come titolari che come riserve: {','.join(list(giocatori_doppi))}")
-            flag = False
-
+        errors.append(
+            f"Giocatori presenti sia come titolari che come riserve: {','.join(list(giocatori_doppi))}"
+        )
+        flag = False
+    if allenatore == "":
+        errors.append("Prego inserire il nome dell'allenatore!")
+        flag = False
     if budget < 0:
-            errors.append("Il budget non può essere minore di zero!")
-            flag = False 
+        errors.append("Il budget non può essere minore di zero!")
+        flag = False
     return flag, errors
