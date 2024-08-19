@@ -4,7 +4,7 @@ from dataclasses import dataclass
 import pandas as pd
 import streamlit as st
 
-from src.constants import BUDGET
+from tournament.constants import BUDGET
 
 
 @dataclass

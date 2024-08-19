@@ -4,7 +4,7 @@ import pandas as pd
 import pytz
 import streamlit as st
 
-from src.constants import BUDGET
+from tournament.constants import BUDGET
 
 
 def get_cost(player):
