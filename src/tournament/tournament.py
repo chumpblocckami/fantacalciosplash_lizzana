@@ -26,7 +26,7 @@ class Tournament:
             return player_data["Nominativo"].str.strip()
         print("diocane")
 
-    def calculate_player_points(self, player: Player, team: str):
+    def get_player_points(self, player: Player, team: str):
         points: int = 0
         points += POINTS_PER_GOAL * player.goals
         points += POINTS_PER_YELLOW_CARD * player.yellow_cards
@@ -39,7 +39,7 @@ class Tournament:
     def calculate_team_points(self, team: Team):
         team_data = []
         for player in team.players:
-            player_data = self.calculate_player_data(player, team.name)
+            player_data = self.get_player_points(player, team.name)
             player_data.update({"squadra": team.name})
             team_data.append(player_data)
         team_results = pd.DataFrame(team_data, columns=["Nominativo, squadra, punti"])
@@ -50,7 +50,7 @@ class Tournament:
             team_results["punti"] = team_results["punti"] - 1
         return team_results
 
-    def parse_match_points(self, match: Match):
+    def get_match_points(self, match: Match):
         self.calculate_team_points(match.away_team)
         self.calculate_team_points(match.home_team)
 
@@ -62,7 +62,7 @@ class Tournament:
                 raw_data: dict = requests.get(url, timeout=5).json()
                 matches: Results = Results.from_dict(raw_data)
                 for match in matches.data:
-                    self.parse_match_data(match)
+                    self.get_match_points(match)
                 self.idx += 1
             except Exception as e:
                 has_data = False
