@@ -1,5 +1,6 @@
 import datetime
 from dataclasses import dataclass
+from typing import Optional
 
 from dataclasses_json import dataclass_json
 
@@ -8,8 +9,8 @@ from dataclasses_json import dataclass_json
 class Timer:
     current: int
     offset: int
-    started_at: datetime
-    stopped_at: datetime
+    started_at: Optional[datetime]
+    stopped_at: Optional[datetime]
 
 
 @dataclass
@@ -40,14 +41,14 @@ class Player:
     surname: str
 
     production_path: str  # unused
-    avatar_url: str  # unused
-    username: str  # unused
+    avatar_url: Optional[str] = None  # unused
+    username: Optional[str] = None  # unused
 
 
 @dataclass
 class Team:
     id: int
-    best_player: Player
+    best_player: Optional[Player]
     name: str
     players: list[Player]
     score: int
@@ -58,7 +59,7 @@ class Team:
     shootouts: Shootouts  # unused
     players_count: int  # unused
     production_path: str  # unused
-    logo_url: str  # unused
+    logo_url: Optional[str] = None  # unused
 
 
 @dataclass
@@ -75,15 +76,15 @@ class Match:
 class Link:
     first: str
     last: str
-    next: str
-    prev: str
+    next: Optional[str] = None
+    prev: Optional[str] = None
 
 
 @dataclass
 class MetadataLink:
-    url: str
     label: str
     active: bool
+    url: Optional[str] = None
 
 
 @dataclass
@@ -94,7 +95,7 @@ class Metadata:
     links: list[MetadataLink]
     path: str
     per_page: int
-    to: int
+    to: Optional[int]
     total: int
 
 
