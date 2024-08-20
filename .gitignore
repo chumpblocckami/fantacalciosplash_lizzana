@@ -1,0 +1,10 @@
+.env
+.venv 
+.vscode
+src/__pycache__
+src/components/__pycache__
+src/tests/__pycache__
+src/tournament/__pycache__
+src/components/__pycache__
+
+
