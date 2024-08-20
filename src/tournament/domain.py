@@ -9,8 +9,8 @@ from dataclasses_json import dataclass_json
 class Timer:
     current: int
     offset: int
-    started_at: Optional[datetime]
-    stopped_at: Optional[datetime]
+    started_at: datetime
+    stopped_at: datetime
 
 
 @dataclass

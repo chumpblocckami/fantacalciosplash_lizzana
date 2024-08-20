@@ -4,6 +4,12 @@ BUDGET = 200
 POINTS_PER_VICTORY = 2
 POINTS_PER_DEFEAT = 0
 POINTS_PER_DRAW = 1
+POINTS_PER_UNPLAYED = -2
+
+# teams
+POINTS_PER_VICTORY_RANKING = 3
+POINTS_PER_DEFEAT_RANKING = 0
+POINTS_PER_DRAW_RANKING = 1
 
 POINTS_PER_GOAL = 2
 POINTS_PER_YELLOW_CARD = -2
@@ -20,3 +26,15 @@ POINTS_BEST_GOALKEEPER = 5
 
 # MALUS
 POINTS_NOT_PLAYING = -2
+
+COLUMNS = {
+    "Match 1": None,
+    "Match 2": None,
+    "Match 3": None,
+    "Match 4": None,
+    "Bonus": None,
+    "Sedicesimi": None,
+    "Ottavi": None,
+    "Semifinali": None,
+    "Finale": None,
+}
