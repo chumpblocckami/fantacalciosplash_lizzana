@@ -1,18 +1,20 @@
 import os
+
 import pandas as pd
+from dotenv import load_dotenv
 from git import GitCommandError, Repo
 
-from dotenv import load_dotenv
-
 load_dotenv()
+
+
 class Saver:
     def __init__(self, repo_path: str) -> None:
         self.repo = Repo(repo_path, search_parent_directories=True)
         self.branch = "main"
-        self.github_username = os.environ["GITHUB_USER"]
-        self.access_token = os.environ["GITHUB_TOKEN"]
-        self.remote_repo = os.environ["REMOTE_REPO"]
-        self.endpoint = f"https://{self.github_username}:{self.access_token}@github.com/{self.github_username}/{self.remote_repo}.git"
+        self.github_username = os.environ.get("GITHUB_USER", "")
+        self.access_token = os.environ.get("GITHUB_TOKEN", "")
+        self.remote_repo = os.environ.get("REMOTE_REPO", "")
+        self.endpoint = f"https://{self.github_username}:{self.access_token}@github.com/{self.github_username}/{self.remote_repo}.git"  # noqa
 
     def init_repo(self):
         try:
@@ -26,7 +28,7 @@ class Saver:
     def commit_and_push(self, file_path: str, commit_message: str):
 
         if self.repo.is_dirty():
-            print("This repo has uncommited changes")
+            print("This repo has uncommitted changes")
 
         self.repo.index.add([file_path])
         self.repo.index.commit(commit_message)
@@ -52,11 +54,9 @@ class Saver:
         giocatori_in_squadra = [allenatore] + portiere + titolari + riserve
         squadra = pd.DataFrame(
             [giocatori_in_squadra],
-            columns="Fantallenatore,Portiere,Titolare 1,Titolare 2,Titolare 3,Riserva".split(
-                ","
-            ),
+            columns="Fantallenatore,Portiere,Titolare 1,Titolare 2,Titolare 3,Riserva".split(","),
         )
-        file_path = self.get_path(f"assets/{edition}_squadre.xlsx")
+        file_path = self.get_path(f"assets/{edition}/squadre.xlsx")
         squadre = pd.read_excel(file_path)
         pd.concat([squadre, squadra]).to_excel(file_path, index=None)
 

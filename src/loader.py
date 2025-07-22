@@ -33,23 +33,21 @@ class Loader:
 
     def load_points(self):
         st.session_state["squadre"][self.edition] = pd.read_excel(
-            f"./assets/{self.edition}_squadre.xlsx"
+            f"./assets/{self.edition}/squadre.xlsx"
         )
 
     def load_rankings(self):
         st.session_state["punteggi"][self.edition] = pd.read_excel(
-            f"./assets/{self.edition}_punteggi.xlsx"
+            f"./assets/{self.edition}/punteggi.xlsx"
         )
 
     def load_teams(self):
         st.session_state["classifica"][self.edition] = pd.read_excel(
-            f"./assets/{self.edition}_classifica.xlsx"
+            f"./assets/{self.edition}/classifica.xlsx"
         )
 
     def load_results(self):
-        with open(
-            f"./assets/{self.edition}_risultati.json", "r", encoding="utf-8"
-        ) as file:
+        with open(f"./assets/{self.edition}/risultati.json", "r", encoding="utf-8") as file:
             parsed = Results(**json.loads(file))
         st.session_state["risultati"][self.edition] = parsed.matches
 
@@ -62,9 +60,7 @@ def read_data(editions: list):
     st.session_state["classifica"] = {}
 
     for edition in editions:
-        st.session_state["giocatori"][edition] = pd.read_excel(
-            f"./assets/{edition}_giocatori.xlsx"
-        )
+        st.session_state["giocatori"][edition] = pd.read_excel(f"./assets/{edition}/giocatori.xlsx")
         loader = Loader(edition=edition)
         loader.load_points()
         loader.load_teams()

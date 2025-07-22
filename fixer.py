@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 from git import GitCommandError, Repo
 
@@ -5,11 +7,12 @@ from git import GitCommandError, Repo
 def test_git():
     # Replace with your GitHub username and personal access token
     github_username = "your_github_username"
-    personal_access_token = "your_personal_access_token"
+    personal_access_token = os.getenv("GITHUB_ACCESS_TOKEN")
     repository_path = "/path/to/your/repository"
 
     # Set up the remote URL with the personal access token
-    remote_url = f"https://{github_username}:{personal_access_token}@github.com/chumpblocckami/fantacalciosplash_lizzana.git"
+    remote_url = f"""https://{github_username}:{personal_access_token}@github.com/chumpblocckami/"""
+    """fantacalciosplash_lizzana.git"""
 
     try:
         # Open the repository
@@ -37,21 +40,13 @@ def fix_database_giocatori(path: str):
     data = pd.read_excel(path)
     data["Nominativo"] = data["Nominativo"].apply(
         lambda x: " ".join(
-            [
-                x.strip().replace(" ", "").lower().capitalize()
-                for x in x.split(" ")
-                if x != ""
-            ]
+            [x.strip().replace(" ", "").lower().capitalize() for x in x.split(" ") if x != ""]
         )
     )
     data["Soprannome"].fillna("", inplace=True)
     data["Soprannome"] = data["Soprannome"].apply(
         lambda x: " ".join(
-            [
-                x.strip().replace(" ", "").lower().capitalize()
-                for x in x.split(" ")
-                if x != ""
-            ]
+            [x.strip().replace(" ", "").lower().capitalize() for x in x.split(" ") if x != ""]
         )
     )
     data = (
@@ -75,5 +70,5 @@ def fix_database_squadre(path: str):
 
 
 if __name__ == "__main__":
-    fix_database_giocatori("./assets/2024_giocatori.xlsx")
-    fix_database_squadre("./assets/2024_squadre.xlsx")
+    fix_database_giocatori("./assets/2024/giocatori.xlsx")
+    fix_database_squadre("./assets/2024/squadre.xlsx")

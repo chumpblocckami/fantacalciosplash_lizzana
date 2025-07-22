@@ -6,8 +6,8 @@ class FantaCalculator:
     def __init__(self) -> None:
         self.endpoint = "https://api.gsplizzana.it/api/fixtures"  # TODO: not here
 
-    def load_results():
-        
+    def load_results(): ...
+
     def check_load_new_data(self):
         results = []  # self.load_results()
         try:

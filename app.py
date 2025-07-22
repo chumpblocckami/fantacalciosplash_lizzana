@@ -1,10 +1,9 @@
 import os
-from datetime import datetime as dt
 
-import pytz
 import streamlit as st
 from PIL import Image
 
+from src.components.buttons import download_rules
 from src.components.registration_form import RegistrationForm
 from src.components.support_graph import SupportGraph
 from src.loader import Loader, init_session_state
@@ -29,18 +28,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
-with open("./assets/2024_regolamento.pdf", "rb") as pdf_file:
-    pdf_byte = pdf_file.read()
-
-st.download_button(
-    label="Scarica regolamento",
-    data=pdf_byte,
-    file_name="2024_regolamento.pdf",
-    mime="application/octet-stream",
-)
-
-
 with st.spinner("Caricamento..."):
     init_session_state(editions)
 
@@ -52,6 +39,11 @@ for edition, tab in zip(editions, tabs):
     # with st.spinner("Caricamento nuovi dati..."):
     # loader.check_load_new_data()
     with tab:
+
+        # --- REGOLAMENTO ---
+        download_rules(edition)
+
+        # --- ISCRIZIONE SQUADRA ---
         if is_current_edition:
             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=SHOW_ELEMENTS):
                 if SHOW_ELEMENTS:
@@ -70,6 +62,7 @@ for edition, tab in zip(editions, tabs):
             )
             st.table(giocatori)
 
+        # --- SQUADRE ISCRITTE ---
         with st.expander("Squadre iscritte 👯‍♀️", expanded=False):
             if is_current_edition:
                 btn_reload_teams = st.button(
@@ -80,8 +73,10 @@ for edition, tab in zip(editions, tabs):
             squadre = st.session_state["squadre"][edition].copy()
             if SHOW_ELEMENTS:
                 st.write(
-                    """Le squadre sono state nascoste, verranno visualizzate quando inizierà il torneo.
-                                Al momento sono visibili solo i nomi dei fantallenatori e alcune statistiche."""
+                    """Le squadre sono state nascoste,"""
+                    """ verranno visualizzate quando inizierà il torneo."""
+                    """Al memento sono visibili solo """
+                    """i nomi dei fantallenatori e alcune statistiche."""
                 )
                 st.table(squadre["Fantallenatore"])
             else:
@@ -90,6 +85,7 @@ for edition, tab in zip(editions, tabs):
             if squadre.shape[0] > 5:
                 SupportGraph().render(squadre.drop(columns=["Fantallenatore"]).items())
 
+        # --- PUNTEGGI GIOCATORE ---
         with st.expander("Punteggi giocatore 🍿", expanded=False):
             if is_current_edition:
                 btn_reload_points = st.button(
@@ -100,6 +96,7 @@ for edition, tab in zip(editions, tabs):
             punteggi = st.session_state["punteggi"][edition].copy()
             st.table(punteggi)
 
+        # --- CLASSIFICA ---
         with st.expander("Classifica 💯", expanded=not is_current_edition):
             if is_current_edition:
                 btn_reload_rankings = st.button(
