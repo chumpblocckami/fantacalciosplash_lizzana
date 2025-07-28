@@ -49,9 +49,7 @@ class RegistrationForm:
             key=f"riserve_{self.edition}",
         )
 
-        remaining_budget = update_budget(
-            portiere + titolari + riserve, self.edition_data
-        )
+        remaining_budget = update_budget(portiere + titolari + riserve, self.edition_data)
         lbl_budget.write(f"Budget: {remaining_budget}")
 
         is_validate, outputs = validate(

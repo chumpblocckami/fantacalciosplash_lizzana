@@ -1,0 +1,3663 @@
+{
+   "davide_bazzano": {
+      "nominativo": "Davide Bazzano",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": "bazooka/il ripudiato",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Il Talismano Bazooka",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 12
+      }
+   },
+   "federico_manica": {
+      "nominativo": "Federico Manica",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "daniel ricciardo",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 48,
+         "soprannome": "Daniel Ricciardo",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 16
+      }
+   },
+   "daniel_pedrotti": {
+      "nominativo": "Daniel Pedrotti",
+      "2023": {
+         "quotazione": 32,
+         "soprannome": "cuginoman",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 33,
+         "soprannome": "Cugino Di Medioman",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 10
+      }
+   },
+   "marco_mutinelli": {
+      "nominativo": "Marco Mutinelli",
+      "2023": {
+         "quotazione": 23,
+         "soprannome": "urbano il vigile",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 18,
+         "soprannome": "Urbano Il Vigile",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 12
+      }
+   },
+   "andrea_pedrotti": {
+      "nominativo": "Andrea Pedrotti",
+      "2023": {
+         "quotazione": 38,
+         "soprannome": "medioman",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -2
+      }
+   },
+   "daniele_dalbosco": {
+      "nominativo": "Daniele Dalbosco",
+      "2023": {
+         "quotazione": 45,
+         "soprannome": "gresta de cunel",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Portiere"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 6
+      }
+   },
+   "federico_andreis": {
+      "nominativo": "Federico Andreis",
+      "2023": {
+         "quotazione": 65,
+         "soprannome": "il distinto signor rabbioso",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 73,
+         "soprannome": "Distinto Signor Rabbioso",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 12.0,
+         "fanta_points": 34
+      }
+   },
+   "marco_sala": {
+      "nominativo": "Marco Sala",
+      "2023": {
+         "quotazione": 75,
+         "soprannome": "cane rognoso",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 68,
+         "soprannome": "Cane Rognoso",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 16
+      }
+   },
+   "jacopo_chemini": {
+      "nominativo": "Jacopo Chemini",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "teschio fiammeggiante",
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Teschio Fiammeggiante",
+         "squadra": "IMONTAGNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 10
+      }
+   },
+   "federico_giordani": {
+      "nominativo": "Federico Giordani",
+      "2023": {
+         "quotazione": 67,
+         "soprannome": NaN,
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      }
+   },
+   "omar_mastroiacovo": {
+      "nominativo": "Omar Mastroiacovo",
+      "2023": {
+         "quotazione": 40,
+         "soprannome": NaN,
+         "squadra": "I MONTAGNA",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_bazzanella": {
+      "nominativo": "Matteo Bazzanella",
+      "2023": {
+         "quotazione": 23,
+         "soprannome": "Torgo nudo",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 30,
+         "soprannome": "Torgo Nudho",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "filippo_benetti": {
+      "nominativo": "Filippo Benetti",
+      "2023": {
+         "quotazione": 27,
+         "soprannome": "Fungo atomico",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 29,
+         "soprannome": "Fungo Atomico",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 8.0,
+         "fanta_points": 20
+      }
+   },
+   "raffaele_prezzi": {
+      "nominativo": "Raffaele Prezzi",
+      "2023": {
+         "quotazione": 22,
+         "soprannome": "La cura",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 30,
+         "soprannome": "La Cura",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "davide_ros\u00e0": {
+      "nominativo": "Davide Ros\u00e0",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": "Soldato semplice nemecsek",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 17,
+         "soprannome": "Soldato Semplice Nemecsek",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "alessandro_galvagni": {
+      "nominativo": "Alessandro Galvagni",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": "Lo stalker",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 16,
+         "soprannome": "Lo Stalker",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "jacopo_ricci": {
+      "nominativo": "Jacopo Ricci",
+      "2023": {
+         "quotazione": 22,
+         "soprannome": "Orso balosso",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 22,
+         "soprannome": "Orso Balosso",
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -11
+      }
+   },
+   "riccardo_zeni": {
+      "nominativo": "Riccardo Zeni",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Terzo porcellino",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Terzo Porcellino",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -3
+      }
+   },
+   "daniele_porta": {
+      "nominativo": "Daniele Porta",
+      "2023": {
+         "quotazione": 16,
+         "soprannome": "L'usciere",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      }
+   },
+   "gabriel_melis": {
+      "nominativo": "Gabriel Melis",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": "Mano a reazione",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Mano A Reazione",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 1
+      }
+   },
+   "roberto_barozzi": {
+      "nominativo": "Roberto Barozzi",
+      "2023": {
+         "quotazione": 14,
+         "soprannome": "Divin Codino",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 12,
+         "soprannome": "Divin Codino",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 3
+      }
+   },
+   "lorenzo_scottini": {
+      "nominativo": "Lorenzo Scottini",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": NaN,
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Eldorado Shomurodov",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -1
+      }
+   },
+   "giovanni_giusto": {
+      "nominativo": "Giovanni Giusto",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "Plasmon",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 23,
+         "soprannome": "Plasmon",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 3
+      }
+   },
+   "samuele_ros\u00e0": {
+      "nominativo": "Samuele Ros\u00e0",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Maranza",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Maranza",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 1
+      }
+   },
+   "manolo_pisoni": {
+      "nominativo": "Manolo Pisoni",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Mastro Geppetto",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "vincenzo_chiolo": {
+      "nominativo": "Vincenzo Chiolo",
+      "2023": {
+         "quotazione": 9,
+         "soprannome": "Pumba",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "tommaso_colacicco": {
+      "nominativo": "Tommaso Colacicco",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "michele_davide": {
+      "nominativo": "Michele Davide",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Emma",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "roberto_scottini": {
+      "nominativo": "Roberto Scottini",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "emanuele_prosser": {
+      "nominativo": "Emanuele Prosser",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Telespalla Bob",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "samuel_zaratin": {
+      "nominativo": "Samuel Zaratin",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Gollum",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "mauro_gaston": {
+      "nominativo": "Mauro Gaston",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Baldo El trascendental",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "daniele_salomoni": {
+      "nominativo": "Daniele Salomoni",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Barabba",
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "radulovic_denis": {
+      "nominativo": "Radulovic Denis",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "SPERMARIO BROC",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_maraner": {
+      "nominativo": "Matteo Maraner",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Hannibal Lechter",
+         "squadra": "POSITIVI ALL'ETANOLO",
+         "ruolo": "Movimento"
+      }
+   },
+   "mirko_fasanelli": {
+      "nominativo": "Mirko Fasanelli",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": "Trenbolone",
+         "squadra": "POSITIVI ALL'ETANOLO",
+         "ruolo": "Movimento"
+      }
+   },
+   "simone_gatti": {
+      "nominativo": "Simone Gatti",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Sekki de beck's",
+         "squadra": "POSITIVI ALL'ETANOLO",
+         "ruolo": "Movimento"
+      }
+   },
+   "filippo_alovisi": {
+      "nominativo": "Filippo Alovisi",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": "TROMBA",
+         "squadra": "POSITIVI ALL'ETANOLO",
+         "ruolo": "Movimento"
+      }
+   },
+   "francesco_cumerlotti": {
+      "nominativo": "Francesco Cumerlotti",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "deca-durabolin",
+         "squadra": "POSITIVI ALL'ETANOLO",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_zandonati": {
+      "nominativo": "Matteo Zandonati",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      }
+   },
+   "davide_fontana": {
+      "nominativo": "Davide Fontana",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Nettuno",
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Ginew",
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 5
+      }
+   },
+   "simone_miorelli": {
+      "nominativo": "Simone Miorelli",
+      "2023": {
+         "quotazione": 12,
+         "soprannome": "Tega",
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 13,
+         "soprannome": "Tega",
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 1
+      }
+   },
+   "matteo_zanlucchi": {
+      "nominativo": "Matteo Zanlucchi",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Biker Mice",
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 34,
+         "soprannome": "Biker Mice",
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "niccol\u00f2_orsi": {
+      "nominativo": "Niccol\u00f2 Orsi",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "JJ4",
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 33,
+         "soprannome": "Jj4",
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 7
+      }
+   },
+   "nicholas_marzadro": {
+      "nominativo": "Nicholas Marzadro",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Sgnappa Sekka",
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Sgnappa Secca",
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 5
+      }
+   },
+   "giovanni_peroni": {
+      "nominativo": "Giovanni Peroni",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "SBARX",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_diener": {
+      "nominativo": "Matteo Diener",
+      "2023": {
+         "quotazione": 60,
+         "soprannome": "Nemico del popolo",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 64,
+         "soprannome": "Nemico Del Popolo",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 7.0,
+         "fanta_points": 22
+      }
+   },
+   "andrea_gober": {
+      "nominativo": "Andrea Gober",
+      "2023": {
+         "quotazione": 55,
+         "soprannome": "Scintillio",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      }
+   },
+   "samuele_angheben": {
+      "nominativo": "Samuele Angheben",
+      "2023": {
+         "quotazione": 45,
+         "soprannome": "Bubbone",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      }
+   },
+   "marco_heidempergher": {
+      "nominativo": "Marco Heidempergher",
+      "2023": {
+         "quotazione": 37,
+         "soprannome": "Can dal porco",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 25,
+         "soprannome": "Candalporco",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 14
+      }
+   },
+   "mattia_tezzele": {
+      "nominativo": "Mattia Tezzele",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Il professor Raptor",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      }
+   },
+   "federico_nicolodi": {
+      "nominativo": "Federico Nicolodi",
+      "2023": {
+         "quotazione": 28,
+         "soprannome": "Notti magiche",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Notti Magiche",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 14
+      }
+   },
+   "riccardo_zaffoni": {
+      "nominativo": "Riccardo Zaffoni",
+      "2023": {
+         "quotazione": 43,
+         "soprannome": "Lugherim",
+         "squadra": "US GUARNA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 47,
+         "soprannome": "Lugherim",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 12
+      }
+   },
+   "elia_battisti": {
+      "nominativo": "Elia Battisti",
+      "2023": {
+         "quotazione": 50,
+         "soprannome": "Boiler",
+         "squadra": "US GUARNA",
+         "ruolo": "Portiere"
+      },
+      "2024": {
+         "quotazione": 45,
+         "soprannome": "Boiler",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Portiere",
+         "goal": 2.0,
+         "fanta_points": 12
+      }
+   },
+   "alex_manica": {
+      "nominativo": "Alex Manica",
+      "2023": {
+         "quotazione": 25,
+         "soprannome": "Tanica",
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      }
+   },
+   "maxim_bot": {
+      "nominativo": "Maxim Bot",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": "Mogano",
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      }
+   },
+   "blendi_capa": {
+      "nominativo": "Blendi Capa",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": NaN,
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -12
+      }
+   },
+   "kevin_vela": {
+      "nominativo": "Kevin Vela",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": NaN,
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "daniel_perottoni": {
+      "nominativo": "Daniel Perottoni",
+      "2023": {
+         "quotazione": 7,
+         "soprannome": NaN,
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      }
+   },
+   "lorenzo_rossi": {
+      "nominativo": "Lorenzo Rossi",
+      "2023": {
+         "quotazione": 32,
+         "soprannome": "Il Bug",
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      }
+   },
+   "filippo_maraner": {
+      "nominativo": "Filippo Maraner",
+      "2023": {
+         "quotazione": 9,
+         "soprannome": "McGregor",
+         "squadra": "POWER GINGER",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "damian_rogojina": {
+      "nominativo": "Damian Rogojina",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      }
+   },
+   "mattia_vanzo": {
+      "nominativo": "Mattia Vanzo",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      }
+   },
+   "alberto_simoncelli": {
+      "nominativo": "Alberto Simoncelli",
+      "2023": {
+         "quotazione": 9,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Iginio Massari",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 6
+      }
+   },
+   "guglielmo_caroli": {
+      "nominativo": "Guglielmo Caroli",
+      "2023": {
+         "quotazione": 9,
+         "soprannome": "Ivan Bogdanov",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 11,
+         "soprannome": "Ivan Bogdanov",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 4
+      }
+   },
+   "simone_schonsberg": {
+      "nominativo": "Simone Schonsberg",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Polistirolo (se era quello dei wanda)",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Polis-tirolo",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 4
+      }
+   },
+   "lorenzo_zuani": {
+      "nominativo": "Lorenzo Zuani",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Il Piediatra",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 8
+      }
+   },
+   "danny_giordani": {
+      "nominativo": "Danny Giordani",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Paculto Deprima",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 12
+      }
+   },
+   "elia_barozzi": {
+      "nominativo": "Elia Barozzi",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Bjorn Borg",
+         "squadra": "I MAGNIFICI",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 6
+      }
+   },
+   "alessandro_zandonai": {
+      "nominativo": "Alessandro Zandonai",
+      "2023": {
+         "quotazione": 25,
+         "soprannome": "L'uomo che sussurrava ai ghepardi",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 30,
+         "soprannome": "L'uomo Che Sussurrava Ai Ghepardi",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 0
+      }
+   },
+   "flavio_cattoi": {
+      "nominativo": "Flavio Cattoi",
+      "2023": {
+         "quotazione": 34,
+         "soprannome": "Van Basten della Busa",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      }
+   },
+   "omar_russo": {
+      "nominativo": "Omar Russo",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "Lizzanella vende moda",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_manconi": {
+      "nominativo": "Matteo Manconi",
+      "2023": {
+         "quotazione": 45,
+         "soprannome": "Mancuso",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 61,
+         "soprannome": "Mancuso",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 2
+      }
+   },
+   "lorenzo_barozzi": {
+      "nominativo": "Lorenzo Barozzi",
+      "2023": {
+         "quotazione": 24,
+         "soprannome": "Tagliagole canadese",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 28,
+         "soprannome": "Tagliagole Canadese",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 6.0,
+         "fanta_points": 12
+      }
+   },
+   "ruele_michele": {
+      "nominativo": "Ruele Michele",
+      "2023": {
+         "quotazione": 40,
+         "soprannome": "Ruy Mysterio",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      }
+   },
+   "andrea_barozzi": {
+      "nominativo": "Andrea Barozzi",
+      "2023": {
+         "quotazione": 33,
+         "soprannome": "Javier Zanetti della statale 12",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 40,
+         "soprannome": "Javier Zanetti Della Statale 12",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -2
+      }
+   },
+   "luca_frasca": {
+      "nominativo": "Luca Frasca",
+      "2023": {
+         "quotazione": 65,
+         "soprannome": "Delirium tremens",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 65,
+         "soprannome": "Delirium Tremens",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento",
+         "goal": 5.0,
+         "fanta_points": 7
+      }
+   },
+   "federico_mortillaro": {
+      "nominativo": "Federico Mortillaro",
+      "2023": {
+         "quotazione": 78,
+         "soprannome": "Morte nera",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 76,
+         "soprannome": "Morte Nera",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento",
+         "goal": 6.0,
+         "fanta_points": 9
+      }
+   },
+   "michele_merighi": {
+      "nominativo": "Michele Merighi",
+      "2023": {
+         "quotazione": 84,
+         "soprannome": "Iena Ridens",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 85,
+         "soprannome": "Iena Ridens",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 1
+      }
+   },
+   "andrea_giordani": {
+      "nominativo": "Andrea Giordani",
+      "2023": {
+         "quotazione": 59,
+         "soprannome": "Orso bruno",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 55,
+         "soprannome": "Orso Bruno",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -1
+      }
+   },
+   "stefano_tita": {
+      "nominativo": "Stefano Tita",
+      "2023": {
+         "quotazione": 48,
+         "soprannome": "Giannizero",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Portiere"
+      },
+      "2024": {
+         "quotazione": 50,
+         "soprannome": "Giannizzero",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "stefano_galvagni": {
+      "nominativo": "Stefano Galvagni",
+      "2023": {
+         "quotazione": 55,
+         "soprannome": "Mentadent",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 53,
+         "soprannome": "Mentadent",
+         "squadra": "CLITORIDERS",
+         "ruolo": "Movimento",
+         "goal": 5.0,
+         "fanta_points": 7
+      }
+   },
+   "leonardo_viola": {
+      "nominativo": "Leonardo Viola",
+      "2023": {
+         "quotazione": 64,
+         "soprannome": "L\u2019uomo informe",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Portiere"
+      },
+      "2024": {
+         "quotazione": 62,
+         "soprannome": "Uomo Informe 2.0",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento",
+         "goal": 6.0,
+         "fanta_points": 16
+      }
+   },
+   "alberto_cerisara": {
+      "nominativo": "Alberto Cerisara",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "L\u2019uomo che ha mangiato Justin Bieber",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 45,
+         "soprannome": "L\u2019uomo Che Ha Mangiato Justin Bieber",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 6
+      }
+   },
+   "mattia_festi": {
+      "nominativo": "Mattia Festi",
+      "2023": {
+         "quotazione": 48,
+         "soprannome": "Plasticman",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 57,
+         "soprannome": "Plastic Man",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 12
+      }
+   },
+   "gabriele_brentari": {
+      "nominativo": "Gabriele Brentari",
+      "2023": {
+         "quotazione": 22,
+         "soprannome": "Mocio Vileda",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 22,
+         "soprannome": "Mocio Vileda",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 10
+      }
+   },
+   "mattia_baldessarini": {
+      "nominativo": "Mattia Baldessarini",
+      "2023": {
+         "quotazione": 74,
+         "soprannome": "Assassino cerebrale",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 75,
+         "soprannome": "L\u2019assassino Cerebrale",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento",
+         "goal": 7.0,
+         "fanta_points": 20
+      }
+   },
+   "luca_giordani": {
+      "nominativo": "Luca Giordani",
+      "2023": {
+         "quotazione": 24,
+         "soprannome": "Chef pi\u00f9 in forma d\u2019Europa",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 22,
+         "soprannome": "Lo Chef Pi\u00f9 In Forma D\u2019europa",
+         "squadra": "SHARK ATTACK",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 6
+      }
+   },
+   "carlo_pomarolli": {
+      "nominativo": "Carlo Pomarolli",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Bettino Craxi",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Bettino Craxi",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -4
+      }
+   },
+   "riccardo_baldo": {
+      "nominativo": "Riccardo Baldo",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Idolo delle quindicenni",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      }
+   },
+   "michele_bertolini": {
+      "nominativo": "Michele Bertolini",
+      "2023": {
+         "quotazione": 45,
+         "soprannome": "Marco columbro",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      }
+   },
+   "marco_bertolini": {
+      "nominativo": "Marco Bertolini",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Macchia Di Gasolio",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "francesco_amadori": {
+      "nominativo": "Francesco Amadori",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Gasolio artico",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 13,
+         "soprannome": "Gasolio Artico",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento",
+         "goal": 5.0,
+         "fanta_points": 6
+      }
+   },
+   "emanuele_valduga": {
+      "nominativo": "Emanuele Valduga",
+      "2023": {
+         "quotazione": 5,
+         "soprannome": "Fiammifero",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 11,
+         "soprannome": "Fiammifero",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -4
+      }
+   },
+   "stefano_rosina": {
+      "nominativo": "Stefano Rosina",
+      "2023": {
+         "quotazione": 9,
+         "soprannome": "GPL",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Gpl",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 0
+      }
+   },
+   "mattia_spagnolli": {
+      "nominativo": "Mattia Spagnolli",
+      "2023": {
+         "quotazione": 8,
+         "soprannome": "Dottor Nowzaradan",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Dottor Nowzaradan",
+         "squadra": "FC WANDA TIM",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -4
+      }
+   },
+   "daniele_feltrinelli": {
+      "nominativo": "Daniele Feltrinelli",
+      "2023": {
+         "quotazione": 33,
+         "soprannome": "La Transiberiana",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 29,
+         "soprannome": "Transiberiana",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 21
+      }
+   },
+   "leonardo_graziola": {
+      "nominativo": "Leonardo Graziola",
+      "2023": {
+         "quotazione": 14,
+         "soprannome": "Valanga di Rag\u00f9",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      }
+   },
+   "michele_leonardi": {
+      "nominativo": "Michele Leonardi",
+      "2023": {
+         "quotazione": 14,
+         "soprannome": "Pesto Tigulio",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Pesto Tigullio",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 17
+      }
+   },
+   "riccardo_barbiero": {
+      "nominativo": "Riccardo Barbiero",
+      "2023": {
+         "quotazione": null,
+         "soprannome": "Alabarda spaziale",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "Alabarda Spaziale",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 15
+      }
+   },
+   "luca_tonolli": {
+      "nominativo": "Luca Tonolli",
+      "2023": {
+         "quotazione": 38,
+         "soprannome": "Mark Renton",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 40,
+         "soprannome": "Mark Renton",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 21
+      }
+   },
+   "federico_leonardi": {
+      "nominativo": "Federico Leonardi",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "Pan Carr\u00e8",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Pan Carr\u00e8",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 15
+      }
+   },
+   "emanuele_miorandi": {
+      "nominativo": "Emanuele Miorandi",
+      "2023": {
+         "quotazione": 31,
+         "soprannome": "Re di bastoni",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 23,
+         "soprannome": "Re Di Bastoni",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 23
+      }
+   },
+   "federico_ignaccolo": {
+      "nominativo": "Federico Ignaccolo",
+      "2023": {
+         "quotazione": 47,
+         "soprannome": "Il Cerci della Busa",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 52,
+         "soprannome": "Fidel - Cerci Della Busa",
+         "squadra": "SUGHI EBBASTA",
+         "ruolo": "Movimento",
+         "goal": 9.0,
+         "fanta_points": 29
+      }
+   },
+   "alessandro_monaco": {
+      "nominativo": "Alessandro Monaco",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": "Pesce fuor d'acqua",
+         "squadra": "LIZZANELLA'S OLD SUGHI",
+         "ruolo": "Movimento"
+      }
+   },
+   "mattia_lasta": {
+      "nominativo": "Mattia Lasta",
+      "2023": {
+         "quotazione": 21,
+         "soprannome": NaN,
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      }
+   },
+   "andrea_alvin": {
+      "nominativo": "Andrea Alvin",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Bertolini Il mostro di Rovereto",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      }
+   },
+   "vito_incandela": {
+      "nominativo": "Vito Incandela",
+      "2023": {
+         "quotazione": 25,
+         "soprannome": "Tritolo Puro",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 26,
+         "soprannome": "Tritolo Puro",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "ferid_francesco": {
+      "nominativo": "Ferid Francesco",
+      "2023": {
+         "quotazione": 28,
+         "soprannome": "Boudhraa lo stallone che monta il mondo",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      }
+   },
+   "tommaso_bruschetti": {
+      "nominativo": "Tommaso Bruschetti",
+      "2023": {
+         "quotazione": 19,
+         "soprannome": "Sindaco",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 17,
+         "soprannome": "Sindaco",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -1
+      }
+   },
+   "manuel_cescatti": {
+      "nominativo": "Manuel Cescatti",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "Il Bolscevico",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      }
+   },
+   "simone_martini": {
+      "nominativo": "Simone Martini",
+      "2023": {
+         "quotazione": 28,
+         "soprannome": "Donatella Rettore",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 25,
+         "soprannome": "Donatella Rettore",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 1
+      }
+   },
+   "francesco_russo": {
+      "nominativo": "Francesco Russo",
+      "2023": {
+         "quotazione": 30,
+         "soprannome": NaN,
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 29,
+         "soprannome": NaN,
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -3
+      }
+   },
+   "pietro_tasini": {
+      "nominativo": "Pietro Tasini",
+      "2023": {
+         "quotazione": 33,
+         "soprannome": "Torton",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 33,
+         "soprannome": "Torton",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 5.0,
+         "fanta_points": 12
+      }
+   },
+   "alberto_aste": {
+      "nominativo": "Alberto Aste",
+      "2023": {
+         "quotazione": 29,
+         "soprannome": "Marmellone",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      }
+   },
+   "tommaso_canepel": {
+      "nominativo": "Tommaso Canepel",
+      "2023": {
+         "quotazione": 25,
+         "soprannome": "Ridge Forrester",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 24,
+         "soprannome": "Ridge Forrester",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 8
+      }
+   },
+   "lorenzo_canepel": {
+      "nominativo": "Lorenzo Canepel",
+      "2023": {
+         "quotazione": 22,
+         "soprannome": "Giardiniere",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 22,
+         "soprannome": "Giardiniere",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "riccardo_brunelli": {
+      "nominativo": "Riccardo Brunelli",
+      "2023": {
+         "quotazione": 25,
+         "soprannome": "Insetto Stecco",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 22,
+         "soprannome": "Insetto Stecco",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 2
+      }
+   },
+   "pietro_zandonai": {
+      "nominativo": "Pietro Zandonai",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "Boy Scout",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 31,
+         "soprannome": "Boy Scout",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 10
+      }
+   },
+   "daniele_foroni": {
+      "nominativo": "Daniele Foroni",
+      "2023": {
+         "quotazione": 19,
+         "soprannome": "Swag Foroni",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Swag Foroni",
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "maickol_azocar": {
+      "nominativo": "Maickol Azocar",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "Nastro isolante",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 30,
+         "soprannome": "Nastro Isolante",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "nadir_chtioui": {
+      "nominativo": "Nadir Chtioui",
+      "2023": {
+         "quotazione": 37,
+         "soprannome": "Casablanca",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 39,
+         "soprannome": "Casablanca",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 4
+      }
+   },
+   "carlo_stedile": {
+      "nominativo": "Carlo Stedile",
+      "2023": {
+         "quotazione": 70,
+         "soprannome": "Welcome to paradise",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 81,
+         "soprannome": "Welcome To Paradise",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 8
+      }
+   },
+   "randy_cobbinah": {
+      "nominativo": "Randy Cobbinah",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": "West coast",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 38,
+         "soprannome": "West Coast",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 2
+      }
+   },
+   "pietro_gasparini": {
+      "nominativo": "Pietro Gasparini",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "Polimero striato",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      }
+   },
+   "giacomo_gasparini": {
+      "nominativo": "Giacomo Gasparini",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "ICEMAN",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Iceman",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 8
+      }
+   },
+   "thomas_debiasi": {
+      "nominativo": "Thomas Debiasi",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "Organizzatore di eventi brutti",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 50,
+         "soprannome": "Organizzatore Di Eventi Brutti",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "stefano_mattioli": {
+      "nominativo": "Stefano Mattioli",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": "Panchinaro d'oro",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 17,
+         "soprannome": "Panchinaro D'oro",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 2
+      }
+   },
+   "thomas_cavagna": {
+      "nominativo": "Thomas Cavagna",
+      "2023": {
+         "quotazione": 39,
+         "soprannome": "Val di Gresta",
+         "squadra": "#MAIUNAGIOIA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 30,
+         "soprannome": "Val Di Gresta",
+         "squadra": "MAI UNA GIOIA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "matteo_cristel": {
+      "nominativo": "MATTEO CRISTEL",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Paul Finch",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento"
+      }
+   },
+   "marco_gerola": {
+      "nominativo": "Marco Gerola",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "Geronimo Stilton",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Geronimo Stilton",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 7
+      }
+   },
+   "michele_parisi": {
+      "nominativo": "Michele Parisi",
+      "2023": {
+         "quotazione": 37,
+         "soprannome": "Ron Weasley",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 34,
+         "soprannome": "Ron Weasley",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 0
+      }
+   },
+   "stefano_pizzini": {
+      "nominativo": "Stefano Pizzini",
+      "2023": {
+         "quotazione": 45,
+         "soprannome": "Neanderthal",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 50,
+         "soprannome": "Neanderthal",
+         "squadra": "MEDIASERT",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -4
+      }
+   },
+   "andrea_anzelini": {
+      "nominativo": "Andrea Anzelini",
+      "2023": {
+         "quotazione": 30,
+         "soprannome": "Tunnel del vento",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Tunnel Del Vento",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -2
+      }
+   },
+   "leonardo_parisi": {
+      "nominativo": "Leonardo Parisi",
+      "2023": {
+         "quotazione": 68,
+         "soprannome": "Il fratello di Ron Weasley",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 71,
+         "soprannome": "Il Fratello Di Ron Weasley",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "matteo_mazzola": {
+      "nominativo": "Matteo Mazzola",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "Gennaro Bullo",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 18,
+         "soprannome": "Gennaro Bullo",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "davide_raffaelli": {
+      "nominativo": "Davide Raffaelli",
+      "2023": {
+         "quotazione": 40,
+         "soprannome": "La giraffa di frassino",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 25,
+         "soprannome": "Giraffa Di Frassino",
+         "squadra": "MEDIASERT",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "leonardo_todeschi": {
+      "nominativo": "Leonardo Todeschi",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": NaN,
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "samuel_uez": {
+      "nominativo": "Samuel Uez",
+      "2023": {
+         "quotazione": 30,
+         "soprannome": "il soldatino del Kyrat",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "tiziano_tasini": {
+      "nominativo": "Tiziano Tasini",
+      "2023": {
+         "quotazione": 28,
+         "soprannome": "Bel tempo si spera",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "daniele_feller": {
+      "nominativo": "Daniele Feller",
+      "2023": {
+         "quotazione": 33,
+         "soprannome": "Babbuino",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "matteo_giovanella": {
+      "nominativo": "Matteo Giovanella",
+      "2023": {
+         "quotazione": 13,
+         "soprannome": "Riccanza",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "alex_marchiori": {
+      "nominativo": "Alex Marchiori",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": "Kovacic",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      }
+   },
+   "alessandro_comper": {
+      "nominativo": "Alessandro Comper",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Fantic Caballero",
+         "squadra": "BUONA LA MERDA",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 24,
+         "soprannome": "Fantic Caballero",
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 0
+      }
+   },
+   "marco_sartorelli": {
+      "nominativo": "Marco Sartorelli",
+      "2023": {
+         "quotazione": 52,
+         "soprannome": "Playboy della busa",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 65,
+         "soprannome": "Playboy Della Busa",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 3
+      }
+   },
+   "luca_barozzi": {
+      "nominativo": "Luca Barozzi",
+      "2023": {
+         "quotazione": 43,
+         "soprannome": "Lupin",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 45,
+         "soprannome": "Lupin",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 1
+      }
+   },
+   "federico_pomarolli": {
+      "nominativo": "Federico Pomarolli",
+      "2023": {
+         "quotazione": 49,
+         "soprannome": "Il principe guerriero",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 63,
+         "soprannome": "Principe Guerriero",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 9
+      }
+   },
+   "edoardo_pomarolli": {
+      "nominativo": "Edoardo Pomarolli",
+      "2023": {
+         "quotazione": 46,
+         "soprannome": "Il bello della piof",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 65,
+         "soprannome": "Il Bello Della Piof",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 5
+      }
+   },
+   "matteo_lanaro": {
+      "nominativo": "Matteo Lanaro",
+      "2023": {
+         "quotazione": 38,
+         "soprannome": "Il cacciatore del sole",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 40,
+         "soprannome": "Il Cacciatore Del Sole",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "andrea_bertolini": {
+      "nominativo": "Andrea Bertolini",
+      "2023": {
+         "quotazione": 50,
+         "soprannome": "Bomber Berto",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 60,
+         "soprannome": "Bomber Berto",
+         "squadra": "MODIUM",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 7
+      }
+   },
+   "riccardo_versini": {
+      "nominativo": "Riccardo Versini",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "Pertica della piof",
+         "squadra": "IMODIUM",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 50,
+         "soprannome": "Pertica Della Piof",
+         "squadra": "MODIUM",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "marco_chizzola": {
+      "nominativo": "Marco Chizzola",
+      "2023": {
+         "quotazione": null,
+         "soprannome": "Barlume visionario",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      }
+   },
+   "federico_folchini": {
+      "nominativo": "Federico Folchini",
+      "2023": {
+         "quotazione": 28,
+         "soprannome": "La Cocorita",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      }
+   },
+   "lorenzo_munari": {
+      "nominativo": "Lorenzo Munari",
+      "2023": {
+         "quotazione": 10,
+         "soprannome": "Swarowski",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      }
+   },
+   "enrico_bordignon": {
+      "nominativo": "Enrico Bordignon",
+      "2023": {
+         "quotazione": 15,
+         "soprannome": "Ormone Impazzito",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 24,
+         "soprannome": "Ormone Impazzito",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 2
+      }
+   },
+   "elia_tomasoni": {
+      "nominativo": "Elia Tomasoni",
+      "2023": {
+         "quotazione": 17,
+         "soprannome": "T come Tigro",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 19,
+         "soprannome": "T Come Tigro",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -1
+      }
+   },
+   "andrea_aste": {
+      "nominativo": "Andrea Aste",
+      "2023": {
+         "quotazione": 19,
+         "soprannome": "3 Ombre",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 21,
+         "soprannome": "3 Ombre",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 0
+      }
+   },
+   "matteo_pilati": {
+      "nominativo": "Matteo Pilati",
+      "2023": {
+         "quotazione": 20,
+         "soprannome": "Ponzio Pilato",
+         "squadra": "ADIGES",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 37,
+         "soprannome": "Ponzio Pilati",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 2
+      }
+   },
+   "francesco_piamarta": {
+      "nominativo": "Francesco Piamarta",
+      "2023": {
+         "quotazione": 22,
+         "soprannome": "Yaki Udon",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      }
+   },
+   "luca_perenzoni": {
+      "nominativo": "Luca Perenzoni",
+      "2023": {
+         "quotazione": 35,
+         "soprannome": "Chernobyl",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 42,
+         "soprannome": "Chernobyl",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 5
+      }
+   },
+   "gabriele_gottardi": {
+      "nominativo": "Gabriele Gottardi",
+      "2023": {
+         "quotazione": 33,
+         "soprannome": "centomila cammelli",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Centomila Cammelli",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 11
+      }
+   },
+   "sebastiano_zoller": {
+      "nominativo": "Sebastiano Zoller",
+      "2023": {
+         "quotazione": 44,
+         "soprannome": "Carenza di spritz",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 48,
+         "soprannome": "Carenza Di Spritz",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 7.0,
+         "fanta_points": 17
+      }
+   },
+   "alessandro_zeni": {
+      "nominativo": "Alessandro Zeni",
+      "2023": {
+         "quotazione": 42,
+         "soprannome": "L'ultimo samurai",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      },
+      "2024": {
+         "quotazione": 38,
+         "soprannome": "Ultimo Samurai",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 5.0,
+         "fanta_points": 13
+      }
+   },
+   "matteo_vicentini": {
+      "nominativo": "Matteo Vicentini",
+      "2023": {
+         "quotazione": 18,
+         "soprannome": NaN,
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      }
+   },
+   "gabriel_verona": {
+      "nominativo": "Gabriel Verona",
+      "2023": {
+         "quotazione": 31,
+         "soprannome": "Temptation island",
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento"
+      }
+   },
+   "andrea_conzatti": {
+      "nominativo": "Andrea Conzatti",
+      "2024": {
+         "quotazione": 69,
+         "soprannome": "Caldaia",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 11.0,
+         "fanta_points": 34
+      }
+   },
+   "alessandro_maffei": {
+      "nominativo": "Alessandro Maffei",
+      "2024": {
+         "quotazione": 54,
+         "soprannome": "Il Fondatore Di Social Network",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 20
+      }
+   },
+   "gober_andrea": {
+      "nominativo": "Gober Andrea",
+      "2024": {
+         "quotazione": 53,
+         "soprannome": "Scintillio",
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 14
+      }
+   },
+   "alessio_farinati": {
+      "nominativo": "Alessio Farinati",
+      "2024": {
+         "quotazione": 49,
+         "soprannome": "Proteina",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 2
+      }
+   },
+   "giacomo_de_zambotti": {
+      "nominativo": "Giacomo De Zambotti",
+      "2024": {
+         "quotazione": 47,
+         "soprannome": "Ferro Da Stiro",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 16
+      }
+   },
+   "eduardo_grazioli": {
+      "nominativo": "Eduardo Grazioli",
+      "2024": {
+         "quotazione": 45,
+         "soprannome": "L'indesiderabile Numero 1",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 17
+      }
+   },
+   "nicolas_giordani": {
+      "nominativo": "Nicolas Giordani",
+      "2024": {
+         "quotazione": 45,
+         "soprannome": "Tiburon",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 32.0
+      }
+   },
+   "davide_manica": {
+      "nominativo": "Davide Manica",
+      "2024": {
+         "quotazione": 43,
+         "soprannome": "Pala Eolica",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 0
+      }
+   },
+   "armando_perottoni": {
+      "nominativo": "Armando Perottoni",
+      "2024": {
+         "quotazione": 40,
+         "soprannome": NaN,
+         "squadra": "AVANZI",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 2
+      }
+   },
+   "alessio_bragagna": {
+      "nominativo": "Alessio Bragagna",
+      "2024": {
+         "quotazione": 40,
+         "soprannome": "Nice Try",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 9.0,
+         "fanta_points": 32
+      }
+   },
+   "nicola_togni": {
+      "nominativo": "Nicola Togni",
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Circo Togni",
+         "squadra": "RSA UNITED",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "amedeo_malesardi": {
+      "nominativo": "Amedeo Malesardi",
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Nono Comandamento",
+         "squadra": "FC SAVIGNANO",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 14
+      }
+   },
+   "matteo_brigo": {
+      "nominativo": "Matteo Brigo",
+      "2024": {
+         "quotazione": 35,
+         "soprannome": "Euro Brigo",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 6
+      }
+   },
+   "alessandro_fait": {
+      "nominativo": "Alessandro Fait",
+      "2024": {
+         "quotazione": 33,
+         "soprannome": "Fait Club",
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "federico_zoller": {
+      "nominativo": "Federico Zoller",
+      "2024": {
+         "quotazione": 30,
+         "soprannome": NaN,
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 5
+      }
+   },
+   "alessandro_zamboni": {
+      "nominativo": "Alessandro Zamboni",
+      "2024": {
+         "quotazione": 30,
+         "soprannome": NaN,
+         "squadra": "F.C. JULIA",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "matteo_zanini": {
+      "nominativo": "Matteo Zanini",
+      "2024": {
+         "quotazione": 28,
+         "soprannome": "Il Meccanico",
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "antonio_calabr\u00f2": {
+      "nominativo": "Antonio Calabr\u00f2",
+      "2024": {
+         "quotazione": 26,
+         "soprannome": "Tot\u00f2 Sapore",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 8
+      }
+   },
+   "samuele_kettamier": {
+      "nominativo": "Samuele Kettamier",
+      "2024": {
+         "quotazione": 25,
+         "soprannome": NaN,
+         "squadra": "SBARX",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": 3
+      }
+   },
+   "francesco_vettori": {
+      "nominativo": "Francesco Vettori",
+      "2024": {
+         "quotazione": 25,
+         "soprannome": NaN,
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -4
+      }
+   },
+   "federico_fasanelli": {
+      "nominativo": "Federico Fasanelli",
+      "2024": {
+         "quotazione": 24,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 9.0,
+         "fanta_points": 17
+      }
+   },
+   "nicol\u00f2_speziali": {
+      "nominativo": "Nicol\u00f2 Speziali",
+      "2024": {
+         "quotazione": 23,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 8.0,
+         "fanta_points": 14
+      }
+   },
+   "andrea_togni": {
+      "nominativo": "Andrea Togni",
+      "2024": {
+         "quotazione": 23,
+         "soprannome": NaN,
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -2
+      }
+   },
+   "giovanni_torboli": {
+      "nominativo": "Giovanni Torboli",
+      "2024": {
+         "quotazione": 22,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 0
+      }
+   },
+   "alessio_zandonai": {
+      "nominativo": "Alessio Zandonai",
+      "2024": {
+         "quotazione": 22,
+         "soprannome": NaN,
+         "squadra": "SBARX",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 3
+      }
+   },
+   "gabriele_piamarta": {
+      "nominativo": "Gabriele Piamarta",
+      "2024": {
+         "quotazione": 21,
+         "soprannome": NaN,
+         "squadra": "CLANDES-TEAM",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 4
+      }
+   },
+   "michele_ruele": {
+      "nominativo": "Michele Ruele",
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Ruy Mysterio",
+         "squadra": "AVANZI",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 4
+      }
+   },
+   "dario_cappelletti": {
+      "nominativo": "Dario Cappelletti",
+      "2024": {
+         "quotazione": 20,
+         "soprannome": NaN,
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 0
+      }
+   },
+   "federico_vivaldi": {
+      "nominativo": "Federico Vivaldi",
+      "2024": {
+         "quotazione": 20,
+         "soprannome": NaN,
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -6
+      }
+   },
+   "filippo_simoncelli": {
+      "nominativo": "Filippo Simoncelli",
+      "2024": {
+         "quotazione": 20,
+         "soprannome": NaN,
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -6
+      }
+   },
+   "pietro_dallabernardina": {
+      "nominativo": "Pietro Dallabernardina",
+      "2024": {
+         "quotazione": 20,
+         "soprannome": "Bidone Dell'umido",
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -6
+      }
+   },
+   "martino_tamoni": {
+      "nominativo": "Martino Tamoni",
+      "2024": {
+         "quotazione": 19,
+         "soprannome": NaN,
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 8
+      }
+   },
+   "samuele_maffei": {
+      "nominativo": "Samuele Maffei",
+      "2024": {
+         "quotazione": 18,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "andrea_manfredi": {
+      "nominativo": "Andrea Manfredi",
+      "2024": {
+         "quotazione": 18,
+         "soprannome": "Psyco",
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -9
+      }
+   },
+   "leonardo_adami": {
+      "nominativo": "Leonardo Adami",
+      "2024": {
+         "quotazione": 17,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 0
+      }
+   },
+   "matteo_simoncelli": {
+      "nominativo": "Matteo Simoncelli",
+      "2024": {
+         "quotazione": 17,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 7.0,
+         "fanta_points": 13
+      }
+   },
+   "michele_pellini": {
+      "nominativo": "Michele Pellini",
+      "2024": {
+         "quotazione": 16,
+         "soprannome": NaN,
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "mattia_penasa": {
+      "nominativo": "Mattia Penasa",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "HELLAS MADONNA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "christian_trainotti": {
+      "nominativo": "Christian Trainotti",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 5
+      }
+   },
+   "davide_deimichei": {
+      "nominativo": "Davide Deimichei",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "andrea_menolli": {
+      "nominativo": "Andrea Menolli",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 3
+      }
+   },
+   "alessio_delli_compagni": {
+      "nominativo": "Alessio Delli Compagni",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 5
+      }
+   },
+   "christian_martinelli": {
+      "nominativo": "Christian Martinelli",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 3
+      }
+   },
+   "andreas_galli": {
+      "nominativo": "Andreas Galli",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "SDRUMALA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "william_pedri": {
+      "nominativo": "William Pedri",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "U.S. GUARNA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 8
+      }
+   },
+   "tommaso_caliari": {
+      "nominativo": "Tommaso Caliari",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 2
+      }
+   },
+   "mirko_raffaelli": {
+      "nominativo": "Mirko Raffaelli",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -2
+      }
+   },
+   "luca_lasta": {
+      "nominativo": "Luca Lasta",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "andrea_riolfatti": {
+      "nominativo": "Andrea Riolfatti",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "andrea_potrich": {
+      "nominativo": "Andrea Potrich",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Brasiliano Bianco",
+         "squadra": "F.C. JULIA",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -4
+      }
+   },
+   "matteo_calcinardi": {
+      "nominativo": "Matteo Calcinardi",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "F.C. SALA GIARDINI",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -4
+      }
+   },
+   "massimiliano_rossi": {
+      "nominativo": "Massimiliano Rossi",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "F.C. SALA GIARDINI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": -4
+      }
+   },
+   "giovanni_frizzera": {
+      "nominativo": "Giovanni Frizzera",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "F.C. SALA GIARDINI",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "gianni_sala": {
+      "nominativo": "Gianni Sala",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Gianluca Grignani",
+         "squadra": "F.C. SALA GIARDINI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -12
+      }
+   },
+   "giovanni_di_meo": {
+      "nominativo": "Giovanni Di Meo",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "PINGUINI TRENTINI",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": 4
+      }
+   },
+   "nicol\u00f2_gentile": {
+      "nominativo": "Nicol\u00f2 Gentile",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -2
+      }
+   },
+   "giovanni_bertolini": {
+      "nominativo": "Giovanni Bertolini",
+      "2024": {
+         "quotazione": 15,
+         "soprannome": "Paese Dei Balocchi",
+         "squadra": "FEL LAZIO",
+         "ruolo": "Portiere",
+         "goal": 1.0,
+         "fanta_points": -3
+      }
+   },
+   "alessandro_ruele": {
+      "nominativo": "Alessandro Ruele",
+      "2024": {
+         "quotazione": 14,
+         "soprannome": NaN,
+         "squadra": "F.C. GORILLAZ",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": -2
+      }
+   },
+   "nicola_bianchi": {
+      "nominativo": "Nicola Bianchi",
+      "2024": {
+         "quotazione": 12,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -1
+      }
+   },
+   "ivan_borella": {
+      "nominativo": "Ivan Borella",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "FEL LAZIO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "luca_pozzati": {
+      "nominativo": "Luca Pozzati",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "RSA UNITED",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -6
+      }
+   },
+   "alessandro_festi": {
+      "nominativo": "Alessandro Festi",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Portiere",
+         "goal": 2.0,
+         "fanta_points": -4
+      }
+   },
+   "mattia_gerola": {
+      "nominativo": "Mattia Gerola",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "michele_eccel": {
+      "nominativo": "Michele Eccel",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "alessandro_gerola": {
+      "nominativo": "Alessandro Gerola",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "davide_grigoletti": {
+      "nominativo": "Davide Grigoletti",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "LA CONTEA FC",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -6
+      }
+   },
+   "thomas_perenzoni": {
+      "nominativo": "Thomas Perenzoni",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "CGB GAMBERONI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 11
+      }
+   },
+   "halzyd_pupuleku": {
+      "nominativo": "Halzyd Pupuleku",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": NaN,
+         "squadra": "F.C. SALA GIARDINI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -8
+      }
+   },
+   "wilson_bona": {
+      "nominativo": "Wilson Bona",
+      "2024": {
+         "quotazione": 10,
+         "soprannome": "El Patron Di Trenitalia",
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -12
+      }
+   },
+   "federico_rippa": {
+      "nominativo": "Federico Rippa",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "luca_morin": {
+      "nominativo": "Luca Morin",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "jacopo_zecchinelli": {
+      "nominativo": "Jacopo Zecchinelli",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Er Mutanda",
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "davide_zoara": {
+      "nominativo": "Davide Zoara",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Sturmtruppen",
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "fabio_battistotti": {
+      "nominativo": "Fabio Battistotti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Jeremy Wade",
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "andrea_di_filippo": {
+      "nominativo": "Andrea Di Filippo",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -12
+      }
+   },
+   "nicola_dalledonne": {
+      "nominativo": "Nicola Dalledonne",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "francesco_cristoforetti": {
+      "nominativo": "Francesco Cristoforetti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Black Hole",
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "alberto_curcio": {
+      "nominativo": "Alberto Curcio",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "leonardo_trinco": {
+      "nominativo": "Leonardo Trinco",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Corpo Nazionale",
+         "squadra": "VIGILI DEL FUSTO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "matteo_gatti": {
+      "nominativo": "Matteo Gatti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Soldatino Di Piombo",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -1
+      }
+   },
+   "daniele_ruzzenenti": {
+      "nominativo": "Daniele Ruzzenenti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Hard Disk",
+         "squadra": "DEMOBUSTERS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -1
+      }
+   },
+   "federico_baita": {
+      "nominativo": "Federico Baita",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "A.C. DENTI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": 1
+      }
+   },
+   "nicol\u00f2_marzari": {
+      "nominativo": "Nicol\u00f2 Marzari",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "A.C. DENTI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "mario_grifeo": {
+      "nominativo": "Mario Grifeo",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "A.C. DENTI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": -1
+      }
+   },
+   "maverick_bertolini": {
+      "nominativo": "Maverick Bertolini",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "A.C. DENTI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -5
+      }
+   },
+   "michael_bert\u00e8": {
+      "nominativo": "Michael Bert\u00e8",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "A.C. DENTI",
+         "ruolo": "Movimento",
+         "goal": 3.0,
+         "fanta_points": -4
+      }
+   },
+   "matteo_tatarella": {
+      "nominativo": "Matteo Tatarella",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "BAYERN MONA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "francesco_pizzini": {
+      "nominativo": "Francesco Pizzini",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "BAYERN MONA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -12
+      }
+   },
+   "nicol\u00f3_gelmini": {
+      "nominativo": "Nicol\u00f3 Gelmini",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "BAYERN MONA",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "davide_sannicol\u00f3": {
+      "nominativo": "Davide Sannicol\u00f3",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "BAYERN MONA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -8
+      }
+   },
+   "paolo_salvetti": {
+      "nominativo": "Paolo Salvetti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "BAYERN MONA",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -8
+      }
+   },
+   "lorenzo_canali": {
+      "nominativo": "Lorenzo Canali",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Portiere",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "giacomo_bongiovanni": {
+      "nominativo": "Giacomo Bongiovanni",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 4.0,
+         "fanta_points": 9
+      }
+   },
+   "oriam_galli": {
+      "nominativo": "Oriam Galli",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "alessandro_tengattini": {
+      "nominativo": "Alessandro Tengattini",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": 1
+      }
+   },
+   "rivjo_fiora": {
+      "nominativo": "Rivjo Fiora",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "HERTA VERNELLO",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": 3
+      }
+   },
+   "richard_spagnolli": {
+      "nominativo": "Richard Spagnolli",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -8
+      }
+   },
+   "alessio_giordano": {
+      "nominativo": "Alessio Giordano",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -8
+      }
+   },
+   "filippo_bais": {
+      "nominativo": "Filippo Bais",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "andrea_amendola": {
+      "nominativo": "Andrea Amendola",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "pietro_di_liberto": {
+      "nominativo": "Pietro Di Liberto",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -6
+      }
+   },
+   "antonio_dominici": {
+      "nominativo": "Antonio Dominici",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "davide_ganganelli": {
+      "nominativo": "Davide Ganganelli",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "lapo_pinzi": {
+      "nominativo": "Lapo Pinzi",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC SCHALKE 104",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "davide_anderloni": {
+      "nominativo": "Davide Anderloni",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "armando_renzetti": {
+      "nominativo": "Armando Renzetti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "simone_giovinazzi": {
+      "nominativo": "Simone Giovinazzi",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "davide_sanetti": {
+      "nominativo": "Davide Sanetti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento"
+      }
+   },
+   "francesco_modena": {
+      "nominativo": "Francesco Modena",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 1.0,
+         "fanta_points": -14
+      }
+   },
+   "fabio_daves": {
+      "nominativo": "Fabio Daves",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Non Se Lo Ricorda Ma Lo Ha",
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "andrea_bellini": {
+      "nominativo": "Andrea Bellini",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "luca_marchesi": {
+      "nominativo": "Luca Marchesi",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Non Se Lo Ricorda Ma Lo Ha",
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "leonardo_fedrigotti": {
+      "nominativo": "Leonardo Fedrigotti",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Il Boscaiolo Ledrense",
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "lorenzo_casari": {
+      "nominativo": "Lorenzo Casari",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": "Il Treno Ferma A Peri",
+         "squadra": "NAZIONALE FERROVIERI",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "gentian_capa": {
+      "nominativo": "Gentian Capa",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -6
+      }
+   },
+   "giorgio_raffaelli": {
+      "nominativo": "Giorgio Raffaelli",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "antonio_emma": {
+      "nominativo": "Antonio Emma",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Movimento",
+         "goal": 0.0,
+         "fanta_points": -10
+      }
+   },
+   "alessio_koleci": {
+      "nominativo": "Alessio Koleci",
+      "2024": {
+         "quotazione": 5,
+         "soprannome": NaN,
+         "squadra": "FC. STALLIONS",
+         "ruolo": "Movimento",
+         "goal": 2.0,
+         "fanta_points": -6
+      }
+   }
+}

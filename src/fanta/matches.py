@@ -1,10 +1,11 @@
+import json
 from typing import OrderedDict
 
 import numpy as np
 import pandas as pd
 import requests
+from domain import MatchPoints, Team, create_dataclass
 
-from calciosplash.dataclasses import MatchPoints, Team, create_dataclass
 from constants import (
     POINTS_PER_CLEANSHEET,
     POINTS_PER_CONCEDED_GOALS,
@@ -201,7 +202,16 @@ for stage in [1, 9, 10, 11, 12, 13]:
                     )
                 )
 
-
+with open("assets/2024/ratings.json", "w+") as file:
+    json.dump(
+        {
+            player: [x.to_dict() for x in ratings[team][player]]
+            for team in ratings
+            for player in ratings[team]
+        },
+        file,
+        indent=3,
+    )
 df = convert_to_dataframe(ratings=ratings, save=False)
 df.to_csv("assets/2024/punteggi.csv")
-# pd.DataFrame(results).to_csv("results.csv")
+pd.DataFrame(results).to_csv("assets/2024/matches.csv")
