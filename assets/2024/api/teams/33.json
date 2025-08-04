@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 235,
+         "name": "VERA",
+         "surname": "ROSSINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\235-vera.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 236,
+         "name": "VALENTINA",
+         "surname": "ECCEL",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\236-valentina.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 237,
+         "name": "SOFIA",
+         "surname": "FINOTELLO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\237-sofia.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 238,
+         "name": "MIRIANA",
+         "surname": "CONCI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\238-miriana.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 239,
+         "name": "VIRGINIA",
+         "surname": "ORBOLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\239-virginia.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 240,
+         "name": "MAIRA",
+         "surname": "BERTOLINI",
+         "username": "MARC OVERMARS",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\240-maira.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 241,
+         "name": "MARGHERITA",
+         "surname": "PLANCHESTAINER",
+         "username": "LA MAMMA DI BAMBI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\241-margherita.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/33/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

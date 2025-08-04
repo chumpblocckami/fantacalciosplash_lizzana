@@ -1,0 +1,75 @@
+{
+   "data": [
+      {
+         "id": 52,
+         "name": "FUSTOVERDE",
+         "tag": "FVD",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fustoverde.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 11,
+         "goals_conceded": 7,
+         "head_to_head": {
+            "50": 1,
+            "51": 1
+         },
+         "goal_difference": 4
+      },
+      {
+         "id": 51,
+         "name": "LUPPOLDORO",
+         "tag": "LLD",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\luppoldoro.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 7,
+         "goals_conceded": 7,
+         "head_to_head": {
+            "53": 1,
+            "52": -1
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 50,
+         "name": "SORSONERO",
+         "tag": "SSN",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sorsonero.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 1,
+         "goals_scored": 3,
+         "goals_conceded": 6,
+         "head_to_head": {
+            "52": -1,
+            "50": 0
+         },
+         "goal_difference": -3
+      },
+      {
+         "id": 53,
+         "name": "COLLASSOROSSO",
+         "tag": "CSR",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\collassorosso.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "51": -1
+         },
+         "goal_difference": -1
+      }
+   ]
+}

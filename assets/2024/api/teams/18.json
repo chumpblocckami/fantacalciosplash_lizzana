@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 127,
+         "name": "DANIELE",
+         "surname": "FELTRINELLI",
+         "username": "TRANSIBERIANA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\127-daniele.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 128,
+         "name": "FEDERICO",
+         "surname": "LEONARDI",
+         "username": "PAN CARR\u00c8",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\128-federico.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 129,
+         "name": "FEDERICO",
+         "surname": "IGNACCOLO",
+         "username": "FIDEL - CERCI DELLA BUSA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\129-federico.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 130,
+         "name": "LUCA",
+         "surname": "ONOLLI",
+         "username": "MARK RENTON",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\130-luca.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 131,
+         "name": "EMANUELE",
+         "surname": "MIORANDI",
+         "username": "RE DI BASTONI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\131-emanuele.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 132,
+         "name": "RICCARDO",
+         "surname": "BARBIERO",
+         "username": "ALABARDA SPAZIALE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\132-riccardo.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 133,
+         "name": "MICHELE",
+         "surname": "LEONARDI",
+         "username": "PESTO TIGULLIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\133-michele.png",
+         "team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/18/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

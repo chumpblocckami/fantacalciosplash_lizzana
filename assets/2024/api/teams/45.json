@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 324,
+         "name": "CATERINA",
+         "surname": "MITTEMPERGHER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\324-caterina.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 325,
+         "name": "SARA",
+         "surname": "MAFFEI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\325-sara.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 326,
+         "name": "SAMENA",
+         "surname": "UFA",
+         "username": "NA RUOTA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\326-samena.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 327,
+         "name": "LUCREZIA",
+         "surname": "PANIZ",
+         "username": "MOGLIE DI MEDIOMEN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\327-lucrezia.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 328,
+         "name": "GIULIA",
+         "surname": "CHIAVINI",
+         "username": "CARLA FRACCI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\328-giulia.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 329,
+         "name": "MADDALENA",
+         "surname": "GARNIGA",
+         "username": "SHOOTING STAR",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\329-maddalena.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 330,
+         "name": "VALENTINA",
+         "surname": "RIOLFATTI",
+         "username": "ANCA SBILENCA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\330-valentina.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 331,
+         "name": "VALENTINA",
+         "surname": "GARNIGA",
+         "username": "PANTENE PRO-V",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\331-valentina.png",
+         "team": {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/45/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

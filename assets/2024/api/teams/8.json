@@ -1,0 +1,116 @@
+{
+   "data": [
+      {
+         "id": 62,
+         "name": "FEDERICO",
+         "surname": "BAITA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\62-federico.png",
+         "team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 63,
+         "name": "NICOL\u00d2",
+         "surname": "MARZARI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\63-nicolo.png",
+         "team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 64,
+         "name": "MARIO",
+         "surname": "GRIFEO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\64-mario.png",
+         "team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 65,
+         "name": "MAVERICK",
+         "surname": "BERTOLINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\65-maverick.png",
+         "team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 66,
+         "name": "MICHAEL",
+         "surname": "BERT\u00c8",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\66-michael.png",
+         "team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/8/players",
+      "per_page": 10,
+      "to": 5,
+      "total": 5
+   }
+}

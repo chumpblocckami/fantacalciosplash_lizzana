@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 5,
+         "name": "STEFANO",
+         "surname": "MATTIOLI",
+         "username": "PANCHINARO D'ORO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\5-stefano.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 6,
+         "name": "RANDY",
+         "surname": "COBBINAH",
+         "username": "WEST COAST",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\6-randy.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 7,
+         "name": "MAICKOL",
+         "surname": "AZOCAR",
+         "username": "NASTRO ISOLANTE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\7-maickol.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 8,
+         "name": "NADIR",
+         "surname": "CHTIOUI",
+         "username": "CASABLANCA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\8-nadir.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 9,
+         "name": "GIACOMO",
+         "surname": "GASPARINI",
+         "username": "ICEMAN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\9-giacomo.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 10,
+         "name": "HOMAS",
+         "surname": "DEBIASI",
+         "username": "ORGANIZZATORE DI EVENTI BRUTTI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\10-homas.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 11,
+         "name": "CARLO",
+         "surname": "STEDILE",
+         "username": "WELCOME TO PARADISE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\11-carlo.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 12,
+         "name": "HOMAS",
+         "surname": "CAVAGNA",
+         "username": "VAL DI GRESTA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\12-homas.png",
+         "team": {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/1/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

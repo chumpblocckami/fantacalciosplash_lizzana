@@ -1,0 +1,100 @@
+{
+   "data": [
+      {
+         "id": 332,
+         "name": "ARIANNA",
+         "surname": "ALBERTINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\332-arianna.png",
+         "team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\46-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 333,
+         "name": "SOFIA",
+         "surname": "MANICA",
+         "username": "INCONTINENZA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\333-sofia.png",
+         "team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\46-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 334,
+         "name": "SARA",
+         "surname": "PREZZI",
+         "username": "POST-IT",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\334-sara.png",
+         "team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\46-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 335,
+         "name": "ELISA",
+         "surname": "MORATELLI",
+         "username": "DISSENTEN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\335-elisa.png",
+         "team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\46-gin-toniche.png",
+            "players_count": 4
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/46/players",
+      "per_page": 10,
+      "to": 4,
+      "total": 4
+   }
+}

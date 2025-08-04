@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 3,
+      "name": "Femminile 2",
+      "teams": [
+         {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         },
+         {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         },
+         {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\46-gin-toniche.png",
+            "players_count": 4
+         },
+         {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      ]
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 4,
+      "name": "Femminile 3",
+      "teams": [
+         {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         },
+         {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         },
+         {
+            "id": 45,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LBF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\45-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

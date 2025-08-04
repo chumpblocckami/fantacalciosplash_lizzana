@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 15,
+      "name": "Semi F",
+      "teams": [
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         },
+         {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 42,
+            "name": "TORTE DI MELE",
+            "tag": "TDM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\42-torte-di-mele.png",
+            "players_count": 8
+         },
+         {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

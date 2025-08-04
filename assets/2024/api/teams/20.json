@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 140,
+         "name": "MATTEO",
+         "surname": "LANARO",
+         "username": "IL CACCIATORE DI STELLE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\140-matteo.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 141,
+         "name": "LUCA",
+         "surname": "BAROZZI",
+         "username": "LUPIN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\141-luca.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 142,
+         "name": "ANDREA",
+         "surname": "BERTOLINI",
+         "username": "BOMBER BERTO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\142-andrea.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 143,
+         "name": "FEDERICO",
+         "surname": "POMAROLLI",
+         "username": "PRINCIPE GUERRIERO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\143-federico.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 144,
+         "name": "EDOARDO",
+         "surname": "POMAROLLI",
+         "username": "IL BELLO DELLA PIOF",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\144-edoardo.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 145,
+         "name": "MARCO",
+         "surname": "SARTORELLI",
+         "username": "PLAYBOY DELLA BUSA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\145-marco.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 146,
+         "name": "RICCARDO",
+         "surname": "VERSINI",
+         "username": "PERTICA DELLA PIOF",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\146-riccardo.png",
+         "team": {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/20/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

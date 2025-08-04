@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 8,
+      "name": "Super Saom League",
+      "teams": [
+         {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         },
+         {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         },
+         {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         },
+         {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

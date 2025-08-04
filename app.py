@@ -3,15 +3,21 @@ import os
 import streamlit as st
 from PIL import Image
 
-from src.components.buttons import download_rules
-from src.components.registration_form import RegistrationForm
-from src.components.support_graph import SupportGraph
+from src.frontend.buttons import download_rules
+from src.frontend.registration_form import RegistrationForm
+from src.frontend.support_graph import SupportGraph
 from src.loader import Loader, init_session_state
 from src.utils import check_current_edition, get_element_visibility
 
 SHOW_ELEMENTS = get_element_visibility()
 
-editions = list(set([x.split("_")[0] for x in os.listdir("./assets")]))
+editions = sorted(
+    set(
+        folder.split("_")[0]
+        for folder in os.listdir("./assets")
+        if os.path.isdir(os.path.join("./assets", folder))
+    )
+)
 editions.sort(reverse=True)
 
 st.set_page_config(

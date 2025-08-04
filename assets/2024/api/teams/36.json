@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 256,
+         "name": "ANNALISA",
+         "surname": "RUELE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\256-annalisa.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 257,
+         "name": "ELISA",
+         "surname": "ONIATTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\257-elisa.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 258,
+         "name": "ANGELA",
+         "surname": "SCRINZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\258-angela.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 259,
+         "name": "ANNA",
+         "surname": "PIAMARTA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\259-anna.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 260,
+         "name": "FEDERICA",
+         "surname": "CADEN",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\260-federica.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 261,
+         "name": "DANIELA",
+         "surname": "SAIANI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\261-daniela.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 262,
+         "name": "CHIARA",
+         "surname": "GATTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\262-chiara.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 263,
+         "name": "STEFANIA",
+         "surname": "CUMERLOTTI",
+         "username": "PESO SPECIFICO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\263-stefania.png",
+         "team": {
+            "id": 36,
+            "name": "BEERBANTELLE",
+            "tag": "BRB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\36-beerbantelle.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/36/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

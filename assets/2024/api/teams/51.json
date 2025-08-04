@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 367,
+         "name": "FABRIZIO",
+         "surname": "LANARO",
+         "username": "IL BAMBINO D'ORO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\367-fabrizio.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 368,
+         "name": "ALESSANDRO",
+         "surname": "COMPER",
+         "username": "FANTIC CABALLERO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\368-alessandro.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 369,
+         "name": "DANNY",
+         "surname": "GIORDANI",
+         "username": "PALCUTO DE PRIMA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\369-danny.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 370,
+         "name": "MATTEO",
+         "surname": "BAZZANELLA",
+         "username": "TORGO NUDHO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\370-matteo.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 371,
+         "name": "MELANY",
+         "surname": "RAFFAELLI",
+         "username": "HOTEL BELVEDERE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\371-melany.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 372,
+         "name": "ARIELE",
+         "surname": "MANFRINI",
+         "username": "POLVERE DI STELLE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\372-ariele.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 373,
+         "name": "CARLO",
+         "surname": "STEDILE",
+         "username": "WELCOME TO PARADISE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\373-carlo.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 374,
+         "name": "ANDREA",
+         "surname": "GIORDANI",
+         "username": "ORSO BRUNO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\374-andrea.png",
+         "team": {
+            "id": 51,
+            "name": "LUPPOLDORO",
+            "tag": "LLD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\51-luppoldoro.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/51/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

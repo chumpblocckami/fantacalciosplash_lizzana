@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 342,
+         "name": "FRANCESCA",
+         "surname": "MONTERMINI",
+         "username": "SCILLA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\342-francesca.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 343,
+         "name": "MANUELA",
+         "surname": "MONTERMINI",
+         "username": "CARIDDI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\343-manuela.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 344,
+         "name": "CLAUDIA",
+         "surname": "MANZANA",
+         "username": "LA BOLSCEVICA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\344-claudia.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 345,
+         "name": "MANUELA",
+         "surname": "PERINI",
+         "username": "CALLISTO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\345-manuela.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 346,
+         "name": "GRETA",
+         "surname": "BENETTI",
+         "username": "MARMITTA MALOSSI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\346-greta.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 347,
+         "name": "MARIE",
+         "surname": "STOGER",
+         "username": "SACHER TORTE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\347-marie.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 348,
+         "name": "GIULIA",
+         "surname": "SCRINZI",
+         "username": "BIMBA BIONICA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\348-giulia.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 349,
+         "name": "CECILIA",
+         "surname": "CHIUSOLE",
+         "username": "LA FALSA GIOVANE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\349-cecilia.png",
+         "team": {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/48/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

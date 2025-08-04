@@ -1,0 +1,38 @@
+{
+   "data": [
+      {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "48": 1
+         },
+         "goal_difference": 3
+      },
+      {
+         "id": 48,
+         "name": "GREEN PASSERE",
+         "tag": "GRP",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\greenpassere.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "33": -1
+         },
+         "goal_difference": -3
+      }
+   ]
+}

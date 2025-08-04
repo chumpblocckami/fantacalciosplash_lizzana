@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 163,
+         "name": "LORENZO",
+         "surname": "CANALI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\163-lorenzo.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 164,
+         "name": "GIACOMO",
+         "surname": "BONGIOVANNI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\164-giacomo.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 165,
+         "name": "ORIAM",
+         "surname": "GALLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\165-oriam.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 166,
+         "name": "ALESSANDRO",
+         "surname": "ENGATTINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\166-alessandro.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 167,
+         "name": "RIVJO",
+         "surname": "FIORA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\167-rivjo.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 168,
+         "name": "FEDERICO",
+         "surname": "FASANELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\168-federico.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 169,
+         "name": "NICOLA",
+         "surname": "BIANCHI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\169-nicola.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 170,
+         "name": "MATTEO",
+         "surname": "SIMONCELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\170-matteo.png",
+         "team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/23/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

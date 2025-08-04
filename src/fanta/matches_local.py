@@ -1,7 +1,6 @@
+import glob
 import json
-from typing import OrderedDict
 
-import numpy as np
 import pandas as pd
 import requests
 from domain import MatchPoints, Team, create_dataclass
@@ -91,25 +90,10 @@ def convert_to_dataframe(ratings: dict, save: bool = False) -> pd.DataFrame:
     return pivoted_df
 
 
-def update_rankings(rankings: dict, home: Team, away: Team) -> dict:
-    if home.name not in rankings:
-        rankings[home.name] = 0
-    if away.name not in rankings:
-        rankings[away.name] = 0
-
-    if home.score > away.score:
-        rankings[home.name] += 3
-    elif away.score > home.score:
-        rankings[away.name] += 3
-    else:
-        rankings[home.name] += 1
-        rankings[away.name] += 1
-
-    sorted_rankings = {
-        k: v for k, v in sorted(rankings.items(), key=lambda item: item[1], reverse=True)
-    }
-
-    return sorted_rankings
+def read_from_path(path: str) -> dict:
+    with open(path, "r") as file:
+        content = json.load(file)
+    return content
 
 
 # todo: refine this
@@ -117,19 +101,22 @@ players = {176: {"is_goalkeeper": True}}
 teams = []
 ratings = {}
 results = []
-rankings = OrderedDict()
 
-for stage in [1, 9, 10, 11, 12, 13]:
-    team_played = set()
+paths = glob.glob("assets/2024/api/groups/*.json")
+for path in sorted(paths):
+
+    content = read_from_path(path)
+    label = content["data"]["name"]
+
+    print(f"Analyzing {label}")
+    if not label.lower().endswith("m") and "maschile" not in label.lower():
+        print(f"\tSkipping {label}")
+        continue
+    url = path.replace(".json", "") + "/fixture/1.json"
+    # TODO: continue from HERE
     try:
-        url = f"https://api.gsplizzana.it/api/groups/{stage}/fixtures?page=1"
         while url:
-            print(f"Downloading {url}")
-            resp = requests.get(url, timeout=5)
-            if resp.status_code == 404:
-                raise requests.HTTPError(f"Resource {url} not found.")
-
-            content = resp.json()
+            content = read_from_path(url)
 
             for match in content.get("data"):
 
@@ -139,58 +126,39 @@ for stage in [1, 9, 10, 11, 12, 13]:
                 ratings = get_team_ratings(home, away.score, ratings, players=players)
                 ratings = get_team_ratings(away, home.score, ratings, players=players)
 
-                team_played.add(home.name)
-                team_played.add(away.name)
                 results.append(
                     {
                         "home": home.name,
                         "away": away.name,
                         "score": f"{home.score}-{away.score}",
-                        "stage": stage,
+                        "stage": label,
                     }
                 )
-                # After the elimination stage, no need to update rankings
-                if stage == 1:
-                    rankings = update_rankings(rankings, home, away)
             url = content.get("links").get("next")
+            url = path.replace(".json", "") + f"/fixtures/{url[-1]}.json"
+
     except requests.HTTPError:
         continue
 
-    # elimination stage
-    if stage == 1:
-        continue
-
     # playoff stage
-    elif stage == 9:
-        median_points = np.median(list(rankings.values()))
-        teams_that_didnt_play = set(ratings.keys()) - team_played
-        for team in set(ratings.keys()) - team_played:
-            if rankings[team] > median_points:
-                for player in ratings[team].keys():
-                    ratings[team][player].append(
-                        MatchPoints(
-                            goals=0,
-                            yellow_cards=0,
-                            red_cards=0,
-                            team_points=0,
-                            goalkeeper_points=0,
-                        )
-                    )
-            else:
-                for player in ratings[team].keys():
-                    ratings[team][player].append(
-                        MatchPoints(
-                            goals=0,
-                            yellow_cards=0,
-                            red_cards=0,
-                            team_points=POINTS_PER_MISSING_GAME,
-                            goalkeeper_points=0,
-                        )
-                    )
+    if "playoff" in label:
+        resp = requests.get("https://api.gsplizzana.it/api/groups/1/rankings", timeout=5)
+        if resp.status_code == 404:
+            raise requests.HTTPError(f"Resource {url} not found.")
+        rankings = [x["name"] for x in resp.json()["data"]]
 
-    # everything else
-    else:
-        for team in set(ratings.keys()) - team_played:
+        for team in rankings[:8]:
+            for player in ratings[team].keys():
+                ratings[team][player].append(
+                    MatchPoints(
+                        goals=0,
+                        yellow_cards=0,
+                        red_cards=0,
+                        team_points=0,
+                        goalkeeper_points=0,
+                    )
+                )
+        for team in rankings[-8:]:
             for player in ratings[team].keys():
                 ratings[team][player].append(
                     MatchPoints(

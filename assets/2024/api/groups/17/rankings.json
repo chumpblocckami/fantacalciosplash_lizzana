@@ -1,0 +1,38 @@
+{
+   "data": [
+      {
+         "id": 38,
+         "name": "SAILOR MONE",
+         "tag": "SLM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "42": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 42,
+         "name": "TORTE DI MELE",
+         "tag": "TDM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "38": 0
+         },
+         "goal_difference": 0
+      }
+   ]
+}

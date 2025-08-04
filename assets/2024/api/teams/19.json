@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 134,
+         "name": "ALBERTO",
+         "surname": "CERISARA",
+         "username": "L\u2019UOMO CHE HA MANGIATO JUSTIN BIEBER",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\134-alberto.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 135,
+         "name": "GABRIELE",
+         "surname": "BRENTARI",
+         "username": "MOCIO VILEDA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\135-gabriele.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 136,
+         "name": "MATTIA",
+         "surname": "BALDESSARINI",
+         "username": "L\u2019ASSASSINO CEREBRALE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\136-mattia.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 137,
+         "name": "MATTIA",
+         "surname": "FESTI",
+         "username": "PLASTIC MAN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\137-mattia.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 138,
+         "name": "LUCA",
+         "surname": "GIORDANI",
+         "username": "LO CHEF PI\u00d9 IN FORMA D\u2019EUROPA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\138-luca.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 139,
+         "name": "LEONARDO",
+         "surname": "VIOLA",
+         "username": "UOMO INFORME 2.0",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\139-leonardo.png",
+         "team": {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/19/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

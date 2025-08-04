@@ -1,0 +1,276 @@
+{
+   "data": [
+      {
+         "id": 18,
+         "name": "SUGHI EBBASTA",
+         "tag": "SUG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sughiebbasta.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 7,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "26": 1
+         },
+         "goal_difference": 7
+      },
+      {
+         "id": 23,
+         "name": "HERTA VERNELLO",
+         "tag": "HER",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hertavernello.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 5,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "15": 1
+         },
+         "goal_difference": 5
+      },
+      {
+         "id": 6,
+         "name": "SDRUMALA",
+         "tag": "SDR",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sdrumala.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "8": 1
+         },
+         "goal_difference": 4
+      },
+      {
+         "id": 21,
+         "name": "AVANZI",
+         "tag": "AVA",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\avanzi.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "14": 1
+         },
+         "goal_difference": 4
+      },
+      {
+         "id": 5,
+         "name": "DEMOBUSTERS",
+         "tag": "DMB",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\demobusters.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "17": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 29,
+         "name": "CLANDES-TEAM",
+         "tag": "CLA",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clandesteam.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 3,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "7": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 13,
+         "name": "I MAGNIFICI",
+         "tag": "MAG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imagnifici.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "12": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 4,
+         "name": "PINGUINI TRENTINI",
+         "tag": "PGT",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pinguinitrentini.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "27": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 27,
+         "name": "MEDIASERT",
+         "tag": "MED",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\mediasert.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "4": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 12,
+         "name": "FEL LAZIO",
+         "tag": "FLL",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fellazio.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "13": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 7,
+         "name": "F.C. GORILLAZ",
+         "tag": "FCG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcgorillaz.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "29": -1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 17,
+         "name": "CLITORIDERS",
+         "tag": "CLI",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clitoriders.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "5": -1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 14,
+         "name": "FC WANDA TIM",
+         "tag": "WAN",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcwandatim.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "21": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 8,
+         "name": "A.C. DENTI",
+         "tag": "ACD",
+         "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\acdenti.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "6": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 15,
+         "name": "RSA UNITED",
+         "tag": "RSA",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\rsaunited.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 5,
+         "head_to_head": {
+            "23": -1
+         },
+         "goal_difference": -5
+      },
+      {
+         "id": 26,
+         "name": "F.C. JULIA",
+         "tag": "FCJ",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcjulia.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 7,
+         "head_to_head": {
+            "18": -1
+         },
+         "goal_difference": -7
+      }
+   ]
+}

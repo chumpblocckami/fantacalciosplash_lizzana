@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 13,
+         "name": "MATTIA",
+         "surname": "PENASA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\13-mattia.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 14,
+         "name": "MATTEO",
+         "surname": "BAZZANELLA",
+         "username": "ORGO NUDHO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\14-matteo.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 15,
+         "name": "FILIPPO",
+         "surname": "MARANER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\15-filippo.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 16,
+         "name": "RAFFAELE",
+         "surname": "PREZZI",
+         "username": "LA CURA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\16-raffaele.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 17,
+         "name": "DAVIDE",
+         "surname": "ROS\u00c0",
+         "username": "SOLDATO SEMPLICE NEMECSEK",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\17-davide.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 18,
+         "name": "ALESSANDRO",
+         "surname": "GALVAGNI",
+         "username": "LO STALKER",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\18-alessandro.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 19,
+         "name": "JACOPO",
+         "surname": "RICCI",
+         "username": "ORSO BALOSSO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\19-jacopo.png",
+         "team": {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/2/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

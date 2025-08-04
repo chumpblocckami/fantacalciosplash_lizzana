@@ -1,0 +1,24 @@
+{
+   "data": {
+      "id": 16,
+      "name": "Finale F",
+      "teams": [
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         },
+         {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

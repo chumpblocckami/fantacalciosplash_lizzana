@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 185,
+         "name": "DARIO",
+         "surname": "CAPPELLETTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\185-dario.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 186,
+         "name": "ALESSANDRO",
+         "surname": "ZAMBONI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\186-alessandro.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 187,
+         "name": "FRANCESCO",
+         "surname": "VETTORI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\187-francesco.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 188,
+         "name": "FEDERICO",
+         "surname": "VIVALDI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\188-federico.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 189,
+         "name": "FILIPPO",
+         "surname": "SIMONCELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\189-filippo.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 190,
+         "name": "ANDREA",
+         "surname": "POTRICH",
+         "username": "BRASILIANO BIANCO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\190-andrea.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 191,
+         "name": "PIETRO",
+         "surname": "DALLABERNARDINA",
+         "username": "BIDONE DELL'UMIDO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\191-pietro.png",
+         "team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/26/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

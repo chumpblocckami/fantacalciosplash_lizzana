@@ -1,0 +1,38 @@
+{
+   "data": [
+      {
+         "id": 11,
+         "name": "U.S. GUARNA",
+         "tag": "USG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\usguarna.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "22": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 22,
+         "name": "I MONTAGNA",
+         "tag": "MON",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imontagna.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "11": 0
+         },
+         "goal_difference": 0
+      }
+   ]
+}

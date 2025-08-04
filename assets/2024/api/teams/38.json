@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 273,
+         "name": "ANNA",
+         "surname": "ZANDONATI",
+         "username": "LINGOTTO D'ORO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\273-anna.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 274,
+         "name": "VALENTINA",
+         "surname": "PERGHEM",
+         "username": "ROBOCOP",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\274-valentina.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 275,
+         "name": "LIA",
+         "surname": "NICOLLI",
+         "username": "PANCHINARA DI TITANIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\275-lia.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 276,
+         "name": "MELANY",
+         "surname": "RAFFAELLI",
+         "username": "HOTEL BELVEDERE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\276-melany.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 277,
+         "name": "NOEMI",
+         "surname": "ECCHELI",
+         "username": "SCHINKENBROT",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\277-noemi.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 278,
+         "name": "CAMILLA",
+         "surname": "CATTOI",
+         "username": "K2",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\278-camilla.png",
+         "team": {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/38/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

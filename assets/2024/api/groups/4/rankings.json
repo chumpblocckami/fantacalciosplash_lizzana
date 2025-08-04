@@ -1,0 +1,80 @@
+{
+   "data": [
+      {
+         "id": 38,
+         "name": "SAILOR MONE",
+         "tag": "SLM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 13,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "45": 1,
+            "36": 1,
+            "35": 1
+         },
+         "goal_difference": 13
+      },
+      {
+         "id": 36,
+         "name": "BEERBANTELLE",
+         "tag": "BRB",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\beerbantelle.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 9,
+         "goals_conceded": 8,
+         "head_to_head": {
+            "35": 1,
+            "38": -1,
+            "45": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 45,
+         "name": "LE BALLE(RINE) IN FIESTA",
+         "tag": "LBF",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\leballerineinfiesta.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 3,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "38": -1,
+            "36": -1,
+            "35": 1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 35,
+         "name": "PRESE IN GIRO",
+         "tag": "PRE",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\preseingiro.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 2,
+         "goals_conceded": 15,
+         "head_to_head": {
+            "36": -1,
+            "38": -1,
+            "45": -1
+         },
+         "goal_difference": -13
+      }
+   ]
+}

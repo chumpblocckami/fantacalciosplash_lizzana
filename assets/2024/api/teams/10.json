@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 72,
+         "name": "SAMUELE",
+         "surname": "KETTAMIER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\72-samuele.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 73,
+         "name": "SIMONE",
+         "surname": "MIORELLI",
+         "username": "EGA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\73-simone.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 74,
+         "name": "DAVIDE",
+         "surname": "FONTANA",
+         "username": "GINEW",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\74-davide.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 75,
+         "name": "ALESSIO",
+         "surname": "ZANDONAI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\75-alessio.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 76,
+         "name": "MATTEO",
+         "surname": "ZANLUCCHI",
+         "username": "BIKER MICE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\76-matteo.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 77,
+         "name": "NICCOL\u00d2",
+         "surname": "ORSI",
+         "username": "JJ4",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\77-niccolo.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 78,
+         "name": "NICHOLAS",
+         "surname": "MARZADRO",
+         "username": "SGNAPPA SECCA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\78-nicholas.png",
+         "team": {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/10/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

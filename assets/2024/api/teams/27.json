@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 192,
+         "name": "MATTEO",
+         "surname": "MAZZOLA",
+         "username": "GENNARO BULLO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\192-matteo.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 193,
+         "name": "MICHELE",
+         "surname": "PARISI",
+         "username": "RON WEASLEY",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\193-michele.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 194,
+         "name": "ANDREA",
+         "surname": "ANZELINI",
+         "username": "UNNEL DEL VENTO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\194-andrea.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 195,
+         "name": "STEFANO",
+         "surname": "PIZZINI",
+         "username": "NEANDERTHAL",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\195-stefano.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 196,
+         "name": "LEONARDO",
+         "surname": "PARISI",
+         "username": "IL FRATELLO DI RON WEASLEY",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\196-leonardo.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 197,
+         "name": "DAVIDE",
+         "surname": "RAFFAELLI",
+         "username": "GIRAFFA DI FRASSINO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\197-davide.png",
+         "team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/27/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

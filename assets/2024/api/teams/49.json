@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 350,
+         "name": "VALENTINA",
+         "surname": "XAUSA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\350-valentina.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 351,
+         "name": "GIADA",
+         "surname": "ZANGARI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\351-giada.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 352,
+         "name": "ILARIA",
+         "surname": "RUOCCO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\352-ilaria.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 353,
+         "name": "ARIANNA",
+         "surname": "RUSSO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\353-arianna.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 354,
+         "name": "MONICA",
+         "surname": "SPADER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\354-monica.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 355,
+         "name": "CRISTINA ",
+         "surname": "AQUILINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\355-cristina.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 356,
+         "name": "CINDY",
+         "surname": "POLESEL",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\356-cindy.png",
+         "team": {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/49/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}
