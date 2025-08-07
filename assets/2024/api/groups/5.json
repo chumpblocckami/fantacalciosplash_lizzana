@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 5,
+      "name": "Femminile 4",
+      "teams": [
+         {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         },
+         {
+            "id": 48,
+            "name": "GREEN PASSERE",
+            "tag": "GRP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\48-green-passere.png",
+            "players_count": 8
+         },
+         {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         },
+         {
+            "id": 40,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\40-wanditas.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

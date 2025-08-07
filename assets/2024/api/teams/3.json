@@ -1,0 +1,196 @@
+{
+   "data": [
+      {
+         "id": 20,
+         "name": "FEDERICO",
+         "surname": "RIPPA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\20-federico.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 21,
+         "name": "LUCA",
+         "surname": "MORIN",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\21-luca.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 22,
+         "name": "JACOPO",
+         "surname": "ZECCHINELLI",
+         "username": "ER MUTANDA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\22-jacopo.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 23,
+         "name": "DAVIDE",
+         "surname": "ZOARA",
+         "username": "STURMTRUPPEN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\23-davide.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 24,
+         "name": "FABIO",
+         "surname": "BATTISTOTTI",
+         "username": "JEREMY WADE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\24-fabio.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 25,
+         "name": "ANDREA",
+         "surname": "DI FILIPPO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\25-andrea.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 26,
+         "name": "NICOLA",
+         "surname": "DALLEDONNE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\26-nicola.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 27,
+         "name": "FRANCESCO",
+         "surname": "CRISTOFORETTI",
+         "username": "BLACK HOLE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\27-francesco.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 28,
+         "name": "ALBERTO",
+         "surname": "CURCIO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\28-alberto.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 29,
+         "name": "LEONARDO",
+         "surname": "RINCO",
+         "username": "CORPO NAZIONALE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\29-leonardo.png",
+         "team": {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/3/players",
+      "per_page": 10,
+      "to": 10,
+      "total": 10
+   }
+}

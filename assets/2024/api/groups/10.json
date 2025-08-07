@@ -1,0 +1,136 @@
+{
+   "data": {
+      "id": 10,
+      "name": "Ottavi M",
+      "teams": [
+         {
+            "id": 24,
+            "name": "FC SAVIGNANO",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\24-fc-savignano.png",
+            "players_count": 7
+         },
+         {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         },
+         {
+            "id": 22,
+            "name": "I MONTAGNA",
+            "tag": "MON",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\22-i-montagna.png",
+            "players_count": 9
+         },
+         {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         },
+         {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         },
+         {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         },
+         {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         },
+         {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         },
+         {
+            "id": 13,
+            "name": "I MAGNIFICI",
+            "tag": "MAG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\13-i-magnifici.png",
+            "players_count": 7
+         },
+         {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         },
+         {
+            "id": 21,
+            "name": "AVANZI",
+            "tag": "AVA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\21-avanzi.png",
+            "players_count": 7
+         },
+         {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         },
+         {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         },
+         {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         },
+         {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         },
+         {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

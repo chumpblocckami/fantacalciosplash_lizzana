@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 359,
+         "name": "LEONARDO",
+         "surname": "CESCHINI",
+         "username": "PAN BAULETTO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\359-leonardo.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 360,
+         "name": "ROBERTO",
+         "surname": "GIACOMOLLI",
+         "username": "NESSUNO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\360-roberto.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 361,
+         "name": "WILSON",
+         "surname": "BONA",
+         "username": "IL PATRON DI TRENITALIA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\361-wilson.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 362,
+         "name": "ALESSIO",
+         "surname": "FARINATI",
+         "username": "PROTEINA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\362-alessio.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 363,
+         "name": "SARA",
+         "surname": "MAFFEI",
+         "username": "LA TRIVELLA DEL MAR IONIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\363-sara.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 364,
+         "name": "VALENTINA",
+         "surname": "PERGHEM",
+         "username": "ROBOCOP",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\364-valentina.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 365,
+         "name": "ANDREA",
+         "surname": "PEDROTTI",
+         "username": "MEDIOMAN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\365-andrea.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 366,
+         "name": "STEFANO",
+         "surname": "GALVAGNI",
+         "username": "MENTADENT",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\366-stefano.png",
+         "team": {
+            "id": 50,
+            "name": "SORSONERO",
+            "tag": "SSN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\50-sorsonero.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/50/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

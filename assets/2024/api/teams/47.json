@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 336,
+         "name": "BEATRICE",
+         "surname": "MONTE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\336-beatrice.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 337,
+         "name": "EMMA",
+         "surname": "SOZZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\337-emma.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 338,
+         "name": "ANNA",
+         "surname": "SIMONINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\338-anna.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 339,
+         "name": "MADDALENA",
+         "surname": "MONTE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\339-maddalena.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 340,
+         "name": "SOFIA",
+         "surname": "ZENDRI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\340-sofia.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 341,
+         "name": "FRANCESCA",
+         "surname": "SANTUARI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\341-francesca.png",
+         "team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\47-lemonade.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/47/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

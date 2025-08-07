@@ -1,0 +1,24 @@
+{
+   "data": {
+      "id": 18,
+      "name": "Terzo Quarto M",
+      "teams": [
+         {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         },
+         {
+            "id": 22,
+            "name": "I MONTAGNA",
+            "tag": "MON",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\22-i-montagna.png",
+            "players_count": 9
+         }
+      ]
+   }
+}

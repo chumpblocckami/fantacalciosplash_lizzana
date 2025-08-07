@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 47,
+         "name": "CHRISTIAN",
+         "surname": "RAINOTTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\47-christian.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 48,
+         "name": "DANIELE",
+         "surname": "DALBOSCO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\48-daniele.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 49,
+         "name": "DAVIDE",
+         "surname": "DEIMICHEI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\49-davide.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 50,
+         "name": "ANDREA",
+         "surname": "MENOLLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\50-andrea.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 51,
+         "name": "ALESSIO",
+         "surname": "DELLI COMPAGNI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\51-alessio.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 52,
+         "name": "CHRISTIAN",
+         "surname": "MARTINELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\52-christian.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 53,
+         "name": "ANDREAS",
+         "surname": "GALLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\53-andreas.png",
+         "team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/6/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/6/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/6/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/6/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

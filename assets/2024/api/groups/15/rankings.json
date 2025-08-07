@@ -1,0 +1,72 @@
+{
+   "data": [
+      {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 7,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "38": 1
+         },
+         "goal_difference": 5
+      },
+      {
+         "id": 48,
+         "name": "GREEN PASSERE",
+         "tag": "GRP",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\greenpassere.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 3,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "42": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 42,
+         "name": "TORTE DI MELE",
+         "tag": "TDM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "48": -1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 38,
+         "name": "SAILOR MONE",
+         "tag": "SLM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 7,
+         "head_to_head": {
+            "33": -1
+         },
+         "goal_difference": -5
+      }
+   ]
+}

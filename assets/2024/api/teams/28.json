@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 198,
+         "name": "RICHARD",
+         "surname": "SPAGNOLLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\198-richard.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 199,
+         "name": "ALESSIO",
+         "surname": "GIORDANO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\199-alessio.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 200,
+         "name": "FILIPPO",
+         "surname": "BAIS",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\200-filippo.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 201,
+         "name": "ANDREA",
+         "surname": "AMENDOLA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\201-andrea.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 202,
+         "name": "PIETRO",
+         "surname": "DI LIBERTO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\202-pietro.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 203,
+         "name": "ANTONIO",
+         "surname": "DOMINICI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\203-antonio.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 204,
+         "name": "DAVIDE",
+         "surname": "GANGANELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\204-davide.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 205,
+         "name": "LAPO",
+         "surname": "PINZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\205-lapo.png",
+         "team": {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/28/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

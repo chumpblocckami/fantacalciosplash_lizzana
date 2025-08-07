@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 121,
+         "name": "STEFANO",
+         "surname": "ITA",
+         "username": "GIANNIZZERO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\121-stefano.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 122,
+         "name": "FEDERICO",
+         "surname": "MORTILLARO",
+         "username": "MORTE NERA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\122-federico.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 123,
+         "name": "MICHELE",
+         "surname": "MERIGHI",
+         "username": "IENA RIDENS",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\123-michele.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 124,
+         "name": "ANDREA",
+         "surname": "GIORDANI",
+         "username": "ORSO BRUNO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\124-andrea.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 125,
+         "name": "STEFANO",
+         "surname": "GALVAGNI",
+         "username": "MENTADENT",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\125-stefano.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 126,
+         "name": "LUCA",
+         "surname": "FRASCA",
+         "username": "DELIRIUM TREMENS",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\126-luca.png",
+         "team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/17/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

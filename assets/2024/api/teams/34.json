@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 242,
+         "name": "SILVIA",
+         "surname": "CESCOTTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\242-silvia.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 243,
+         "name": "VALERIA",
+         "surname": "ROSI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\243-valeria.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 244,
+         "name": "FRANCESCA",
+         "surname": "PARISI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\244-francesca.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 245,
+         "name": "ANNA",
+         "surname": "ZENDRI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\245-anna.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 246,
+         "name": "VALENTINA",
+         "surname": "ASTE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\246-valentina.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 247,
+         "name": "MARTA",
+         "surname": "GILLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\247-marta.png",
+         "team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\34-hellas-ma-donne.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/34/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

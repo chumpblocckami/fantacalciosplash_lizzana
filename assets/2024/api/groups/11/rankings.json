@@ -1,0 +1,140 @@
+{
+   "data": [
+      {
+         "id": 22,
+         "name": "I MONTAGNA",
+         "tag": "MON",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imontagna.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 5,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "29": 1
+         },
+         "goal_difference": 5
+      },
+      {
+         "id": 24,
+         "name": "FC SAVIGNANO",
+         "tag": "FCS",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcsavignano.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 3,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "13": 1
+         },
+         "goal_difference": 2
+      },
+      {
+         "id": 18,
+         "name": "SUGHI EBBASTA",
+         "tag": "SUG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sughiebbasta.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "25": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 19,
+         "name": "SHARK ATTACK",
+         "tag": "SHA",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sharkattack.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "11": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 11,
+         "name": "U.S. GUARNA",
+         "tag": "USG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\usguarna.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "19": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 25,
+         "name": "CGB GAMBERONI",
+         "tag": "CGB",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "18": -1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 13,
+         "name": "I MAGNIFICI",
+         "tag": "MAG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imagnifici.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "24": -1
+         },
+         "goal_difference": -2
+      },
+      {
+         "id": 29,
+         "name": "CLANDES-TEAM",
+         "tag": "CLA",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clandesteam.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 5,
+         "head_to_head": {
+            "22": -1
+         },
+         "goal_difference": -5
+      }
+   ]
+}

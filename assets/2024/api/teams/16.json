@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 114,
+         "name": "ALESSANDRO",
+         "surname": "FESTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\114-alessandro.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 115,
+         "name": "MATTIA",
+         "surname": "GEROLA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\115-mattia.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 116,
+         "name": "LUCA",
+         "surname": "LASTA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\116-luca.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 117,
+         "name": "MICHELE",
+         "surname": "ECCEL",
+         "username": "IL ROGLIC DEL BARONE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\117-michele.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 118,
+         "name": "ALESSANDRO",
+         "surname": "GEROLA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\118-alessandro.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 119,
+         "name": "DAVIDE",
+         "surname": "GRIGOLETTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\119-davide.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 120,
+         "name": "ANDREA",
+         "surname": "RIOLFATTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\120-andrea.png",
+         "team": {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/16/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

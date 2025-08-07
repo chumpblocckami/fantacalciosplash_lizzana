@@ -1,0 +1,24 @@
+{
+   "data": {
+      "id": 17,
+      "name": "Terzo Quarto F",
+      "teams": [
+         {
+            "id": 38,
+            "name": "SAILOR MONE",
+            "tag": "SLM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\38-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 42,
+            "name": "TORTE DI MELE",
+            "tag": "TDM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\42-torte-di-mele.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

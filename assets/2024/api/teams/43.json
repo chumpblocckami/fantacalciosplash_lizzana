@@ -1,0 +1,116 @@
+{
+   "data": [
+      {
+         "id": 310,
+         "name": "CARLOTTA",
+         "surname": "POMAROLLI",
+         "username": "LA PREDESTINATA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\310-carlotta.png",
+         "team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 311,
+         "name": "FRANCESCA",
+         "surname": "SARTORI",
+         "username": "NASTRA ISOLANTE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\311-francesca.png",
+         "team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 312,
+         "name": "LICIA",
+         "surname": "FONDRIEST",
+         "username": "ANZA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\312-licia.png",
+         "team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 313,
+         "name": "VERONICA",
+         "surname": "OSELE",
+         "username": "MARION JONES",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\313-veronica.png",
+         "team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 314,
+         "name": "VALENTINA",
+         "surname": "SALZANI",
+         "username": "HELLO KITTY",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\314-valentina.png",
+         "team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\43-bone-ma-poche.png",
+            "players_count": 5
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/43/players",
+      "per_page": 10,
+      "to": 5,
+      "total": 5
+   }
+}

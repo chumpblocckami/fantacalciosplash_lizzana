@@ -1,0 +1,104 @@
+{
+   "data": [
+      {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 12,
+         "wins": 4,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 31,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "44": 1,
+            "42": 1,
+            "49": 1,
+            "37": 1
+         },
+         "goal_difference": 29
+      },
+      {
+         "id": 42,
+         "name": "TORTE DI MELE",
+         "tag": "TDM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 14,
+         "goals_conceded": 6,
+         "head_to_head": {
+            "49": 1,
+            "37": 1,
+            "33": -1,
+            "44": 1
+         },
+         "goal_difference": 8
+      },
+      {
+         "id": 37,
+         "name": "LOVEBUSTERS",
+         "tag": "LVB",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
+         "points": 4,
+         "wins": 1,
+         "draws": 1,
+         "losses": 2,
+         "goals_scored": 6,
+         "goals_conceded": 18,
+         "head_to_head": {
+            "49": 0,
+            "44": 1,
+            "42": -1,
+            "33": -1
+         },
+         "goal_difference": -12
+      },
+      {
+         "id": 44,
+         "name": "A.C. CAMPATE",
+         "tag": "ACC",
+         "logo_url": "/storage/teams/BslIdnHUyZtm87sD55fGfAghjo9yk50fMlee9YwT.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\accampate.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 6,
+         "goals_conceded": 13,
+         "head_to_head": {
+            "33": -1,
+            "37": -1,
+            "49": 1,
+            "42": -1
+         },
+         "goal_difference": -7
+      },
+      {
+         "id": 49,
+         "name": "TETTE BISCOTTATE",
+         "tag": "TET",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tettebiscottate.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 3,
+         "goals_scored": 3,
+         "goals_conceded": 21,
+         "head_to_head": {
+            "42": -1,
+            "37": 0,
+            "33": -1,
+            "44": -1
+         },
+         "goal_difference": -18
+      }
+   ]
+}

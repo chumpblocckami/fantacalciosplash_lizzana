@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 38,
+         "name": "MATTEO",
+         "surname": "GATTI",
+         "username": "SOLDATINO DI PIOMBO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\38-matteo.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 39,
+         "name": "DANIELE",
+         "surname": "RUZZENENTI",
+         "username": "HARD DISK",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\39-daniele.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 40,
+         "name": "ELIA",
+         "surname": "OMASONI",
+         "username": " COME TIGRO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\40-elia.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 41,
+         "name": "LORENZO",
+         "surname": "SCOTTINI",
+         "username": "ELDORADO SHOMURODOV",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\41-lorenzo.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 42,
+         "name": "GABRIEL",
+         "surname": "MELIS",
+         "username": "MANO A REAZIONE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\42-gabriel.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 43,
+         "name": "RICCARDO",
+         "surname": "ZENI",
+         "username": "ERZO PORCELLINO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\43-riccardo.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 44,
+         "name": "ROBERTO",
+         "surname": "BAROZZI",
+         "username": "DIVIN CODINO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\44-roberto.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 45,
+         "name": "SAMUELE",
+         "surname": "ROS\u00c0",
+         "username": "MARANZA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\45-samuele.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 46,
+         "name": "GIOVANNI",
+         "surname": "GIUSTO",
+         "username": "PLASMON",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\46-giovanni.png",
+         "team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/5/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

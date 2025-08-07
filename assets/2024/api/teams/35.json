@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 248,
+         "name": "ELENA",
+         "surname": "BERTOLLI",
+         "username": "CUERT RUZEM",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\248-elena.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 249,
+         "name": "CHIARA",
+         "surname": "SALVETTI",
+         "username": "BIONDA DENTRO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\249-chiara.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 250,
+         "name": "LUDOVICA",
+         "surname": "BEARZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\250-ludovica.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 251,
+         "name": "MATILDE",
+         "surname": "SIMONCELLI",
+         "username": "FRAULEIN ROTTERMEIER",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\251-matilde.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 252,
+         "name": "MICHELA",
+         "surname": "PEZZATO",
+         "username": "COCCA DI MAMMA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\252-michela.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 253,
+         "name": "RACHELE",
+         "surname": "GUGOLE",
+         "username": "PANNOCCHIA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\253-rachele.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 254,
+         "name": "NICOL",
+         "surname": "GAVIOLI",
+         "username": "L'ULTIMA DELLE GROUPIES",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\254-nicol.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 255,
+         "name": "VIRGINIA",
+         "surname": "SIMONCELLI",
+         "username": "CONI ZUGNA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\255-virginia.png",
+         "team": {
+            "id": 35,
+            "name": "PRESE IN GIRO",
+            "tag": "PRE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\35-prese-in-giro.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/35/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

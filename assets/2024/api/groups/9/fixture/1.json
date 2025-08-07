@@ -1,0 +1,2100 @@
+{
+   "data": [
+      {
+         "id": 124,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T19:40:00.000000Z",
+         "home_team": {
+            "id": 13,
+            "name": "I MAGNIFICI",
+            "tag": "MAG",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imagnifici.png",
+            "players_count": 7,
+            "score": 1,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 94,
+                  "name": "DANNY",
+                  "surname": "GIORDANI",
+                  "username": "PACULTO DEPRIMA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\dannygiordani.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 95,
+                  "name": "GUGLIELMO",
+                  "surname": "CAROLI",
+                  "username": "IVAN BOGDANOV",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\guglielmocaroli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 96,
+                  "name": "ALBERTO",
+                  "surname": "SIMONCELLI",
+                  "username": "IGINIO MASSARI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\albertosimoncelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 97,
+                  "name": "ELIA",
+                  "surname": "BAROZZI",
+                  "username": "BJORN BORG",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\eliabarozzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 98,
+                  "name": "FILIPPO",
+                  "surname": "BENETTI",
+                  "username": "FUNGO ATOMICO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\filippobenetti.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 99,
+                  "name": "SIMONE",
+                  "surname": "SCHONSBERG",
+                  "username": "POLIS-TIROLO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simoneschonsberg.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 100,
+                  "name": "LORENZO",
+                  "surname": "ZUANI",
+                  "username": "IL PIEDIATRA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lorenzozuani.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 12,
+            "name": "FEL LAZIO",
+            "tag": "FLL",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fellazio.png",
+            "players_count": 7,
+            "score": 1,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 2,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 88,
+                  "name": "IVAN",
+                  "surname": "BORELLA",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ivanborella.png",
+                  "goals": 0,
+                  "fouls": 2,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 87,
+                  "name": "FRANCESCO",
+                  "surname": "RUSSO",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescorusso.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 89,
+                  "name": "GIOVANNI",
+                  "surname": "BERTOLINI",
+                  "username": "PAESE DEI BALOCCHI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giovannibertolini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 90,
+                  "name": "MICHELE",
+                  "surname": "PELLINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\michelepellini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 91,
+                  "name": "OMMASO",
+                  "surname": "BRUSCHETTI",
+                  "username": "SINDACO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ommasobruschetti.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 92,
+                  "name": "VITO",
+                  "surname": "INCANDELA",
+                  "username": "RITOLO PURO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\vitoincandela.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 93,
+                  "name": "SIMONE",
+                  "surname": "MARTINI",
+                  "username": "DONATELLA RETTORE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simonemartini.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 842,
+            "started_at": "2024-08-17T19:49:31.000000Z",
+            "stopped_at": "2024-08-17T19:56:33.000000Z",
+            "current": 842,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 125,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T20:00:00.000000Z",
+         "home_team": {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sughiebbasta.png",
+            "players_count": 7,
+            "score": 7,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 127,
+                  "name": "DANIELE",
+                  "surname": "FELTRINELLI",
+                  "username": "TRANSIBERIANA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\danielefeltrinelli.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 128,
+                  "name": "FEDERICO",
+                  "surname": "LEONARDI",
+                  "username": "PAN CARR\u00c8",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicoleonardi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 129,
+                  "name": "FEDERICO",
+                  "surname": "IGNACCOLO",
+                  "username": "FIDEL - CERCI DELLA BUSA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicoignaccolo.png",
+                  "goals": 4,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 130,
+                  "name": "LUCA",
+                  "surname": "ONOLLI",
+                  "username": "MARK RENTON",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lucaonolli.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 131,
+                  "name": "EMANUELE",
+                  "surname": "MIORANDI",
+                  "username": "RE DI BASTONI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emanuelemiorandi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 132,
+                  "name": "RICCARDO",
+                  "surname": "BARBIERO",
+                  "username": "ALABARDA SPAZIALE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\riccardobarbiero.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 133,
+                  "name": "MICHELE",
+                  "surname": "LEONARDI",
+                  "username": "PESTO TIGULLIO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\micheleleonardi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcjulia.png",
+            "players_count": 7,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 185,
+                  "name": "DARIO",
+                  "surname": "CAPPELLETTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\dariocappelletti.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 186,
+                  "name": "ALESSANDRO",
+                  "surname": "ZAMBONI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandrozamboni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 187,
+                  "name": "FRANCESCO",
+                  "surname": "VETTORI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescovettori.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 188,
+                  "name": "FEDERICO",
+                  "surname": "VIVALDI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicovivaldi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 189,
+                  "name": "FILIPPO",
+                  "surname": "SIMONCELLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\filipposimoncelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 190,
+                  "name": "ANDREA",
+                  "surname": "POTRICH",
+                  "username": "BRASILIANO BIANCO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreapotrich.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 191,
+                  "name": "PIETRO",
+                  "surname": "DALLABERNARDINA",
+                  "username": "BIDONE DELL'UMIDO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\pietrodallabernardina.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 931,
+            "started_at": "2024-08-17T20:09:45.000000Z",
+            "stopped_at": "2024-08-17T20:17:02.000000Z",
+            "current": 931,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 126,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T20:20:00.000000Z",
+         "home_team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcgorillaz.png",
+            "players_count": 8,
+            "score": 2,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 3,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 8
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 54,
+                  "name": "NICOL\u00d2",
+                  "surname": "GENTILE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicologentile.png",
+                  "goals": 0,
+                  "fouls": 3,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 55,
+                  "name": "ALESSANDRO",
+                  "surname": "COMPER",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandrocomper.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 56,
+                  "name": "ALESSANDRO",
+                  "surname": "RUELE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandroruele.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 58,
+                  "name": "LEONARDO",
+                  "surname": "ADAMI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\leonardoadami.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 57,
+                  "name": "NICOL\u00d2",
+                  "surname": "SPEZIALI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicolospeziali.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 60,
+                  "name": "GIOVANNI",
+                  "surname": "ORBOLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giovanniorboli.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 59,
+                  "name": "SAMUELE",
+                  "surname": "MAFFEI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\samuelemaffei.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 61,
+                  "name": "ANDREA",
+                  "surname": "PEDROTTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreapedrotti.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clandesteam.png",
+            "players_count": 7,
+            "score": 3,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 206,
+                  "name": "GABRIELE",
+                  "surname": "PIAMARTA",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\gabrielepiamarta.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 207,
+                  "name": "OMMASO",
+                  "surname": "CANEPEL",
+                  "username": "RIDGE FORRESTER",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ommasocanepel.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 208,
+                  "name": "LORENZO",
+                  "surname": "CANEPEL",
+                  "username": "GIARDINIERE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lorenzocanepel.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 209,
+                  "name": "PIETRO",
+                  "surname": "ASINI",
+                  "username": "ORTON",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\pietroasini.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 210,
+                  "name": "RICCARDO",
+                  "surname": "BRUNELLI",
+                  "username": "INSETTO STECCO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\riccardobrunelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 211,
+                  "name": "PIETRO",
+                  "surname": "ZANDONAI",
+                  "username": "BOY SCOUT",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\pietrozandonai.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 212,
+                  "name": "DANIELE",
+                  "surname": "FORONI",
+                  "username": "SWAG FORONI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\danieleforoni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 857,
+            "started_at": "2024-08-17T20:27:04.000000Z",
+            "stopped_at": "2024-08-17T20:34:20.000000Z",
+            "current": 857,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 127,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T20:40:00.000000Z",
+         "home_team": {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clitoriders.png",
+            "players_count": 6,
+            "score": 1,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 2,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 121,
+                  "name": "STEFANO",
+                  "surname": "ITA",
+                  "username": "GIANNIZZERO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefanoita.png",
+                  "goals": 0,
+                  "fouls": 2,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 122,
+                  "name": "FEDERICO",
+                  "surname": "MORTILLARO",
+                  "username": "MORTE NERA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicomortillaro.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 123,
+                  "name": "MICHELE",
+                  "surname": "MERIGHI",
+                  "username": "IENA RIDENS",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\michelemerighi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 124,
+                  "name": "ANDREA",
+                  "surname": "GIORDANI",
+                  "username": "ORSO BRUNO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreagiordani.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 125,
+                  "name": "STEFANO",
+                  "surname": "GALVAGNI",
+                  "username": "MENTADENT",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefanogalvagni.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 126,
+                  "name": "LUCA",
+                  "surname": "FRASCA",
+                  "username": "DELIRIUM TREMENS",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lucafrasca.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\demobusters.png",
+            "players_count": 9,
+            "score": 2,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 2,
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 9
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 38,
+                  "name": "MATTEO",
+                  "surname": "GATTI",
+                  "username": "SOLDATINO DI PIOMBO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteogatti.png",
+                  "goals": 0,
+                  "fouls": 2,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 40,
+                  "name": "ELIA",
+                  "surname": "OMASONI",
+                  "username": " COME TIGRO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\eliaomasoni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 39,
+                  "name": "DANIELE",
+                  "surname": "RUZZENENTI",
+                  "username": "HARD DISK",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\danieleruzzenenti.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 41,
+                  "name": "LORENZO",
+                  "surname": "SCOTTINI",
+                  "username": "ELDORADO SHOMURODOV",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lorenzoscottini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 42,
+                  "name": "GABRIEL",
+                  "surname": "MELIS",
+                  "username": "MANO A REAZIONE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\gabrielmelis.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 45,
+                  "name": "SAMUELE",
+                  "surname": "ROS\u00c0",
+                  "username": "MARANZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\samuelerosa.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 44,
+                  "name": "ROBERTO",
+                  "surname": "BAROZZI",
+                  "username": "DIVIN CODINO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\robertobarozzi.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 43,
+                  "name": "RICCARDO",
+                  "surname": "ZENI",
+                  "username": "ERZO PORCELLINO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\riccardozeni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 46,
+                  "name": "GIOVANNI",
+                  "surname": "GIUSTO",
+                  "username": "PLASMON",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giovannigiusto.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 848,
+            "started_at": "2024-08-17T20:45:33.000000Z",
+            "stopped_at": "2024-08-17T20:52:41.000000Z",
+            "current": 848,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 43,
+               "name": "RICCARDO",
+               "surname": "ZENI",
+               "username": "ERZO PORCELLINO",
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\riccardozeni.png",
+               "goals": 0,
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 678
+         },
+         "last_red_card": null
+      },
+      {
+         "id": 128,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T21:00:00.000000Z",
+         "home_team": {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sdrumala.png",
+            "players_count": 7,
+            "score": 4,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 2,
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 47,
+                  "name": "CHRISTIAN",
+                  "surname": "RAINOTTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\christianrainotti.png",
+                  "goals": 0,
+                  "fouls": 2,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 48,
+                  "name": "DANIELE",
+                  "surname": "DALBOSCO",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\danieledalbosco.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 49,
+                  "name": "DAVIDE",
+                  "surname": "DEIMICHEI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\davidedeimichei.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 50,
+                  "name": "ANDREA",
+                  "surname": "MENOLLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreamenolli.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 51,
+                  "name": "ALESSIO",
+                  "surname": "DELLI COMPAGNI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessiodelli-compagni.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 53,
+                  "name": "ANDREAS",
+                  "surname": "GALLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreasgalli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 52,
+                  "name": "CHRISTIAN",
+                  "surname": "MARTINELLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\christianmartinelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "winner": false,
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\acdenti.png",
+            "players_count": 5,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 4,
+               "yellow_cards": 1,
+               "red_cards": 1,
+               "substitutions": 5
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 62,
+                  "name": "FEDERICO",
+                  "surname": "BAITA",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicobaita.png",
+                  "goals": 0,
+                  "fouls": 4,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 64,
+                  "name": "MARIO",
+                  "surname": "GRIFEO",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mariogrifeo.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 63,
+                  "name": "NICOL\u00d2",
+                  "surname": "MARZARI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicolomarzari.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 65,
+                  "name": "MAVERICK",
+                  "surname": "BERTOLINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maverickbertolini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 66,
+                  "name": "MICHAEL",
+                  "surname": "BERT\u00c8",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\michaelberte.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 1,
+                  "red_cards": 1
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 847,
+            "started_at": "2024-08-17T21:04:10.000000Z",
+            "stopped_at": "2024-08-17T21:11:16.000000Z",
+            "current": 847,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 49,
+               "name": "DAVIDE",
+               "surname": "DEIMICHEI",
+               "username": null,
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\davidedeimichei.png",
+               "goals": 0,
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 383
+         },
+         "last_red_card": {
+            "player": {
+               "id": 66,
+               "name": "MICHAEL",
+               "surname": "BERT\u00c8",
+               "username": null,
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\michaelberte.png",
+               "goals": 0,
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 1
+            },
+            "time": 725
+         }
+      },
+      {
+         "id": 129,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T21:20:00.000000Z",
+         "home_team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pinguinitrentini.png",
+            "players_count": 8,
+            "score": 2,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 8
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 30,
+                  "name": "GIOVANNI",
+                  "surname": "DI MEO",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giovannidi-meo.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 32,
+                  "name": "MATTEO",
+                  "surname": "PILATI",
+                  "username": "PONZIO PILATI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteopilati.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 31,
+                  "name": "ENRICO",
+                  "surname": "BORDIGNON",
+                  "username": "ORMONE IMPAZZITO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\enricobordignon.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 33,
+                  "name": "ANDREA",
+                  "surname": "MANFREDI",
+                  "username": "PSYCO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreamanfredi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 34,
+                  "name": "ANDREA",
+                  "surname": "ASTE",
+                  "username": "3 OMBRE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreaaste.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 35,
+                  "name": "MATTEO",
+                  "surname": "BRIGO",
+                  "username": "EURO BRIGO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteobrigo.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 36,
+                  "name": "ALESSIO",
+                  "surname": "FARINATI",
+                  "username": "PROTEINA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessiofarinati.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 37,
+                  "name": "DAVIDE",
+                  "surname": "MANICA",
+                  "username": "PALA EOLICA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\davidemanica.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\mediasert.png",
+            "players_count": 6,
+            "score": 2,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 192,
+                  "name": "MATTEO",
+                  "surname": "MAZZOLA",
+                  "username": "GENNARO BULLO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteomazzola.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 193,
+                  "name": "MICHELE",
+                  "surname": "PARISI",
+                  "username": "RON WEASLEY",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\micheleparisi.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 196,
+                  "name": "LEONARDO",
+                  "surname": "PARISI",
+                  "username": "IL FRATELLO DI RON WEASLEY",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\leonardoparisi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 194,
+                  "name": "ANDREA",
+                  "surname": "ANZELINI",
+                  "username": "UNNEL DEL VENTO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreaanzelini.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 195,
+                  "name": "STEFANO",
+                  "surname": "PIZZINI",
+                  "username": "NEANDERTHAL",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefanopizzini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 197,
+                  "name": "DAVIDE",
+                  "surname": "RAFFAELLI",
+                  "username": "GIRAFFA DI FRASSINO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\davideraffaelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 844,
+            "started_at": "2024-08-17T21:22:38.000000Z",
+            "stopped_at": "2024-08-17T21:29:41.000000Z",
+            "current": 844,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 130,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T21:40:00.000000Z",
+         "home_team": {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hertavernello.png",
+            "players_count": 8,
+            "score": 5,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 8
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 163,
+                  "name": "LORENZO",
+                  "surname": "CANALI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lorenzocanali.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 164,
+                  "name": "GIACOMO",
+                  "surname": "BONGIOVANNI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giacomobongiovanni.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 165,
+                  "name": "ORIAM",
+                  "surname": "GALLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\oriamgalli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 167,
+                  "name": "RIVJO",
+                  "surname": "FIORA",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\rivjofiora.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 166,
+                  "name": "ALESSANDRO",
+                  "surname": "ENGATTINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandroengattini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 168,
+                  "name": "FEDERICO",
+                  "surname": "FASANELLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\federicofasanelli.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 170,
+                  "name": "MATTEO",
+                  "surname": "SIMONCELLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteosimoncelli.png",
+                  "goals": 3,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 169,
+                  "name": "NICOLA",
+                  "surname": "BIANCHI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicolabianchi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\rsaunited.png",
+            "players_count": 7,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 107,
+                  "name": "MATTEO",
+                  "surname": "ZANINI",
+                  "username": "IL MECCANICO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteozanini.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 109,
+                  "name": "ALESSANDRO",
+                  "surname": "FAIT",
+                  "username": "FAIT CLUB",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandrofait.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 108,
+                  "name": "NICOLA",
+                  "surname": "OGNI",
+                  "username": "CIRCO TOGNI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicolaogni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 111,
+                  "name": "MIRKO",
+                  "surname": "RAFFAELLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mirkoraffaelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 110,
+                  "name": "OMMASO",
+                  "surname": "CALIARI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ommasocaliari.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 112,
+                  "name": "ANDREA",
+                  "surname": "OGNI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreaogni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 113,
+                  "name": "LUCA",
+                  "surname": "POZZATI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lucapozzati.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 843,
+            "started_at": "2024-08-17T21:42:15.000000Z",
+            "stopped_at": "2024-08-17T21:49:17.000000Z",
+            "current": 843,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 112,
+               "name": "ANDREA",
+               "surname": "OGNI",
+               "username": null,
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreaogni.png",
+               "goals": 0,
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 741
+         },
+         "last_red_card": null
+      },
+      {
+         "id": 131,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-18T22:00:00.000000Z",
+         "home_team": {
+            "id": 21,
+            "name": "AVANZI",
+            "tag": "AVA",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\avanzi.png",
+            "players_count": 7,
+            "score": 4,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 7
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 147,
+                  "name": "ARMANDO",
+                  "surname": "PEROTTONI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\armandoperottoni.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 148,
+                  "name": "ANTONIO",
+                  "surname": "CALABR\u00d2",
+                  "username": "TOT\u00d2 SAPORE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\antoniocalabro.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 149,
+                  "name": "ALESSANDRO",
+                  "surname": "ZANDONAI",
+                  "username": "L'UOMO CHE SUSSURRAVA AI GHEPARDI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alessandrozandonai.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 150,
+                  "name": "LORENZO",
+                  "surname": "BAROZZI",
+                  "username": "TAGLIAGOLE CANADESE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lorenzobarozzi.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 151,
+                  "name": "MATTEO",
+                  "surname": "MANCONI",
+                  "username": "MANCUSO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteomanconi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 152,
+                  "name": "MICHELE",
+                  "surname": "RUELE",
+                  "username": "RUY MYSTERIO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\micheleruele.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 153,
+                  "name": "ANDREA",
+                  "surname": "BAROZZI",
+                  "username": "JAVIER ZANETTI DELLA STATALE 12",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\andreabarozzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcwandatim.png",
+            "players_count": 6,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 101,
+                  "name": "CARLO",
+                  "surname": "POMAROLLI",
+                  "username": "BETTINO CRAXI",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\carlopomarolli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 103,
+                  "name": "FRANCESCO",
+                  "surname": "AMADORI",
+                  "username": "GASOLIO ARTICO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescoamadori.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 102,
+                  "name": "MARCO",
+                  "surname": "BERTOLINI",
+                  "username": "MACCHIA DI GASOLIO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcobertolini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 104,
+                  "name": "STEFANO",
+                  "surname": "ROSINA",
+                  "username": "GPL",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefanorosina.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 105,
+                  "name": "EMANUELE",
+                  "surname": "VALDUGA",
+                  "username": "FIAMMIFERO",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emanuelevalduga.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 106,
+                  "name": "MATTIA",
+                  "surname": "SPAGNOLLI",
+                  "username": "DOTTOR NOWZARADAN",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mattiaspagnolli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 9,
+         "timer": {
+            "offset": 857,
+            "started_at": "2024-08-17T21:59:59.000000Z",
+            "stopped_at": "2024-08-17T22:07:15.000000Z",
+            "current": 857,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/groups/9/fixtures?page=1",
+      "last": "https://api.gsplizzana.it/api/groups/9/fixtures?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/9/fixtures?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/groups/9/fixtures",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

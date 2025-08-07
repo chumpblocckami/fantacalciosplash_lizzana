@@ -1,0 +1,264 @@
+{
+   "data": {
+      "id": 1,
+      "name": "Maschile",
+      "teams": [
+         {
+            "id": 6,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\6-sdrumala.png",
+            "players_count": 7
+         },
+         {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         },
+         {
+            "id": 30,
+            "name": "SALA GIARDINI",
+            "tag": "SAL",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-sala-giardini.png",
+            "players_count": 5
+         },
+         {
+            "id": 22,
+            "name": "I MONTAGNA",
+            "tag": "MON",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\22-i-montagna.png",
+            "players_count": 9
+         },
+         {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         },
+         {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         },
+         {
+            "id": 26,
+            "name": "F.C. JULIA",
+            "tag": "FCJ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\26-fc-julia.png",
+            "players_count": 7
+         },
+         {
+            "id": 21,
+            "name": "AVANZI",
+            "tag": "AVA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\21-avanzi.png",
+            "players_count": 7
+         },
+         {
+            "id": 20,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\20-modium.png",
+            "players_count": 7
+         },
+         {
+            "id": 24,
+            "name": "FC SAVIGNANO",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\24-fc-savignano.png",
+            "players_count": 7
+         },
+         {
+            "id": 1,
+            "name": "MAI UNA GIOIA",
+            "tag": "MUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\1-mai-una-gioia.png",
+            "players_count": 8
+         },
+         {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         },
+         {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         },
+         {
+            "id": 27,
+            "name": "MEDIASERT",
+            "tag": "MED",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\27-mediasert.png",
+            "players_count": 6
+         },
+         {
+            "id": 13,
+            "name": "I MAGNIFICI",
+            "tag": "MAG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\13-i-magnifici.png",
+            "players_count": 7
+         },
+         {
+            "id": 10,
+            "name": "SBARX",
+            "tag": "SBX",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\10-sbarx.png",
+            "players_count": 7
+         },
+         {
+            "id": 12,
+            "name": "FEL LAZIO",
+            "tag": "FLL",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\12-fel-lazio.png",
+            "players_count": 7
+         },
+         {
+            "id": 19,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\19-shark-attack.png",
+            "players_count": 6
+         },
+         {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         },
+         {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         },
+         {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         },
+         {
+            "id": 9,
+            "name": "BAYERN MONA",
+            "tag": "BMN",
+            "logo_url": "/storage/teams/S2JZFXQjdBLXRQjK9hSaZ377Vn1kN8QHHTJDHJTu.png",
+            "production_path": "C:\\PROD\\Teams\\9-bayern-mona.png",
+            "players_count": 5
+         },
+         {
+            "id": 2,
+            "name": "HELLAS MADONNA",
+            "tag": "HMD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\2-hellas-madonna.png",
+            "players_count": 7
+         },
+         {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         },
+         {
+            "id": 17,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\17-clitoriders.png",
+            "players_count": 6
+         },
+         {
+            "id": 23,
+            "name": "HERTA VERNELLO",
+            "tag": "HER",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\23-herta-vernello.png",
+            "players_count": 8
+         },
+         {
+            "id": 16,
+            "name": "LA CONTEA FC",
+            "tag": "LAC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\16-la-contea-fc.png",
+            "players_count": 7
+         },
+         {
+            "id": 5,
+            "name": "DEMOBUSTERS",
+            "tag": "DMB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\5-demobusters.png",
+            "players_count": 9
+         },
+         {
+            "id": 3,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VDF",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\3-vigili-del-fusto.png",
+            "players_count": 10
+         },
+         {
+            "id": 8,
+            "name": "A.C. DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/kB1JCnY1GRcH2Jyz6eZicQWNbNwlI5z8eUt6JtxQ.png",
+            "production_path": "C:\\PROD\\Teams\\8-ac-denti.png",
+            "players_count": 5
+         },
+         {
+            "id": 28,
+            "name": "FC SCHALKE 104",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\28-fc-schalke-104.png",
+            "players_count": 8
+         },
+         {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      ]
+   }
+}

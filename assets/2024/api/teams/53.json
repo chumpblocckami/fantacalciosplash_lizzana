@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 383,
+         "name": "EMANUELE",
+         "surname": "TOMASONI",
+         "username": "PINOCCHIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\383-emanuele.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 384,
+         "name": "MICHELE",
+         "surname": "ECCEL",
+         "username": "MBAPPECCEL",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\384-michele.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 385,
+         "name": "PIETRO",
+         "surname": "SLAVIK",
+         "username": "IL BAMBINO D'ORO 2.0",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\385-pietro.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 386,
+         "name": "MATTIA",
+         "surname": "FESTI",
+         "username": "PLASTICMAN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\386-mattia.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 387,
+         "name": "LISA",
+         "surname": "BISOFFI",
+         "username": "VODKI TEMPI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\387-lisa.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 388,
+         "name": "MARIKA",
+         "surname": "BISOFFI",
+         "username": "IDROCARBURO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\388-marika.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 389,
+         "name": "MICHELE",
+         "surname": "MERIGHI",
+         "username": "LA IENA RIDENS",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\389-michele.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 390,
+         "name": "LUCA",
+         "surname": "FRASCA",
+         "username": "DELIRIUM TREMENS",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\390-luca.png",
+         "team": {
+            "id": 53,
+            "name": "COLLASSOROSSO",
+            "tag": "CSR",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\53-collassorosso.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/53/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/53/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/53/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/53/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

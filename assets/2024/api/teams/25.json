@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 178,
+         "name": "MARCO",
+         "surname": "GEROLA",
+         "username": "GERONIMO STILTON",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\178-marco.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 179,
+         "name": "FEDERICO",
+         "surname": "ZOLLER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\179-federico.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 180,
+         "name": "HOMAS",
+         "surname": "PERENZONI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\180-homas.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 181,
+         "name": "GABRIELE",
+         "surname": "GOTTARDI",
+         "username": "CENTOMILA CAMMELLI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\181-gabriele.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 182,
+         "name": "ALESSANDRO",
+         "surname": "ZENI",
+         "username": "ULTIMO SAMURAI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\182-alessandro.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 183,
+         "name": "SEBASTIANO",
+         "surname": "ZOLLER",
+         "username": "CARENZA DI SPRITZ",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\183-sebastiano.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 184,
+         "name": "LUCA",
+         "surname": "PERENZONI",
+         "username": "CHERNOBYL",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\184-luca.png",
+         "team": {
+            "id": 25,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\25-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/25/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

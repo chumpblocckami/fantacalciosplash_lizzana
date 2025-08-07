@@ -1,0 +1,80 @@
+{
+   "data": [
+      {
+         "id": 43,
+         "name": "BONE MA POCHE",
+         "tag": "BMP",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bonemapoche.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 28,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "46": 1,
+            "34": 1,
+            "47": 1
+         },
+         "goal_difference": 28
+      },
+      {
+         "id": 47,
+         "name": "LEMONADE",
+         "tag": "LEM",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lemonade.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 12,
+         "goals_conceded": 9,
+         "head_to_head": {
+            "34": 1,
+            "43": -1,
+            "46": 1
+         },
+         "goal_difference": 3
+      },
+      {
+         "id": 34,
+         "name": "HELLAS MA-DONNE",
+         "tag": "HMD",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hellasmadonne.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 4,
+         "goals_conceded": 19,
+         "head_to_head": {
+            "47": -1,
+            "43": -1,
+            "46": 1
+         },
+         "goal_difference": -15
+      },
+      {
+         "id": 46,
+         "name": "GIN TONICHE",
+         "tag": "GIN",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gintoniche.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 5,
+         "goals_conceded": 21,
+         "head_to_head": {
+            "43": -1,
+            "34": -1,
+            "47": -1
+         },
+         "goal_difference": -16
+      }
+   ]
+}

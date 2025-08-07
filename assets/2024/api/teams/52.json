@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 375,
+         "name": "STEFANO",
+         "surname": "TITA",
+         "username": "IL GIANNIZZERO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\375-stefano.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 376,
+         "name": "MATTEO",
+         "surname": "CRISTEL",
+         "username": "PAUL FINCH",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\376-matteo.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 377,
+         "name": "GIANNI",
+         "surname": "SALA",
+         "username": "GIANLUCA GRIGNANI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\377-gianni.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 378,
+         "name": "DANIELE",
+         "surname": "FELTRINELLI",
+         "username": "LA TRANSIBERIANA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\378-daniele.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 379,
+         "name": "CARLOTTA",
+         "surname": "POMAROLLI",
+         "username": "LA PREDESTINATA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\379-carlotta.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 380,
+         "name": "MARIA VITTORIA",
+         "surname": "ZOLLER",
+         "username": "L'IMPOSTORA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\380-maria-vittoria.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 381,
+         "name": "FEDERICO",
+         "surname": "MORTILLARO",
+         "username": "LA MORTE NERA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\381-federico.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 382,
+         "name": "LEONARDO",
+         "surname": "VIOLA",
+         "username": "L'UOMO INFORME 2.0",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\382-leonardo.png",
+         "team": {
+            "id": 52,
+            "name": "FUSTOVERDE",
+            "tag": "FVD",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\52-fustoverde.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/52/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

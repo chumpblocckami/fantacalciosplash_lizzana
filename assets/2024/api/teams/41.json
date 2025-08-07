@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 296,
+         "name": "ELISA",
+         "surname": "POLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\296-elisa.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 297,
+         "name": "VALERIA",
+         "surname": "PAIOLA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\297-valeria.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 298,
+         "name": "MARTINA",
+         "surname": "RIVA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\298-martina.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 299,
+         "name": "BENEDETTA",
+         "surname": "FORADORI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\299-benedetta.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 300,
+         "name": "CATERINA",
+         "surname": "BARBERI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\300-caterina.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 301,
+         "name": "ANGELICA",
+         "surname": "PERGHEM",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\301-angelica.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 302,
+         "name": "ELISA",
+         "surname": "GEROLA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\302-elisa.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 303,
+         "name": "ALICE",
+         "surname": "ARMELLINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\303-alice.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(OS\u00c8)",
+            "tag": "PEC",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/41/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

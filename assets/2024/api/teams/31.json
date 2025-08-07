@@ -1,0 +1,201 @@
+{
+   "data": [
+      {
+         "id": 218,
+         "name": "DAVIDE",
+         "surname": "ANDERLONI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\218-davide.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 219,
+         "name": "ARMANDO",
+         "surname": "RENZETTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\219-armando.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 220,
+         "name": "SIMONE",
+         "surname": "GIOVINAZZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\220-simone.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 221,
+         "name": "SAVERIO",
+         "surname": "SANTORO",
+         "username": "-",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\221-saverio.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 222,
+         "name": "FRANCESCO",
+         "surname": "MODENA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\222-francesco.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 223,
+         "name": "FABIO",
+         "surname": "DAVES",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\223-fabio.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 224,
+         "name": "ANDREA",
+         "surname": "BELLINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\224-andrea.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 225,
+         "name": "LUCA",
+         "surname": "MARCHESI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\225-luca.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 226,
+         "name": "LEONARDO",
+         "surname": "FEDRIGOTTI",
+         "username": "IL BOSCAIOLO LEDRENSE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\226-leonardo.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      },
+      {
+         "id": 227,
+         "name": "LORENZO",
+         "surname": "CASARI",
+         "username": "IL TRENO FERMA A PERI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\227-lorenzo.png",
+         "team": {
+            "id": 31,
+            "name": "NAZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\31-nazionale-ferrovieri.png",
+            "players_count": 11
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/31/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/31/players?page=2",
+      "prev": null,
+      "next": "https://api.gsplizzana.it/api/teams/31/players?page=2"
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 2,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/31/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/31/players?page=2",
+            "label": "2",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/31/players?page=2",
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/31/players",
+      "per_page": 10,
+      "to": 10,
+      "total": 11
+   }
+}

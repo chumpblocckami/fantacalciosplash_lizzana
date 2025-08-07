@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 79,
+         "name": "WILLIAM",
+         "surname": "PEDRI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\79-william.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 80,
+         "name": "FEDERICO",
+         "surname": "NICOLODI",
+         "username": "NOTTI MAGICHE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\80-federico.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 81,
+         "name": "MARCO",
+         "surname": "HEIDEMPERGHER",
+         "username": "CANDALPORCO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\81-marco.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 82,
+         "name": "MARTINO",
+         "surname": "AMONI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\82-martino.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 83,
+         "name": "GOBER",
+         "surname": "ANDREA",
+         "username": "SCINTILLIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\83-gober.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 84,
+         "name": "ELIA",
+         "surname": "BATTISTI",
+         "username": "BOILER",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\84-elia.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 85,
+         "name": "MATTEO",
+         "surname": "DIENER",
+         "username": "NEMICO DEL POPOLO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\85-matteo.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 86,
+         "name": "RICCARDO",
+         "surname": "ZAFFONI",
+         "username": "LUGHERIM",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\86-riccardo.png",
+         "team": {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/11/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/11/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/11/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/11/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 30,
+         "name": "GIOVANNI",
+         "surname": "DI MEO",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\30-giovanni.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 31,
+         "name": "ENRICO",
+         "surname": "BORDIGNON",
+         "username": "ORMONE IMPAZZITO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\31-enrico.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 32,
+         "name": "MATTEO",
+         "surname": "PILATI",
+         "username": "PONZIO PILATI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\32-matteo.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 33,
+         "name": "ANDREA",
+         "surname": "MANFREDI",
+         "username": "PSYCO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\33-andrea.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 34,
+         "name": "ANDREA",
+         "surname": "ASTE",
+         "username": "3 OMBRE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\34-andrea.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 35,
+         "name": "MATTEO",
+         "surname": "BRIGO",
+         "username": "EURO BRIGO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\35-matteo.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 36,
+         "name": "ALESSIO",
+         "surname": "FARINATI",
+         "username": "PROTEINA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\36-alessio.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 37,
+         "name": "DAVIDE",
+         "surname": "MANICA",
+         "username": "PALA EOLICA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\37-davide.png",
+         "team": {
+            "id": 4,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PGT",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\4-pinguini-trentini.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/4/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

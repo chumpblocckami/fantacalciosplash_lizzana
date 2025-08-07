@@ -1,0 +1,1304 @@
+{
+   "data": [
+      {
+         "id": 27,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-14T15:20:00.000000Z",
+         "home_team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hellasmadonne.png",
+            "players_count": 6,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 242,
+                  "name": "SILVIA",
+                  "surname": "CESCOTTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviacescotti.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 243,
+                  "name": "VALERIA",
+                  "surname": "ROSI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valeriarosi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 244,
+                  "name": "FRANCESCA",
+                  "surname": "PARISI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescaparisi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 245,
+                  "name": "ANNA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazendri.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 246,
+                  "name": "VALENTINA",
+                  "surname": "ASTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaaste.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 247,
+                  "name": "MARTA",
+                  "surname": "GILLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martagilli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lemonade.png",
+            "players_count": 6,
+            "score": 6,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 336,
+                  "name": "BEATRICE",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\beatricemonte.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 337,
+                  "name": "EMMA",
+                  "surname": "SOZZI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmasozzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 338,
+                  "name": "ANNA",
+                  "surname": "SIMONINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annasimonini.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 339,
+                  "name": "MADDALENA",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maddalenamonte.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 340,
+                  "name": "SOFIA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 341,
+                  "name": "FRANCESCA",
+                  "surname": "SANTUARI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasantuari.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 838,
+            "started_at": "2024-08-14T16:52:02.000000Z",
+            "stopped_at": "2024-08-14T16:58:59.000000Z",
+            "current": 838,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 48,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-15T14:00:00.000000Z",
+         "home_team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bonemapoche.png",
+            "players_count": 5,
+            "score": 11,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 5
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 310,
+                  "name": "CARLOTTA",
+                  "surname": "POMAROLLI",
+                  "username": "LA PREDESTINATA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\carlottapomarolli.png",
+                  "goals": 6,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 311,
+                  "name": "FRANCESCA",
+                  "surname": "SARTORI",
+                  "username": "NASTRA ISOLANTE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasartori.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 312,
+                  "name": "LICIA",
+                  "surname": "FONDRIEST",
+                  "username": "ANZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\liciafondriest.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 313,
+                  "name": "VERONICA",
+                  "surname": "OSELE",
+                  "username": "MARION JONES",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\veronicaosele.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 314,
+                  "name": "VALENTINA",
+                  "surname": "SALZANI",
+                  "username": "HELLO KITTY",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinasalzani.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gintoniche.png",
+            "players_count": 4,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 4
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 332,
+                  "name": "ARIANNA",
+                  "surname": "ALBERTINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ariannaalbertini.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 334,
+                  "name": "SARA",
+                  "surname": "PREZZI",
+                  "username": "POST-IT",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraprezzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 333,
+                  "name": "SOFIA",
+                  "surname": "MANICA",
+                  "username": "INCONTINENZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiamanica.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 335,
+                  "name": "ELISA",
+                  "surname": "MORATELLI",
+                  "username": "DISSENTEN",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisamoratelli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 851,
+            "started_at": "2024-08-15T14:09:10.000000Z",
+            "stopped_at": "2024-08-15T14:16:20.000000Z",
+            "current": 851,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 56,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-15T16:40:00.000000Z",
+         "home_team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bonemapoche.png",
+            "players_count": 5,
+            "score": 11,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 5
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 310,
+                  "name": "CARLOTTA",
+                  "surname": "POMAROLLI",
+                  "username": "LA PREDESTINATA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\carlottapomarolli.png",
+                  "goals": 6,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 311,
+                  "name": "FRANCESCA",
+                  "surname": "SARTORI",
+                  "username": "NASTRA ISOLANTE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasartori.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 312,
+                  "name": "LICIA",
+                  "surname": "FONDRIEST",
+                  "username": "ANZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\liciafondriest.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 313,
+                  "name": "VERONICA",
+                  "surname": "OSELE",
+                  "username": "MARION JONES",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\veronicaosele.png",
+                  "goals": 3,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 314,
+                  "name": "VALENTINA",
+                  "surname": "SALZANI",
+                  "username": "HELLO KITTY",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinasalzani.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hellasmadonne.png",
+            "players_count": 6,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 242,
+                  "name": "SILVIA",
+                  "surname": "CESCOTTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviacescotti.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 243,
+                  "name": "VALERIA",
+                  "surname": "ROSI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valeriarosi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 244,
+                  "name": "FRANCESCA",
+                  "surname": "PARISI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescaparisi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 245,
+                  "name": "ANNA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazendri.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 246,
+                  "name": "VALENTINA",
+                  "surname": "ASTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaaste.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 247,
+                  "name": "MARTA",
+                  "surname": "GILLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martagilli.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 841,
+            "started_at": "2024-08-15T16:54:00.000000Z",
+            "stopped_at": "2024-08-15T17:01:01.000000Z",
+            "current": 841,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 72,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-16T14:40:00.000000Z",
+         "home_team": {
+            "id": 43,
+            "name": "BONE MA POCHE",
+            "tag": "BMP",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bonemapoche.png",
+            "players_count": 5,
+            "score": 6,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 5
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 310,
+                  "name": "CARLOTTA",
+                  "surname": "POMAROLLI",
+                  "username": "LA PREDESTINATA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\carlottapomarolli.png",
+                  "goals": 3,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 311,
+                  "name": "FRANCESCA",
+                  "surname": "SARTORI",
+                  "username": "NASTRA ISOLANTE",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasartori.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 313,
+                  "name": "VERONICA",
+                  "surname": "OSELE",
+                  "username": "MARION JONES",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\veronicaosele.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 312,
+                  "name": "LICIA",
+                  "surname": "FONDRIEST",
+                  "username": "ANZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\liciafondriest.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 314,
+                  "name": "VALENTINA",
+                  "surname": "SALZANI",
+                  "username": "HELLO KITTY",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinasalzani.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lemonade.png",
+            "players_count": 6,
+            "score": 0,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 336,
+                  "name": "BEATRICE",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\beatricemonte.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 338,
+                  "name": "ANNA",
+                  "surname": "SIMONINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annasimonini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 337,
+                  "name": "EMMA",
+                  "surname": "SOZZI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmasozzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 339,
+                  "name": "MADDALENA",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maddalenamonte.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 340,
+                  "name": "SOFIA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 341,
+                  "name": "FRANCESCA",
+                  "surname": "SANTUARI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasantuari.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 843,
+            "started_at": "2024-08-16T14:49:13.000000Z",
+            "stopped_at": "2024-08-16T14:56:15.000000Z",
+            "current": 843,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 93,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-17T09:40:00.000000Z",
+         "home_team": {
+            "id": 34,
+            "name": "HELLAS MA-DONNE",
+            "tag": "HMD",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hellasmadonne.png",
+            "players_count": 6,
+            "score": 4,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 1,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 242,
+                  "name": "SILVIA",
+                  "surname": "CESCOTTI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviacescotti.png",
+                  "goals": 0,
+                  "fouls": 1,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 243,
+                  "name": "VALERIA",
+                  "surname": "ROSI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valeriarosi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 244,
+                  "name": "FRANCESCA",
+                  "surname": "PARISI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescaparisi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 245,
+                  "name": "ANNA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazendri.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 246,
+                  "name": "VALENTINA",
+                  "surname": "ASTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaaste.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 247,
+                  "name": "MARTA",
+                  "surname": "GILLI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martagilli.png",
+                  "goals": 3,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gintoniche.png",
+            "players_count": 4,
+            "score": 2,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 4
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 332,
+                  "name": "ARIANNA",
+                  "surname": "ALBERTINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ariannaalbertini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 333,
+                  "name": "SOFIA",
+                  "surname": "MANICA",
+                  "username": "INCONTINENZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiamanica.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 334,
+                  "name": "SARA",
+                  "surname": "PREZZI",
+                  "username": "POST-IT",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraprezzi.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 335,
+                  "name": "ELISA",
+                  "surname": "MORATELLI",
+                  "username": "DISSENTEN",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisamoratelli.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 850,
+            "started_at": "2024-08-17T09:46:47.000000Z",
+            "stopped_at": "2024-08-17T09:53:57.000000Z",
+            "current": 850,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 107,
+         "live": false,
+         "closed": true,
+         "scheduled_at": "2024-08-17T15:20:00.000000Z",
+         "home_team": {
+            "id": 46,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gintoniche.png",
+            "players_count": 4,
+            "score": 3,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 4
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 332,
+                  "name": "ARIANNA",
+                  "surname": "ALBERTINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ariannaalbertini.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 333,
+                  "name": "SOFIA",
+                  "surname": "MANICA",
+                  "username": "INCONTINENZA",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiamanica.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 334,
+                  "name": "SARA",
+                  "surname": "PREZZI",
+                  "username": "POST-IT",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraprezzi.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 335,
+                  "name": "ELISA",
+                  "surname": "MORATELLI",
+                  "username": "DISSENTEN",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisamoratelli.png",
+                  "goals": 2,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "away_team": {
+            "id": 47,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "winner": false,
+            "logo_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lemonade.png",
+            "players_count": 6,
+            "score": 6,
+            "shootouts": {
+               "total": 0,
+               "score": 0,
+               "misses": 0,
+               "history": [],
+               "live_history": [
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png",
+                  "C:\\PROD\\GSP\\Images\\BeerShot\\none.png"
+               ]
+            },
+            "stats": {
+               "fouls": 0,
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 6
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 336,
+                  "name": "BEATRICE",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\beatricemonte.png",
+                  "goals": 3,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 337,
+                  "name": "EMMA",
+                  "surname": "SOZZI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmasozzi.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 340,
+                  "name": "SOFIA",
+                  "surname": "ZENDRI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 338,
+                  "name": "ANNA",
+                  "surname": "SIMONINI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annasimonini.png",
+                  "goals": 1,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 339,
+                  "name": "MADDALENA",
+                  "surname": "MONTE",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maddalenamonte.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 341,
+                  "name": "FRANCESCA",
+                  "surname": "SANTUARI",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasantuari.png",
+                  "goals": 0,
+                  "fouls": 0,
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ],
+            "substitutes": []
+         },
+         "best_player": null,
+         "group_id": 3,
+         "timer": {
+            "offset": 845,
+            "started_at": "2024-08-17T13:51:19.000000Z",
+            "stopped_at": "2024-08-17T13:58:24.000000Z",
+            "current": 845,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 334,
+               "name": "SARA",
+               "surname": "PREZZI",
+               "username": "POST-IT",
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraprezzi.png",
+               "goals": 1,
+               "fouls": 0,
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 258
+         },
+         "last_red_card": null
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/groups/3/fixtures?page=1",
+      "last": "https://api.gsplizzana.it/api/groups/3/fixtures?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/3/fixtures?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/groups/3/fixtures",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

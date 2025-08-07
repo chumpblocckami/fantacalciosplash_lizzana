@@ -1,0 +1,48 @@
+{
+   "data": {
+      "id": 2,
+      "name": "Femminile 1",
+      "teams": [
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 7
+         },
+         {
+            "id": 42,
+            "name": "TORTE DI MELE",
+            "tag": "TDM",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\42-torte-di-mele.png",
+            "players_count": 8
+         },
+         {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         },
+         {
+            "id": 44,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/BslIdnHUyZtm87sD55fGfAghjo9yk50fMlee9YwT.png",
+            "production_path": "C:\\PROD\\Teams\\44-ac-campate.png",
+            "players_count": 9
+         },
+         {
+            "id": 49,
+            "name": "TETTE BISCOTTATE",
+            "tag": "TET",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\49-tette-biscottate.png",
+            "players_count": 7
+         }
+      ]
+   }
+}

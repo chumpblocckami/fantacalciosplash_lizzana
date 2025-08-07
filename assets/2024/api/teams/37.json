@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 264,
+         "name": "ALICE",
+         "surname": "CAPPELLETTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\264-alice.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 265,
+         "name": "NADIA",
+         "surname": "MALFATTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\265-nadia.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 266,
+         "name": "MARIA",
+         "surname": "BAROZZI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\266-maria.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 267,
+         "name": "SOFIA",
+         "surname": "BOSCHETTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\267-sofia.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 268,
+         "name": "EMILIA",
+         "surname": "MODENA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\268-emilia.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 269,
+         "name": "GRETA",
+         "surname": "VANZETTA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\269-greta.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 270,
+         "name": "SIRIA",
+         "surname": "DEFLORIAN",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\270-siria.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 271,
+         "name": "GIORGIA",
+         "surname": "MORANDINI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\271-giorgia.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 272,
+         "name": "SARA",
+         "surname": "BONAZZA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\272-sara.png",
+         "team": {
+            "id": 37,
+            "name": "LOVEBUSTERS",
+            "tag": "LVB",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\37-lovebusters.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/37/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

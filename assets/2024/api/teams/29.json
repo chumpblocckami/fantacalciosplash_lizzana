@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 206,
+         "name": "GABRIELE",
+         "surname": "PIAMARTA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\206-gabriele.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 207,
+         "name": "OMMASO",
+         "surname": "CANEPEL",
+         "username": "RIDGE FORRESTER",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\207-ommaso.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 208,
+         "name": "LORENZO",
+         "surname": "CANEPEL",
+         "username": "GIARDINIERE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\208-lorenzo.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 209,
+         "name": "PIETRO",
+         "surname": "ASINI",
+         "username": "ORTON",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\209-pietro.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 210,
+         "name": "RICCARDO",
+         "surname": "BRUNELLI",
+         "username": "INSETTO STECCO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\210-riccardo.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 211,
+         "name": "PIETRO",
+         "surname": "ZANDONAI",
+         "username": "BOY SCOUT",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\211-pietro.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 212,
+         "name": "DANIELE",
+         "surname": "FORONI",
+         "username": "SWAG FORONI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\212-daniele.png",
+         "team": {
+            "id": 29,
+            "name": "CLANDES-TEAM",
+            "tag": "CLA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\29-clandes-team.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/29/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

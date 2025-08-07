@@ -1,0 +1,40 @@
+{
+   "data": {
+      "id": 12,
+      "name": "Semi M",
+      "teams": [
+         {
+            "id": 24,
+            "name": "FC SAVIGNANO",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\24-fc-savignano.png",
+            "players_count": 7
+         },
+         {
+            "id": 11,
+            "name": "U.S. GUARNA",
+            "tag": "USG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\11-us-guarna.png",
+            "players_count": 8
+         },
+         {
+            "id": 18,
+            "name": "SUGHI EBBASTA",
+            "tag": "SUG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\18-sughi-ebbasta.png",
+            "players_count": 7
+         },
+         {
+            "id": 22,
+            "name": "I MONTAGNA",
+            "tag": "MON",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\22-i-montagna.png",
+            "players_count": 9
+         }
+      ]
+   }
+}

@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 107,
+         "name": "MATTEO",
+         "surname": "ZANINI",
+         "username": "IL MECCANICO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\107-matteo.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 108,
+         "name": "NICOLA",
+         "surname": "OGNI",
+         "username": "CIRCO TOGNI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\108-nicola.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 109,
+         "name": "ALESSANDRO",
+         "surname": "FAIT",
+         "username": "FAIT CLUB",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\109-alessandro.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 110,
+         "name": "OMMASO",
+         "surname": "CALIARI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\110-ommaso.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 111,
+         "name": "MIRKO",
+         "surname": "RAFFAELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\111-mirko.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 112,
+         "name": "ANDREA",
+         "surname": "OGNI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\112-andrea.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 113,
+         "name": "LUCA",
+         "surname": "POZZATI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\113-luca.png",
+         "team": {
+            "id": 15,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\15-rsa-united.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/15/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

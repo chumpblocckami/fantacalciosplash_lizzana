@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 279,
+         "name": "MADDALENA",
+         "surname": "CROTTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\279-maddalena.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 280,
+         "name": "GIORGIA",
+         "surname": "BONOMI",
+         "username": "CAMOMILLA BONOMELLI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\280-giorgia.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 281,
+         "name": "SOFIA",
+         "surname": "GRASSI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\281-sofia.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 282,
+         "name": "SABRINA",
+         "surname": "VIANINI",
+         "username": "UTTO FUMO E NIENTE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\282-sabrina.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 283,
+         "name": "LISA",
+         "surname": "BONA",
+         "username": "BONNALISA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\283-lisa.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 284,
+         "name": "CHIARA",
+         "surname": "CHIZZOLA",
+         "username": "CERA CALDA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\284-chiara.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 285,
+         "name": "CHIARA",
+         "surname": "MOSNA",
+         "username": "FACE TO FACE",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\285-chiara.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 286,
+         "name": "AURORA",
+         "surname": "ROBOL",
+         "username": "BAMBOLA DI CERA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\286-aurora.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 287,
+         "name": "MARIA VITTORIA",
+         "surname": "ZOLLER",
+         "username": "L\u2019IMPOSTORA",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\287-maria-vittoria.png",
+         "team": {
+            "id": 39,
+            "name": "LE GAMBERINE",
+            "tag": "LEG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\39-le-gamberine.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/39/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

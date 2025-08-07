@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 229,
+         "name": "GENTIAN",
+         "surname": "CAPA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\229-gentian.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 230,
+         "name": "GIORGIO",
+         "surname": "RAFFAELLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\230-giorgio.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 231,
+         "name": "BLENDI",
+         "surname": "CAPA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\231-blendi.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 232,
+         "name": "ANTONIO",
+         "surname": "EMMA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\232-antonio.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 233,
+         "name": "ALESSIO",
+         "surname": "KOLECI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\233-alessio.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 234,
+         "name": "KEVIN",
+         "surname": "VELA",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\234-kevin.png",
+         "team": {
+            "id": 32,
+            "name": "FC. STALLIONS",
+            "tag": "FCS",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\32-fc-stallions.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/32/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

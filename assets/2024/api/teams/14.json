@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 101,
+         "name": "CARLO",
+         "surname": "POMAROLLI",
+         "username": "BETTINO CRAXI",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\101-carlo.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 102,
+         "name": "MARCO",
+         "surname": "BERTOLINI",
+         "username": "MACCHIA DI GASOLIO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\102-marco.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 103,
+         "name": "FRANCESCO",
+         "surname": "AMADORI",
+         "username": "GASOLIO ARTICO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\103-francesco.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 104,
+         "name": "STEFANO",
+         "surname": "ROSINA",
+         "username": "GPL",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\104-stefano.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 105,
+         "name": "EMANUELE",
+         "surname": "VALDUGA",
+         "username": "FIAMMIFERO",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\105-emanuele.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 106,
+         "name": "MATTIA",
+         "surname": "SPAGNOLLI",
+         "username": "DOTTOR NOWZARADAN",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\106-mattia.png",
+         "team": {
+            "id": 14,
+            "name": "FC WANDA TIM",
+            "tag": "WAN",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\14-fc-wanda-tim.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/14/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

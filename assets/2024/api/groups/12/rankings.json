@@ -1,0 +1,72 @@
+{
+   "data": [
+      {
+         "id": 24,
+         "name": "FC SAVIGNANO",
+         "tag": "FCS",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcsavignano.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "11": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 18,
+         "name": "SUGHI EBBASTA",
+         "tag": "SUG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sughiebbasta.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 1,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "22": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 11,
+         "name": "U.S. GUARNA",
+         "tag": "USG",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\usguarna.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "24": -1
+         },
+         "goal_difference": -1
+      },
+      {
+         "id": 22,
+         "name": "I MONTAGNA",
+         "tag": "MON",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imontagna.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "18": -1
+         },
+         "goal_difference": -1
+      }
+   ]
+}

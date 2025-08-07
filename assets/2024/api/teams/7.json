@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 54,
+         "name": "NICOL\u00d2",
+         "surname": "GENTILE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\54-nicolo.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 55,
+         "name": "ALESSANDRO",
+         "surname": "COMPER",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\55-alessandro.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 56,
+         "name": "ALESSANDRO",
+         "surname": "RUELE",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\56-alessandro.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 57,
+         "name": "NICOL\u00d2",
+         "surname": "SPEZIALI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\57-nicolo.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 58,
+         "name": "LEONARDO",
+         "surname": "ADAMI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\58-leonardo.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 59,
+         "name": "SAMUELE",
+         "surname": "MAFFEI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\59-samuele.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 60,
+         "name": "GIOVANNI",
+         "surname": "ORBOLI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\60-giovanni.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 61,
+         "name": "ANDREA",
+         "surname": "PEDROTTI",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\61-andrea.png",
+         "team": {
+            "id": 7,
+            "name": "F.C. GORILLAZ",
+            "tag": "FCG",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\7-fc-gorillaz.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/7/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}
