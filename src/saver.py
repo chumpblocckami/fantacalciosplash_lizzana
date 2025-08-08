@@ -25,30 +25,29 @@ class Saver:
         except GitCommandError as e:
             print(f"GitCommandError: {e}")
 
+    def commit_and_push(self, file_path: str, commit_message: str):
+        try:
+            if self.repo.is_dirty():
+                print("Repo has uncommitted changes")
 
-def commit_and_push(self, file_path: str, commit_message: str):
-    try:
-        if self.repo.is_dirty():
-            print("Repo has uncommitted changes")
+            # Stage and commit changes
+            self.repo.index.add([file_path])
+            self.repo.index.commit(commit_message)
 
-        # Stage and commit changes
-        self.repo.index.add([file_path])
-        self.repo.index.commit(commit_message)
+            # Ensure the remote URL is up to date
+            origin = self.repo.remote(name="origin")
+            origin.set_url(self.endpoint)
 
-        # Ensure the remote URL is up to date
-        origin = self.repo.remote(name="origin")
-        origin.set_url(self.endpoint)
+            # Pull the latest to avoid non-fast-forward errors
+            print("Pulling latest changes before push...")
+            origin.pull(self.branch)
 
-        # Pull the latest to avoid non-fast-forward errors
-        print("Pulling latest changes before push...")
-        origin.pull(self.branch)
-
-        # Push to remote
-        print("Pushing changes to remote...")
-        origin.push(refspec=f"{self.branch}:{self.branch}")
-    except GitCommandError as e:
-        print(f"GitCommandError during commit_and_push: {e}")
-        raise
+            # Push to remote
+            print("Pushing changes to remote...")
+            origin.push(refspec=f"{self.branch}:{self.branch}")
+        except GitCommandError as e:
+            print(f"GitCommandError during commit_and_push: {e}")
+            raise
 
     def pull_latest(self):
         origin = self.repo.remote(name="origin")
