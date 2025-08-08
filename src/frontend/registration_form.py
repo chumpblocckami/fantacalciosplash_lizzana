@@ -77,3 +77,4 @@ class RegistrationForm:
                     self.edition,
                 )
                 st.write(success_message)
+                st.balloons()
