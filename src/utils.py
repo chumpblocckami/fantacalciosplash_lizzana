@@ -57,7 +57,7 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
         )
         flag = False
     if allenatore == "":
-        errors.append("Prego inserire il gnome dell'allenatore!")
+        errors.append("Prego inserire il nome dell'allenatore!")
         flag = False
     if budget < 0:
         errors.append("Il budget non può essere minore di zero!")
