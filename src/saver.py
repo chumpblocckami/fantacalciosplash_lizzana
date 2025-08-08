@@ -13,7 +13,7 @@ class Saver:
         self.branch = "main"
         self.github_username = os.environ.get("GITHUB_USER", "")
         self.access_token = os.environ.get("GITHUB_TOKEN", "")
-        self.remote_repo = os.environ.get("REMOTE_REPO", "")
+        self.remote_repo = "fantacalciosplash_lizzana"
         self.endpoint = f"https://{self.github_username}:{self.access_token}@github.com/{self.github_username}/{self.remote_repo}.git"  # noqa
 
     def init_repo(self):
