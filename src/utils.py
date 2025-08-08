@@ -32,7 +32,7 @@ def load(edition: int):
 def update_budget(players, data):
     player_names = [player.split(" | ")[0] for player in players]
     costs = sum(
-        [float(data.loc[data["Nominativo"] == name]["Quotazione"]) for name in player_names]
+        [float(data.loc[data["Nominativo"] == name]["Quotazione"].iloc[0]) for name in player_names]
     )
     return BUDGET - costs
 
@@ -57,7 +57,7 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
         )
         flag = False
     if allenatore == "":
-        errors.append("Prego inserire il nome dell'allenatore!")
+        errors.append("Prego inserire il gnome dell'allenatore!")
         flag = False
     if budget < 0:
         errors.append("Il budget non può essere minore di zero!")
