@@ -34,7 +34,7 @@ class Loader:
     def load_points(self):
         st.session_state["squadre"][self.edition] = pd.read_excel(
             f"./assets/{self.edition}/squadre.xlsx"
-        )
+        ).drop_duplicates()
 
     def load_rankings(self):
         st.session_state["punteggi"][self.edition] = pd.read_excel(
