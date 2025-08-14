@@ -3,6 +3,7 @@ import os
 import streamlit as st
 from PIL import Image
 
+from src.constants import DEADLINE
 from src.frontend.buttons import download_rules
 from src.frontend.registration_form import RegistrationForm
 from src.frontend.support_graph import SupportGraph
@@ -53,6 +54,7 @@ for edition, tab in zip(editions, tabs):
         if is_current_edition:
             with st.expander("Iscrivi una squadra 🤼‍♂️", expanded=SHOW_ELEMENTS):
                 if SHOW_ELEMENTS:
+                    st.write(f"Le iscrizioni chiuderanno il {DEADLINE}")
                     registration_form = RegistrationForm(edition=edition)
                     registration_form.render()
                 else:

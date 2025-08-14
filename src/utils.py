@@ -4,7 +4,7 @@ import pandas as pd
 import pytz
 import streamlit as st
 
-from src.constants import BUDGET
+from src.constants import BUDGET, DEADLINE
 
 
 def get_cost(player):
@@ -57,7 +57,7 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
         )
         flag = False
     if allenatore == "":
-        errors.append("Prego inserire il gnome dell'allenatore!")
+        errors.append("Prego inserire il nome dell'allenatore!")
         flag = False
     if budget < 0:
         errors.append("Il budget non può essere minore di zero!")
@@ -67,8 +67,8 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
 
 def get_element_visibility():
     today = dt.now(pytz.timezone("Europe/Rome"))
-    if today.month == 8:
-        if today.day >= 14 and today.hour > 00:
+    if today.month == DEADLINE.month:
+        if today.day >= DEADLINE.day and today.hour > DEADLINE.hour:
             return False
         else:
             return True
