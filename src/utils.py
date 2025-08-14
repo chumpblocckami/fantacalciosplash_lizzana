@@ -57,7 +57,7 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
         )
         flag = False
     if allenatore == "":
-        errors.append("Prego inserire il nome dell'allenatore!")
+        errors.append("Prego inserire il gnome dell'allenatore!")
         flag = False
     if budget < 0:
         errors.append("Il budget non può essere minore di zero!")
@@ -68,7 +68,7 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
 def get_element_visibility():
     today = dt.now(pytz.timezone("Europe/Rome"))
     if today.month == 8:
-        if today.day >= 14 and today.hour > 12:
+        if today.day >= 14 and today.hour > 00:
             return False
         else:
             return True
