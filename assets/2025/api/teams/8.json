@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 57,
+         "name": "Tommaso",
+         "surname": "Caliari",
+         "username": "Pappagallo",
+         "avatar_url": "/storage/players/tommasocaliari.png",
+         "production_path": "C:\\PROD\\Players\\57-tommaso.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 58,
+         "name": "Andrea",
+         "surname": "Togni",
+         "username": "Raimondo Vianello",
+         "avatar_url": "/storage/players/andreatogni.png",
+         "production_path": "C:\\PROD\\Players\\58-andrea.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 59,
+         "name": "Gabriele",
+         "surname": "Lasta",
+         "username": null,
+         "avatar_url": "/storage/players/gabrielelasta.png",
+         "production_path": "C:\\PROD\\Players\\59-gabriele.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 60,
+         "name": "Alessandro",
+         "surname": "Fait",
+         "username": "Fait Club",
+         "avatar_url": "/storage/players/alessandrofait.png",
+         "production_path": "C:\\PROD\\Players\\60-alessandro.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 61,
+         "name": "Nicola",
+         "surname": "Togni",
+         "username": "Circo Togni",
+         "avatar_url": "/storage/players/nicolatogni.png",
+         "production_path": "C:\\PROD\\Players\\61-nicola.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 62,
+         "name": "Mirko",
+         "surname": "Raffaelli",
+         "username": "Vannetti",
+         "avatar_url": "/storage/players/mirkoraffaelli.png",
+         "production_path": "C:\\PROD\\Players\\62-mirko.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 63,
+         "name": "Luca",
+         "surname": "Pozzati",
+         "username": "Opera Romani",
+         "avatar_url": "/storage/players/lucapozzati.png",
+         "production_path": "C:\\PROD\\Players\\63-luca.png",
+         "team": {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/8/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/8/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

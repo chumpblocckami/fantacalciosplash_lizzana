@@ -1,0 +1,196 @@
+{
+   "data": [
+      {
+         "id": 123,
+         "name": "Alessio",
+         "surname": "Koleci",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\123-alessio.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 124,
+         "name": "Blendi",
+         "surname": "Capa",
+         "username": "Vasca di decantazione",
+         "avatar_url": "/storage/players/blendicapa.png",
+         "production_path": "C:\\PROD\\Players\\124-blendi.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 125,
+         "name": "Kevin",
+         "surname": "Vela",
+         "username": "Mercedesi",
+         "avatar_url": "/storage/players/kevinvela.png",
+         "production_path": "C:\\PROD\\Players\\125-kevin.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 126,
+         "name": "Leonardo",
+         "surname": "Bushi",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\126-leonardo.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 127,
+         "name": "Filippo",
+         "surname": "Maraner",
+         "username": "McGregor",
+         "avatar_url": "/storage/players/filippomaraner.png",
+         "production_path": "C:\\PROD\\Players\\127-filippo.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 128,
+         "name": "Maxim",
+         "surname": "Bot",
+         "username": "Centro di gravit\u00e1 permanente",
+         "avatar_url": "/storage/players/maximbot.png",
+         "production_path": "C:\\PROD\\Players\\128-maxim.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 129,
+         "name": "Lorenzo",
+         "surname": "Rossi",
+         "username": "Il Bug",
+         "avatar_url": "/storage/players/lorenzorossi.png",
+         "production_path": "C:\\PROD\\Players\\129-lorenzo.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 130,
+         "name": "Emiliano",
+         "surname": "Bici",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\130-emiliano.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 131,
+         "name": "Antonio",
+         "surname": "Emma",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\131-antonio.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 132,
+         "name": "Gentian",
+         "surname": "Capa",
+         "username": "Tirana punk hardcore",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\132-gentian.png",
+         "team": {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/18/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/18/players",
+      "per_page": 10,
+      "to": 10,
+      "total": 10
+   }
+}

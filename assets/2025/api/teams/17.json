@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 114,
+         "name": "Thomas",
+         "surname": "Debiasi",
+         "username": "Organizzatore di eventi brutti",
+         "avatar_url": "/storage/players/thomasdebiasi.png",
+         "production_path": "C:\\PROD\\Players\\114-thomas.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 115,
+         "name": "Maikol",
+         "surname": "Azocar",
+         "username": "Nastro isolante",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\115-maikol.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 116,
+         "name": "Nadir",
+         "surname": "Chtioui",
+         "username": "Casablanca",
+         "avatar_url": "/storage/players/nadirchtioui.png",
+         "production_path": "C:\\PROD\\Players\\116-nadir.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 117,
+         "name": "Thomas",
+         "surname": "Cavagna",
+         "username": "Val di Gresta",
+         "avatar_url": "/storage/players/thomascavagna.png",
+         "production_path": "C:\\PROD\\Players\\117-thomas.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 118,
+         "name": "Carlo ",
+         "surname": "Stedile",
+         "username": "Welcome to paradise",
+         "avatar_url": "/storage/players/carlostedile.png",
+         "production_path": "C:\\PROD\\Players\\118-carlo.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 119,
+         "name": "Randy ",
+         "surname": "cobbinah",
+         "username": "West coast",
+         "avatar_url": "/storage/players/randycobbinah.png",
+         "production_path": "C:\\PROD\\Players\\119-randy.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 120,
+         "name": "Alessio",
+         "surname": "Debiasi",
+         "username": "Il gorgonauta",
+         "avatar_url": "/storage/players/alessiodebiasi.png",
+         "production_path": "C:\\PROD\\Players\\120-alessio.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 121,
+         "name": "Giacomo ",
+         "surname": "Gasparini ",
+         "username": "Iceman",
+         "avatar_url": "/storage/players/giacomogasparini.png",
+         "production_path": "C:\\PROD\\Players\\121-giacomo.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 122,
+         "name": "Pietro ",
+         "surname": "Gasparini",
+         "username": "Polimero striato",
+         "avatar_url": "/storage/players/pietrogasparini.png",
+         "production_path": "C:\\PROD\\Players\\122-pietro.png",
+         "team": {
+            "id": 17,
+            "name": "MAI UNA GIOIA",
+            "tag": "MAI",
+            "logo_url": "/storage/teams/maiunagioia.png",
+            "production_path": "C:\\PROD\\Teams\\17-mai-una-gioia.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/17/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/17/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

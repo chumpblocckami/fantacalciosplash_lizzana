@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 306,
+         "name": "Lucia",
+         "surname": "Raffaelli",
+         "username": "Zebra di bamboo",
+         "avatar_url": "/storage/players/luciaraffaelli.png",
+         "production_path": "C:\\PROD\\Players\\306-lucia.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 307,
+         "name": "Emma",
+         "surname": "Tesini",
+         "username": "Latte Trento",
+         "avatar_url": "/storage/players/emmatesini.png",
+         "production_path": "C:\\PROD\\Players\\307-emma.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 308,
+         "name": "Elena",
+         "surname": "Bordato",
+         "username": "Armata vincente",
+         "avatar_url": "/storage/players/elenabordato.png",
+         "production_path": "C:\\PROD\\Players\\308-elena.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 309,
+         "name": "Margherita ",
+         "surname": "Bottesi",
+         "username": "Pe Williams",
+         "avatar_url": "/storage/players/margheritabottesi.png",
+         "production_path": "C:\\PROD\\Players\\309-margherita.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 310,
+         "name": "Jasmine",
+         "surname": "Scottini",
+         "username": "Polpacci d'oro",
+         "avatar_url": "/storage/players/jasminescottini.png",
+         "production_path": "C:\\PROD\\Players\\310-jasmine.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 311,
+         "name": "Marianna",
+         "surname": "Bruschetti",
+         "username": "Assessora",
+         "avatar_url": "/storage/players/mariannabruschetti.png",
+         "production_path": "C:\\PROD\\Players\\311-marianna.png",
+         "team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/45/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/45/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

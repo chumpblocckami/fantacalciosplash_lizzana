@@ -1,0 +1,26 @@
+{
+   "data": {
+      "id": 13,
+      "name": "SSL",
+      "has_shootouts": true,
+      "gender": "male",
+      "teams": [
+         {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         },
+         {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      ]
+   }
+}

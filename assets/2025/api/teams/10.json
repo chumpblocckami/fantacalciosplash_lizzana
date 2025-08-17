@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 71,
+         "name": "Daniele",
+         "surname": "Ruzzenenti",
+         "username": "Hard disk",
+         "avatar_url": "/storage/players/danieleruzzenenti.png",
+         "production_path": "C:\\PROD\\Players\\71-daniele.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 72,
+         "name": "Matteo",
+         "surname": "Gatti",
+         "username": "Soldatino di piombo",
+         "avatar_url": "/storage/players/matteogatti.png",
+         "production_path": "C:\\PROD\\Players\\72-matteo.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 73,
+         "name": "Lorenzo",
+         "surname": "Scottini",
+         "username": "Eldorado Shomurodov",
+         "avatar_url": "/storage/players/lorenzoscottini.png",
+         "production_path": "C:\\PROD\\Players\\73-lorenzo.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 74,
+         "name": "Gabriel",
+         "surname": "Melis",
+         "username": "Mano a reazione",
+         "avatar_url": "/storage/players/gabrielmelis.png",
+         "production_path": "C:\\PROD\\Players\\74-gabriel.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 75,
+         "name": "Riccardo",
+         "surname": "Zeni",
+         "username": "Erzo Porcellino",
+         "avatar_url": "/storage/players/riccardozeni.png",
+         "production_path": "C:\\PROD\\Players\\75-riccardo.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 76,
+         "name": "Roberto",
+         "surname": "Barozzi",
+         "username": "Divin Codino",
+         "avatar_url": "/storage/players/robertobarozzi.png",
+         "production_path": "C:\\PROD\\Players\\76-roberto.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 77,
+         "name": "Samuele",
+         "surname": "Ros\u00e0",
+         "username": "Maranza",
+         "avatar_url": "/storage/players/samueleros.png",
+         "production_path": "C:\\PROD\\Players\\77-samuele.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 78,
+         "name": "Giovanni",
+         "surname": "Giusto",
+         "username": "Plasmon",
+         "avatar_url": "/storage/players/giovannigiusto.png",
+         "production_path": "C:\\PROD\\Players\\78-giovanni.png",
+         "team": {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/10/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/10/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

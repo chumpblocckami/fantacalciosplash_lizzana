@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 155,
+         "name": "Saverio",
+         "surname": "Santoro",
+         "username": "Intercity notte/Salerno Reggio Calabria",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\155-saverio.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 156,
+         "name": "Andrea",
+         "surname": "Gober",
+         "username": "Scintillio",
+         "avatar_url": "/storage/players/andreagober.png",
+         "production_path": "C:\\PROD\\Players\\156-andrea.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 157,
+         "name": "William",
+         "surname": "Pedri",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\157-william.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 158,
+         "name": "Matteo",
+         "surname": "Diener",
+         "username": "Nemico del popolo",
+         "avatar_url": "/storage/players/matteodiener.png",
+         "production_path": "C:\\PROD\\Players\\158-matteo.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 159,
+         "name": "Mattia",
+         "surname": "Tezzele",
+         "username": "Professor raptor",
+         "avatar_url": "/storage/players/mattiatezzele.png",
+         "production_path": "C:\\PROD\\Players\\159-mattia.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 160,
+         "name": "Federico",
+         "surname": "Nicolodi",
+         "username": "Notti magiche",
+         "avatar_url": "/storage/players/federiconicolodi.png",
+         "production_path": "C:\\PROD\\Players\\160-federico.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 161,
+         "name": "Elia",
+         "surname": "Battisti",
+         "username": "Boiler",
+         "avatar_url": "/storage/players/eliabattisti.png",
+         "production_path": "C:\\PROD\\Players\\161-elia.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 162,
+         "name": "Riccardo",
+         "surname": "Zaffoni",
+         "username": "Lugherim",
+         "avatar_url": "/storage/players/riccardozaffoni.png",
+         "production_path": "C:\\PROD\\Players\\162-riccardo.png",
+         "team": {
+            "id": 22,
+            "name": "U.S GUARNA",
+            "tag": "USG",
+            "logo_url": "/storage/teams/usguarna.png",
+            "production_path": "C:\\PROD\\Teams\\22-us-guarna.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/22/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/22/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/22/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/22/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

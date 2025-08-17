@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 163,
+         "name": "Matteo",
+         "surname": "Lanaro",
+         "username": "Il Cacciatore di Stelle",
+         "avatar_url": "/storage/players/matteolanaro.png",
+         "production_path": "C:\\PROD\\Players\\163-matteo.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 164,
+         "name": "Andrea",
+         "surname": "Bertolini",
+         "username": "Bomber Berto",
+         "avatar_url": "/storage/players/andreabertolini.png",
+         "production_path": "C:\\PROD\\Players\\164-andrea.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 165,
+         "name": "Federico",
+         "surname": "Pomarolli",
+         "username": "Principe Guerriero",
+         "avatar_url": "/storage/players/federicopomarolli.png",
+         "production_path": "C:\\PROD\\Players\\165-federico.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 166,
+         "name": "Edoardo",
+         "surname": "Pomarolli",
+         "username": "Il bello della Piof",
+         "avatar_url": "/storage/players/edoardopomarolli.png",
+         "production_path": "C:\\PROD\\Players\\166-edoardo.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 167,
+         "name": "Marco",
+         "surname": "Sartorelli",
+         "username": "Playboy della Busa",
+         "avatar_url": "/storage/players/marcosartorelli.png",
+         "production_path": "C:\\PROD\\Players\\167-marco.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 168,
+         "name": "Riccardo",
+         "surname": "Versini",
+         "username": "Pertica della Piof",
+         "avatar_url": "/storage/players/riccardoversini.png",
+         "production_path": "C:\\PROD\\Players\\168-riccardo.png",
+         "team": {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/23/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/23/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 91,
+         "name": "Mattia",
+         "surname": "Festi",
+         "username": "Plastic man",
+         "avatar_url": "/storage/players/mattiafesti.png",
+         "production_path": "C:\\PROD\\Players\\91-mattia.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 92,
+         "name": "Mattia",
+         "surname": "Baldessarini",
+         "username": "Assassino cerebrale",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\92-mattia.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 93,
+         "name": "Alberto",
+         "surname": "Cerisara",
+         "username": "L'uomo che ha mangiato JB",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\93-alberto.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 94,
+         "name": "Leonardo",
+         "surname": "Viola",
+         "username": "Uomo informe 2.0",
+         "avatar_url": "/storage/players/leonardoviola.png",
+         "production_path": "C:\\PROD\\Players\\94-leonardo.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 95,
+         "name": "Luca",
+         "surname": "Giordani",
+         "username": "Chef pi\u00f9 in forma d'Europa",
+         "avatar_url": "/storage/players/lucagiordani.png",
+         "production_path": "C:\\PROD\\Players\\95-luca.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 96,
+         "name": "Alessio",
+         "surname": "Bragagna",
+         "username": "Nice Try",
+         "avatar_url": "/storage/players/alessiobragagna.png",
+         "production_path": "C:\\PROD\\Players\\96-alessio.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 97,
+         "name": "Gabriele ",
+         "surname": "Brentari ",
+         "username": "Mocio Vileda",
+         "avatar_url": "/storage/players/gabrielebrentari.png",
+         "production_path": "C:\\PROD\\Players\\97-gabriele.png",
+         "team": {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/13/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/13/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/13/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/13/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

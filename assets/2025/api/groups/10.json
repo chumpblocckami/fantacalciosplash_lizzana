@@ -1,0 +1,9 @@
+{
+   "data": {
+      "id": 10,
+      "name": "Semi F",
+      "has_shootouts": true,
+      "gender": "female",
+      "teams": []
+   }
+}

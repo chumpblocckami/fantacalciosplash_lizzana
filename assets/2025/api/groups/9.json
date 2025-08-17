@@ -1,0 +1,74 @@
+{
+   "data": {
+      "id": 9,
+      "name": "Quarti F",
+      "has_shootouts": true,
+      "gender": "female",
+      "teams": [
+         {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         },
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         },
+         {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         },
+         {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         },
+         {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         },
+         {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         },
+         {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      ]
+   }
+}

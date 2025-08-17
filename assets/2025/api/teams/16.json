@@ -1,0 +1,116 @@
+{
+   "data": [
+      {
+         "id": 109,
+         "name": "Emanuele",
+         "surname": "Toss",
+         "username": "Tetano",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\109-emanuele.png",
+         "team": {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 110,
+         "name": "Giovanni",
+         "surname": "Lasta",
+         "username": "Tambur",
+         "avatar_url": "/storage/players/giovannilasta.png",
+         "production_path": "C:\\PROD\\Players\\110-giovanni.png",
+         "team": {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 111,
+         "name": "Christian",
+         "surname": "Torboli",
+         "username": "PomaroloBanks/Crixo",
+         "avatar_url": "/storage/players/christiantorboli.png",
+         "production_path": "C:\\PROD\\Players\\111-christian.png",
+         "team": {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 112,
+         "name": "Mario",
+         "surname": "Sinani",
+         "username": null,
+         "avatar_url": "/storage/players/mariosinani.png",
+         "production_path": "C:\\PROD\\Players\\112-mario.png",
+         "team": {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 113,
+         "name": "Luca",
+         "surname": "Lasta",
+         "username": "Pesca a strascico",
+         "avatar_url": "/storage/players/lucalasta.png",
+         "production_path": "C:\\PROD\\Players\\113-luca.png",
+         "team": {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/16/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/16/players",
+      "per_page": 10,
+      "to": 5,
+      "total": 5
+   }
+}

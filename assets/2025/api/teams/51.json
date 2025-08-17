@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 356,
+         "name": "Matteo",
+         "surname": "Pilati",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\356-matteo.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 357,
+         "name": "Daniele",
+         "surname": "Feltrinelli",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\357-daniele.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 358,
+         "name": "Alberto",
+         "surname": "Cerisara",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\358-alberto.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 359,
+         "name": "Luca",
+         "surname": "Giordani",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\359-luca.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 360,
+         "name": "Andrea",
+         "surname": "Aste",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\360-andrea.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 361,
+         "name": "Davide",
+         "surname": "Manica",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\361-davide.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 362,
+         "name": "Edoardo",
+         "surname": "Pomarolli",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\362-edoardo.png",
+         "team": {
+            "id": 51,
+            "name": "OLD LEGENDS",
+            "tag": "OLD",
+            "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+            "production_path": "C:\\PROD\\Teams\\51-old-legends.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/51/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/51/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

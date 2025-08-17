@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 197,
+         "name": "Nicolas",
+         "surname": "Giordani",
+         "username": "Tiburon",
+         "avatar_url": "/storage/players/nicolasgiordani.png",
+         "production_path": "C:\\PROD\\Players\\197-nicolas.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 198,
+         "name": "Giacomo ",
+         "surname": "De Zambotti",
+         "username": "Ferro da stiro",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\198-giacomo.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 199,
+         "name": "Alessandro",
+         "surname": "Maffei",
+         "username": "Il fondatore di social network ",
+         "avatar_url": "/storage/players/alessandromaffei.png",
+         "production_path": "C:\\PROD\\Players\\199-alessandro.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 200,
+         "name": "Geremia",
+         "surname": "Carollo",
+         "username": "Fruttolo",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\200-geremia.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 201,
+         "name": "Amedeo",
+         "surname": "Malesardi ",
+         "username": "Nono comandamento ",
+         "avatar_url": "/storage/players/amedeomalesardi.png",
+         "production_path": "C:\\PROD\\Players\\201-amedeo.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 202,
+         "name": "Andrea",
+         "surname": "Conzatti",
+         "username": "Caldaia ",
+         "avatar_url": "/storage/players/andreaconzatti.png",
+         "production_path": "C:\\PROD\\Players\\202-andrea.png",
+         "team": {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/28/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/28/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

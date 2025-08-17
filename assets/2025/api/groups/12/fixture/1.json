@@ -1,0 +1,56 @@
+{
+   "data": [
+      {
+         "id": 318,
+         "live": false,
+         "closed": false,
+         "half_time": "HT",
+         "scheduled_at": "2025-08-17T19:40:00.000000Z",
+         "home_team": null,
+         "away_team": null,
+         "best_player": null,
+         "group_id": 12,
+         "timer": {
+            "offset": 0,
+            "started_at": null,
+            "stopped_at": null,
+            "current": 0,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/groups/12/fixtures?page=1",
+      "last": "https://api.gsplizzana.it/api/groups/12/fixtures?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/12/fixtures?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/groups/12/fixtures",
+      "per_page": 10,
+      "to": 1,
+      "total": 1
+   }
+}

@@ -1,0 +1,3026 @@
+{
+   "data": [
+      {
+         "id": 214,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T14:20:00.000000Z",
+         "home_team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "winner": false,
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+            "players_count": 6,
+            "score": 6,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 229,
+                  "name": "Laura",
+                  "surname": "Monaco",
+                  "username": "Pippa Bauda",
+                  "avatar_url": "/storage/players/lauramonaco.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lauramonaco.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 230,
+                  "name": "Miriana",
+                  "surname": "Conci",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mirianaconci.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 231,
+                  "name": "Vera",
+                  "surname": "Rossini",
+                  "username": "Mr. Hyde",
+                  "avatar_url": "/storage/players/verarossini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\verarossini.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 232,
+                  "name": "Valentina ",
+                  "surname": "Eccel",
+                  "username": "Godzilla/Piovra",
+                  "avatar_url": "/storage/players/valentinaeccel.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaeccel.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 233,
+                  "name": "Maira",
+                  "surname": "Bertolini",
+                  "username": "Marc Overmars",
+                  "avatar_url": "/storage/players/mairabertolini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mairabertolini.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 234,
+                  "name": "Margherita ",
+                  "surname": "Planchestainer",
+                  "username": "La mamma di Bambi",
+                  "avatar_url": "/storage/players/margheritaplanchestainer.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\margheritaplanchestainer.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "winner": false,
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sobrieperfinta.png",
+            "players_count": 6,
+            "score": 0,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 255,
+                  "name": "Ilaria",
+                  "surname": "Calovi",
+                  "username": null,
+                  "avatar_url": "/storage/players/ilariacalovi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ilariacalovi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 256,
+                  "name": "Francesca",
+                  "surname": "Parisi",
+                  "username": "Paris Hilton",
+                  "avatar_url": "/storage/players/francescaparisi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescaparisi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 257,
+                  "name": "Angelica",
+                  "surname": "Marzari",
+                  "username": null,
+                  "avatar_url": "/storage/players/angelicamarzari.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\angelicamarzari.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 258,
+                  "name": "Isolde",
+                  "surname": "Santacaterina",
+                  "username": "La bambola di squid game",
+                  "avatar_url": "/storage/players/isoldesantacaterina.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\isoldesantacaterina.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 259,
+                  "name": "Valeria",
+                  "surname": "Rosi",
+                  "username": "Sei gi\u00e0 dentro l\u2019happy hour",
+                  "avatar_url": "/storage/players/valeriarosi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valeriarosi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 260,
+                  "name": "Valentina",
+                  "surname": "Aste",
+                  "username": "Capacit\u00e0 di adattamento ",
+                  "avatar_url": "/storage/players/valentinaaste.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaaste.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": null,
+         "group_id": 2,
+         "timer": {
+            "offset": 844,
+            "started_at": "2025-08-14T14:38:00.000000Z",
+            "stopped_at": "2025-08-14T14:45:03.000000Z",
+            "current": 844,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 217,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T15:20:00.000000Z",
+         "home_team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "winner": false,
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\frugonelfrigo.png",
+            "players_count": 6,
+            "score": 0,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 326,
+                  "name": "Chiara",
+                  "surname": "Chiasera",
+                  "username": "Bign\u00e8",
+                  "avatar_url": "/storage/players/chiarachiasera.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiarachiasera.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 327,
+                  "name": "Silvia",
+                  "surname": "Amadori",
+                  "username": "Stato d'ebrezza",
+                  "avatar_url": "/storage/players/silviaamadori.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviaamadori.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 328,
+                  "name": "Eva",
+                  "surname": "Viesi",
+                  "username": "Gewurz Gurken",
+                  "avatar_url": "/storage/players/evaviesi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\evaviesi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 329,
+                  "name": "Sara",
+                  "surname": "Conteduca",
+                  "username": "Serra capriola",
+                  "avatar_url": "/storage/players/saraconteduca.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraconteduca.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 330,
+                  "name": "Nathalie",
+                  "surname": "Torboli",
+                  "username": "Edgar Davidson/Kinder fetta al latte",
+                  "avatar_url": "/storage/players/nathalietorboli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nathalietorboli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 331,
+                  "name": "Martina",
+                  "surname": "Aste",
+                  "username": "Smeg Ryan",
+                  "avatar_url": "/storage/players/martinaaste.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martinaaste.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "winner": false,
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lemonade.png",
+            "players_count": 6,
+            "score": 1,
+            "stats": {
+               "fouls": {
+                  "total": 2,
+                  "ht": 1,
+                  "ft": 1
+               },
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 254,
+               "name": "Sofia",
+               "surname": "Zendri",
+               "username": "Edicola ambulante",
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+               "goals": 1,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 249,
+                  "name": "Caterina",
+                  "surname": "Lasta",
+                  "username": "La chirichetta di Ronaldo",
+                  "avatar_url": "/storage/players/caterinalasta.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\caterinalasta.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 2,
+                     "ht": 1,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 250,
+                  "name": "Emma",
+                  "surname": "Sozzi",
+                  "username": "Sid il bradipo",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmasozzi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 251,
+                  "name": "Anna",
+                  "surname": "Zendri",
+                  "username": "Diga di speccheri",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazendri.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 252,
+                  "name": "Francesca",
+                  "surname": "Santuari",
+                  "username": "Medjugorije",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasantuari.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 253,
+                  "name": "Maddalena",
+                  "surname": "Monte",
+                  "username": "Settimana bianca",
+                  "avatar_url": "/storage/players/maddalenamonte.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maddalenamonte.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 254,
+                  "name": "Sofia",
+                  "surname": "Zendri",
+                  "username": "Edicola ambulante",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 254,
+            "name": "Sofia",
+            "surname": "Zendri",
+            "username": "Edicola ambulante",
+            "avatar_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiazendri.png",
+            "goals": 1,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 849,
+            "started_at": "2025-08-14T15:38:32.000000Z",
+            "stopped_at": "2025-08-14T15:45:40.000000Z",
+            "current": 849,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 251,
+               "name": "Anna",
+               "surname": "Zendri",
+               "username": "Diga di speccheri",
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazendri.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 176
+         },
+         "last_red_card": null
+      },
+      {
+         "id": 220,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T16:20:00.000000Z",
+         "home_team": {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "winner": false,
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+            "players_count": 6,
+            "score": 14,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 308,
+               "name": "Elena",
+               "surname": "Bordato",
+               "username": "Armata vincente",
+               "avatar_url": "/storage/players/elenabordato.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elenabordato.png",
+               "goals": 5,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 306,
+                  "name": "Lucia",
+                  "surname": "Raffaelli",
+                  "username": "Zebra di bamboo",
+                  "avatar_url": "/storage/players/luciaraffaelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\luciaraffaelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 307,
+                  "name": "Emma",
+                  "surname": "Tesini",
+                  "username": "Latte Trento",
+                  "avatar_url": "/storage/players/emmatesini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmatesini.png",
+                  "goals": 7,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 308,
+                  "name": "Elena",
+                  "surname": "Bordato",
+                  "username": "Armata vincente",
+                  "avatar_url": "/storage/players/elenabordato.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elenabordato.png",
+                  "goals": 5,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 309,
+                  "name": "Margherita ",
+                  "surname": "Bottesi",
+                  "username": "Pe Williams",
+                  "avatar_url": "/storage/players/margheritabottesi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\margheritabottesi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 310,
+                  "name": "Jasmine",
+                  "surname": "Scottini",
+                  "username": "Polpacci d'oro",
+                  "avatar_url": "/storage/players/jasminescottini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\jasminescottini.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 311,
+                  "name": "Marianna",
+                  "surname": "Bruschetti",
+                  "username": "Assessora",
+                  "avatar_url": "/storage/players/mariannabruschetti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mariannabruschetti.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "winner": false,
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gintoniche.png",
+            "players_count": 4,
+            "score": 0,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 261,
+                  "name": "Arianna",
+                  "surname": "Albertini",
+                  "username": null,
+                  "avatar_url": "/storage/players/ariannaalbertini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ariannaalbertini.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 262,
+                  "name": "Sofia",
+                  "surname": "Manica",
+                  "username": "Incontinenza",
+                  "avatar_url": "/storage/players/sofiamanica.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiamanica.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 263,
+                  "name": "Elisa ",
+                  "surname": "Moratelli",
+                  "username": "Dissenten",
+                  "avatar_url": "/storage/players/elisamoratelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisamoratelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 264,
+                  "name": "Sara",
+                  "surname": "Prezzi",
+                  "username": "Post-it",
+                  "avatar_url": "/storage/players/saraprezzi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraprezzi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 308,
+            "name": "Elena",
+            "surname": "Bordato",
+            "username": "Armata vincente",
+            "avatar_url": "/storage/players/elenabordato.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elenabordato.png",
+            "goals": 5,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 842,
+            "started_at": "2025-08-14T16:36:22.000000Z",
+            "stopped_at": "2025-08-14T16:43:23.000000Z",
+            "current": 842,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 223,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T17:20:00.000000Z",
+         "home_team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "winner": false,
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\peccaminose.png",
+            "players_count": 9,
+            "score": 1,
+            "stats": {
+               "fouls": {
+                  "total": 2,
+                  "ht": 1,
+                  "ft": 1
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 278,
+                  "name": "Arianna",
+                  "surname": "Bettonte",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ariannabettonte.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 2,
+                     "ht": 1,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 279,
+                  "name": "Martina",
+                  "surname": "Bonvecchio",
+                  "username": "La masochista di citt\u00e1 laggi\u00f9",
+                  "avatar_url": "/storage/players/martinabonvecchio.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martinabonvecchio.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 280,
+                  "name": "Cinzia",
+                  "surname": "Ravagni",
+                  "username": null,
+                  "avatar_url": "/storage/players/cinziaravagni.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\cinziaravagni.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 281,
+                  "name": "Anna",
+                  "surname": "Cappuccio",
+                  "username": "Sette bello",
+                  "avatar_url": "/storage/players/annacappuccio.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annacappuccio.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 282,
+                  "name": "Caterina",
+                  "surname": "Barberi",
+                  "username": "H come hamtaro",
+                  "avatar_url": "/storage/players/caterinabarberi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\caterinabarberi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 283,
+                  "name": "Elisa",
+                  "surname": "Gerola",
+                  "username": "Vladimir luxuria",
+                  "avatar_url": "/storage/players/elisagerola.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisagerola.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 284,
+                  "name": "Benedetta",
+                  "surname": "Foradori",
+                  "username": "Scagliatrice di prime pietre",
+                  "avatar_url": "/storage/players/benedettaforadori.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\benedettaforadori.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 285,
+                  "name": "Angelica",
+                  "surname": "Perghem",
+                  "username": "Trappola",
+                  "avatar_url": "/storage/players/angelicaperghem.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\angelicaperghem.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 286,
+                  "name": "Alice",
+                  "surname": "Armellini",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alicearmellini.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "winner": false,
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\wanditas.png",
+            "players_count": 7,
+            "score": 4,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 320,
+               "name": "Giulia",
+               "surname": "Scrinzi",
+               "username": "Bimba bionica",
+               "avatar_url": "/storage/players/giuliascrinzi.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giuliascrinzi.png",
+               "goals": 3,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 319,
+                  "name": "Silvia",
+                  "surname": "Manzana",
+                  "username": "Trota salmonata",
+                  "avatar_url": "/storage/players/silviamanzana.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviamanzana.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 320,
+                  "name": "Giulia",
+                  "surname": "Scrinzi",
+                  "username": "Bimba bionica",
+                  "avatar_url": "/storage/players/giuliascrinzi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giuliascrinzi.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 321,
+                  "name": "Giulia",
+                  "surname": "Angiari",
+                  "username": "Tube di falloppio",
+                  "avatar_url": "/storage/players/giuliaangiari.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giuliaangiari.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 322,
+                  "name": "Maddalena",
+                  "surname": "Baldo",
+                  "username": "La figlia di Psycho",
+                  "avatar_url": "/storage/players/maddalenabaldo.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\maddalenabaldo.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 323,
+                  "name": "Martina",
+                  "surname": "Zeni",
+                  "username": "Anfetamina",
+                  "avatar_url": "/storage/players/martinazeni.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martinazeni.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 324,
+                  "name": "Marika",
+                  "surname": "Bisoffi",
+                  "username": "Idrocarburo",
+                  "avatar_url": "/storage/players/marikabisoffi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marikabisoffi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 325,
+                  "name": "Lisa",
+                  "surname": "Bisoffi",
+                  "username": "Vodki Tempi",
+                  "avatar_url": "/storage/players/lisabisoffi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lisabisoffi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 320,
+            "name": "Giulia",
+            "surname": "Scrinzi",
+            "username": "Bimba bionica",
+            "avatar_url": "/storage/players/giuliascrinzi.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giuliascrinzi.png",
+            "goals": 3,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 843,
+            "started_at": "2025-08-14T17:34:36.000000Z",
+            "stopped_at": "2025-08-14T17:41:39.000000Z",
+            "current": 843,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 227,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T19:40:00.000000Z",
+         "home_team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "winner": false,
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\spicesquad.png",
+            "players_count": 7,
+            "score": 3,
+            "stats": {
+               "fouls": {
+                  "total": 1,
+                  "ht": 0,
+                  "ft": 1
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 287,
+                  "name": "Chiara",
+                  "surname": "Chizzola",
+                  "username": "Cera calda",
+                  "avatar_url": "/storage/players/chiarachizzola.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiarachizzola.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 288,
+                  "name": "Aurora",
+                  "surname": "Robol",
+                  "username": "Bambola di cera",
+                  "avatar_url": "/storage/players/aurorarobol.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\aurorarobol.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 0,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 289,
+                  "name": "Chiara",
+                  "surname": "Mosna",
+                  "username": "Matrimonio combinato",
+                  "avatar_url": "/storage/players/chiaramosna.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiaramosna.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 290,
+                  "name": "Noemi",
+                  "surname": "Eccheli",
+                  "username": "Schinkenbrot",
+                  "avatar_url": "/storage/players/noemieccheli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\noemieccheli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 291,
+                  "name": "Jessica",
+                  "surname": "Merighi",
+                  "username": "Licaone tristens",
+                  "avatar_url": "/storage/players/jessicamerighi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\jessicamerighi.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 292,
+                  "name": "Anna",
+                  "surname": "Scarciolla",
+                  "username": "Faccio io",
+                  "avatar_url": "/storage/players/annascarciolla.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annascarciolla.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 293,
+                  "name": "Melany",
+                  "surname": "Raffaelli",
+                  "username": "Hotel Belvedere",
+                  "avatar_url": "/storage/players/melanyraffaelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\melanyraffaelli.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "winner": false,
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
+            "players_count": 7,
+            "score": 4,
+            "stats": {
+               "fouls": {
+                  "total": 2,
+                  "ht": 1,
+                  "ft": 1
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 270,
+               "name": "Simonetta",
+               "surname": "Nolfo",
+               "username": "Arresti domiciliari",
+               "avatar_url": "/storage/players/simonettanolfo.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simonettanolfo.png",
+               "goals": 2,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 265,
+                  "name": "Emilia",
+                  "surname": "Modena",
+                  "username": "Russian Twist",
+                  "avatar_url": "/storage/players/emiliamodena.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emiliamodena.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 266,
+                  "name": "Maria",
+                  "surname": "Barozzi",
+                  "username": "Punto esclamativo",
+                  "avatar_url": "/storage/players/mariabarozzi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mariabarozzi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 0,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 267,
+                  "name": "Sofia",
+                  "surname": "Boschetti",
+                  "username": "Tamagotchi",
+                  "avatar_url": "/storage/players/sofiaboschetti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiaboschetti.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 1,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 268,
+                  "name": "Nadia",
+                  "surname": "Malfatti",
+                  "username": "Becher",
+                  "avatar_url": "/storage/players/nadiamalfatti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nadiamalfatti.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 269,
+                  "name": "Alice",
+                  "surname": "Cappelletti",
+                  "username": "Gastrocnemio",
+                  "avatar_url": "/storage/players/alicecappelletti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alicecappelletti.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 270,
+                  "name": "Simonetta",
+                  "surname": "Nolfo",
+                  "username": "Arresti domiciliari",
+                  "avatar_url": "/storage/players/simonettanolfo.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simonettanolfo.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 271,
+                  "name": "Sara",
+                  "surname": "Bonazza",
+                  "username": "Sacra Sindone",
+                  "avatar_url": "/storage/players/sarabonazza.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sarabonazza.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 270,
+            "name": "Simonetta",
+            "surname": "Nolfo",
+            "username": "Arresti domiciliari",
+            "avatar_url": "/storage/players/simonettanolfo.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simonettanolfo.png",
+            "goals": 2,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 851,
+            "started_at": "2025-08-14T19:52:08.000000Z",
+            "stopped_at": "2025-08-14T19:59:18.000000Z",
+            "current": 851,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 230,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T20:40:00.000000Z",
+         "home_team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "winner": false,
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\scarsenal.png",
+            "players_count": 8,
+            "score": 2,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 241,
+                  "name": "Lisa ",
+                  "surname": "Siroli ",
+                  "username": null,
+                  "avatar_url": "/storage/players/lisasiroli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lisasiroli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 242,
+                  "name": "Stefania",
+                  "surname": "Viola",
+                  "username": null,
+                  "avatar_url": "/storage/players/stefaniaviola.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefaniaviola.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 243,
+                  "name": "Serena",
+                  "surname": "Stoffella",
+                  "username": null,
+                  "avatar_url": "/storage/players/serenastoffella.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\serenastoffella.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 244,
+                  "name": "Ilaria",
+                  "surname": "Stoffella",
+                  "username": "Fratella",
+                  "avatar_url": "/storage/players/ilariastoffella.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ilariastoffella.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 245,
+                  "name": "Claudia ",
+                  "surname": "Manzana",
+                  "username": "Bolscevica",
+                  "avatar_url": "/storage/players/claudiamanzana.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\claudiamanzana.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 246,
+                  "name": "Virginia ",
+                  "surname": "Simoncelli",
+                  "username": "Coni Zugna",
+                  "avatar_url": "/storage/players/virginiasimoncelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\virginiasimoncelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 247,
+                  "name": "Matilde",
+                  "surname": "Simoncelli",
+                  "username": "Fr\u00e4ulein\u00a0Rottenmeier",
+                  "avatar_url": "/storage/players/matildesimoncelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matildesimoncelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 248,
+                  "name": "Sara",
+                  "surname": "Baroni",
+                  "username": "Vigna guyot",
+                  "avatar_url": "/storage/players/sarabaroni.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sarabaroni.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "winner": false,
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
+            "players_count": 6,
+            "score": 8,
+            "stats": {
+               "fouls": {
+                  "total": 1,
+                  "ht": 0,
+                  "ft": 1
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 305,
+               "name": "Valentina",
+               "surname": "Perghem",
+               "username": "Robocop",
+               "avatar_url": "/storage/players/valentinaperghem.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaperghem.png",
+               "goals": 5,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 300,
+                  "name": "Giorgia",
+                  "surname": "Bonomi",
+                  "username": "Camomilla Bonomelli",
+                  "avatar_url": "/storage/players/giorgiabonomi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giorgiabonomi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 0,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 301,
+                  "name": "Angela",
+                  "surname": "Adami",
+                  "username": "Magnitudo",
+                  "avatar_url": "/storage/players/angelaadami.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\angelaadami.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 302,
+                  "name": "Lia",
+                  "surname": "Nicolli",
+                  "username": "Marmolada",
+                  "avatar_url": "/storage/players/lianicolli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lianicolli.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 303,
+                  "name": "Anna",
+                  "surname": "Zandonati ",
+                  "username": "Lingotto d'Oro",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazandonati.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 304,
+                  "name": "Camilla",
+                  "surname": "Cattoi",
+                  "username": "K2",
+                  "avatar_url": "/storage/players/camillacattoi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\camillacattoi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 305,
+                  "name": "Valentina",
+                  "surname": "Perghem",
+                  "username": "Robocop",
+                  "avatar_url": "/storage/players/valentinaperghem.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaperghem.png",
+                  "goals": 5,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 305,
+            "name": "Valentina",
+            "surname": "Perghem",
+            "username": "Robocop",
+            "avatar_url": "/storage/players/valentinaperghem.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaperghem.png",
+            "goals": 5,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 856,
+            "started_at": "2025-08-14T20:58:32.000000Z",
+            "stopped_at": "2025-08-14T20:59:12.000000Z",
+            "current": 856,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 233,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-14T21:40:00.000000Z",
+         "home_team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "winner": false,
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+            "players_count": 6,
+            "score": 4,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 231,
+               "name": "Vera",
+               "surname": "Rossini",
+               "username": "Mr. Hyde",
+               "avatar_url": "/storage/players/verarossini.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\verarossini.png",
+               "goals": 3,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 229,
+                  "name": "Laura",
+                  "surname": "Monaco",
+                  "username": "Pippa Bauda",
+                  "avatar_url": "/storage/players/lauramonaco.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lauramonaco.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 230,
+                  "name": "Miriana",
+                  "surname": "Conci",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mirianaconci.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 231,
+                  "name": "Vera",
+                  "surname": "Rossini",
+                  "username": "Mr. Hyde",
+                  "avatar_url": "/storage/players/verarossini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\verarossini.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 232,
+                  "name": "Valentina ",
+                  "surname": "Eccel",
+                  "username": "Godzilla/Piovra",
+                  "avatar_url": "/storage/players/valentinaeccel.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaeccel.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 233,
+                  "name": "Maira",
+                  "surname": "Bertolini",
+                  "username": "Marc Overmars",
+                  "avatar_url": "/storage/players/mairabertolini.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mairabertolini.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 234,
+                  "name": "Margherita ",
+                  "surname": "Planchestainer",
+                  "username": "La mamma di Bambi",
+                  "avatar_url": "/storage/players/margheritaplanchestainer.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\margheritaplanchestainer.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "winner": false,
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pochemabuone.png",
+            "players_count": 6,
+            "score": 0,
+            "stats": {
+               "fouls": {
+                  "total": 2,
+                  "ht": 1,
+                  "ft": 1
+               },
+               "yellow_cards": 1,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 294,
+                  "name": "Chiara",
+                  "surname": "Deimichei",
+                  "username": "East Coast",
+                  "avatar_url": "/storage/players/chiaradeimichei.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiaradeimichei.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 0,
+                     "ft": 1
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 295,
+                  "name": "Giorgia",
+                  "surname": "Sade",
+                  "username": "Lana d\u2019alpaca",
+                  "avatar_url": "/storage/players/giorgiasade.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giorgiasade.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 296,
+                  "name": "Veronica",
+                  "surname": "Osele",
+                  "username": "Marion Jones",
+                  "avatar_url": "/storage/players/veronicaosele.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\veronicaosele.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 1,
+                     "ht": 1,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 297,
+                  "name": "Francesca",
+                  "surname": "Sartori",
+                  "username": "Nastra isolante ",
+                  "avatar_url": "/storage/players/francescasartori.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescasartori.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 298,
+                  "name": "Chiara",
+                  "surname": "Candio",
+                  "username": "Bestemmia al contrario",
+                  "avatar_url": "/storage/players/chiaracandio.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiaracandio.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 1,
+                  "red_cards": 0
+               },
+               {
+                  "id": 299,
+                  "name": "Valentina ",
+                  "surname": "Salzani",
+                  "username": "Hello kitty",
+                  "avatar_url": "/storage/players/valentinasalzani.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinasalzani.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 231,
+            "name": "Vera",
+            "surname": "Rossini",
+            "username": "Mr. Hyde",
+            "avatar_url": "/storage/players/verarossini.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\verarossini.png",
+            "goals": 3,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 845,
+            "started_at": "2025-08-14T21:54:59.000000Z",
+            "stopped_at": "2025-08-14T22:02:04.000000Z",
+            "current": 845,
+            "running": false
+         },
+         "last_yellow_card": {
+            "player": {
+               "id": 298,
+               "name": "Chiara",
+               "surname": "Candio",
+               "username": "Bestemmia al contrario",
+               "avatar_url": "/storage/players/chiaracandio.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiaracandio.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 644
+         },
+         "last_red_card": null
+      },
+      {
+         "id": 237,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-15T09:40:00.000000Z",
+         "home_team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "winner": false,
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\frugonelfrigo.png",
+            "players_count": 6,
+            "score": 3,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 326,
+                  "name": "Chiara",
+                  "surname": "Chiasera",
+                  "username": "Bign\u00e8",
+                  "avatar_url": "/storage/players/chiarachiasera.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiarachiasera.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 327,
+                  "name": "Silvia",
+                  "surname": "Amadori",
+                  "username": "Stato d'ebrezza",
+                  "avatar_url": "/storage/players/silviaamadori.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviaamadori.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 328,
+                  "name": "Eva",
+                  "surname": "Viesi",
+                  "username": "Gewurz Gurken",
+                  "avatar_url": "/storage/players/evaviesi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\evaviesi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 329,
+                  "name": "Sara",
+                  "surname": "Conteduca",
+                  "username": "Serra capriola",
+                  "avatar_url": "/storage/players/saraconteduca.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\saraconteduca.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 330,
+                  "name": "Nathalie",
+                  "surname": "Torboli",
+                  "username": "Edgar Davidson/Kinder fetta al latte",
+                  "avatar_url": "/storage/players/nathalietorboli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nathalietorboli.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 331,
+                  "name": "Martina",
+                  "surname": "Aste",
+                  "username": "Smeg Ryan",
+                  "avatar_url": "/storage/players/martinaaste.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martinaaste.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "winner": false,
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\iconiche.png",
+            "players_count": 6,
+            "score": 5,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 275,
+               "name": "Ester",
+               "surname": "Biem",
+               "username": "Calypso",
+               "avatar_url": "/storage/players/esterbiem.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\esterbiem.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 272,
+                  "name": "Camilla",
+                  "surname": "Rossi",
+                  "username": "Schiava",
+                  "avatar_url": "/storage/players/camillarossi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\camillarossi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 273,
+                  "name": "Rachele",
+                  "surname": "Gugole",
+                  "username": "Pannocchia",
+                  "avatar_url": "/storage/players/rachelegugole.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\rachelegugole.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 274,
+                  "name": "Michela",
+                  "surname": "Pezzato",
+                  "username": "Cocca di Mamma",
+                  "avatar_url": "/storage/players/michelapezzato.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\michelapezzato.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 275,
+                  "name": "Ester",
+                  "surname": "Biem",
+                  "username": "Calypso",
+                  "avatar_url": "/storage/players/esterbiem.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\esterbiem.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 276,
+                  "name": "Nicol",
+                  "surname": "Gavioli",
+                  "username": "L'ultima delle groupies",
+                  "avatar_url": "/storage/players/nicolgavioli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nicolgavioli.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 277,
+                  "name": "Matilde",
+                  "surname": "Gugole",
+                  "username": "Has Fidanken",
+                  "avatar_url": "/storage/players/matildegugole.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matildegugole.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 275,
+            "name": "Ester",
+            "surname": "Biem",
+            "username": "Calypso",
+            "avatar_url": "/storage/players/esterbiem.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\esterbiem.png",
+            "goals": 0,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 847,
+            "started_at": "2025-08-15T09:50:50.000000Z",
+            "stopped_at": "2025-08-15T09:57:57.000000Z",
+            "current": 847,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 239,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-15T10:20:00.000000Z",
+         "home_team": {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "winner": false,
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\legocciole.png",
+            "players_count": 4,
+            "score": 3,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 332,
+                  "name": "Isabella",
+                  "surname": "Barberi",
+                  "username": "Isabrulla",
+                  "avatar_url": "/storage/players/isabellabarberi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\isabellabarberi.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 333,
+                  "name": "Angelica",
+                  "surname": "Galvagni",
+                  "username": "Bebe Vio",
+                  "avatar_url": "/storage/players/angelicagalvagni.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\angelicagalvagni.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 334,
+                  "name": "Noemi",
+                  "surname": "Paoli",
+                  "username": "Squirtola",
+                  "avatar_url": "/storage/players/noemipaoli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\noemipaoli.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 335,
+                  "name": "Diana",
+                  "surname": "Osinska",
+                  "username": "La giungla che distrugge",
+                  "avatar_url": "/storage/players/dianaosinska.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\dianaosinska.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "winner": false,
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
+            "players_count": 7,
+            "score": 15,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": {
+               "id": 265,
+               "name": "Emilia",
+               "surname": "Modena",
+               "username": "Russian Twist",
+               "avatar_url": "/storage/players/emiliamodena.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emiliamodena.png",
+               "goals": 3,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
+            "players": [
+               {
+                  "id": 265,
+                  "name": "Emilia",
+                  "surname": "Modena",
+                  "username": "Russian Twist",
+                  "avatar_url": "/storage/players/emiliamodena.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emiliamodena.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 266,
+                  "name": "Maria",
+                  "surname": "Barozzi",
+                  "username": "Punto esclamativo",
+                  "avatar_url": "/storage/players/mariabarozzi.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\mariabarozzi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 267,
+                  "name": "Sofia",
+                  "surname": "Boschetti",
+                  "username": "Tamagotchi",
+                  "avatar_url": "/storage/players/sofiaboschetti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sofiaboschetti.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 268,
+                  "name": "Nadia",
+                  "surname": "Malfatti",
+                  "username": "Becher",
+                  "avatar_url": "/storage/players/nadiamalfatti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\nadiamalfatti.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 269,
+                  "name": "Alice",
+                  "surname": "Cappelletti",
+                  "username": "Gastrocnemio",
+                  "avatar_url": "/storage/players/alicecappelletti.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\alicecappelletti.png",
+                  "goals": 3,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 270,
+                  "name": "Simonetta",
+                  "surname": "Nolfo",
+                  "username": "Arresti domiciliari",
+                  "avatar_url": "/storage/players/simonettanolfo.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\simonettanolfo.png",
+                  "goals": 6,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 271,
+                  "name": "Sara",
+                  "surname": "Bonazza",
+                  "username": "Sacra Sindone",
+                  "avatar_url": "/storage/players/sarabonazza.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sarabonazza.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": {
+            "id": 265,
+            "name": "Emilia",
+            "surname": "Modena",
+            "username": "Russian Twist",
+            "avatar_url": "/storage/players/emiliamodena.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emiliamodena.png",
+            "goals": 3,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
+         "group_id": 2,
+         "timer": {
+            "offset": 852,
+            "started_at": "2025-08-15T10:29:04.000000Z",
+            "stopped_at": "2025-08-15T10:36:16.000000Z",
+            "current": 852,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      },
+      {
+         "id": 241,
+         "live": false,
+         "closed": true,
+         "half_time": "FT",
+         "scheduled_at": "2025-08-15T11:00:00.000000Z",
+         "home_team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "winner": false,
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\scarsenal.png",
+            "players_count": 8,
+            "score": 1,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 241,
+                  "name": "Lisa ",
+                  "surname": "Siroli ",
+                  "username": null,
+                  "avatar_url": "/storage/players/lisasiroli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lisasiroli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 242,
+                  "name": "Stefania",
+                  "surname": "Viola",
+                  "username": null,
+                  "avatar_url": "/storage/players/stefaniaviola.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\stefaniaviola.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 243,
+                  "name": "Serena",
+                  "surname": "Stoffella",
+                  "username": null,
+                  "avatar_url": "/storage/players/serenastoffella.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\serenastoffella.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 244,
+                  "name": "Ilaria",
+                  "surname": "Stoffella",
+                  "username": "Fratella",
+                  "avatar_url": "/storage/players/ilariastoffella.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ilariastoffella.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 245,
+                  "name": "Claudia ",
+                  "surname": "Manzana",
+                  "username": "Bolscevica",
+                  "avatar_url": "/storage/players/claudiamanzana.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\claudiamanzana.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 246,
+                  "name": "Virginia ",
+                  "surname": "Simoncelli",
+                  "username": "Coni Zugna",
+                  "avatar_url": "/storage/players/virginiasimoncelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\virginiasimoncelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 247,
+                  "name": "Matilde",
+                  "surname": "Simoncelli",
+                  "username": "Fr\u00e4ulein\u00a0Rottenmeier",
+                  "avatar_url": "/storage/players/matildesimoncelli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matildesimoncelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 248,
+                  "name": "Sara",
+                  "surname": "Baroni",
+                  "username": "Vigna guyot",
+                  "avatar_url": "/storage/players/sarabaroni.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\sarabaroni.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "away_team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "winner": false,
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lenonconvocate.png",
+            "players_count": 8,
+            "score": 3,
+            "stats": {
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0,
+               "substitutions": 0
+            },
+            "best_player": null,
+            "players": [
+               {
+                  "id": 336,
+                  "name": "Francesca",
+                  "surname": "Bordignon",
+                  "username": "Fellazio",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\francescabordignon.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 337,
+                  "name": "Jessica",
+                  "surname": "Mattei",
+                  "username": "I.N.R.I.",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\jessicamattei.png",
+                  "goals": 2,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 338,
+                  "name": "Chiara",
+                  "surname": "Salvetti",
+                  "username": "Bionda dentro",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\chiarasalvetti.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 339,
+                  "name": "Ludovica",
+                  "surname": "Bearzi",
+                  "username": "Peach Booty",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\ludovicabearzi.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 340,
+                  "name": "Elisa",
+                  "surname": "Assara",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elisaassara.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 341,
+                  "name": "Marta",
+                  "surname": "Gilli",
+                  "username": "Cindy Mille colori",
+                  "avatar_url": "/storage/players/martagilli.png",
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\martagilli.png",
+                  "goals": 1,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 342,
+                  "name": "Silvia ",
+                  "surname": "Cescotti",
+                  "username": null,
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\silviacescotti.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               },
+               {
+                  "id": 345,
+                  "name": "Beatrice",
+                  "surname": "Veronelli",
+                  "username": "Treccia mochena",
+                  "avatar_url": null,
+                  "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\beatriceveronelli.png",
+                  "goals": 0,
+                  "fouls": {
+                     "total": 0,
+                     "ht": 0,
+                     "ft": 0
+                  },
+                  "yellow_cards": 0,
+                  "red_cards": 0
+               }
+            ]
+         },
+         "best_player": null,
+         "group_id": 2,
+         "timer": {
+            "offset": 857,
+            "started_at": "2025-08-15T11:09:27.000000Z",
+            "stopped_at": "2025-08-15T11:16:44.000000Z",
+            "current": 857,
+            "running": false
+         },
+         "last_yellow_card": null,
+         "last_red_card": null
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/groups/2/fixtures?page=1",
+      "last": "https://api.gsplizzana.it/api/groups/2/fixtures?page=3",
+      "prev": null,
+      "next": "https://api.gsplizzana.it/api/groups/2/fixtures?page=2"
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 3,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/2/fixtures?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/2/fixtures?page=2",
+            "label": "2",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/2/fixtures?page=3",
+            "label": "3",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/groups/2/fixtures?page=2",
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/groups/2/fixtures",
+      "per_page": 10,
+      "to": 10,
+      "total": 27
+   }
+}

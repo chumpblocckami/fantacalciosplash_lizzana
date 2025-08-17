@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 300,
+         "name": "Giorgia",
+         "surname": "Bonomi",
+         "username": "Camomilla Bonomelli",
+         "avatar_url": "/storage/players/giorgiabonomi.png",
+         "production_path": "C:\\PROD\\Players\\300-giorgia.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 301,
+         "name": "Angela",
+         "surname": "Adami",
+         "username": "Magnitudo",
+         "avatar_url": "/storage/players/angelaadami.png",
+         "production_path": "C:\\PROD\\Players\\301-angela.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 302,
+         "name": "Lia",
+         "surname": "Nicolli",
+         "username": "Marmolada",
+         "avatar_url": "/storage/players/lianicolli.png",
+         "production_path": "C:\\PROD\\Players\\302-lia.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 303,
+         "name": "Anna",
+         "surname": "Zandonati ",
+         "username": "Lingotto d'Oro",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\303-anna.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 304,
+         "name": "Camilla",
+         "surname": "Cattoi",
+         "username": "K2",
+         "avatar_url": "/storage/players/camillacattoi.png",
+         "production_path": "C:\\PROD\\Players\\304-camilla.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 305,
+         "name": "Valentina",
+         "surname": "Perghem",
+         "username": "Robocop",
+         "avatar_url": "/storage/players/valentinaperghem.png",
+         "production_path": "C:\\PROD\\Players\\305-valentina.png",
+         "team": {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/44/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/44/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/44/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/44/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

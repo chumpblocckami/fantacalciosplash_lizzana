@@ -1,0 +1,38 @@
+{
+   "data": [
+      {
+         "id": 52,
+         "name": "NEW LEGENDS",
+         "tag": "NEW",
+         "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\newlegends.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 6,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "51": 1
+         },
+         "goal_difference": 4
+      },
+      {
+         "id": 51,
+         "name": "OLD LEGENDS",
+         "tag": "OLD",
+         "logo_url": "/storage/teams/eSIO4NfSuv7m0SkpUpNFHPkh73cfD59nZEKU9Uqy.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\oldlegends.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 6,
+         "head_to_head": {
+            "52": -1
+         },
+         "goal_difference": -4
+      }
+   ]
+}

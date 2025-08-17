@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 287,
+         "name": "Chiara",
+         "surname": "Chizzola",
+         "username": "Cera calda",
+         "avatar_url": "/storage/players/chiarachizzola.png",
+         "production_path": "C:\\PROD\\Players\\287-chiara.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 288,
+         "name": "Aurora",
+         "surname": "Robol",
+         "username": "Bambola di cera",
+         "avatar_url": "/storage/players/aurorarobol.png",
+         "production_path": "C:\\PROD\\Players\\288-aurora.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 289,
+         "name": "Chiara",
+         "surname": "Mosna",
+         "username": "Matrimonio combinato",
+         "avatar_url": "/storage/players/chiaramosna.png",
+         "production_path": "C:\\PROD\\Players\\289-chiara.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 290,
+         "name": "Noemi",
+         "surname": "Eccheli",
+         "username": "Schinkenbrot",
+         "avatar_url": "/storage/players/noemieccheli.png",
+         "production_path": "C:\\PROD\\Players\\290-noemi.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 291,
+         "name": "Jessica",
+         "surname": "Merighi",
+         "username": "Licaone tristens",
+         "avatar_url": "/storage/players/jessicamerighi.png",
+         "production_path": "C:\\PROD\\Players\\291-jessica.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 292,
+         "name": "Anna",
+         "surname": "Scarciolla",
+         "username": "Faccio io",
+         "avatar_url": "/storage/players/annascarciolla.png",
+         "production_path": "C:\\PROD\\Players\\292-anna.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 293,
+         "name": "Melany",
+         "surname": "Raffaelli",
+         "username": "Hotel Belvedere",
+         "avatar_url": "/storage/players/melanyraffaelli.png",
+         "production_path": "C:\\PROD\\Players\\293-melany.png",
+         "team": {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/42/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/42/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/42/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/42/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

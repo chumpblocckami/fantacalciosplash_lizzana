@@ -1,0 +1,196 @@
+{
+   "data": [
+      {
+         "id": 181,
+         "name": "Daniel",
+         "surname": "Pedrotti",
+         "username": "Cuginoman",
+         "avatar_url": "/storage/players/danielpedrotti.png",
+         "production_path": "C:\\PROD\\Players\\181-daniel.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 182,
+         "name": "Federico ",
+         "surname": "Andreis",
+         "username": "Distinto signor rabbioso",
+         "avatar_url": "/storage/players/federicoandreis.png",
+         "production_path": "C:\\PROD\\Players\\182-federico.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 183,
+         "name": "Marco",
+         "surname": "Mutinelli",
+         "username": "Urbano il vigile",
+         "avatar_url": "/storage/players/marcomutinelli.png",
+         "production_path": "C:\\PROD\\Players\\183-marco.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 184,
+         "name": "Andrea",
+         "surname": "Pedrotti",
+         "username": "Medioman",
+         "avatar_url": "/storage/players/andreapedrotti.png",
+         "production_path": "C:\\PROD\\Players\\184-andrea.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 185,
+         "name": "Federico",
+         "surname": "Manica",
+         "username": "Daniel Ricciardo",
+         "avatar_url": "/storage/players/federicomanica.png",
+         "production_path": "C:\\PROD\\Players\\185-federico.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 186,
+         "name": "Jacopo",
+         "surname": "Chemini",
+         "username": "Teschio fiammeggiante",
+         "avatar_url": "/storage/players/jacopochemini.png",
+         "production_path": "C:\\PROD\\Players\\186-jacopo.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 187,
+         "name": "Daniele",
+         "surname": "Dalbosco",
+         "username": null,
+         "avatar_url": "/storage/players/danieledalbosco.png",
+         "production_path": "C:\\PROD\\Players\\187-daniele.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 188,
+         "name": "Davide ",
+         "surname": "Bazzano",
+         "username": "Il ripudiato - pistone rovente",
+         "avatar_url": "/storage/players/davidebazzano.png",
+         "production_path": "C:\\PROD\\Players\\188-davide.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 189,
+         "name": "Marco",
+         "surname": "Sala",
+         "username": "Cane rognoso",
+         "avatar_url": "/storage/players/marcosala.png",
+         "production_path": "C:\\PROD\\Players\\189-marco.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 343,
+         "name": "Matteo",
+         "surname": "Simoncelli",
+         "username": "Salvo errori",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\343-matteo.png",
+         "team": {
+            "id": 26,
+            "name": "IMONTAGNA",
+            "tag": "IMO",
+            "logo_url": "/storage/teams/imontagna.png",
+            "production_path": "C:\\PROD\\Teams\\26-imontagna.png",
+            "players_count": 10
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/26/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/26/players",
+      "per_page": 10,
+      "to": 10,
+      "total": 10
+   }
+}

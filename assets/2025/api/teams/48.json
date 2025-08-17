@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 326,
+         "name": "Chiara",
+         "surname": "Chiasera",
+         "username": "Bign\u00e8",
+         "avatar_url": "/storage/players/chiarachiasera.png",
+         "production_path": "C:\\PROD\\Players\\326-chiara.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 327,
+         "name": "Silvia",
+         "surname": "Amadori",
+         "username": "Stato d'ebrezza",
+         "avatar_url": "/storage/players/silviaamadori.png",
+         "production_path": "C:\\PROD\\Players\\327-silvia.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 328,
+         "name": "Eva",
+         "surname": "Viesi",
+         "username": "Gewurz Gurken",
+         "avatar_url": "/storage/players/evaviesi.png",
+         "production_path": "C:\\PROD\\Players\\328-eva.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 329,
+         "name": "Sara",
+         "surname": "Conteduca",
+         "username": "Serra capriola",
+         "avatar_url": "/storage/players/saraconteduca.png",
+         "production_path": "C:\\PROD\\Players\\329-sara.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 330,
+         "name": "Nathalie",
+         "surname": "Torboli",
+         "username": "Edgar Davidson/Kinder fetta al latte",
+         "avatar_url": "/storage/players/nathalietorboli.png",
+         "production_path": "C:\\PROD\\Players\\330-nathalie.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 331,
+         "name": "Martina",
+         "surname": "Aste",
+         "username": "Smeg Ryan",
+         "avatar_url": "/storage/players/martinaaste.png",
+         "production_path": "C:\\PROD\\Players\\331-martina.png",
+         "team": {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/48/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/48/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

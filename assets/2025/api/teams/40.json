@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 272,
+         "name": "Camilla",
+         "surname": "Rossi",
+         "username": "Schiava",
+         "avatar_url": "/storage/players/camillarossi.png",
+         "production_path": "C:\\PROD\\Players\\272-camilla.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 273,
+         "name": "Rachele",
+         "surname": "Gugole",
+         "username": "Pannocchia",
+         "avatar_url": "/storage/players/rachelegugole.png",
+         "production_path": "C:\\PROD\\Players\\273-rachele.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 274,
+         "name": "Michela",
+         "surname": "Pezzato",
+         "username": "Cocca di Mamma",
+         "avatar_url": "/storage/players/michelapezzato.png",
+         "production_path": "C:\\PROD\\Players\\274-michela.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 275,
+         "name": "Ester",
+         "surname": "Biem",
+         "username": "Calypso",
+         "avatar_url": "/storage/players/esterbiem.png",
+         "production_path": "C:\\PROD\\Players\\275-ester.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 276,
+         "name": "Nicol",
+         "surname": "Gavioli",
+         "username": "L'ultima delle groupies",
+         "avatar_url": "/storage/players/nicolgavioli.png",
+         "production_path": "C:\\PROD\\Players\\276-nicol.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 277,
+         "name": "Matilde",
+         "surname": "Gugole",
+         "username": "Has Fidanken",
+         "avatar_url": "/storage/players/matildegugole.png",
+         "production_path": "C:\\PROD\\Players\\277-matilde.png",
+         "team": {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/40/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/40/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/40/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/40/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

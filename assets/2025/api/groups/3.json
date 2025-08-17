@@ -1,0 +1,138 @@
+{
+   "data": {
+      "id": 3,
+      "name": "Playoffs M",
+      "has_shootouts": true,
+      "gender": "male",
+      "teams": [
+         {
+            "id": 28,
+            "name": "FC SAVIGNANO",
+            "tag": "SAV",
+            "logo_url": "/storage/teams/fcsavignano.png",
+            "production_path": "C:\\PROD\\Teams\\28-fc-savignano.png",
+            "players_count": 6
+         },
+         {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         },
+         {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         },
+         {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         },
+         {
+            "id": 6,
+            "name": "PINGUINI TRENTINI",
+            "tag": "PIN",
+            "logo_url": "/storage/teams/pinguinitrentini.png",
+            "production_path": "C:\\PROD\\Teams\\6-pinguini-trentini.png",
+            "players_count": 9
+         },
+         {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         },
+         {
+            "id": 8,
+            "name": "RSA UNITED",
+            "tag": "RSA",
+            "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+            "production_path": "C:\\PROD\\Teams\\8-rsa-united.png",
+            "players_count": 7
+         },
+         {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         },
+         {
+            "id": 10,
+            "name": "DEMOBUSTERS",
+            "tag": "DEM",
+            "logo_url": "/storage/teams/demobusters.png",
+            "production_path": "C:\\PROD\\Teams\\10-demobusters.png",
+            "players_count": 8
+         },
+         {
+            "id": 18,
+            "name": "POWER GINGER",
+            "tag": "POW",
+            "logo_url": "/storage/teams/powerginger.png",
+            "production_path": "C:\\PROD\\Teams\\18-power-ginger.png",
+            "players_count": 10
+         },
+         {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         },
+         {
+            "id": 11,
+            "name": "GLI INTROVABILI",
+            "tag": "INT",
+            "logo_url": "/storage/teams/30QepQejeT0U7HtpLBsJIMCe5Sa364a0XknaOxL6.png",
+            "production_path": "C:\\PROD\\Teams\\11-gli-introvabili.png",
+            "players_count": 7
+         },
+         {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         },
+         {
+            "id": 16,
+            "name": "4SINS",
+            "tag": "4SI",
+            "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+            "production_path": "C:\\PROD\\Teams\\16-4sins.png",
+            "players_count": 5
+         },
+         {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         },
+         {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      ]
+   }
+}

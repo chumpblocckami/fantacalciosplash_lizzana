@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 249,
+         "name": "Caterina",
+         "surname": "Lasta",
+         "username": "La chirichetta di Ronaldo",
+         "avatar_url": "/storage/players/caterinalasta.png",
+         "production_path": "C:\\PROD\\Players\\249-caterina.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 250,
+         "name": "Emma",
+         "surname": "Sozzi",
+         "username": "Sid il bradipo",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\250-emma.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 251,
+         "name": "Anna",
+         "surname": "Zendri",
+         "username": "Diga di speccheri",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\251-anna.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 252,
+         "name": "Francesca",
+         "surname": "Santuari",
+         "username": "Medjugorije",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\252-francesca.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 253,
+         "name": "Maddalena",
+         "surname": "Monte",
+         "username": "Settimana bianca",
+         "avatar_url": "/storage/players/maddalenamonte.png",
+         "production_path": "C:\\PROD\\Players\\253-maddalena.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 254,
+         "name": "Sofia",
+         "surname": "Zendri",
+         "username": "Edicola ambulante",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\254-sofia.png",
+         "team": {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/36/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/36/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

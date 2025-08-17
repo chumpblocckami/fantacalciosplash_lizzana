@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 265,
+         "name": "Emilia",
+         "surname": "Modena",
+         "username": "Russian Twist",
+         "avatar_url": "/storage/players/emiliamodena.png",
+         "production_path": "C:\\PROD\\Players\\265-emilia.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 266,
+         "name": "Maria",
+         "surname": "Barozzi",
+         "username": "Punto esclamativo",
+         "avatar_url": "/storage/players/mariabarozzi.png",
+         "production_path": "C:\\PROD\\Players\\266-maria.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 267,
+         "name": "Sofia",
+         "surname": "Boschetti",
+         "username": "Tamagotchi",
+         "avatar_url": "/storage/players/sofiaboschetti.png",
+         "production_path": "C:\\PROD\\Players\\267-sofia.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 268,
+         "name": "Nadia",
+         "surname": "Malfatti",
+         "username": "Becher",
+         "avatar_url": "/storage/players/nadiamalfatti.png",
+         "production_path": "C:\\PROD\\Players\\268-nadia.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 269,
+         "name": "Alice",
+         "surname": "Cappelletti",
+         "username": "Gastrocnemio",
+         "avatar_url": "/storage/players/alicecappelletti.png",
+         "production_path": "C:\\PROD\\Players\\269-alice.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 270,
+         "name": "Simonetta",
+         "surname": "Nolfo",
+         "username": "Arresti domiciliari",
+         "avatar_url": "/storage/players/simonettanolfo.png",
+         "production_path": "C:\\PROD\\Players\\270-simonetta.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 271,
+         "name": "Sara",
+         "surname": "Bonazza",
+         "username": "Sacra Sindone",
+         "avatar_url": "/storage/players/sarabonazza.png",
+         "production_path": "C:\\PROD\\Players\\271-sara.png",
+         "team": {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/39/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/39/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

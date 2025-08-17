@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 235,
+         "name": "Vanessa",
+         "surname": "Bertoletti",
+         "username": null,
+         "avatar_url": "/storage/players/vanessabertoletti.png",
+         "production_path": "C:\\PROD\\Players\\235-vanessa.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 236,
+         "name": "Luana",
+         "surname": "Gerola",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\236-luana.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 237,
+         "name": "Chiara",
+         "surname": "Simoncelli",
+         "username": null,
+         "avatar_url": "/storage/players/chiarasimoncelli.png",
+         "production_path": "C:\\PROD\\Players\\237-chiara.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 238,
+         "name": "Federica",
+         "surname": "Francescatti",
+         "username": null,
+         "avatar_url": "/storage/players/federicafrancescatti.png",
+         "production_path": "C:\\PROD\\Players\\238-federica.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 239,
+         "name": "Lorenza",
+         "surname": "Simoncelli",
+         "username": null,
+         "avatar_url": "/storage/players/lorenzasimoncelli.png",
+         "production_path": "C:\\PROD\\Players\\239-lorenza.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 240,
+         "name": "Mara",
+         "surname": "Barozzi",
+         "username": null,
+         "avatar_url": "/storage/players/marabarozzi.png",
+         "production_path": "C:\\PROD\\Players\\240-mara.png",
+         "team": {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/34/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/34/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 241,
+         "name": "Lisa ",
+         "surname": "Siroli ",
+         "username": null,
+         "avatar_url": "/storage/players/lisasiroli.png",
+         "production_path": "C:\\PROD\\Players\\241-lisa.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 242,
+         "name": "Stefania",
+         "surname": "Viola",
+         "username": null,
+         "avatar_url": "/storage/players/stefaniaviola.png",
+         "production_path": "C:\\PROD\\Players\\242-stefania.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 243,
+         "name": "Serena",
+         "surname": "Stoffella",
+         "username": null,
+         "avatar_url": "/storage/players/serenastoffella.png",
+         "production_path": "C:\\PROD\\Players\\243-serena.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 244,
+         "name": "Ilaria",
+         "surname": "Stoffella",
+         "username": "Fratella",
+         "avatar_url": "/storage/players/ilariastoffella.png",
+         "production_path": "C:\\PROD\\Players\\244-ilaria.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 245,
+         "name": "Claudia ",
+         "surname": "Manzana",
+         "username": "Bolscevica",
+         "avatar_url": "/storage/players/claudiamanzana.png",
+         "production_path": "C:\\PROD\\Players\\245-claudia.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 246,
+         "name": "Virginia ",
+         "surname": "Simoncelli",
+         "username": "Coni Zugna",
+         "avatar_url": "/storage/players/virginiasimoncelli.png",
+         "production_path": "C:\\PROD\\Players\\246-virginia.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 247,
+         "name": "Matilde",
+         "surname": "Simoncelli",
+         "username": "Fr\u00e4ulein\u00a0Rottenmeier",
+         "avatar_url": "/storage/players/matildesimoncelli.png",
+         "production_path": "C:\\PROD\\Players\\247-matilde.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 248,
+         "name": "Sara",
+         "surname": "Baroni",
+         "username": "Vigna guyot",
+         "avatar_url": "/storage/players/sarabaroni.png",
+         "production_path": "C:\\PROD\\Players\\248-sara.png",
+         "team": {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/35/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/35/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

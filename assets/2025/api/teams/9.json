@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 64,
+         "name": "Alessandro",
+         "surname": "Fanti",
+         "username": "Dorian Gray",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\64-alessandro.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 65,
+         "name": "Matteo",
+         "surname": "Calcinardi",
+         "username": "Rose rosse",
+         "avatar_url": "/storage/players/matteocalcinardi.png",
+         "production_path": "C:\\PROD\\Players\\65-matteo.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 66,
+         "name": "Patrick",
+         "surname": "Raffaelli",
+         "username": "Taggetta",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\66-patrick.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 67,
+         "name": "Alberto",
+         "surname": "Raffaelli",
+         "username": null,
+         "avatar_url": "/storage/players/albertoraffaelli.png",
+         "production_path": "C:\\PROD\\Players\\67-alberto.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 68,
+         "name": "Massimiliano",
+         "surname": "Rossi",
+         "username": "Pindol revers",
+         "avatar_url": "/storage/players/massimilianorossi.png",
+         "production_path": "C:\\PROD\\Players\\68-massimiliano.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 69,
+         "name": "Giovanni",
+         "surname": "Frizzera",
+         "username": "Gerbere a 50 centesimi",
+         "avatar_url": "/storage/players/giovannifrizzera.png",
+         "production_path": "C:\\PROD\\Players\\69-giovanni.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 70,
+         "name": "Gianni",
+         "surname": "Sala",
+         "username": "Gianluca Grignani",
+         "avatar_url": "/storage/players/giannisala.png",
+         "production_path": "C:\\PROD\\Players\\70-gianni.png",
+         "team": {
+            "id": 9,
+            "name": "FC SALAGIARDINI",
+            "tag": "SAL",
+            "logo_url": "/storage/teams/fcsalagiardini.png",
+            "production_path": "C:\\PROD\\Teams\\9-fc-salagiardini.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/9/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/9/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/9/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/9/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

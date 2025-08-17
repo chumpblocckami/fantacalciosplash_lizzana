@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 336,
+         "name": "Francesca",
+         "surname": "Bordignon",
+         "username": "Fellazio",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\336-francesca.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 337,
+         "name": "Jessica",
+         "surname": "Mattei",
+         "username": "I.N.R.I.",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\337-jessica.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 338,
+         "name": "Chiara",
+         "surname": "Salvetti",
+         "username": "Bionda dentro",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\338-chiara.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 339,
+         "name": "Ludovica",
+         "surname": "Bearzi",
+         "username": "Peach Booty",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\339-ludovica.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 340,
+         "name": "Elisa",
+         "surname": "Assara",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\340-elisa.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 341,
+         "name": "Marta",
+         "surname": "Gilli",
+         "username": "Cindy Mille colori",
+         "avatar_url": "/storage/players/martagilli.png",
+         "production_path": "C:\\PROD\\Players\\341-marta.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 342,
+         "name": "Silvia ",
+         "surname": "Cescotti",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\342-silvia.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 345,
+         "name": "Beatrice",
+         "surname": "Veronelli",
+         "username": "Treccia mochena",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\345-beatrice.png",
+         "team": {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/50/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/50/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 203,
+         "name": "Matteo",
+         "surname": "Maraner",
+         "username": "Sangue Vegano",
+         "avatar_url": "/storage/players/matteomaraner.png",
+         "production_path": "C:\\PROD\\Players\\203-matteo.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 204,
+         "name": "Marco",
+         "surname": "Gerola",
+         "username": "Geronimo Stilton",
+         "avatar_url": "/storage/players/marcogerola.png",
+         "production_path": "C:\\PROD\\Players\\204-marco.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 205,
+         "name": "Michele",
+         "surname": "Bertolini",
+         "username": "Marco Columbro",
+         "avatar_url": "/storage/players/michelebertolini.png",
+         "production_path": "C:\\PROD\\Players\\205-michele.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 206,
+         "name": "Andrea",
+         "surname": "Anzelini",
+         "username": "Tunnel del vento",
+         "avatar_url": "/storage/players/andreaanzelini.png",
+         "production_path": "C:\\PROD\\Players\\206-andrea.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 207,
+         "name": "Daniele",
+         "surname": "Feller",
+         "username": "Babbuino",
+         "avatar_url": "/storage/players/danielefeller.png",
+         "production_path": "C:\\PROD\\Players\\207-daniele.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 208,
+         "name": "Davide",
+         "surname": "Raffaelli",
+         "username": "Giraffa di Frassino",
+         "avatar_url": "/storage/players/davideraffaelli.png",
+         "production_path": "C:\\PROD\\Players\\208-davide.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 209,
+         "name": "Federico",
+         "surname": "Zoller",
+         "username": "Zoidberg",
+         "avatar_url": "/storage/players/federicozoller.png",
+         "production_path": "C:\\PROD\\Players\\209-federico.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 210,
+         "name": "Matteo",
+         "surname": "Mazzola",
+         "username": "Gennaro Bullo",
+         "avatar_url": "/storage/players/matteomazzola.png",
+         "production_path": "C:\\PROD\\Players\\210-matteo.png",
+         "team": {
+            "id": 29,
+            "name": "GREP",
+            "tag": "GRE",
+            "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+            "production_path": "C:\\PROD\\Teams\\29-grep.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/29/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/29/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}
