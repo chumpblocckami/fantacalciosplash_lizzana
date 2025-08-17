@@ -61,7 +61,7 @@ def get_team_ratings(team: Team, conceded_goals: int, ratings: dict, goalkeepers
     return ratings
 
 
-def convert_to_dataframe(ratings: dict, save: bool = False) -> pd.DataFrame:
+def convert_to_dataframe(ratings: dict, save: bool = True) -> pd.DataFrame:
     records = []
 
     for team_name, team_data in ratings.items():
@@ -83,9 +83,9 @@ def convert_to_dataframe(ratings: dict, save: bool = False) -> pd.DataFrame:
 
     df = pd.DataFrame(records)
     if save:
-        df.to_csv("totale.csv")
+        df.to_csv(f"{YEAR}_totale.csv")
     pivoted_df = df.pivot_table(
-        index=["team", "player"], columns="match_index", values="total_points", fill_value=0
+        index=["team", "player"], columns="match_index", values="total_points", fill_value=-2
     ).reset_index()
     pivoted_df.set_index("player", inplace=True)
     pivoted_df.drop(columns=["team"], inplace=True)
@@ -136,6 +136,9 @@ for path in sorted(paths):
             content = read_from_path(url)
 
             for match in content.get("data"):
+                if not match.get("home_team") or not match.get("away_team"):
+                    print(f"No data available for {label}")
+                    continue
 
                 home = create_dataclass(Team, match.get("home_team"))
                 away = create_dataclass(Team, match.get("away_team"))
@@ -199,6 +202,6 @@ with open(f"assets/{YEAR}/ratings.json", "w+") as file:
         file,
         indent=3,
     )
-df = convert_to_dataframe(ratings=ratings, save=False)
+df = convert_to_dataframe(ratings=ratings, save=True)
 df.to_csv(f"assets/{YEAR}/punteggi.csv")
 pd.DataFrame(results).to_csv(f"assets/{YEAR}/matches.csv")

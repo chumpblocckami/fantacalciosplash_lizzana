@@ -1,5 +1,9 @@
+from datetime import datetime
+
 import Levenshtein
 import pandas as pd
+
+YEAR = datetime.now().year
 
 
 def sanitize_player_name(player_name: str) -> str:
@@ -13,8 +17,8 @@ def sanitize_player_name(player_name: str) -> str:
     return f"{player} | {team}"
 
 
-teams = pd.read_excel("./assets/2024/squadre.xlsx").drop_duplicates()
-points = pd.read_csv("./assets/2024/punteggi.csv").drop_duplicates()
+teams = pd.read_excel(f"./assets/{YEAR}/squadre.xlsx").drop_duplicates()
+points = pd.read_csv(f"./assets/{YEAR}/punteggi.csv").drop_duplicates()
 ranking = []
 
 for _, team in teams.iterrows():
@@ -52,8 +56,8 @@ for _, team in teams.iterrows():
 
     bets = my_team_stats.where(mask)
 
-    bets.to_excel(f"./assets/2024/results/{team['Fantallenatore']}.xlsx")
+    bets.to_excel(f"./assets/{YEAR}/results/{team['Fantallenatore']}.xlsx")
     ranking.append({"Allenatore": team.iloc[0], "Punteggio": bets.sum(numeric_only=True).sum()})
 pd.DataFrame().from_records(ranking).sort_values("Punteggio", ascending=False).to_csv(
-    "assets/2024/final_ranking.csv"
+    f"assets/{YEAR}/final_ranking.csv"
 )

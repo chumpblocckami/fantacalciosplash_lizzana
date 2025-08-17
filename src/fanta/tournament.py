@@ -90,17 +90,17 @@ def scrape_teams() -> None:
 
 
 if __name__ == "__main__":
-    try:
-        scrape_stats()
-    except Exception as e:
-        print(f"Skipping the rest... {e}")
-    print("-" * 100)
+    # try:
+    #    scrape_stats()
+    # except Exception as e:
+    #    print(f"Skipping the rest... {e}")
+    # print("-" * 100)
     try:
         scrape_matches()
     except Exception as e:
         print(f"Skipping the rest... {e}")
     print("-" * 100)
-    try:
-        scrape_teams()
-    except Exception as e:
-        print(f"Skipping the rest... {e}")
+    # try:
+    #    scrape_teams()
+    # except Exception as e:
+    #    print(f"Skipping the rest... {e}")
