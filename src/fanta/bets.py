@@ -13,8 +13,8 @@ def sanitize_player_name(player_name: str) -> str:
     return f"{player} | {team}"
 
 
-teams = pd.read_excel("./assets/2024/squadre.xlsx")
-points = pd.read_csv("./assets/2024/punteggi.csv")
+teams = pd.read_excel("./assets/2024/squadre.xlsx").drop_duplicates()
+points = pd.read_csv("./assets/2024/punteggi.csv").drop_duplicates()
 ranking = []
 
 for _, team in teams.iterrows():

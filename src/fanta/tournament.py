@@ -10,13 +10,16 @@ URL = "https://api.gsplizzana.it/api"
 
 def download_from_api(url: str) -> dict:
     try:
-        resp = requests.get(url, timeout=5)
+        resp = requests.get(url, timeout=10)
         if resp.status_code == 404:
             raise requests.HTTPError(f"Resource {url} not found.")
         content = resp.json()
     except requests.HTTPError as e:
         print(f"Cannot download from {url}. Reason: {e}")
         content = {}
+    except requests.ConnectTimeout:
+        print("Connection timeout")
+        raise
     return content
 
 
@@ -87,8 +90,17 @@ def scrape_teams() -> None:
 
 
 if __name__ == "__main__":
-    scrape_stats()
+    try:
+        scrape_stats()
+    except Exception as e:
+        print(f"Skipping the rest... {e}")
     print("-" * 100)
-    scrape_matches()
+    try:
+        scrape_matches()
+    except Exception as e:
+        print(f"Skipping the rest... {e}")
     print("-" * 100)
-    scrape_teams()
+    try:
+        scrape_teams()
+    except Exception as e:
+        print(f"Skipping the rest... {e}")
