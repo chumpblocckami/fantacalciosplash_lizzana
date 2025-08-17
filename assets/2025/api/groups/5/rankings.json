@@ -1,3 +1,132 @@
 {
-   "data": []
+   "data": [
+      {
+         "id": 12,
+         "name": "CLITORIDERS",
+         "tag": "CLI",
+         "logo_url": "/storage/teams/clitoriders.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clitoriders.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "22": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 13,
+         "name": "SHARK ATTACK",
+         "tag": "SHA",
+         "logo_url": "/storage/teams/sharkattack.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sharkattack.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "6": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 6,
+         "name": "PINGUINI TRENTINI",
+         "tag": "PIN",
+         "logo_url": "/storage/teams/pinguinitrentini.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pinguinitrentini.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "13": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 26,
+         "name": "IMONTAGNA",
+         "tag": "IMO",
+         "logo_url": "/storage/teams/imontagna.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imontagna.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": [],
+         "goal_difference": 0
+      },
+      {
+         "id": 31,
+         "name": "CGB GAMBERONI",
+         "tag": "CGB",
+         "logo_url": "/storage/teams/cgbgamberoni.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": [],
+         "goal_difference": 0
+      },
+      {
+         "id": 23,
+         "name": "MODIUM",
+         "tag": "MOD",
+         "logo_url": "/storage/teams/modium.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": [],
+         "goal_difference": 0
+      },
+      {
+         "id": 1,
+         "name": "RITA LEVI'S",
+         "tag": "RIT",
+         "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\ritalevis.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": [],
+         "goal_difference": 0
+      },
+      {
+         "id": 22,
+         "name": "U.S GUARNA",
+         "tag": "USG",
+         "logo_url": "/storage/teams/usguarna.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\usguarna.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "12": -1
+         },
+         "goal_difference": -1
+      }
+   ]
 }

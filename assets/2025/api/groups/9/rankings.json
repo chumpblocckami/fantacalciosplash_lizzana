@@ -1,18 +1,71 @@
 {
    "data": [
       {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": "/storage/teams/drimtim.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 6,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "47": 1
+         },
+         "goal_difference": 5
+      },
+      {
+         "id": 45,
+         "name": "TORTE DI MELE",
+         "tag": "TOR",
+         "logo_url": "/storage/teams/tortedimele.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 4,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "42": 1
+         },
+         "goal_difference": 3
+      },
+      {
+         "id": 39,
+         "name": "LOVEBUSTERS",
+         "tag": "LOV",
+         "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "40": 1
+         },
+         "goal_difference": 1
+      },
+      {
          "id": 44,
          "name": "SAILOR MONE",
          "tag": "SAI",
          "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
          "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
-         "points": 0,
+         "points": 1,
          "wins": 0,
-         "draws": 0,
+         "draws": 1,
          "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "43": 0
+         },
          "goal_difference": 0
       },
       {
@@ -21,58 +74,15 @@
          "tag": "POC",
          "logo_url": "/storage/teams/pochemabuone.png",
          "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pochemabuone.png",
-         "points": 0,
+         "points": 1,
          "wins": 0,
-         "draws": 0,
+         "draws": 1,
          "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 33,
-         "name": "DRIM TIM",
-         "tag": "DRI",
-         "logo_url": "/storage/teams/drimtim.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 47,
-         "name": "WANDITAS",
-         "tag": "WAN",
-         "logo_url": "/storage/teams/wanditas.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\wanditas.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 39,
-         "name": "LOVEBUSTERS",
-         "tag": "LOV",
-         "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
+         "goals_scored": 1,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "44": 0
+         },
          "goal_difference": 0
       },
       {
@@ -84,26 +94,13 @@
          "points": 0,
          "wins": 0,
          "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 45,
-         "name": "TORTE DI MELE",
-         "tag": "TOR",
-         "logo_url": "/storage/teams/tortedimele.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "39": -1
+         },
+         "goal_difference": -1
       },
       {
          "id": 42,
@@ -114,11 +111,30 @@
          "points": 0,
          "wins": 0,
          "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "45": -1
+         },
+         "goal_difference": -3
+      },
+      {
+         "id": 47,
+         "name": "WANDITAS",
+         "tag": "WAN",
+         "logo_url": "/storage/teams/wanditas.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\wanditas.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 6,
+         "head_to_head": {
+            "33": -1
+         },
+         "goal_difference": -5
       }
    ]
 }
