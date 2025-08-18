@@ -49,7 +49,7 @@ def get_team_ratings(team: Team, conceded_goals: int, ratings: dict, goalkeepers
         # Calculate total points for the match
         ratings[team.name][player_id].append(
             MatchPoints(
-                goals=player.goals,
+                goals=player.goals,  # if not is_goalkeeper else 0 (autogol are set to goalkeepers)
                 yellow_cards=player.yellow_cards,
                 red_cards=player.red_cards,
                 team_points=team_points,
