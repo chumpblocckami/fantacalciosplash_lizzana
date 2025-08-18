@@ -36,15 +36,15 @@ class Loader:
             f"./assets/{self.edition}/squadre.xlsx"
         ).drop_duplicates()
 
-    def load_rankings(self):
-        st.session_state["punteggi"][self.edition] = pd.read_excel(
-            f"./assets/{self.edition}/punteggi.xlsx"
-        )
+    # def load_rankings(self):
+    #    st.session_state["punteggi"][self.edition] = pd.read_excel(
+    #        f"./assets/{self.edition}/punteggi.xlsx"
+    #    )
 
-    def load_teams(self):
-        st.session_state["classifica"][self.edition] = pd.read_excel(
-            f"./assets/{self.edition}/classifica.xlsx"
-        )
+    # def load_teams(self):
+    #    st.session_state["classifica"][self.edition] = pd.read_excel(
+    #        f"./assets/{self.edition}/classifica.xlsx"
+    #    )
 
     def load_results(self):
         with open(f"./assets/{self.edition}/risultati.json", "r", encoding="utf-8") as file:
@@ -63,8 +63,8 @@ def read_data(editions: list):
         st.session_state["giocatori"][edition] = pd.read_excel(f"./assets/{edition}/giocatori.xlsx")
         loader = Loader(edition=edition)
         loader.load_points()
-        loader.load_teams()
-        loader.load_rankings()
+        # loader.load_teams()
+        # loader.load_rankings()
 
 
 def init_session_state(editions: int):
