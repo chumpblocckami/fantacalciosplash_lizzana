@@ -4,6 +4,23 @@
       "name": "Finale F",
       "has_shootouts": true,
       "gender": "female",
-      "teams": []
+      "teams": [
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         },
+         {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         }
+      ]
    }
 }

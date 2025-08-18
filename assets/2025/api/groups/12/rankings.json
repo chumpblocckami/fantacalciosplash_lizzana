@@ -1,3 +1,38 @@
 {
-   "data": []
+   "data": [
+      {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": "/storage/teams/drimtim.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "45": 0
+         },
+         "goal_difference": 0
+      },
+      {
+         "id": 45,
+         "name": "TORTE DI MELE",
+         "tag": "TOR",
+         "logo_url": "/storage/teams/tortedimele.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 0,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "33": 0
+         },
+         "goal_difference": 0
+      }
+   ]
 }

@@ -852,8 +852,8 @@
       },
       {
          "id": 310,
-         "live": true,
-         "closed": false,
+         "live": false,
+         "closed": true,
          "half_time": "FT",
          "scheduled_at": "2025-08-17T15:20:00.000000Z",
          "home_team": {
@@ -878,11 +878,11 @@
             },
             "stats": {
                "fouls": {
-                  "total": 2,
+                  "total": 3,
                   "ht": 2,
-                  "ft": 0
+                  "ft": 1
                },
-               "yellow_cards": 0,
+               "yellow_cards": 1,
                "red_cards": 1,
                "substitutions": 0
             },
@@ -897,9 +897,9 @@
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\danielpedrotti.png",
                   "goals": 0,
                   "fouls": {
-                     "total": 2,
+                     "total": 3,
                      "ht": 2,
-                     "ft": 0
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -1029,7 +1029,7 @@
                      "ht": 0,
                      "ft": 0
                   },
-                  "yellow_cards": 0,
+                  "yellow_cards": 1,
                   "red_cards": 0
                },
                {
@@ -1080,7 +1080,22 @@
                "red_cards": 0,
                "substitutions": 0
             },
-            "best_player": null,
+            "best_player": {
+               "id": 218,
+               "name": "Thomas",
+               "surname": "Perenzoni",
+               "username": "Orsa Maggiore",
+               "avatar_url": null,
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\thomasperenzoni.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
             "players": [
                {
                   "id": 217,
@@ -1102,7 +1117,7 @@
                   "id": 218,
                   "name": "Thomas",
                   "surname": "Perenzoni",
-                  "username": null,
+                  "username": "Orsa Maggiore",
                   "avatar_url": null,
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\thomasperenzoni.png",
                   "goals": 0,
@@ -1196,16 +1211,49 @@
                }
             ]
          },
-         "best_player": null,
+         "best_player": {
+            "id": 218,
+            "name": "Thomas",
+            "surname": "Perenzoni",
+            "username": "Orsa Maggiore",
+            "avatar_url": null,
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\thomasperenzoni.png",
+            "goals": 0,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
          "group_id": 5,
          "timer": {
-            "offset": 761,
-            "started_at": "2025-08-17T16:29:47.000000Z",
-            "stopped_at": null,
-            "current": 810,
-            "running": true
+            "offset": 945,
+            "started_at": "2025-08-17T16:31:05.000000Z",
+            "stopped_at": "2025-08-17T16:33:02.000000Z",
+            "current": 945,
+            "running": false
          },
-         "last_yellow_card": null,
+         "last_yellow_card": {
+            "player": {
+               "id": 189,
+               "name": "Marco",
+               "surname": "Sala",
+               "username": "Cane rognoso",
+               "avatar_url": "/storage/players/marcosala.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcosala.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 833
+         },
          "last_red_card": {
             "player": {
                "id": 343,
@@ -1229,8 +1277,8 @@
       {
          "id": 311,
          "live": false,
-         "closed": false,
-         "half_time": "HT",
+         "closed": true,
+         "half_time": "FT",
          "scheduled_at": "2025-08-17T15:40:00.000000Z",
          "home_team": {
             "id": 23,
@@ -1240,7 +1288,7 @@
             "logo_url": "/storage/teams/modium.png",
             "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
             "players_count": 6,
-            "score": 0,
+            "score": 2,
             "shootouts": {
                "total": 0,
                "score": 0,
@@ -1254,15 +1302,30 @@
             },
             "stats": {
                "fouls": {
-                  "total": 0,
-                  "ht": 0,
-                  "ft": 0
+                  "total": 4,
+                  "ht": 1,
+                  "ft": 3
                },
-               "yellow_cards": 0,
+               "yellow_cards": 1,
                "red_cards": 0,
                "substitutions": 0
             },
-            "best_player": null,
+            "best_player": {
+               "id": 167,
+               "name": "Marco",
+               "surname": "Sartorelli",
+               "username": "Playboy della Busa",
+               "avatar_url": "/storage/players/marcosartorelli.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcosartorelli.png",
+               "goals": 1,
+               "fouls": {
+                  "total": 1,
+                  "ht": 0,
+                  "ft": 1
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
             "players": [
                {
                   "id": 163,
@@ -1273,9 +1336,9 @@
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\matteolanaro.png",
                   "goals": 0,
                   "fouls": {
-                     "total": 0,
-                     "ht": 0,
-                     "ft": 0
+                     "total": 2,
+                     "ht": 1,
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -1319,11 +1382,11 @@
                   "username": "Il bello della Piof",
                   "avatar_url": "/storage/players/edoardopomarolli.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\edoardopomarolli.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
-                     "total": 0,
+                     "total": 1,
                      "ht": 0,
-                     "ft": 0
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -1335,13 +1398,13 @@
                   "username": "Playboy della Busa",
                   "avatar_url": "/storage/players/marcosartorelli.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcosartorelli.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
-                     "total": 0,
+                     "total": 1,
                      "ht": 0,
-                     "ft": 0
+                     "ft": 1
                   },
-                  "yellow_cards": 0,
+                  "yellow_cards": 1,
                   "red_cards": 0
                },
                {
@@ -1384,9 +1447,9 @@
             },
             "stats": {
                "fouls": {
-                  "total": 0,
-                  "ht": 0,
-                  "ft": 0
+                  "total": 2,
+                  "ht": 1,
+                  "ft": 1
                },
                "yellow_cards": 0,
                "red_cards": 0,
@@ -1403,9 +1466,9 @@
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\luiseduardograzioli.png",
                   "goals": 0,
                   "fouls": {
-                     "total": 0,
-                     "ht": 0,
-                     "ft": 0
+                     "total": 2,
+                     "ht": 1,
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -1524,16 +1587,49 @@
                }
             ]
          },
-         "best_player": null,
+         "best_player": {
+            "id": 167,
+            "name": "Marco",
+            "surname": "Sartorelli",
+            "username": "Playboy della Busa",
+            "avatar_url": "/storage/players/marcosartorelli.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcosartorelli.png",
+            "goals": 1,
+            "fouls": {
+               "total": 1,
+               "ht": 0,
+               "ft": 1
+            },
+            "yellow_cards": 1,
+            "red_cards": 0
+         },
          "group_id": 5,
          "timer": {
-            "offset": 0,
-            "started_at": null,
-            "stopped_at": null,
-            "current": 0,
+            "offset": 845,
+            "started_at": "2025-08-17T16:43:52.000000Z",
+            "stopped_at": "2025-08-17T16:50:56.000000Z",
+            "current": 845,
             "running": false
          },
-         "last_yellow_card": null,
+         "last_yellow_card": {
+            "player": {
+               "id": 167,
+               "name": "Marco",
+               "surname": "Sartorelli",
+               "username": "Playboy della Busa",
+               "avatar_url": "/storage/players/marcosartorelli.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\marcosartorelli.png",
+               "goals": 1,
+               "fouls": {
+                  "total": 1,
+                  "ht": 0,
+                  "ft": 1
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 773
+         },
          "last_red_card": null
       }
    ],

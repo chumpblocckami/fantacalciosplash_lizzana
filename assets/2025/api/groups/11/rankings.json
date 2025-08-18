@@ -1,3 +1,38 @@
 {
-   "data": []
+   "data": [
+      {
+         "id": 44,
+         "name": "SAILOR MONE",
+         "tag": "SAI",
+         "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "39": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 39,
+         "name": "LOVEBUSTERS",
+         "tag": "LOV",
+         "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\lovebusters.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 1,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "44": -1
+         },
+         "goal_difference": -1
+      }
+   ]
 }

@@ -129,6 +129,9 @@ for path in sorted(paths):
     if not label.lower().endswith("m") and "maschile" not in label.lower():
         print(f"\tSkipping {label}")
         continue
+    if label.lower() == "terzo/quarto m":
+        print("\tSkipping Terzo/Quarto")
+        continue
     url = path.replace(".json", "") + "/fixture/1.json"
 
     try:
@@ -137,13 +140,13 @@ for path in sorted(paths):
 
             for match in content.get("data"):
                 if not match.get("home_team") or not match.get("away_team"):
-                    print(f"No data available for {label}")
+                    print(f"\t\tNo data available for {label}")
                     continue
 
                 home = create_dataclass(Team, match.get("home_team"))
                 away = create_dataclass(Team, match.get("away_team"))
 
-                print(f"{home.name} {home.score} - {away.score} {away.name}")
+                print(f"\t\t{home.name} {home.score} - {away.score} {away.name}")
                 ratings = get_team_ratings(home, away.score, ratings, goalkeepers=goalkeepers)
                 ratings = get_team_ratings(away, home.score, ratings, goalkeepers=goalkeepers)
 
@@ -192,7 +195,7 @@ for path in sorted(paths):
                     )
                 )
 
-with open(f"assets/{YEAR}/ratings.json", "w+") as file:
+with open(f"assets/{YEAR}/punteggi.json", "w+") as file:
     json.dump(
         {
             player: [x.to_dict() for x in ratings[team][player]]
@@ -204,4 +207,4 @@ with open(f"assets/{YEAR}/ratings.json", "w+") as file:
     )
 df = convert_to_dataframe(ratings=ratings, save=True)
 df.to_csv(f"assets/{YEAR}/punteggi.csv")
-pd.DataFrame(results).to_csv(f"assets/{YEAR}/matches.csv")
+pd.DataFrame(results).to_csv(f"assets/{YEAR}/risultati.csv")

@@ -1,3 +1,38 @@
 {
-   "data": []
+   "data": [
+      {
+         "id": 12,
+         "name": "CLITORIDERS",
+         "tag": "CLI",
+         "logo_url": "/storage/teams/clitoriders.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clitoriders.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 3,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "23": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 23,
+         "name": "MODIUM",
+         "tag": "MOD",
+         "logo_url": "/storage/teams/modium.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "12": -1
+         },
+         "goal_difference": -1
+      }
+   ]
 }

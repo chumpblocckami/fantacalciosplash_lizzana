@@ -1,6 +1,40 @@
 {
    "data": [
       {
+         "id": 45,
+         "name": "TORTE DI MELE",
+         "tag": "TOR",
+         "logo_url": "/storage/teams/tortedimele.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 7,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "39": 1
+         },
+         "goal_difference": 7
+      },
+      {
+         "id": 33,
+         "name": "DRIM TIM",
+         "tag": "DRI",
+         "logo_url": "/storage/teams/drimtim.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 7,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "44": 1
+         },
+         "goal_difference": 4
+      },
+      {
          "id": 44,
          "name": "SAILOR MONE",
          "tag": "SAI",
@@ -9,26 +43,13 @@
          "points": 0,
          "wins": 0,
          "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 33,
-         "name": "DRIM TIM",
-         "tag": "DRI",
-         "logo_url": "/storage/teams/drimtim.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
+         "losses": 1,
+         "goals_scored": 3,
+         "goals_conceded": 7,
+         "head_to_head": {
+            "33": -1
+         },
+         "goal_difference": -4
       },
       {
          "id": 39,
@@ -39,26 +60,13 @@
          "points": 0,
          "wins": 0,
          "draws": 0,
-         "losses": 0,
+         "losses": 1,
          "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 45,
-         "name": "TORTE DI MELE",
-         "tag": "TOR",
-         "logo_url": "/storage/teams/tortedimele.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
+         "goals_conceded": 7,
+         "head_to_head": {
+            "45": -1
+         },
+         "goal_difference": -7
       }
    ]
 }

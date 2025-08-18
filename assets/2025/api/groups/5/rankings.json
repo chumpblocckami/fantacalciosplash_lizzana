@@ -1,6 +1,40 @@
 {
    "data": [
       {
+         "id": 23,
+         "name": "MODIUM",
+         "tag": "MOD",
+         "logo_url": "/storage/teams/modium.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 2,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "1": 1
+         },
+         "goal_difference": 2
+      },
+      {
+         "id": 31,
+         "name": "CGB GAMBERONI",
+         "tag": "CGB",
+         "logo_url": "/storage/teams/cgbgamberoni.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 3,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "26": 1
+         },
+         "goal_difference": 1
+      },
+      {
          "id": 12,
          "name": "CLITORIDERS",
          "tag": "CLI",
@@ -60,56 +94,13 @@
          "points": 0,
          "wins": 0,
          "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 31,
-         "name": "CGB GAMBERONI",
-         "tag": "CGB",
-         "logo_url": "/storage/teams/cgbgamberoni.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 23,
-         "name": "MODIUM",
-         "tag": "MOD",
-         "logo_url": "/storage/teams/modium.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
-      },
-      {
-         "id": 1,
-         "name": "RITA LEVI'S",
-         "tag": "RIT",
-         "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
-         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\ritalevis.png",
-         "points": 0,
-         "wins": 0,
-         "draws": 0,
-         "losses": 0,
-         "goals_scored": 0,
-         "goals_conceded": 0,
-         "head_to_head": [],
-         "goal_difference": 0
+         "losses": 1,
+         "goals_scored": 2,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "31": -1
+         },
+         "goal_difference": -1
       },
       {
          "id": 22,
@@ -127,6 +118,23 @@
             "12": -1
          },
          "goal_difference": -1
+      },
+      {
+         "id": 1,
+         "name": "RITA LEVI'S",
+         "tag": "RIT",
+         "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\ritalevis.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 0,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "23": -1
+         },
+         "goal_difference": -2
       }
    ]
 }

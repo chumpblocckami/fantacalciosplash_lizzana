@@ -4,6 +4,23 @@
       "name": "Finale M",
       "has_shootouts": true,
       "gender": "male",
-      "teams": []
+      "teams": [
+         {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         },
+         {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      ]
    }
 }

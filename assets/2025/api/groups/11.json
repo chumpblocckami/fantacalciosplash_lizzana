@@ -4,6 +4,23 @@
       "name": "Terzo/Quarto F",
       "has_shootouts": true,
       "gender": "female",
-      "teams": []
+      "teams": [
+         {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         }
+      ]
    }
 }

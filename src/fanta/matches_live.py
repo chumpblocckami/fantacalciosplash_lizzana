@@ -171,7 +171,7 @@ for i in range(1, 20):
                     )
                 )
 
-with open("assets/2024/ratings.json", "w+") as file:
+with open("assets/2024/punteggi.json", "w+") as file:
     json.dump(
         {
             player: [x.to_dict() for x in ratings[team][player]]

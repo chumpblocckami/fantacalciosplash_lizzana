@@ -3,8 +3,8 @@
       {
          "id": 313,
          "live": false,
-         "closed": false,
-         "half_time": "HT",
+         "closed": true,
+         "half_time": "FT",
          "scheduled_at": "2025-08-17T17:00:00.000000Z",
          "home_team": {
             "id": 44,
@@ -14,7 +14,7 @@
             "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
             "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sailormone.png",
             "players_count": 6,
-            "score": 0,
+            "score": 3,
             "shootouts": {
                "total": 0,
                "score": 0,
@@ -28,9 +28,9 @@
             },
             "stats": {
                "fouls": {
-                  "total": 0,
+                  "total": 2,
                   "ht": 0,
-                  "ft": 0
+                  "ft": 2
                },
                "yellow_cards": 0,
                "red_cards": 0,
@@ -45,11 +45,11 @@
                   "username": "Camomilla Bonomelli",
                   "avatar_url": "/storage/players/giorgiabonomi.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\giorgiabonomi.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
-                     "total": 0,
+                     "total": 1,
                      "ht": 0,
-                     "ft": 0
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -63,9 +63,9 @@
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\angelaadami.png",
                   "goals": 0,
                   "fouls": {
-                     "total": 0,
+                     "total": 1,
                      "ht": 0,
-                     "ft": 0
+                     "ft": 1
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -93,7 +93,7 @@
                   "username": "Lingotto d'Oro",
                   "avatar_url": null,
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\annazandonati.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -125,7 +125,7 @@
                   "username": "Robocop",
                   "avatar_url": "/storage/players/valentinaperghem.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\valentinaperghem.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -144,7 +144,7 @@
             "logo_url": "/storage/teams/drimtim.png",
             "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\drimtim.png",
             "players_count": 6,
-            "score": 0,
+            "score": 7,
             "shootouts": {
                "total": 0,
                "score": 0,
@@ -166,7 +166,22 @@
                "red_cards": 0,
                "substitutions": 0
             },
-            "best_player": null,
+            "best_player": {
+               "id": 229,
+               "name": "Laura",
+               "surname": "Monaco",
+               "username": "Pippa Bauda",
+               "avatar_url": "/storage/players/lauramonaco.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lauramonaco.png",
+               "goals": 1,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
             "players": [
                {
                   "id": 229,
@@ -175,7 +190,7 @@
                   "username": "Pippa Bauda",
                   "avatar_url": "/storage/players/lauramonaco.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lauramonaco.png",
-                  "goals": 0,
+                  "goals": 1,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -207,7 +222,7 @@
                   "username": "Mr. Hyde",
                   "avatar_url": "/storage/players/verarossini.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\verarossini.png",
-                  "goals": 0,
+                  "goals": 3,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -255,7 +270,7 @@
                   "username": "La mamma di Bambi",
                   "avatar_url": "/storage/players/margheritaplanchestainer.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\margheritaplanchestainer.png",
-                  "goals": 0,
+                  "goals": 3,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -266,13 +281,28 @@
                }
             ]
          },
-         "best_player": null,
+         "best_player": {
+            "id": 229,
+            "name": "Laura",
+            "surname": "Monaco",
+            "username": "Pippa Bauda",
+            "avatar_url": "/storage/players/lauramonaco.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\lauramonaco.png",
+            "goals": 1,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
          "group_id": 10,
          "timer": {
-            "offset": 0,
-            "started_at": null,
-            "stopped_at": null,
-            "current": 0,
+            "offset": 850,
+            "started_at": "2025-08-17T17:31:36.000000Z",
+            "stopped_at": "2025-08-17T17:38:46.000000Z",
+            "current": 850,
             "running": false
          },
          "last_yellow_card": null,
@@ -281,8 +311,8 @@
       {
          "id": 315,
          "live": false,
-         "closed": false,
-         "half_time": "HT",
+         "closed": true,
+         "half_time": "FT",
          "scheduled_at": "2025-08-17T17:40:00.000000Z",
          "home_team": {
             "id": 39,
@@ -310,7 +340,7 @@
                   "ht": 0,
                   "ft": 0
                },
-               "yellow_cards": 0,
+               "yellow_cards": 1,
                "red_cards": 0,
                "substitutions": 0
             },
@@ -329,7 +359,7 @@
                      "ht": 0,
                      "ft": 0
                   },
-                  "yellow_cards": 0,
+                  "yellow_cards": 1,
                   "red_cards": 0
                },
                {
@@ -438,7 +468,7 @@
             "logo_url": "/storage/teams/tortedimele.png",
             "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\tortedimele.png",
             "players_count": 6,
-            "score": 0,
+            "score": 7,
             "shootouts": {
                "total": 0,
                "score": 0,
@@ -452,15 +482,30 @@
             },
             "stats": {
                "fouls": {
-                  "total": 0,
+                  "total": 4,
                   "ht": 0,
-                  "ft": 0
+                  "ft": 4
                },
                "yellow_cards": 0,
                "red_cards": 0,
                "substitutions": 0
             },
-            "best_player": null,
+            "best_player": {
+               "id": 307,
+               "name": "Emma",
+               "surname": "Tesini",
+               "username": "Latte Trento",
+               "avatar_url": "/storage/players/emmatesini.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmatesini.png",
+               "goals": 3,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 0,
+               "red_cards": 0
+            },
             "players": [
                {
                   "id": 306,
@@ -471,9 +516,9 @@
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\luciaraffaelli.png",
                   "goals": 0,
                   "fouls": {
-                     "total": 0,
+                     "total": 4,
                      "ht": 0,
-                     "ft": 0
+                     "ft": 4
                   },
                   "yellow_cards": 0,
                   "red_cards": 0
@@ -485,7 +530,7 @@
                   "username": "Latte Trento",
                   "avatar_url": "/storage/players/emmatesini.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmatesini.png",
-                  "goals": 0,
+                  "goals": 3,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -501,7 +546,7 @@
                   "username": "Armata vincente",
                   "avatar_url": "/storage/players/elenabordato.png",
                   "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\elenabordato.png",
-                  "goals": 0,
+                  "goals": 4,
                   "fouls": {
                      "total": 0,
                      "ht": 0,
@@ -560,16 +605,49 @@
                }
             ]
          },
-         "best_player": null,
+         "best_player": {
+            "id": 307,
+            "name": "Emma",
+            "surname": "Tesini",
+            "username": "Latte Trento",
+            "avatar_url": "/storage/players/emmatesini.png",
+            "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emmatesini.png",
+            "goals": 3,
+            "fouls": {
+               "total": 0,
+               "ht": 0,
+               "ft": 0
+            },
+            "yellow_cards": 0,
+            "red_cards": 0
+         },
          "group_id": 10,
          "timer": {
-            "offset": 0,
-            "started_at": null,
-            "stopped_at": null,
-            "current": 0,
+            "offset": 845,
+            "started_at": "2025-08-17T18:20:17.000000Z",
+            "stopped_at": "2025-08-17T18:20:33.000000Z",
+            "current": 845,
             "running": false
          },
-         "last_yellow_card": null,
+         "last_yellow_card": {
+            "player": {
+               "id": 265,
+               "name": "Emilia",
+               "surname": "Modena",
+               "username": "Russian Twist",
+               "avatar_url": "/storage/players/emiliamodena.png",
+               "production_path": "C:\\PROD\\GSP\\Images\\PLAYER\\emiliamodena.png",
+               "goals": 0,
+               "fouls": {
+                  "total": 0,
+                  "ht": 0,
+                  "ft": 0
+               },
+               "yellow_cards": 1,
+               "red_cards": 0
+            },
+            "time": 605
+         },
          "last_red_card": null
       }
    ],

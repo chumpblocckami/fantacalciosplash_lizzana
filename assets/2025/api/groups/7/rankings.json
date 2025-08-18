@@ -1,3 +1,38 @@
 {
-   "data": []
+   "data": [
+      {
+         "id": 13,
+         "name": "SHARK ATTACK",
+         "tag": "SHA",
+         "logo_url": "/storage/teams/sharkattack.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sharkattack.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 5,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "31": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 31,
+         "name": "CGB GAMBERONI",
+         "tag": "CGB",
+         "logo_url": "/storage/teams/cgbgamberoni.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 4,
+         "goals_conceded": 5,
+         "head_to_head": {
+            "13": -1
+         },
+         "goal_difference": -1
+      }
+   ]
 }

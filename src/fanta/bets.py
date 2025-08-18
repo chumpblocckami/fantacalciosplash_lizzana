@@ -41,7 +41,9 @@ for _, team in teams.iterrows():
         print(f"ERRORI in {team}!")
         continue
 
-    match_columns = [col for col in my_team_stats.columns if col.startswith("Match")]
+    match_columns = [
+        col for col in my_team_stats.columns if col.startswith("Match") or col == "Premi"
+    ]
     my_team_stats = my_team_stats[match_columns]
 
     mask = pd.DataFrame(False, index=my_team_stats.index, columns=my_team_stats.columns)
@@ -59,5 +61,5 @@ for _, team in teams.iterrows():
     bets.to_excel(f"./assets/{YEAR}/results/{team['Fantallenatore']}.xlsx")
     ranking.append({"Allenatore": team.iloc[0], "Punteggio": bets.sum(numeric_only=True).sum()})
 pd.DataFrame().from_records(ranking).sort_values("Punteggio", ascending=False).to_csv(
-    f"assets/{YEAR}/final_ranking.csv"
+    f"assets/{YEAR}/classifica.csv"
 )

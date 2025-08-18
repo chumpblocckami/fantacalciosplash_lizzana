@@ -4,6 +4,39 @@
       "name": "Semi M",
       "has_shootouts": true,
       "gender": "male",
-      "teams": []
+      "teams": [
+         {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         },
+         {
+            "id": 13,
+            "name": "SHARK ATTACK",
+            "tag": "SHA",
+            "logo_url": "/storage/teams/sharkattack.png",
+            "production_path": "C:\\PROD\\Teams\\13-shark-attack.png",
+            "players_count": 7
+         },
+         {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         },
+         {
+            "id": 23,
+            "name": "MODIUM",
+            "tag": "MOD",
+            "logo_url": "/storage/teams/modium.png",
+            "production_path": "C:\\PROD\\Teams\\23-modium.png",
+            "players_count": 6
+         }
+      ]
    }
 }
