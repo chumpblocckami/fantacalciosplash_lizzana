@@ -1,0 +1,154 @@
+{
+   "data": {
+      "id": 2,
+      "name": "Femminile",
+      "has_shootouts": false,
+      "gender": "female",
+      "teams": [
+         {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         },
+         {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         },
+         {
+            "id": 48,
+            "name": "FRUGO NEL FRIGO",
+            "tag": "FRU",
+            "logo_url": "/storage/teams/NMTlvmIzFjNfUkxuXF3JicrKYEwHMhiFXk7Ld3Ux.png",
+            "production_path": "C:\\PROD\\Teams\\48-frugo-nel-frigo.png",
+            "players_count": 6
+         },
+         {
+            "id": 36,
+            "name": "LEMONADE",
+            "tag": "LEM",
+            "logo_url": "/storage/teams/lemonade.png",
+            "production_path": "C:\\PROD\\Teams\\36-lemonade.png",
+            "players_count": 6
+         },
+         {
+            "id": 45,
+            "name": "TORTE DI MELE",
+            "tag": "TOR",
+            "logo_url": "/storage/teams/tortedimele.png",
+            "production_path": "C:\\PROD\\Teams\\45-torte-di-mele.png",
+            "players_count": 6
+         },
+         {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\Teams\\38-gin-toniche.png",
+            "players_count": 4
+         },
+         {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         },
+         {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         },
+         {
+            "id": 42,
+            "name": "SPICE SQUAD",
+            "tag": "SPI",
+            "logo_url": "/storage/teams/9TvJW5sujmPCV7SaK9PBpcXrQkIIni11093GFmMg.png",
+            "production_path": "C:\\PROD\\Teams\\42-spice-squad.png",
+            "players_count": 7
+         },
+         {
+            "id": 39,
+            "name": "LOVEBUSTERS",
+            "tag": "LOV",
+            "logo_url": "/storage/teams/UpwTfT5Ue51xEbkhSHMVJA07ZtklZS75fePuVwpP.png",
+            "production_path": "C:\\PROD\\Teams\\39-lovebusters.png",
+            "players_count": 7
+         },
+         {
+            "id": 35,
+            "name": "SCARSENAL",
+            "tag": "SCA",
+            "logo_url": "/storage/teams/8xwzYZh5VECw0dlkW3AtawYbhq2My9LqI3MrM82G.png",
+            "production_path": "C:\\PROD\\Teams\\35-scarsenal.png",
+            "players_count": 8
+         },
+         {
+            "id": 44,
+            "name": "SAILOR MONE",
+            "tag": "SAI",
+            "logo_url": "/storage/teams/L817M7FFeteD9Q3mWlcGM6ZHpvHvUt1a3un8o5tQ.png",
+            "production_path": "C:\\PROD\\Teams\\44-sailor-mone.png",
+            "players_count": 6
+         },
+         {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         },
+         {
+            "id": 40,
+            "name": "ICONICHE",
+            "tag": "ICO",
+            "logo_url": "/storage/teams/9jclhCZUHxmrzOPAbglssOSGadDQ3cOcxcNFtSNl.png",
+            "production_path": "C:\\PROD\\Teams\\40-iconiche.png",
+            "players_count": 6
+         },
+         {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\Teams\\49-le-gocciole.png",
+            "players_count": 4
+         },
+         {
+            "id": 50,
+            "name": "LE NON CONVOCATE",
+            "tag": "LEN",
+            "logo_url": "/storage/teams/rZVBt4bidHukATZZ4UzcGXNUcDjpei215KGyb78f.png",
+            "production_path": "C:\\PROD\\Teams\\50-le-non-convocate.png",
+            "players_count": 8
+         },
+         {
+            "id": 34,
+            "name": "A.C. CAMPATE",
+            "tag": "ACC",
+            "logo_url": "/storage/teams/accampate.png",
+            "production_path": "C:\\PROD\\Teams\\34-ac-campate.png",
+            "players_count": 6
+         },
+         {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      ]
+   }
+}

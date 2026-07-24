@@ -4,7 +4,7 @@ import pandas as pd
 import pytz
 import streamlit as st
 
-from src.constants import BUDGET
+from src.constants import BUDGET, DEADLINE
 
 
 def get_cost(player):
@@ -32,7 +32,7 @@ def load(edition: int):
 def update_budget(players, data):
     player_names = [player.split(" | ")[0] for player in players]
     costs = sum(
-        [float(data.loc[data["Nominativo"] == name]["Quotazione"]) for name in player_names]
+        [float(data.loc[data["Nominativo"] == name]["Quotazione"].iloc[0]) for name in player_names]
     )
     return BUDGET - costs
 
@@ -67,8 +67,8 @@ def validate(allenatore: str, titolari: list, riserve: list, budget: float):
 
 def get_element_visibility():
     today = dt.now(pytz.timezone("Europe/Rome"))
-    if today.month == 8:
-        if today.day >= 14 and today.hour > 12:
+    if today.month == DEADLINE.month:
+        if today.day >= DEADLINE.day and today.hour > DEADLINE.hour:
             return False
         else:
             return True

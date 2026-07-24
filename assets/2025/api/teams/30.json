@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 211,
+         "name": "Roberto",
+         "surname": "Mancabelli",
+         "username": null,
+         "avatar_url": "/storage/players/robertomancabelli.png",
+         "production_path": "C:\\PROD\\Players\\211-roberto.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 212,
+         "name": "Lian",
+         "surname": "Cambingo",
+         "username": "I show speed",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\212-lian.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 213,
+         "name": "Samuel",
+         "surname": "Beber",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\213-samuel.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 214,
+         "name": "Mattia",
+         "surname": "Rizzoli",
+         "username": null,
+         "avatar_url": "/storage/players/mattiarizzoli.png",
+         "production_path": "C:\\PROD\\Players\\214-mattia.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 215,
+         "name": "Gabriele",
+         "surname": "Papalia",
+         "username": "Antonio Zecchila",
+         "avatar_url": "/storage/players/gabrielepapalia.png",
+         "production_path": "C:\\PROD\\Players\\215-gabriele.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 216,
+         "name": "Nicol\u00f2",
+         "surname": "Papalia",
+         "username": "Pappalardo",
+         "avatar_url": "/storage/players/nicolpapalia.png",
+         "production_path": "C:\\PROD\\Players\\216-nicolo.png",
+         "team": {
+            "id": 30,
+            "name": "QUESTI SEN",
+            "tag": "QUE",
+            "logo_url": null,
+            "production_path": "C:\\PROD\\Teams\\30-questi-sen.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/30/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/30/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/30/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/30/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

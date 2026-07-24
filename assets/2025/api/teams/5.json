@@ -1,0 +1,116 @@
+{
+   "data": [
+      {
+         "id": 34,
+         "name": "Alessandro",
+         "surname": "Comper ",
+         "username": "Fantic Caballero ",
+         "avatar_url": "/storage/players/alessandrocomper.png",
+         "production_path": "C:\\PROD\\Players\\34-alessandro.png",
+         "team": {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 35,
+         "name": "Alessandro ",
+         "surname": "Ruele ",
+         "username": "Gigio Dollaruma",
+         "avatar_url": "/storage/players/alessandroruele.png",
+         "production_path": "C:\\PROD\\Players\\35-alessandro.png",
+         "team": {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 36,
+         "name": "Samuele",
+         "surname": "Maffei",
+         "username": "Tyranitar",
+         "avatar_url": "/storage/players/samuelemaffei.png",
+         "production_path": "C:\\PROD\\Players\\36-samuele.png",
+         "team": {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 37,
+         "name": "Nicolo",
+         "surname": "Speziali",
+         "username": "Taglia burro",
+         "avatar_url": "/storage/players/nicolospeziali.png",
+         "production_path": "C:\\PROD\\Players\\37-nicolo.png",
+         "team": {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 38,
+         "name": "Giovanni",
+         "surname": "Torboli",
+         "username": "l'uomo che sussurrava ai bidet",
+         "avatar_url": "/storage/players/giovannitorboli.png",
+         "production_path": "C:\\PROD\\Players\\38-giovanni.png",
+         "team": {
+            "id": 5,
+            "name": "FC GORILLAZ",
+            "tag": "FCG",
+            "logo_url": "/storage/teams/fcgorillaz.png",
+            "production_path": "C:\\PROD\\Teams\\5-fc-gorillaz.png",
+            "players_count": 5
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/5/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/5/players",
+      "per_page": 10,
+      "to": 5,
+      "total": 5
+   }
+}

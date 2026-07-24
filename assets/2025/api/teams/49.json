@@ -1,0 +1,100 @@
+{
+   "data": [
+      {
+         "id": 332,
+         "name": "Isabella",
+         "surname": "Barberi",
+         "username": "Isabrulla",
+         "avatar_url": "/storage/players/isabellabarberi.png",
+         "production_path": "C:\\PROD\\Players\\332-isabella.png",
+         "team": {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\Teams\\49-le-gocciole.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 333,
+         "name": "Angelica",
+         "surname": "Galvagni",
+         "username": "Bebe Vio",
+         "avatar_url": "/storage/players/angelicagalvagni.png",
+         "production_path": "C:\\PROD\\Players\\333-angelica.png",
+         "team": {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\Teams\\49-le-gocciole.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 334,
+         "name": "Noemi",
+         "surname": "Paoli",
+         "username": "Squirtola",
+         "avatar_url": "/storage/players/noemipaoli.png",
+         "production_path": "C:\\PROD\\Players\\334-noemi.png",
+         "team": {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\Teams\\49-le-gocciole.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 335,
+         "name": "Diana",
+         "surname": "Osinska",
+         "username": "La giungla che distrugge",
+         "avatar_url": "/storage/players/dianaosinska.png",
+         "production_path": "C:\\PROD\\Players\\335-diana.png",
+         "team": {
+            "id": 49,
+            "name": "LE GOCCIOLE",
+            "tag": "LEG",
+            "logo_url": "/storage/teams/tqZYpc1KnzaWgYL3XQi9ueTiiGY3ShZF76hlJ1kR.png",
+            "production_path": "C:\\PROD\\Teams\\49-le-gocciole.png",
+            "players_count": 4
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/49/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/49/players",
+      "per_page": 10,
+      "to": 4,
+      "total": 4
+   }
+}

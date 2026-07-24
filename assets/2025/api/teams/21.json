@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 148,
+         "name": "Davide",
+         "surname": "Fontana",
+         "username": "Ginew",
+         "avatar_url": "/storage/players/davidefontana.png",
+         "production_path": "C:\\PROD\\Players\\148-davide.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 149,
+         "name": "Enrico",
+         "surname": "Parisi",
+         "username": "Il caschetto che fa impazzire le cinquantenni",
+         "avatar_url": "/storage/players/enricoparisi.png",
+         "production_path": "C:\\PROD\\Players\\149-enrico.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 150,
+         "name": "Federico",
+         "surname": "Fasanelli",
+         "username": "Ah ma \u00e8 Ronco",
+         "avatar_url": "/storage/players/federicofasanelli.png",
+         "production_path": "C:\\PROD\\Players\\150-federico.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 151,
+         "name": "Alessio",
+         "surname": "Zandonai",
+         "username": null,
+         "avatar_url": "/storage/players/alessiozandonai.png",
+         "production_path": "C:\\PROD\\Players\\151-alessio.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 152,
+         "name": "Matteo",
+         "surname": "Zanlucchi",
+         "username": "Biker Mice",
+         "avatar_url": "/storage/players/matteozanlucchi.png",
+         "production_path": "C:\\PROD\\Players\\152-matteo.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 153,
+         "name": "Nicholas",
+         "surname": "Marzadro",
+         "username": "Sgnappa secca",
+         "avatar_url": "/storage/players/nicholasmarzadro.png",
+         "production_path": "C:\\PROD\\Players\\153-nicholas.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 154,
+         "name": "Niccol\u00f2",
+         "surname": "Orsi",
+         "username": "JJ4",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\154-niccolo.png",
+         "team": {
+            "id": 21,
+            "name": "SBARX",
+            "tag": "SBA",
+            "logo_url": "/storage/teams/sbarx.png",
+            "production_path": "C:\\PROD\\Teams\\21-sbarx.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/21/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/21/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/21/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/21/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

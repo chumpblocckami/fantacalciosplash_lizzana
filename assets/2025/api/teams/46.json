@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 312,
+         "name": "Angela",
+         "surname": "Zago",
+         "username": null,
+         "avatar_url": "/storage/players/angelazago.png",
+         "production_path": "C:\\PROD\\Players\\312-angela.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 313,
+         "name": "Caterina",
+         "surname": "Mittempergher",
+         "username": "Mantide religiosa",
+         "avatar_url": "/storage/players/caterinamittempergher.png",
+         "production_path": "C:\\PROD\\Players\\313-caterina.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 314,
+         "name": "Alessia",
+         "surname": "Lorenzini",
+         "username": null,
+         "avatar_url": "/storage/players/alessialorenzini.png",
+         "production_path": "C:\\PROD\\Players\\314-alessia.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 315,
+         "name": "Lucrezia",
+         "surname": "Paniz",
+         "username": "Moglie di Mediomen",
+         "avatar_url": "/storage/players/lucreziapaniz.png",
+         "production_path": "C:\\PROD\\Players\\315-lucrezia.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 316,
+         "name": "Maddalena",
+         "surname": "Garniga",
+         "username": "ShootingStar",
+         "avatar_url": "/storage/players/maddalenagarniga.png",
+         "production_path": "C:\\PROD\\Players\\316-maddalena.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 317,
+         "name": "Valentina",
+         "surname": "Garniga",
+         "username": "Pantene Pro-V",
+         "avatar_url": "/storage/players/valentinagarniga.png",
+         "production_path": "C:\\PROD\\Players\\317-valentina.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 318,
+         "name": "Valentina",
+         "surname": "Riolfatti",
+         "username": "Anca Sbilenca",
+         "avatar_url": "/storage/players/valentinariolfatti.png",
+         "production_path": "C:\\PROD\\Players\\318-valentina.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 348,
+         "name": "Francesca",
+         "surname": "Montermini",
+         "username": "Schilla",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\348-francesca.png",
+         "team": {
+            "id": 46,
+            "name": "LE BALLE(RINE) IN FIESTA",
+            "tag": "LEB",
+            "logo_url": "/storage/teams/leballerineinfiesta.png",
+            "production_path": "C:\\PROD\\Teams\\46-le-ballerine-in-fiesta.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/46/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/46/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 190,
+         "name": "Nicola",
+         "surname": "Conti",
+         "username": "Parrucchino",
+         "avatar_url": "/storage/players/nicolaconti.png",
+         "production_path": "C:\\PROD\\Players\\190-nicola.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 191,
+         "name": "Stefano ",
+         "surname": "Rosina",
+         "username": "GPL",
+         "avatar_url": "/storage/players/stefanorosina.png",
+         "production_path": "C:\\PROD\\Players\\191-stefano.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 192,
+         "name": "Matteo ",
+         "surname": "Cembrani",
+         "username": "Il fioraio",
+         "avatar_url": "/storage/players/matteocembrani.png",
+         "production_path": "C:\\PROD\\Players\\192-matteo.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 193,
+         "name": "Carlo",
+         "surname": "Pomarolli",
+         "username": "Bettino Craxi",
+         "avatar_url": "/storage/players/carlopomarolli.png",
+         "production_path": "C:\\PROD\\Players\\193-carlo.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 194,
+         "name": "Riccardo",
+         "surname": "Baldo",
+         "username": "L\u2019idolo delle quindicenni",
+         "avatar_url": "/storage/players/riccardobaldo.png",
+         "production_path": "C:\\PROD\\Players\\194-riccardo.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 195,
+         "name": "Emanuele ",
+         "surname": "Valduga",
+         "username": "Fiammifero",
+         "avatar_url": "/storage/players/emanuelevalduga.png",
+         "production_path": "C:\\PROD\\Players\\195-emanuele.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 196,
+         "name": "Mattia",
+         "surname": "Spagnolli",
+         "username": "Dott. Nowzaradan",
+         "avatar_url": "/storage/players/mattiaspagnolli.png",
+         "production_path": "C:\\PROD\\Players\\196-mattia.png",
+         "team": {
+            "id": 27,
+            "name": "WANDA TIM",
+            "tag": "WTM",
+            "logo_url": "/storage/teams/wandatim.png",
+            "production_path": "C:\\PROD\\Teams\\27-wanda-tim.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/27/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/27/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

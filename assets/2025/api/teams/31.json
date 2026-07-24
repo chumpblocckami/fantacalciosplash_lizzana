@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 217,
+         "name": "Sebastiano",
+         "surname": "Zoller",
+         "username": "Carenza di spritz",
+         "avatar_url": "/storage/players/sebastianozoller.png",
+         "production_path": "C:\\PROD\\Players\\217-sebastiano.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 218,
+         "name": "Thomas",
+         "surname": "Perenzoni",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\218-thomas.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 219,
+         "name": "Gabriele",
+         "surname": "Gottardi",
+         "username": "Centomila cammelli",
+         "avatar_url": "/storage/players/gabrielegottardi.png",
+         "production_path": "C:\\PROD\\Players\\219-gabriele.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 220,
+         "name": "Alessandro",
+         "surname": "Zeni",
+         "username": "Ultimo samurai",
+         "avatar_url": "/storage/players/alessandrozeni.png",
+         "production_path": "C:\\PROD\\Players\\220-alessandro.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 221,
+         "name": "Gabriel",
+         "surname": "Verona",
+         "username": "Temptation Island",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\221-gabriel.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 222,
+         "name": "Luca",
+         "surname": "Perenzoni",
+         "username": "Chernobyl",
+         "avatar_url": "/storage/players/lucaperenzoni.png",
+         "production_path": "C:\\PROD\\Players\\222-luca.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 363,
+         "name": "Lorenzo",
+         "surname": "Canali",
+         "username": "Salvo Confine",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\363-lorenzo.png",
+         "team": {
+            "id": 31,
+            "name": "CGB GAMBERONI",
+            "tag": "CGB",
+            "logo_url": "/storage/teams/cgbgamberoni.png",
+            "production_path": "C:\\PROD\\Teams\\31-cgb-gamberoni.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/31/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/31/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/31/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/31/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

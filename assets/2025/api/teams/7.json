@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 48,
+         "name": "Lorenzo",
+         "surname": "Casari",
+         "username": "Il regionale ferma a Peri",
+         "avatar_url": "/storage/players/lorenzocasari.png",
+         "production_path": "C:\\PROD\\Players\\48-lorenzo.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 49,
+         "name": "Michele",
+         "surname": "Eccel",
+         "username": "Notte tempo",
+         "avatar_url": "/storage/players/micheleeccel.png",
+         "production_path": "C:\\PROD\\Players\\49-michele.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 50,
+         "name": "Pietro",
+         "surname": "Marchesini",
+         "username": "Amministratore di pagine brutte",
+         "avatar_url": "/storage/players/pietromarchesini.png",
+         "production_path": "C:\\PROD\\Players\\50-pietro.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 51,
+         "name": "Leonardo",
+         "surname": "Fedrigotti",
+         "username": "Il boscaiolo ledrense",
+         "avatar_url": "/storage/players/leonardofedrigotti.png",
+         "production_path": "C:\\PROD\\Players\\51-leonardo.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 52,
+         "name": "Andrea",
+         "surname": "Bellini",
+         "username": "California zephyr",
+         "avatar_url": "/storage/players/andreabellini.png",
+         "production_path": "C:\\PROD\\Players\\52-andrea.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 53,
+         "name": "Armando",
+         "surname": "Renzetti ",
+         "username": "Kabib ",
+         "avatar_url": "/storage/players/armandorenzetti.png",
+         "production_path": "C:\\PROD\\Players\\53-armando.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 54,
+         "name": "Wilson",
+         "surname": "Bona",
+         "username": "Il patron di Trenitalia ",
+         "avatar_url": "/storage/players/wilsonbona.png",
+         "production_path": "C:\\PROD\\Players\\54-wilson.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 55,
+         "name": "Fabio",
+         "surname": "Daves",
+         "username": "Il controllore",
+         "avatar_url": "/storage/players/fabiodaves.png",
+         "production_path": "C:\\PROD\\Players\\55-fabio.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 56,
+         "name": "Elia",
+         "surname": "Tomasoni",
+         "username": "T come...Tigro",
+         "avatar_url": "/storage/players/eliatomasoni.png",
+         "production_path": "C:\\PROD\\Players\\56-elia.png",
+         "team": {
+            "id": 7,
+            "name": "NAZZZIONALE FERROVIERI",
+            "tag": "NAZ",
+            "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+            "production_path": "C:\\PROD\\Teams\\7-nazzzionale-ferrovieri.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/7/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/7/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

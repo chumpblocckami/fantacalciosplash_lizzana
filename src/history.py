@@ -54,7 +54,7 @@ class HistoryMaker:
                     print(f"Cannot load data for:{player}: {e}")
 
     def load_tournament_data(self):
-        paths = sorted(glob.glob("./assets/*/ratings.json"))
+        paths = sorted(glob.glob("./assets/*/punteggi.json"))
         for path in paths:
             year = int(path.split("/")[-2])
             data = pd.read_json(path).T

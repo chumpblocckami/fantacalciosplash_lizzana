@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 98,
+         "name": "Matteo",
+         "surname": "Giovannella",
+         "username": "Riccanza",
+         "avatar_url": "/storage/players/matteogiovannella.png",
+         "production_path": "C:\\PROD\\Players\\98-matteo.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 99,
+         "name": "Giacomo",
+         "surname": "Gatti",
+         "username": "Zack Efron dei poveri",
+         "avatar_url": "/storage/players/giacomogatti.png",
+         "production_path": "C:\\PROD\\Players\\99-giacomo.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 100,
+         "name": "Maurizio",
+         "surname": "Maffei",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\100-maurizio.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 101,
+         "name": "Samuele",
+         "surname": "Pedrotti",
+         "username": "Nonno Oscar",
+         "avatar_url": "/storage/players/samuelepedrotti.png",
+         "production_path": "C:\\PROD\\Players\\101-samuele.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 102,
+         "name": "Riccardo",
+         "surname": "Madaschi",
+         "username": "Conato di vomito",
+         "avatar_url": "/storage/players/riccardomadaschi.png",
+         "production_path": "C:\\PROD\\Players\\102-riccardo.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 103,
+         "name": "Federico",
+         "surname": "Madaschi",
+         "username": "Il bocia/Vino tinto",
+         "avatar_url": "/storage/players/federicomadaschi.png",
+         "production_path": "C:\\PROD\\Players\\103-federico.png",
+         "team": {
+            "id": 14,
+            "name": "BEVEM4TUT",
+            "tag": "BEV",
+            "logo_url": "/storage/teams/bevem4tut.png",
+            "production_path": "C:\\PROD\\Teams\\14-bevem4tut.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/14/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/14/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

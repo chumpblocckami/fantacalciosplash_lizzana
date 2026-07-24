@@ -1,5 +1,6 @@
 import glob
 import json
+from datetime import datetime
 
 import pandas as pd
 import requests
@@ -15,7 +16,8 @@ from constants import (
 )
 
 
-def get_team_ratings(team: Team, conceded_goals: int, ratings: dict, players: dict) -> dict:
+def get_team_ratings(team: Team, conceded_goals: int, ratings: dict, goalkeepers: dict) -> dict:
+    goalkeeper_found = False
     # Add team if not in ratings
     if team.name not in ratings:
         ratings[team.name] = {}
@@ -36,27 +38,30 @@ def get_team_ratings(team: Team, conceded_goals: int, ratings: dict, players: di
 
         # Calculate goalkeeper points
         goalkeeper_points = 0
-        if players.get(player.id, {}).get("is_goalkeeper", False):
+        if player_id.split("|")[0].strip() in [x.split("|")[0].strip() for x in goalkeepers]:
             goalkeeper_points = (
                 POINTS_PER_CLEANSHEET
                 if conceded_goals == 0
                 else conceded_goals * POINTS_PER_CONCEDED_GOALS
             )
+            goalkeeper_found = True
 
         # Calculate total points for the match
         ratings[team.name][player_id].append(
             MatchPoints(
-                goals=player.goals,
+                goals=player.goals,  # if not is_goalkeeper else 0 (autogol are set to goalkeepers)
                 yellow_cards=player.yellow_cards,
                 red_cards=player.red_cards,
                 team_points=team_points,
                 goalkeeper_points=goalkeeper_points,
             )
         )
+    if not goalkeeper_found:
+        print(f"{team.name.upper()} | Goalkeeper not found!")
     return ratings
 
 
-def convert_to_dataframe(ratings: dict, save: bool = False) -> pd.DataFrame:
+def convert_to_dataframe(ratings: dict, save: bool = True) -> pd.DataFrame:
     records = []
 
     for team_name, team_data in ratings.items():
@@ -78,9 +83,9 @@ def convert_to_dataframe(ratings: dict, save: bool = False) -> pd.DataFrame:
 
     df = pd.DataFrame(records)
     if save:
-        df.to_csv("totale.csv")
+        df.to_csv(f"{YEAR}_totale.csv")
     pivoted_df = df.pivot_table(
-        index=["team", "player"], columns="match_index", values="total_points", fill_value=0
+        index=["team", "player"], columns="match_index", values="total_points", fill_value=-2
     ).reset_index()
     pivoted_df.set_index("player", inplace=True)
     pivoted_df.drop(columns=["team"], inplace=True)
@@ -96,35 +101,54 @@ def read_from_path(path: str) -> dict:
     return content
 
 
+def get_goalkeepers(path_listone: str):
+    listone = pd.read_excel(path_listone)
+    goalkeepers = listone.loc[listone["Ruolo"] == "Portiere"]
+    return goalkeepers.apply(
+        lambda x: f"{x['Nominativo']} | {x['Squadra'].upper()}", axis=1
+    ).tolist()
+
+
+YEAR = datetime.now().year
 # todo: refine this
-players = {176: {"is_goalkeeper": True}}
+goalkeepers = get_goalkeepers(f"./assets/{YEAR}/giocatori.xlsx")
+players = {}
 teams = []
 ratings = {}
 results = []
 
-paths = glob.glob("assets/2024/api/groups/*.json")
+paths = glob.glob(f"assets/{YEAR}/api/groups/*.json")
 for path in sorted(paths):
 
     content = read_from_path(path)
-    label = content["data"]["name"]
+    label = content.get("data", {}).get("name", "not_found")
+    if label == "not_found":
+        continue
 
     print(f"Analyzing {label}")
     if not label.lower().endswith("m") and "maschile" not in label.lower():
         print(f"\tSkipping {label}")
         continue
+    if label.lower() == "terzo/quarto m":
+        print("\tSkipping Terzo/Quarto")
+        continue
     url = path.replace(".json", "") + "/fixture/1.json"
-    # TODO: continue from HERE
+
     try:
         while url:
             content = read_from_path(url)
 
             for match in content.get("data"):
+                if not match.get("home_team") or not match.get("away_team"):
+                    print(f"\t\tNo data available for {label}")
+                    continue
 
                 home = create_dataclass(Team, match.get("home_team"))
                 away = create_dataclass(Team, match.get("away_team"))
 
-                ratings = get_team_ratings(home, away.score, ratings, players=players)
-                ratings = get_team_ratings(away, home.score, ratings, players=players)
+                print(f"\t\t{home.name} {home.score} - {away.score} {away.name}")
+                ratings = get_team_ratings(home, away.score, ratings, goalkeepers=goalkeepers)
+                ratings = get_team_ratings(away, home.score, ratings, goalkeepers=goalkeepers)
 
                 results.append(
                     {
@@ -135,13 +159,14 @@ for path in sorted(paths):
                     }
                 )
             url = content.get("links").get("next")
-            url = path.replace(".json", "") + f"/fixtures/{url[-1]}.json"
+            if url:
+                url = path.replace(".json", "") + f"/fixture/{url[-1]}.json"
 
     except requests.HTTPError:
         continue
 
     # playoff stage
-    if "playoff" in label:
+    if "playoff" in label.lower():
         resp = requests.get("https://api.gsplizzana.it/api/groups/1/rankings", timeout=5)
         if resp.status_code == 404:
             raise requests.HTTPError(f"Resource {url} not found.")
@@ -170,7 +195,7 @@ for path in sorted(paths):
                     )
                 )
 
-with open("assets/2024/ratings.json", "w+") as file:
+with open(f"assets/{YEAR}/punteggi.json", "w+") as file:
     json.dump(
         {
             player: [x.to_dict() for x in ratings[team][player]]
@@ -180,6 +205,6 @@ with open("assets/2024/ratings.json", "w+") as file:
         file,
         indent=3,
     )
-df = convert_to_dataframe(ratings=ratings, save=False)
-df.to_csv("assets/2024/punteggi.csv")
-pd.DataFrame(results).to_csv("assets/2024/matches.csv")
+df = convert_to_dataframe(ratings=ratings, save=True)
+df.to_csv(f"assets/{YEAR}/punteggi.csv")
+pd.DataFrame(results).to_csv(f"assets/{YEAR}/risultati.csv")

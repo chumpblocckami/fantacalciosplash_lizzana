@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 104,
+         "name": "Federico",
+         "surname": "Zanini",
+         "username": "Frenulo a disco",
+         "avatar_url": "/storage/players/federicozanini.png",
+         "production_path": "C:\\PROD\\Players\\104-federico.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 105,
+         "name": "Samuele",
+         "surname": "Kettmaier",
+         "username": "Kettamina",
+         "avatar_url": "/storage/players/samuelekettmaier.png",
+         "production_path": "C:\\PROD\\Players\\105-samuele.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 106,
+         "name": "Maverick",
+         "surname": "Bertolini",
+         "username": "Top gun Maverick",
+         "avatar_url": "/storage/players/maverickbertolini.png",
+         "production_path": "C:\\PROD\\Players\\106-maverick.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 107,
+         "name": "Sayf",
+         "surname": "Brik",
+         "username": "Baby gang bang",
+         "avatar_url": "/storage/players/sayf.png",
+         "production_path": "C:\\PROD\\Players\\107-sayf.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 108,
+         "name": "Michael",
+         "surname": "Bert\u00e8",
+         "username": "Tontolino d\u2019oro",
+         "avatar_url": "/storage/players/michaelberte.png",
+         "production_path": "C:\\PROD\\Players\\108-michael.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 344,
+         "name": "Nicol\u00f2",
+         "surname": "Marzari",
+         "username": "Quel bravo ragazzo",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\344-nicolo.png",
+         "team": {
+            "id": 15,
+            "name": "A.C.DENTI",
+            "tag": "ACD",
+            "logo_url": "/storage/teams/acdenti.png",
+            "production_path": "C:\\PROD\\Teams\\15-acdenti.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/15/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/15/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

@@ -1,0 +1,116 @@
+{
+   "data": [
+      {
+         "id": 176,
+         "name": "Francesco ",
+         "surname": "Pizzini",
+         "username": "Bottega aperta",
+         "avatar_url": "/storage/players/francescopizzini.png",
+         "production_path": "C:\\PROD\\Players\\176-francesco.png",
+         "team": {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 177,
+         "name": "Matteo",
+         "surname": "Tatarella",
+         "username": "I love Seebach",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\177-matteo.png",
+         "team": {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 178,
+         "name": "Davide",
+         "surname": "Sannicol\u00f2",
+         "username": "Cloachella",
+         "avatar_url": "/storage/players/davidesannicol.png",
+         "production_path": "C:\\PROD\\Players\\178-davide.png",
+         "team": {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 179,
+         "name": "Nicol\u00f2",
+         "surname": "Gelmini",
+         "username": "Guendouzi di montalbano",
+         "avatar_url": "/storage/players/nicolgelmini.png",
+         "production_path": "C:\\PROD\\Players\\179-nicolo.png",
+         "team": {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         }
+      },
+      {
+         "id": 180,
+         "name": "Paolo",
+         "surname": "Salvetti",
+         "username": "Capricorno di ramen",
+         "avatar_url": "/storage/players/paolosalvetti.png",
+         "production_path": "C:\\PROD\\Players\\180-paolo.png",
+         "team": {
+            "id": 25,
+            "name": "BAYERN MONA",
+            "tag": "BAY",
+            "logo_url": "/storage/teams/bayernmona.png",
+            "production_path": "C:\\PROD\\Teams\\25-bayern-mona.png",
+            "players_count": 5
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/25/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/25/players",
+      "per_page": 10,
+      "to": 5,
+      "total": 5
+   }
+}

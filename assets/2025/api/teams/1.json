@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 1,
+         "name": "Luis Eduardo",
+         "surname": "Grazioli",
+         "username": "L'indesiderabile Numero 1",
+         "avatar_url": "/storage/players/luiseduardograzioli.png",
+         "production_path": "C:\\PROD\\Players\\1-luis-eduardo.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 2,
+         "name": "Riccardo",
+         "surname": "Barbiero",
+         "username": "Alabarda Spaziale",
+         "avatar_url": "/storage/players/riccardobarbiero.png",
+         "production_path": "C:\\PROD\\Players\\2-riccardo.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 3,
+         "name": "Daniele",
+         "surname": "Feltrinelli",
+         "username": "La Transiberiana",
+         "avatar_url": "/storage/players/danielefeltrinelli.png",
+         "production_path": "C:\\PROD\\Players\\3-daniele.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 4,
+         "name": "Federico",
+         "surname": "Leonardi",
+         "username": "Pan carr\u00e8",
+         "avatar_url": "/storage/players/federicoleonardi.png",
+         "production_path": "C:\\PROD\\Players\\4-federico.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 5,
+         "name": "Emanuele",
+         "surname": "Miorandi",
+         "username": "Re di bastoni",
+         "avatar_url": "/storage/players/emanuelemiorandi.png",
+         "production_path": "C:\\PROD\\Players\\5-emanuele.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 6,
+         "name": "Alessandro",
+         "surname": "Monaco",
+         "username": "Pesce fuor d'acqua",
+         "avatar_url": "/storage/players/alessandromonaco.png",
+         "production_path": "C:\\PROD\\Players\\6-alessandro.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 7,
+         "name": "Luca",
+         "surname": "Tonolli",
+         "username": "Mark Renton",
+         "avatar_url": "/storage/players/lucatonolli.png",
+         "production_path": "C:\\PROD\\Players\\7-luca.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 8,
+         "name": "Michele",
+         "surname": "Leonardi",
+         "username": "Pesto Tigullio",
+         "avatar_url": "/storage/players/micheleleonardi.png",
+         "production_path": "C:\\PROD\\Players\\8-michele.png",
+         "team": {
+            "id": 1,
+            "name": "RITA LEVI'S",
+            "tag": "RIT",
+            "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+            "production_path": "C:\\PROD\\Teams\\1-rita-levis.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/1/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/1/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

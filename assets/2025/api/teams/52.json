@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 349,
+         "name": "Luca",
+         "surname": "Frasca",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\349-luca.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 350,
+         "name": "Leonardo",
+         "surname": "Viola",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\350-leonardo.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 351,
+         "name": "Mattia",
+         "surname": "Spagnolli",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\351-mattia.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 352,
+         "name": "Gabriele",
+         "surname": "Brentari",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\352-gabriele.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 353,
+         "name": "Stefano",
+         "surname": "Tita",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\353-stefano.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 354,
+         "name": "Alessio",
+         "surname": "Bragagna",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\354-alessio.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 355,
+         "name": "Daniele",
+         "surname": "Ruzzenenti",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\355-daniele.png",
+         "team": {
+            "id": 52,
+            "name": "NEW LEGENDS",
+            "tag": "NEW",
+            "logo_url": "/storage/teams/Jtm03bT1TEBLhlBDhRXEfWp2kE8EjEdB3XKqv6bA.png",
+            "production_path": "C:\\PROD\\Teams\\52-new-legends.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/52/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/52/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

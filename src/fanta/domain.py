@@ -1,5 +1,6 @@
 from collections import OrderedDict
-from dataclasses import dataclass, fields
+from dataclasses import asdict, dataclass, field, fields
+from typing import Optional
 
 from constants import POINTS_PER_GOAL, POINTS_PER_RED_CARD, POINTS_PER_YELLOW_CARD
 
@@ -32,8 +33,8 @@ class Team:
     tag: str
     winner: bool
     score: int
-    substitutes: list[Player]
     players: list[Player]
+    substitutes: Optional[list[Player]] = field(default_factory=list)
 
     def __post_init__(self):
         self.players = [create_dataclass(Player, player) for player in self.players]
@@ -62,3 +63,6 @@ class MatchPoints:
             + self.team_points
             + self.goalkeeper_points
         )
+
+    def to_dict(self):
+        return asdict(self)

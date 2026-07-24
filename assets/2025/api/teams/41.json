@@ -1,0 +1,180 @@
+{
+   "data": [
+      {
+         "id": 278,
+         "name": "Arianna",
+         "surname": "Bettonte",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\278-arianna.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 279,
+         "name": "Martina",
+         "surname": "Bonvecchio",
+         "username": "La masochista di citt\u00e1 laggi\u00f9",
+         "avatar_url": "/storage/players/martinabonvecchio.png",
+         "production_path": "C:\\PROD\\Players\\279-martina.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 280,
+         "name": "Cinzia",
+         "surname": "Ravagni",
+         "username": null,
+         "avatar_url": "/storage/players/cinziaravagni.png",
+         "production_path": "C:\\PROD\\Players\\280-cinzia.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 281,
+         "name": "Anna",
+         "surname": "Cappuccio",
+         "username": "Sette bello",
+         "avatar_url": "/storage/players/annacappuccio.png",
+         "production_path": "C:\\PROD\\Players\\281-anna.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 282,
+         "name": "Caterina",
+         "surname": "Barberi",
+         "username": "H come hamtaro",
+         "avatar_url": "/storage/players/caterinabarberi.png",
+         "production_path": "C:\\PROD\\Players\\282-caterina.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 283,
+         "name": "Elisa",
+         "surname": "Gerola",
+         "username": "Vladimir luxuria",
+         "avatar_url": "/storage/players/elisagerola.png",
+         "production_path": "C:\\PROD\\Players\\283-elisa.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 284,
+         "name": "Benedetta",
+         "surname": "Foradori",
+         "username": "Scagliatrice di prime pietre",
+         "avatar_url": "/storage/players/benedettaforadori.png",
+         "production_path": "C:\\PROD\\Players\\284-benedetta.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 285,
+         "name": "Angelica",
+         "surname": "Perghem",
+         "username": "Trappola",
+         "avatar_url": "/storage/players/angelicaperghem.png",
+         "production_path": "C:\\PROD\\Players\\285-angelica.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      },
+      {
+         "id": 286,
+         "name": "Alice",
+         "surname": "Armellini",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\286-alice.png",
+         "team": {
+            "id": 41,
+            "name": "PECCAMIN(os\u00e8)",
+            "tag": "PEC",
+            "logo_url": "/storage/teams/peccaminose.png",
+            "production_path": "C:\\PROD\\Teams\\41-peccaminose.png",
+            "players_count": 9
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/41/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/41/players",
+      "per_page": 10,
+      "to": 9,
+      "total": 9
+   }
+}

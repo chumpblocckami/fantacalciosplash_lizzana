@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 294,
+         "name": "Chiara",
+         "surname": "Deimichei",
+         "username": "East Coast",
+         "avatar_url": "/storage/players/chiaradeimichei.png",
+         "production_path": "C:\\PROD\\Players\\294-chiara.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 295,
+         "name": "Giorgia",
+         "surname": "Sade",
+         "username": "Lana d\u2019alpaca",
+         "avatar_url": "/storage/players/giorgiasade.png",
+         "production_path": "C:\\PROD\\Players\\295-giorgia.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 296,
+         "name": "Veronica",
+         "surname": "Osele",
+         "username": "Marion Jones",
+         "avatar_url": "/storage/players/veronicaosele.png",
+         "production_path": "C:\\PROD\\Players\\296-veronica.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 297,
+         "name": "Francesca",
+         "surname": "Sartori",
+         "username": "Nastra isolante ",
+         "avatar_url": "/storage/players/francescasartori.png",
+         "production_path": "C:\\PROD\\Players\\297-francesca.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 298,
+         "name": "Chiara",
+         "surname": "Candio",
+         "username": "Bestemmia al contrario",
+         "avatar_url": "/storage/players/chiaracandio.png",
+         "production_path": "C:\\PROD\\Players\\298-chiara.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 299,
+         "name": "Valentina ",
+         "surname": "Salzani",
+         "username": "Hello kitty",
+         "avatar_url": "/storage/players/valentinasalzani.png",
+         "production_path": "C:\\PROD\\Players\\299-valentina.png",
+         "team": {
+            "id": 43,
+            "name": "POCHE MA B(U)ONE",
+            "tag": "POC",
+            "logo_url": "/storage/teams/pochemabuone.png",
+            "production_path": "C:\\PROD\\Teams\\43-poche-ma-buone.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/43/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/43/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

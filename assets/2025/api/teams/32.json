@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 223,
+         "name": "Mattia",
+         "surname": "Lotti",
+         "username": "Perzen",
+         "avatar_url": "/storage/players/mattialotti.png",
+         "production_path": "C:\\PROD\\Players\\223-mattia.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 224,
+         "name": "Samuele",
+         "surname": "Sartori",
+         "username": null,
+         "avatar_url": "/storage/players/samuelesartori.png",
+         "production_path": "C:\\PROD\\Players\\224-samuele.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 225,
+         "name": "Alessandro",
+         "surname": "Sartori",
+         "username": null,
+         "avatar_url": "/storage/players/alessandrosartori.png",
+         "production_path": "C:\\PROD\\Players\\225-alessandro.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 226,
+         "name": "Fabio",
+         "surname": "Coati",
+         "username": null,
+         "avatar_url": "/storage/players/fabiocoati.png",
+         "production_path": "C:\\PROD\\Players\\226-fabio.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 227,
+         "name": "Elias",
+         "surname": "Viesi Lutteri",
+         "username": "Dolce & gabbana",
+         "avatar_url": "/storage/players/eliasviesilutteri.png",
+         "production_path": "C:\\PROD\\Players\\227-elias.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 228,
+         "name": "Mattia",
+         "surname": "Bertolini",
+         "username": null,
+         "avatar_url": "/storage/players/mattiabertolini.png",
+         "production_path": "C:\\PROD\\Players\\228-mattia.png",
+         "team": {
+            "id": 32,
+            "name": "QUEI STRAZI",
+            "tag": "STR",
+            "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+            "production_path": "C:\\PROD\\Teams\\32-quei-strazi.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/32/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/32/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

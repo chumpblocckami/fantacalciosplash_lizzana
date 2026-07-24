@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 255,
+         "name": "Ilaria",
+         "surname": "Calovi",
+         "username": null,
+         "avatar_url": "/storage/players/ilariacalovi.png",
+         "production_path": "C:\\PROD\\Players\\255-ilaria.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 256,
+         "name": "Francesca",
+         "surname": "Parisi",
+         "username": "Paris Hilton",
+         "avatar_url": "/storage/players/francescaparisi.png",
+         "production_path": "C:\\PROD\\Players\\256-francesca.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 257,
+         "name": "Angelica",
+         "surname": "Marzari",
+         "username": null,
+         "avatar_url": "/storage/players/angelicamarzari.png",
+         "production_path": "C:\\PROD\\Players\\257-angelica.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 258,
+         "name": "Isolde",
+         "surname": "Santacaterina",
+         "username": "La bambola di squid game",
+         "avatar_url": "/storage/players/isoldesantacaterina.png",
+         "production_path": "C:\\PROD\\Players\\258-isolde.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 259,
+         "name": "Valeria",
+         "surname": "Rosi",
+         "username": "Sei gi\u00e0 dentro l\u2019happy hour",
+         "avatar_url": "/storage/players/valeriarosi.png",
+         "production_path": "C:\\PROD\\Players\\259-valeria.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 260,
+         "name": "Valentina",
+         "surname": "Aste",
+         "username": "Capacit\u00e0 di adattamento ",
+         "avatar_url": "/storage/players/valentinaaste.png",
+         "production_path": "C:\\PROD\\Players\\260-valentina.png",
+         "team": {
+            "id": 37,
+            "name": "SOBRIE PER FINTA",
+            "tag": "SOB",
+            "logo_url": "/storage/teams/EetCywXFhhZLstFVzchiOFQeKLPfk9GJFETwKq2I.png",
+            "production_path": "C:\\PROD\\Teams\\37-sobrie-per-finta.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/37/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/37/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

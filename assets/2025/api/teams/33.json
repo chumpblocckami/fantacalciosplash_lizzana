@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 229,
+         "name": "Laura",
+         "surname": "Monaco",
+         "username": "Pippa Bauda",
+         "avatar_url": "/storage/players/lauramonaco.png",
+         "production_path": "C:\\PROD\\Players\\229-laura.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 230,
+         "name": "Miriana",
+         "surname": "Conci",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\230-miriana.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 231,
+         "name": "Vera",
+         "surname": "Rossini",
+         "username": "Mr. Hyde",
+         "avatar_url": "/storage/players/verarossini.png",
+         "production_path": "C:\\PROD\\Players\\231-vera.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 232,
+         "name": "Valentina ",
+         "surname": "Eccel",
+         "username": "Godzilla/Piovra",
+         "avatar_url": "/storage/players/valentinaeccel.png",
+         "production_path": "C:\\PROD\\Players\\232-valentina.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 233,
+         "name": "Maira",
+         "surname": "Bertolini",
+         "username": "Marc Overmars",
+         "avatar_url": "/storage/players/mairabertolini.png",
+         "production_path": "C:\\PROD\\Players\\233-maira.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 234,
+         "name": "Margherita ",
+         "surname": "Planchestainer",
+         "username": "La mamma di Bambi",
+         "avatar_url": "/storage/players/margheritaplanchestainer.png",
+         "production_path": "C:\\PROD\\Players\\234-margherita.png",
+         "team": {
+            "id": 33,
+            "name": "DRIM TIM",
+            "tag": "DRI",
+            "logo_url": "/storage/teams/drimtim.png",
+            "production_path": "C:\\PROD\\Teams\\33-drim-tim.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/33/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/33/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

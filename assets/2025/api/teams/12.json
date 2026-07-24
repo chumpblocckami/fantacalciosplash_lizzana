@@ -1,0 +1,132 @@
+{
+   "data": [
+      {
+         "id": 85,
+         "name": "Federico",
+         "surname": "Mortillaro",
+         "username": "Morte Nera",
+         "avatar_url": "/storage/players/federicomortillaro.png",
+         "production_path": "C:\\PROD\\Players\\85-federico.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 86,
+         "name": "Stefano",
+         "surname": "Tita",
+         "username": "Giannizzero",
+         "avatar_url": "/storage/players/stefanotita.png",
+         "production_path": "C:\\PROD\\Players\\86-stefano.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 87,
+         "name": "Michele",
+         "surname": "Merighi",
+         "username": "Iena Ridens",
+         "avatar_url": "/storage/players/michelemerighi.png",
+         "production_path": "C:\\PROD\\Players\\87-michele.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 88,
+         "name": "Andrea",
+         "surname": "Giordani",
+         "username": "Orso Bruno",
+         "avatar_url": "/storage/players/andreagiordani.png",
+         "production_path": "C:\\PROD\\Players\\88-andrea.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 89,
+         "name": "Luca",
+         "surname": "Frasca",
+         "username": "Delirium Tremens",
+         "avatar_url": "/storage/players/lucafrasca.png",
+         "production_path": "C:\\PROD\\Players\\89-luca.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      },
+      {
+         "id": 90,
+         "name": "Stefano",
+         "surname": "Galvagni",
+         "username": "Mentadent",
+         "avatar_url": "/storage/players/stefanogalvagni.png",
+         "production_path": "C:\\PROD\\Players\\90-stefano.png",
+         "team": {
+            "id": 12,
+            "name": "CLITORIDERS",
+            "tag": "CLI",
+            "logo_url": "/storage/teams/clitoriders.png",
+            "production_path": "C:\\PROD\\Teams\\12-clitoriders.png",
+            "players_count": 6
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/12/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/12/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/12/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/12/players",
+      "per_page": 10,
+      "to": 6,
+      "total": 6
+   }
+}

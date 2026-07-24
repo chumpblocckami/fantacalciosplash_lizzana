@@ -1,0 +1,612 @@
+{
+   "data": [
+      {
+         "id": 12,
+         "name": "CLITORIDERS",
+         "tag": "CLI",
+         "logo_url": "/storage/teams/clitoriders.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\clitoriders.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 20,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "3": 1,
+            "9": 1,
+            "21": 1
+         },
+         "goal_difference": 18
+      },
+      {
+         "id": 26,
+         "name": "IMONTAGNA",
+         "tag": "IMO",
+         "logo_url": "/storage/teams/imontagna.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imontagna.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 21,
+         "goals_conceded": 5,
+         "head_to_head": {
+            "5": 1,
+            "8": 1,
+            "29": 1
+         },
+         "goal_difference": 16
+      },
+      {
+         "id": 1,
+         "name": "RITA LEVI'S",
+         "tag": "RIT",
+         "logo_url": "/storage/teams/qAGnOwJ5LoJOHkgiQa7HEDOvwk0zIDUAZNUPcUaf.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\ritalevis.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 16,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "2": 1,
+            "27": 1,
+            "4": 1
+         },
+         "goal_difference": 14
+      },
+      {
+         "id": 17,
+         "name": "MAI UNA GIOIA",
+         "tag": "MAI",
+         "logo_url": "/storage/teams/maiunagioia.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\maiunagioia.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 16,
+         "goals_conceded": 3,
+         "head_to_head": {
+            "14": 1,
+            "20": 1,
+            "25": 1
+         },
+         "goal_difference": 13
+      },
+      {
+         "id": 13,
+         "name": "SHARK ATTACK",
+         "tag": "SHA",
+         "logo_url": "/storage/teams/sharkattack.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sharkattack.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 16,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "24": 1,
+            "10": 1,
+            "16": 1
+         },
+         "goal_difference": 12
+      },
+      {
+         "id": 23,
+         "name": "MODIUM",
+         "tag": "MOD",
+         "logo_url": "/storage/teams/modium.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\modium.png",
+         "points": 9,
+         "wins": 3,
+         "draws": 0,
+         "losses": 0,
+         "goals_scored": 9,
+         "goals_conceded": 1,
+         "head_to_head": {
+            "18": 1,
+            "19": 1,
+            "11": 1
+         },
+         "goal_difference": 8
+      },
+      {
+         "id": 31,
+         "name": "CGB GAMBERONI",
+         "tag": "CGB",
+         "logo_url": "/storage/teams/cgbgamberoni.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\cgbgamberoni.png",
+         "points": 7,
+         "wins": 2,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 21,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "28": 0,
+            "30": 1,
+            "24": 1
+         },
+         "goal_difference": 17
+      },
+      {
+         "id": 22,
+         "name": "U.S GUARNA",
+         "tag": "USG",
+         "logo_url": "/storage/teams/usguarna.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\usguarna.png",
+         "points": 7,
+         "wins": 2,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 15,
+         "goals_conceded": 0,
+         "head_to_head": {
+            "32": 1,
+            "30": 1,
+            "6": 0
+         },
+         "goal_difference": 15
+      },
+      {
+         "id": 28,
+         "name": "FC SAVIGNANO",
+         "tag": "SAV",
+         "logo_url": "/storage/teams/fcsavignano.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcsavignano.png",
+         "points": 7,
+         "wins": 2,
+         "draws": 1,
+         "losses": 0,
+         "goals_scored": 12,
+         "goals_conceded": 5,
+         "head_to_head": {
+            "31": 0,
+            "7": 1,
+            "15": 1
+         },
+         "goal_difference": 7
+      },
+      {
+         "id": 5,
+         "name": "FC GORILLAZ",
+         "tag": "FCG",
+         "logo_url": "/storage/teams/fcgorillaz.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcgorillaz.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 17,
+         "goals_conceded": 10,
+         "head_to_head": {
+            "26": -1,
+            "18": 1,
+            "4": 1
+         },
+         "goal_difference": 7
+      },
+      {
+         "id": 21,
+         "name": "SBARX",
+         "tag": "SBA",
+         "logo_url": "/storage/teams/sbarx.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sbarx.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 12,
+         "goals_conceded": 6,
+         "head_to_head": {
+            "11": 1,
+            "2": 1,
+            "12": -1
+         },
+         "goal_difference": 6
+      },
+      {
+         "id": 15,
+         "name": "A.C.DENTI",
+         "tag": "ACD",
+         "logo_url": "/storage/teams/acdenti.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\acdenti.png",
+         "points": 6,
+         "wins": 2,
+         "draws": 0,
+         "losses": 1,
+         "goals_scored": 15,
+         "goals_conceded": 10,
+         "head_to_head": {
+            "16": 1,
+            "32": 1,
+            "28": -1
+         },
+         "goal_difference": 5
+      },
+      {
+         "id": 6,
+         "name": "PINGUINI TRENTINI",
+         "tag": "PIN",
+         "logo_url": "/storage/teams/pinguinitrentini.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\pinguinitrentini.png",
+         "points": 5,
+         "wins": 1,
+         "draws": 2,
+         "losses": 0,
+         "goals_scored": 10,
+         "goals_conceded": 2,
+         "head_to_head": {
+            "7": 1,
+            "20": 0,
+            "22": 0
+         },
+         "goal_difference": 8
+      },
+      {
+         "id": 19,
+         "name": "I MAGNIFICI",
+         "tag": "IMA",
+         "logo_url": "/storage/teams/imagnifici.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\imagnifici.png",
+         "points": 4,
+         "wins": 1,
+         "draws": 1,
+         "losses": 1,
+         "goals_scored": 9,
+         "goals_conceded": 8,
+         "head_to_head": {
+            "8": 0,
+            "3": 1,
+            "23": -1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 10,
+         "name": "DEMOBUSTERS",
+         "tag": "DEM",
+         "logo_url": "/storage/teams/demobusters.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\demobusters.png",
+         "points": 4,
+         "wins": 1,
+         "draws": 1,
+         "losses": 1,
+         "goals_scored": 5,
+         "goals_conceded": 4,
+         "head_to_head": {
+            "20": 0,
+            "13": -1,
+            "7": 1
+         },
+         "goal_difference": 1
+      },
+      {
+         "id": 8,
+         "name": "RSA UNITED",
+         "tag": "RSA",
+         "logo_url": "/storage/teams/BqiFrviqxare58r4cBFyJxiQEczNL4IxRq6yXzD8.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\rsaunited.png",
+         "points": 4,
+         "wins": 1,
+         "draws": 1,
+         "losses": 1,
+         "goals_scored": 10,
+         "goals_conceded": 13,
+         "head_to_head": {
+            "19": 0,
+            "26": -1,
+            "27": 1
+         },
+         "goal_difference": -3
+      },
+      {
+         "id": 25,
+         "name": "BAYERN MONA",
+         "tag": "BAY",
+         "logo_url": "/storage/teams/bayernmona.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bayernmona.png",
+         "points": 4,
+         "wins": 1,
+         "draws": 1,
+         "losses": 1,
+         "goals_scored": 7,
+         "goals_conceded": 11,
+         "head_to_head": {
+            "30": 1,
+            "24": 0,
+            "17": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 18,
+         "name": "POWER GINGER",
+         "tag": "POW",
+         "logo_url": "/storage/teams/powerginger.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\powerginger.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 8,
+         "goals_conceded": 10,
+         "head_to_head": {
+            "9": 1,
+            "5": -1,
+            "23": -1
+         },
+         "goal_difference": -2
+      },
+      {
+         "id": 2,
+         "name": "GLI AVANZI",
+         "tag": "AVA",
+         "logo_url": "/storage/teams/gliavanzi.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gliavanzi.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 6,
+         "goals_conceded": 9,
+         "head_to_head": {
+            "1": -1,
+            "29": 1,
+            "21": -1
+         },
+         "goal_difference": -3
+      },
+      {
+         "id": 11,
+         "name": "GLI INTROVABILI",
+         "tag": "INT",
+         "logo_url": "/storage/teams/30QepQejeT0U7HtpLBsJIMCe5Sa364a0XknaOxL6.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\gliintrovabili.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 6,
+         "goals_conceded": 10,
+         "head_to_head": {
+            "21": -1,
+            "29": 1,
+            "23": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 9,
+         "name": "FC SALAGIARDINI",
+         "tag": "SAL",
+         "logo_url": "/storage/teams/fcsalagiardini.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcsalagiardini.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 7,
+         "goals_conceded": 15,
+         "head_to_head": {
+            "18": -1,
+            "12": -1,
+            "4": 1
+         },
+         "goal_difference": -8
+      },
+      {
+         "id": 16,
+         "name": "4SINS",
+         "tag": "4SI",
+         "logo_url": "/storage/teams/15AK7LwSP5AqEIFVMysT1kQmTJexbMqC8H7efWeF.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\4sins.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 6,
+         "goals_conceded": 14,
+         "head_to_head": {
+            "15": -1,
+            "13": -1,
+            "14": 1
+         },
+         "goal_difference": -8
+      },
+      {
+         "id": 3,
+         "name": "HELLAS LAZIO",
+         "tag": "HEL",
+         "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\hellaslazio.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 3,
+         "goals_conceded": 11,
+         "head_to_head": {
+            "12": -1,
+            "19": -1,
+            "27": 1
+         },
+         "goal_difference": -8
+      },
+      {
+         "id": 32,
+         "name": "QUEI STRAZI",
+         "tag": "STR",
+         "logo_url": "/storage/teams/5xfYguSTRJVJzVLSyC2nq1NTlPpUt1YqxImyeFn3.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\queistrazi.png",
+         "points": 3,
+         "wins": 1,
+         "draws": 0,
+         "losses": 2,
+         "goals_scored": 4,
+         "goals_conceded": 13,
+         "head_to_head": {
+            "14": 1,
+            "22": -1,
+            "15": -1
+         },
+         "goal_difference": -9
+      },
+      {
+         "id": 20,
+         "name": "SDRUMALA",
+         "tag": "SDR",
+         "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\sdrumala.png",
+         "points": 2,
+         "wins": 0,
+         "draws": 2,
+         "losses": 1,
+         "goals_scored": 3,
+         "goals_conceded": 8,
+         "head_to_head": {
+            "10": 0,
+            "17": -1,
+            "6": 0
+         },
+         "goal_difference": -5
+      },
+      {
+         "id": 24,
+         "name": "FC SCHALKE 104",
+         "tag": "SCH",
+         "logo_url": "/storage/teams/fcschalke104.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\fcschalke104.png",
+         "points": 1,
+         "wins": 0,
+         "draws": 1,
+         "losses": 2,
+         "goals_scored": 6,
+         "goals_conceded": 14,
+         "head_to_head": {
+            "13": -1,
+            "31": -1,
+            "25": 0
+         },
+         "goal_difference": -8
+      },
+      {
+         "id": 14,
+         "name": "BEVEM4TUT",
+         "tag": "BEV",
+         "logo_url": "/storage/teams/bevem4tut.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\bevem4tut.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 4,
+         "goals_conceded": 8,
+         "head_to_head": {
+            "32": -1,
+            "17": -1,
+            "16": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 27,
+         "name": "WANDA TIM",
+         "tag": "WTM",
+         "logo_url": "/storage/teams/wandatim.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\wandatim.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 4,
+         "goals_conceded": 8,
+         "head_to_head": {
+            "1": -1,
+            "3": -1,
+            "8": -1
+         },
+         "goal_difference": -4
+      },
+      {
+         "id": 29,
+         "name": "GREP",
+         "tag": "GRE",
+         "logo_url": "/storage/teams/HFsI5Hyv3tivWGVU9dsQwXsYWZKgA5oeXLIDTpza.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\grep.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 6,
+         "goals_conceded": 19,
+         "head_to_head": {
+            "2": -1,
+            "11": -1,
+            "26": -1
+         },
+         "goal_difference": -13
+      },
+      {
+         "id": 7,
+         "name": "NAZZZIONALE FERROVIERI",
+         "tag": "NAZ",
+         "logo_url": "/storage/teams/nazzzionaleferrovieri.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\nazzzionaleferrovieri.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 0,
+         "goals_conceded": 15,
+         "head_to_head": {
+            "6": -1,
+            "28": -1,
+            "10": -1
+         },
+         "goal_difference": -15
+      },
+      {
+         "id": 4,
+         "name": "VIGILI DEL FUSTO",
+         "tag": "VIG",
+         "logo_url": "/storage/teams/vigilidelfusto.png",
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\vigilidelfusto.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 3,
+         "goals_conceded": 28,
+         "head_to_head": {
+            "1": -1,
+            "9": -1,
+            "5": -1
+         },
+         "goal_difference": -25
+      },
+      {
+         "id": 30,
+         "name": "QUESTI SEN",
+         "tag": "QUE",
+         "logo_url": null,
+         "production_path": "C:\\PROD\\GSP\\Images\\TEAM\\questisen.png",
+         "points": 0,
+         "wins": 0,
+         "draws": 0,
+         "losses": 3,
+         "goals_scored": 1,
+         "goals_conceded": 26,
+         "head_to_head": {
+            "25": -1,
+            "31": -1,
+            "22": -1
+         },
+         "goal_difference": -25
+      }
+   ]
+}

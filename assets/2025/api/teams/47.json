@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 319,
+         "name": "Silvia",
+         "surname": "Manzana",
+         "username": "Trota salmonata",
+         "avatar_url": "/storage/players/silviamanzana.png",
+         "production_path": "C:\\PROD\\Players\\319-silvia.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 320,
+         "name": "Giulia",
+         "surname": "Scrinzi",
+         "username": "Bimba bionica",
+         "avatar_url": "/storage/players/giuliascrinzi.png",
+         "production_path": "C:\\PROD\\Players\\320-giulia.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 321,
+         "name": "Giulia",
+         "surname": "Angiari",
+         "username": "Tube di falloppio",
+         "avatar_url": "/storage/players/giuliaangiari.png",
+         "production_path": "C:\\PROD\\Players\\321-giulia.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 322,
+         "name": "Maddalena",
+         "surname": "Baldo",
+         "username": "La figlia di Psycho",
+         "avatar_url": "/storage/players/maddalenabaldo.png",
+         "production_path": "C:\\PROD\\Players\\322-maddalena.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 323,
+         "name": "Martina",
+         "surname": "Zeni",
+         "username": "Anfetamina",
+         "avatar_url": "/storage/players/martinazeni.png",
+         "production_path": "C:\\PROD\\Players\\323-martina.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 324,
+         "name": "Marika",
+         "surname": "Bisoffi",
+         "username": "Idrocarburo",
+         "avatar_url": "/storage/players/marikabisoffi.png",
+         "production_path": "C:\\PROD\\Players\\324-marika.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 325,
+         "name": "Lisa",
+         "surname": "Bisoffi",
+         "username": "Vodki Tempi",
+         "avatar_url": "/storage/players/lisabisoffi.png",
+         "production_path": "C:\\PROD\\Players\\325-lisa.png",
+         "team": {
+            "id": 47,
+            "name": "WANDITAS",
+            "tag": "WAN",
+            "logo_url": "/storage/teams/wanditas.png",
+            "production_path": "C:\\PROD\\Teams\\47-wanditas.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/47/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/47/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}

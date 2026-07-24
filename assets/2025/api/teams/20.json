@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 140,
+         "name": "Stefano",
+         "surname": "Mattioli",
+         "username": "Panchinaro d'oro",
+         "avatar_url": "/storage/players/stefanomattioli.png",
+         "production_path": "C:\\PROD\\Players\\140-stefano.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 141,
+         "name": "Christian",
+         "surname": "Trainotti",
+         "username": "Business up front, party in the back",
+         "avatar_url": "/storage/players/christiantrainotti.png",
+         "production_path": "C:\\PROD\\Players\\141-christian.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 142,
+         "name": "Manuel",
+         "surname": "Emanuelli",
+         "username": "Panocia",
+         "avatar_url": "/storage/players/manuelemanuelli.png",
+         "production_path": "C:\\PROD\\Players\\142-manuel.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 143,
+         "name": "Alessio",
+         "surname": "Delli Compagni",
+         "username": "Cartonato",
+         "avatar_url": "/storage/players/alessiodellicompagni.png",
+         "production_path": "C:\\PROD\\Players\\143-alessio.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 144,
+         "name": "Andrea",
+         "surname": "Menolli",
+         "username": "Guano di cigno",
+         "avatar_url": "/storage/players/andreamenolli.png",
+         "production_path": "C:\\PROD\\Players\\144-andrea.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 145,
+         "name": "Davide",
+         "surname": "Deimichei",
+         "username": "Attila",
+         "avatar_url": "/storage/players/davidedeimichei.png",
+         "production_path": "C:\\PROD\\Players\\145-davide.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 146,
+         "name": "Christian",
+         "surname": "Martinelli",
+         "username": "Smallville",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\146-christian.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 147,
+         "name": "Andreas",
+         "surname": "Galli",
+         "username": "Allevatore di galli da combattimento",
+         "avatar_url": "/storage/players/andreasgalli.png",
+         "production_path": "C:\\PROD\\Players\\147-andreas.png",
+         "team": {
+            "id": 20,
+            "name": "SDRUMALA",
+            "tag": "SDR",
+            "logo_url": "/storage/teams/ytJcnTXWMPV5QTCshuYzcaQrcRGYqT7tmMnBNFSe.png",
+            "production_path": "C:\\PROD\\Teams\\20-sdrumala.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/20/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/20/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

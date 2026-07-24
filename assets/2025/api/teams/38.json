@@ -1,0 +1,100 @@
+{
+   "data": [
+      {
+         "id": 261,
+         "name": "Arianna",
+         "surname": "Albertini",
+         "username": null,
+         "avatar_url": "/storage/players/ariannaalbertini.png",
+         "production_path": "C:\\PROD\\Players\\261-arianna.png",
+         "team": {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\Teams\\38-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 262,
+         "name": "Sofia",
+         "surname": "Manica",
+         "username": "Incontinenza",
+         "avatar_url": "/storage/players/sofiamanica.png",
+         "production_path": "C:\\PROD\\Players\\262-sofia.png",
+         "team": {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\Teams\\38-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 263,
+         "name": "Elisa ",
+         "surname": "Moratelli",
+         "username": "Dissenten",
+         "avatar_url": "/storage/players/elisamoratelli.png",
+         "production_path": "C:\\PROD\\Players\\263-elisa.png",
+         "team": {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\Teams\\38-gin-toniche.png",
+            "players_count": 4
+         }
+      },
+      {
+         "id": 264,
+         "name": "Sara",
+         "surname": "Prezzi",
+         "username": "Post-it",
+         "avatar_url": "/storage/players/saraprezzi.png",
+         "production_path": "C:\\PROD\\Players\\264-sara.png",
+         "team": {
+            "id": 38,
+            "name": "GIN TONICHE",
+            "tag": "GIN",
+            "logo_url": "/storage/teams/gintoniche.png",
+            "production_path": "C:\\PROD\\Teams\\38-gin-toniche.png",
+            "players_count": 4
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/38/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/38/players",
+      "per_page": 10,
+      "to": 4,
+      "total": 4
+   }
+}

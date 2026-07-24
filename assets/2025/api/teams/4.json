@@ -1,0 +1,196 @@
+{
+   "data": [
+      {
+         "id": 24,
+         "name": "Federico",
+         "surname": "Rippa",
+         "username": "Estintore a polvere",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\24-federico.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 25,
+         "name": "Fabio ",
+         "surname": "Battistotti",
+         "username": "Jeremy Wade",
+         "avatar_url": "/storage/players/fabiobattistotti.png",
+         "production_path": "C:\\PROD\\Players\\25-fabio.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 26,
+         "name": "Andrea",
+         "surname": "Di Filippo",
+         "username": "Dubbio gusto",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\26-andrea.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 27,
+         "name": "Nicola",
+         "surname": "Dalledonne",
+         "username": "La donnola di ravina",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\27-nicola.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 28,
+         "name": "Jacopo",
+         "surname": "Zecchinelli",
+         "username": "Er mutanda",
+         "avatar_url": "/storage/players/jacopozecchinelli.png",
+         "production_path": "C:\\PROD\\Players\\28-jacopo.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 29,
+         "name": "Alberto",
+         "surname": "Curcio",
+         "username": "Si signor brigadiere",
+         "avatar_url": "/storage/players/albertocurcio.png",
+         "production_path": "C:\\PROD\\Players\\29-alberto.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 30,
+         "name": "Davide",
+         "surname": "Zoara",
+         "username": "Sturmstruppen",
+         "avatar_url": "/storage/players/davidezoara.png",
+         "production_path": "C:\\PROD\\Players\\30-davide.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 31,
+         "name": "Francesco",
+         "surname": "Cristoforetti",
+         "username": "Dark Hole",
+         "avatar_url": "/storage/players/francescocristoforetti.png",
+         "production_path": "C:\\PROD\\Players\\31-francesco.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 32,
+         "name": "Leonardo",
+         "surname": "Trinco",
+         "username": "Corpo Nazionale",
+         "avatar_url": "/storage/players/leonardotrinco.png",
+         "production_path": "C:\\PROD\\Players\\32-leonardo.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      },
+      {
+         "id": 33,
+         "name": "Simone",
+         "surname": "Rospocher",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\33-simone.png",
+         "team": {
+            "id": 4,
+            "name": "VIGILI DEL FUSTO",
+            "tag": "VIG",
+            "logo_url": "/storage/teams/vigilidelfusto.png",
+            "production_path": "C:\\PROD\\Teams\\4-vigili-del-fusto.png",
+            "players_count": 10
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/4/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/4/players",
+      "per_page": 10,
+      "to": 10,
+      "total": 10
+   }
+}

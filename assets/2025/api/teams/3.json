@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 16,
+         "name": "Jacopo",
+         "surname": "Ricci",
+         "username": "Orso Balosso",
+         "avatar_url": "/storage/players/jacoporicci.png",
+         "production_path": "C:\\PROD\\Players\\16-jacopo.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 17,
+         "name": "Lorenzo",
+         "surname": "Mori`",
+         "username": "Il Presidente",
+         "avatar_url": "/storage/players/lorenzomori.png",
+         "production_path": "C:\\PROD\\Players\\17-lorenzo.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 18,
+         "name": "Davide ",
+         "surname": "Rosa`",
+         "username": "Soldato Semplice Nemecsek",
+         "avatar_url": "/storage/players/daviderosa.png",
+         "production_path": "C:\\PROD\\Players\\18-davide.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 19,
+         "name": "Raffaele",
+         "surname": "Prezzi ",
+         "username": "La Cura",
+         "avatar_url": "/storage/players/raffaeleprezzi.png",
+         "production_path": "C:\\PROD\\Players\\19-raffaele.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 20,
+         "name": "Alessandro",
+         "surname": "Galvagni",
+         "username": "Lo Stalker",
+         "avatar_url": "/storage/players/alessandrogalvagni.png",
+         "production_path": "C:\\PROD\\Players\\20-alessandro.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 21,
+         "name": "Manuel",
+         "surname": "Cescatti",
+         "username": "Il Bolscevico",
+         "avatar_url": "/storage/players/manuelcescatti.png",
+         "production_path": "C:\\PROD\\Players\\21-manuel.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 22,
+         "name": "Simone",
+         "surname": "Martini",
+         "username": "Donatella Rettore",
+         "avatar_url": "/storage/players/simonemartini.png",
+         "production_path": "C:\\PROD\\Players\\22-simone.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 23,
+         "name": "Matteo",
+         "surname": "Bazzanella",
+         "username": "Torgo nudo",
+         "avatar_url": "/storage/players/matteobazzanella.png",
+         "production_path": "C:\\PROD\\Players\\23-matteo.png",
+         "team": {
+            "id": 3,
+            "name": "HELLAS LAZIO",
+            "tag": "HEL",
+            "logo_url": "/storage/teams/qf0oVkNY8osthp0F3ifSjvbdQsuuAWBgupu3HHOY.png",
+            "production_path": "C:\\PROD\\Teams\\3-hellas-lazio.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/3/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/3/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

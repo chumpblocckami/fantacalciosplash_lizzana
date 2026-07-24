@@ -1,0 +1,164 @@
+{
+   "data": [
+      {
+         "id": 9,
+         "name": "Arvin",
+         "surname": "Zanolli",
+         "username": "Armin van Buuren",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\9-arvin.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 10,
+         "name": "Alessandro",
+         "surname": "Zandonai",
+         "username": "L'uomo che sussurrava ai ghepardi",
+         "avatar_url": "/storage/players/alessandrozandonai.png",
+         "production_path": "C:\\PROD\\Players\\10-alessandro.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 11,
+         "name": "Matteo",
+         "surname": "Manconi",
+         "username": "Mancuso",
+         "avatar_url": "/storage/players/matteomanconi.png",
+         "production_path": "C:\\PROD\\Players\\11-matteo.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 12,
+         "name": "Lorenzo",
+         "surname": "Barozzi",
+         "username": "Tagliagole canadese",
+         "avatar_url": "/storage/players/lorenzobarozzi.png",
+         "production_path": "C:\\PROD\\Players\\12-lorenzo.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 13,
+         "name": "Davide",
+         "surname": "Simoncelli",
+         "username": "Braim Izdag",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\13-davide.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 14,
+         "name": "Michele",
+         "surname": "Ruele",
+         "username": "Ruy Mysterio",
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\14-michele.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 15,
+         "name": "Andrea",
+         "surname": "Barozzi",
+         "username": "Javier Zanetti della statale 12",
+         "avatar_url": "/storage/players/andreabarozzi.png",
+         "production_path": "C:\\PROD\\Players\\15-andrea.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      },
+      {
+         "id": 347,
+         "name": "Omar",
+         "surname": "Russo",
+         "username": null,
+         "avatar_url": null,
+         "production_path": "C:\\PROD\\Players\\347-omar.png",
+         "team": {
+            "id": 2,
+            "name": "GLI AVANZI",
+            "tag": "AVA",
+            "logo_url": "/storage/teams/gliavanzi.png",
+            "production_path": "C:\\PROD\\Teams\\2-gli-avanzi.png",
+            "players_count": 8
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/2/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/2/players",
+      "per_page": 10,
+      "to": 8,
+      "total": 8
+   }
+}

@@ -1,0 +1,148 @@
+{
+   "data": [
+      {
+         "id": 133,
+         "name": "Elia",
+         "surname": "Barozzi",
+         "username": "Bjorn Borg",
+         "avatar_url": "/storage/players/eliabarozzi.png",
+         "production_path": "C:\\PROD\\Players\\133-elia.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 134,
+         "name": "Danny",
+         "surname": "Giordani",
+         "username": "Palcuto Deprima",
+         "avatar_url": "/storage/players/dannygiordani.png",
+         "production_path": "C:\\PROD\\Players\\134-danny.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 135,
+         "name": "Guglielmo",
+         "surname": "Caroli",
+         "username": "Ivan Bogdanov ",
+         "avatar_url": "/storage/players/guglielmocaroli.png",
+         "production_path": "C:\\PROD\\Players\\135-guglielmo.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 136,
+         "name": "Alberto",
+         "surname": "Simoncelli",
+         "username": "Iginio Massari",
+         "avatar_url": "/storage/players/albertosimoncelli.png",
+         "production_path": "C:\\PROD\\Players\\136-alberto.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 137,
+         "name": "Filippo",
+         "surname": "Benetti",
+         "username": "Fungo Atomico",
+         "avatar_url": "/storage/players/filippobenetti.png",
+         "production_path": "C:\\PROD\\Players\\137-filippo.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 138,
+         "name": "Simone",
+         "surname": "Schonsberg",
+         "username": "Polis-Tirolo",
+         "avatar_url": "/storage/players/simoneschonsberg.png",
+         "production_path": "C:\\PROD\\Players\\138-simone.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      },
+      {
+         "id": 139,
+         "name": "Lorenzo",
+         "surname": "Zuani",
+         "username": "Il Pediatra",
+         "avatar_url": "/storage/players/lorenzozuani.png",
+         "production_path": "C:\\PROD\\Players\\139-lorenzo.png",
+         "team": {
+            "id": 19,
+            "name": "I MAGNIFICI",
+            "tag": "IMA",
+            "logo_url": "/storage/teams/imagnifici.png",
+            "production_path": "C:\\PROD\\Teams\\19-i-magnifici.png",
+            "players_count": 7
+         }
+      }
+   ],
+   "links": {
+      "first": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+      "last": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+      "prev": null,
+      "next": null
+   },
+   "meta": {
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "links": [
+         {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+         },
+         {
+            "url": "https://api.gsplizzana.it/api/teams/19/players?page=1",
+            "label": "1",
+            "active": true
+         },
+         {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+         }
+      ],
+      "path": "https://api.gsplizzana.it/api/teams/19/players",
+      "per_page": 10,
+      "to": 7,
+      "total": 7
+   }
+}
