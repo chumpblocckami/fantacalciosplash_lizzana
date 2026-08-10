@@ -5,10 +5,10 @@
  * appends whatever it is sent, so anything missed here reaches the sheet.
  */
 
-import { test, describe } from 'node:test';
+import { test, describe, afterEach } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { computeBudget, validate } from '../../js/registration.js';
+import { computeBudget, validate, submitTeam } from '../../js/registration.js';
 import { BUDGET } from '../../js/constants.js';
 
 const GIOCATORI = [
@@ -122,5 +122,49 @@ describe('validate', () => {
     const partial = ['Luca Bianchi | ALFA', '', ''];
     const result = validate('Matteo', VALID.goalkeeper, partial, 'Gino Verdi | ALFA', 100);
     assert.ok(result.errors.includes('Non puoi convocare due giocatori di movimento della stessa squadra!'));
+  });
+});
+
+describe('submitTeam', () => {
+  const realFetch = globalThis.fetch;
+
+  /** Answer the next submit with a 200 carrying this body, as Apps Script always does. */
+  function reply(body) {
+    globalThis.fetch = async () => new Response(body, { status: 200 });
+  }
+
+  afterEach(() => {
+    globalThis.fetch = realFetch;
+  });
+
+  test('confirms the iscrizione when the sheet accepted the row', async () => {
+    reply(JSON.stringify({ success: true }));
+    assert.deepEqual(await submitTeam(VALID), {
+      success: true,
+      message: 'Fantasquadra iscritta! 🎉',
+    });
+  });
+
+  test('reports a refusal the web app sent with a 200', async () => {
+    // Apps Script never uses a status code to say no, so a body claiming failure is the only
+    // sign nothing was saved. Reporting success here would send the coach to PayPal for a
+    // team that is not in the sheet.
+    reply(JSON.stringify({ success: false, message: 'Nome del fantallenatore mancante.' }));
+    const result = await submitTeam(VALID);
+    assert.equal(result.success, false);
+    assert.match(result.message, /Nome del fantallenatore mancante\./);
+  });
+
+  test('reports a body that is not the expected JSON', async () => {
+    // A deployment that is not shared with "Anyone" answers the Google login page with a 200.
+    reply('<html><body>Sign in</body></html>');
+    assert.equal((await submitTeam(VALID)).success, false);
+  });
+
+  test('reports an HTTP error', async () => {
+    globalThis.fetch = async () => new Response('', { status: 500 });
+    const result = await submitTeam(VALID);
+    assert.equal(result.success, false);
+    assert.match(result.message, /500/);
   });
 });

@@ -109,6 +109,21 @@ export async function submitTeam(teamData) {
     });
 
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+    // The web app answers 200 even when it refuses the registration, and a deployment that
+    // is not shared with "Anyone" answers a Google login page instead of JSON, so the body is
+    // the only thing that tells us the row actually reached the sheet.
+    let payload;
+    try {
+      payload = JSON.parse(await resp.text());
+    } catch {
+      throw new Error('risposta inattesa dal server');
+    }
+
+    if (!payload || payload.success !== true) {
+      throw new Error(payload?.message || 'iscrizione rifiutata dal server');
+    }
+
     return { success: true, message: 'Fantasquadra iscritta! 🎉' };
   } catch (err) {
     return { success: false, message: `Errore durante l'iscrizione: ${err.message}` };

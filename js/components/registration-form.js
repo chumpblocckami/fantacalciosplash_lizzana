@@ -175,7 +175,7 @@ export function renderRegistrationForm(container, giocatori) {
     const result = await submitTeam(state);
     messageEl.innerHTML = `
       <p class="text-sm ${result.success ? 'text-green-600' : 'text-red-500'} mt-2">
-        ${result.message}
+        ${escapeHtml(result.message)}
       </p>
       ${result.success ? paymentHtml(state.coach) : ''}
     `;
