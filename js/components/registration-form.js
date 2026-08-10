@@ -1,4 +1,4 @@
-import { BUDGET, DEADLINE } from '../constants.js';
+import { BUDGET, DEADLINE, ISCRIZIONE_FEE_EUR, PAYPAL_ME_USER } from '../constants.js';
 import { computeBudget, validate, submitTeam, isRegistrationOpen } from '../registration.js';
 
 /**
@@ -176,6 +176,7 @@ export function renderRegistrationForm(container, giocatori) {
       <p class="text-sm ${result.success ? 'text-green-600' : 'text-red-500'} mt-2">
         ${result.message}
       </p>
+      ${result.success ? paymentHtml(state.coach) : ''}
     `;
 
     if (result.success) {
@@ -188,6 +189,48 @@ export function renderRegistrationForm(container, giocatori) {
   });
 
   update();
+}
+
+/**
+ * Payment call-to-action, shown only once the team has actually been registered.
+ *
+ * Paying is optional but decides whether the team competes for the pot, so the copy says that
+ * outright instead of implying the registration is incomplete. PayPal.Me leaves the choice
+ * between "familiari e amici" and the commissioned option to the sender, and on 5 euro the
+ * commission would take about a tenth of an entry out of a pot that the regolamento
+ * redistributes in full. Nothing renders until PAYPAL_ME_USER is filled in.
+ *
+ * @param {string} coach - Fantallenatore name, which is what the payment note has to carry
+ * @returns {string} HTML, empty when no PayPal.Me handle is configured
+ */
+function paymentHtml(coach) {
+  if (!PAYPAL_ME_USER) return '';
+
+  const url = `https://www.paypal.com/paypalme/${encodeURIComponent(PAYPAL_ME_USER)}/${ISCRIZIONE_FEE_EUR}EUR`;
+  return `
+    <div class="mt-4 p-4 rounded-lg border border-green-200 bg-green-50
+                dark:border-green-800 dark:bg-green-900/20">
+      <p class="text-sm font-medium text-gray-700 dark:text-gray-200">
+        Quota d'iscrizione: ${ISCRIZIONE_FEE_EUR} €
+      </p>
+      <p class="mt-2 text-xs text-gray-600 dark:text-gray-300">
+        Puoi partecipare con la tua fantasquadra anche senza pagare, ma non potrai gareggiare per
+        vincere il premio. Per poter vincere, devi pagare la quota di iscrizione, che
+        simbolicamente è ${ISCRIZIONE_FEE_EUR} euro. Nel messaggio ricorda di mettere il nome con
+        cui hai iscritto la fantasquadra.
+      </p>
+      <a href="${url}" target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2 mt-3 px-4 py-2 rounded-lg text-sm font-medium
+                text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+        Paga ${ISCRIZIONE_FEE_EUR} € con PayPal 💸
+      </a>
+      <p class="mt-3 text-xs text-gray-500 dark:text-gray-400">
+        Invia il pagamento come <strong>«Amici e parenti»</strong> (friends and family): con
+        l'altra opzione PayPal trattiene una commissione che verrebbe tolta dal montepremi.
+        Nel messaggio scrivi <strong>${escapeHtml(coach)}</strong>.
+      </p>
+    </div>
+  `;
 }
 
 function escapeHtml(str) {

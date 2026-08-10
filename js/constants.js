@@ -25,6 +25,7 @@ export const POINTS_BEST_GOALKEEPER = 5;
 
 // ===== REGISTRATION CONSTANTS =====
 export const BUDGET = 200;
+export const ISCRIZIONE_FEE_EUR = 5;
 export const MAX_STARTERS = 3;
 export const MAX_RESERVES = 1;
 export const MAX_GOALKEEPERS = 1;
@@ -38,3 +39,8 @@ export const LIVE_REFRESH_INTERVAL_MS = 30_000;
 // Google Apps Script endpoint for registration (set after deploying)
 export const REGISTRATION_ENDPOINT =
   'https://script.google.com/macros/s/AKfycbwguh4mbtJ8VSQYXszAeNcVV6jiWB0RS-ckQGb91G1IoF677cgwJRtJYxjGvTlJcLKf/exec';
+
+// PayPal.Me handle collecting the iscrizione, i.e. the last part of
+// https://www.paypal.com/paypalme/ciotolaaaa. While this is empty no payment button is shown,
+// so the form still works without it.
+export const PAYPAL_ME_USER = 'ciotolaaaa';
