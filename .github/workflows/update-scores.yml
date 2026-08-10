@@ -27,14 +27,18 @@ jobs:
         with:
           node-version: 22
 
-      - name: Scrape GSP API
+      - name: Scrape Calciosplash API
         run: node scripts/scrape.js
         env:
-          GSP_API_URL: https://api.gsplizzana.it/api
           YEAR: ${{ github.event.inputs.year || '2026' }}
 
       - name: Compute player scores
         run: node scripts/compute-scores.js
+        env:
+          YEAR: ${{ github.event.inputs.year || '2026' }}
+
+      - name: Fetch registered teams
+        run: node scripts/fetch-registrations.js
         env:
           YEAR: ${{ github.event.inputs.year || '2026' }}
 

@@ -92,9 +92,11 @@ export async function submitTeam(teamData) {
   }
 
   try {
+    // Sent as text/plain on purpose: an application/json body would trigger a CORS
+    // preflight, and Google Apps Script web apps cannot answer OPTIONS requests.
     const resp = await fetch(REGISTRATION_ENDPOINT, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({
         coach: teamData.coach,
         goalkeeper: teamData.goalkeeper,

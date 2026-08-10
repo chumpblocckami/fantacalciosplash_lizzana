@@ -6,8 +6,9 @@
   "scripts": {
     "scrape": "node scripts/scrape.js",
     "compute": "node scripts/compute-scores.js",
+    "registrations": "node scripts/fetch-registrations.js",
     "classifica": "node scripts/build-classifica.js",
-    "build": "node scripts/scrape.js && node scripts/compute-scores.js && node scripts/build-classifica.js",
+    "build": "node scripts/scrape.js && node scripts/compute-scores.js && node scripts/fetch-registrations.js && node scripts/build-classifica.js",
     "serve": "npx serve . -p 8080"
   },
   "engines": {

@@ -56,8 +56,9 @@ function main() {
   const punteggi = readJson(join(DATA_DIR, 'punteggi.json'));
   const squadre = readJson(join(DATA_DIR, 'squadre.json'));
 
-  if (!punteggi || !squadre) {
-    console.log('  ⚠ Missing punteggi.json or squadre.json. Skipping.');
+  // Both files exist but are empty until the first match is closed.
+  if (!punteggi?.length || !squadre?.length) {
+    console.log('  ⚠ No punteggi or squadre yet. Skipping.');
     return;
   }
 
