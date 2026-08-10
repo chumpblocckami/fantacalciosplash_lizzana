@@ -1,0 +1,428 @@
+[
+  {
+    "home": "RITA LEVI'S",
+    "away": "GLI AVANZI",
+    "score": "3-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "QUEI STRAZI",
+    "away": "BEVEM4TUT",
+    "score": "3-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "IMONTAGNA",
+    "away": "FC GORILLAZ",
+    "score": "5-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "SHARK ATTACK",
+    "away": "FC SCHALKE 104",
+    "score": "5-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "PINGUINI TRENTINI",
+    "away": "NAZZZIONALE FERROVIERI",
+    "score": "8-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "HELLAS LAZIO",
+    "away": "CLITORIDERS",
+    "score": "0-7",
+    "stage": "Maschile"
+  },
+  {
+    "home": "SBARX",
+    "away": "GLI INTROVABILI",
+    "score": "6-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "DEMOBUSTERS",
+    "away": "SDRUMALA",
+    "score": "1-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "BAYERN MONA",
+    "away": "QUESTI SEN",
+    "score": "3-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "FC SALAGIARDINI",
+    "away": "POWER GINGER",
+    "score": "1-4",
+    "stage": "Maschile"
+  },
+  {
+    "home": "RSA UNITED",
+    "away": "I MAGNIFICI",
+    "score": "5-5",
+    "stage": "Maschile"
+  },
+  {
+    "home": "RITA LEVI'S",
+    "away": "WANDA TIM",
+    "score": "2-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "CGB GAMBERONI",
+    "away": "FC SAVIGNANO",
+    "score": "2-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "GLI AVANZI",
+    "away": "GREP",
+    "score": "4-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "U.S GUARNA",
+    "away": "QUEI STRAZI",
+    "score": "4-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "DEMOBUSTERS",
+    "away": "SHARK ATTACK",
+    "score": "2-3",
+    "stage": "Maschile"
+  },
+  {
+    "home": "NAZZZIONALE FERROVIERI",
+    "away": "FC SAVIGNANO",
+    "score": "0-5",
+    "stage": "Maschile"
+  },
+  {
+    "home": "CGB GAMBERONI",
+    "away": "QUESTI SEN",
+    "score": "12-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "A.C.DENTI",
+    "away": "4SINS",
+    "score": "5-4",
+    "stage": "Maschile"
+  },
+  {
+    "home": "HELLAS LAZIO",
+    "away": "I MAGNIFICI",
+    "score": "0-3",
+    "stage": "Maschile"
+  },
+  {
+    "home": "IMONTAGNA",
+    "away": "RSA UNITED",
+    "score": "6-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "POWER GINGER",
+    "away": "FC GORILLAZ",
+    "score": "4-5",
+    "stage": "Maschile"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "FC SALAGIARDINI",
+    "score": "9-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "HELLAS LAZIO",
+    "away": "WANDA TIM",
+    "score": "3-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MAI UNA GIOIA",
+    "away": "BEVEM4TUT",
+    "score": "3-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "GLI INTROVABILI",
+    "away": "GREP",
+    "score": "5-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MODIUM",
+    "away": "POWER GINGER",
+    "score": "4-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "WANDA TIM",
+    "away": "RSA UNITED",
+    "score": "2-3",
+    "stage": "Maschile"
+  },
+  {
+    "home": "4SINS",
+    "away": "SHARK ATTACK",
+    "score": "0-8",
+    "stage": "Maschile"
+  },
+  {
+    "home": "VIGILI DEL FUSTO",
+    "away": "RITA LEVI'S",
+    "score": "0-11",
+    "stage": "Maschile"
+  },
+  {
+    "home": "SBARX",
+    "away": "GLI AVANZI",
+    "score": "4-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "FC SCHALKE 104",
+    "away": "CGB GAMBERONI",
+    "score": "2-7",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MAI UNA GIOIA",
+    "away": "SDRUMALA",
+    "score": "5-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MODIUM",
+    "away": "I MAGNIFICI",
+    "score": "3-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "QUESTI SEN",
+    "away": "U.S GUARNA",
+    "score": "0-11",
+    "stage": "Maschile"
+  },
+  {
+    "home": "PINGUINI TRENTINI",
+    "away": "SDRUMALA",
+    "score": "2-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MODIUM",
+    "away": "GLI INTROVABILI",
+    "score": "2-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "VIGILI DEL FUSTO",
+    "away": "FC SALAGIARDINI",
+    "score": "2-6",
+    "stage": "Maschile"
+  },
+  {
+    "home": "FC SCHALKE 104",
+    "away": "BAYERN MONA",
+    "score": "2-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "A.C.DENTI",
+    "away": "QUEI STRAZI",
+    "score": "7-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "4SINS",
+    "away": "BEVEM4TUT",
+    "score": "2-1",
+    "stage": "Maschile"
+  },
+  {
+    "home": "PINGUINI TRENTINI",
+    "away": "U.S GUARNA",
+    "score": "0-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "IMONTAGNA",
+    "away": "GREP",
+    "score": "10-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "MAI UNA GIOIA",
+    "away": "BAYERN MONA",
+    "score": "8-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "SBARX",
+    "score": "4-2",
+    "stage": "Maschile"
+  },
+  {
+    "home": "FC SAVIGNANO",
+    "away": "A.C.DENTI",
+    "score": "5-3",
+    "stage": "Maschile"
+  },
+  {
+    "home": "VIGILI DEL FUSTO",
+    "away": "FC GORILLAZ",
+    "score": "1-11",
+    "stage": "Maschile"
+  },
+  {
+    "home": "DEMOBUSTERS",
+    "away": "NAZZZIONALE FERROVIERI",
+    "score": "2-0",
+    "stage": "Maschile"
+  },
+  {
+    "home": "FC SAVIGNANO",
+    "away": "QUEI STRAZI",
+    "score": "6-1",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "FC GORILLAZ",
+    "away": "HELLAS LAZIO",
+    "score": "3-4",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "SBARX",
+    "away": "4SINS",
+    "score": "3-2",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "A.C.DENTI",
+    "away": "FC SALAGIARDINI",
+    "score": "7-0",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "PINGUINI TRENTINI",
+    "away": "GLI INTROVABILI",
+    "score": "6-0",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "I MAGNIFICI",
+    "away": "GLI AVANZI",
+    "score": "2-1",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "DEMOBUSTERS",
+    "away": "POWER GINGER",
+    "score": "2-4",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "RSA UNITED",
+    "away": "BAYERN MONA",
+    "score": "10-0",
+    "stage": "Playoffs M"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "RSA UNITED",
+    "score": "4-0",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "U.S GUARNA",
+    "away": "FC SAVIGNANO",
+    "score": "0-0",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "SHARK ATTACK",
+    "away": "A.C.DENTI",
+    "score": "8-1",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "MAI UNA GIOIA",
+    "away": "PINGUINI TRENTINI",
+    "score": "1-2",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "IMONTAGNA",
+    "away": "POWER GINGER",
+    "score": "5-2",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "CGB GAMBERONI",
+    "away": "HELLAS LAZIO",
+    "score": "7-1",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "MODIUM",
+    "away": "SBARX",
+    "score": "6-2",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "RITA LEVI'S",
+    "away": "I MAGNIFICI",
+    "score": "1-0",
+    "stage": "Ottavi M"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "U.S GUARNA",
+    "score": "2-1",
+    "stage": "Quarti M"
+  },
+  {
+    "home": "SHARK ATTACK",
+    "away": "PINGUINI TRENTINI",
+    "score": "4-4",
+    "stage": "Quarti M"
+  },
+  {
+    "home": "IMONTAGNA",
+    "away": "CGB GAMBERONI",
+    "score": "2-3",
+    "stage": "Quarti M"
+  },
+  {
+    "home": "MODIUM",
+    "away": "RITA LEVI'S",
+    "score": "2-0",
+    "stage": "Quarti M"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "SHARK ATTACK",
+    "score": "2-2",
+    "stage": "Semi M"
+  },
+  {
+    "home": "CGB GAMBERONI",
+    "away": "MODIUM",
+    "score": "2-3",
+    "stage": "Semi M"
+  },
+  {
+    "home": "CLITORIDERS",
+    "away": "MODIUM",
+    "score": "3-2",
+    "stage": "Finale M"
+  }
+]

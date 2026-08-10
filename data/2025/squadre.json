@@ -1,0 +1,554 @@
+[
+  {
+    "Fantallenatore": "PEKKA",
+    "Portiere": "Federico Leonardi | Rita Levi’s",
+    "Titolare 1": "Daniele Feltrinelli | Rita Levi’s",
+    "Titolare 2": "Manuel Cescatti | Hellas Lazio",
+    "Titolare 3": "Samuele  Maffei | FC GORILLAZ",
+    "Riserva": "Roberto Barozzi | demobusters"
+  },
+  {
+    "Fantallenatore": "mini PEKKA",
+    "Portiere": "Federico Leonardi | Rita Levi’s",
+    "Titolare 1": "Davide  Rosa` | Hellas Lazio",
+    "Titolare 2": "Lorenzo Casari | Nazzzionale ferrovieri",
+    "Titolare 3": "Mattia Festi | SHARK ATTACK",
+    "Riserva": "Matteo Gatti | demobusters"
+  },
+  {
+    "Fantallenatore": "Hogrider",
+    "Portiere": "Michele Ruele | Avanzi",
+    "Titolare 1": "Francesco Cristoforetti | Vigili del Fusto",
+    "Titolare 2": "Giovanni Torboli | FC GORILLAZ",
+    "Titolare 3": "Armando Renzetti  | Nazzzionale ferrovieri",
+    "Riserva": "Luis Eduardo Grazioli | Rita Levi’s"
+  },
+  {
+    "Fantallenatore": "Matteo Mazzola",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Daniele Feller | GREP",
+    "Titolare 3": "Federico  Zanini | A.C.DENTI",
+    "Riserva": "Luca Giordani | SHARK ATTACK"
+  },
+  {
+    "Fantallenatore": "Moris",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Mattia Baldessarini | SHARK ATTACK",
+    "Titolare 2": "Luca Frasca | Clitoriders",
+    "Titolare 3": "Moris Benedetti | Gli Introvabili",
+    "Riserva": "Francesco Cristoforetti | Vigili del Fusto"
+  },
+  {
+    "Fantallenatore": "Marco Sartorelli ",
+    "Portiere": "Elia Barozzi | I Magnifici",
+    "Titolare 1": "Riccardo Zeni | demobusters",
+    "Titolare 2": "Edoardo Pomarolli | Modium",
+    "Titolare 3": "Michele Merighi | Clitoriders",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Sara Isabel Pisoni",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Filippo Benetti | I Magnifici",
+    "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 3": "Lorenzo Rossi | Power Ginger",
+    "Riserva": "Andreas Galli | SdrumALA"
+  },
+  {
+    "Fantallenatore": "Simone Martini",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Simone Martini | Hellas Lazio",
+    "Titolare 2": "Michele Merighi | Clitoriders",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Davide  Bazzano | IMONTAGNA"
+  },
+  {
+    "Fantallenatore": "Los Ripudiatos",
+    "Portiere": "Matteo Zanlucchi | SBARX",
+    "Titolare 1": "Daniele Feltrinelli | Rita Levi’s",
+    "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 3": "Alessio Farinati | Pinguini Trentini",
+    "Riserva": "Giovanni  Lasta | 4SINS"
+  },
+  {
+    "Fantallenatore": "MATTEO MARANER",
+    "Portiere": "Federico Zoller | GREP",
+    "Titolare 1": "Alessio Farinati | Pinguini Trentini",
+    "Titolare 2": "Alessandro Maffei | FC SAVIGNANO",
+    "Titolare 3": "Federico Manica | IMONTAGNA",
+    "Riserva": "Alessandro Fanti | FC SALAGIARDINI"
+  },
+  {
+    "Fantallenatore": "Lorenzo Zuani",
+    "Portiere": "Elia Barozzi | I Magnifici",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Federico Nicolodi | U.SGUARNA",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Nicholas Marzadro | SBARX"
+  },
+  {
+    "Fantallenatore": "polemiche_calciosplash",
+    "Portiere": "Stefano  Tita | Clitoriders",
+    "Titolare 1": "Luis Eduardo Grazioli | Rita Levi’s",
+    "Titolare 2": "Federico  Andreis | IMONTAGNA",
+    "Titolare 3": "Enrico Bordignon | Pinguini Trentini",
+    "Riserva": "Elias Viesi Lutteri  | QUEI STRAZI"
+  },
+  {
+    "Fantallenatore": "James Trivette",
+    "Portiere": "Federico Zoller | GREP",
+    "Titolare 1": "Federico Manica | IMONTAGNA",
+    "Titolare 2": "Alessandro Maffei | FC SAVIGNANO",
+    "Titolare 3": "Federico Nicolodi | U.SGUARNA",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Marco sala",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Andrea  Roveda  | Pinguini Trentini",
+    "Titolare 2": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 3": "Andrea Conzatti | FC SAVIGNANO",
+    "Riserva": "Lorenzo Mori` | Hellas Lazio"
+  },
+  {
+    "Fantallenatore": "Ruggine",
+    "Portiere": "Thomas Debiasi | Mai una gioia",
+    "Titolare 1": "Michael Bertè  | A.C.DENTI",
+    "Titolare 2": "Nadir  chtioui | Mai una gioia",
+    "Titolare 3": "Luca Frasca | Clitoriders",
+    "Riserva": "Andrea Menolli | SdrumALA"
+  },
+  {
+    "Fantallenatore": "Attila",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Nadir  chtioui | Mai una gioia",
+    "Titolare 2": "Andrea Menolli | SdrumALA",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Alessio Bragagna | SHARK ATTACK"
+  },
+  {
+    "Fantallenatore": "Gennaro Bullo",
+    "Portiere": "Raffaele Prezzi  | Hellas Lazio",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Mattia Bertolini | QUEI STRAZI"
+  },
+  {
+    "Fantallenatore": "Zó",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Federico Nicolodi | U.SGUARNA",
+    "Titolare 3": "Thomas Perenzoni | CGB Gamberoni",
+    "Riserva": "Riccardo baldo | wanda tim"
+  },
+  {
+    "Fantallenatore": "Tommibega",
+    "Portiere": "Samuele Kettmaier | A.C.DENTI",
+    "Titolare 1": "Andrea Menolli | SdrumALA",
+    "Titolare 2": "Luca Frasca | Clitoriders",
+    "Titolare 3": "Carlo  Stedile | Mai una gioia",
+    "Riserva": "Sayf Brik | A.C.DENTI"
+  },
+  {
+    "Fantallenatore": "APERITIVO AL MOZART",
+    "Portiere": "Samuele Kettmaier | A.C.DENTI",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Andrea Menolli | SdrumALA",
+    "Titolare 3": "Giacomo  Gasparini  | Mai una gioia",
+    "Riserva": "Alessio Zandonai | SBARX"
+  },
+  {
+    "Fantallenatore": "Biker mice",
+    "Portiere": "Nicolas Giordani  | FC SAVIGNANO",
+    "Titolare 1": "Federico Fasanelli | SBARX",
+    "Titolare 2": "Matteo Diener | U.SGUARNA",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Niccoló Orsi",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Nicholas Marzadro | SBARX",
+    "Titolare 3": "Marco Sartorelli | Modium",
+    "Riserva": "Mattia Tezzele | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "ah ma è ronco ",
+    "Portiere": "Matteo Zanlucchi | SBARX",
+    "Titolare 1": "Carlo  Stedile | Mai una gioia",
+    "Titolare 2": "Nicolo  Speziali | FC GORILLAZ",
+    "Titolare 3": "Matteo Simoncelli | IMONTAGNA",
+    "Riserva": "Francesco Cristoforetti | Vigili del Fusto"
+  },
+  {
+    "Fantallenatore": "Jacopo Chemini",
+    "Portiere": "Stefano  Tita | Clitoriders",
+    "Titolare 1": "Daniel Pedrotti | IMONTAGNA",
+    "Titolare 2": "Michele Merighi | Clitoriders",
+    "Titolare 3": "maikol  azocar | Mai una gioia",
+    "Riserva": "Emanuele Toss | 4SINS"
+  },
+  {
+    "Fantallenatore": "Senia Lucrezia",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Daniel Pedrotti | IMONTAGNA",
+    "Titolare 2": "Michele Merighi | Clitoriders",
+    "Titolare 3": "Gabriele Verona | CGB Gamberoni",
+    "Riserva": "Gianni Sala | FC SALAGIARDINI"
+  },
+  {
+    "Fantallenatore": "Davide Rosà",
+    "Portiere": "Elia Barozzi | I Magnifici",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Mattia Tezzele | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "Nazarena Raos",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Andrea Gober | U.SGUARNA",
+    "Titolare 2": "Roberto Barozzi | demobusters",
+    "Titolare 3": "Andrea Conzatti | FC SAVIGNANO",
+    "Riserva": "Gabriele Lasta | RSA United"
+  },
+  {
+    "Fantallenatore": "LORENZA SIMONCELLI",
+    "Portiere": "Riccardo Versini | Modium",
+    "Titolare 1": "Davide Simoncelli | Avanzi",
+    "Titolare 2": "Carlo  Stedile | Mai una gioia",
+    "Titolare 3": "Federico Fasanelli | SBARX",
+    "Riserva": "Emanuele Miorandi | Rita Levi’s"
+  },
+  {
+    "Fantallenatore": "Thomas Cavagna",
+    "Portiere": "Thomas Debiasi | Mai una gioia",
+    "Titolare 1": "Thomas Cavagna | Mai una gioia",
+    "Titolare 2": "Luca Frasca | Clitoriders",
+    "Titolare 3": "Federico Nicolodi | U.SGUARNA",
+    "Riserva": "Davide  Bazzano | IMONTAGNA"
+  },
+  {
+    "Fantallenatore": "Nicholas Marzadro",
+    "Portiere": "Matteo Zanlucchi | SBARX",
+    "Titolare 1": "Matteo Diener | U.SGUARNA",
+    "Titolare 2": "Federico Manica | IMONTAGNA",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Alessandro Fanti | FC SALAGIARDINI"
+  },
+  {
+    "Fantallenatore": "Valentina Perghem ",
+    "Portiere": "Matteo Zanlucchi | SBARX",
+    "Titolare 1": "Luca Frasca | Clitoriders",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Michele Leonardi | Rita Levi’s",
+    "Riserva": "Matteo Giovannella | Bevem4tut"
+  },
+  {
+    "Fantallenatore": "Emanuele Miorandi",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Filippo Benetti | I Magnifici",
+    "Titolare 3": "Alessandro Maffei | FC SAVIGNANO",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Jasmine Scottini",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Federico Fasanelli | SBARX",
+    "Titolare 2": "Filippo Benetti | I Magnifici",
+    "Titolare 3": "Luca Frasca | Clitoriders",
+    "Riserva": "Francesco Cristoforetti | Vigili del Fusto"
+  },
+  {
+    "Fantallenatore": "Michele Leonardi ",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Filippo Benetti | I Magnifici",
+    "Titolare 2": "Matteo Diener | U.SGUARNA",
+    "Titolare 3": "Luca Tonolli | Rita Levi’s",
+    "Riserva": "Sayf Brik | A.C.DENTI"
+  },
+  {
+    "Fantallenatore": "Mattia Spagnolli ",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Filippo Benetti | I Magnifici",
+    "Titolare 2": "Riccardo Zaffoni | U.SGUARNA",
+    "Titolare 3": "Sebastiano Zoller | CGB Gamberoni",
+    "Riserva": "Andrea Giordani | Clitoriders"
+  },
+  {
+    "Fantallenatore": "Nicolas Giordani",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Filippo Benetti | I Magnifici",
+    "Titolare 2": "Federico Mortillaro | Clitoriders",
+    "Titolare 3": "Federico  Zanini | A.C.DENTI",
+    "Riserva": "Geremia  Carollo | FC SAVIGNANO"
+  },
+  {
+    "Fantallenatore": "Michela Menghini",
+    "Portiere": "Nicolas Giordani  | FC SAVIGNANO",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Matteo Mazzola | GREP",
+    "Titolare 3": "Alessio Farinati | Pinguini Trentini",
+    "Riserva": "Emanuele  valduga | wanda tim"
+  },
+  {
+    "Fantallenatore": "JR",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Luca Tonolli | Rita Levi’s",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Federico Nicolodi | U.SGUARNA",
+    "Riserva": "Lorenzo Mori` | Hellas Lazio"
+  },
+  {
+    "Fantallenatore": "Anna Zandonati",
+    "Portiere": "Nicolas Giordani  | FC SAVIGNANO",
+    "Titolare 1": "Filippo Benetti | I Magnifici",
+    "Titolare 2": "Federico Fasanelli | SBARX",
+    "Titolare 3": "Luca Frasca | Clitoriders",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Matteo Alberti",
+    "Portiere": "Thomas Debiasi | Mai una gioia",
+    "Titolare 1": "Nadir  chtioui | Mai una gioia",
+    "Titolare 2": "Michael Bertè  | A.C.DENTI",
+    "Titolare 3": "Andreas Galli | SdrumALA",
+    "Riserva": "Lorenzo Zuani | I Magnifici"
+  },
+  {
+    "Fantallenatore": "Leo Parisi ",
+    "Portiere": "Daniele Dalbosco | IMONTAGNA",
+    "Titolare 1": "Leonardo Viola | SHARK ATTACK",
+    "Titolare 2": "Geremia  Carollo | FC SAVIGNANO",
+    "Titolare 3": "Luca Frasca | Clitoriders",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Giacomo Gasparini",
+    "Portiere": "Mattia Kaiserman | Gli Introvabili",
+    "Titolare 1": "Federico  Andreis | IMONTAGNA",
+    "Titolare 2": "Michele Merighi | Clitoriders",
+    "Titolare 3": "Geremia  Carollo | FC SAVIGNANO",
+    "Riserva": "Alessio Delli Compagni | SdrumALA"
+  },
+  {
+    "Fantallenatore": "I magnifici 2.0",
+    "Portiere": "Stefano  Tita | Clitoriders",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Pietro  Gasparini | Mai una gioia",
+    "Titolare 3": "Geremia  Carollo | FC SAVIGNANO",
+    "Riserva": "Mattia Tezzele | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "Raffaele Prezzi",
+    "Portiere": "Thomas Debiasi | Mai una gioia",
+    "Titolare 1": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 2": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 3": "Andreas Galli | SdrumALA",
+    "Riserva": "Mattia Tezzele | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "Danny Giordani",
+    "Portiere": "Nicolas Giordani  | FC SAVIGNANO",
+    "Titolare 1": "Danny Giordani | I Magnifici",
+    "Titolare 2": "Luca Frasca | Clitoriders",
+    "Titolare 3": "Alessandro Maffei | FC SAVIGNANO",
+    "Riserva": "Gentian Capa | Power Ginger"
+  },
+  {
+    "Fantallenatore": "Daniele Ruzzenenti",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Michele Merighi | Clitoriders",
+    "Titolare 2": "Giacomo  Gasparini  | Mai una gioia",
+    "Titolare 3": "Manuel Emanuelli | SdrumALA",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Giovanni Simoncelli",
+    "Portiere": "Stefano  Tita | Clitoriders",
+    "Titolare 1": "Daniele Feltrinelli | Rita Levi’s",
+    "Titolare 2": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 3": "Andrea  Pedrotti | IMONTAGNA",
+    "Riserva": "Alessandro Galvagni | Hellas Lazio"
+  },
+  {
+    "Fantallenatore": "Riccardo Briosi",
+    "Portiere": "Riccardo Versini | Modium",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Luca Frasca | Clitoriders",
+    "Titolare 3": "Gianni Sala | FC SALAGIARDINI",
+    "Riserva": "Christian Torboli | 4SINS"
+  },
+  {
+    "Fantallenatore": "Francesco Passuello",
+    "Portiere": "Gabriel Melis | demobusters",
+    "Titolare 1": "Mattia Baldessarini | SHARK ATTACK",
+    "Titolare 2": "Federico Mortillaro | Clitoriders",
+    "Titolare 3": "Mattia Tezzele | U.SGUARNA",
+    "Riserva": "Thomas Pontillo | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Feltri",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Federico  Zanini | A.C.DENTI",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Filippo Benetti | I Magnifici",
+    "Riserva": "Andrea Giordani | Clitoriders"
+  },
+  {
+    "Fantallenatore": "Benny",
+    "Portiere": "Matteo Pilati | Pinguini Trentini",
+    "Titolare 1": "Matteo Simoncelli | IMONTAGNA",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Riccardo Barbiero | Rita Levi’s",
+    "Riserva": "Andrea Giordani | Clitoriders"
+  },
+  {
+    "Fantallenatore": "Carlotta ",
+    "Portiere": "Daniele Dalbosco | IMONTAGNA",
+    "Titolare 1": "Andrea Bellini | Nazzzionale ferrovieri",
+    "Titolare 2": "Luca Giordani | SHARK ATTACK",
+    "Titolare 3": "Federico  Andreis | IMONTAGNA",
+    "Riserva": "Andrea Anzelini | GREP"
+  },
+  {
+    "Fantallenatore": "Bruno 🐻",
+    "Portiere": "Nicolas Giordani  | FC SAVIGNANO",
+    "Titolare 1": "Marco Sala | IMONTAGNA",
+    "Titolare 2": "Danny Giordani | I Magnifici",
+    "Titolare 3": "Riccardo Zaffoni | U.SGUARNA",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Davide Scarperi",
+    "Portiere": "Alessandro  Ruele  | FC GORILLAZ",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Daniel Pedrotti | IMONTAGNA",
+    "Riserva": "Emanuele  valduga | wanda tim"
+  },
+  {
+    "Fantallenatore": "Davide Raffaelli ",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Daniele Feller | GREP",
+    "Titolare 2": "Matteo Simoncelli | IMONTAGNA",
+    "Titolare 3": "Leonardo Viola | SHARK ATTACK",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Sebastiano Zoller",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 2": "Andrea  Roveda  | Pinguini Trentini",
+    "Titolare 3": "Michele Merighi | Clitoriders",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Gabriele Gottardi",
+    "Portiere": "Federico Zoller | GREP",
+    "Titolare 1": "Andrea  Roveda  | Pinguini Trentini",
+    "Titolare 2": "Luca Perenzoni | CGB Gamberoni",
+    "Titolare 3": "Michele Merighi | Clitoriders",
+    "Riserva": "Alessio  Giordano  | FC Schalke 104"
+  },
+  {
+    "Fantallenatore": "Riccardo Zeni",
+    "Portiere": "Elia Barozzi | I Magnifici",
+    "Titolare 1": "Sebastiano Zoller | CGB Gamberoni",
+    "Titolare 2": "Leonardo Viola | SHARK ATTACK",
+    "Titolare 3": "Andrea  Roveda  | Pinguini Trentini",
+    "Riserva": "Davide  Bazzano | IMONTAGNA"
+  },
+  {
+    "Fantallenatore": "Davide Zeni",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Andrea  Roveda  | Pinguini Trentini",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Luca Perenzoni | CGB Gamberoni",
+    "Riserva": "Jacopo  Chemini | IMONTAGNA"
+  },
+  {
+    "Fantallenatore": "Riccardo Barbiero",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Riccardo Barbiero | Rita Levi’s",
+    "Titolare 2": "Leonardo Viola | SHARK ATTACK",
+    "Titolare 3": "Marco Sala | IMONTAGNA",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Casa 🌫️",
+    "Portiere": "Christian Martinelli | SdrumALA",
+    "Titolare 1": "Marco Sala | IMONTAGNA",
+    "Titolare 2": "Nadir Chtioui | Mai una gioia",
+    "Titolare 3": "Andrea Roveda | Pinguini Trentini",
+    "Riserva": "Stefano Mattioli | SdrumALA"
+  },
+  {
+    "Fantallenatore": "Aste Andrea ",
+    "Portiere": "Matteo Pilati | Pinguini Trentini",
+    "Titolare 1": "Andrea Roveda | Pinguini Trentini",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Edoardo Pomarolli | Modium",
+    "Riserva": "Matteo Maraner | GREP"
+  },
+  {
+    "Fantallenatore": "Luca Perenzoni",
+    "Portiere": "Lorenzo Canali | CGB Gamberoni",
+    "Titolare 1": "Andrea Roveda | Pinguini Trentini",
+    "Titolare 2": "Luca Perenzoni | CGB Gamberoni",
+    "Titolare 3": "Carlo Stedile | Mai una gioia",
+    "Riserva": "Davide Bazzano | IMONTAGNA"
+  },
+  {
+    "Fantallenatore": "Debiasi Alessio",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Michele Merighi | Clitoriders",
+    "Titolare 2": "Amedeo Malesardi | FC SAVIGNANO",
+    "Titolare 3": "Federico Nicolodi | U.SGUARNA",
+    "Riserva": "Alessio Debiasi | Mai una gioia"
+  },
+  {
+    "Fantallenatore": "Thomas Debiasi",
+    "Portiere": "Thomas Debiasi | Mai una gioia",
+    "Titolare 1": "Randy Cobbinah | Mai una gioia",
+    "Titolare 2": "Stefano Mattioli | SdrumALA",
+    "Titolare 3": "Andrea Conzatti | FC SAVIGNANO",
+    "Riserva": "Federico Nicolodi | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "Andrea Conzatti",
+    "Portiere": "Daniele Dalbosco | IMONTAGNA",
+    "Titolare 1": "Luca Frasca | Clitoriders",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Geremia Carollo | FC SAVIGNANO",
+    "Riserva": "Davide Simoncelli | Avanzi"
+  },
+  {
+    "Fantallenatore": "Matteo pilati",
+    "Portiere": "Elia Battisti | U.SGUARNA",
+    "Titolare 1": "Michele Merighi | Clitoriders",
+    "Titolare 2": "Matteo Diener | U.SGUARNA",
+    "Titolare 3": "Moris Benedetti | Gli Introvabili",
+    "Riserva": "Emiliano Bici | Power Ginger"
+  },
+  {
+    "Fantallenatore": "Elia tomasoni ",
+    "Portiere": "Stefano Tita | Clitoriders",
+    "Titolare 1": "Luca Frasca | Clitoriders",
+    "Titolare 2": "Giovanni Giusto | demobusters",
+    "Titolare 3": "Saverio Santoro | U.SGUARNA",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  },
+  {
+    "Fantallenatore": "Elia tomasoni ",
+    "Portiere": "Stefano Tita | Clitoriders",
+    "Titolare 1": "Luca Frasca | Clitoriders",
+    "Titolare 2": "Giovanni Giusto | demobusters",
+    "Titolare 3": "Saverio Santoro | U.SGUARNA",
+    "Riserva": "Moris Benedetti | Gli Introvabili"
+  }
+]

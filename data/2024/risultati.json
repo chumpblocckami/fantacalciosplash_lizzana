@@ -1,0 +1,611 @@
+[
+  {
+    "Unnamed: 0": 0,
+    "home": "SDRUMALA",
+    "away": "A.C. DENTI",
+    "score": "3-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 1,
+    "home": "NAZIONALE FERROVIERI",
+    "away": "HERTA VERNELLO",
+    "score": "4-5",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 2,
+    "home": "SALA GIARDINI",
+    "away": "SBARX",
+    "score": "1-4",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 3,
+    "home": "I MONTAGNA",
+    "away": "BAYERN MONA",
+    "score": "5-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 4,
+    "home": "FC WANDA TIM",
+    "away": "FC. STALLIONS",
+    "score": "5-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 5,
+    "home": "SUGHI EBBASTA",
+    "away": "LA CONTEA FC",
+    "score": "4-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 6,
+    "home": "F.C. JULIA",
+    "away": "VIGILI DEL FUSTO",
+    "score": "5-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 7,
+    "home": "AVANZI",
+    "away": "U.S. GUARNA",
+    "score": "0-6",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 8,
+    "home": "MODIUM",
+    "away": "FC. STALLIONS",
+    "score": "4-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 9,
+    "home": "FC SAVIGNANO",
+    "away": "SDRUMALA",
+    "score": "4-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 10,
+    "home": "SALA GIARDINI",
+    "away": "FC SCHALKE 104",
+    "score": "5-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 11,
+    "home": "MAI UNA GIOIA",
+    "away": "CLITORIDERS",
+    "score": "2-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 12,
+    "home": "PINGUINI TRENTINI",
+    "away": "DEMOBUSTERS",
+    "score": "0-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 13,
+    "home": "RSA UNITED",
+    "away": "FC WANDA TIM",
+    "score": "2-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 14,
+    "home": "MEDIASERT",
+    "away": "U.S. GUARNA",
+    "score": "2-4",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 15,
+    "home": "I MAGNIFICI",
+    "away": "BAYERN MONA",
+    "score": "7-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 16,
+    "home": "SBARX",
+    "away": "DEMOBUSTERS",
+    "score": "2-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 17,
+    "home": "FEL LAZIO",
+    "away": "F.C. GORILLAZ",
+    "score": "2-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 18,
+    "home": "I MONTAGNA",
+    "away": "I MAGNIFICI",
+    "score": "3-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 19,
+    "home": "SHARK ATTACK",
+    "away": "AVANZI",
+    "score": "5-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 20,
+    "home": "CGB GAMBERONI",
+    "away": "FC SCHALKE 104",
+    "score": "7-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 21,
+    "home": "PINGUINI TRENTINI",
+    "away": "RSA UNITED",
+    "score": "1-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 22,
+    "home": "F.C. GORILLAZ",
+    "away": "FC. STALLIONS",
+    "score": "5-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 23,
+    "home": "CLANDES-TEAM",
+    "away": "VIGILI DEL FUSTO",
+    "score": "7-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 24,
+    "home": "F.C. JULIA",
+    "away": "SUGHI EBBASTA",
+    "score": "1-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 25,
+    "home": "BAYERN MONA",
+    "away": "A.C. DENTI",
+    "score": "0-5",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 26,
+    "home": "SHARK ATTACK",
+    "away": "MODIUM",
+    "score": "0-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 27,
+    "home": "I MONTAGNA",
+    "away": "MEDIASERT",
+    "score": "1-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 28,
+    "home": "HELLAS MADONNA",
+    "away": "CGB GAMBERONI",
+    "score": "0-6",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 29,
+    "home": "MAI UNA GIOIA",
+    "away": "HERTA VERNELLO",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 30,
+    "home": "MAI UNA GIOIA",
+    "away": "SUGHI EBBASTA",
+    "score": "1-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 31,
+    "home": "SDRUMALA",
+    "away": "CLANDES-TEAM",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 32,
+    "home": "RSA UNITED",
+    "away": "NAZIONALE FERROVIERI",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 33,
+    "home": "U.S. GUARNA",
+    "away": "DEMOBUSTERS",
+    "score": "6-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 34,
+    "home": "MEDIASERT",
+    "away": "F.C. GORILLAZ",
+    "score": "1-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 35,
+    "home": "I MAGNIFICI",
+    "away": "LA CONTEA FC",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 36,
+    "home": "PINGUINI TRENTINI",
+    "away": "FEL LAZIO",
+    "score": "4-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 37,
+    "home": "HELLAS MADONNA",
+    "away": "BAYERN MONA",
+    "score": "3-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 38,
+    "home": "CLITORIDERS",
+    "away": "SALA GIARDINI",
+    "score": "8-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 39,
+    "home": "SHARK ATTACK",
+    "away": "FC WANDA TIM",
+    "score": "7-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 40,
+    "home": "CGB GAMBERONI",
+    "away": "CLANDES-TEAM",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 41,
+    "home": "MODIUM",
+    "away": "F.C. JULIA",
+    "score": "5-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 42,
+    "home": "FC SAVIGNANO",
+    "away": "SBARX",
+    "score": "1-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 43,
+    "home": "HERTA VERNELLO",
+    "away": "FC SCHALKE 104",
+    "score": "9-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 44,
+    "home": "I MONTAGNA",
+    "away": "HELLAS MADONNA",
+    "score": "7-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 45,
+    "home": "F.C. JULIA",
+    "away": "I MAGNIFICI",
+    "score": "1-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 46,
+    "home": "LA CONTEA FC",
+    "away": "FC WANDA TIM",
+    "score": "2-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 47,
+    "home": "SHARK ATTACK",
+    "away": "CLANDES-TEAM",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 48,
+    "home": "MEDIASERT",
+    "away": "A.C. DENTI",
+    "score": "2-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 49,
+    "home": "MAI UNA GIOIA",
+    "away": "NAZIONALE FERROVIERI",
+    "score": "5-2",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 50,
+    "home": "DEMOBUSTERS",
+    "away": "VIGILI DEL FUSTO",
+    "score": "5-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 51,
+    "home": "CLITORIDERS",
+    "away": "FC SCHALKE 104",
+    "score": "6-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 52,
+    "home": "PINGUINI TRENTINI",
+    "away": "FC SAVIGNANO",
+    "score": "1-6",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 53,
+    "home": "AVANZI",
+    "away": "FEL LAZIO",
+    "score": "4-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 54,
+    "home": "U.S. GUARNA",
+    "away": "F.C. GORILLAZ",
+    "score": "1-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 55,
+    "home": "RSA UNITED",
+    "away": "SALA GIARDINI",
+    "score": "5-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 56,
+    "home": "FEL LAZIO",
+    "away": "A.C. DENTI",
+    "score": "3-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 57,
+    "home": "FC SAVIGNANO",
+    "away": "VIGILI DEL FUSTO",
+    "score": "9-0",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 58,
+    "home": "CLITORIDERS",
+    "away": "CGB GAMBERONI",
+    "score": "2-3",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 59,
+    "home": "NAZIONALE FERROVIERI",
+    "away": "SBARX",
+    "score": "0-7",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 60,
+    "home": "SUGHI EBBASTA",
+    "away": "HERTA VERNELLO",
+    "score": "2-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 61,
+    "home": "AVANZI",
+    "away": "FC. STALLIONS",
+    "score": "5-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 62,
+    "home": "MODIUM",
+    "away": "LA CONTEA FC",
+    "score": "4-1",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 63,
+    "home": "HELLAS MADONNA",
+    "away": "SDRUMALA",
+    "score": "1-5",
+    "stage": 1
+  },
+  {
+    "Unnamed: 0": 64,
+    "home": "I MAGNIFICI",
+    "away": "FEL LAZIO",
+    "score": "1-1",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 65,
+    "home": "SUGHI EBBASTA",
+    "away": "F.C. JULIA",
+    "score": "7-0",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 66,
+    "home": "F.C. GORILLAZ",
+    "away": "CLANDES-TEAM",
+    "score": "2-3",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 67,
+    "home": "CLITORIDERS",
+    "away": "DEMOBUSTERS",
+    "score": "1-2",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 68,
+    "home": "SDRUMALA",
+    "away": "A.C. DENTI",
+    "score": "4-0",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 69,
+    "home": "PINGUINI TRENTINI",
+    "away": "MEDIASERT",
+    "score": "2-2",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 70,
+    "home": "HERTA VERNELLO",
+    "away": "RSA UNITED",
+    "score": "5-0",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 71,
+    "home": "AVANZI",
+    "away": "FC WANDA TIM",
+    "score": "4-0",
+    "stage": 9
+  },
+  {
+    "Unnamed: 0": 72,
+    "home": "FC SAVIGNANO",
+    "away": "AVANZI",
+    "score": "3-0",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 73,
+    "home": "I MAGNIFICI",
+    "away": "SBARX",
+    "score": "0-0",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 74,
+    "home": "SHARK ATTACK",
+    "away": "DEMOBUSTERS",
+    "score": "3-0",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 75,
+    "home": "SDRUMALA",
+    "away": "U.S. GUARNA",
+    "score": "0-2",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 76,
+    "home": "CGB GAMBERONI",
+    "away": "HERTA VERNELLO",
+    "score": "0-0",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 77,
+    "home": "SUGHI EBBASTA",
+    "away": "MAI UNA GIOIA",
+    "score": "1-1",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 78,
+    "home": "MODIUM",
+    "away": "CLANDES-TEAM",
+    "score": "0-2",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 79,
+    "home": "PINGUINI TRENTINI",
+    "away": "I MONTAGNA",
+    "score": "1-2",
+    "stage": 10
+  },
+  {
+    "Unnamed: 0": 80,
+    "home": "FC SAVIGNANO",
+    "away": "I MAGNIFICI",
+    "score": "3-1",
+    "stage": 11
+  },
+  {
+    "Unnamed: 0": 81,
+    "home": "SHARK ATTACK",
+    "away": "U.S. GUARNA",
+    "score": "1-1",
+    "stage": 11
+  },
+  {
+    "Unnamed: 0": 82,
+    "home": "CGB GAMBERONI",
+    "away": "SUGHI EBBASTA",
+    "score": "1-2",
+    "stage": 11
+  },
+  {
+    "Unnamed: 0": 83,
+    "home": "CLANDES-TEAM",
+    "away": "I MONTAGNA",
+    "score": "0-5",
+    "stage": 11
+  },
+  {
+    "Unnamed: 0": 84,
+    "home": "FC SAVIGNANO",
+    "away": "U.S. GUARNA",
+    "score": "2-1",
+    "stage": 12
+  },
+  {
+    "Unnamed: 0": 85,
+    "home": "SUGHI EBBASTA",
+    "away": "I MONTAGNA",
+    "score": "1-0",
+    "stage": 12
+  },
+  {
+    "Unnamed: 0": 86,
+    "home": "FC SAVIGNANO",
+    "away": "SUGHI EBBASTA",
+    "score": "0-1",
+    "stage": 13
+  }
+]

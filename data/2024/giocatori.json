@@ -1,0 +1,1612 @@
+[
+  {
+    "Nominativo": "Federico Baita",
+    "Squadra": "A.C. Denti",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicolò Marzari",
+    "Squadra": "A.C. Denti",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mario Grifeo",
+    "Squadra": "A.C. Denti",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Maverick Bertolini",
+    "Squadra": "A.C. Denti",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michael Bertè",
+    "Squadra": "A.C. Denti",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Manconi",
+    "Squadra": "Avanzi",
+    "Soprannome": "Mancuso",
+    "Quotazione": 61,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Ruele",
+    "Squadra": "Avanzi",
+    "Soprannome": "Ruy Mysterio",
+    "Quotazione": 40,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Andrea Barozzi",
+    "Squadra": "Avanzi",
+    "Soprannome": "Javier Zanetti Della Statale 12",
+    "Quotazione": 40,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Zandonai",
+    "Squadra": "Avanzi",
+    "Soprannome": "L'uomo Che Sussurrava Ai Ghepardi",
+    "Quotazione": 30,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Barozzi",
+    "Squadra": "Avanzi",
+    "Soprannome": "Tagliagole Canadese",
+    "Quotazione": 28,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Antonio Calabrò",
+    "Squadra": "Avanzi",
+    "Soprannome": "Totò Sapore",
+    "Quotazione": 26,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Armando Perottoni",
+    "Squadra": "Avanzi",
+    "Soprannome": null,
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Tatarella",
+    "Squadra": "Bayern Mona",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Francesco Pizzini",
+    "Squadra": "Bayern Mona",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicoló Gelmini",
+    "Squadra": "Bayern Mona",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Sannicoló",
+    "Squadra": "Bayern Mona",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Paolo Salvetti",
+    "Squadra": "Bayern Mona",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Sebastiano Zoller",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": "Carenza Di Spritz",
+    "Quotazione": 48,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Perenzoni",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": "Chernobyl",
+    "Quotazione": 42,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Zeni",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": "Ultimo Samurai",
+    "Quotazione": 38,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Gabriele Gottardi",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": "Centomila Cammelli",
+    "Quotazione": 35,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Zoller",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": null,
+    "Quotazione": 30,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Marco Gerola",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": "Geronimo Stilton",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Thomas Perenzoni",
+    "Squadra": "CGB Gamberoni",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Pietro Tasini",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Torton",
+    "Quotazione": 33,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Pietro Zandonai",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Boy Scout",
+    "Quotazione": 31,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Tommaso Canepel",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Ridge Forrester",
+    "Quotazione": 24,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Canepel",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Giardiniere",
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Riccardo Brunelli",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Insetto Stecco",
+    "Quotazione": 22,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Gabriele Piamarta",
+    "Squadra": "Clandes-Team",
+    "Soprannome": null,
+    "Quotazione": 21,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Daniele Foroni",
+    "Squadra": "Clandes-Team",
+    "Soprannome": "Swag Foroni",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Merighi",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Iena Ridens",
+    "Quotazione": 85,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Mortillaro",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Morte Nera",
+    "Quotazione": 76,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Frasca",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Delirium Tremens",
+    "Quotazione": 65,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Giordani",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Orso Bruno",
+    "Quotazione": 55,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Stefano Galvagni",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Mentadent",
+    "Quotazione": 53,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Stefano Tita",
+    "Squadra": "Clitoriders",
+    "Soprannome": "Giannizzero",
+    "Quotazione": 50,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Giovanni Giusto",
+    "Squadra": "Demobusters",
+    "Soprannome": "Plasmon",
+    "Quotazione": 23,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Elia Tomasoni",
+    "Squadra": "Demobusters",
+    "Soprannome": "T Come Tigro",
+    "Quotazione": 19,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Gabriel Melis",
+    "Squadra": "Demobusters",
+    "Soprannome": "Mano A Reazione",
+    "Quotazione": 15,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Riccardo Zeni",
+    "Squadra": "Demobusters",
+    "Soprannome": "Terzo Porcellino",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Samuele Rosà",
+    "Squadra": "Demobusters",
+    "Soprannome": "Maranza",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Roberto Barozzi",
+    "Squadra": "Demobusters",
+    "Soprannome": "Divin Codino",
+    "Quotazione": 12,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Gatti",
+    "Squadra": "Demobusters",
+    "Soprannome": "Soldatino Di Piombo",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Daniele Ruzzenenti",
+    "Squadra": "Demobusters",
+    "Soprannome": "Hard Disk",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Scottini",
+    "Squadra": "Demobusters",
+    "Soprannome": "Eldorado Shomurodov",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Comper",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": "Fantic Caballero",
+    "Quotazione": 24,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicolò Speziali",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 23,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giovanni Torboli",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Pedrotti",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Samuele Maffei",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 18,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Leonardo Adami",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 17,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicolò Gentile",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Ruele",
+    "Squadra": "F.C. Gorillaz",
+    "Soprannome": null,
+    "Quotazione": 14,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Alessandro Zamboni",
+    "Squadra": "F.C. Julia",
+    "Soprannome": null,
+    "Quotazione": 30,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Francesco Vettori",
+    "Squadra": "F.C. Julia",
+    "Soprannome": null,
+    "Quotazione": 25,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Dario Cappelletti",
+    "Squadra": "F.C. Julia",
+    "Soprannome": null,
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Vivaldi",
+    "Squadra": "F.C. Julia",
+    "Soprannome": null,
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Filippo Simoncelli",
+    "Squadra": "F.C. Julia",
+    "Soprannome": null,
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Pietro Dallabernardina",
+    "Squadra": "F.C. Julia",
+    "Soprannome": "Bidone Dell'umido",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Potrich",
+    "Squadra": "F.C. Julia",
+    "Soprannome": "Brasiliano Bianco",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Calcinardi",
+    "Squadra": "F.C. Sala Giardini",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Massimiliano Rossi",
+    "Squadra": "F.C. Sala Giardini",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giovanni Frizzera",
+    "Squadra": "F.C. Sala Giardini",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Gianni Sala",
+    "Squadra": "F.C. Sala Giardini",
+    "Soprannome": "Gianluca Grignani",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Halzyd Pupuleku",
+    "Squadra": "F.C. Sala Giardini",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Conzatti",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Caldaia",
+    "Quotazione": 69,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Maffei",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Il Fondatore Di Social Network",
+    "Quotazione": 54,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giacomo De Zambotti",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Ferro Da Stiro",
+    "Quotazione": 47,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Eduardo Grazioli",
+    "Squadra": "FC Savignano",
+    "Soprannome": "L'indesiderabile Numero 1",
+    "Quotazione": 45,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicolas Giordani",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Tiburon",
+    "Quotazione": 45,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Alessio Bragagna",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Nice Try",
+    "Quotazione": 40,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Amedeo Malesardi",
+    "Squadra": "FC Savignano",
+    "Soprannome": "Nono Comandamento",
+    "Quotazione": 35,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Richard Spagnolli",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessio Giordano",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Filippo Bais",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Amendola",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Pietro Di Liberto",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Antonio Dominici",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Ganganelli",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lapo Pinzi",
+    "Squadra": "FC Schalke 104",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Carlo Pomarolli",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Bettino Craxi",
+    "Quotazione": 20,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Stefano Rosina",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Gpl",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Francesco Amadori",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Gasolio Artico",
+    "Quotazione": 13,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Emanuele Valduga",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Fiammifero",
+    "Quotazione": 11,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mattia Spagnolli",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Dottor Nowzaradan",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Marco Bertolini",
+    "Squadra": "Fc Wanda Tim",
+    "Soprannome": "Macchia Di Gasolio",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Gentian Capa",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giorgio Raffaelli",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Blendi Capa",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Antonio Emma",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessio Koleci",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Kevin Vela",
+    "Squadra": "FC. Stallions",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Francesco Russo",
+    "Squadra": "Fel Lazio",
+    "Soprannome": null,
+    "Quotazione": 29,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Vito Incandela",
+    "Squadra": "Fel Lazio",
+    "Soprannome": "Tritolo Puro",
+    "Quotazione": 26,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Simone Martini",
+    "Squadra": "Fel Lazio",
+    "Soprannome": "Donatella Rettore",
+    "Quotazione": 25,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Tommaso Bruschetti",
+    "Squadra": "Fel Lazio",
+    "Soprannome": "Sindaco",
+    "Quotazione": 17,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Pellini",
+    "Squadra": "Fel Lazio",
+    "Soprannome": null,
+    "Quotazione": 16,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giovanni Bertolini",
+    "Squadra": "Fel Lazio",
+    "Soprannome": "Paese Dei Balocchi",
+    "Quotazione": 15,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Ivan Borella",
+    "Squadra": "Fel Lazio",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Bazzanella",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": "Torgo Nudho",
+    "Quotazione": 30,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Raffaele Prezzi",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": "La Cura",
+    "Quotazione": 30,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Jacopo Ricci",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": "Orso Balosso",
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Rosà",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": "Soldato Semplice Nemecsek",
+    "Quotazione": 17,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Galvagni",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": "Lo Stalker",
+    "Quotazione": 16,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mattia Penasa",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Filippo Maraner",
+    "Squadra": "Hellas Madonna",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Fasanelli",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 24,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Simoncelli",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 17,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicola Bianchi",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 12,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Canali",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Giacomo Bongiovanni",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Oriam Galli",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Tengattini",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Rivjo Fiora",
+    "Squadra": "Herta Vernello",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Filippo Benetti",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Fungo Atomico",
+    "Quotazione": 29,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Danny Giordani",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Paculto Deprima",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Zuani",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Il Piediatra",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Guglielmo Caroli",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Ivan Bogdanov",
+    "Quotazione": 11,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alberto Simoncelli",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Iginio Massari",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Elia Barozzi",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Bjorn Borg",
+    "Quotazione": 10,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Simone Schonsberg",
+    "Squadra": "I Magnifici",
+    "Soprannome": "Polis-tirolo",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Andreis",
+    "Squadra": "iMontagna",
+    "Soprannome": "Distinto Signor Rabbioso",
+    "Quotazione": 73,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Marco Sala",
+    "Squadra": "iMontagna",
+    "Soprannome": "Cane Rognoso",
+    "Quotazione": 68,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Daniele Dalbosco",
+    "Squadra": "iMontagna",
+    "Soprannome": "Cresta De Cunel",
+    "Quotazione": 50,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Federico Manica",
+    "Squadra": "iMontagna",
+    "Soprannome": "Daniel Ricciardo",
+    "Quotazione": 48,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Pedrotti",
+    "Squadra": "iMontagna",
+    "Soprannome": "Medioman",
+    "Quotazione": 40,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Daniel Pedrotti",
+    "Squadra": "iMontagna",
+    "Soprannome": "Cugino Di Medioman",
+    "Quotazione": 33,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Marco Mutinelli",
+    "Squadra": "iMontagna",
+    "Soprannome": "Urbano Il Vigile",
+    "Quotazione": 18,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Jacopo Chemini",
+    "Squadra": "iMontagna",
+    "Soprannome": "Teschio Fiammeggiante",
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Bazzano",
+    "Squadra": "iMontagna",
+    "Soprannome": "Il Talismano Bazooka",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Lasta",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Riolfatti",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Festi",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Mattia Gerola",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Eccel",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessandro Gerola",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Grigoletti",
+    "Squadra": "La Contea FC",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Carlo Stedile",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Welcome To Paradise",
+    "Quotazione": 81,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Thomas Debiasi",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Organizzatore Di Eventi Brutti",
+    "Quotazione": 50,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Nadir Chtioui",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Casablanca",
+    "Quotazione": 39,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Randy Cobbinah",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "West Coast",
+    "Quotazione": 38,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giacomo Gasparini",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Iceman",
+    "Quotazione": 35,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Thomas Cavagna",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Val Di Gresta",
+    "Quotazione": 30,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Maickol Azocar",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Nastro Isolante",
+    "Quotazione": 30,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Stefano Mattioli",
+    "Squadra": "MAI UNA GIOIA",
+    "Soprannome": "Panchinaro D'oro",
+    "Quotazione": 17,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Leonardo Parisi",
+    "Squadra": "MediaserT",
+    "Soprannome": "Il Fratello Di Ron Weasley",
+    "Quotazione": 71,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Stefano Pizzini",
+    "Squadra": "MediaserT",
+    "Soprannome": "Neanderthal",
+    "Quotazione": 50,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Andrea Anzelini",
+    "Squadra": "MediaserT",
+    "Soprannome": "Tunnel Del Vento",
+    "Quotazione": 35,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Parisi",
+    "Squadra": "MediaserT",
+    "Soprannome": "Ron Weasley",
+    "Quotazione": 34,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Raffaelli",
+    "Squadra": "MediaserT",
+    "Soprannome": "Giraffa Di Frassino",
+    "Quotazione": 25,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Mazzola",
+    "Squadra": "MediaserT",
+    "Soprannome": "Gennaro Bullo",
+    "Quotazione": 18,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Edoardo Pomarolli",
+    "Squadra": "Modium",
+    "Soprannome": "Il Bello Della Piof",
+    "Quotazione": 65,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Marco Sartorelli",
+    "Squadra": "Modium",
+    "Soprannome": "Playboy Della Busa",
+    "Quotazione": 65,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Pomarolli",
+    "Squadra": "Modium",
+    "Soprannome": "Principe Guerriero",
+    "Quotazione": 63,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Bertolini",
+    "Squadra": "Modium",
+    "Soprannome": "Bomber Berto",
+    "Quotazione": 60,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Riccardo Versini",
+    "Squadra": "Modium",
+    "Soprannome": "Pertica Della Piof",
+    "Quotazione": 50,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Luca Barozzi",
+    "Squadra": "Modium",
+    "Soprannome": "Lupin",
+    "Quotazione": 45,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Lanaro",
+    "Squadra": "Modium",
+    "Soprannome": "Il Cacciatore Del Sole",
+    "Quotazione": 40,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Wilson Bona",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": "El Patron Di Trenitalia",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Anderloni",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Armando Renzetti",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Simone Giovinazzi",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Sanetti",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Francesco Modena",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Fabio Daves",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": "Non Se Lo Ricorda Ma Lo Ha",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Bellini",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Marchesi",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": "Non Se Lo Ricorda Ma Lo Ha",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Leonardo Fedrigotti",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": "Il Boscaiolo Ledrense",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Lorenzo Casari",
+    "Squadra": "Nazionale Ferrovieri",
+    "Soprannome": "Il Treno Ferma A Peri",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessio Farinati",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Proteina",
+    "Quotazione": 49,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Manica",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Pala Eolica",
+    "Quotazione": 43,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Pilati",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Ponzio Pilati",
+    "Quotazione": 37,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Matteo Brigo",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Euro Brigo",
+    "Quotazione": 35,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Enrico Bordignon",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Ormone Impazzito",
+    "Quotazione": 24,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Aste",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "3 Ombre",
+    "Quotazione": 21,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Manfredi",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": "Psyco",
+    "Quotazione": 18,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Giovanni Di Meo",
+    "Squadra": "Pinguini Trentini",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicola Togni",
+    "Squadra": "RSA United",
+    "Soprannome": "Circo Togni",
+    "Quotazione": 35,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Alessandro Fait",
+    "Squadra": "RSA United",
+    "Soprannome": "Fait Club",
+    "Quotazione": 33,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Zanini",
+    "Squadra": "RSA United",
+    "Soprannome": "Il Meccanico",
+    "Quotazione": 28,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Togni",
+    "Squadra": "RSA United",
+    "Soprannome": null,
+    "Quotazione": 23,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Tommaso Caliari",
+    "Squadra": "RSA United",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mirko Raffaelli",
+    "Squadra": "RSA United",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Pozzati",
+    "Squadra": "RSA United",
+    "Soprannome": null,
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Zanlucchi",
+    "Squadra": "SBARX",
+    "Soprannome": "Biker Mice",
+    "Quotazione": 34,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Niccolò Orsi",
+    "Squadra": "SBARX",
+    "Soprannome": "Jj4",
+    "Quotazione": 33,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Samuele Kettamier",
+    "Squadra": "SBARX",
+    "Soprannome": null,
+    "Quotazione": 25,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Alessio Zandonai",
+    "Squadra": "SBARX",
+    "Soprannome": null,
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Fontana",
+    "Squadra": "SBARX",
+    "Soprannome": "Ginew",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicholas Marzadro",
+    "Squadra": "SBARX",
+    "Soprannome": "Sgnappa Secca",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Simone Miorelli",
+    "Squadra": "SBARX",
+    "Soprannome": "Tega",
+    "Quotazione": 13,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Christian Trainotti",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Daniele Dalbosco",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Deimichei",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Menolli",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alessio Delli Compagni",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Christian Martinelli",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andreas Galli",
+    "Squadra": "SdrumALA",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mattia Baldessarini",
+    "Squadra": "Shark Attack",
+    "Soprannome": "L’assassino Cerebrale",
+    "Quotazione": 75,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Leonardo Viola",
+    "Squadra": "Shark Attack",
+    "Soprannome": "Uomo Informe 2.0",
+    "Quotazione": 62,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Mattia Festi",
+    "Squadra": "Shark Attack",
+    "Soprannome": "Plastic Man",
+    "Quotazione": 57,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alberto Cerisara",
+    "Squadra": "Shark Attack",
+    "Soprannome": "L’uomo Che Ha Mangiato Justin Bieber",
+    "Quotazione": 45,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Gabriele Brentari",
+    "Squadra": "Shark Attack",
+    "Soprannome": "Mocio Vileda",
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Giordani",
+    "Squadra": "Shark Attack",
+    "Soprannome": "Lo Chef Più In Forma D’europa",
+    "Quotazione": 22,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Ignaccolo",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Fidel - Cerci Della Busa",
+    "Quotazione": 52,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Tonolli",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Mark Renton",
+    "Quotazione": 40,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Leonardi",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Pan Carrè",
+    "Quotazione": 35,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Daniele Feltrinelli",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Transiberiana",
+    "Quotazione": 29,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Emanuele Miorandi",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Re Di Bastoni",
+    "Quotazione": 23,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Michele Leonardi",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Pesto Tigullio",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Riccardo Barbiero",
+    "Squadra": "Sughi ebbasta",
+    "Soprannome": "Alabarda Spaziale",
+    "Quotazione": 10,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Matteo Diener",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Nemico Del Popolo",
+    "Quotazione": 64,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Gober Andrea",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Scintillio",
+    "Quotazione": 53,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Riccardo Zaffoni",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Lugherim",
+    "Quotazione": 47,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Elia Battisti",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Boiler",
+    "Quotazione": 45,
+    "Ruolo": "PORTIERE"
+  },
+  {
+    "Nominativo": "Marco Heidempergher",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Candalporco",
+    "Quotazione": 25,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Nicolodi",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": "Notti Magiche",
+    "Quotazione": 20,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Martino Tamoni",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": null,
+    "Quotazione": 19,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "William Pedri",
+    "Squadra": "U.S. Guarna",
+    "Soprannome": null,
+    "Quotazione": 15,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Federico Rippa",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Luca Morin",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Jacopo Zecchinelli",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": "Er Mutanda",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Davide Zoara",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": "Sturmtruppen",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Fabio Battistotti",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": "Jeremy Wade",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Andrea Di Filippo",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Nicola Dalledonne",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Francesco Cristoforetti",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": "Black Hole",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Alberto Curcio",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": null,
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  },
+  {
+    "Nominativo": "Leonardo Trinco",
+    "Squadra": "Vigili del Fusto",
+    "Soprannome": "Corpo Nazionale",
+    "Quotazione": 5,
+    "Ruolo": "MOVIMENTO"
+  }
+]

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fantacalciosplash Lizzana — Il fantacalcio del torneo GSP Lizzana">
+  <title>Fantacalciosplash Lizzana ⚽</title>
+  <link rel="icon" href="./favicon.ico">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            gray: {
+              750: '#2d3748',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', system-ui, sans-serif; }
+
+    /* Smooth accordion transitions */
+    .accordion-enter { animation: slideDown 0.2s ease-out; }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Custom scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+
+    /* Tabular numbers for scores */
+    .tabular-nums { font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+  <!-- Header -->
+  <header class="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700">
+    <div class="max-w-5xl mx-auto px-4 py-6">
+      <div class="text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">
+          Fantacalciosplash Lizzana ⚽
+        </h1>
+        <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+          Il fantacalcio del torneo GSP Lizzana
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-5xl mx-auto px-4 py-6">
+    <!-- Dark mode toggle -->
+    <div class="flex justify-end mb-4">
+      <button id="dark-toggle"
+        class="p-2 rounded-lg text-gray-500 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+        title="Tema chiaro/scuro">
+        <svg id="icon-sun" class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+        </svg>
+        <svg id="icon-moon" class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Edition tabs -->
+    <div id="tabs" class="mb-6"></div>
+
+    <!-- Edition content -->
+    <div id="content">
+      <div class="flex items-center justify-center py-12">
+        <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-green-600"></div>
+        <span class="ml-3 text-gray-500">Caricamento...</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-12 py-6 text-center text-sm text-gray-400 dark:text-gray-500 border-t border-gray-200 dark:border-gray-700">
+    <p>Made with 🍻 by GSP Lizzana</p>
+    <p class="mt-1">
+      <a href="https://github.com" class="hover:text-green-600 transition-colors">GitHub</a>
+    </p>
+  </footer>
+
+  <!-- Dark mode script (runs before app to avoid flash) -->
+  <script>
+    const toggle = document.getElementById('dark-toggle');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'dark' ||
+        (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
+    }
+
+    toggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+  <!-- App -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

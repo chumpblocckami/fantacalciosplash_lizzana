@@ -1,0 +1,17 @@
+{
+  "name": "fantacalciosplash-lizzana",
+  "version": "2.0.0",
+  "description": "Fantacalciosplash Lizzana — Fantasy football for the GSP Lizzana splash tournament",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "compute": "node scripts/compute-scores.js",
+    "classifica": "node scripts/build-classifica.js",
+    "build": "node scripts/scrape.js && node scripts/compute-scores.js && node scripts/build-classifica.js",
+    "serve": "npx serve . -p 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
