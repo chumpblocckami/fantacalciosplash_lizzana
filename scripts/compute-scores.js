@@ -7,6 +7,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import { fullName } from './names.js';
 
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const API_DIR = join('assets', YEAR, 'api');
@@ -41,10 +42,6 @@ function writeJson(path, data) {
   mkdirSync(join(path, '..'), { recursive: true });
   writeFileSync(path, JSON.stringify(data, null, 2));
   console.log(`  ✓ ${path}`);
-}
-
-function fullName(player) {
-  return `${player.name ?? ''} ${player.surname ?? ''}`.replace(/\s+/g, ' ').trim();
 }
 
 /**

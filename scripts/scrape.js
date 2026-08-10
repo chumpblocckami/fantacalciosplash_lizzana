@@ -7,6 +7,7 @@
 
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import { fullName } from './names.js';
 
 const API_URL = process.env.GSP_API_URL || 'https://api.cs.xana2.media/api';
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
@@ -29,10 +30,6 @@ function saveJson(path, data) {
   mkdirSync(join(path, '..'), { recursive: true });
   writeFileSync(path, JSON.stringify(data, null, 2));
   console.log(`  ✓ ${path}`);
-}
-
-function fullName(player) {
-  return `${player.name ?? ''} ${player.surname ?? ''}`.replace(/\s+/g, ' ').trim();
 }
 
 async function scrapeTeams() {
