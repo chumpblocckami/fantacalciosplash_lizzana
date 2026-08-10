@@ -67,7 +67,7 @@ function doPost(e) {
   }
 }
 
-function doGet() {
+function readRegistrations() {
   const rows = getSheet().getDataRange().getValues();
   rows.shift();
 
@@ -86,5 +86,18 @@ function doGet() {
       };
     });
 
-  return jsonResponse(Object.values(byCoach));
+  return Object.values(byCoach);
+}
+
+function doGet(e) {
+  const registrations = readRegistrations();
+
+  // The public site only shows how many teams are in, so answer that with a number: the
+  // lineups then stay in the sheet until fetch-registrations.js pulls the full list at build
+  // time, rather than being downloaded by every visitor while the iscrizioni are still open.
+  if (e && e.parameter && e.parameter.count) {
+    return jsonResponse({ count: registrations.length });
+  }
+
+  return jsonResponse(registrations);
 }

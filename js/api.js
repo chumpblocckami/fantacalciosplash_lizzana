@@ -1,4 +1,9 @@
-import { GSP_API_URL, LIVE_REFRESH_INTERVAL_MS, CURRENT_YEAR } from './constants.js';
+import {
+  GSP_API_URL,
+  LIVE_REFRESH_INTERVAL_MS,
+  CURRENT_YEAR,
+  REGISTRATION_ENDPOINT,
+} from './constants.js';
 
 const BASE_DATA_PATH = './data';
 
@@ -54,6 +59,31 @@ export async function loadRisultati(edition) {
 
 export async function loadHistory() {
   return fetchLocal(`${BASE_DATA_PATH}/history.json`);
+}
+
+/**
+ * Count the teams registered so far, asked straight to the registration backend.
+ *
+ * squadre.json is only written on tournament day, so while the iscrizioni are open the sheet
+ * behind the Apps Script is the one place that knows the running total. The count=1 parameter
+ * makes an up-to-date deployment answer with a bare number instead of every lineup; an older
+ * deployment ignores it and returns the full list, which is counted here instead.
+ *
+ * @returns {Promise<number|null>} Teams registered, or null if the backend cannot be reached
+ */
+export async function loadRegistrationCount() {
+  if (!REGISTRATION_ENDPOINT) return null;
+  try {
+    const resp = await fetch(`${REGISTRATION_ENDPOINT}?count=1`, {
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    if (Array.isArray(data)) return data.length;
+    return typeof data?.count === 'number' ? data.count : null;
+  } catch {
+    return null;
+  }
 }
 
 /**

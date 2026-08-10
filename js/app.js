@@ -1,5 +1,5 @@
 import { CURRENT_YEAR } from './constants.js';
-import { loadEditions, loadEditionData } from './api.js';
+import { loadEditions, loadEditionData, loadRegistrationCount } from './api.js';
 import { renderTabs } from './components/tabs.js';
 import { renderTable } from './components/table.js';
 import { renderAccordion } from './components/accordion.js';
@@ -74,6 +74,13 @@ async function main() {
           });
         },
       });
+    }
+
+    // How many teams are in. The Squadre iscritte section below already carries the number in
+    // its title, so this only fills the gap before squadre.json exists, i.e. while the
+    // iscrizioni are open and the count can only come from the registration backend.
+    if (isCurrentEdition && !data.squadre?.length) {
+      renderRegistrationCount(contentContainer);
     }
 
     // Squadre iscritte
@@ -163,6 +170,32 @@ async function main() {
 }
 
 // ===== HELPERS =====
+
+/**
+ * Show a running count of registered teams, styled like a collapsed accordion header.
+ *
+ * The count is fetched rather than read from data/, so the box is appended immediately to keep
+ * the section order and filled in when the answer arrives. If the backend is unreachable the
+ * box is dropped instead of showing a zero that would read as "nobody signed up".
+ */
+function renderRegistrationCount(container) {
+  const box = document.createElement('div');
+  box.className = `border border-gray-200 dark:border-gray-700 rounded-lg mb-3
+                   bg-gray-50 dark:bg-gray-800 px-4 py-3
+                   text-sm font-medium text-gray-700 dark:text-gray-200`;
+  box.textContent = 'Fantasquadre iscritte...';
+  container.appendChild(box);
+
+  loadRegistrationCount().then((count) => {
+    if (count === null) {
+      box.remove();
+      return;
+    }
+    box.textContent = count === 1
+      ? '1 fantasquadra iscritta finora 👯‍♀️'
+      : `${count} fantasquadre iscritte finora 👯‍♀️`;
+  });
+}
 
 function renderRegolamentoButton(container, edition) {
   const btn = document.createElement('a');
