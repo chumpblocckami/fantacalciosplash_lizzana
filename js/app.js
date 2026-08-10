@@ -43,8 +43,10 @@ async function main() {
     renderRegolamentoButton(contentContainer, edition);
 
     // Registration (current edition only)
+    // Every section below checks for rows, not just for the file: the JSON is written as an
+    // empty list before the tournament starts, and an empty accordion is only noise.
     const isCurrentEdition = edition === CURRENT_YEAR;
-    if (isCurrentEdition && data.giocatori) {
+    if (isCurrentEdition && data.giocatori?.length) {
       renderAccordion(contentContainer, {
         title: 'Iscrivi una squadra 🤼‍♂️',
         id: `reg-${edition}`,
@@ -54,7 +56,7 @@ async function main() {
     }
 
     // Quotazione giocatori
-    if (data.giocatori) {
+    if (data.giocatori?.length) {
       renderAccordion(contentContainer, {
         title: 'Quotazione giocatori 💰',
         id: `giocatori-${edition}`,
@@ -75,7 +77,7 @@ async function main() {
     }
 
     // Squadre iscritte
-    if (data.squadre) {
+    if (data.squadre?.length) {
       renderAccordion(contentContainer, {
         title: `Squadre iscritte 👯‍♀️ (${data.squadre.length})`,
         id: `squadre-${edition}`,
@@ -104,7 +106,7 @@ async function main() {
     }
 
     // Risultati
-    if (data.risultati) {
+    if (data.risultati?.length) {
       renderAccordion(contentContainer, {
         title: `Risultati ⚽ (${data.risultati.length} partite)`,
         id: `risultati-${edition}`,
@@ -114,7 +116,7 @@ async function main() {
     }
 
     // Punteggi giocatore
-    if (data.punteggi) {
+    if (data.punteggi?.length) {
       renderAccordion(contentContainer, {
         title: 'Punteggi giocatore 🍿',
         id: `punteggi-${edition}`,
@@ -138,7 +140,7 @@ async function main() {
     }
 
     // Classifica
-    if (data.classifica) {
+    if (data.classifica?.length) {
       renderAccordion(contentContainer, {
         title: 'Classifica 🏆',
         id: `classifica-${edition}`,
