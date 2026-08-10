@@ -36,4 +36,5 @@ export const GSP_API_URL = 'https://api.gsplizzana.it/api';
 export const LIVE_REFRESH_INTERVAL_MS = 30_000;
 
 // Google Apps Script endpoint for registration (set after deploying)
-export const REGISTRATION_ENDPOINT = '';
+export const REGISTRATION_ENDPOINT =
+  'https://script.google.com/macros/s/AKfycbwguh4mbtJ8VSQYXszAeNcVV6jiWB0RS-ckQGb91G1IoF677cgwJRtJYxjGvTlJcLKf/exec';
