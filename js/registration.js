@@ -1,4 +1,4 @@
-import { BUDGET, REGISTRATION_ENDPOINT, DEADLINE, CURRENT_YEAR } from './constants.js';
+import { BUDGET, REGISTRATION_ENDPOINT, DEADLINE } from './constants.js';
 
 /**
  * Check if registrations are currently open.
@@ -40,6 +40,10 @@ export function computeBudget(selectedPlayers, giocatori) {
 export function validate(coach, goalkeeper, starters, reserve, budget) {
   const errors = [];
 
+  // A half-filled form is the normal state while someone is still choosing, and the third
+  // dropdown can be picked before the first, so the starters may arrive with gaps in them.
+  const chosen = (starters ?? []).filter(Boolean);
+
   if (!coach || !coach.trim()) {
     errors.push('Inserire il nome del fantallenatore!');
   }
@@ -48,7 +52,7 @@ export function validate(coach, goalkeeper, starters, reserve, budget) {
     errors.push('Seleziona un portiere!');
   }
 
-  if (!starters || starters.length !== 3) {
+  if (chosen.length !== 3) {
     errors.push('Seleziona esattamente 3 giocatori titolari!');
   }
 
@@ -56,17 +60,15 @@ export function validate(coach, goalkeeper, starters, reserve, budget) {
     errors.push('Seleziona una riserva!');
   }
 
-  // No two movement players from the same real team
-  if (starters && reserve) {
-    const movementTeams = [...starters, reserve].map(p => p.split('|')[1]?.trim().toUpperCase());
-    const uniqueTeams = new Set(movementTeams);
-    if (uniqueTeams.size < movementTeams.length) {
-      errors.push('Non puoi convocare due giocatori di movimento della stessa squadra!');
-    }
+  // No two movement players from the same real team. The goalkeeper is exempt: the
+  // regolamento allows a keeper and a movement player from the same side.
+  const movement = [...chosen, reserve].filter(Boolean);
+  const teams = movement.map(p => p.split('|')[1]?.trim().toUpperCase());
+  if (new Set(teams).size < teams.length) {
+    errors.push('Non puoi convocare due giocatori di movimento della stessa squadra!');
   }
 
-  // No player in both starters and reserve
-  if (starters && reserve && starters.includes(reserve)) {
+  if (reserve && chosen.includes(reserve)) {
     errors.push('Un giocatore non può essere sia titolare che riserva!');
   }
 

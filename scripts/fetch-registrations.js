@@ -33,7 +33,11 @@ async function main() {
   console.log(`  ✓ ${OUTPUT} (${squadre.length} squadre)\n`);
 }
 
+// A failure here must not take the run down with it. This step is one of four in the
+// tournament-day workflow, and the two before it have already recomputed the scores; exiting
+// non-zero would skip the commit and throw those away for the sake of a registration list
+// that has not changed since the deadline anyway. The previous squadre.json stays in place.
 main().catch(err => {
-  console.error('❌ Could not fetch registrations:', err.message);
-  process.exit(1);
+  console.error(`❌ Could not fetch registrations: ${err.message}`);
+  console.error('   Keeping the existing squadre.json and carrying on.');
 });

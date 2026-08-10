@@ -8,8 +8,9 @@
 import { writeFileSync, readFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { fullName } from './names.js';
+import { GSP_API_URL } from '../js/constants.js';
 
-const API_URL = process.env.GSP_API_URL || 'https://api.cs.xana2.media/api';
+const API_URL = process.env.GSP_API_URL || GSP_API_URL;
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const API_DIR = join('assets', YEAR, 'api');
 const DATA_DIR = join('data', YEAR);

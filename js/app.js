@@ -134,7 +134,6 @@ async function main() {
           tableDiv.className = 'mt-3';
           body.appendChild(tableDiv);
 
-          const pKey = findPlayerKey(data.punteggi[0]);
           const cols = Object.keys(data.punteggi[0]);
           renderTable(tableDiv, {
             id: `punteggi-table-${edition}`,
@@ -197,9 +196,18 @@ function renderRegistrationCount(container) {
   });
 }
 
+/**
+ * Offer the regolamento, but only for editions that actually have one.
+ *
+ * assets/2023/ has no regolamento.pdf, and there is no manifest to consult, so the file is
+ * asked for and the button dropped if it is not there. Appending first and removing later
+ * keeps the section order stable while the request is in flight.
+ */
 function renderRegolamentoButton(container, edition) {
+  const href = `./assets/${edition}/regolamento.pdf`;
+
   const btn = document.createElement('a');
-  btn.href = `./assets/${edition}/regolamento.pdf`;
+  btn.href = href;
   btn.download = `${edition}_regolamento.pdf`;
   btn.className = `inline-flex items-center gap-2 px-4 py-2 mb-4 text-sm font-medium
                     text-green-700 bg-green-50 border border-green-200 rounded-lg
@@ -207,6 +215,10 @@ function renderRegolamentoButton(container, edition) {
                     dark:text-green-400 dark:bg-green-900/20 dark:border-green-800`;
   btn.innerHTML = `📋 Regolamento ${edition}`;
   container.appendChild(btn);
+
+  fetch(href, { method: 'HEAD' })
+    .then(resp => { if (!resp.ok) btn.remove(); })
+    .catch(() => btn.remove());
 }
 
 function renderDownloadButton(container, data, filename, label) {
@@ -241,13 +253,6 @@ function downloadCsv(data, filename) {
   a.download = filename;
   a.click();
   URL.revokeObjectURL(url);
-}
-
-function findPlayerKey(row) {
-  if (!row) return 'player';
-  if ('player' in row) return 'player';
-  if ('NOME' in row) return 'NOME';
-  return Object.keys(row)[0];
 }
 
 function getClassificaColumns(row) {

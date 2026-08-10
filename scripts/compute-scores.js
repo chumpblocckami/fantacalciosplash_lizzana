@@ -8,30 +8,34 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { fullName } from './names.js';
+import {
+  POINTS_PER_GOAL,
+  POINTS_PER_YELLOW_CARD,
+  POINTS_PER_RED_CARD,
+  POINTS_PER_VICTORY,
+  POINTS_PER_DRAW,
+  POINTS_PER_DEFEAT,
+  POINTS_PER_MISSING_GAME,
+  POINTS_PER_CLEANSHEET,
+  POINTS_PER_CONCEDED_GOAL,
+  POINTS_MVP,
+  POINTS_TOP_SCORER,
+} from '../js/constants.js';
 
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const API_DIR = join('assets', YEAR, 'api');
 const DATA_DIR = join('data', YEAR);
-
-// Scoring constants (must match js/constants.js)
-const POINTS = {
-  GOAL: 2,
-  YELLOW_CARD: -2,
-  RED_CARD: -3,
-  VICTORY: 2,
-  DRAW: 1,
-  DEFEAT: 0,
-  MISSING_GAME: -2,
-  CLEANSHEET: 5,
-  CONCEDED_GOAL: -0.5,
-  MVP: 3,
-};
 
 // The fantacalcio only covers the men's tournament.
 const GENDER = 'male';
 
 // Groups the organisers use for rehearsals, never part of the real tournament.
 const EXCLUDED_GROUPS = ['test grafico'];
+
+// Regolamento rule 8: "La finale 3 / 4 posto non conta ai fini dei punteggi fanta, contera
+// invece per le classifiche capocannonieri." Written as a pattern because the organisers spell
+// the group differently from year to year: "Terzo/Quarto M", "terzo quarto", "3/4 M".
+const THIRD_PLACE_PLAY_OFF = /(terzo\s*[/ ]\s*quarto|3\s*\/\s*4)/i;
 
 function readJson(path) {
   if (!existsSync(path)) return null;
@@ -58,27 +62,15 @@ function isRelevant(fixture) {
   );
 }
 
-function emptyMatchPoints(teamPoints) {
-  return {
-    goals: 0,
-    yellow_cards: 0,
-    red_cards: 0,
-    team_points: teamPoints,
-    goalkeeper_points: 0,
-    mvp_points: 0,
-    total_points: teamPoints,
-  };
-}
-
 function computeMatchPoints(player, teamScore, concededGoals, isMvp) {
-  const goalPts = (player.goals ?? 0) * POINTS.GOAL;
-  const yellowPts = (player.yellow_cards ?? 0) * POINTS.YELLOW_CARD;
-  const redPts = (player.red_cards ?? 0) * POINTS.RED_CARD;
-  const teamPts = teamScore > concededGoals ? POINTS.VICTORY
-    : teamScore < concededGoals ? POINTS.DEFEAT : POINTS.DRAW;
+  const goalPts = (player.goals ?? 0) * POINTS_PER_GOAL;
+  const yellowPts = (player.yellow_cards ?? 0) * POINTS_PER_YELLOW_CARD;
+  const redPts = (player.red_cards ?? 0) * POINTS_PER_RED_CARD;
+  const teamPts = teamScore > concededGoals ? POINTS_PER_VICTORY
+    : teamScore < concededGoals ? POINTS_PER_DEFEAT : POINTS_PER_DRAW;
   const gkPts = !player.is_goalkeeper ? 0
-    : concededGoals === 0 ? POINTS.CLEANSHEET : concededGoals * POINTS.CONCEDED_GOAL;
-  const mvpPts = isMvp ? POINTS.MVP : 0;
+    : concededGoals === 0 ? POINTS_PER_CLEANSHEET : concededGoals * POINTS_PER_CONCEDED_GOAL;
+  const mvpPts = isMvp ? POINTS_MVP : 0;
 
   return {
     goals: goalPts,
@@ -91,39 +83,13 @@ function computeMatchPoints(player, teamScore, concededGoals, isMvp) {
   };
 }
 
-function processTeam(team, concededGoals, ratings, mvpId) {
-  if (!ratings[team.name]) ratings[team.name] = {};
-
-  const seen = new Set();
+/** Every player a team named for a fixture, each one only once. */
+function squad(team) {
+  const seen = new Map();
   for (const player of [...(team.players ?? []), ...(team.substitutes ?? [])]) {
-    if (seen.has(player.id)) continue;
-    seen.add(player.id);
-
-    const playerId = `${fullName(player)} | ${team.name}`;
-    if (!ratings[team.name][playerId]) ratings[team.name][playerId] = [];
-    ratings[team.name][playerId].push(
-      computeMatchPoints(player, team.score, concededGoals, mvpId !== null && player.id === mvpId)
-    );
+    if (!seen.has(player.id)) seen.set(player.id, player);
   }
-}
-
-/**
- * Teams that never reached the knockout stage lose points for every round they missed.
- * Who qualified is read off the knockout fixtures themselves rather than a fixed cut-off,
- * so the malus follows whatever bracket size the organisers pick.
- */
-function applyEliminationMalus(ratings, groupStageTeams, knockoutTeams, rounds) {
-  if (!rounds) return;
-
-  for (const team of groupStageTeams) {
-    if (!ratings[team]) continue;
-    const points = knockoutTeams.has(team) ? 0 : POINTS.MISSING_GAME;
-    for (const playerId of Object.keys(ratings[team])) {
-      for (let i = 0; i < rounds; i++) {
-        ratings[team][playerId].push(emptyMatchPoints(points));
-      }
-    }
-  }
+  return [...seen.values()];
 }
 
 function main() {
@@ -135,17 +101,33 @@ function main() {
     return;
   }
 
-  const groups = readJson(join(API_DIR, 'groups.json'))?.data ?? [];
-  const knockoutGroups = new Set(
-    groups.filter(g => g.gender === GENDER && g.kind !== 'girone').map(g => g.name)
-  );
-
-  const ratings = {};              // { teamName: { playerId: [MatchPoints, ...] } }
+  const rosters = new Map();       // team -> Set(playerId), everyone who ever played for it
+  const scored = new Map();        // `fixtureId::team` -> Map(playerId -> MatchPoints)
+  const teamFixtures = new Map();  // team -> [fixtureId], in the order they were played
+  const goalsScored = new Map();   // playerId -> goals, the third-place play-off included
   const results = [];              // [{ home, away, score, stage }]
-  const groupStageTeams = new Set();
-  const knockoutTeams = new Set();
-  const knockoutRounds = new Set();
   let skipped = 0;
+
+  /** Record one team's contribution to one fixture. */
+  const record = (fixtureId, team, concededGoals, mvpId, countsForFanta) => {
+    const players = squad(team);
+    if (!rosters.has(team.name)) rosters.set(team.name, new Set());
+
+    const points = new Map();
+    for (const player of players) {
+      const playerId = `${fullName(player)} | ${team.name}`;
+      goalsScored.set(playerId, (goalsScored.get(playerId) ?? 0) + (player.goals ?? 0));
+      if (!countsForFanta) continue;
+
+      rosters.get(team.name).add(playerId);
+      points.set(playerId, computeMatchPoints(player, team.score, concededGoals, player.id === mvpId));
+    }
+
+    if (!countsForFanta) return;
+    scored.set(`${fixtureId}::${team.name}`, points);
+    if (!teamFixtures.has(team.name)) teamFixtures.set(team.name, []);
+    teamFixtures.get(team.name).push(fixtureId);
+  };
 
   for (const fixture of fixtureList) {
     if (!isRelevant(fixture)) continue;
@@ -162,13 +144,12 @@ function main() {
     const mvpId = detail.best_player?.id ?? null;
     const stage = fixture.group_name;
 
-    processTeam(home, away.score, ratings, mvpId);
-    processTeam(away, home.score, ratings, mvpId);
+    // The play-off is still shown on the scoreboard and still feeds the capocannoniere
+    // standings; it just does not earn anybody fantasy points.
+    const countsForFanta = !THIRD_PLACE_PLAY_OFF.test(stage ?? '');
 
-    const bucket = knockoutGroups.has(stage) ? knockoutTeams : groupStageTeams;
-    bucket.add(home.name);
-    bucket.add(away.name);
-    if (knockoutGroups.has(stage)) knockoutRounds.add(stage);
+    record(fixture.id, home, away.score, mvpId, countsForFanta);
+    record(fixture.id, away, home.score, mvpId, countsForFanta);
 
     results.push({
       home: home.name,
@@ -179,34 +160,50 @@ function main() {
   }
 
   console.log(`  Processed ${results.length} matches (${skipped} not played yet)`);
-  applyEliminationMalus(ratings, groupStageTeams, knockoutTeams, knockoutRounds.size);
 
-  // Build punteggi table
+  // Every team is given a column per round, so a team that went out early has a column for
+  // each round it did not play. Regolamento rule 6: -2 per phase the team missed, once.
+  const rounds = Math.max(0, ...[...teamFixtures.values()].map(fixtures => fixtures.length));
+
+  // Regolamento: "Punteggi a fine torneo. Capocannoniere +5." Awarded only once every fixture
+  // has been played, so the live table does not hand the prize to whoever is ahead today.
+  const finished = results.length > 0 && skipped === 0;
+  const mostGoals = Math.max(0, ...goalsScored.values());
+  const topScorers = new Set(
+    finished && mostGoals > 0
+      ? [...goalsScored].filter(([, goals]) => goals === mostGoals).map(([player]) => player)
+      : []
+  );
+
   const punteggiRows = [];
-  let maxMatches = 0;
+  const eliminazioni = {};
 
-  for (const teamData of Object.values(ratings)) {
-    for (const [playerId, matchList] of Object.entries(teamData)) {
-      maxMatches = Math.max(maxMatches, matchList.length);
+  for (const [team, players] of rosters) {
+    const fixtures = teamFixtures.get(team) ?? [];
+
+    for (const playerId of players) {
       const row = { player: playerId };
+      const missed = [];
       let total = 0;
-      for (let i = 0; i < matchList.length; i++) {
-        row[`Match ${i + 1}`] = matchList[i].total_points;
-        total += matchList[i].total_points;
-      }
-      row.Premi = 0;
-      row.Total = Math.round(total * 10) / 10;
-      punteggiRows.push(row);
-    }
-  }
 
-  // Players whose team played fewer matches are charged for the ones they missed
-  for (const row of punteggiRows) {
-    for (let i = 1; i <= maxMatches; i++) {
-      if (row[`Match ${i}`] === undefined) {
-        row[`Match ${i}`] = POINTS.MISSING_GAME;
-        row.Total = Math.round((row.Total + POINTS.MISSING_GAME) * 10) / 10;
+      for (let i = 0; i < rounds; i++) {
+        const column = `Match ${i + 1}`;
+        if (i < fixtures.length) {
+          // Left out of the squad for a match the team did play: no substitution is due,
+          // because the player has not been eliminated from anything.
+          const points = scored.get(`${fixtures[i]}::${team}`)?.get(playerId);
+          row[column] = points ? points.total_points : POINTS_PER_MISSING_GAME;
+        } else {
+          row[column] = POINTS_PER_MISSING_GAME;
+          missed.push(column);
+        }
+        total += row[column];
       }
+
+      row.Premi = topScorers.has(playerId) ? POINTS_TOP_SCORER : 0;
+      row.Total = Math.round((total + row.Premi) * 10) / 10;
+      punteggiRows.push(row);
+      if (missed.length) eliminazioni[playerId] = missed;
     }
   }
 
@@ -215,15 +212,26 @@ function main() {
   writeJson(join(DATA_DIR, 'punteggi.json'), punteggiRows);
   writeJson(join(DATA_DIR, 'risultati.json'), results);
 
-  // Raw per-match ratings, used to rebuild history.json
+  // Which matches a player missed because their team was out, as opposed to any other reason
+  // they scored the penalty. build-classifica.js needs the difference to know when the
+  // regolamento lets a reserve come on.
+  writeJson(join(DATA_DIR, 'eliminazioni.json'), eliminazioni);
+
+  // Raw per-match ratings, used to rebuild history.json and to price the next edition. Only
+  // matches that were actually played, so points-per-match means what it says.
   const rawRatings = {};
-  for (const teamData of Object.values(ratings)) {
-    for (const [player, matches] of Object.entries(teamData)) {
-      rawRatings[player] = matches;
+  for (const [team, players] of rosters) {
+    for (const playerId of players) {
+      rawRatings[playerId] = (teamFixtures.get(team) ?? [])
+        .map(fixtureId => scored.get(`${fixtureId}::${team}`)?.get(playerId))
+        .filter(Boolean);
     }
   }
   writeJson(join('assets', YEAR, 'punteggi.json'), rawRatings);
 
+  if (topScorers.size) {
+    console.log(`  🏆 Capocannoniere (${mostGoals} gol): ${[...topScorers].join(', ')}`);
+  }
   console.log(`\n✅ Computed ${punteggiRows.length} player scores, ${results.length} match results\n`);
 }
 

@@ -1,4 +1,0 @@
-streamlit
-openpyxl
-python-dotenv
-levenshtein

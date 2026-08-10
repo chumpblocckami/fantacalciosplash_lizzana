@@ -32,9 +32,14 @@ export const MAX_GOALKEEPERS = 1;
 
 // ===== TOURNAMENT CONFIG =====
 export const CURRENT_YEAR = '2026';
-export const DEADLINE = new Date('2026-08-13T16:00:00+02:00');
-export const GSP_API_URL = 'https://api.gsplizzana.it/api';
-export const LIVE_REFRESH_INTERVAL_MS = 30_000;
+
+// Regolamento rule 4: "La squadra va inserita entro e non oltre mercoledi 13 agosto alle
+// ore 23.59."
+export const DEADLINE = new Date('2026-08-13T23:59:00+02:00');
+
+// Where scripts/scrape.js pulls the live data from, overridable with the GSP_API_URL
+// environment variable.
+export const GSP_API_URL = 'https://api.cs.xana2.media/api';
 
 // Google Apps Script endpoint for registration (set after deploying)
 export const REGISTRATION_ENDPOINT =

@@ -1,3 +1,5 @@
+import { escapeHtml } from '../html.js';
+
 /**
  * Render a sortable, filterable data table.
  *
@@ -80,7 +82,7 @@ export function renderTable(container, config) {
       <th class="px-3 py-2 text-left font-semibold text-xs">#</th>
       ${columns.map((col, i) => `
         <th class="px-3 py-2 text-left font-semibold text-xs ${sortable ? 'cursor-pointer hover:bg-green-700' : ''}"
-            data-col="${i}">${col}<span data-arrow="${i}"></span></th>
+            data-col="${i}">${escapeHtml(col)}<span data-arrow="${i}"></span></th>
       `).join('')}
     `;
 
@@ -142,5 +144,5 @@ function formatCell(value) {
   if (typeof value === 'number') {
     return value % 1 === 0 ? value.toString() : value.toFixed(1);
   }
-  return String(value);
+  return escapeHtml(value);
 }

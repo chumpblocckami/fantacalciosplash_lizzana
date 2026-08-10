@@ -1,3 +1,5 @@
+import { escapeHtml } from '../html.js';
+
 /**
  * Render match results as a scoreboard grid.
  *
@@ -23,7 +25,7 @@ export function renderScoreboard(container, matches) {
   container.innerHTML = Object.entries(stages).map(([stage, stageMatches]) => `
     <div class="mb-6">
       <h4 class="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-3">
-        ${stage}
+        ${escapeHtml(stage)}
       </h4>
       <div class="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         ${stageMatches.map(m => renderMatchCard(m)).join('')}
@@ -50,13 +52,13 @@ function renderMatchCard(match) {
     <div class="bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700
                 p-3 hover:shadow-md transition-shadow ${isLive ? 'ring-2 ring-red-400' : ''}">
       <div class="flex items-center justify-between mb-1">
-        <span class="text-xs text-gray-400">${match.stage || ''}</span>
+        <span class="text-xs text-gray-400">${escapeHtml(match.stage || '')}</span>
         ${statusBadge}
       </div>
       <div class="flex items-center justify-between gap-2">
         <div class="flex-1 text-right">
           <span class="text-sm ${homeWin ? 'font-bold text-gray-900 dark:text-white' : 'text-gray-600 dark:text-gray-300'}">
-            ${match.home}
+            ${escapeHtml(match.home)}
           </span>
         </div>
         <div class="flex-shrink-0 px-3 py-1 bg-gray-100 dark:bg-gray-700 rounded font-mono font-bold text-lg">
@@ -66,7 +68,7 @@ function renderMatchCard(match) {
         </div>
         <div class="flex-1 text-left">
           <span class="text-sm ${awayWin ? 'font-bold text-gray-900 dark:text-white' : 'text-gray-600 dark:text-gray-300'}">
-            ${match.away}
+            ${escapeHtml(match.away)}
           </span>
         </div>
       </div>

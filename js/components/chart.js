@@ -1,3 +1,5 @@
+import { escapeHtml } from '../html.js';
+
 /**
  * Render a horizontal bar chart showing most-bought players.
  *
@@ -44,8 +46,8 @@ export function renderPopularPlayersChart(container, squadre) {
         const pct = (count / maxCount) * 100;
         return `
           <div class="flex items-center gap-3">
-            <span class="text-xs text-gray-600 dark:text-gray-300 w-40 truncate text-right" title="${name}">
-              ${name}
+            <span class="text-xs text-gray-600 dark:text-gray-300 w-40 truncate text-right" title="${escapeHtml(name)}">
+              ${escapeHtml(name)}
             </span>
             <div class="flex-1 bg-gray-100 dark:bg-gray-700 rounded-full h-5 overflow-hidden">
               <div class="bg-green-500 h-full rounded-full transition-all duration-500 flex items-center justify-end pr-2"

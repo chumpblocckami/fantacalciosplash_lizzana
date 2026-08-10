@@ -9,7 +9,8 @@
     "registrations": "node scripts/fetch-registrations.js",
     "classifica": "node scripts/build-classifica.js",
     "build": "node scripts/scrape.js && node scripts/compute-scores.js && node scripts/fetch-registrations.js && node scripts/build-classifica.js",
-    "serve": "npx serve . -p 8080"
+    "serve": "npx serve . -p 8080",
+    "test": "node --test tests/"
   },
   "engines": {
     "node": ">=20"

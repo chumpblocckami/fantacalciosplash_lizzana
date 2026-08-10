@@ -1,5 +1,6 @@
 import { BUDGET, DEADLINE, ISCRIZIONE_FEE_EUR, PAYPAL_ME_USER } from '../constants.js';
 import { computeBudget, validate, submitTeam, isRegistrationOpen } from '../registration.js';
+import { escapeHtml } from '../html.js';
 
 /**
  * Render the team registration form.
@@ -30,7 +31,7 @@ export function renderRegistrationForm(container, giocatori) {
   const state = {
     coach: '',
     goalkeeper: '',
-    starters: [],
+    starters: ['', '', ''],
     reserve: '',
     budget: BUDGET,
   };
@@ -40,7 +41,7 @@ export function renderRegistrationForm(container, giocatori) {
   });
 
   const options = players => players.map(p => `
-    <option value="${escapeHtml(p.label)}">${p.label} (${p.cost} cr.)</option>
+    <option value="${escapeHtml(p.label)}">${escapeHtml(p.label)} (${p.cost} cr.)</option>
   `).join('');
 
   const SELECT_CLASS = `w-full px-3 py-2 border border-gray-300 rounded-lg text-sm
@@ -231,9 +232,4 @@ function paymentHtml(coach) {
       </p>
     </div>
   `;
-}
-
-function escapeHtml(str) {
-  if (!str) return '';
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }

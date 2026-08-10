@@ -7,10 +7,10 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
+import { POINTS_PER_MISSING_GAME } from '../js/constants.js';
+
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const DATA_DIR = join('data', YEAR);
-
-const POINTS_MISSING = -2;
 
 function readJson(path) {
   if (!existsSync(path)) return null;
@@ -44,6 +44,49 @@ function findClosest(name, candidates) {
   return maxLen > 0 && (1 - bestDist / maxLen) >= 0.8 ? best : null;
 }
 
+/**
+ * Keep one entry per fantallenatore, the most recent one.
+ *
+ * Coach names are compared the same way player names are, so trailing spaces and case do not
+ * let the same person through twice.
+ */
+function dedupe(squadre) {
+  const byCoach = new Map();
+  for (const team of squadre) {
+    byCoach.set(normalize(team.Fantallenatore || team.fantallenatore || ''), team);
+  }
+  return [...byCoach.values()];
+}
+
+/** One player's score in one match column, or the penalty when they are not in the table. */
+function scoreFor(row, column) {
+  return row ? (parseFloat(row[column]) || 0) : POINTS_PER_MISSING_GAME;
+}
+
+/**
+ * Build the test for "this player's team was out of the tournament for this match".
+ *
+ * compute-scores.js writes eliminazioni.json alongside the punteggi, listing exactly which
+ * columns a player missed because their team had gone out. Older editions predate that file,
+ * so there is a fallback that infers it from the score. The fallback is only a guess: a defeat
+ * with a booking also comes to -2, and it will read as an elimination.
+ *
+ * @param {Object}  eliminazioni - Player id to the columns their team did not play
+ * @param {boolean} known        - Whether eliminazioni.json was there to read
+ * @param {Object}  scoreMap     - Player id to their punteggi row
+ */
+function eliminationTest(eliminazioni, known, scoreMap) {
+  return (name, column) => {
+    if (!name) return false;
+    const row = scoreMap[name];
+    // Somebody the sheet names who never took the field counts as unavailable throughout.
+    if (!row) return true;
+    return known
+      ? (eliminazioni[name] ?? []).includes(column)
+      : scoreFor(row, column) === POINTS_PER_MISSING_GAME;
+  };
+}
+
 function sanitize(raw) {
   if (!raw || !raw.includes('|')) return (raw || '').trim();
   const [player, team] = raw.split('|');
@@ -62,6 +105,18 @@ function main() {
     return;
   }
 
+  // Which matches each player missed because their team was out of the tournament, written by
+  // compute-scores.js. Without it a genuine -2, which a defeat plus a booking produces, is
+  // indistinguishable from an elimination.
+  const eliminazioni = readJson(join(DATA_DIR, 'eliminazioni.json'));
+  if (!eliminazioni) {
+    console.log('  ⚠ No eliminazioni.json; inferring who is out from the scores instead.');
+  }
+
+  // Regolamento rule 1: one team per participant. The sheet can still hold a repeat, from a
+  // rename or a manual edit, and ranking the same lineup twice would distort the table.
+  const registered = dedupe(squadre);
+
   const pKey = 'player' in punteggi[0] ? 'player' : 'NOME';
   const scoreNames = punteggi.map(p => p[pKey]);
   const matchCols = Object.keys(punteggi[0]).filter(k => {
@@ -75,7 +130,7 @@ function main() {
 
   const ranking = [];
 
-  for (const team of squadre) {
+  for (const team of registered) {
     const coach = team.Fantallenatore || team.fantallenatore || '';
     const playersRaw = [
       team.Portiere || team.portiere || '',
@@ -94,31 +149,31 @@ function main() {
       scoreMap[name] = punteggi.find(p => normalize(p[pKey]) === normalize(name));
     }
 
+    const isOut = eliminationTest(eliminazioni ?? {}, eliminazioni !== null, scoreMap);
+    let reserveUsed = false;
     let total = 0;
 
     for (const col of matchCols) {
-      let activeCount = 0;
-      let starterTotal = 0;
+      const scores = starters.map(name => scoreFor(scoreMap[name], col));
 
-      for (const s of starters) {
-        const row = scoreMap[s];
-        const val = row ? (parseFloat(row[col]) || 0) : POINTS_MISSING;
-        starterTotal += val;
-        if (val !== POINTS_MISSING) activeCount++;
+      // Regolamento rules 5 and 6: the reserve comes on the moment one of the starters is
+      // eliminated from the tournament, and when a reserve is available to come on there is
+      // no malus -- the reserve's score stands in for the starter's. One reserve covers one
+      // starter, so if two go out the second keeps the penalty.
+      const out = starters.findIndex(name => isOut(name, col));
+      if (out !== -1 && reserve && !isOut(reserve, col)) {
+        scores[out] = scoreFor(scoreMap[reserve], col);
+        reserveUsed = true;
       }
 
-      let reserveScore = 0;
-      if (activeCount < 4 && reserve) {
-        const row = scoreMap[reserve];
-        reserveScore = row ? (parseFloat(row[col]) || 0) : POINTS_MISSING;
-      }
-
-      total += starterTotal + reserveScore;
+      total += scores.reduce((sum, score) => sum + score, 0);
     }
 
-    // Premi
+    // End-of-tournament prizes follow the player, so they count for whoever fielded them.
+    // The reserve only counts if they came on, for the same reason their match scores do.
     if (premiCol) {
-      for (const name of players) {
+      const earning = reserveUsed ? players : starters;
+      for (const name of earning) {
         const row = scoreMap[name];
         if (row) total += parseFloat(row[premiCol]) || 0;
       }

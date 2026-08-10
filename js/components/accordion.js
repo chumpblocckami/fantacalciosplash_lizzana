@@ -1,3 +1,5 @@
+import { escapeHtml } from '../html.js';
+
 /**
  * Render an accordion (collapsible section).
  *
@@ -19,7 +21,7 @@ export function renderAccordion(container, config) {
                       bg-gray-50 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-750
                       text-left text-sm font-medium text-gray-700 dark:text-gray-200 transition-colors`;
   header.innerHTML = `
-    <span>${title}</span>
+    <span>${escapeHtml(title)}</span>
     <svg class="w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}" id="chevron-${id}"
          fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
