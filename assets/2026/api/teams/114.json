@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 114,
+    "name": "JÄGERBOMBE",
+    "tag": "JGE",
+    "logo_url": "/storage/teams/jägerbombe.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 765,
+        "name": "Isolde",
+        "surname": "Santacaterina",
+        "username": "La bambola di Squid Game",
+        "birth_date": "2001-05-14T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 766,
+        "name": "Ilaria",
+        "surname": "Calovi",
+        "username": "Le mie chiappe",
+        "birth_date": "2001-12-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 767,
+        "name": "Valeria",
+        "surname": "Rosi",
+        "username": "Happy hour",
+        "birth_date": "2001-02-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 768,
+        "name": "Valentina",
+        "surname": "Aste",
+        "username": "Capacità di adattamento",
+        "birth_date": "2001-11-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 769,
+        "name": "Angelica",
+        "surname": "Marzari",
+        "username": null,
+        "birth_date": "2001-10-21T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 770,
+        "name": "Francesca",
+        "surname": "Giordani",
+        "username": null,
+        "birth_date": "2005-10-31T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 771,
+        "name": "Sofia",
+        "surname": "Festini",
+        "username": null,
+        "birth_date": "2004-03-08T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

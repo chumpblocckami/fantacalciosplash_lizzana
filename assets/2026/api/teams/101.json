@@ -1,0 +1,102 @@
+{
+  "data": {
+    "id": 101,
+    "name": "A.C.CAMPATE",
+    "tag": "ACC",
+    "logo_url": "/storage/teams/accampate.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\accampate.png",
+    "players_count": 9,
+    "players": [
+      {
+        "id": 669,
+        "name": "Lorenza",
+        "surname": "Simoncelli",
+        "username": null,
+        "birth_date": "1987-06-20T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 670,
+        "name": "Chiara",
+        "surname": "Simoncelli",
+        "username": null,
+        "birth_date": "1977-05-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 671,
+        "name": "Martina",
+        "surname": "Francescatti",
+        "username": null,
+        "birth_date": "1987-12-19T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 672,
+        "name": "Federica",
+        "surname": "Francescatti",
+        "username": null,
+        "birth_date": "1991-12-20T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 673,
+        "name": "Vanessa",
+        "surname": "Bertoletti",
+        "username": null,
+        "birth_date": "1992-06-09T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 674,
+        "name": "Mara",
+        "surname": "Barozzi",
+        "username": null,
+        "birth_date": "1986-02-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 675,
+        "name": "Arianna",
+        "surname": "Barozzi",
+        "username": "Puccettina",
+        "birth_date": "1990-11-05T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 676,
+        "name": "Nazarena",
+        "surname": "Raoss",
+        "username": null,
+        "birth_date": "1988-06-05T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 677,
+        "name": "Elisabetta",
+        "surname": "Azzolini",
+        "username": null,
+        "birth_date": "1987-07-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

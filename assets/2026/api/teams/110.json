@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 110,
+    "name": "I MAGNIFICI",
+    "tag": "MAG",
+    "logo_url": "/storage/teams/imagnifici.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 735,
+        "name": "Lorenzo",
+        "surname": "Zuani",
+        "username": "il Pediatra",
+        "birth_date": "2000-02-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/lorenzozuani.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\lorenzozuani.png"
+      },
+      {
+        "id": 736,
+        "name": "Simone",
+        "surname": "Schonsberg",
+        "username": "Polis-Tirolo",
+        "birth_date": "2001-08-20T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/simoneschonsberg.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\simoneschonsberg.png"
+      },
+      {
+        "id": 737,
+        "name": "Filippo",
+        "surname": "Benetti",
+        "username": "Fungo Atomico",
+        "birth_date": "2001-08-11T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/filippobenetti.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\filippobenetti.png"
+      },
+      {
+        "id": 738,
+        "name": "Elia",
+        "surname": "Barozzi",
+        "username": "Bjorn Borg",
+        "birth_date": "2001-10-01T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/eliabarozzi.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\eliabarozzi.png"
+      },
+      {
+        "id": 739,
+        "name": "Danny",
+        "surname": "Giordani",
+        "username": "Paculto Deprima",
+        "birth_date": "2001-05-05T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/dannygiordani.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\dannygiordani.png"
+      },
+      {
+        "id": 740,
+        "name": "Guglielmo",
+        "surname": "Caroli",
+        "username": "Ivan Bogdanov",
+        "birth_date": "2001-12-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/guglielmocaroli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\guglielmocaroli.png"
+      },
+      {
+        "id": 741,
+        "name": "Giovanni",
+        "surname": "Raoss",
+        "username": null,
+        "birth_date": "2002-02-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

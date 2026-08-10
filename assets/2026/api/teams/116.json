@@ -1,0 +1,102 @@
+{
+  "data": {
+    "id": 116,
+    "name": "POWER GINGER",
+    "tag": "PWG",
+    "logo_url": "/storage/teams/powerginger.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\powerginger.png",
+    "players_count": 9,
+    "players": [
+      {
+        "id": 778,
+        "name": "Matteo",
+        "surname": "Bazzanella",
+        "username": null,
+        "birth_date": "2000-07-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 779,
+        "name": "Simone",
+        "surname": "Martini",
+        "username": null,
+        "birth_date": "1992-09-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 780,
+        "name": "Filippo",
+        "surname": "Maraner",
+        "username": null,
+        "birth_date": "2003-09-16T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 781,
+        "name": "Gentian",
+        "surname": "Kapa",
+        "username": null,
+        "birth_date": "1999-08-20T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 782,
+        "name": "Maxim",
+        "surname": "Bot",
+        "username": null,
+        "birth_date": "2002-04-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 783,
+        "name": "Kevin",
+        "surname": "Vela",
+        "username": null,
+        "birth_date": "2003-02-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 784,
+        "name": "Blendi",
+        "surname": "Capa",
+        "username": null,
+        "birth_date": "2002-05-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 785,
+        "name": "Lorenzo",
+        "surname": "Rossi",
+        "username": null,
+        "birth_date": "2003-02-23T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 786,
+        "name": "Emiliano",
+        "surname": "Bici",
+        "username": null,
+        "birth_date": "2003-12-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

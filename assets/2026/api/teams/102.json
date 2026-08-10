@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 102,
+    "name": "P.S.G.",
+    "tag": "PSG",
+    "logo_url": "/storage/teams/psgpapàdallospiritogiovane.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\psgpapàdallospiritogiovane.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 678,
+        "name": "Alessandro",
+        "surname": "Rambaldo",
+        "username": null,
+        "birth_date": "1993-07-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 679,
+        "name": "Antonio",
+        "surname": "Rambaldo",
+        "username": null,
+        "birth_date": "1986-06-30T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 680,
+        "name": "Elia",
+        "surname": "Tomasoni",
+        "username": "T COME TIGRO",
+        "birth_date": "1991-08-19T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 681,
+        "name": "Simone",
+        "surname": "Consolati",
+        "username": null,
+        "birth_date": "1989-07-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 682,
+        "name": "Mirko",
+        "surname": "Ghiggeri",
+        "username": null,
+        "birth_date": "1986-10-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 683,
+        "name": "Yuri",
+        "surname": "Garau",
+        "username": null,
+        "birth_date": "1974-01-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 684,
+        "name": "Florian",
+        "surname": "Hoxha",
+        "username": null,
+        "birth_date": "1988-02-19T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

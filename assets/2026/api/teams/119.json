@@ -1,0 +1,72 @@
+{
+  "data": {
+    "id": 119,
+    "name": "C.G.B. CHELE DI CHERNO",
+    "tag": "CGB",
+    "logo_url": "/storage/teams/cgbgamberoni.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbgamberoni.png",
+    "players_count": 6,
+    "players": [
+      {
+        "id": 801,
+        "name": "Sebastiano",
+        "surname": "Zoller",
+        "username": "Carenza di Spritz",
+        "birth_date": "1997-05-19T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 802,
+        "name": "Gabriele",
+        "surname": "Gottardi",
+        "username": "Centomila dromedari",
+        "birth_date": "1997-01-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 803,
+        "name": "Thomas",
+        "surname": "Perenzoni",
+        "username": "Testa d‘acciaio",
+        "birth_date": "1998-08-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 804,
+        "name": "Diego",
+        "surname": "Passerini",
+        "username": null,
+        "birth_date": "2003-09-29T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 805,
+        "name": "Nicola",
+        "surname": "Bianchi",
+        "username": "Papà Nicola",
+        "birth_date": "1999-02-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 806,
+        "name": "Riccardo",
+        "surname": "Cesarini Sforza",
+        "username": "A voi il piacere di dargli un degno soprannome",
+        "birth_date": "1996-02-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

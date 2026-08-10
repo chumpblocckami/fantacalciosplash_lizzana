@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 88,
+    "name": "GLI INTROVABILI",
+    "tag": "INT",
+    "logo_url": "/storage/teams/gliintrovabili.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gliintrovabili.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 578,
+        "name": "Thomas",
+        "surname": "Pontillo",
+        "username": "Colpi di sole",
+        "birth_date": "2002-04-18T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 579,
+        "name": "Leonardo",
+        "surname": "Comper",
+        "username": "Capitan findus",
+        "birth_date": "1997-10-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 580,
+        "name": "Moris",
+        "surname": "Benedetti",
+        "username": "Hikikomoris",
+        "birth_date": "1993-04-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 581,
+        "name": "Gerardo",
+        "surname": "Todisco",
+        "username": "Squiddi",
+        "birth_date": "2003-03-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 582,
+        "name": "Mattia",
+        "surname": "Kaiserman",
+        "username": "L’accompagnatore di cinquantenni",
+        "birth_date": "1995-08-09T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 583,
+        "name": "Andrea",
+        "surname": "Pedrotti",
+        "username": "Il muratore di Garlasco",
+        "birth_date": "1993-09-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 881,
+        "name": "Tommaso",
+        "surname": "Aste",
+        "username": null,
+        "birth_date": null,
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

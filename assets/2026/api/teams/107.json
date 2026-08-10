@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 107,
+    "name": "CLITORIDERS",
+    "tag": "CLI",
+    "logo_url": "/storage/teams/clitoriders.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 714,
+        "name": "Stefano",
+        "surname": "Galvagni",
+        "username": "MENTADENT",
+        "birth_date": "1989-01-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 715,
+        "name": "Michele",
+        "surname": "Merighi",
+        "username": "IENA RIDENS",
+        "birth_date": "1989-12-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 716,
+        "name": "Luca",
+        "surname": "Frasca",
+        "username": "DELIRIUM TREMENS",
+        "birth_date": "1996-06-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 717,
+        "name": "Andrea",
+        "surname": "Giordani",
+        "username": "ORSO BRUNO",
+        "birth_date": "1990-07-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 718,
+        "name": "Pietro",
+        "surname": "Bernardelli",
+        "username": "BERNARUMMA",
+        "birth_date": "1993-12-11T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 719,
+        "name": "Federico",
+        "surname": "Mortillaro",
+        "username": "MORTE NERA",
+        "birth_date": "1991-10-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 720,
+        "name": "Thomas",
+        "surname": "Maffei",
+        "username": "Carles Puyol",
+        "birth_date": "1998-01-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 721,
+        "name": "Micheal",
+        "surname": "Zanoni",
+        "username": "Tonno Pinne Gialle",
+        "birth_date": "1992-10-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "data": {
+    "id": 105,
+    "name": "PECCAMIN(OSÈ)",
+    "tag": "PEC",
+    "logo_url": "/storage/teams/peccaminosè.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\peccaminosè.png",
+    "players_count": 10,
+    "players": [
+      {
+        "id": 700,
+        "name": "Alice",
+        "surname": "Armellini",
+        "username": null,
+        "birth_date": "1998-04-09T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/alicearmellini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\alicearmellini.png"
+      },
+      {
+        "id": 701,
+        "name": "Elisa",
+        "surname": "Gerola",
+        "username": "Vladimir Luxuria",
+        "birth_date": "1998-03-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/elisagerola.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\elisagerola.png"
+      },
+      {
+        "id": 702,
+        "name": "Caterina",
+        "surname": "Barberi",
+        "username": "Hamtaro",
+        "birth_date": "1997-05-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/caterinabarberi.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\caterinabarberi.png"
+      },
+      {
+        "id": 703,
+        "name": "Martina",
+        "surname": "Riva",
+        "username": null,
+        "birth_date": "1996-03-17T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 704,
+        "name": "Anna",
+        "surname": "Cappuccio",
+        "username": "Settebello",
+        "birth_date": "1997-07-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/annacappuccio.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\annacappuccio.png"
+      },
+      {
+        "id": 705,
+        "name": "Angelica",
+        "surname": "Perghem",
+        "username": null,
+        "birth_date": "1998-03-11T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/angelicaperghem.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\angelicaperghem.png"
+      },
+      {
+        "id": 706,
+        "name": "Cinzia",
+        "surname": "Ravagni",
+        "username": null,
+        "birth_date": "2002-10-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/cinziaravagni.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\cinziaravagni.png"
+      },
+      {
+        "id": 707,
+        "name": "Martina",
+        "surname": "Bonvecchio",
+        "username": null,
+        "birth_date": "2003-02-17T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/martinabonvecchio.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\martinabonvecchio.png"
+      },
+      {
+        "id": 708,
+        "name": "Benedetta",
+        "surname": "Foradori",
+        "username": null,
+        "birth_date": "1997-11-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/benedettaforadori.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\benedettaforadori.png"
+      },
+      {
+        "id": 709,
+        "name": "Chiara",
+        "surname": "Chizzola",
+        "username": "Cera calda",
+        "birth_date": "1998-08-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "data": {
+    "id": 92,
+    "name": "I MONTAGNA",
+    "tag": "MON",
+    "logo_url": "/storage/teams/imontagna.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imontagna.png",
+    "players_count": 10,
+    "players": [
+      {
+        "id": 606,
+        "name": "Daniele",
+        "surname": "Dalbosco",
+        "username": "Gresta De Cunel",
+        "birth_date": "1992-03-19T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 607,
+        "name": "Marco",
+        "surname": "Mutinelli",
+        "username": "Urbano il Vigile",
+        "birth_date": "1998-01-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 608,
+        "name": "Daniel",
+        "surname": "Pedrotti",
+        "username": "Cuginoman",
+        "birth_date": "1998-04-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 609,
+        "name": "Marco",
+        "surname": "Sala",
+        "username": "Cane Rognoso",
+        "birth_date": "1992-09-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 610,
+        "name": "Federico",
+        "surname": "Andreis",
+        "username": "Il Distino signor. Rabbioso",
+        "birth_date": "1992-11-14T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 611,
+        "name": "Andrea",
+        "surname": "Pedrotti",
+        "username": "Medioman",
+        "birth_date": "1992-02-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 612,
+        "name": "Federico",
+        "surname": "Manica",
+        "username": "Daniel Ricciardo",
+        "birth_date": "1994-02-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 613,
+        "name": "Jacopo",
+        "surname": "Chemini",
+        "username": "Teschio Fiammeggiante",
+        "birth_date": "1992-02-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 614,
+        "name": "Davide",
+        "surname": "Bazzano",
+        "username": "Bazzuka",
+        "birth_date": "1992-03-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 615,
+        "name": "Matteo",
+        "surname": "Simoncelli",
+        "username": null,
+        "birth_date": "2002-12-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

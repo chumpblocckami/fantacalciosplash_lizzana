@@ -1,0 +1,72 @@
+{
+  "data": {
+    "id": 111,
+    "name": "4SINS",
+    "tag": "4SI",
+    "logo_url": "/storage/teams/4sins.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
+    "players_count": 6,
+    "players": [
+      {
+        "id": 742,
+        "name": "Emanuele",
+        "surname": "Toss",
+        "username": "Feri/Tetano",
+        "birth_date": "2006-05-14T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/emanueletoss.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\emanueletoss.png"
+      },
+      {
+        "id": 743,
+        "name": "Christian",
+        "surname": "Torboli",
+        "username": "Crixo/PomaroloBanks",
+        "birth_date": "2005-02-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/christiantorboli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\christiantorboli.png"
+      },
+      {
+        "id": 744,
+        "name": "Giovanni",
+        "surname": "Lasta",
+        "username": "Gio",
+        "birth_date": "2006-11-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/giovannilasta.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giovannilasta.png"
+      },
+      {
+        "id": 745,
+        "name": "Emanuele",
+        "surname": "Tomasoni",
+        "username": "Pinocchio",
+        "birth_date": "2000-10-30T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 746,
+        "name": "Tommaso",
+        "surname": "Bruschetti",
+        "username": "Sindaco",
+        "birth_date": "1994-07-25T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/tommasobruschetti.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\tommasobruschetti.png"
+      },
+      {
+        "id": 747,
+        "name": "Mario",
+        "surname": "Sinani",
+        "username": "Gyat Lover",
+        "birth_date": "2006-07-09T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/mariosinani.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mariosinani.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 112,
+    "name": "AVANZI",
+    "tag": "AVA",
+    "logo_url": "/storage/teams/avanzi.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 748,
+        "name": "Andrea",
+        "surname": "Barozzi",
+        "username": "Javier Zanetti della statale 12",
+        "birth_date": "1984-10-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 749,
+        "name": "Michele",
+        "surname": "Ruele",
+        "username": "Ruy Mysterio",
+        "birth_date": "1980-05-12T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 750,
+        "name": "Davide",
+        "surname": "Simoncelli",
+        "username": null,
+        "birth_date": "1979-01-30T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 751,
+        "name": "Matteo",
+        "surname": "Manconi",
+        "username": "Mancuso",
+        "birth_date": "1985-09-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 752,
+        "name": "Lorenzo",
+        "surname": "Barozzi",
+        "username": "Tagliagole canadese",
+        "birth_date": "1987-02-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 753,
+        "name": "Gabriele",
+        "surname": "Galli",
+        "username": "Alli-Galli",
+        "birth_date": "1986-10-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 754,
+        "name": "Pablo Sebastian",
+        "surname": "Chavez Mandressi",
+        "username": null,
+        "birth_date": "1979-09-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 755,
+        "name": "Omar",
+        "surname": "Russo",
+        "username": "Lizzanella vende moda",
+        "birth_date": "1985-10-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

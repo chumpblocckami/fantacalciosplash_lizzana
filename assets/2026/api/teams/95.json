@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 95,
+    "name": "SHARK ATTACK",
+    "tag": "SHA",
+    "logo_url": "/storage/teams/sharkattack.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 630,
+        "name": "Gabriele",
+        "surname": "Brentari",
+        "username": "Mocio Vileda",
+        "birth_date": "1994-07-25T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 631,
+        "name": "Alberto",
+        "surname": "Cerisara",
+        "username": "Uomo che ha mangiato JB",
+        "birth_date": "1992-03-18T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 632,
+        "name": "Mattia",
+        "surname": "Festi",
+        "username": "Plastic Man",
+        "birth_date": "1985-02-11T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 633,
+        "name": "Leonardo",
+        "surname": "Viola",
+        "username": "Uomo Informe 2.0",
+        "birth_date": "1996-09-15T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 634,
+        "name": "Alessio",
+        "surname": "Bragagna",
+        "username": "Nice Try",
+        "birth_date": "1998-01-31T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 635,
+        "name": "Alessandro",
+        "surname": "Zeni",
+        "username": "L'ultimo samurai",
+        "birth_date": "1996-03-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 880,
+        "name": "Mattia",
+        "surname": "Baldessarini",
+        "username": "Assassino Cerebrale",
+        "birth_date": null,
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

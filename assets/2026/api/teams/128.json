@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 128,
+    "name": "A.C.DENTI",
+    "tag": "ACD",
+    "logo_url": "/storage/teams/acdenti.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\acdenti.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 858,
+        "name": "Michael",
+        "surname": "Bertè",
+        "username": "Tontolino d’oro",
+        "birth_date": "2001-07-17T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 859,
+        "name": "Mario",
+        "surname": "Grifeo",
+        "username": null,
+        "birth_date": "2002-07-31T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 860,
+        "name": "Samuele",
+        "surname": "Kettmaier",
+        "username": null,
+        "birth_date": "2004-04-10T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 861,
+        "name": "Federico",
+        "surname": "Zanini",
+        "username": null,
+        "birth_date": "2002-02-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 862,
+        "name": "Maverick",
+        "surname": "Bertolini",
+        "username": null,
+        "birth_date": "2000-04-20T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 863,
+        "name": "Sayf",
+        "surname": "Brick",
+        "username": null,
+        "birth_date": "2000-04-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 864,
+        "name": "Emil",
+        "surname": "Enriconi",
+        "username": null,
+        "birth_date": "2001-01-17T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

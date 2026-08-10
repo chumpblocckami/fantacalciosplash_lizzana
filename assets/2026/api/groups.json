@@ -1,0 +1,437 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Maschile",
+      "has_shootouts": false,
+      "gender": "male",
+      "kind": "girone",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 1,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 111,
+          "name": "4SINS",
+          "tag": "4SI",
+          "logo_url": "/storage/teams/4sins.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
+          "players_count": 6
+        },
+        {
+          "id": 128,
+          "name": "A.C.DENTI",
+          "tag": "ACD",
+          "logo_url": "/storage/teams/acdenti.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\acdenti.png",
+          "players_count": 7
+        },
+        {
+          "id": 112,
+          "name": "AVANZI",
+          "tag": "AVA",
+          "logo_url": "/storage/teams/avanzi.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
+          "players_count": 8
+        },
+        {
+          "id": 127,
+          "name": "BEVEM4TUT",
+          "tag": "BEV",
+          "logo_url": "/storage/teams/bevem4tut.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\bevem4tut.png",
+          "players_count": 6
+        },
+        {
+          "id": 119,
+          "name": "C.G.B. CHELE DI CHERNO",
+          "tag": "CGB",
+          "logo_url": "/storage/teams/cgbgamberoni.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbgamberoni.png",
+          "players_count": 6
+        },
+        {
+          "id": 107,
+          "name": "CLITORIDERS",
+          "tag": "CLI",
+          "logo_url": "/storage/teams/clitoriders.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+          "players_count": 8
+        },
+        {
+          "id": 87,
+          "name": "DEMOBUSTERS",
+          "tag": "DEM",
+          "logo_url": "/storage/teams/demobusters.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\demobusters.png",
+          "players_count": 7
+        },
+        {
+          "id": 106,
+          "name": "F.C. GORILLAZ",
+          "tag": "FCG",
+          "logo_url": "/storage/teams/fcgorillaz.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcgorillaz.png",
+          "players_count": 4
+        },
+        {
+          "id": 96,
+          "name": "FC SALAGIARDINI",
+          "tag": "FCS",
+          "logo_url": "/storage/teams/fcsalagiardini.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsalagiardini.png",
+          "players_count": 8
+        },
+        {
+          "id": 93,
+          "name": "FC SAVIGNANO",
+          "tag": "SAV",
+          "logo_url": "/storage/teams/fcsavignano.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsavignano.png",
+          "players_count": 7
+        },
+        {
+          "id": 97,
+          "name": "FC SCHALKE 104",
+          "tag": "SCH",
+          "logo_url": "/storage/teams/fcschalke104.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcschalke104.png",
+          "players_count": 4
+        },
+        {
+          "id": 115,
+          "name": "FC WANDA TIM",
+          "tag": "FCW",
+          "logo_url": "/storage/teams/fcwandatim.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcwandatim.png",
+          "players_count": 6
+        },
+        {
+          "id": 88,
+          "name": "GLI INTROVABILI",
+          "tag": "INT",
+          "logo_url": "/storage/teams/gliintrovabili.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gliintrovabili.png",
+          "players_count": 7
+        },
+        {
+          "id": 130,
+          "name": "GLI SBANDATI",
+          "tag": "SBT",
+          "logo_url": "/storage/teams/glisbandati.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\glisbandati.png",
+          "players_count": 8
+        },
+        {
+          "id": 104,
+          "name": "GREP",
+          "tag": "GRE",
+          "logo_url": "/storage/teams/grep.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\grep.png",
+          "players_count": 8
+        },
+        {
+          "id": 110,
+          "name": "I MAGNIFICI",
+          "tag": "MAG",
+          "logo_url": "/storage/teams/imagnifici.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+          "players_count": 7
+        },
+        {
+          "id": 92,
+          "name": "I MONTAGNA",
+          "tag": "MON",
+          "logo_url": "/storage/teams/imontagna.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imontagna.png",
+          "players_count": 10
+        },
+        {
+          "id": 98,
+          "name": "MODIUM",
+          "tag": "MOD",
+          "logo_url": "/storage/teams/modium.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\modium.png",
+          "players_count": 7
+        },
+        {
+          "id": 124,
+          "name": "NAZIONALE FERROVIERI",
+          "tag": "NAZ",
+          "logo_url": "/storage/teams/nazionaleferrovieri.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\nazionaleferrovieri.png",
+          "players_count": 7
+        },
+        {
+          "id": 109,
+          "name": "PINGUINI TRENTINI",
+          "tag": "PIN",
+          "logo_url": "/storage/teams/pinguinitrentini.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\pinguinitrentini.png",
+          "players_count": 9
+        },
+        {
+          "id": 116,
+          "name": "POWER GINGER",
+          "tag": "PWG",
+          "logo_url": "/storage/teams/powerginger.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\powerginger.png",
+          "players_count": 9
+        },
+        {
+          "id": 102,
+          "name": "P.S.G.",
+          "tag": "PSG",
+          "logo_url": "/storage/teams/psgpapàdallospiritogiovane.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\psgpapàdallospiritogiovane.png",
+          "players_count": 7
+        },
+        {
+          "id": 103,
+          "name": "QUEI STRAZI",
+          "tag": "QSZ",
+          "logo_url": "/storage/teams/queistrazi.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\queistrazi.png",
+          "players_count": 7
+        },
+        {
+          "id": 91,
+          "name": "QUESTI SEN",
+          "tag": "QSN",
+          "logo_url": "/storage/teams/questisen.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\questisen.png",
+          "players_count": 7
+        },
+        {
+          "id": 117,
+          "name": "SBARX",
+          "tag": "SBA",
+          "logo_url": "/storage/teams/sbarx.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+          "players_count": 8
+        },
+        {
+          "id": 113,
+          "name": "SDRUMALA",
+          "tag": "SDR",
+          "logo_url": "/storage/teams/sdrumala.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sdrumala.png",
+          "players_count": 9
+        },
+        {
+          "id": 95,
+          "name": "SHARK ATTACK",
+          "tag": "SHA",
+          "logo_url": "/storage/teams/sharkattack.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+          "players_count": 7
+        },
+        {
+          "id": 123,
+          "name": "SUGHI",
+          "tag": "SUG",
+          "logo_url": "/storage/teams/sughi.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sughi.png",
+          "players_count": 6
+        },
+        {
+          "id": 89,
+          "name": "U.SGUARNA",
+          "tag": "USG",
+          "logo_url": "/storage/teams/usguarna.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
+          "players_count": 7
+        },
+        {
+          "id": 129,
+          "name": "VIGILI DEL FUSTO",
+          "tag": "VDF",
+          "logo_url": "/storage/teams/vigilidelfusto.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\vigilidelfusto.png",
+          "players_count": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Femminile A",
+      "has_shootouts": false,
+      "gender": "female",
+      "kind": "girone",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 2,
+      "tiebreak_head_to_head": true,
+      "teams": [
+        {
+          "id": 101,
+          "name": "A.C.CAMPATE",
+          "tag": "ACC",
+          "logo_url": "/storage/teams/accampate.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\accampate.png",
+          "players_count": 9
+        },
+        {
+          "id": 121,
+          "name": "PANCHAMAHBAHUTA",
+          "tag": "PAN",
+          "logo_url": "/storage/teams/panchamahbahuta.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\panchamahbahuta.png",
+          "players_count": 7
+        },
+        {
+          "id": 122,
+          "name": "PUTELE DA ALA",
+          "tag": "PDA",
+          "logo_url": "/storage/teams/puteledaala.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\puteledaala.png",
+          "players_count": 5
+        },
+        {
+          "id": 99,
+          "name": "SAILOR MONE",
+          "tag": "SAI",
+          "logo_url": "/storage/teams/sailormone.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
+          "players_count": 6
+        },
+        {
+          "id": 118,
+          "name": "WANDITAS",
+          "tag": "WAN",
+          "logo_url": "/storage/teams/wanditas.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\wanditas.png",
+          "players_count": 6
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Femminile B",
+      "has_shootouts": false,
+      "gender": "female",
+      "kind": "girone",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 3,
+      "tiebreak_head_to_head": true,
+      "teams": [
+        {
+          "id": 126,
+          "name": "DRIM TIM",
+          "tag": "DRI",
+          "logo_url": "/storage/teams/drimtim.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+          "players_count": 9
+        },
+        {
+          "id": 120,
+          "name": "LE PAPERELLE",
+          "tag": "PAP",
+          "logo_url": "/storage/teams/lepaperelle.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lepaperelle.png",
+          "players_count": 6
+        },
+        {
+          "id": 125,
+          "name": "LE VUOI DUE PICCHE?",
+          "tag": "VDP",
+          "logo_url": "/storage/teams/levuoiduepicche.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\levuoiduepicche.png",
+          "players_count": 5
+        },
+        {
+          "id": 94,
+          "name": "LOVEBUSTERS",
+          "tag": "LOV",
+          "logo_url": "/storage/teams/lovebusters.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lovebusters.png",
+          "players_count": 7
+        },
+        {
+          "id": 105,
+          "name": "PECCAMIN(OSÈ)",
+          "tag": "PEC",
+          "logo_url": "/storage/teams/peccaminosè.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\peccaminosè.png",
+          "players_count": 10
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Femminile C",
+      "has_shootouts": false,
+      "gender": "female",
+      "kind": "girone",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 4,
+      "tiebreak_head_to_head": true,
+      "teams": [
+        {
+          "id": 100,
+          "name": "DOREMIFA GOL",
+          "tag": "DOR",
+          "logo_url": "/storage/teams/doremifagol.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\doremifagol.png",
+          "players_count": 8
+        },
+        {
+          "id": 108,
+          "name": "GIN TONICHE",
+          "tag": "GIN",
+          "logo_url": "/storage/teams/gintoniche.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gintoniche.png",
+          "players_count": 4
+        },
+        {
+          "id": 114,
+          "name": "JÄGERBOMBE",
+          "tag": "JGE",
+          "logo_url": "/storage/teams/jägerbombe.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+          "players_count": 7
+        },
+        {
+          "id": 90,
+          "name": "LE BALLE(RINE) IN FIESTA",
+          "tag": "LEB",
+          "logo_url": "/storage/teams/leballerineinfiesta.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\leballerineinfiesta.png",
+          "players_count": 8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Test grafico",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "playoffs",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 20,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 107,
+          "name": "CLITORIDERS",
+          "tag": "CLI",
+          "logo_url": "/storage/teams/clitoriders.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+          "players_count": 8
+        },
+        {
+          "id": 130,
+          "name": "GLI SBANDATI",
+          "tag": "SBT",
+          "logo_url": "/storage/teams/glisbandati.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\glisbandati.png",
+          "players_count": 8
+        }
+      ]
+    }
+  ]
+}

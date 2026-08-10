@@ -1,0 +1,102 @@
+{
+  "data": {
+    "id": 113,
+    "name": "SDRUMALA",
+    "tag": "SDR",
+    "logo_url": "/storage/teams/sdrumala.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sdrumala.png",
+    "players_count": 9,
+    "players": [
+      {
+        "id": 756,
+        "name": "Andreas",
+        "surname": "Galli",
+        "username": "Allevatore",
+        "birth_date": "2003-03-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 757,
+        "name": "Christian",
+        "surname": "Martinelli",
+        "username": "Smallville",
+        "birth_date": "2003-07-18T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 758,
+        "name": "Christian",
+        "surname": "Trainotti",
+        "username": "Business Up Front Party In The Back",
+        "birth_date": "2002-09-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 759,
+        "name": "Andrea",
+        "surname": "Menolli",
+        "username": "Guatus",
+        "birth_date": "2003-09-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 760,
+        "name": "Alessio",
+        "surname": "Delli Compagni",
+        "username": "Cartonato",
+        "birth_date": "2002-07-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 761,
+        "name": "Daniele",
+        "surname": "Dalbosco",
+        "username": "Ciuiga Del Banale",
+        "birth_date": "2003-02-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 762,
+        "name": "Manuel",
+        "surname": "Emanuelli",
+        "username": "Noce Moscata",
+        "birth_date": "2003-11-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 763,
+        "name": "Davide",
+        "surname": "Deimichei",
+        "username": "Attila",
+        "birth_date": "2003-06-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 764,
+        "name": "Stefano",
+        "surname": "Mattioli",
+        "username": "Panchinaro d’oro",
+        "birth_date": "1991-08-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

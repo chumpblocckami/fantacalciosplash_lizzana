@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 100,
+    "name": "DOREMIFA GOL",
+    "tag": "DOR",
+    "logo_url": "/storage/teams/doremifagol.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\doremifagol.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 661,
+        "name": "Serena",
+        "surname": "Stoffella",
+        "username": null,
+        "birth_date": "2002-12-31T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 662,
+        "name": "Ilaria",
+        "surname": "Stoffella",
+        "username": null,
+        "birth_date": "1997-09-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 663,
+        "name": "Sara",
+        "surname": "Di Vito",
+        "username": null,
+        "birth_date": "2003-03-01T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 664,
+        "name": "Chiara",
+        "surname": "Prezzi",
+        "username": null,
+        "birth_date": "2009-10-20T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 665,
+        "name": "Clara",
+        "surname": "Consolati",
+        "username": null,
+        "birth_date": "2009-10-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 666,
+        "name": "Chiara",
+        "surname": "Salvetti",
+        "username": null,
+        "birth_date": "2000-01-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 667,
+        "name": "Caterina",
+        "surname": "Gatti",
+        "username": null,
+        "birth_date": "2002-12-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 668,
+        "name": "Lisa",
+        "surname": "Siroli",
+        "username": null,
+        "birth_date": "2006-03-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

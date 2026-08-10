@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 103,
+    "name": "QUEI STRAZI",
+    "tag": "QSZ",
+    "logo_url": "/storage/teams/queistrazi.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\queistrazi.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 685,
+        "name": "Mattia",
+        "surname": "Bertolini",
+        "username": ".",
+        "birth_date": "2005-09-16T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/mattiabertolini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mattiabertolini.png"
+      },
+      {
+        "id": 686,
+        "name": "Mattia",
+        "surname": "Lotti",
+        "username": "Perghem",
+        "birth_date": "2003-01-14T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/mattialotti.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mattialotti.png"
+      },
+      {
+        "id": 687,
+        "name": "Fabio",
+        "surname": "Coati",
+        "username": "Gabbana (Dolce e Gabbana)",
+        "birth_date": "2002-10-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/fabiocoati.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\fabiocoati.png"
+      },
+      {
+        "id": 688,
+        "name": "Elias",
+        "surname": "Viesi Lutteri",
+        "username": "Dolce (Dolce e Gabbana)",
+        "birth_date": "2006-07-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/eliasviesilutteri.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\eliasviesilutteri.png"
+      },
+      {
+        "id": 689,
+        "name": "Marco",
+        "surname": "Lutteri",
+        "username": ".",
+        "birth_date": "1988-09-23T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/marcolutteri.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\marcolutteri.png"
+      },
+      {
+        "id": 690,
+        "name": "Alessandro",
+        "surname": "Sartori",
+        "username": ".",
+        "birth_date": "2006-08-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/alessandrosartori.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\alessandrosartori.png"
+      },
+      {
+        "id": 691,
+        "name": "Vincenzo",
+        "surname": "Augusto",
+        "username": ".",
+        "birth_date": "2006-10-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/vincenzoaugusto.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\vincenzoaugusto.png"
+      }
+    ]
+  }
+}

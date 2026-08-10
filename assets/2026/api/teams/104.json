@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 104,
+    "name": "GREP",
+    "tag": "GRE",
+    "logo_url": "/storage/teams/grep.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\grep.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 692,
+        "name": "Matteo",
+        "surname": "Mazzola",
+        "username": "Gennaro Bullo",
+        "birth_date": "1995-01-30T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/matteomazzola.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteomazzola.png"
+      },
+      {
+        "id": 693,
+        "name": "Davide",
+        "surname": "Raffaelli",
+        "username": "Giraffa di Frassino",
+        "birth_date": "1997-01-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/davideraffaelli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\davideraffaelli.png"
+      },
+      {
+        "id": 694,
+        "name": "Federico",
+        "surname": "Zoller",
+        "username": "Zoidberg",
+        "birth_date": "1995-01-01T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/federicozoller.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\federicozoller.png"
+      },
+      {
+        "id": 695,
+        "name": "Andrea",
+        "surname": "Anzelini",
+        "username": "Tunnel del vento",
+        "birth_date": "1998-01-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/andreaanzelini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\andreaanzelini.png"
+      },
+      {
+        "id": 696,
+        "name": "Riccardo",
+        "surname": "Baldo",
+        "username": "Idolo delle dodicenni",
+        "birth_date": "1992-01-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/riccardobaldo.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\riccardobaldo.png"
+      },
+      {
+        "id": 697,
+        "name": "Matteo",
+        "surname": "Maraner",
+        "username": "Sangue Vegano",
+        "birth_date": "1995-01-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/matteomaraner.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteomaraner.png"
+      },
+      {
+        "id": 698,
+        "name": "Michele",
+        "surname": "Bertolini",
+        "username": "Marco Columbro",
+        "birth_date": "1989-01-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/michelebertolini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\michelebertolini.png"
+      },
+      {
+        "id": 699,
+        "name": "Federico",
+        "surname": "Giordani",
+        "username": "L'uomo più fuori forma d'Europa",
+        "birth_date": "1991-07-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "data": {
+    "id": 109,
+    "name": "PINGUINI TRENTINI",
+    "tag": "PIN",
+    "logo_url": "/storage/teams/pinguinitrentini.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\pinguinitrentini.png",
+    "players_count": 9,
+    "players": [
+      {
+        "id": 726,
+        "name": "Matteo",
+        "surname": "Pilati",
+        "username": "Ponzio Pilati",
+        "birth_date": "1994-05-29T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 727,
+        "name": "Alessio",
+        "surname": "Farinati",
+        "username": "Proteina",
+        "birth_date": "1992-01-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 728,
+        "name": "Davide",
+        "surname": "Manica",
+        "username": "Pala Eolica",
+        "birth_date": "1992-05-14T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 729,
+        "name": "Enrico",
+        "surname": "Bordignon",
+        "username": "Ormone Impazzito",
+        "birth_date": "1994-06-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 730,
+        "name": "Andrea",
+        "surname": "Aste",
+        "username": "3 Ombre",
+        "birth_date": "1994-06-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 731,
+        "name": "Giovanni Umberto",
+        "surname": "Di Meo",
+        "username": "Giovanni van Bronckhorst",
+        "birth_date": "1993-07-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 732,
+        "name": "Andrea",
+        "surname": "Roveda",
+        "username": "La Province",
+        "birth_date": "1996-04-15T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 733,
+        "name": "Luca",
+        "surname": "Lasta",
+        "username": "Pesca a Strascico",
+        "birth_date": "1994-06-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 734,
+        "name": "Matteo",
+        "surname": "Brigo",
+        "username": "Eurobrigo",
+        "birth_date": "1992-05-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

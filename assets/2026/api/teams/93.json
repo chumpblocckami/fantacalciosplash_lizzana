@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 93,
+    "name": "FC SAVIGNANO",
+    "tag": "SAV",
+    "logo_url": "/storage/teams/fcsavignano.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsavignano.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 616,
+        "name": "ANDREA",
+        "surname": "CONZATTI",
+        "username": "CALDAIA",
+        "birth_date": "1995-01-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 617,
+        "name": "ALESSANDRO",
+        "surname": "MAFFEI",
+        "username": "MARK ZUCKERBERG",
+        "birth_date": "1993-01-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 618,
+        "name": "NICOLAS",
+        "surname": "GIORDANI",
+        "username": "TUBURON",
+        "birth_date": "1994-04-02T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 619,
+        "name": "GIACOMO",
+        "surname": "DE ZAMBOTTI",
+        "username": "FERRO DA STIRO",
+        "birth_date": "1994-01-05T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 620,
+        "name": "EDUARDO",
+        "surname": "GRAZIOLI",
+        "username": "L'INDESIDERABILE NUMERO 1",
+        "birth_date": "1991-07-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 621,
+        "name": "AMEDEO",
+        "surname": "MALESARDI",
+        "username": "NONO COMANDAMENTO",
+        "birth_date": "1993-07-21T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 622,
+        "name": "Davide",
+        "surname": "De Zambotti",
+        "username": null,
+        "birth_date": "1994-05-09T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

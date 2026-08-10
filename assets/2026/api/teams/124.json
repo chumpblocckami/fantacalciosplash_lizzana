@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 124,
+    "name": "NAZIONALE FERROVIERI",
+    "tag": "NAZ",
+    "logo_url": "/storage/teams/nazionaleferrovieri.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\nazionaleferrovieri.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 831,
+        "name": "Lorenzo",
+        "surname": "Casari",
+        "username": "Il treno ferma a Peri",
+        "birth_date": "1996-08-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 832,
+        "name": "Michele",
+        "surname": "Eccel",
+        "username": "Mbappeccel",
+        "birth_date": "2000-09-15T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 833,
+        "name": "Fabio",
+        "surname": "Daves",
+        "username": "Il controllore",
+        "birth_date": "1993-01-17T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 834,
+        "name": "Andrea",
+        "surname": "Bellini",
+        "username": "California Zephyr",
+        "birth_date": "1997-09-13T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 835,
+        "name": "Leonardo",
+        "surname": "Fedrigotti",
+        "username": "Il boscaiolo ledrense",
+        "birth_date": "1997-11-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 836,
+        "name": "Pietro",
+        "surname": "Marchesini",
+        "username": "Amministratore di pagine brutte",
+        "birth_date": "1993-06-28T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 837,
+        "name": "Wilson",
+        "surname": "Bona",
+        "username": "Il patron di trenitalia",
+        "birth_date": "1997-08-01T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

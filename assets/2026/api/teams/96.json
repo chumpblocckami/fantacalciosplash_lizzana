@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 96,
+    "name": "FC SALAGIARDINI",
+    "tag": "FCS",
+    "logo_url": "/storage/teams/fcsalagiardini.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsalagiardini.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 636,
+        "name": "Alberto",
+        "surname": "Raffaelli",
+        "username": "-",
+        "birth_date": "1999-05-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 637,
+        "name": "Giovanni",
+        "surname": "Frizzera",
+        "username": "Gerbere a 50 centesimi",
+        "birth_date": "1999-01-22T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 638,
+        "name": "Massimiliano",
+        "surname": "Rossi",
+        "username": "Pindol revers",
+        "birth_date": "1999-08-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 639,
+        "name": "Matteo",
+        "surname": "Calcinardi",
+        "username": "Rose rosse",
+        "birth_date": "1999-08-09T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 640,
+        "name": "Patrick",
+        "surname": "Raffaelli",
+        "username": "-",
+        "birth_date": "1996-11-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 641,
+        "name": "Marco",
+        "surname": "Renica",
+        "username": "-",
+        "birth_date": "1998-11-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 642,
+        "name": "Gianni",
+        "surname": "Sala",
+        "username": null,
+        "birth_date": "1999-01-02T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 643,
+        "name": "Alessandro",
+        "surname": "Fanti",
+        "username": null,
+        "birth_date": "1991-12-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

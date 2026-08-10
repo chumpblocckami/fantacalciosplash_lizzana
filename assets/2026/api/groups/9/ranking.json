@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "ranking": 1,
+      "id": 107,
+      "name": "CLITORIDERS",
+      "tag": "CLI",
+      "logo_url": "/storage/teams/clitoriders.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
+      "id": 130,
+      "name": "GLI SBANDATI",
+      "tag": "SBT",
+      "logo_url": "/storage/teams/glisbandati.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\glisbandati.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "id": 122,
+    "name": "PUTELE DA ALA",
+    "tag": "PDA",
+    "logo_url": "/storage/teams/puteledaala.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\puteledaala.png",
+    "players_count": 5,
+    "players": [
+      {
+        "id": 820,
+        "name": "Annalisa",
+        "surname": "Ruele",
+        "username": null,
+        "birth_date": "1999-10-17T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 821,
+        "name": "Daniela",
+        "surname": "Saiani",
+        "username": null,
+        "birth_date": "1999-06-01T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 822,
+        "name": "Chiara",
+        "surname": "Candio",
+        "username": null,
+        "birth_date": "1998-04-07T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 823,
+        "name": "Carolina",
+        "surname": "Zendri",
+        "username": null,
+        "birth_date": "1998-11-26T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 824,
+        "name": "Kristina",
+        "surname": "Tiosavljevic",
+        "username": null,
+        "birth_date": "2003-01-31T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

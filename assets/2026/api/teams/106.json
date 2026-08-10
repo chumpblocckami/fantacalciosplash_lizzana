@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": 106,
+    "name": "F.C. GORILLAZ",
+    "tag": "FCG",
+    "logo_url": "/storage/teams/fcgorillaz.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcgorillaz.png",
+    "players_count": 4,
+    "players": [
+      {
+        "id": 710,
+        "name": "Samuele",
+        "surname": "Maffei",
+        "username": "Tyranitar",
+        "birth_date": "1997-06-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/samuelemaffei.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\samuelemaffei.png"
+      },
+      {
+        "id": 711,
+        "name": "Nicolò",
+        "surname": "Speziali",
+        "username": "Tagliaburro",
+        "birth_date": "1998-02-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/nicolòspeziali.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\nicolòspeziali.png"
+      },
+      {
+        "id": 712,
+        "name": "Alessandro",
+        "surname": "Ruele",
+        "username": "Gigio dollaruma",
+        "birth_date": "1998-01-04T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/alessandroruele.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\alessandroruele.png"
+      },
+      {
+        "id": 713,
+        "name": "Giovanni",
+        "surname": "Torboli",
+        "username": "L'uomo che sussurrava ai bidet",
+        "birth_date": "1996-12-12T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/giovannitorboli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giovannitorboli.png"
+      }
+    ]
+  }
+}

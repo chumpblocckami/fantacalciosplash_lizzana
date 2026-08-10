@@ -1,0 +1,52 @@
+{
+  "data": {
+    "id": 108,
+    "name": "GIN TONICHE",
+    "tag": "GIN",
+    "logo_url": "/storage/teams/gintoniche.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gintoniche.png",
+    "players_count": 4,
+    "players": [
+      {
+        "id": 722,
+        "name": "Sara",
+        "surname": "Prezzi",
+        "username": "Post-it",
+        "birth_date": "2000-05-28T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 723,
+        "name": "Elisa",
+        "surname": "Moratelli",
+        "username": "Dissenten",
+        "birth_date": "2000-05-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 724,
+        "name": "Sofia",
+        "surname": "Manica",
+        "username": null,
+        "birth_date": "2000-01-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 725,
+        "name": "Arianna",
+        "surname": "Albertini",
+        "username": "Uccellone",
+        "birth_date": "2000-05-10T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

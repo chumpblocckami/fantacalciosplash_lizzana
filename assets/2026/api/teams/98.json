@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 98,
+    "name": "MODIUM",
+    "tag": "MOD",
+    "logo_url": "/storage/teams/modium.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\modium.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 648,
+        "name": "Andrea",
+        "surname": "Bertolini",
+        "username": "BOMBER BERTO",
+        "birth_date": "1986-05-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/andreabertolini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\andreabertolini.png"
+      },
+      {
+        "id": 649,
+        "name": "Federico",
+        "surname": "Pomarolli",
+        "username": "PRINCIPE GUERRIERO",
+        "birth_date": "1986-05-19T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/federicopomarolli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\federicopomarolli.png"
+      },
+      {
+        "id": 650,
+        "name": "Edoardo",
+        "surname": "Pomarolli",
+        "username": "IL BELLO DELLA PIOF",
+        "birth_date": "1989-03-18T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/edoardopomarolli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\edoardopomarolli.png"
+      },
+      {
+        "id": 651,
+        "name": "Luca",
+        "surname": "Barozzi",
+        "username": "LUPIN",
+        "birth_date": "1988-02-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/lucabarozzi.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\lucabarozzi.png"
+      },
+      {
+        "id": 652,
+        "name": "Riccardo",
+        "surname": "Versini",
+        "username": "PERTEGA DE LA PIOF",
+        "birth_date": "1991-06-26T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/riccardoversini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\riccardoversini.png"
+      },
+      {
+        "id": 653,
+        "name": "Marco",
+        "surname": "Sartorelli",
+        "username": "PLAYBOY DELLA BUSA",
+        "birth_date": "1990-02-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/marcosartorelli.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\marcosartorelli.png"
+      },
+      {
+        "id": 654,
+        "name": "Matteo",
+        "surname": "Lanaro",
+        "username": "CACCIATORE DEL SOLE",
+        "birth_date": "1988-12-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/matteolanaro.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteolanaro.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "data": {
+    "id": 87,
+    "name": "DEMOBUSTERS",
+    "tag": "DEM",
+    "logo_url": "/storage/teams/demobusters.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\demobusters.png",
+    "players_count": 7,
+    "players": [
+      {
+        "id": 571,
+        "name": "Giovanni",
+        "surname": "Giusto",
+        "username": "Plasmon",
+        "birth_date": "2005-04-25T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/giovannigiusto.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giovannigiusto.png"
+      },
+      {
+        "id": 572,
+        "name": "Samuele",
+        "surname": "Rosà",
+        "username": "Maranza",
+        "birth_date": "2005-03-27T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/samuelerosà.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\samuelerosà.png"
+      },
+      {
+        "id": 573,
+        "name": "Riccardo",
+        "surname": "Zeni",
+        "username": "Terzo Porcellino",
+        "birth_date": "2005-11-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/riccardozeni.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\riccardozeni.png"
+      },
+      {
+        "id": 574,
+        "name": "Roberto",
+        "surname": "Barozzi",
+        "username": "Divin Codino",
+        "birth_date": "2005-11-07T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/robertobarozzi.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\robertobarozzi.png"
+      },
+      {
+        "id": 575,
+        "name": "Gabriel",
+        "surname": "Melis",
+        "username": "Mano A Reazione",
+        "birth_date": "2006-03-20T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/gabrielmelis.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\gabrielmelis.png"
+      },
+      {
+        "id": 576,
+        "name": "Lorenzo",
+        "surname": "Scottini",
+        "username": "El Dorado Shomurodov",
+        "birth_date": "2005-01-06T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/lorenzoscottini.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\lorenzoscottini.png"
+      },
+      {
+        "id": 577,
+        "name": "Matteo",
+        "surname": "Gatti",
+        "username": "Soldatino Di Piombo",
+        "birth_date": "2000-08-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/matteogatti.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteogatti.png"
+      }
+    ]
+  }
+}

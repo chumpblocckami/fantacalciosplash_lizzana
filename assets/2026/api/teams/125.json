@@ -1,0 +1,62 @@
+{
+  "data": {
+    "id": 125,
+    "name": "LE VUOI DUE PICCHE?",
+    "tag": "VDP",
+    "logo_url": "/storage/teams/levuoiduepicche.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\levuoiduepicche.png",
+    "players_count": 5,
+    "players": [
+      {
+        "id": 838,
+        "name": "Nicol",
+        "surname": "Gavioli",
+        "username": "L'ultima delle groupies",
+        "birth_date": "1995-08-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 839,
+        "name": "Michela",
+        "surname": "Pezzato",
+        "username": "Cocca di mamma",
+        "birth_date": "1998-04-22T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 840,
+        "name": "Rachele",
+        "surname": "Gugole",
+        "username": "Pannocchia",
+        "birth_date": "1998-05-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 841,
+        "name": "Camilla",
+        "surname": "Rossi",
+        "username": "Schiava",
+        "birth_date": "1991-08-24T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 842,
+        "name": "Ester",
+        "surname": "Biem",
+        "username": "Calypso",
+        "birth_date": "1997-09-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "data": {
+    "id": 130,
+    "name": "GLI SBANDATI",
+    "tag": "SBT",
+    "logo_url": "/storage/teams/glisbandati.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\glisbandati.png",
+    "players_count": 8,
+    "players": [
+      {
+        "id": 872,
+        "name": "Alessandro",
+        "surname": "Galvagni",
+        "username": "Lo Stalker",
+        "birth_date": "2001-09-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 873,
+        "name": "Daniele",
+        "surname": "Ruzzenenti",
+        "username": "HardDisk",
+        "birth_date": "2000-06-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 874,
+        "name": "Giovanni",
+        "surname": "Simoncelli",
+        "username": "V pezzo",
+        "birth_date": "2001-05-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 875,
+        "name": "Riccardo",
+        "surname": "Briosi",
+        "username": null,
+        "birth_date": "2005-07-13T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 876,
+        "name": "Davide",
+        "surname": "Laghi",
+        "username": "MacGyver",
+        "birth_date": "1995-12-15T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 877,
+        "name": "Mattia",
+        "surname": "Zomer",
+        "username": null,
+        "birth_date": "1994-12-16T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 878,
+        "name": "Matteo",
+        "surname": "Signorati",
+        "username": null,
+        "birth_date": "1997-06-21T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      },
+      {
+        "id": 879,
+        "name": "Nicola",
+        "surname": "Minuto",
+        "username": "Il gatto",
+        "birth_date": "1996-07-03T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultmale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+      }
+    ]
+  }
+}

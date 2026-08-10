@@ -1,0 +1,102 @@
+{
+  "data": {
+    "id": 126,
+    "name": "DRIM TIM",
+    "tag": "DRI",
+    "logo_url": "/storage/teams/drimtim.png",
+    "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+    "players_count": 9,
+    "players": [
+      {
+        "id": 843,
+        "name": "Margherita",
+        "surname": "Planchestainer",
+        "username": "La mamma di Bambi",
+        "birth_date": "1999-11-29T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 844,
+        "name": "Maira",
+        "surname": "Bertolini",
+        "username": "Marc Overmars",
+        "birth_date": "1999-05-05T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 845,
+        "name": "Vera",
+        "surname": "Rossini",
+        "username": "Jecky e mr Hyde",
+        "birth_date": "2002-02-24T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 846,
+        "name": "Laura",
+        "surname": "Monaco",
+        "username": "Pippa Bauda",
+        "birth_date": "2002-02-10T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 847,
+        "name": "Anna",
+        "surname": "Scarciolla",
+        "username": "Faccio io",
+        "birth_date": "1997-02-20T00:00:00.000Z",
+        "is_goalkeeper": true,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 848,
+        "name": "Jessica",
+        "surname": "Merighi",
+        "username": "Licaone tristens",
+        "birth_date": "1997-11-26T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 849,
+        "name": "Melany",
+        "surname": "Raffaelli",
+        "username": "Hotel Belvedere",
+        "birth_date": "1997-05-11T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 850,
+        "name": "Noemi",
+        "surname": "Eccheli",
+        "username": "Schinkenbröt",
+        "birth_date": "1996-07-30T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      },
+      {
+        "id": 851,
+        "name": "Arianna",
+        "surname": "Bonenti",
+        "username": "Bonni",
+        "birth_date": "1995-09-04T00:00:00.000Z",
+        "is_goalkeeper": false,
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+      }
+    ]
+  }
+}
