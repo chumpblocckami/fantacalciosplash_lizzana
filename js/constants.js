@@ -48,4 +48,4 @@ export const REGISTRATION_ENDPOINT =
 // PayPal.Me handle collecting the iscrizione, i.e. the last part of
 // https://www.paypal.com/paypalme/ciotolaaaa. While this is empty no payment button is shown,
 // so the form still works without it.
-export const PAYPAL_ME_USER = 'ciotolaaaa';
+export const PAYPAL_ME_USER = 'DavideRaffaelli21';
