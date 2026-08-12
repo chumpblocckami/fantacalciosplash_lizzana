@@ -182,18 +182,16 @@ function renderRegistrationCount(container) {
   box.className = `border border-gray-200 dark:border-gray-700 rounded-lg mb-3
                    bg-gray-50 dark:bg-gray-800 px-4 py-3
                    text-sm font-medium text-gray-700 dark:text-gray-200`;
-  box.textContent = 'Fantasquadre iscritte...';
+  box.textContent = 'Fantasquadre iscritte: ...';
   container.appendChild(box);
 
   loadRegistrationCount().then((count) => {
     if (count === null) {
-      box.textContent = 'Conteggio fantasquadre non disponibile al momento';
+      box.textContent = 'Fantasquadre iscritte: non disponibile';
       box.classList.add('text-gray-500', 'dark:text-gray-400');
       return;
     }
-    box.textContent = count === 1
-      ? '1 fantasquadra iscritta finora 👯‍♀️'
-      : `${count} fantasquadre iscritte finora 👯‍♀️`;
+    box.textContent = `Fantasquadre iscritte: ${count}`;
   });
 }
 
