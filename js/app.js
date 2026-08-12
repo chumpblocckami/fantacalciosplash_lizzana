@@ -174,8 +174,8 @@ async function main() {
  * Show a running count of registered teams, styled like a collapsed accordion header.
  *
  * The count is fetched rather than read from data/, so the box is appended immediately to keep
- * the section order and filled in when the answer arrives. If the backend is unreachable the
- * box is dropped instead of showing a zero that would read as "nobody signed up".
+ * the section order and filled in when the answer arrives. If the backend is unreachable a short
+ * notice is shown instead of a zero that would read as "nobody signed up".
  */
 function renderRegistrationCount(container) {
   const box = document.createElement('div');
@@ -187,7 +187,8 @@ function renderRegistrationCount(container) {
 
   loadRegistrationCount().then((count) => {
     if (count === null) {
-      box.remove();
+      box.textContent = 'Conteggio fantasquadre non disponibile al momento';
+      box.classList.add('text-gray-500', 'dark:text-gray-400');
       return;
     }
     box.textContent = count === 1

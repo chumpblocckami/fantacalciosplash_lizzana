@@ -51,12 +51,16 @@ export async function loadRegistrationCount() {
   if (!REGISTRATION_ENDPOINT) return null;
   try {
     const resp = await fetch(`${REGISTRATION_ENDPOINT}?count=1`, {
-      signal: AbortSignal.timeout(10_000),
+      // ponytail: GAS cold starts plus the script.google.com redirect chain can exceed 10s;
+      // fetch-registrations.js already waits 30s for the same endpoint.
+      signal: AbortSignal.timeout(30_000),
     });
     if (!resp.ok) return null;
     const data = await resp.json();
     if (Array.isArray(data)) return data.length;
-    return typeof data?.count === 'number' ? data.count : null;
+    if (typeof data?.count === 'number') return data.count;
+    const parsed = Number.parseInt(String(data?.count ?? ''), 10);
+    return Number.isFinite(parsed) ? parsed : null;
   } catch {
     return null;
   }
