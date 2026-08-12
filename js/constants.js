@@ -33,9 +33,9 @@ export const MAX_GOALKEEPERS = 1;
 // ===== TOURNAMENT CONFIG =====
 export const CURRENT_YEAR = '2026';
 
-// Regolamento rule 4: "La squadra va inserita entro e non oltre mercoledi 13 agosto alle
-// ore 23.59."
-export const DEADLINE = new Date('2026-08-13T23:59:00+02:00');
+// Iscrizioni chiuse 5 minuti prima del fischio d'inizio del torneo maschile
+// (13 agosto 2026, 16:00 ora di Roma — calendario ufficiale gsplizzana.it/calendario).
+export const DEADLINE = new Date('2026-08-13T15:59:00+02:00');
 
 // Where scripts/scrape.js pulls the live data from, overridable with the GSP_API_URL
 // environment variable.
@@ -46,6 +46,6 @@ export const REGISTRATION_ENDPOINT =
   'https://script.google.com/macros/s/AKfycbwguh4mbtJ8VSQYXszAeNcVV6jiWB0RS-ckQGb91G1IoF677cgwJRtJYxjGvTlJcLKf/exec';
 
 // PayPal.Me handle collecting the iscrizione, i.e. the last part of
-// https://www.paypal.com/paypalme/ciotolaaaa. While this is empty no payment button is shown,
+// https://www.paypal.com/paypalme/DavideRaffaelli21. While this is empty no payment button is shown,
 // so the form still works without it.
 export const PAYPAL_ME_USER = 'DavideRaffaelli21';
