@@ -1,5 +1,41 @@
 [
   {
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 13.5
+  },
+  {
+    "Allenatore": "Alessandro Galvagni",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Spagnolli Mattia 1",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Spagnolli Mattia 2",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 12
+  },
+  {
+    "Allenatore": "Alessio Farinati",
+    "Punteggio": 5.5
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 4
   },
@@ -8,11 +44,11 @@
     "Punteggio": 2
   },
   {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 0
+    "Allenatore": "JAlvin92",
+    "Punteggio": 2
   },
   {
-    "Allenatore": "Alessandro Galvagni",
+    "Allenatore": "Danny Giordani",
     "Punteggio": 0
   },
   {
@@ -21,18 +57,6 @@
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Davide Rosà",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Spagnolli Mattia 1",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Spagnolli Mattia 2",
     "Punteggio": 0
   },
   {
@@ -72,19 +96,7 @@
     "Punteggio": 0
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Riccardo Zeni",
     "Punteggio": 0
   },
   {
@@ -112,14 +124,6 @@
     "Punteggio": 0
   },
   {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 0
   },
@@ -129,10 +133,6 @@
   },
   {
     "Allenatore": "Michele Bertolini",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Alessio Farinati",
     "Punteggio": 0
   },
   {

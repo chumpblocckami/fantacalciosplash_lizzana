@@ -1,9 +1,33 @@
 [
   {
+    "player": "Andrea Roveda | PINGUINI TRENTINI",
+    "Match 1": 12,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
     "player": "Simone Martini | POWER GINGER",
     "Match 1": 10,
     "Premi": 0,
     "Total": 10
+  },
+  {
+    "player": "Alessio Farinati | PINGUINI TRENTINI",
+    "Match 1": 10,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Enrico Bordignon | PINGUINI TRENTINI",
+    "Match 1": 8,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Davide Manica | PINGUINI TRENTINI",
+    "Match 1": 6,
+    "Premi": 0,
+    "Total": 6
   },
   {
     "player": "Elia Tomasoni | P.S.G.",
@@ -37,6 +61,12 @@
   },
   {
     "player": "Andrea Menolli | SDRUMALA",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
     "Match 1": 4,
     "Premi": 0,
     "Total": 4
@@ -150,7 +180,37 @@
     "Total": 2
   },
   {
+    "player": "Andrea Aste | PINGUINI TRENTINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Matteo Brigo | PINGUINI TRENTINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Luca Lasta | PINGUINI TRENTINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Giovanni Simoncelli | GLI SBANDATI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
     "player": "Christian Martinelli | SDRUMALA",
+    "Match 1": 1.5,
+    "Premi": 0,
+    "Total": 1.5
+  },
+  {
+    "player": "Matteo Pilati | PINGUINI TRENTINI",
     "Match 1": 1.5,
     "Premi": 0,
     "Total": 1.5
@@ -216,6 +276,42 @@
     "Total": 0
   },
   {
+    "player": "Riccardo Briosi | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Alessandro Galvagni | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Davide Laghi | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Nicola Minuto | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Daniele Ruzzenenti | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Mattia Zomer | GLI SBANDATI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
     "player": "Florian Hoxha | P.S.G.",
     "Match 1": -1,
     "Premi": 0,
@@ -256,5 +352,11 @@
     "Match 1": -3,
     "Premi": 0,
     "Total": -3
+  },
+  {
+    "player": "Matteo Signorati | GLI SBANDATI",
+    "Match 1": -7.5,
+    "Premi": 0,
+    "Total": -7.5
   }
 ]

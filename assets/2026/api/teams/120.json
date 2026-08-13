@@ -21,11 +21,11 @@
         "id": 808,
         "name": "Anna",
         "surname": "Zendri",
-        "username": null,
+        "username": "Diga di Speccheri",
         "birth_date": "2007-12-28T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\annazendri.png"
       },
       {
         "id": 809,
@@ -41,11 +41,11 @@
         "id": 810,
         "name": "Claudia",
         "surname": "Dalfovo",
-        "username": null,
+        "username": "DDL caccia",
         "birth_date": "1999-12-27T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\claudiadalfovo.png"
       },
       {
         "id": 811,

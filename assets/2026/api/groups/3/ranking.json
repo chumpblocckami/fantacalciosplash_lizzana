@@ -7,14 +7,14 @@
       "tag": "LOV",
       "logo_url": "/storage/teams/lovebusters.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lovebusters.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
+      "points": 3,
+      "played": 1,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
+      "goals_scored": 6,
+      "goals_conceded": 1,
+      "goal_difference": 5,
       "disciplinary_points": 0
     },
     {
@@ -36,23 +36,6 @@
     },
     {
       "ranking": 3,
-      "id": 120,
-      "name": "LE PAPERELLE",
-      "tag": "PAP",
-      "logo_url": "/storage/teams/lepaperelle.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lepaperelle.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 4,
       "id": 125,
       "name": "LE VUOI DUE PICCHE?",
       "tag": "VDP",
@@ -69,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 4,
       "id": 126,
       "name": "DRIM TIM",
       "tag": "DRI",
@@ -83,6 +66,23 @@
       "goals_scored": 0,
       "goals_conceded": 0,
       "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 5,
+      "id": 120,
+      "name": "LE PAPERELLE",
+      "tag": "PAP",
+      "logo_url": "/storage/teams/lepaperelle.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lepaperelle.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 6,
+      "goal_difference": -5,
       "disciplinary_points": 0
     }
   ]
