@@ -44,6 +44,10 @@
     "Punteggio": 6.5
   },
   {
+    "Allenatore": "Thomas Pontillo",
+    "Punteggio": 6
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 5
   },
@@ -117,10 +121,6 @@
   },
   {
     "Allenatore": "Andrea Conzatti",
-    "Punteggio": 1
-  },
-  {
-    "Allenatore": "Thomas Pontillo",
     "Punteggio": 1
   },
   {

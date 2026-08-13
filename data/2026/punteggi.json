@@ -30,6 +30,12 @@
     "Total": 7
   },
   {
+    "player": "Giovanni Frizzera | FC SALAGIARDINI",
+    "Match 1": 7,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Davide Manica | PINGUINI TRENTINI",
     "Match 1": 6,
     "Premi": 0,
@@ -115,6 +121,36 @@
   },
   {
     "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Tommaso Aste | GLI INTROVABILI",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Moris Benedetti | GLI INTROVABILI",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Leonardo Comper | GLI INTROVABILI",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Massimiliano Rossi | FC SALAGIARDINI",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Gianni Sala | FC SALAGIARDINI",
     "Match 1": 4,
     "Premi": 0,
     "Total": 4
@@ -312,6 +348,60 @@
     "Total": 2
   },
   {
+    "player": "Lorenzo Barozzi | AVANZI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Mattia Kaiserman | GLI INTROVABILI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Andrea Pedrotti | GLI INTROVABILI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Gerardo Todisco | GLI INTROVABILI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Matteo Calcinardi | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Alessandro Fanti | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Alberto Raffaelli | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Patrick Raffaelli | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Marco Renica | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
     "player": "Christian Martinelli | SDRUMALA",
     "Match 1": 1.5,
     "Premi": 0,
@@ -403,6 +493,12 @@
   },
   {
     "player": "Nicolò Speziali | F.C. GORILLAZ",
+    "Match 1": 1,
+    "Premi": 0,
+    "Total": 1
+  },
+  {
+    "player": "Thomas Pontillo | GLI INTROVABILI",
     "Match 1": 1,
     "Premi": 0,
     "Total": 1
@@ -546,6 +642,78 @@
     "Total": 0
   },
   {
+    "player": "Andrea Barozzi | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Pablo Sebastian Chavez Mandressi | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Gabriele Galli | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Matteo Manconi | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Omar Russo | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Davide Simoncelli | AVANZI",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Francesco Cristoforetti | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Andrea Di Filippo | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Simone Rospocher | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Pietro Slavik | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Leonardo Trinco | VIGILI DEL FUSTO",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
     "player": "Florian Hoxha | P.S.G.",
     "Match 1": -1,
     "Premi": 0,
@@ -558,6 +726,12 @@
     "Total": -1
   },
   {
+    "player": "Thomas Graiff | VIGILI DEL FUSTO",
+    "Match 1": -1,
+    "Premi": 0,
+    "Total": -1
+  },
+  {
     "player": "Andrea Bellini | NAZIONALE FERROVIERI",
     "Match 1": -1.5,
     "Premi": 0,
@@ -565,6 +739,12 @@
   },
   {
     "player": "Pietro Marchesini | NAZIONALE FERROVIERI",
+    "Match 1": -1.5,
+    "Premi": 0,
+    "Total": -1.5
+  },
+  {
+    "player": "Michele Ruele | AVANZI",
     "Match 1": -1.5,
     "Premi": 0,
     "Total": -1.5
