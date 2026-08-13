@@ -604,11 +604,11 @@
       "id": 28,
       "scheduled_at": "2026-08-13T22:00:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "1T",
-      "state_label": "1° tempo",
-      "live": true,
-      "closed": false,
+      "half_time": "2H",
+      "state": "FF",
+      "state_label": "Finale",
+      "live": false,
+      "closed": true,
       "field": null,
       "group_name": "Maschile",
       "gender": "male",
@@ -626,8 +626,8 @@
         "logo_url": "/storage/teams/fcsalagiardini.png",
         "gender": "male"
       },
-      "home_score": 2,
-      "away_score": 0
+      "home_score": 5,
+      "away_score": 1
     },
     {
       "id": 45,

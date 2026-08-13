@@ -4,6 +4,10 @@
     "Punteggio": 21
   },
   {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 16
+  },
+  {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 16
   },
@@ -32,10 +36,6 @@
     "Punteggio": 14
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 12
-  },
-  {
     "Allenatore": "Federico Fasanelli",
     "Punteggio": 12
   },
@@ -44,12 +44,20 @@
     "Punteggio": 11.5
   },
   {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 10
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 10
   },
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 10
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 9.5
   },
   {
     "Allenatore": "Alessio Farinati",
@@ -64,15 +72,15 @@
     "Punteggio": 9
   },
   {
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 8.5
+  },
+  {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
     "Punteggio": 8
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 7
-  },
-  {
-    "Allenatore": "Matteo Mazzola",
     "Punteggio": 7
   },
   {
@@ -88,19 +96,19 @@
     "Punteggio": 7
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 6
-  },
-  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 6
   },
   {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 5.5
+    "Allenatore": "Marco Sala",
+    "Punteggio": 6
   },
   {
     "Allenatore": "Nazarena Raos",
+    "Punteggio": 5
+  },
+  {
+    "Allenatore": "Michele Bertolini",
     "Punteggio": 5
   },
   {
@@ -134,13 +142,5 @@
   {
     "Allenatore": "Marco Sartorelli",
     "Punteggio": 2
-  },
-  {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 2
-  },
-  {
-    "Allenatore": "Michele Bertolini",
-    "Punteggio": 1
   }
 ]

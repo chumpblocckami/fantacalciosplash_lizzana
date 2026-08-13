@@ -2,1032 +2,1260 @@
   {
     "player": "Andrea Roveda | PINGUINI TRENTINI",
     "Match 1": 12,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 12
   },
   {
     "player": "Simone Martini | POWER GINGER",
     "Match 1": 10,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 10
   },
   {
     "player": "Alessio Farinati | PINGUINI TRENTINI",
     "Match 1": 10,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 10
   },
   {
     "player": "Enrico Bordignon | PINGUINI TRENTINI",
     "Match 1": 8,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 8
   },
   {
     "player": "Leonardo Viola | SHARK ATTACK",
     "Match 1": 8,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 8
   },
   {
     "player": "Manuel Pedrotti | SUGHI",
     "Match 1": 8,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 8
   },
   {
     "player": "Matteo Zanlucchi | SBARX",
     "Match 1": 7,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Giovanni Frizzera | FC SALAGIARDINI",
-    "Match 1": 7,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 7
   },
   {
     "player": "Davide Manica | PINGUINI TRENTINI",
     "Match 1": 6,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Riccardo Zaffoni | U.SGUARNA",
     "Match 1": 6,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Federico Fasanelli | SBARX",
     "Match 1": 6,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Niccolò Orsi | SBARX",
     "Match 1": 6,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Massimiliano Rossi | FC SALAGIARDINI",
+    "Match 1": 4,
+    "Match 2": 2,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Mattia Festi | SHARK ATTACK",
     "Match 1": 6,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Daniele Feltrinelli | SUGHI",
     "Match 1": 6,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Andrea Anzelini | GREP",
+    "Match 1": 6,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 6
   },
   {
     "player": "Elia Tomasoni | P.S.G.",
     "Match 1": 5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 5
   },
   {
     "player": "Pietro Di Liberto | FC SCHALKE 104",
     "Match 1": 5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 5
   },
   {
     "player": "Giovanni Torboli | F.C. GORILLAZ",
     "Match 1": 5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 5
   },
   {
     "player": "Federico Mortillaro | CLITORIDERS",
     "Match 1": 5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 5
   },
   {
+    "player": "Giovanni Frizzera | FC SALAGIARDINI",
+    "Match 1": 7,
+    "Match 2": -2.5,
+    "Premi": 0,
+    "Total": 4.5
+  },
+  {
     "player": "Matteo Bazzanella | POWER GINGER",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Daniele Dalbosco | SDRUMALA",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Alessio Delli Compagni | SDRUMALA",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Andrea Menolli | SDRUMALA",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Matteo Diener | U.SGUARNA",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Federico Nicolodi | U.SGUARNA",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Nicholas Marzadro | SBARX",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Tommaso Aste | GLI INTROVABILI",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Moris Benedetti | GLI INTROVABILI",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Leonardo Comper | GLI INTROVABILI",
     "Match 1": 4,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Massimiliano Rossi | FC SALAGIARDINI",
-    "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Gianni Sala | FC SALAGIARDINI",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Alessio Bragagna | SHARK ATTACK",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Riccardo Barbiero | SUGHI",
     "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Luca Tonolli | SUGHI",
     "Match 1": 4,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Riccardo Baldo | GREP",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Federico Giordani | GREP",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Matteo Mazzola | GREP",
+    "Match 1": 4,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 4
   },
   {
     "player": "Elia Battisti | U.SGUARNA",
     "Match 1": 3.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3.5
   },
   {
     "player": "Filippo Maraner | POWER GINGER",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Mirko Ghiggeri | P.S.G.",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Alessandro Rambaldo | P.S.G.",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Octavian Fusari | FC SCHALKE 104",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Marco Mutinelli | I MONTAGNA",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Marco Sala | I MONTAGNA",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Andrea Conzatti | FC SAVIGNANO",
     "Match 1": 3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 3
   },
   {
     "player": "Emiliano Bici | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Maxim Bot | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Blendi Capa | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Gentian Kapa | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Lorenzo Rossi | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Kevin Vela | POWER GINGER",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Fabio Coati | QUEI STRAZI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Marco Lutteri | QUEI STRAZI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Davide Deimichei | SDRUMALA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Manuel Emanuelli | SDRUMALA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Andreas Galli | SDRUMALA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Stefano Mattioli | SDRUMALA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Christian Trainotti | SDRUMALA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Michele Eccel | NAZIONALE FERROVIERI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Andrea Aste | PINGUINI TRENTINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Matteo Brigo | PINGUINI TRENTINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Luca Lasta | PINGUINI TRENTINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Giovanni Simoncelli | GLI SBANDATI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Andrea Gober | U.SGUARNA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Marco Heidempergher | U.SGUARNA",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Riccardo Madaschi | BEVEM4TUT",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Carlo Adami | SBARX",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Davide Fontana | SBARX",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Alex Manica | SBARX",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Enrico Parisi | SBARX",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Lorenzo Barozzi | AVANZI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Mattia Kaiserman | GLI INTROVABILI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Andrea Pedrotti | GLI INTROVABILI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Gerardo Todisco | GLI INTROVABILI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Matteo Calcinardi | FC SALAGIARDINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Alessandro Fanti | FC SALAGIARDINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Alberto Raffaelli | FC SALAGIARDINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Patrick Raffaelli | FC SALAGIARDINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Marco Renica | FC SALAGIARDINI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Mattia Baldessarini | SHARK ATTACK",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Alessandro Zeni | SHARK ATTACK",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Serghei Ungureanu | QUESTI SEN",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Emanuele Miorandi | SUGHI",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Emanuele Toss | 4SINS",
     "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Nicolas Giordani | FC SAVIGNANO",
     "Match 1": 2,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Michele Bertolini | GREP",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Matteo Maraner | GREP",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Davide Raffaelli | GREP",
+    "Match 1": 2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 2
   },
   {
     "player": "Christian Martinelli | SDRUMALA",
     "Match 1": 1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1.5
   },
   {
     "player": "Matteo Pilati | PINGUINI TRENTINI",
     "Match 1": 1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1.5
   },
   {
     "player": "William Pedri | U.SGUARNA",
     "Match 1": 1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1.5
   },
   {
     "player": "Alberto Cerisara | SHARK ATTACK",
     "Match 1": 1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1.5
   },
   {
     "player": "Federico Leonardi | SUGHI",
     "Match 1": 1.5,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": 1.5
+  },
+  {
+    "player": "Federico Zoller | GREP",
+    "Match 1": 1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1.5
   },
   {
     "player": "Simone Consolati | P.S.G.",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Yuri Garau | P.S.G.",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Antonio Rambaldo | P.S.G.",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Davide Ganganelli | FC SCHALKE 104",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Federico Andreis | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Davide Bazzano | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Jacopo Chemini | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Federico Manica | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Andrea Pedrotti | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Daniel Pedrotti | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Matteo Simoncelli | I MONTAGNA",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Samuele Maffei | F.C. GORILLAZ",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Nicolò Speziali | F.C. GORILLAZ",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Thomas Pontillo | GLI INTROVABILI",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Davide De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Giacomo De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Eduardo Grazioli | FC SAVIGNANO",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Alessandro Maffei | FC SAVIGNANO",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Amedeo Malesardi | FC SAVIGNANO",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Luca Frasca | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Stefano Galvagni | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Andrea Giordani | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Thomas Maffei | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Michele Merighi | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Micheal Zanoni | CLITORIDERS",
     "Match 1": 1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 1
   },
   {
     "player": "Vincenzo Augusto | QUEI STRAZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Alessandro Sartori | QUEI STRAZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Elias Viesi Lutteri | QUEI STRAZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Lorenzo Casari | NAZIONALE FERROVIERI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Fabio Daves | NAZIONALE FERROVIERI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Leonardo Fedrigotti | NAZIONALE FERROVIERI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Riccardo Briosi | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Alessandro Galvagni | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Davide Laghi | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Nicola Minuto | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Daniele Ruzzenenti | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Mattia Zomer | GLI SBANDATI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Daniele Dalbosco | I MONTAGNA",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Alessandro Ruele | F.C. GORILLAZ",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Daniele Feller | BEVEM4TUT",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Matteo Giovannella | BEVEM4TUT",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Maurizio Maffei | BEVEM4TUT",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Samuele Pedrotti | BEVEM4TUT",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Francesco Amadori | FC WANDA TIM",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Nicola Conti | FC WANDA TIM",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Stefano Rosina | FC WANDA TIM",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Mattia Spagnolli | FC WANDA TIM",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Emanuele Valduga | FC WANDA TIM",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Andrea Barozzi | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Pablo Sebastian Chavez Mandressi | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Gabriele Galli | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Matteo Manconi | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Omar Russo | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Davide Simoncelli | AVANZI",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Francesco Cristoforetti | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Andrea Di Filippo | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Simone Rospocher | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Pietro Slavik | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Leonardo Trinco | VIGILI DEL FUSTO",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Massimiliano Baldo | QUESTI SEN",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Samuel Beber | QUESTI SEN",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Samuel Campagna | QUESTI SEN",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Roberto Mancabelli | QUESTI SEN",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Mattia Rizzoli | QUESTI SEN",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Tommaso Bruschetti | 4SINS",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Giovanni Lasta | 4SINS",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Emanuele Tomasoni | 4SINS",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Christian Torboli | 4SINS",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Pietro Bernardelli | CLITORIDERS",
     "Match 1": 0,
+    "Match 2": 0,
     "Premi": 0,
     "Total": 0
   },
   {
     "player": "Florian Hoxha | P.S.G.",
     "Match 1": -1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1
   },
   {
     "player": "Andrea Amendola | FC SCHALKE 104",
     "Match 1": -1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1
   },
   {
     "player": "Thomas Graiff | VIGILI DEL FUSTO",
     "Match 1": -1,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1
   },
   {
     "player": "Andrea Bellini | NAZIONALE FERROVIERI",
     "Match 1": -1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1.5
   },
   {
     "player": "Pietro Marchesini | NAZIONALE FERROVIERI",
     "Match 1": -1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1.5
   },
   {
     "player": "Michele Ruele | AVANZI",
     "Match 1": -1.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -1.5
   },
   {
     "player": "Wilson Bona | NAZIONALE FERROVIERI",
     "Match 1": -2,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -2
   },
   {
     "player": "Federico Madaschi | BEVEM4TUT",
     "Match 1": -2.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -2.5
   },
   {
     "player": "Mattia Bertolini | QUEI STRAZI",
     "Match 1": -3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -3
   },
   {
     "player": "Mattia Lotti | QUEI STRAZI",
     "Match 1": -3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -3
   },
   {
     "player": "Carlo Pomarolli | FC WANDA TIM",
     "Match 1": -3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -3
   },
   {
     "player": "Nicolò Papalia | QUESTI SEN",
     "Match 1": -3,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -3
   },
   {
     "player": "Mario Sinani | 4SINS",
     "Match 1": -3.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -3.5
   },
   {
     "player": "Matteo Signorati | GLI SBANDATI",
     "Match 1": -7.5,
+    "Match 2": 0,
     "Premi": 0,
     "Total": -7.5
   }
