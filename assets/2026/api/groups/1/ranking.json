@@ -19,6 +19,40 @@
     },
     {
       "ranking": 2,
+      "id": 97,
+      "name": "FC SCHALKE 104",
+      "tag": "SCH",
+      "logo_url": "/storage/teams/fcschalke104.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcschalke104.png",
+      "points": 1,
+      "played": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0,
+      "goals_scored": 4,
+      "goals_conceded": 4,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 3,
+      "id": 102,
+      "name": "P.S.G.",
+      "tag": "PSG",
+      "logo_url": "/storage/teams/psg.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\psg.png",
+      "points": 1,
+      "played": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 0,
+      "goals_scored": 4,
+      "goals_conceded": 4,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 4,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -35,7 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 5,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -52,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
+      "ranking": 6,
       "id": 89,
       "name": "U.SGUARNA",
       "tag": "USG",
@@ -69,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 7,
       "id": 91,
       "name": "QUESTI SEN",
       "tag": "QSN",
@@ -86,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 8,
       "id": 92,
       "name": "I MONTAGNA",
       "tag": "MON",
@@ -103,7 +137,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 9,
       "id": 93,
       "name": "FC SAVIGNANO",
       "tag": "SAV",
@@ -120,7 +154,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 10,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -137,7 +171,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 9,
+      "ranking": 11,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -154,46 +188,12 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 10,
-      "id": 97,
-      "name": "FC SCHALKE 104",
-      "tag": "SCH",
-      "logo_url": "/storage/teams/fcschalke104.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcschalke104.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 11,
+      "ranking": 12,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
       "logo_url": "/storage/teams/modium.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\modium.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 12,
-      "id": 102,
-      "name": "P.S.G.",
-      "tag": "PSG",
-      "logo_url": "/storage/teams/psg.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\psg.png",
       "points": 0,
       "played": 0,
       "wins": 0,
