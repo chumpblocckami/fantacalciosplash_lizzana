@@ -62,6 +62,23 @@ function isRelevant(fixture) {
   );
 }
 
+/**
+ * Whether a fixture belongs to the knockout / elimination stage rather than the girone.
+ *
+ * Rule 6's malus is for a phase a team did not reach. During the group stage that cannot be
+ * told apart from a phase it has not played yet, so the penalty stays off the table until at
+ * least one men's knockout match has been closed. The group's `kind` is the usual signal;
+ * the name is the fallback for a listing that has no groups.json, or that names the round
+ * "Semifinali M" / "Ottavi" without setting kind.
+ */
+function isKnockout(fixture, groupsByName) {
+  const name = fixture.group_name ?? '';
+  if (THIRD_PLACE_PLAY_OFF.test(name)) return true;
+  const kind = groupsByName.get(name)?.kind;
+  if (kind && kind.toLowerCase() !== 'girone') return true;
+  return /(ottavi|quarti|semifinali?|finale|playoffs?|sedicesimi)/i.test(name);
+}
+
 function computeMatchPoints(player, teamScore, concededGoals, isMvp) {
   const goalPts = (player.goals ?? 0) * POINTS_PER_GOAL;
   const yellowPts = (player.yellow_cards ?? 0) * POINTS_PER_YELLOW_CARD;
@@ -100,6 +117,10 @@ function main() {
     console.log('  ⚠ No fixtures.json found. Run the scraper first.');
     return;
   }
+
+  const groupsByName = new Map(
+    (readJson(join(API_DIR, 'groups.json'))?.data ?? []).map(group => [group.name, group])
+  );
 
   const rosters = new Map();       // team -> Set(playerId), everyone who ever played for it
   const scored = new Map();        // `fixtureId::team` -> Map(playerId -> MatchPoints)
@@ -168,6 +189,18 @@ function main() {
   // Regolamento: "Punteggi a fine torneo. Capocannoniere +5." Awarded only once every fixture
   // has been played, so the live table does not hand the prize to whoever is ahead today.
   const finished = results.length > 0 && skipped === 0;
+
+  // The classifica should show what the players actually scored until it is possible to know
+  // who is out. That is the first closed knockout fixture, not the last group-stage one.
+  const knockoutsStarted = fixtureList.some(
+    fixture => isRelevant(fixture) && isPlayed(fixture) && isKnockout(fixture, groupsByName)
+  );
+  const applyMalus = knockoutsStarted || finished;
+  if (applyMalus) {
+    console.log('  ⚖ Rule 6 malus is on: missed knockout rounds are charged.');
+  } else {
+    console.log('  ⏳ Girone in progress: scoring points only, malus held back.');
+  }
   const mostGoals = Math.max(0, ...goalsScored.values());
   const topScorers = new Set(
     finished && mostGoals > 0
@@ -193,9 +226,14 @@ function main() {
           // because the player has not been eliminated from anything.
           const points = scored.get(`${fixtures[i]}::${team}`)?.get(playerId);
           row[column] = points ? points.total_points : POINTS_PER_MISSING_GAME;
-        } else {
+        } else if (applyMalus) {
           row[column] = POINTS_PER_MISSING_GAME;
           missed.push(column);
+        } else {
+          // Still in the girone: a team on fewer matches than the leaders has not gone out,
+          // it is simply due to play. Charging rule 6 now would put the whole table below
+          // zero before anybody had missed a phase.
+          row[column] = 0;
         }
         total += row[column];
       }
@@ -216,6 +254,18 @@ function main() {
   // they scored the penalty. build-classifica.js needs the difference to know when the
   // regolamento lets a reserve come on.
   writeJson(join(DATA_DIR, 'eliminazioni.json'), eliminazioni);
+
+  // Whether the malus is due yet. Rule 6 punishes a phase a team did not reach, which cannot be
+  // told apart from a phase it has not reached so far until the knockouts begin. The classifica
+  // reads this so it can show earned points only while the girone is still on.
+  writeJson(join(DATA_DIR, 'stato.json'), {
+    finished,
+    knockouts_started: knockoutsStarted,
+    apply_malus: applyMalus,
+    rounds,
+    matches_played: results.length,
+    matches_remaining: skipped,
+  });
 
   // Raw per-match ratings, used to rebuild history.json and to price the next edition. Only
   // matches that were actually played, so points-per-match means what it says.

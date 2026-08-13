@@ -65,7 +65,7 @@ function lineup(coach, [goalkeeper, one, two, three, reserve]) {
  * Passing eliminazioni as null leaves the file out altogether, which is how an edition
  * scored before compute-scores.js started writing it looks.
  */
-function rank(name, punteggi, squadre, eliminazioni = {}) {
+function rank(name, punteggi, squadre, eliminazioni = {}, stato = null) {
   const cwd = workspace(`classifica-${name}`);
   const dataDir = join(cwd, 'data', YEAR);
   mkdirSync(dataDir, { recursive: true });
@@ -73,6 +73,9 @@ function rank(name, punteggi, squadre, eliminazioni = {}) {
   writeFileSync(join(dataDir, 'squadre.json'), JSON.stringify(squadre));
   if (eliminazioni !== null) {
     writeFileSync(join(dataDir, 'eliminazioni.json'), JSON.stringify(eliminazioni));
+  }
+  if (stato !== null) {
+    writeFileSync(join(dataDir, 'stato.json'), JSON.stringify(stato));
   }
 
   const run = runScript('build-classifica.js', cwd, { YEAR });
@@ -207,6 +210,27 @@ describe('scripts/build-classifica.js', () => {
       ];
       const table = rank('unknown-starter', punteggi, squadre, {});
       assert.equal(scoreOf(table, 'Matteo'), 5 + 6 + 3 + 2);
+    });
+  });
+
+  describe('the malus during the girone', () => {
+    test('is not charged for a starter whose team has not played yet', () => {
+      // Four starters, one of them still waiting for their first group match. Treating that
+      // as an elimination would spend the reserve and put -2 on the table.
+      const punteggi = [
+        scores(GOALKEEPER, [5]),
+        scores(STARTER_TWO, [3]),
+        scores(STARTER_THREE, [2]),
+        scores(RESERVE, [9]),
+      ];
+      const table = rank(
+        'girone-waiting',
+        punteggi,
+        [lineup('Matteo', LINEUP)],
+        {},
+        { apply_malus: false, knockouts_started: false, finished: false }
+      );
+      assert.equal(scoreOf(table, 'Matteo'), 5 + 0 + 3 + 2);
     });
   });
 

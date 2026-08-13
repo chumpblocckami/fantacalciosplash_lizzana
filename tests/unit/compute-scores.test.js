@@ -175,6 +175,52 @@ describe('scripts/compute-scores.js', () => {
     });
   });
 
+  describe('the malus while the girone is still on', () => {
+    test('is not charged for rounds that have simply not been played yet', () => {
+      // Two group matches, one still scheduled: BETA has played and ALFA has not, so padding
+      // BETA with -2 would look like an elimination. The table has to show what they scored.
+      const cwd = workspace('girone-in-progress');
+      writeSnapshot(cwd, YEAR, {
+        groups: [{ id: 1, name: 'Maschile', gender: 'male', kind: 'girone' }],
+        fixtures: [
+          {
+            id: 1,
+            group_name: 'Maschile',
+            gender: 'male',
+            closed: true,
+            home: team('BETA', 1, [player(1, 'carlo', 'blu', { goals: 1 })]),
+            away: team('DELTA', 0, [player(2, 'gigi', 'argento')]),
+          },
+          {
+            id: 2,
+            group_name: 'Maschile',
+            gender: 'male',
+            closed: false,
+            home: team('ALFA', 0, [player(3, 'mario', 'rossi')]),
+            away: team('GAMMA', 0, [player(4, 'ennio', 'grigi')]),
+          },
+        ],
+      });
+
+      const run = runScript('compute-scores.js', cwd, { YEAR });
+      assert.equal(run.status, 0, run.stderr);
+      assert.match(run.stdout, /malus held back/);
+
+      const scored = readOutput(cwd, 'data', YEAR, 'punteggi.json');
+      const carlo = scored.find(entry => entry.player === 'Carlo Blu | BETA');
+      assert.deepEqual(
+        Object.keys(carlo).filter(key => key.startsWith('Match ')),
+        ['Match 1'],
+        'nobody has played a second match, so there is no column to pad'
+      );
+      assert.equal(carlo['Match 1'], 2 + 2, 'the goal and the win, nothing else');
+
+      const stato = readOutput(cwd, 'data', YEAR, 'stato.json');
+      assert.equal(stato.apply_malus, false);
+      assert.equal(stato.knockouts_started, false);
+    });
+  });
+
   describe('the third-place play-off', () => {
     /**
      * A group match and a third-place play-off, the play-off named however the caller likes.

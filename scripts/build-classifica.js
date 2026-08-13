@@ -58,9 +58,18 @@ function dedupe(squadre) {
   return [...byCoach.values()];
 }
 
-/** One player's score in one match column, or the penalty when they are not in the table. */
-function scoreFor(row, column) {
-  return row ? (parseFloat(row[column]) || 0) : POINTS_PER_MISSING_GAME;
+/**
+ * One player's score in one match column.
+ *
+ * Not being in the punteggi at all means the player's real team has not taken the field. Once
+ * the knockouts have started that is a phase they never reached and rule 6 applies, but while
+ * the girone is still being played it only means their first match has not come round yet, and
+ * charging the malus then would show a table of negative scores before anybody had done
+ * anything wrong.
+ */
+function scoreFor(row, column, applyMalus) {
+  if (row) return parseFloat(row[column]) || 0;
+  return applyMalus ? POINTS_PER_MISSING_GAME : 0;
 }
 
 /**
@@ -74,16 +83,19 @@ function scoreFor(row, column) {
  * @param {Object}  eliminazioni - Player id to the columns their team did not play
  * @param {boolean} known        - Whether eliminazioni.json was there to read
  * @param {Object}  scoreMap     - Player id to their punteggi row
+ * @param {boolean} applyMalus   - Whether rule 6 is in force yet
  */
-function eliminationTest(eliminazioni, known, scoreMap) {
+function eliminationTest(eliminazioni, known, scoreMap, applyMalus) {
   return (name, column) => {
     if (!name) return false;
     const row = scoreMap[name];
-    // Somebody the sheet names who never took the field counts as unavailable throughout.
-    if (!row) return true;
+    // Somebody the sheet names who never took the field counts as unavailable throughout, but
+    // only once the knockouts have started. Treating them as out during the girone would spend
+    // the reserve on a starter who is merely waiting to play.
+    if (!row) return applyMalus;
     return known
       ? (eliminazioni[name] ?? []).includes(column)
-      : scoreFor(row, column) === POINTS_PER_MISSING_GAME;
+      : scoreFor(row, column, applyMalus) === POINTS_PER_MISSING_GAME;
   };
 }
 
@@ -111,6 +123,14 @@ function main() {
   const eliminazioni = readJson(join(DATA_DIR, 'eliminazioni.json'));
   if (!eliminazioni) {
     console.log('  ⚠ No eliminazioni.json; inferring who is out from the scores instead.');
+  }
+
+  // Editions that were computed before stato.json existed are all finished ones, so their tables
+  // keep the malus they were built with. While the girone is still on, only earned points count.
+  const stato = readJson(join(DATA_DIR, 'stato.json'));
+  const applyMalus = stato ? Boolean(stato.apply_malus) : true;
+  if (!applyMalus) {
+    console.log('  ⏳ Girone in progress: points only, rule 6 malus held back until the knockouts.');
   }
 
   // Regolamento rule 1: one team per participant. The sheet can still hold a repeat, from a
@@ -149,12 +169,12 @@ function main() {
       scoreMap[name] = punteggi.find(p => normalize(p[pKey]) === normalize(name));
     }
 
-    const isOut = eliminationTest(eliminazioni ?? {}, eliminazioni !== null, scoreMap);
+    const isOut = eliminationTest(eliminazioni ?? {}, eliminazioni !== null, scoreMap, applyMalus);
     let reserveUsed = false;
     let total = 0;
 
     for (const col of matchCols) {
-      const scores = starters.map(name => scoreFor(scoreMap[name], col));
+      const scores = starters.map(name => scoreFor(scoreMap[name], col, applyMalus));
 
       // Regolamento rules 5 and 6: the reserve comes on the moment one of the starters is
       // eliminated from the tournament, and when a reserve is available to come on there is
@@ -162,7 +182,7 @@ function main() {
       // starter, so if two go out the second keeps the penalty.
       const out = starters.findIndex(name => isOut(name, col));
       if (out !== -1 && reserve && !isOut(reserve, col)) {
-        scores[out] = scoreFor(scoreMap[reserve], col);
+        scores[out] = scoreFor(scoreMap[reserve], col, applyMalus);
         reserveUsed = true;
       }
 
