@@ -12,6 +12,40 @@ import { REGISTRATION_ENDPOINT } from '../js/constants.js';
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const OUTPUT = join('data', YEAR, 'squadre.json');
 
+const ATTEMPTS = 3;
+const TIMEOUT_MS = 60_000;
+
+/**
+ * Read the team list from the Apps Script web app, retrying on timeout.
+ *
+ * A cold Apps Script deployment answers the first call of the hour in tens of seconds, and the
+ * answer is every lineup rather than a summary, so a single 30s attempt loses the whole list and
+ * leaves the classifica ranking yesterday's teams.
+ *
+ * @returns {Promise<Object[]>} Registered teams
+ */
+async function fetchSquadre() {
+  let lastError;
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+    try {
+      const resp = await fetch(REGISTRATION_ENDPOINT, {
+        signal: AbortSignal.timeout(TIMEOUT_MS),
+      });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} from the registration endpoint`);
+
+      const squadre = await resp.json();
+      if (!Array.isArray(squadre)) {
+        throw new Error('The registration endpoint did not return a list of teams');
+      }
+      return squadre;
+    } catch (err) {
+      lastError = err;
+      console.log(`  ⏳ Attempt ${attempt}/${ATTEMPTS} failed: ${err.message}`);
+    }
+  }
+  throw lastError;
+}
+
 async function main() {
   console.log(`\n📥 Fetching registrations for ${YEAR}\n`);
 
@@ -20,13 +54,7 @@ async function main() {
     return;
   }
 
-  const resp = await fetch(REGISTRATION_ENDPOINT, { signal: AbortSignal.timeout(30_000) });
-  if (!resp.ok) throw new Error(`HTTP ${resp.status} from the registration endpoint`);
-
-  const squadre = await resp.json();
-  if (!Array.isArray(squadre)) {
-    throw new Error('The registration endpoint did not return a list of teams');
-  }
+  const squadre = await fetchSquadre();
 
   mkdirSync(join(OUTPUT, '..'), { recursive: true });
   writeFileSync(OUTPUT, JSON.stringify(squadre, null, 2));

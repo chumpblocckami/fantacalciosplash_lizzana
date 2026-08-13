@@ -160,36 +160,12 @@
     "Riserva": "Giovanni Raoss | I MAGNIFICI"
   },
   {
-    "Fantallenatore": "__TEST_CURL__",
-    "Portiere": "x | y",
-    "Titolare 1": "a | b",
-    "Titolare 2": "",
-    "Titolare 3": "",
-    "Riserva": "c | d"
-  },
-  {
     "Fantallenatore": "Dalila Valzolgher",
     "Portiere": "Elia Barozzi | I MAGNIFICI",
     "Titolare 1": "Michele Merighi | CLITORIDERS",
     "Titolare 2": "Andrea Roveda | PINGUINI TRENTINI",
     "Titolare 3": "Daniel Pedrotti | I MONTAGNA",
     "Riserva": "Moris Benedetti | GLI INTROVABILI"
-  },
-  {
-    "Fantallenatore": "__TEST_CURL_2__",
-    "Portiere": "g | T1",
-    "Titolare 1": "a | T2",
-    "Titolare 2": "b | T3",
-    "Titolare 3": "c | T4",
-    "Riserva": "d | T5"
-  },
-  {
-    "Fantallenatore": "__PROBE_webkit__",
-    "Portiere": "g | T1",
-    "Titolare 1": "a | T2",
-    "Titolare 2": "b | T3",
-    "Titolare 3": "c | T4",
-    "Riserva": "d | T5"
   },
   {
     "Fantallenatore": "Riccardo Zeni",

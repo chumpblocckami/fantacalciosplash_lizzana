@@ -54,3 +54,14 @@ jobs:
           git add data/ assets/
           git diff --staged --quiet || git commit -m "📊 Auto-update scores $(date -u +%Y-%m-%dT%H:%M)"
           git push
+
+  # The push above is made with GITHUB_TOKEN, and GitHub does not start workflows from those, so
+  # the push trigger in deploy.yml never fires for an auto-update. Without this the fresh scores
+  # reach the repository and the published site stays on whatever was last pushed by a human.
+  deploy:
+    needs: update
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
