@@ -73,7 +73,7 @@
           "red_cards": 0,
           "shootout_goals": 0,
           "shootout_misses": 0,
-          "diffidato": false,
+          "diffidato": true,
           "suspended": false
         },
         {
