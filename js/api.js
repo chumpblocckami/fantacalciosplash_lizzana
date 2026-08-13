@@ -4,9 +4,14 @@ const BASE_DATA_PATH = './data';
 
 /**
  * Fetch JSON from a local path (data/ directory in the repo).
+ *
+ * GitHub Pages serves these with max-age=600, which on tournament day leaves a visitor looking
+ * at a classifica up to ten minutes old and makes a refresh appear to do nothing. 'no-cache'
+ * revalidates instead of skipping the cache: the ETag means an unchanged file still costs a 304,
+ * and the Pages CDN is purged on every deploy, so what comes back is what was last published.
  */
 async function fetchLocal(path) {
-  const resp = await fetch(path);
+  const resp = await fetch(path, { cache: 'no-cache' });
   if (!resp.ok) return null;
   return resp.json();
 }
