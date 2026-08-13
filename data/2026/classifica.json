@@ -32,6 +32,14 @@
     "Punteggio": 12
   },
   {
+    "Allenatore": "Matteo Zanlucchi",
+    "Punteggio": 8
+  },
+  {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 7
+  },
+  {
     "Allenatore": "Alessio Farinati",
     "Punteggio": 6.5
   },
@@ -52,11 +60,11 @@
     "Punteggio": 4
   },
   {
-    "Allenatore": "Emanuele Miorandi",
+    "Allenatore": "Federico Fasanelli",
     "Punteggio": 4
   },
   {
-    "Allenatore": "Matteo Zanlucchi",
+    "Allenatore": "Emanuele Miorandi",
     "Punteggio": 4
   },
   {
@@ -88,6 +96,10 @@
     "Punteggio": 3
   },
   {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 3
+  },
+  {
     "Allenatore": "Marco Miotto",
     "Punteggio": 2
   },
@@ -116,10 +128,6 @@
     "Punteggio": 1
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 1
-  },
-  {
     "Allenatore": "Marco Sala",
     "Punteggio": 1
   },
@@ -128,15 +136,7 @@
     "Punteggio": 1
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Nicolas Giordani",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Federico Fasanelli",
     "Punteggio": 0
   },
   {

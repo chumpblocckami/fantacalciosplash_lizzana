@@ -19,6 +19,23 @@
     },
     {
       "ranking": 2,
+      "id": 117,
+      "name": "SBARX",
+      "tag": "SBA",
+      "logo_url": "/storage/teams/sbarx.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 6,
+      "goals_conceded": 0,
+      "goal_difference": 6,
+      "disciplinary_points": 1
+    },
+    {
+      "ranking": 3,
       "id": 116,
       "name": "POWER GINGER",
       "tag": "PWG",
@@ -35,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 4,
       "id": 89,
       "name": "U.SGUARNA",
       "tag": "USG",
@@ -52,7 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
+      "ranking": 5,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -69,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 97,
       "name": "FC SCHALKE 104",
       "tag": "SCH",
@@ -86,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 102,
       "name": "P.S.G.",
       "tag": "PSG",
@@ -103,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 92,
       "name": "I MONTAGNA",
       "tag": "MON",
@@ -120,7 +137,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -137,7 +154,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 9,
+      "ranking": 10,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -154,7 +171,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 10,
+      "ranking": 11,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -171,7 +188,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 11,
+      "ranking": 12,
       "id": 91,
       "name": "QUESTI SEN",
       "tag": "QSN",
@@ -188,7 +205,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 12,
+      "ranking": 13,
       "id": 93,
       "name": "FC SAVIGNANO",
       "tag": "SAV",
@@ -205,7 +222,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 13,
+      "ranking": 14,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -222,7 +239,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 14,
+      "ranking": 15,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -239,7 +256,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 15,
+      "ranking": 16,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
@@ -256,7 +273,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 16,
+      "ranking": 17,
       "id": 104,
       "name": "GREP",
       "tag": "GRE",
@@ -273,7 +290,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 17,
+      "ranking": 18,
       "id": 107,
       "name": "CLITORIDERS",
       "tag": "CLI",
@@ -290,7 +307,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 18,
+      "ranking": 19,
       "id": 110,
       "name": "I MAGNIFICI",
       "tag": "MAG",
@@ -307,7 +324,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 19,
+      "ranking": 20,
       "id": 111,
       "name": "4SINS",
       "tag": "4SI",
@@ -324,7 +341,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 20,
+      "ranking": 21,
       "id": 112,
       "name": "AVANZI",
       "tag": "AVA",
@@ -341,41 +358,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 21,
-      "id": 115,
-      "name": "FC WANDA TIM",
-      "tag": "FCW",
-      "logo_url": "/storage/teams/fcwandatim.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcwandatim.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
       "ranking": 22,
-      "id": 117,
-      "name": "SBARX",
-      "tag": "SBA",
-      "logo_url": "/storage/teams/sbarx.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 23,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -392,7 +375,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 24,
+      "ranking": 23,
       "id": 123,
       "name": "SUGHI",
       "tag": "SUG",
@@ -409,7 +392,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 25,
+      "ranking": 24,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -426,7 +409,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 26,
+      "ranking": 25,
       "id": 129,
       "name": "VIGILI DEL FUSTO",
       "tag": "VDF",
@@ -443,7 +426,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 27,
+      "ranking": 26,
       "id": 124,
       "name": "NAZIONALE FERROVIERI",
       "tag": "NAZ",
@@ -460,7 +443,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 28,
+      "ranking": 27,
       "id": 103,
       "name": "QUEI STRAZI",
       "tag": "QSZ",
@@ -477,7 +460,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 29,
+      "ranking": 28,
       "id": 127,
       "name": "BEVEM4TUT",
       "tag": "BEV",
@@ -491,6 +474,23 @@
       "goals_scored": 1,
       "goals_conceded": 5,
       "goal_difference": -4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 29,
+      "id": 115,
+      "name": "FC WANDA TIM",
+      "tag": "FCW",
+      "logo_url": "/storage/teams/fcwandatim.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcwandatim.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 0,
+      "goals_conceded": 6,
+      "goal_difference": -6,
       "disciplinary_points": 0
     },
     {

@@ -955,5 +955,159 @@
       "mvp_points": 0,
       "total_points": 0
     }
+  ],
+  "Carlo Adami | SBARX": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Federico Fasanelli | SBARX": [
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
+    }
+  ],
+  "Davide Fontana | SBARX": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Alex Manica | SBARX": [
+    {
+      "goals": 2,
+      "yellow_cards": -2,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Nicholas Marzadro | SBARX": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    }
+  ],
+  "Niccolò Orsi | SBARX": [
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
+    }
+  ],
+  "Enrico Parisi | SBARX": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Matteo Zanlucchi | SBARX": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
+    }
+  ],
+  "Francesco Amadori | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Nicola Conti | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Carlo Pomarolli | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -3,
+      "mvp_points": 0,
+      "total_points": -3
+    }
+  ],
+  "Stefano Rosina | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Mattia Spagnolli | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Emanuele Valduga | FC WANDA TIM": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
   ]
 }
