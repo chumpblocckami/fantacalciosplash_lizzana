@@ -1,5 +1,13 @@
 [
   {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 21
+  },
+  {
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 14
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 13.5
   },
@@ -8,15 +16,7 @@
     "Punteggio": 13
   },
   {
-    "Allenatore": "Riccardo Zeni",
-    "Punteggio": 13
-  },
-  {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 12
-  },
-  {
-    "Allenatore": "Davide Rosà",
     "Punteggio": 12
   },
   {
@@ -33,11 +33,23 @@
   },
   {
     "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 8
+    "Punteggio": 11.5
   },
   {
     "Allenatore": "Valentina Perghem",
-    "Punteggio": 7
+    "Punteggio": 11
+  },
+  {
+    "Allenatore": "Davide Zeni",
+    "Punteggio": 9
+  },
+  {
+    "Allenatore": "Jacopo Chemini",
+    "Punteggio": 9
+  },
+  {
+    "Allenatore": "Niccolò Orsi",
+    "Punteggio": 8
   },
   {
     "Allenatore": "Alessio Farinati",
@@ -48,11 +60,23 @@
     "Punteggio": 6
   },
   {
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 6
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 5.5
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 5
   },
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 5
+  },
+  {
+    "Allenatore": "Nazarena Raos",
     "Punteggio": 5
   },
   {
@@ -65,18 +89,6 @@
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 4
-  },
-  {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 4
-  },
-  {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 4
-  },
-  {
-    "Allenatore": "Matteo Giovanella",
     "Punteggio": 4
   },
   {
@@ -100,8 +112,12 @@
     "Punteggio": 3
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 3
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 2.5
+  },
+  {
+    "Allenatore": "Nicolas Giordani",
+    "Punteggio": 2
   },
   {
     "Allenatore": "Marco Miotto",
@@ -120,24 +136,8 @@
     "Punteggio": 1
   },
   {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 1
-  },
-  {
-    "Allenatore": "Davide Zeni",
-    "Punteggio": 1
-  },
-  {
     "Allenatore": "Marco Sala",
     "Punteggio": 1
-  },
-  {
-    "Allenatore": "Jacopo Chemini",
-    "Punteggio": 1
-  },
-  {
-    "Allenatore": "Nicolas Giordani",
-    "Punteggio": 0
   },
   {
     "Allenatore": "Michele Bertolini",
