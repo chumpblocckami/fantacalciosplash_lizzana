@@ -82,9 +82,9 @@
       "id": 49,
       "scheduled_at": "2026-08-13T15:00:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "1T",
-      "state_label": "1° tempo",
+      "half_time": "HT",
+      "state": "INT",
+      "state_label": "Intervallo",
       "live": true,
       "closed": false,
       "field": null,
@@ -104,8 +104,8 @@
         "logo_url": "/storage/teams/lovebusters.png",
         "gender": "female"
       },
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "id": 36,
