@@ -1,1 +1,475 @@
-{}
+{
+  "Matteo Bazzanella | POWER GINGER": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    }
+  ],
+  "Emiliano Bici | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Maxim Bot | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Blendi Capa | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Gentian Kapa | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Filippo Maraner | POWER GINGER": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Simone Martini | POWER GINGER": [
+    {
+      "goals": 8,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 10
+    }
+  ],
+  "Lorenzo Rossi | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Kevin Vela | POWER GINGER": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Vincenzo Augusto | QUEI STRAZI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Mattia Bertolini | QUEI STRAZI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -3,
+      "mvp_points": 0,
+      "total_points": -3
+    }
+  ],
+  "Fabio Coati | QUEI STRAZI": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Mattia Lotti | QUEI STRAZI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -3,
+      "mvp_points": 0,
+      "total_points": -3
+    }
+  ],
+  "Marco Lutteri | QUEI STRAZI": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Alessandro Sartori | QUEI STRAZI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Elias Viesi Lutteri | QUEI STRAZI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Simone Consolati | P.S.G.": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Yuri Garau | P.S.G.": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Mirko Ghiggeri | P.S.G.": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Florian Hoxha | P.S.G.": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -2,
+      "mvp_points": 0,
+      "total_points": -1
+    }
+  ],
+  "Alessandro Rambaldo | P.S.G.": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Antonio Rambaldo | P.S.G.": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Elia Tomasoni | P.S.G.": [
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 5
+    }
+  ],
+  "Andrea Amendola | FC SCHALKE 104": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -2,
+      "mvp_points": 0,
+      "total_points": -1
+    }
+  ],
+  "Pietro Di Liberto | FC SCHALKE 104": [
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 5
+    }
+  ],
+  "Octavian Fusari | FC SCHALKE 104": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Davide Ganganelli | FC SCHALKE 104": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Daniele Dalbosco | SDRUMALA": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    }
+  ],
+  "Davide Deimichei | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Alessio Delli Compagni | SDRUMALA": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    }
+  ],
+  "Manuel Emanuelli | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Andreas Galli | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Christian Martinelli | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -0.5,
+      "mvp_points": 0,
+      "total_points": 1.5
+    }
+  ],
+  "Stefano Mattioli | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Andrea Menolli | SDRUMALA": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    }
+  ],
+  "Christian Trainotti | SDRUMALA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Andrea Bellini | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
+    }
+  ],
+  "Wilson Bona | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": -2,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": -2
+    }
+  ],
+  "Lorenzo Casari | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Fabio Daves | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Michele Eccel | NAZIONALE FERROVIERI": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    }
+  ],
+  "Leonardo Fedrigotti | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Pietro Marchesini | NAZIONALE FERROVIERI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
+    }
+  ]
+}

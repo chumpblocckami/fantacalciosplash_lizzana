@@ -51,11 +51,20 @@ describe('the 2026 pipeline reproduces what is committed', () => {
     );
   });
 
-  test('the 2026 tournament has not been played, so there is nothing to score', () => {
-    // Every fixture in the snapshot is still scheduled. This is the reason the knockout and
-    // elimination paths are exercised against the synthetic tournament instead.
-    assert.match(compute.stdout, /Processed 0 matches \(45 not played yet\)/);
-    assert.deepEqual(committed(YEAR, 'punteggi.json'), []);
+  test('every closed fixture in the snapshot is scored', () => {
+    // /api/fixtures removes a fixture the moment it is closed, so the snapshot is the union the
+    // scraper keeps rather than the list the API hands back. When that union broke, every match
+    // was invisible the instant it became countable and the scorer reported nothing for a
+    // tournament that was well under way. Counting the snapshot here is what catches that.
+    const snapshot = JSON.parse(
+      readFileSync(join(ROOT, 'assets', YEAR, 'api', 'fixtures.json'), 'utf-8')
+    ).data;
+    const scorable = snapshot.filter(
+      fixture => fixture.closed === true && fixture.gender === 'male'
+    );
+
+    assert.match(compute.stdout, new RegExp(`Processed ${scorable.length} matches`));
+    assert.equal(committed(YEAR, 'risultati.json').length, scorable.length);
   });
 
   test('the classifica step waits for the registrations', () => {

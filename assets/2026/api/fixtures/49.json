@@ -24,11 +24,11 @@
       "offset": 0,
       "started_at": "2026-08-13T15:04:46.029Z",
       "stopped_at": null,
-      "current": 206,
+      "current": 275,
       "running": true,
-      "minutes": 3,
-      "seconds": 26,
-      "display": "03:26"
+      "minutes": 4,
+      "seconds": 35,
+      "display": "04:35"
     },
     "home_team": {
       "id": 120,

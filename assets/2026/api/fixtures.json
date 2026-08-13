@@ -1,6 +1,84 @@
 {
   "data": [
     {
+      "id": 44,
+      "home_team": {
+        "id": 116,
+        "name": "POWER GINGER",
+        "tag": "PWG",
+        "logo_url": "/storage/teams/powerginger.png"
+      },
+      "away_team": {
+        "id": 103,
+        "name": "QUEI STRAZI",
+        "tag": "QSZ",
+        "logo_url": "/storage/teams/queistrazi.png"
+      },
+      "gender": "male",
+      "group_name": "Maschile",
+      "closed": true,
+      "live": false,
+      "status": "scheduled",
+      "state": "FF",
+      "state_label": "Finale",
+      "half_time": "2H",
+      "home_score": 6,
+      "away_score": 2,
+      "scheduled_at": "2026-08-13T14:00:00.000Z"
+    },
+    {
+      "id": 16,
+      "home_team": {
+        "id": 102,
+        "name": "P.S.G.",
+        "tag": "PSG",
+        "logo_url": "/storage/teams/psg.png"
+      },
+      "away_team": {
+        "id": 97,
+        "name": "FC SCHALKE 104",
+        "tag": "SCH",
+        "logo_url": "/storage/teams/fcschalke104.png"
+      },
+      "gender": "male",
+      "group_name": "Maschile",
+      "closed": true,
+      "live": false,
+      "status": "scheduled",
+      "state": "FF",
+      "state_label": "Finale",
+      "half_time": "2H",
+      "home_score": 4,
+      "away_score": 4,
+      "scheduled_at": "2026-08-13T14:20:00.000Z"
+    },
+    {
+      "id": 40,
+      "home_team": {
+        "id": 113,
+        "name": "SDRUMALA",
+        "tag": "SDR",
+        "logo_url": "/storage/teams/sdrumala.png"
+      },
+      "away_team": {
+        "id": 124,
+        "name": "NAZIONALE FERROVIERI",
+        "tag": "NAZ",
+        "logo_url": "/storage/teams/nazionaleferrovieri.png"
+      },
+      "gender": "male",
+      "group_name": "Maschile",
+      "closed": true,
+      "live": false,
+      "status": "scheduled",
+      "state": "FF",
+      "state_label": "Finale",
+      "half_time": "2H",
+      "home_score": 3,
+      "away_score": 1,
+      "scheduled_at": "2026-08-13T14:40:00.000Z"
+    },
+    {
       "id": 49,
       "scheduled_at": "2026-08-13T15:00:00.000Z",
       "status": "scheduled",
