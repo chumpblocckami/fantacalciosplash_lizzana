@@ -36,6 +36,23 @@
     },
     {
       "ranking": 3,
+      "id": 89,
+      "name": "U.SGUARNA",
+      "tag": "USG",
+      "logo_url": "/storage/teams/usguarna.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 5,
+      "goals_conceded": 1,
+      "goal_difference": 4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 4,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -52,7 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
+      "ranking": 5,
       "id": 97,
       "name": "FC SCHALKE 104",
       "tag": "SCH",
@@ -69,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 102,
       "name": "P.S.G.",
       "tag": "PSG",
@@ -86,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 92,
       "name": "I MONTAGNA",
       "tag": "MON",
@@ -103,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -120,7 +137,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -137,29 +154,12 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 9,
+      "ranking": 10,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
       "logo_url": "/storage/teams/gliintrovabili.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gliintrovabili.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 10,
-      "id": 89,
-      "name": "U.SGUARNA",
-      "tag": "USG",
-      "logo_url": "/storage/teams/usguarna.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
       "points": 0,
       "played": 0,
       "wins": 0,
@@ -410,23 +410,6 @@
     },
     {
       "ranking": 25,
-      "id": 127,
-      "name": "BEVEM4TUT",
-      "tag": "BEV",
-      "logo_url": "/storage/teams/bevem4tut.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\bevem4tut.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 26,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -443,7 +426,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 27,
+      "ranking": 26,
       "id": 129,
       "name": "VIGILI DEL FUSTO",
       "tag": "VDF",
@@ -460,7 +443,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 28,
+      "ranking": 27,
       "id": 124,
       "name": "NAZIONALE FERROVIERI",
       "tag": "NAZ",
@@ -477,7 +460,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 29,
+      "ranking": 28,
       "id": 103,
       "name": "QUEI STRAZI",
       "tag": "QSZ",
@@ -490,6 +473,23 @@
       "losses": 1,
       "goals_scored": 2,
       "goals_conceded": 6,
+      "goal_difference": -4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 29,
+      "id": 127,
+      "name": "BEVEM4TUT",
+      "tag": "BEV",
+      "logo_url": "/storage/teams/bevem4tut.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\bevem4tut.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 5,
       "goal_difference": -4,
       "disciplinary_points": 0
     },

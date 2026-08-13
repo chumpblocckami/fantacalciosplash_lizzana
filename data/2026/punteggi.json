@@ -30,6 +30,12 @@
     "Total": 6
   },
   {
+    "player": "Riccardo Zaffoni | U.SGUARNA",
+    "Match 1": 6,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
     "player": "Elia Tomasoni | P.S.G.",
     "Match 1": 5,
     "Premi": 0,
@@ -76,6 +82,24 @@
     "Match 1": 4,
     "Premi": 0,
     "Total": 4
+  },
+  {
+    "player": "Matteo Diener | U.SGUARNA",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Federico Nicolodi | U.SGUARNA",
+    "Match 1": 4,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Elia Battisti | U.SGUARNA",
+    "Match 1": 3.5,
+    "Premi": 0,
+    "Total": 3.5
   },
   {
     "player": "Filippo Maraner | POWER GINGER",
@@ -222,6 +246,24 @@
     "Total": 2
   },
   {
+    "player": "Andrea Gober | U.SGUARNA",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Marco Heidempergher | U.SGUARNA",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Riccardo Madaschi | BEVEM4TUT",
+    "Match 1": 2,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
     "player": "Christian Martinelli | SDRUMALA",
     "Match 1": 1.5,
     "Premi": 0,
@@ -229,6 +271,12 @@
   },
   {
     "player": "Matteo Pilati | PINGUINI TRENTINI",
+    "Match 1": 1.5,
+    "Premi": 0,
+    "Total": 1.5
+  },
+  {
+    "player": "William Pedri | U.SGUARNA",
     "Match 1": 1.5,
     "Premi": 0,
     "Total": 1.5
@@ -396,6 +444,30 @@
     "Total": 0
   },
   {
+    "player": "Daniele Feller | BEVEM4TUT",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Matteo Giovannella | BEVEM4TUT",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Maurizio Maffei | BEVEM4TUT",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Samuele Pedrotti | BEVEM4TUT",
+    "Match 1": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
     "player": "Florian Hoxha | P.S.G.",
     "Match 1": -1,
     "Premi": 0,
@@ -424,6 +496,12 @@
     "Match 1": -2,
     "Premi": 0,
     "Total": -2
+  },
+  {
+    "player": "Federico Madaschi | BEVEM4TUT",
+    "Match 1": -2.5,
+    "Premi": 0,
+    "Total": -2.5
   },
   {
     "player": "Mattia Bertolini | QUEI STRAZI",
