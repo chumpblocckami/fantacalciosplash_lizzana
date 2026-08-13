@@ -126,5 +126,77 @@
     "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
     "Titolare 3": "Marco Heidempergher | U.SGUARNA",
     "Riserva": "Emanuele Tomasoni | 4SINS"
+  },
+  {
+    "Fantallenatore": "Marco Miotto",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Luca Frasca | CLITORIDERS",
+    "Titolare 2": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Titolare 3": "Lorenzo Rossi | POWER GINGER",
+    "Riserva": "Moris Benedetti | GLI INTROVABILI"
+  },
+  {
+    "Fantallenatore": "Thomas Pontillo",
+    "Portiere": "Thomas Pontillo | GLI INTROVABILI",
+    "Titolare 1": "Michele Merighi | CLITORIDERS",
+    "Titolare 2": "Leonardo Comper | GLI INTROVABILI",
+    "Titolare 3": "Federico Manica | I MONTAGNA",
+    "Riserva": "Federico Nicolodi | U.SGUARNA"
+  },
+  {
+    "Fantallenatore": "Nicholas Marzadro",
+    "Portiere": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+    "Titolare 1": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 2": "Luca Frasca | CLITORIDERS",
+    "Titolare 3": "Andrea Roveda | PINGUINI TRENTINI",
+    "Riserva": "Marco Renica | FC SALAGIARDINI"
+  },
+  {
+    "Fantallenatore": "Federico Fasanelli",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Federico Mortillaro | CLITORIDERS",
+    "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 3": "Nicholas Marzadro | SBARX",
+    "Riserva": "Giovanni Raoss | I MAGNIFICI"
+  },
+  {
+    "Fantallenatore": "__TEST_CURL__",
+    "Portiere": "x | y",
+    "Titolare 1": "a | b",
+    "Titolare 2": "",
+    "Titolare 3": "",
+    "Riserva": "c | d"
+  },
+  {
+    "Fantallenatore": "Dalila Valzolgher",
+    "Portiere": "Elia Barozzi | I MAGNIFICI",
+    "Titolare 1": "Michele Merighi | CLITORIDERS",
+    "Titolare 2": "Andrea Roveda | PINGUINI TRENTINI",
+    "Titolare 3": "Daniel Pedrotti | I MONTAGNA",
+    "Riserva": "Moris Benedetti | GLI INTROVABILI"
+  },
+  {
+    "Fantallenatore": "__TEST_CURL_2__",
+    "Portiere": "g | T1",
+    "Titolare 1": "a | T2",
+    "Titolare 2": "b | T3",
+    "Titolare 3": "c | T4",
+    "Riserva": "d | T5"
+  },
+  {
+    "Fantallenatore": "__PROBE_webkit__",
+    "Portiere": "g | T1",
+    "Titolare 1": "a | T2",
+    "Titolare 2": "b | T3",
+    "Titolare 3": "c | T4",
+    "Riserva": "d | T5"
+  },
+  {
+    "Fantallenatore": "Riccardo Zeni",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Andrea Roveda | PINGUINI TRENTINI",
+    "Titolare 2": "Federico Manica | I MONTAGNA",
+    "Titolare 3": "Leonardo Viola | SHARK ATTACK",
+    "Riserva": "Giovanni Raoss | I MAGNIFICI"
   }
 ]
