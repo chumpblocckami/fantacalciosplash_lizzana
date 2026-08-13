@@ -174,5 +174,117 @@
     "Titolare 2": "Federico Manica | I MONTAGNA",
     "Titolare 3": "Leonardo Viola | SHARK ATTACK",
     "Riserva": "Giovanni Raoss | I MAGNIFICI"
+  },
+  {
+    "Fantallenatore": "Davide Zeni",
+    "Portiere": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+    "Titolare 1": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Titolare 2": "Federico Manica | I MONTAGNA",
+    "Titolare 3": "Leonardo Viola | SHARK ATTACK",
+    "Riserva": "Riccardo Baldo | GREP"
+  },
+  {
+    "Fantallenatore": "Daniele Feltrinelli",
+    "Portiere": "Daniele Dalbosco | I MONTAGNA",
+    "Titolare 1": "Marco Sala | I MONTAGNA",
+    "Titolare 2": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Titolare 3": "Thomas Maffei | CLITORIDERS",
+    "Riserva": "Nicola Dalle Donne | VIGILI DEL FUSTO"
+  },
+  {
+    "Fantallenatore": "Emanuele Miorandi",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Matteo Diener | U.SGUARNA",
+    "Titolare 2": "Federico Giordani | GREP",
+    "Titolare 3": "Edoardo Pomarolli | MODIUM",
+    "Riserva": "Nicholas Marzadro | SBARX"
+  },
+  {
+    "Fantallenatore": "Matteo Zanlucchi",
+    "Portiere": "Alberto Cerisara | SHARK ATTACK",
+    "Titolare 1": "Matteo Diener | U.SGUARNA",
+    "Titolare 2": "Nicholas Marzadro | SBARX",
+    "Titolare 3": "Mattia Baldessarini | SHARK ATTACK",
+    "Riserva": "Manuel Pedrotti | SUGHI"
+  },
+  {
+    "Fantallenatore": "Niccolò Orsi",
+    "Portiere": "Samuele Kettmaier | A.C.DENTI",
+    "Titolare 1": "Federico Nicolodi | U.SGUARNA",
+    "Titolare 2": "Alessio Bragagna | SHARK ATTACK",
+    "Titolare 3": "Michele Merighi | CLITORIDERS",
+    "Riserva": "Davide Bazzano | I MONTAGNA"
+  },
+  {
+    "Fantallenatore": "Matteo Giovanella",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Alessandro Zeni | SHARK ATTACK",
+    "Titolare 2": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Titolare 3": "Matteo Diener | U.SGUARNA",
+    "Riserva": "Davide Bazzano | I MONTAGNA"
+  },
+  {
+    "Fantallenatore": "Elena Bruschetti",
+    "Portiere": "Matteo Pilati | PINGUINI TRENTINI",
+    "Titolare 1": "Andrea Roveda | PINGUINI TRENTINI",
+    "Titolare 2": "Luca Frasca | CLITORIDERS",
+    "Titolare 3": "Eduardo Grazioli | FC SAVIGNANO",
+    "Riserva": "Nicola Dalle Donne | VIGILI DEL FUSTO"
+  },
+  {
+    "Fantallenatore": "JAlvin92",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Andrea Giordani | CLITORIDERS",
+    "Titolare 2": "Federico Andreis | I MONTAGNA",
+    "Titolare 3": "Matteo Brigo | PINGUINI TRENTINI",
+    "Riserva": "Alessandro Zeni | SHARK ATTACK"
+  },
+  {
+    "Fantallenatore": "Nazarena Raos",
+    "Portiere": "Elia Barozzi | I MAGNIFICI",
+    "Titolare 1": "Federico Andreis | I MONTAGNA",
+    "Titolare 2": "Mattia Baldessarini | SHARK ATTACK",
+    "Titolare 3": "Davide Fontana | SBARX",
+    "Riserva": "Manuel Pedrotti | SUGHI"
+  },
+  {
+    "Fantallenatore": "Lorenza Simoncelli",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Gabriele Galli | AVANZI",
+    "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 3": "Matteo Diener | U.SGUARNA",
+    "Riserva": "Enrico Bordignon | PINGUINI TRENTINI"
+  },
+  {
+    "Fantallenatore": "Michele Bertolini",
+    "Portiere": "Daniele Dalbosco | I MONTAGNA",
+    "Titolare 1": "Federico Giordani | GREP",
+    "Titolare 2": "Marco Sartorelli | MODIUM",
+    "Titolare 3": "Micheal Zanoni | CLITORIDERS",
+    "Riserva": "Davide De Zambotti | FC SAVIGNANO"
+  },
+  {
+    "Fantallenatore": "Alessio Farinati",
+    "Portiere": "Matteo Pilati | PINGUINI TRENTINI",
+    "Titolare 1": "Federico Andreis | I MONTAGNA",
+    "Titolare 2": "Andrea Conzatti | FC SAVIGNANO",
+    "Titolare 3": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
+    "Riserva": "Octavian Fusari | FC SCHALKE 104"
+  },
+  {
+    "Fantallenatore": "Marco Sala",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Federico Andreis | I MONTAGNA",
+    "Titolare 2": "Federico Giordani | GREP",
+    "Titolare 3": "Luca Frasca | CLITORIDERS",
+    "Riserva": "Marco Renica | FC SALAGIARDINI"
+  },
+  {
+    "Fantallenatore": "Jacopo Chemini",
+    "Portiere": "Pietro Bernardelli | CLITORIDERS",
+    "Titolare 1": "Federico Andreis | I MONTAGNA",
+    "Titolare 2": "Micheal Zanoni | CLITORIDERS",
+    "Titolare 3": "Leonardo Viola | SHARK ATTACK",
+    "Riserva": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO"
   }
 ]
