@@ -101,11 +101,11 @@
         "id": 615,
         "name": "Matteo",
         "surname": "Simoncelli",
-        "username": null,
+        "username": "Salvo errori",
         "birth_date": "2002-12-04T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteosimoncelli.png"
       }
     ]
   }

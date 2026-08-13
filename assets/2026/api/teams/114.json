@@ -51,21 +51,21 @@
         "id": 769,
         "name": "Angelica",
         "surname": "Marzari",
-        "username": null,
+        "username": "Vignaiola indipendente ",
         "birth_date": "2001-10-21T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\angelicamarzari.png"
       },
       {
         "id": 770,
         "name": "Francesca",
         "surname": "Giordani",
-        "username": null,
+        "username": "Polenta e osei senza polenta",
         "birth_date": "2005-10-31T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\francescagiordani.png"
       },
       {
         "id": 771,

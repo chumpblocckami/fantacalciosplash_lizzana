@@ -4,6 +4,14 @@
     "Punteggio": 13.5
   },
   {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 13
+  },
+  {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 13
+  },
+  {
     "Allenatore": "Alessandro Galvagni",
     "Punteggio": 12
   },
@@ -24,36 +32,72 @@
     "Punteggio": 12
   },
   {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 12
-  },
-  {
-    "Allenatore": "Riccardo Zeni",
-    "Punteggio": 12
-  },
-  {
     "Allenatore": "Alessio Farinati",
-    "Punteggio": 5.5
+    "Punteggio": 6.5
   },
   {
     "Allenatore": "Matteo Pilati",
-    "Punteggio": 4
+    "Punteggio": 5
+  },
+  {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 3
+  },
+  {
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 3
+  },
+  {
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 3
+  },
+  {
+    "Allenatore": "Daniele Feltrinelli",
+    "Punteggio": 3
+  },
+  {
+    "Allenatore": "JAlvin92",
+    "Punteggio": 3
   },
   {
     "Allenatore": "Marco Miotto",
     "Punteggio": 2
   },
   {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 2
-  },
-  {
     "Allenatore": "Danny Giordani",
-    "Punteggio": 0
+    "Punteggio": 1
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 0
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Thomas Pontillo",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Davide Zeni",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Marco Sala",
+    "Punteggio": 1
+  },
+  {
+    "Allenatore": "Jacopo Chemini",
+    "Punteggio": 1
   },
   {
     "Allenatore": "Lorenzo Zuani",
@@ -64,23 +108,7 @@
     "Punteggio": 0
   },
   {
-    "Allenatore": "Michela Menghini",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Valentina Perghem",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Andrea Conzatti",
     "Punteggio": 0
   },
   {
@@ -88,23 +116,7 @@
     "Punteggio": 0
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Thomas Pontillo",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Davide Zeni",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Daniele Feltrinelli",
     "Punteggio": 0
   },
   {
@@ -124,23 +136,11 @@
     "Punteggio": 0
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 0
-  },
-  {
     "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 0
   },
   {
     "Allenatore": "Michele Bertolini",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 0
-  },
-  {
-    "Allenatore": "Jacopo Chemini",
     "Punteggio": 0
   }
 ]

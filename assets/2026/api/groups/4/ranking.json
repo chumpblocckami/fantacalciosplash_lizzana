@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 114,
+      "name": "JÄGERBOMBE",
+      "tag": "JGE",
+      "logo_url": "/storage/teams/jägerbombe.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 12,
+      "goals_conceded": 1,
+      "goal_difference": 11,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
       "id": 90,
       "name": "LE BALLE(RINE) IN FIESTA",
       "tag": "LEB",
@@ -18,7 +35,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 2,
+      "ranking": 3,
       "id": 100,
       "name": "DOREMIFA GOL",
       "tag": "DOR",
@@ -35,37 +52,20 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 4,
       "id": 108,
       "name": "GIN TONICHE",
       "tag": "GIN",
       "logo_url": "/storage/teams/gintoniche.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\gintoniche.png",
       "points": 0,
-      "played": 0,
+      "played": 1,
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 4,
-      "id": 114,
-      "name": "JÄGERBOMBE",
-      "tag": "JGE",
-      "logo_url": "/storage/teams/jägerbombe.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 12,
+      "goal_difference": -11,
       "disciplinary_points": 0
     }
   ]

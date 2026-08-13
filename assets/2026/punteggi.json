@@ -658,5 +658,159 @@
       "mvp_points": 0,
       "total_points": 0
     }
+  ],
+  "Federico Andreis | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Davide Bazzano | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Jacopo Chemini | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Daniele Dalbosco | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Federico Manica | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Marco Mutinelli | I MONTAGNA": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Andrea Pedrotti | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Daniel Pedrotti | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Marco Sala | I MONTAGNA": [
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
+    }
+  ],
+  "Matteo Simoncelli | I MONTAGNA": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Samuele Maffei | F.C. GORILLAZ": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Alessandro Ruele | F.C. GORILLAZ": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 0
+    }
+  ],
+  "Nicolò Speziali | F.C. GORILLAZ": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
+    }
+  ],
+  "Giovanni Torboli | F.C. GORILLAZ": [
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 5
+    }
   ]
 }
