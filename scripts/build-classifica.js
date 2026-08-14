@@ -7,7 +7,16 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
-import { POINTS_PER_MISSING_GAME } from '../js/constants.js';
+import {
+  POINTS_PER_MISSING_GAME,
+  POINTS_PER_GOAL,
+  POINTS_PER_YELLOW_CARD,
+  POINTS_PER_RED_CARD,
+  POINTS_PER_VICTORY,
+  POINTS_PER_DRAW,
+  POINTS_PER_CLEANSHEET,
+  POINTS_PER_CONCEDED_GOAL,
+} from '../js/constants.js';
 
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const DATA_DIR = join('data', YEAR);
@@ -105,6 +114,90 @@ function sanitize(raw) {
   return `${player.split(/\s+/).filter(Boolean).map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ')} | ${team.trim().toUpperCase()}`;
 }
 
+const SLOT_LABELS = ['Portiere', 'Titolare 1', 'Titolare 2', 'Titolare 3', 'Riserva'];
+
+function round1(value) {
+  return Math.round(value * 10) / 10;
+}
+
+/** Split a "Name | TEAM" id into the two halves the squad sheet displays. */
+function splitPlayer(id) {
+  if (!id || !id.includes('|')) return { name: (id || '').trim(), team: '' };
+  const [name, team] = id.split('|');
+  return { name: name.trim(), team: team.trim() };
+}
+
+/**
+ * Reason chips for one match, derived from the raw per-match rating.
+ *
+ * The rating stores points, not event counts, so a `goals` of 4 is two goals. Zero-point
+ * lines (a defeat with nothing else) are omitted: the number on the row already says 0.
+ */
+function chipsFrom(raw) {
+  if (!raw) return [];
+  const chips = [];
+  const goals = raw.goals / POINTS_PER_GOAL;
+  if (goals) {
+    chips.push({ kind: 'goals', label: goals === 1 ? '1 gol' : `${goals} gol`, points: raw.goals });
+  }
+  const yellows = raw.yellow_cards / POINTS_PER_YELLOW_CARD;
+  if (yellows) {
+    chips.push({
+      kind: 'yellow',
+      label: yellows === 1 ? '1 giallo' : `${yellows} gialli`,
+      points: raw.yellow_cards,
+    });
+  }
+  const reds = raw.red_cards / POINTS_PER_RED_CARD;
+  if (reds) {
+    chips.push({
+      kind: 'red',
+      label: reds === 1 ? '1 rosso' : `${reds} rossi`,
+      points: raw.red_cards,
+    });
+  }
+  if (raw.team_points === POINTS_PER_VICTORY) {
+    chips.push({ kind: 'win', label: 'vittoria', points: raw.team_points });
+  } else if (raw.team_points === POINTS_PER_DRAW) {
+    chips.push({ kind: 'draw', label: 'pareggio', points: raw.team_points });
+  }
+  if (raw.goalkeeper_points === POINTS_PER_CLEANSHEET) {
+    chips.push({ kind: 'cleansheet', label: 'clean sheet', points: raw.goalkeeper_points });
+  } else if (raw.goalkeeper_points) {
+    const conceded = raw.goalkeeper_points / POINTS_PER_CONCEDED_GOAL;
+    chips.push({
+      kind: 'conceded',
+      label: conceded === 1 ? '1 gol subito' : `${conceded} gol subiti`,
+      points: raw.goalkeeper_points,
+    });
+  }
+  if (raw.mvp_points) {
+    chips.push({ kind: 'mvp', label: 'MVP', points: raw.mvp_points });
+  }
+  return chips;
+}
+
+function chipsFor(raw, ownScore, status) {
+  if (raw) return chipsFrom(raw);
+  if (status === 'eliminato' && ownScore === POINTS_PER_MISSING_GAME) {
+    return [{ kind: 'malus', label: 'fase non disputata', points: ownScore }];
+  }
+  return [];
+}
+
+/**
+ * A 0 in the girone with no raw rating means the team has not played this round yet.
+ *
+ * A player who took the field and scored nothing still has a raw entry (a defeat is stored
+ * with team_points 0), so they are not mistaken for waiting. Once the malus is on, a missing
+ * round is an elimination and is handled before this is asked.
+ */
+function isUnplayed(raw, ownScore, applyMalus) {
+  if (applyMalus) return false;
+  if (raw) return false;
+  return ownScore === 0;
+}
+
 function main() {
   console.log(`\n🏆 Building classifica for ${YEAR}\n`);
 
@@ -148,7 +241,11 @@ function main() {
 
   const premiCol = Object.keys(punteggi[0]).find(k => k.toLowerCase().includes('premi'));
 
-  const ranking = [];
+  // Per-match ingredients (goals, cards, win, MVP), aligned with Match 1, Match 2, …
+  // for each team. Absent when an edition predates compute-scores.js writing it.
+  const rawRatings = readJson(join('assets', YEAR, 'punteggi.json')) ?? {};
+
+  const sheets = [];
 
   for (const team of registered) {
     const coach = team.Fantallenatore || team.fantallenatore || '';
@@ -173,7 +270,17 @@ function main() {
     let reserveUsed = false;
     let total = 0;
 
-    for (const col of matchCols) {
+    const slots = players.map((name, i) => ({
+      slot: SLOT_LABELS[i],
+      player: name,
+      ...splitPlayer(name),
+      counted_total: 0,
+      premi: 0,
+      matches: [],
+    }));
+
+    for (let mi = 0; mi < matchCols.length; mi++) {
+      const col = matchCols[mi];
       const scores = starters.map(name => scoreFor(scoreMap[name], col, applyMalus));
 
       // Regolamento rules 5 and 6: the reserve comes on the moment one of the starters is
@@ -181,35 +288,89 @@ function main() {
       // no malus -- the reserve's score stands in for the starter's. One reserve covers one
       // starter, so if two go out the second keeps the penalty.
       const out = starters.findIndex(name => isOut(name, col));
-      if (out !== -1 && reserve && !isOut(reserve, col)) {
+      const reserveComesOn = out !== -1 && reserve && !isOut(reserve, col);
+      if (reserveComesOn) {
         scores[out] = scoreFor(scoreMap[reserve], col, applyMalus);
         reserveUsed = true;
       }
 
       total += scores.reduce((sum, score) => sum + score, 0);
+
+      for (let i = 0; i < slots.length; i++) {
+        const name = players[i];
+        const isReserve = slots[i].slot === 'Riserva';
+        const row = scoreMap[name];
+        const ownScore = scoreFor(row, col, applyMalus);
+        const raw = (rawRatings[name] ?? [])[mi];
+        const eliminated = isOut(name, col);
+
+        let status;
+        let counted;
+        if (isReserve) {
+          status = reserveComesOn ? 'subentrato' : 'panchina';
+          counted = reserveComesOn;
+        } else if (reserveComesOn && i === out) {
+          status = 'eliminato';
+          counted = false;
+        } else if (eliminated) {
+          status = 'eliminato';
+          counted = true;
+        } else if (isUnplayed(raw, ownScore, applyMalus)) {
+          status = 'non_giocato';
+          counted = true;
+        } else {
+          status = 'in_campo';
+          counted = true;
+        }
+
+        slots[i].matches.push({
+          column: col,
+          status,
+          counted,
+          total: ownScore,
+          chips: chipsFor(raw, ownScore, status),
+        });
+        if (counted) slots[i].counted_total += ownScore;
+      }
     }
 
     // End-of-tournament prizes follow the player, so they count for whoever fielded them.
     // The reserve only counts if they came on, for the same reason their match scores do.
     if (premiCol) {
-      const earning = reserveUsed ? players : starters;
-      for (const name of earning) {
-        const row = scoreMap[name];
-        if (row) total += parseFloat(row[premiCol]) || 0;
+      const earning = new Set(reserveUsed ? players : starters);
+      for (const slot of slots) {
+        if (!earning.has(slot.player)) continue;
+        const row = scoreMap[slot.player];
+        const prize = row ? parseFloat(row[premiCol]) || 0 : 0;
+        slot.premi = prize;
+        slot.counted_total += prize;
+        total += prize;
       }
     }
 
-    ranking.push({
+    for (const slot of slots) slot.counted_total = round1(slot.counted_total);
+
+    sheets.push({
       Allenatore: coach,
-      Punteggio: Math.round(total * 10) / 10,
+      Punteggio: round1(total),
+      players: slots,
     });
   }
 
-  ranking.sort((a, b) => b.Punteggio - a.Punteggio);
+  sheets.sort((a, b) => b.Punteggio - a.Punteggio);
+  const ranked = sheets.map((sheet, index) => ({
+    Allenatore: sheet.Allenatore,
+    Punteggio: sheet.Punteggio,
+    rank: index + 1,
+    players: sheet.players,
+  }));
+  const ranking = ranked.map(({ Allenatore, Punteggio }) => ({ Allenatore, Punteggio }));
 
   mkdirSync(DATA_DIR, { recursive: true });
-  writeFileSync(join(DATA_DIR, 'classifica.json'), JSON.stringify(ranking, null, 2));
+  writeFileSync(join(DATA_DIR, 'classifica.json'), JSON.stringify(ranking, null, 2) + '\n');
   console.log(`  ✓ ${join(DATA_DIR, 'classifica.json')} (${ranking.length} teams)`);
+  writeFileSync(join(DATA_DIR, 'dettaglio.json'), JSON.stringify(ranked, null, 2) + '\n');
+  console.log(`  ✓ ${join(DATA_DIR, 'dettaglio.json')}`);
   console.log('\n✅ Classifica complete!\n');
 }
 

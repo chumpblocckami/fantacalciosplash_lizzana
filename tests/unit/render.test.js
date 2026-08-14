@@ -17,6 +17,9 @@ import { renderScoreboard } from '../../js/components/scoreboard.js';
 import { renderPopularPlayersChart } from '../../js/components/chart.js';
 import { renderAccordion } from '../../js/components/accordion.js';
 import { renderTabs } from '../../js/components/tabs.js';
+import { renderSquadSheet } from '../../js/components/squad-sheet.js';
+import { renderClassifica } from '../../js/components/classifica.js';
+import { storageKey } from '../../js/team-hash.js';
 
 const INJECTION = '<img src=x onerror="alert(1)">';
 
@@ -244,3 +247,150 @@ describe('renderTabs', () => {
     assert.match(active, /bg-green-600 text-white/, 'the current edition is highlighted');
   });
 });
+
+const SAMPLE_TEAM = {
+  Allenatore: 'Matteo',
+  Punteggio: 6,
+  rank: 1,
+  players: [{
+    slot: 'Titolare 1',
+    player: 'Andrea Anzelini | GREP',
+    name: 'Andrea Anzelini',
+    team: 'GREP',
+    counted_total: 6,
+    premi: 0,
+    matches: [{
+      column: 'Match 1',
+      status: 'in_campo',
+      counted: true,
+      total: 6,
+      chips: [
+        { kind: 'goals', label: '2 gol', points: 4 },
+        { kind: 'win', label: 'vittoria', points: 2 },
+      ],
+    }],
+  }],
+};
+
+describe('renderSquadSheet', () => {
+  test('shows the player, the points that count, and why', () => {
+    const container = element();
+    renderSquadSheet(container, SAMPLE_TEAM);
+    assert.match(container.innerHTML, /Andrea Anzelini/);
+    assert.match(container.innerHTML, /GREP/);
+    assert.match(container.innerHTML, /2 gol/);
+    assert.match(container.innerHTML, /vittoria/);
+  });
+
+  test('escapes a player name', () => {
+    const container = element();
+    renderSquadSheet(container, {
+      ...SAMPLE_TEAM,
+      players: [{ ...SAMPLE_TEAM.players[0], name: INJECTION, team: INJECTION }],
+    });
+    assert.ok(!container.innerHTML.includes(INJECTION));
+    assert.match(container.innerHTML, /&lt;img/);
+  });
+});
+
+describe('renderClassifica', () => {
+  const teams = [
+    SAMPLE_TEAM,
+    {
+      Allenatore: 'Giulia',
+      Punteggio: 2,
+      rank: 2,
+      players: [{
+        slot: 'Portiere',
+        name: 'Ada Neri',
+        team: 'DELTA',
+        counted_total: 2,
+        premi: 0,
+        matches: [],
+      }],
+    },
+  ];
+
+  function installPage({ hash = '', storage = {} } = {}) {
+    const previous = {
+      location: globalThis.location,
+      localStorage: globalThis.localStorage,
+      history: globalThis.history,
+    };
+    globalThis.location = { hash };
+    globalThis.localStorage = {
+      getItem: key => storage[key] ?? null,
+      setItem: (key, value) => { storage[key] = String(value); },
+    };
+    globalThis.history = { replaceState(_s, _t, url) { globalThis.location.hash = String(url); } };
+    return () => {
+      globalThis.location = previous.location;
+      globalThis.localStorage = previous.localStorage;
+      globalThis.history = previous.history;
+    };
+  }
+
+  test('escapes a fantallenatore name', () => {
+    const restore = installPage();
+    try {
+      const container = element();
+      renderClassifica(container, {
+        edition: '2026',
+        dettaglio: [{ ...SAMPLE_TEAM, Allenatore: INJECTION }],
+      });
+      assert.ok(!container.innerHTML.includes(INJECTION));
+      assert.match(container.innerHTML, /&lt;img/);
+    } finally {
+      restore();
+    }
+  });
+
+  test('search hides coaches who do not match', () => {
+    const restore = installPage();
+    try {
+      const container = element();
+      renderClassifica(container, { edition: '2026', dettaglio: teams });
+      container.querySelector('#classifica-search-2026').dispatch('input', { target: { value: 'giulia' } });
+
+      assert.equal(
+        container.querySelector('#coach-wrap-2026-1').classList.contains('hidden'),
+        true,
+      );
+      assert.equal(
+        container.querySelector('#coach-wrap-2026-2').classList.contains('hidden'),
+        false,
+      );
+    } finally {
+      restore();
+    }
+  });
+
+  test('a hash opens the matching coach', () => {
+    const restore = installPage({ hash: '#2026/Matteo' });
+    try {
+      const container = element();
+      renderClassifica(container, { edition: '2026', dettaglio: teams });
+      const sheet = container.querySelector('#coach-sheet-2026-1');
+      assert.ok(!sheet.classList.contains('hidden'));
+      assert.match(sheet.innerHTML, /Andrea Anzelini/);
+      assert.match(sheet.innerHTML, /2 gol/);
+    } finally {
+      restore();
+    }
+  });
+
+  test('remembers the last opened coach', () => {
+    const storage = { [storageKey('2026')]: 'Giulia' };
+    const restore = installPage({ storage });
+    try {
+      const container = element();
+      renderClassifica(container, { edition: '2026', dettaglio: teams });
+      const sheet = container.querySelector('#coach-sheet-2026-2');
+      assert.ok(!sheet.classList.contains('hidden'));
+      assert.match(sheet.innerHTML, /Ada Neri/);
+    } finally {
+      restore();
+    }
+  });
+});
+

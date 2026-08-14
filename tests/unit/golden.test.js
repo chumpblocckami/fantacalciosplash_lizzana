@@ -110,3 +110,20 @@ describe('the published data files hang together', () => {
     assert.ok(teams.size >= 4, `only ${teams.size} teams have movement players`);
   });
 });
+
+describe('the classifica from committed scores', () => {
+  test('reproduces classifica.json and dettaglio.json', () => {
+    const dir = workspace('golden-2026-classifica');
+    mkdirSync(join(dir, 'data', YEAR), { recursive: true });
+    mkdirSync(join(dir, 'assets', YEAR), { recursive: true });
+    for (const file of ['punteggi.json', 'squadre.json', 'eliminazioni.json', 'stato.json']) {
+      cpSync(join(ROOT, 'data', YEAR, file), join(dir, 'data', YEAR, file));
+    }
+    cpSync(join(ROOT, 'assets', YEAR, 'punteggi.json'), join(dir, 'assets', YEAR, 'punteggi.json'));
+
+    const run = runScript('build-classifica.js', dir, { YEAR });
+    assert.equal(run.status, 0, run.stderr);
+    assert.deepEqual(readOutput(dir, 'data', YEAR, 'classifica.json'), committed(YEAR, 'classifica.json'));
+    assert.deepEqual(readOutput(dir, 'data', YEAR, 'dettaglio.json'), committed(YEAR, 'dettaglio.json'));
+  });
+});

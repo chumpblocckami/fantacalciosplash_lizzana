@@ -31,7 +31,15 @@ class StubElement {
       add: (...names) => names.forEach(name => this._classes.add(name)),
       remove: (...names) => names.forEach(name => this._classes.delete(name)),
       contains: name => this._classes.has(name),
-      toggle: (name) => {
+      toggle: (name, force) => {
+        if (force === true) {
+          this._classes.add(name);
+          return true;
+        }
+        if (force === false) {
+          this._classes.delete(name);
+          return false;
+        }
         if (this._classes.delete(name)) return false;
         this._classes.add(name);
         return true;

@@ -18,6 +18,7 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { join } from 'path';
 
 import { workspace, runScript, readOutput } from '../helpers/run-script.js';
+import { tmpDir } from '../helpers/paths.js';
 import { POINTS_PER_MISSING_GAME } from '../../js/constants.js';
 
 const YEAR = '2099';
@@ -65,7 +66,7 @@ function lineup(coach, [goalkeeper, one, two, three, reserve]) {
  * Passing eliminazioni as null leaves the file out altogether, which is how an edition
  * scored before compute-scores.js started writing it looks.
  */
-function rank(name, punteggi, squadre, eliminazioni = {}, stato = null) {
+function rank(name, punteggi, squadre, eliminazioni = {}, stato = null, rawRatings = null) {
   const cwd = workspace(`classifica-${name}`);
   const dataDir = join(cwd, 'data', YEAR);
   mkdirSync(dataDir, { recursive: true });
@@ -77,10 +78,30 @@ function rank(name, punteggi, squadre, eliminazioni = {}, stato = null) {
   if (stato !== null) {
     writeFileSync(join(dataDir, 'stato.json'), JSON.stringify(stato));
   }
+  if (rawRatings !== null) {
+    const assetsDir = join(cwd, 'assets', YEAR);
+    mkdirSync(assetsDir, { recursive: true });
+    writeFileSync(join(assetsDir, 'punteggi.json'), JSON.stringify(rawRatings));
+  }
 
   const run = runScript('build-classifica.js', cwd, { YEAR });
   assert.equal(run.status, 0, `build-classifica.js failed: ${run.stderr}`);
   return readOutput(cwd, 'data', YEAR, 'classifica.json') ?? [];
+}
+
+/** The dettaglio.json written by the last rank() call of that name. */
+function dettaglioOf(name) {
+  return readOutput(tmpDir(`classifica-${name}`), 'data', YEAR, 'dettaglio.json') ?? [];
+}
+
+/** One coach's sheet from that run. */
+function sheetOf(name, coach) {
+  return dettaglioOf(name).find(row => row.Allenatore === coach);
+}
+
+/** One slot on that sheet. */
+function slotOf(name, coach, slot) {
+  return sheetOf(name, coach)?.players.find(player => player.slot === slot);
 }
 
 /** Look up one coach's score. */
@@ -310,6 +331,95 @@ describe('scripts/build-classifica.js', () => {
       const table = rank('duplicates-latest', punteggi, [first, second]);
       assert.equal(table.length, 1);
       assert.equal(scoreOf(table, 'Matteo '), 5 + 100 + 3 + 2);
+    });
+  });
+
+  describe('the squad sheet', () => {
+    test('leaves the reserve on the bench until a starter is eliminated', () => {
+      const punteggi = [
+        scores(GOALKEEPER, [5, 5]),
+        scores(STARTER_ONE, [4, 4]),
+        scores(STARTER_TWO, [3, 3]),
+        scores(STARTER_THREE, [2, 2]),
+        scores(RESERVE, [1, 1]),
+      ];
+      rank('sheet-bench', punteggi, [lineup('Matteo', LINEUP)]);
+
+      const reserve = slotOf('sheet-bench', 'Matteo', 'Riserva');
+      assert.deepEqual(reserve.matches.map(match => match.status), ['panchina', 'panchina']);
+      assert.equal(reserve.counted_total, 0);
+      assert.ok(reserve.matches.every(match => match.counted === false));
+    });
+
+    test('marks an unplayed girone round as non_giocato, not as a malus', () => {
+      const punteggi = [
+        scores(GOALKEEPER, [5]),
+        scores(STARTER_TWO, [3]),
+        scores(STARTER_THREE, [2]),
+        scores(RESERVE, [9]),
+      ];
+      rank(
+        'sheet-waiting',
+        punteggi,
+        [lineup('Matteo', LINEUP)],
+        {},
+        { apply_malus: false, knockouts_started: false, finished: false }
+      );
+
+      const waiting = slotOf('sheet-waiting', 'Matteo', 'Titolare 1');
+      assert.equal(waiting.matches[0].status, 'non_giocato');
+      assert.equal(waiting.matches[0].total, 0);
+      assert.equal(waiting.matches[0].counted, true);
+      assert.equal(slotOf('sheet-waiting', 'Matteo', 'Riserva').matches[0].status, 'panchina');
+    });
+
+    test('a counted match carries chips that sum to its total', () => {
+      // Two goals and a win: the same 4 + 2 that the classifica already counted as 6.
+      const raw = {
+        [STARTER_ONE]: [{
+          goals: 4,
+          yellow_cards: 0,
+          red_cards: 0,
+          team_points: 2,
+          goalkeeper_points: 0,
+          mvp_points: 0,
+          total_points: 6,
+        }],
+      };
+      const punteggi = [
+        scores(GOALKEEPER, [0]),
+        scores(STARTER_ONE, [6]),
+        scores(STARTER_TWO, [0]),
+        scores(STARTER_THREE, [0]),
+        scores(RESERVE, [0]),
+      ];
+      rank('sheet-chips', punteggi, [lineup('Matteo', LINEUP)], {}, null, raw);
+
+      const match = slotOf('sheet-chips', 'Matteo', 'Titolare 1').matches[0];
+      assert.equal(match.status, 'in_campo');
+      assert.deepEqual(match.chips.map(chip => chip.label), ['2 gol', 'vittoria']);
+      assert.equal(match.chips.reduce((sum, chip) => sum + chip.points, 0), match.total);
+    });
+
+    test('the reserve who comes on is subentrato, and the starter they replace is not counted', () => {
+      const punteggi = [
+        scores(GOALKEEPER, [5]),
+        scores(STARTER_ONE, [OUT]),
+        scores(STARTER_TWO, [3]),
+        scores(STARTER_THREE, [2]),
+        scores(RESERVE, [6]),
+      ];
+      rank('sheet-sub', punteggi, [lineup('Matteo', LINEUP)], {
+        [STARTER_ONE]: ['Match 1'],
+      });
+
+      const starter = slotOf('sheet-sub', 'Matteo', 'Titolare 1').matches[0];
+      const reserve = slotOf('sheet-sub', 'Matteo', 'Riserva').matches[0];
+      assert.equal(starter.status, 'eliminato');
+      assert.equal(starter.counted, false);
+      assert.equal(reserve.status, 'subentrato');
+      assert.equal(reserve.counted, true);
+      assert.equal(reserve.total, 6);
     });
   });
 

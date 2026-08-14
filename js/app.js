@@ -6,12 +6,15 @@ import { renderAccordion } from './components/accordion.js';
 import { renderScoreboard } from './components/scoreboard.js';
 import { renderPopularPlayersChart } from './components/chart.js';
 import { renderRegistrationForm } from './components/registration-form.js';
+import { renderClassifica } from './components/classifica.js';
+import { parseTeamHash, formatTeamHash } from './team-hash.js';
 
 const cache = {};
 
 async function main() {
   const editions = await loadEditions() || [CURRENT_YEAR];
-  let activeEdition = editions[0];
+  const hashed = parseTeamHash(typeof location !== 'undefined' ? location.hash : '');
+  let activeEdition = hashed && editions.includes(hashed.edition) ? hashed.edition : editions[0];
 
   const tabsContainer = document.getElementById('tabs');
   const contentContainer = document.getElementById('content');
@@ -19,6 +22,7 @@ async function main() {
   function renderEditionTabs() {
     renderTabs(tabsContainer, editions, activeEdition, async (edition) => {
       activeEdition = edition;
+      writeEditionHash(edition);
       renderEditionTabs();
       await renderEditionContent(edition);
     });
@@ -39,133 +43,164 @@ async function main() {
 
     contentContainer.innerHTML = '';
 
-    // Regolamento download
     renderRegolamentoButton(contentContainer, edition);
 
-    // Registration (current edition only)
-    // Every section below checks for rows, not just for the file: the JSON is written as an
-    // empty list before the tournament starts, and an empty accordion is only noise.
     const isCurrentEdition = edition === CURRENT_YEAR;
-    if (isCurrentEdition && data.giocatori?.length) {
-      renderAccordion(contentContainer, {
-        title: 'Iscrivi una squadra 🤼‍♂️',
-        id: `reg-${edition}`,
-        expanded: false,
-        render: (body) => renderRegistrationForm(body, data.giocatori),
-      });
+    const hasSheet = Array.isArray(data.dettaglio) && data.dettaglio.length > 0;
+
+    if (hasSheet) {
+      const classificaDiv = document.createElement('div');
+      classificaDiv.className = 'mb-6';
+      contentContainer.appendChild(classificaDiv);
+      renderClassifica(classificaDiv, { edition, dettaglio: data.dettaglio });
     }
 
-    // Quotazione giocatori
-    if (data.giocatori?.length) {
-      renderAccordion(contentContainer, {
-        title: 'Quotazione giocatori 💰',
-        id: `giocatori-${edition}`,
-        expanded: false,
-        render: (body) => {
-          renderDownloadButton(body, data.giocatori, `${edition}_giocatori.csv`, 'Scarica CSV ⏬');
-          const tableDiv = document.createElement('div');
-          tableDiv.className = 'mt-3';
-          body.appendChild(tableDiv);
-          renderTable(tableDiv, {
-            id: `giocatori-table-${edition}`,
-            columns: ['Nominativo', 'Squadra', 'Soprannome', 'Quotazione', 'Ruolo'],
-            rows: data.giocatori.map(g => [g.Nominativo, g.Squadra, g.Soprannome, g.Quotazione, g.Ruolo]),
-            searchable: true,
-          });
-        },
-      });
-    }
-
-    // How many teams are in. The Squadre iscritte section below already carries the number in
-    // its title, so this only fills the gap before squadre.json exists, i.e. while the
-    // iscrizioni are open and the count can only come from the registration backend.
+    const extras = [];
+    collectLegacySections(extras, edition, data, isCurrentEdition, hasSheet);
     if (isCurrentEdition && !data.squadre?.length) {
       renderRegistrationCount(contentContainer);
     }
-
-    // Squadre iscritte
-    if (data.squadre?.length) {
-      renderAccordion(contentContainer, {
-        title: `Squadre iscritte 👯‍♀️ (${data.squadre.length})`,
-        id: `squadre-${edition}`,
-        expanded: false,
-        render: (body) => {
-          const cols = Object.keys(data.squadre[0] || {});
-          renderTable(body, {
-            id: `squadre-table-${edition}`,
-            columns: cols,
-            rows: data.squadre.map(s => cols.map(c => s[c])),
-            searchable: true,
-          });
-
-          if (data.squadre.length > 5) {
-            const chartDiv = document.createElement('div');
-            chartDiv.className = 'mt-6';
-            const chartTitle = document.createElement('h4');
-            chartTitle.className = 'text-sm font-semibold text-gray-600 dark:text-gray-300 mb-3';
-            chartTitle.textContent = 'Giocatori più acquistati 📊';
-            body.appendChild(chartTitle);
-            body.appendChild(chartDiv);
-            renderPopularPlayersChart(chartDiv, data.squadre);
-          }
-        },
-      });
-    }
-
-    // Risultati
-    if (data.risultati?.length) {
-      renderAccordion(contentContainer, {
-        title: `Risultati ⚽ (${data.risultati.length} partite)`,
-        id: `risultati-${edition}`,
-        expanded: false,
-        render: (body) => renderScoreboard(body, data.risultati),
-      });
-    }
-
-    // Punteggi giocatore
-    if (data.punteggi?.length) {
-      renderAccordion(contentContainer, {
-        title: 'Punteggi giocatore 🍿',
-        id: `punteggi-${edition}`,
-        expanded: false,
-        render: (body) => {
-          renderDownloadButton(body, data.punteggi, `${edition}_punteggi.csv`, 'Scarica CSV ⏬');
-          const tableDiv = document.createElement('div');
-          tableDiv.className = 'mt-3';
-          body.appendChild(tableDiv);
-
-          const cols = Object.keys(data.punteggi[0]);
-          renderTable(tableDiv, {
-            id: `punteggi-table-${edition}`,
-            columns: cols,
-            rows: data.punteggi.map(p => cols.map(c => p[c])),
-            searchable: true,
-          });
-        },
-      });
-    }
-
-    // Classifica
-    if (data.classifica?.length) {
-      renderAccordion(contentContainer, {
-        title: 'Classifica 🏆',
-        id: `classifica-${edition}`,
-        expanded: !isCurrentEdition,
-        render: (body) => {
-          const cols = getClassificaColumns(data.classifica[0]);
-          renderTable(body, {
-            id: `classifica-table-${edition}`,
-            columns: cols,
-            rows: data.classifica.map(c => cols.map(col => c[col])),
-            searchable: true,
-          });
-        },
-      });
+    if (extras.length) {
+      if (hasSheet) {
+        const divider = document.createElement('hr');
+        divider.className = 'border-0 border-t border-gray-200 dark:border-gray-700 mt-8 mb-6';
+        contentContainer.appendChild(divider);
+      }
+      extras.forEach(section => renderAccordion(contentContainer, section));
     }
   }
 
   renderEditionTabs();
   await renderEditionContent(activeEdition);
+
+  if (typeof window !== 'undefined') {
+    window.addEventListener('hashchange', async () => {
+      const next = parseTeamHash(location.hash);
+      if (!next || !editions.includes(next.edition)) return;
+      if (next.edition !== activeEdition) {
+        activeEdition = next.edition;
+        renderEditionTabs();
+      }
+      await renderEditionContent(next.edition);
+    });
+  }
+}
+
+/**
+ * The tables that used to be the whole page: registration, prices, lineups, results,
+ * player points, and the two-column classifica for editions that have no squad sheet.
+ */
+function collectLegacySections(extras, edition, data, isCurrentEdition, hasSheet) {
+  if (isCurrentEdition && data.giocatori?.length) {
+    extras.push({
+      title: 'Iscrivi una squadra 🤼‍♂️',
+      id: `reg-${edition}`,
+      expanded: false,
+      render: (body) => renderRegistrationForm(body, data.giocatori),
+    });
+  }
+
+  if (data.giocatori?.length) {
+    extras.push({
+      title: 'Quotazione giocatori 💰',
+      id: `giocatori-${edition}`,
+      expanded: false,
+      render: (body) => {
+        renderDownloadButton(body, data.giocatori, `${edition}_giocatori.csv`, 'Scarica CSV ⏬');
+        const tableDiv = document.createElement('div');
+        tableDiv.className = 'mt-3';
+        body.appendChild(tableDiv);
+        renderTable(tableDiv, {
+          id: `giocatori-table-${edition}`,
+          columns: ['Nominativo', 'Squadra', 'Soprannome', 'Quotazione', 'Ruolo'],
+          rows: data.giocatori.map(g => [g.Nominativo, g.Squadra, g.Soprannome, g.Quotazione, g.Ruolo]),
+          searchable: true,
+        });
+      },
+    });
+  }
+
+  if (data.squadre?.length) {
+    extras.push({
+      title: `Squadre iscritte 👯‍♀️ (${data.squadre.length})`,
+      id: `squadre-${edition}`,
+      expanded: false,
+      render: (body) => {
+        const cols = Object.keys(data.squadre[0] || {});
+        renderTable(body, {
+          id: `squadre-table-${edition}`,
+          columns: cols,
+          rows: data.squadre.map(s => cols.map(c => s[c])),
+          searchable: true,
+        });
+
+        if (data.squadre.length > 5) {
+          const chartDiv = document.createElement('div');
+          chartDiv.className = 'mt-6';
+          const chartTitle = document.createElement('h4');
+          chartTitle.className = 'text-sm font-semibold text-gray-600 dark:text-gray-300 mb-3';
+          chartTitle.textContent = 'Giocatori più acquistati 📊';
+          body.appendChild(chartTitle);
+          body.appendChild(chartDiv);
+          renderPopularPlayersChart(chartDiv, data.squadre);
+        }
+      },
+    });
+  }
+
+  if (data.risultati?.length) {
+    extras.push({
+      title: `Risultati ⚽ (${data.risultati.length} partite)`,
+      id: `risultati-${edition}`,
+      expanded: false,
+      render: (body) => renderScoreboard(body, data.risultati),
+    });
+  }
+
+  if (data.punteggi?.length) {
+    extras.push({
+      title: 'Punteggi giocatore 🍿',
+      id: `punteggi-${edition}`,
+      expanded: false,
+      render: (body) => {
+        renderDownloadButton(body, data.punteggi, `${edition}_punteggi.csv`, 'Scarica CSV ⏬');
+        const tableDiv = document.createElement('div');
+        tableDiv.className = 'mt-3';
+        body.appendChild(tableDiv);
+        const cols = Object.keys(data.punteggi[0]);
+        renderTable(tableDiv, {
+          id: `punteggi-table-${edition}`,
+          columns: cols,
+          rows: data.punteggi.map(p => cols.map(c => p[c])),
+          searchable: true,
+        });
+      },
+    });
+  }
+
+  if (!hasSheet && data.classifica?.length) {
+    extras.push({
+      title: 'Classifica 🏆',
+      id: `classifica-${edition}`,
+      expanded: !isCurrentEdition,
+      render: (body) => {
+        const cols = getClassificaColumns(data.classifica[0]);
+        renderTable(body, {
+          id: `classifica-table-${edition}`,
+          columns: cols,
+          rows: data.classifica.map(c => cols.map(col => c[col])),
+          searchable: true,
+        });
+      },
+    });
+  }
+}
+
+function writeEditionHash(edition) {
+  try {
+    const hash = formatTeamHash(edition);
+    if (globalThis.history?.replaceState) globalThis.history.replaceState(null, '', hash);
+  } catch { /* ignore */ }
 }
 
 // ===== HELPERS =====
