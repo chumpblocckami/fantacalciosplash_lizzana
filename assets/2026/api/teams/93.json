@@ -71,11 +71,11 @@
         "id": 622,
         "name": "Davide",
         "surname": "De Zambotti",
-        "username": null,
+        "username": "Il re dell’artigianato",
         "birth_date": "1994-05-09T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\davidedezambotti.png"
       }
     ]
   }

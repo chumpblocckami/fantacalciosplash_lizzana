@@ -51,11 +51,11 @@
         "id": 640,
         "name": "Patrick",
         "surname": "Raffaelli",
-        "username": "-",
+        "username": "Taggetta",
         "birth_date": "1996-11-18T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\patrickraffaelli.png"
       },
       {
         "id": 641,
@@ -71,21 +71,21 @@
         "id": 642,
         "name": "Gianni",
         "surname": "Sala",
-        "username": null,
+        "username": "Gianluca Grignani",
         "birth_date": "1999-01-02T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giannisala.png"
       },
       {
         "id": 643,
         "name": "Alessandro",
         "surname": "Fanti",
-        "username": null,
+        "username": "Dorian Gray",
         "birth_date": "1991-12-04T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\alessandrofanti.png"
       }
     ]
   }

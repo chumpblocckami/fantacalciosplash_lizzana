@@ -1,7 +1,15 @@
 [
   {
     "Allenatore": "Riccardo Zeni",
-    "Punteggio": 21
+    "Punteggio": 22
+  },
+  {
+    "Allenatore": "Spagnolli Mattia 1",
+    "Punteggio": 16
+  },
+  {
+    "Allenatore": "Spagnolli Mattia 2",
+    "Punteggio": 16
   },
   {
     "Allenatore": "Valentina Perghem",
@@ -20,14 +28,6 @@
     "Punteggio": 15
   },
   {
-    "Allenatore": "Spagnolli Mattia 1",
-    "Punteggio": 15
-  },
-  {
-    "Allenatore": "Spagnolli Mattia 2",
-    "Punteggio": 15
-  },
-  {
     "Allenatore": "Davide Rosà",
     "Punteggio": 14
   },
@@ -37,22 +37,22 @@
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 12
+    "Punteggio": 13
   },
   {
     "Allenatore": "Matteo Zanlucchi",
     "Punteggio": 11.5
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 10
-  },
-  {
     "Allenatore": "Matteo Pilati",
-    "Punteggio": 10
+    "Punteggio": 11
   },
   {
     "Allenatore": "Jacopo Chemini",
+    "Punteggio": 11
+  },
+  {
+    "Allenatore": "Leonardo Parisi",
     "Punteggio": 10
   },
   {
@@ -62,6 +62,10 @@
   {
     "Allenatore": "Alessio Farinati",
     "Punteggio": 9.5
+  },
+  {
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 9
   },
   {
     "Allenatore": "Davide Zeni",
@@ -76,7 +80,7 @@
     "Punteggio": 8.5
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 8
   },
   {
@@ -92,16 +96,16 @@
     "Punteggio": 7
   },
   {
-    "Allenatore": "Lorenza Simoncelli",
+    "Allenatore": "Matteo Giovanella",
     "Punteggio": 7
   },
   {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 6
+    "Allenatore": "Marco Sala",
+    "Punteggio": 7
   },
   {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 6
+    "Allenatore": "JAlvin92",
+    "Punteggio": 5
   },
   {
     "Allenatore": "Nazarena Raos",
@@ -124,15 +128,11 @@
     "Punteggio": 4
   },
   {
-    "Allenatore": "Daniele Feltrinelli",
-    "Punteggio": 4
-  },
-  {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 4
-  },
-  {
     "Allenatore": "Marco Miotto",
+    "Punteggio": 4
+  },
+  {
+    "Allenatore": "Daniele Feltrinelli",
     "Punteggio": 3
   },
   {

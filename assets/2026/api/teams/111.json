@@ -31,9 +31,9 @@
         "id": 744,
         "name": "Giovanni",
         "surname": "Lasta",
-        "username": "Gio",
+        "username": "Tetano",
         "birth_date": "2006-11-27T00:00:00.000Z",
-        "is_goalkeeper": false,
+        "is_goalkeeper": true,
         "avatar_url": "/storage/players/giovannilasta.png",
         "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giovannilasta.png"
       },
@@ -61,9 +61,9 @@
         "id": 747,
         "name": "Mario",
         "surname": "Sinani",
-        "username": "Gyat Lover",
+        "username": "",
         "birth_date": "2006-07-09T00:00:00.000Z",
-        "is_goalkeeper": true,
+        "is_goalkeeper": false,
         "avatar_url": "/storage/players/mariosinani.png",
         "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mariosinani.png"
       }

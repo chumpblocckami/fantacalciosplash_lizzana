@@ -21,51 +21,51 @@
         "id": 859,
         "name": "Mario",
         "surname": "Grifeo",
-        "username": null,
+        "username": "Il grifone dalle ali di guano",
         "birth_date": "2002-07-31T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mariogrifeo.png"
       },
       {
         "id": 860,
         "name": "Samuele",
         "surname": "Kettmaier",
-        "username": null,
+        "username": "Ketamina",
         "birth_date": "2004-04-10T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\samuelekettmaier.png"
       },
       {
         "id": 861,
         "name": "Federico",
         "surname": "Zanini",
-        "username": null,
+        "username": "Frenulo a disco",
         "birth_date": "2002-02-26T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\federicozanini.png"
       },
       {
         "id": 862,
         "name": "Maverick",
         "surname": "Bertolini",
-        "username": null,
+        "username": "Top gun Maverick",
         "birth_date": "2000-04-20T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\maverickbertolini.png"
       },
       {
         "id": 863,
         "name": "Sayf",
         "surname": "Brick",
-        "username": null,
+        "username": "Baby gang bang",
         "birth_date": "2000-04-02T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\sayfbrick.png"
       },
       {
         "id": 864,

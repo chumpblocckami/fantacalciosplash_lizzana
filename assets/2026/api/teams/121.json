@@ -31,11 +31,11 @@
         "id": 815,
         "name": "Andrea Veronica",
         "surname": "Degan",
-        "username": null,
+        "username": "Eternit",
         "birth_date": "1988-06-07T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\andreaveronicadegan.png"
       },
       {
         "id": 816,
@@ -51,11 +51,11 @@
         "id": 817,
         "name": "Maddalena",
         "surname": "Baldo",
-        "username": null,
+        "username": "La figlia di psycho",
         "birth_date": "1997-11-16T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\maddalenabaldo.png"
       },
       {
         "id": 818,

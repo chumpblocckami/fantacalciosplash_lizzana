@@ -31,11 +31,11 @@
         "id": 663,
         "name": "Sara",
         "surname": "Di Vito",
-        "username": null,
+        "username": "Defibrillatore",
         "birth_date": "2003-03-01T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\saradivito.png"
       },
       {
         "id": 664,
@@ -61,11 +61,11 @@
         "id": 666,
         "name": "Chiara",
         "surname": "Salvetti",
-        "username": null,
+        "username": "Bionda dentro",
         "birth_date": "2000-01-02T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\chiarasalvetti.png"
       },
       {
         "id": 667,

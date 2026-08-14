@@ -91,11 +91,11 @@
         "id": 851,
         "name": "Arianna",
         "surname": "Bonenti",
-        "username": "Bonni",
+        "username": "",
         "birth_date": "1995-09-04T00:00:00.000Z",
-        "is_goalkeeper": false,
+        "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\ariannabonenti.png"
       }
     ]
   }

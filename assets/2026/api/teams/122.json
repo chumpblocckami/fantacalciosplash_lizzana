@@ -11,41 +11,41 @@
         "id": 820,
         "name": "Annalisa",
         "surname": "Ruele",
-        "username": null,
+        "username": "Robin(h)uda",
         "birth_date": "1999-10-17T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\annalisaruele.png"
       },
       {
         "id": 821,
         "name": "Daniela",
         "surname": "Saiani",
-        "username": null,
+        "username": "La poiana dalle ali di velluto",
         "birth_date": "1999-06-01T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\danielasaiani.png"
       },
       {
         "id": 822,
         "name": "Chiara",
         "surname": "Candio",
-        "username": null,
+        "username": "Bestemmia palindroma",
         "birth_date": "1998-04-07T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\chiaracandio.png"
       },
       {
         "id": 823,
         "name": "Carolina",
         "surname": "Zendri",
-        "username": null,
+        "username": "Maestrale d’inverno",
         "birth_date": "1998-11-26T00:00:00.000Z",
-        "is_goalkeeper": true,
+        "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\carolinazendri.png"
       },
       {
         "id": 824,

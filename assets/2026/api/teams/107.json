@@ -51,11 +51,11 @@
         "id": 718,
         "name": "Pietro",
         "surname": "Bernardelli",
-        "username": "BERNARUMMA",
+        "username": "",
         "birth_date": "1993-12-11T00:00:00.000Z",
-        "is_goalkeeper": true,
+        "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\pietrobernardelli.png"
       },
       {
         "id": 719,
@@ -71,11 +71,11 @@
         "id": 720,
         "name": "Thomas",
         "surname": "Maffei",
-        "username": "Carles Puyol",
+        "username": "",
         "birth_date": "1998-01-13T00:00:00.000Z",
-        "is_goalkeeper": false,
+        "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\thomasmaffei.png"
       },
       {
         "id": 721,

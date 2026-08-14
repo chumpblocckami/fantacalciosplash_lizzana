@@ -41,11 +41,11 @@
         "id": 703,
         "name": "Martina",
         "surname": "Riva",
-        "username": null,
+        "username": "Acidità di stomaco",
         "birth_date": "1996-03-17T00:00:00.000Z",
-        "is_goalkeeper": true,
+        "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\martinariva.png"
       },
       {
         "id": 704,
@@ -61,7 +61,7 @@
         "id": 705,
         "name": "Angelica",
         "surname": "Perghem",
-        "username": null,
+        "username": "Trappola",
         "birth_date": "1998-03-11T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/angelicaperghem.png",
@@ -91,7 +91,7 @@
         "id": 708,
         "name": "Benedetta",
         "surname": "Foradori",
-        "username": null,
+        "username": "Scagliatrice di prime pietre",
         "birth_date": "1997-11-24T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/benedettaforadori.png",

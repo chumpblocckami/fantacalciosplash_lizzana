@@ -61,11 +61,11 @@
         "id": 596,
         "name": "CATERINA",
         "surname": "MITTEMPERGHER",
-        "username": null,
+        "username": "Mantide religiosa",
         "birth_date": "2004-07-27T00:00:00.000Z",
-        "is_goalkeeper": false,
+        "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\caterinamittempergher.png"
       },
       {
         "id": 597,

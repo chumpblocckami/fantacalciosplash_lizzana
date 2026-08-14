@@ -1595,9 +1595,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": 0,
+      "goalkeeper_points": -3,
       "mvp_points": 0,
-      "total_points": 0
+      "total_points": -3
     }
   ],
   "Samuel Beber | QUESTI SEN": [
@@ -1606,9 +1606,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": 0,
+      "goalkeeper_points": -3,
       "mvp_points": 0,
-      "total_points": 0
+      "total_points": -3
     }
   ],
   "Samuel Campagna | QUESTI SEN": [
@@ -1628,9 +1628,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": 0,
+      "goalkeeper_points": -3,
       "mvp_points": 0,
-      "total_points": 0
+      "total_points": -3
     }
   ],
   "Nicolò Papalia | QUESTI SEN": [
@@ -1749,9 +1749,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": 0,
+      "goalkeeper_points": -3.5,
       "mvp_points": 0,
-      "total_points": 0
+      "total_points": -3.5
     }
   ],
   "Mario Sinani | 4SINS": [
@@ -1760,9 +1760,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": -3.5,
+      "goalkeeper_points": 0,
       "mvp_points": 0,
-      "total_points": -3.5
+      "total_points": 0
     }
   ],
   "Emanuele Tomasoni | 4SINS": [
@@ -1881,9 +1881,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 1,
-      "goalkeeper_points": -1,
+      "goalkeeper_points": 0,
       "mvp_points": 0,
-      "total_points": 0
+      "total_points": 1
     }
   ],
   "Luca Frasca | CLITORIDERS": [
@@ -1925,9 +1925,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 1,
-      "goalkeeper_points": 0,
+      "goalkeeper_points": -1,
       "mvp_points": 0,
-      "total_points": 1
+      "total_points": 0
     }
   ],
   "Michele Merighi | CLITORIDERS": [

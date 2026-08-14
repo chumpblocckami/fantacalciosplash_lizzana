@@ -11,61 +11,61 @@
         "id": 852,
         "name": "Federico",
         "surname": "Madaschi",
-        "username": null,
+        "username": "Il bocia/ vino tinto",
         "birth_date": "2003-07-19T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\federicomadaschi.png"
       },
       {
         "id": 853,
         "name": "Riccardo",
         "surname": "Madaschi",
-        "username": null,
+        "username": "Conato di vomito",
         "birth_date": "2000-09-06T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\riccardomadaschi.png"
       },
       {
         "id": 854,
         "name": "Samuele",
         "surname": "Pedrotti",
-        "username": null,
+        "username": "Nonno Oscar ",
         "birth_date": "1998-01-26T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\samuelepedrotti.png"
       },
       {
         "id": 855,
         "name": "Maurizio",
         "surname": "Maffei",
-        "username": null,
+        "username": "Budino",
         "birth_date": "1997-08-17T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\mauriziomaffei.png"
       },
       {
         "id": 856,
         "name": "Matteo",
         "surname": "Giovannella",
-        "username": null,
+        "username": "Riccanza",
         "birth_date": "1995-05-12T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\matteogiovannella.png"
       },
       {
         "id": 857,
         "name": "Daniele",
         "surname": "Feller",
-        "username": null,
+        "username": "Babbuino",
         "birth_date": "1997-09-15T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\danielefeller.png"
       }
     ]
   }
