@@ -64,6 +64,14 @@
     "Total": 15
   },
   {
+    "player": "Andrea Anzelini | GREP",
+    "Match 1": 6,
+    "Match 2": 3,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
     "player": "Emil Enriconi | A.C.DENTI",
     "Match 1": 9,
     "Match 2": 0,
@@ -248,6 +256,14 @@
     "Total": 11
   },
   {
+    "player": "Federico Giordani | GREP",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 11
+  },
+  {
     "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
     "Match 1": 4,
     "Match 2": 4,
@@ -348,14 +364,6 @@
     "Match 1": 1,
     "Match 2": 6,
     "Match 3": 2,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Andrea Anzelini | GREP",
-    "Match 1": 6,
-    "Match 2": 3,
-    "Match 3": 0,
     "Premi": 0,
     "Total": 9
   },
@@ -504,12 +512,52 @@
     "Total": 7
   },
   {
+    "player": "Riccardo Baldo | GREP",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Matteo Mazzola | GREP",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Davide Raffaelli | GREP",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 4,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Federico Leonardi | SUGHI",
     "Match 1": 1.5,
     "Match 2": -1,
     "Match 3": 6,
     "Premi": 0,
     "Total": 6.5
+  },
+  {
+    "player": "Alessandro Sartori | QUEI STRAZI",
+    "Match 1": 0,
+    "Match 2": 2,
+    "Match 3": 4,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Elias Viesi Lutteri | QUEI STRAZI",
+    "Match 1": 0,
+    "Match 2": 0,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 6
   },
   {
     "player": "Andrea Aste | PINGUINI TRENTINI",
@@ -808,26 +856,18 @@
     "Total": 5
   },
   {
-    "player": "Riccardo Baldo | GREP",
-    "Match 1": 4,
+    "player": "Michele Bertolini | GREP",
+    "Match 1": 2,
     "Match 2": 1,
-    "Match 3": 0,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 5
   },
   {
-    "player": "Federico Giordani | GREP",
-    "Match 1": 4,
+    "player": "Matteo Maraner | GREP",
+    "Match 1": 2,
     "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Matteo Mazzola | GREP",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 0,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 5
   },
@@ -1144,41 +1184,9 @@
     "Total": 3
   },
   {
-    "player": "Michele Bertolini | GREP",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Matteo Maraner | GREP",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Davide Raffaelli | GREP",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
     "player": "Marco Lutteri | QUEI STRAZI",
     "Match 1": 2,
     "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Alessandro Sartori | QUEI STRAZI",
-    "Match 1": 0,
-    "Match 2": 2,
     "Match 3": 0,
     "Premi": 0,
     "Total": 2
@@ -1312,14 +1320,6 @@
     "Total": 2
   },
   {
-    "player": "Federico Zoller | GREP",
-    "Match 1": 1.5,
-    "Match 2": 0.5,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Matteo Gatti | DEMOBUSTERS",
     "Match 1": 2,
     "Match 2": 0,
@@ -1364,6 +1364,14 @@
     "Match 1": 0,
     "Match 2": 1.5,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 1.5
+  },
+  {
+    "player": "Federico Zoller | GREP",
+    "Match 1": 1.5,
+    "Match 2": 0.5,
+    "Match 3": -0.5,
     "Premi": 0,
     "Total": 1.5
   },
@@ -1473,14 +1481,6 @@
   },
   {
     "player": "Vincenzo Augusto | QUEI STRAZI",
-    "Match 1": 0,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Elias Viesi Lutteri | QUEI STRAZI",
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 0,
@@ -1624,28 +1624,28 @@
     "Total": -2
   },
   {
-    "player": "Mattia Lotti | QUEI STRAZI",
-    "Match 1": -3,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": -3
-  },
-  {
-    "player": "Mattia Bertolini | QUEI STRAZI",
-    "Match 1": -3,
-    "Match 2": -2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": -5
-  },
-  {
     "player": "Michele Ruele | AVANZI",
     "Match 1": -1.5,
     "Match 2": -4,
     "Match 3": 0,
     "Premi": 0,
     "Total": -5.5
+  },
+  {
+    "player": "Mattia Lotti | QUEI STRAZI",
+    "Match 1": -3,
+    "Match 2": 0,
+    "Match 3": -3,
+    "Premi": 0,
+    "Total": -6
+  },
+  {
+    "player": "Mattia Bertolini | QUEI STRAZI",
+    "Match 1": -3,
+    "Match 2": -2,
+    "Match 3": -3,
+    "Premi": 0,
+    "Total": -8
   },
   {
     "player": "Andrea Amendola | FC SCHALKE 104",

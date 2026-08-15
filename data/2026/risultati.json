@@ -256,5 +256,11 @@
     "away": "POWER GINGER",
     "score": "2-2",
     "stage": "Maschile"
+  },
+  {
+    "home": "GREP",
+    "away": "QUEI STRAZI",
+    "score": "6-5",
+    "stage": "Maschile"
   }
 ]

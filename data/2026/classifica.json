@@ -36,6 +36,10 @@
     "Punteggio": 57
   },
   {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 54
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 53
   },
@@ -52,10 +56,6 @@
     "Punteggio": 48.5
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 48
-  },
-  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 45.5
   },
@@ -64,20 +64,28 @@
     "Punteggio": 44
   },
   {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 40
+    "Allenatore": "Marco Sala",
+    "Punteggio": 41
   },
   {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 37
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 40
   },
   {
     "Allenatore": "Michela Menghini",
     "Punteggio": 37
   },
   {
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 36.5
+  },
+  {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 36.5
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 36
   },
   {
     "Allenatore": "Matteo Zanlucchi",
@@ -92,16 +100,12 @@
     "Punteggio": 35
   },
   {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 35
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 32
   },
   {
     "Allenatore": "Niccolò Orsi",
     "Punteggio": 32
-  },
-  {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 30
   },
   {
     "Allenatore": "Danny Giordani",
@@ -114,10 +118,6 @@
   {
     "Allenatore": "Davide Zeni",
     "Punteggio": 28.5
-  },
-  {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 26
   },
   {
     "Allenatore": "Marco Miotto",
@@ -137,6 +137,6 @@
   },
   {
     "Allenatore": "Michele Bertolini",
-    "Punteggio": 16
+    "Punteggio": 22
   }
 ]
