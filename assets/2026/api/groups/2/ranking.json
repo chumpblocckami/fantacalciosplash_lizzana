@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 99,
+      "name": "SAILOR MONE",
+      "tag": "SAI",
+      "logo_url": "/storage/teams/sailormone.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
+      "points": 9,
+      "played": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 14,
+      "goals_conceded": 3,
+      "goal_difference": 11,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
       "id": 121,
       "name": "PANCHAMAHBAHUTA",
       "tag": "PAN",
@@ -18,23 +35,6 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 2,
-      "id": 99,
-      "name": "SAILOR MONE",
-      "tag": "SAI",
-      "logo_url": "/storage/teams/sailormone.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
-      "points": 6,
-      "played": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 5,
-      "goals_conceded": 3,
-      "goal_difference": 2,
-      "disciplinary_points": 0
-    },
-    {
       "ranking": 3,
       "id": 101,
       "name": "A.C.CAMPATE",
@@ -42,13 +42,13 @@
       "logo_url": "/storage/teams/accampate.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\accampate.png",
       "points": 3,
-      "played": 2,
+      "played": 3,
       "wins": 1,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goals_scored": 2,
-      "goals_conceded": 5,
-      "goal_difference": -3,
+      "goals_conceded": 14,
+      "goal_difference": -12,
       "disciplinary_points": 0
     },
     {
