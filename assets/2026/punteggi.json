@@ -337,6 +337,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Yuri Garau | P.S.G.": [
@@ -348,6 +357,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -377,6 +395,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Florian Hoxha | P.S.G.": [
@@ -388,6 +415,15 @@
       "goalkeeper_points": -2,
       "mvp_points": 0,
       "total_points": -1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -5.5,
+      "mvp_points": 0,
+      "total_points": -5.5
     },
     {
       "goals": 0,
@@ -417,6 +453,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Antonio Rambaldo | P.S.G.": [
@@ -437,6 +482,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Elia Tomasoni | P.S.G.": [
@@ -448,6 +502,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -1451,6 +1514,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Davide Bazzano | I MONTAGNA": [
@@ -1462,6 +1534,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -1491,6 +1572,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Daniele Dalbosco | I MONTAGNA": [
@@ -1511,6 +1601,15 @@
       "goalkeeper_points": -1.5,
       "mvp_points": 0,
       "total_points": 0.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -0.5,
+      "mvp_points": 0,
+      "total_points": 1.5
     }
   ],
   "Federico Manica | I MONTAGNA": [
@@ -1522,6 +1621,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     },
     {
       "goals": 2,
@@ -1551,6 +1659,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Andrea Pedrotti | I MONTAGNA": [
@@ -1562,6 +1679,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -1591,6 +1717,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Marco Sala | I MONTAGNA": [
@@ -1611,6 +1746,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Matteo Simoncelli | I MONTAGNA": [
@@ -1631,6 +1775,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 6,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 8
     }
   ],
   "Samuele Maffei | F.C. GORILLAZ": [
