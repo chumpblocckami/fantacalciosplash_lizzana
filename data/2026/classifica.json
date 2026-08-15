@@ -4,15 +4,15 @@
     "Punteggio": 85
   },
   {
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 73.5
+  },
+  {
     "Allenatore": "Alessandro Galvagni",
     "Punteggio": 73
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 67.5
-  },
-  {
-    "Allenatore": "Davide Rosà",
     "Punteggio": 67.5
   },
   {
@@ -40,6 +40,14 @@
     "Punteggio": 51.5
   },
   {
+    "Allenatore": "Matteo Pilati",
+    "Punteggio": 51
+  },
+  {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 50.5
+  },
+  {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 50.5
   },
@@ -56,16 +64,16 @@
     "Punteggio": 46.5
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 45
-  },
-  {
-    "Allenatore": "Matteo Pilati",
-    "Punteggio": 45
-  },
-  {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 45
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 44
+  },
+  {
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 41.5
   },
   {
     "Allenatore": "Nazarena Raos",
@@ -76,20 +84,12 @@
     "Punteggio": 40.5
   },
   {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 38
-  },
-  {
     "Allenatore": "Thomas Pontillo",
     "Punteggio": 37
   },
   {
     "Allenatore": "Niccolò Orsi",
     "Punteggio": 36.5
-  },
-  {
-    "Allenatore": "Michela Menghini",
-    "Punteggio": 36
   },
   {
     "Allenatore": "Elena Bruschetti",
@@ -108,6 +108,10 @@
     "Punteggio": 32
   },
   {
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 31.5
+  },
+  {
     "Allenatore": "Marco Miotto",
     "Punteggio": 30
   },
@@ -124,19 +128,15 @@
     "Punteggio": 26.5
   },
   {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 25.5
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 25
   },
   {
-    "Allenatore": "Andrea Conzatti",
+    "Allenatore": "Michele Bertolini",
     "Punteggio": 25
   },
   {
     "Allenatore": "Daniele Feltrinelli",
     "Punteggio": 24
-  },
-  {
-    "Allenatore": "Michele Bertolini",
-    "Punteggio": 17
   }
 ]

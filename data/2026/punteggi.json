@@ -180,6 +180,24 @@
     "Total": 13
   },
   {
+    "player": "Federico Pomarolli | MODIUM",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 5,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 13
+  },
+  {
+    "player": "Marco Sartorelli | MODIUM",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 6,
+    "Premi": 0,
+    "Total": 13
+  },
+  {
     "player": "Nicolas Giordani | FC SAVIGNANO",
     "Match 1": 2,
     "Match 2": 3.5,
@@ -306,6 +324,24 @@
     "Total": 11
   },
   {
+    "player": "Matteo Lanaro | MODIUM",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 11
+  },
+  {
+    "player": "Edoardo Pomarolli | MODIUM",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 11
+  },
+  {
     "player": "Davide Manica | PINGUINI TRENTINI",
     "Match 1": 6,
     "Match 2": 2,
@@ -367,6 +403,15 @@
     "Match 4": 4,
     "Premi": 0,
     "Total": 10
+  },
+  {
+    "player": "Daniele Dalbosco | SDRUMALA",
+    "Match 1": 4,
+    "Match 2": 5,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 9
   },
   {
     "player": "Federico Andreis | I MONTAGNA",
@@ -436,15 +481,6 @@
     "Match 1": 4,
     "Match 2": 1,
     "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Federico Pomarolli | MODIUM",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 5,
     "Match 4": -2,
     "Premi": 0,
     "Total": 9
@@ -540,13 +576,13 @@
     "Total": 8
   },
   {
-    "player": "Daniele Dalbosco | SDRUMALA",
-    "Match 1": 4,
-    "Match 2": 5,
-    "Match 3": 0,
-    "Match 4": -2,
+    "player": "Riccardo Versini | MODIUM",
+    "Match 1": 7,
+    "Match 2": -2,
+    "Match 3": -1,
+    "Match 4": 3.5,
     "Premi": 0,
-    "Total": 7
+    "Total": 7.5
   },
   {
     "player": "Federico Manica | I MONTAGNA",
@@ -644,6 +680,15 @@
     "Match 2": 6,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Andrea Bertolini | MODIUM",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 7
   },
@@ -747,6 +792,33 @@
     "Total": 5
   },
   {
+    "player": "Alessio Delli Compagni | SDRUMALA",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Andrea Menolli | SDRUMALA",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Christian Trainotti | SDRUMALA",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 0,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
     "player": "Matteo Giovannella | BEVEM4TUT",
     "Match 1": 0,
     "Match 2": 4,
@@ -819,29 +891,11 @@
     "Total": 5
   },
   {
-    "player": "Matteo Lanaro | MODIUM",
+    "player": "Luca Barozzi | MODIUM",
     "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Edoardo Pomarolli | MODIUM",
-    "Match 1": 4,
     "Match 2": 0,
-    "Match 3": 3,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Marco Sartorelli | MODIUM",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": -2,
+    "Match 3": 1,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 5
   },
@@ -1053,20 +1107,38 @@
     "Total": 3
   },
   {
-    "player": "Alessio Delli Compagni | SDRUMALA",
-    "Match 1": 4,
+    "player": "Davide Deimichei | SDRUMALA",
+    "Match 1": 2,
     "Match 2": 1,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 3
   },
   {
-    "player": "Andrea Menolli | SDRUMALA",
-    "Match 1": 4,
+    "player": "Manuel Emanuelli | SDRUMALA",
+    "Match 1": 2,
     "Match 2": 1,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 3
+  },
+  {
+    "player": "Andreas Galli | SDRUMALA",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 3
+  },
+  {
+    "player": "Stefano Mattioli | SDRUMALA",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 0,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 3
   },
@@ -1233,15 +1305,6 @@
     "Total": 3
   },
   {
-    "player": "Andrea Bertolini | MODIUM",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
     "player": "William Pedri | U.SGUARNA",
     "Match 1": 1.5,
     "Match 2": -2,
@@ -1341,15 +1404,6 @@
     "Total": 2
   },
   {
-    "player": "Riccardo Versini | MODIUM",
-    "Match 1": 7,
-    "Match 2": -2,
-    "Match 3": -1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Emiliano Bici | POWER GINGER",
     "Match 1": 2,
     "Match 2": 0,
@@ -1399,51 +1453,6 @@
     "Match 1": 1,
     "Match 2": 0,
     "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Davide Deimichei | SDRUMALA",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Manuel Emanuelli | SDRUMALA",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Andreas Galli | SDRUMALA",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Stefano Mattioli | SDRUMALA",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Christian Trainotti | SDRUMALA",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
     "Match 4": -2,
     "Premi": 0,
     "Total": 1
@@ -1526,15 +1535,6 @@
     "Match 2": -1,
     "Match 3": 5.5,
     "Match 4": 0,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Luca Barozzi | MODIUM",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 1
   },
@@ -1804,9 +1804,9 @@
     "Match 1": 1.5,
     "Match 2": 0,
     "Match 3": -2,
-    "Match 4": -2,
+    "Match 4": -2.5,
     "Premi": 0,
-    "Total": -2.5
+    "Total": -3
   },
   {
     "player": "Federico Madaschi | BEVEM4TUT",
