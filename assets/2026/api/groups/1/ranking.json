@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 109,
+      "name": "PINGUINI TRENTINI",
+      "tag": "PIN",
+      "logo_url": "/storage/teams/pinguinitrentini.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\pinguinitrentini.png",
+      "points": 9,
+      "played": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 21,
+      "goals_conceded": 1,
+      "goal_difference": 20,
+      "disciplinary_points": 1
+    },
+    {
+      "ranking": 2,
       "id": 110,
       "name": "I MAGNIFICI",
       "tag": "MAG",
@@ -15,23 +32,6 @@
       "goals_scored": 21,
       "goals_conceded": 3,
       "goal_difference": 18,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 2,
-      "id": 109,
-      "name": "PINGUINI TRENTINI",
-      "tag": "PIN",
-      "logo_url": "/storage/teams/pinguinitrentini.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\pinguinitrentini.png",
-      "points": 6,
-      "played": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 17,
-      "goals_conceded": 1,
-      "goal_difference": 16,
       "disciplinary_points": 0
     },
     {
@@ -172,23 +172,6 @@
     },
     {
       "ranking": 11,
-      "id": 113,
-      "name": "SDRUMALA",
-      "tag": "SDR",
-      "logo_url": "/storage/teams/sdrumala.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sdrumala.png",
-      "points": 4,
-      "played": 2,
-      "wins": 1,
-      "draws": 1,
-      "losses": 0,
-      "goals_scored": 5,
-      "goals_conceded": 3,
-      "goal_difference": 2,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 12,
       "id": 92,
       "name": "I MONTAGNA",
       "tag": "MON",
@@ -202,6 +185,23 @@
       "goals_scored": 6,
       "goals_conceded": 5,
       "goal_difference": 1,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 12,
+      "id": 113,
+      "name": "SDRUMALA",
+      "tag": "SDR",
+      "logo_url": "/storage/teams/sdrumala.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sdrumala.png",
+      "points": 4,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goals_scored": 5,
+      "goals_conceded": 7,
+      "goal_difference": -2,
       "disciplinary_points": 0
     },
     {
@@ -274,6 +274,23 @@
     },
     {
       "ranking": 17,
+      "id": 111,
+      "name": "4SINS",
+      "tag": "4SI",
+      "logo_url": "/storage/teams/4sins.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
+      "points": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goals_scored": 11,
+      "goals_conceded": 10,
+      "goal_difference": 1,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 18,
       "id": 116,
       "name": "POWER GINGER",
       "tag": "PWG",
@@ -290,7 +307,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 18,
+      "ranking": 19,
       "id": 127,
       "name": "BEVEM4TUT",
       "tag": "BEV",
@@ -307,7 +324,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 19,
+      "ranking": 20,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -324,7 +341,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 20,
+      "ranking": 21,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -341,7 +358,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 21,
+      "ranking": 22,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -358,7 +375,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 22,
+      "ranking": 23,
       "id": 97,
       "name": "FC SCHALKE 104",
       "tag": "SCH",
@@ -375,7 +392,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 23,
+      "ranking": 24,
       "id": 102,
       "name": "P.S.G.",
       "tag": "PSG",
@@ -392,7 +409,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 24,
+      "ranking": 25,
       "id": 103,
       "name": "QUEI STRAZI",
       "tag": "QSZ",
@@ -409,7 +426,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 25,
+      "ranking": 26,
       "id": 124,
       "name": "NAZIONALE FERROVIERI",
       "tag": "NAZ",
@@ -424,23 +441,6 @@
       "goals_conceded": 7,
       "goal_difference": -6,
       "disciplinary_points": 1
-    },
-    {
-      "ranking": 26,
-      "id": 111,
-      "name": "4SINS",
-      "tag": "4SI",
-      "logo_url": "/storage/teams/4sins.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
-      "points": 0,
-      "played": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "goals_scored": 2,
-      "goals_conceded": 9,
-      "goal_difference": -7,
-      "disciplinary_points": 0
     },
     {
       "ranking": 27,
@@ -501,13 +501,13 @@
       "logo_url": "/storage/teams/glisbandati.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\glisbandati.png",
       "points": 0,
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goals_scored": 1,
-      "goals_conceded": 32,
-      "goal_difference": -31,
+      "losses": 3,
+      "goals_scored": 2,
+      "goals_conceded": 41,
+      "goal_difference": -39,
       "disciplinary_points": 0
     }
   ]

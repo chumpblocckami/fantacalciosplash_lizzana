@@ -1,30 +1,42 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 62
+    "Punteggio": 68
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 55.5
+    "Punteggio": 61.5
   },
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 53.5
+    "Punteggio": 59.5
+  },
+  {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 46
   },
   {
     "Allenatore": "Federico Fasanelli",
     "Punteggio": 42
   },
   {
-    "Allenatore": "Riccardo Zeni",
-    "Punteggio": 40
+    "Allenatore": "Alessio Farinati",
+    "Punteggio": 41.5
   },
   {
-    "Allenatore": "Alessio Farinati",
-    "Punteggio": 34.5
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 39.5
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 36.5
   },
   {
     "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 33.5
+  },
+  {
+    "Allenatore": "Dalila Valzolgher",
     "Punteggio": 33.5
   },
   {
@@ -40,10 +52,6 @@
     "Punteggio": 31
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 30.5
-  },
-  {
     "Allenatore": "Leonardo Parisi",
     "Punteggio": 30
   },
@@ -52,16 +60,8 @@
     "Punteggio": 29
   },
   {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 28.5
-  },
-  {
     "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 28
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 27.5
   },
   {
     "Allenatore": "Nicolas Giordani",
@@ -100,16 +100,16 @@
     "Punteggio": 21
   },
   {
+    "Allenatore": "JAlvin92",
+    "Punteggio": 21
+  },
+  {
     "Allenatore": "Emanuele Miorandi",
     "Punteggio": 20
   },
   {
     "Allenatore": "Marco Sala",
     "Punteggio": 20
-  },
-  {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 19
   },
   {
     "Allenatore": "Marco Sartorelli",
