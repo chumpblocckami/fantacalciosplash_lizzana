@@ -181,7 +181,7 @@
           "surname": "Bernardelli",
           "username": "",
           "avatar_url": "/storage/players/defaultmale.png",
-          "is_goalkeeper": false,
+          "is_goalkeeper": true,
           "goals": 0,
           "fouls_ht": 0,
           "fouls_ft": 0,

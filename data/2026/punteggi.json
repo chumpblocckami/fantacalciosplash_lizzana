@@ -1386,6 +1386,13 @@
     "Total": -1.5
   },
   {
+    "player": "Wilson Bona | NAZIONALE FERROVIERI",
+    "Match 1": -2,
+    "Match 2": 0,
+    "Premi": 0,
+    "Total": -2
+  },
+  {
     "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
     "Match 1": 0,
     "Match 2": -2,
@@ -1419,13 +1426,6 @@
     "Match 2": -2,
     "Premi": 0,
     "Total": -3.5
-  },
-  {
-    "player": "Wilson Bona | NAZIONALE FERROVIERI",
-    "Match 1": -2,
-    "Match 2": -2,
-    "Premi": 0,
-    "Total": -4
   },
   {
     "player": "Giovanni Lasta | 4SINS",
