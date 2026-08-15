@@ -881,6 +881,15 @@
       "goalkeeper_points": -2,
       "mvp_points": 0,
       "total_points": -2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Wilson Bona | NAZIONALE FERROVIERI": [
@@ -901,6 +910,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Lorenzo Casari | NAZIONALE FERROVIERI": [
@@ -921,6 +939,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Fabio Daves | NAZIONALE FERROVIERI": [
@@ -941,6 +968,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Michele Eccel | NAZIONALE FERROVIERI": [
@@ -961,6 +997,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Leonardo Fedrigotti | NAZIONALE FERROVIERI": [
@@ -981,6 +1026,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Pietro Marchesini | NAZIONALE FERROVIERI": [
@@ -1001,6 +1055,15 @@
       "goalkeeper_points": -2,
       "mvp_points": 0,
       "total_points": -2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Andrea Aste | PINGUINI TRENTINI": [
@@ -3461,6 +3524,15 @@
       "goalkeeper_points": -4,
       "mvp_points": 0,
       "total_points": -4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
     }
   ],
   "Samuel Beber | QUESTI SEN": [
@@ -3481,9 +3553,27 @@
       "goalkeeper_points": -4,
       "mvp_points": 0,
       "total_points": -4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
     }
   ],
   "Samuel Campagna | QUESTI SEN": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    },
     {
       "goals": 0,
       "yellow_cards": 0,
@@ -3521,6 +3611,15 @@
       "goalkeeper_points": -4,
       "mvp_points": 0,
       "total_points": -4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
     }
   ],
   "Nicolò Papalia | QUESTI SEN": [
@@ -3541,9 +3640,27 @@
       "goalkeeper_points": -4,
       "mvp_points": 0,
       "total_points": -4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -1.5
     }
   ],
   "Mattia Rizzoli | QUESTI SEN": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
+    },
     {
       "goals": 0,
       "yellow_cards": 0,
@@ -3572,6 +3689,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,

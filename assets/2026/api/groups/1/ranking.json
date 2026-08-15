@@ -342,6 +342,23 @@
     },
     {
       "ranking": 21,
+      "id": 124,
+      "name": "NAZIONALE FERROVIERI",
+      "tag": "NAZ",
+      "logo_url": "/storage/teams/nazionaleferrovieri.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\nazionaleferrovieri.png",
+      "points": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goals_scored": 4,
+      "goals_conceded": 7,
+      "goal_difference": -3,
+      "disciplinary_points": 1
+    },
+    {
+      "ranking": 22,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -358,7 +375,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 22,
+      "ranking": 23,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -375,7 +392,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 23,
+      "ranking": 24,
       "id": 97,
       "name": "FC SCHALKE 104",
       "tag": "SCH",
@@ -392,7 +409,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 24,
+      "ranking": 25,
       "id": 102,
       "name": "P.S.G.",
       "tag": "PSG",
@@ -409,7 +426,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 25,
+      "ranking": 26,
       "id": 103,
       "name": "QUEI STRAZI",
       "tag": "QSZ",
@@ -424,23 +441,6 @@
       "goals_conceded": 10,
       "goal_difference": -5,
       "disciplinary_points": 0
-    },
-    {
-      "ranking": 26,
-      "id": 124,
-      "name": "NAZIONALE FERROVIERI",
-      "tag": "NAZ",
-      "logo_url": "/storage/teams/nazionaleferrovieri.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\nazionaleferrovieri.png",
-      "points": 0,
-      "played": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "goals_scored": 1,
-      "goals_conceded": 7,
-      "goal_difference": -6,
-      "disciplinary_points": 1
     },
     {
       "ranking": 27,
@@ -484,13 +484,13 @@
       "logo_url": "/storage/teams/questisen.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\questisen.png",
       "points": 0,
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goals_scored": 1,
-      "goals_conceded": 14,
-      "goal_difference": -13,
+      "goals_conceded": 17,
+      "goal_difference": -16,
       "disciplinary_points": 0
     },
     {

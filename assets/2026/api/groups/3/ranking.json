@@ -7,14 +7,14 @@
       "tag": "DRI",
       "logo_url": "/storage/teams/drimtim.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
-      "points": 9,
-      "played": 3,
-      "wins": 3,
+      "points": 12,
+      "played": 4,
+      "wins": 4,
       "draws": 0,
       "losses": 0,
-      "goals_scored": 18,
+      "goals_scored": 27,
       "goals_conceded": 3,
-      "goal_difference": 15,
+      "goal_difference": 24,
       "disciplinary_points": 1
     },
     {
@@ -76,13 +76,13 @@
       "logo_url": "/storage/teams/lepaperelle.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\lepaperelle.png",
       "points": 0,
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goals_scored": 3,
-      "goals_conceded": 14,
-      "goal_difference": -11,
+      "goals_conceded": 23,
+      "goal_difference": -20,
       "disciplinary_points": 0
     }
   ]
