@@ -1,6 +1,10 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
+    "Punteggio": 93
+  },
+  {
+    "Allenatore": "Alessandro Galvagni",
     "Punteggio": 81
   },
   {
@@ -8,27 +12,39 @@
     "Punteggio": 72.5
   },
   {
-    "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 69
+    "Allenatore": "Federico Fasanelli",
+    "Punteggio": 71
   },
   {
-    "Allenatore": "Federico Fasanelli",
-    "Punteggio": 59
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 66
+  },
+  {
+    "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 63.5
+  },
+  {
+    "Allenatore": "Alessio Farinati",
+    "Punteggio": 59.5
   },
   {
     "Allenatore": "Riccardo Zeni",
     "Punteggio": 57
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 54
+    "Allenatore": "Lorenza Simoncelli",
+    "Punteggio": 57
   },
   {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 53
   },
   {
-    "Allenatore": "Lorenzo Zuani",
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 52.5
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
     "Punteggio": 51.5
   },
   {
@@ -36,32 +52,24 @@
     "Punteggio": 48.5
   },
   {
-    "Allenatore": "Alessio Farinati",
-    "Punteggio": 47.5
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 48
   },
   {
-    "Allenatore": "Lorenza Simoncelli",
-    "Punteggio": 45
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 45.5
   },
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 44
   },
   {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 41.5
-  },
-  {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 40.5
-  },
-  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 40
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 39.5
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 37
   },
   {
     "Allenatore": "Michela Menghini",
@@ -70,10 +78,6 @@
   {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 36.5
-  },
-  {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 36
   },
   {
     "Allenatore": "Matteo Zanlucchi",
@@ -100,6 +104,10 @@
     "Punteggio": 30
   },
   {
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 28.5
+  },
+  {
     "Allenatore": "Marco Sartorelli",
     "Punteggio": 28.5
   },
@@ -116,10 +124,6 @@
     "Punteggio": 26
   },
   {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 25
-  },
-  {
     "Allenatore": "Marco Miotto",
     "Punteggio": 25
   },
@@ -130,10 +134,6 @@
   {
     "Allenatore": "Thomas Pontillo",
     "Punteggio": 24
-  },
-  {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 21.5
   },
   {
     "Allenatore": "Michele Bertolini",

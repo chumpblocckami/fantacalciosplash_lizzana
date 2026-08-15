@@ -8,6 +8,14 @@
     "Total": 34
   },
   {
+    "player": "Andrea Conzatti | FC SAVIGNANO",
+    "Match 1": 3,
+    "Match 2": 10,
+    "Match 3": 12,
+    "Premi": 0,
+    "Total": 25
+  },
+  {
     "player": "Federico Mortillaro | CLITORIDERS",
     "Match 1": 5,
     "Match 2": 12,
@@ -144,20 +152,20 @@
     "Total": 13
   },
   {
-    "player": "Andrea Conzatti | FC SAVIGNANO",
-    "Match 1": 3,
-    "Match 2": 10,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 13
-  },
-  {
     "player": "Samuele Kettmaier | A.C.DENTI",
     "Match 1": 7,
     "Match 2": 0,
     "Match 3": 6,
     "Premi": 0,
     "Total": 13
+  },
+  {
+    "player": "Nicolas Giordani | FC SAVIGNANO",
+    "Match 1": 2,
+    "Match 2": 3.5,
+    "Match 3": 7,
+    "Premi": 0,
+    "Total": 12.5
   },
   {
     "player": "Davide Manica | PINGUINI TRENTINI",
@@ -328,6 +336,14 @@
     "Total": 9
   },
   {
+    "player": "Alessandro Maffei | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
     "player": "Stefano Galvagni | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 6,
@@ -464,6 +480,22 @@
     "Total": 7
   },
   {
+    "player": "Davide De Zambotti | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Eduardo Grazioli | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 4,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Thomas Maffei | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 4,
@@ -574,14 +606,6 @@
     "Match 3": 0,
     "Premi": 0,
     "Total": 6
-  },
-  {
-    "player": "Nicolas Giordani | FC SAVIGNANO",
-    "Match 1": 2,
-    "Match 2": 3.5,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 5.5
   },
   {
     "player": "Alessandro Rambaldo | P.S.G.",
@@ -704,10 +728,18 @@
     "Total": 5
   },
   {
-    "player": "Davide De Zambotti | FC SAVIGNANO",
+    "player": "Giacomo De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
-    "Match 2": 4,
-    "Match 3": 0,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Amedeo Malesardi | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 5
   },
@@ -1052,38 +1084,6 @@
     "Match 1": 2,
     "Match 2": 0,
     "Match 3": 1,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Giacomo De Zambotti | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Eduardo Grazioli | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Alessandro Maffei | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Amedeo Malesardi | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 0,
     "Premi": 0,
     "Total": 3
   },
@@ -1640,14 +1640,6 @@
     "Total": -5
   },
   {
-    "player": "Thomas Graiff | VIGILI DEL FUSTO",
-    "Match 1": -1,
-    "Match 2": -4,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": -5
-  },
-  {
     "player": "Michele Ruele | AVANZI",
     "Match 1": -1.5,
     "Match 2": -4,
@@ -1694,6 +1686,14 @@
     "Match 3": -1.5,
     "Premi": 0,
     "Total": -8.5
+  },
+  {
+    "player": "Thomas Graiff | VIGILI DEL FUSTO",
+    "Match 1": -1,
+    "Match 2": -4,
+    "Match 3": -4,
+    "Premi": 0,
+    "Total": -9
   },
   {
     "player": "Florian Hoxha | P.S.G.",

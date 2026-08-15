@@ -1,7 +1,7 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 81,
+    "Punteggio": 93,
     "rank": 1,
     "players": [
       {
@@ -73,7 +73,7 @@
         "player": "Andrea Conzatti | FC SAVIGNANO",
         "name": "Andrea Conzatti",
         "team": "FC SAVIGNANO",
-        "counted_total": 13,
+        "counted_total": 25,
         "premi": 0,
         "matches": [
           {
@@ -114,10 +114,21 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
+            "status": "in_campo",
             "counted": true,
-            "total": 0,
-            "chips": []
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       },
@@ -278,9 +289,315 @@
     ]
   },
   {
+    "Allenatore": "Alessandro Galvagni",
+    "Punteggio": 81,
+    "rank": 2,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Daniele Dalbosco | I MONTAGNA",
+        "name": "Daniele Dalbosco",
+        "team": "I MONTAGNA",
+        "counted_total": 2,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "3 gol subiti",
+                "points": -1.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Filippo Benetti | I MAGNIFICI",
+        "name": "Filippo Benetti",
+        "team": "I MAGNIFICI",
+        "counted_total": 34,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 22,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "10 gol",
+                "points": 20
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Andrea Roveda | PINGUINI TRENTINI",
+        "name": "Andrea Roveda",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 20,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Octavian Fusari | FC SCHALKE 104",
+        "name": "Octavian Fusari",
+        "team": "FC SCHALKE 104",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Davide Rosà",
     "Punteggio": 72.5,
-    "rank": 2,
+    "rank": 3,
     "players": [
       {
         "slot": "Portiere",
@@ -558,303 +875,8 @@
     ]
   },
   {
-    "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 69,
-    "rank": 3,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Daniele Dalbosco | I MONTAGNA",
-        "name": "Daniele Dalbosco",
-        "team": "I MONTAGNA",
-        "counted_total": 2,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "3 gol subiti",
-                "points": -1.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Filippo Benetti | I MAGNIFICI",
-        "name": "Filippo Benetti",
-        "team": "I MAGNIFICI",
-        "counted_total": 34,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 22,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "10 gol",
-                "points": 20
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Andrea Roveda | PINGUINI TRENTINI",
-        "name": "Andrea Roveda",
-        "team": "PINGUINI TRENTINI",
-        "counted_total": 20,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 12,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "5 gol",
-                "points": 10
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Octavian Fusari | FC SCHALKE 104",
-        "name": "Octavian Fusari",
-        "team": "FC SCHALKE 104",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 59,
+    "Punteggio": 71,
     "rank": 4,
     "players": [
       {
@@ -990,7 +1012,7 @@
         "player": "Andrea Conzatti | FC SAVIGNANO",
         "name": "Andrea Conzatti",
         "team": "FC SAVIGNANO",
-        "counted_total": 13,
+        "counted_total": 25,
         "premi": 0,
         "matches": [
           {
@@ -1031,10 +1053,21 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
+            "status": "in_campo",
             "counted": true,
-            "total": 0,
-            "chips": []
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       },
@@ -1159,9 +1192,922 @@
     ]
   },
   {
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 66,
+    "rank": 5,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Pietro Bernardelli | CLITORIDERS",
+        "name": "Pietro Bernardelli",
+        "team": "CLITORIDERS",
+        "counted_total": 14,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Marco Sala | I MONTAGNA",
+        "name": "Marco Sala",
+        "team": "I MONTAGNA",
+        "counted_total": 13,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Marco Heidempergher | U.SGUARNA",
+        "name": "Marco Heidempergher",
+        "team": "U.SGUARNA",
+        "counted_total": 14,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 8,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "3 gol",
+                "points": 6
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Emanuele Tomasoni | 4SINS",
+        "name": "Emanuele Tomasoni",
+        "team": "4SINS",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 63.5,
+    "rank": 6,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Elia Barozzi | I MAGNIFICI",
+        "name": "Elia Barozzi",
+        "team": "I MAGNIFICI",
+        "counted_total": 14.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "3 gol subiti",
+                "points": -1.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Matteo Diener | U.SGUARNA",
+        "name": "Matteo Diener",
+        "team": "U.SGUARNA",
+        "counted_total": 18,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Federico Zanini | A.C.DENTI",
+        "name": "Federico Zanini",
+        "team": "A.C.DENTI",
+        "counted_total": 6,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Giovanni Raoss | I MAGNIFICI",
+        "name": "Giovanni Raoss",
+        "team": "I MAGNIFICI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Allenatore": "Alessio Farinati",
+    "Punteggio": 59.5,
+    "rank": 7,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Matteo Pilati | PINGUINI TRENTINI",
+        "name": "Matteo Pilati",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 13.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 5,
+            "chips": [
+              {
+                "kind": "yellow",
+                "label": "1 giallo",
+                "points": -2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Federico Andreis | I MONTAGNA",
+        "name": "Federico Andreis",
+        "team": "I MONTAGNA",
+        "counted_total": 11,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
+        "name": "Giovanni Umberto Di Meo",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 10,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Octavian Fusari | FC SCHALKE 104",
+        "name": "Octavian Fusari",
+        "team": "FC SCHALKE 104",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Riccardo Zeni",
     "Punteggio": 57,
-    "rank": 5,
+    "rank": 8,
     "players": [
       {
         "slot": "Portiere",
@@ -1460,9 +2406,9 @@
     ]
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 54,
-    "rank": 6,
+    "Allenatore": "Lorenza Simoncelli",
+    "Punteggio": 57,
+    "rank": 9,
     "players": [
       {
         "slot": "Portiere",
@@ -1530,65 +2476,32 @@
       },
       {
         "slot": "Titolare 1",
-        "player": "Marco Sala | I MONTAGNA",
-        "name": "Marco Sala",
-        "team": "I MONTAGNA",
-        "counted_total": 13,
+        "player": "Gabriele Galli | AVANZI",
+        "name": "Gabriele Galli",
+        "team": "AVANZI",
+        "counted_total": 0,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
+            "total": 0,
+            "chips": []
           },
           {
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           },
           {
             "column": "Match 3",
-            "status": "in_campo",
+            "status": "non_giocato",
             "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           }
         ]
       },
@@ -1597,7 +2510,7 @@
         "player": "Andrea Conzatti | FC SAVIGNANO",
         "name": "Andrea Conzatti",
         "team": "FC SAVIGNANO",
-        "counted_total": 13,
+        "counted_total": 25,
         "premi": 0,
         "matches": [
           {
@@ -1638,19 +2551,30 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
+            "status": "in_campo",
             "counted": true,
-            "total": 0,
-            "chips": []
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       },
       {
         "slot": "Titolare 3",
-        "player": "Marco Heidempergher | U.SGUARNA",
-        "name": "Marco Heidempergher",
+        "player": "Matteo Diener | U.SGUARNA",
+        "name": "Matteo Diener",
         "team": "U.SGUARNA",
-        "counted_total": 14,
+        "counted_total": 18,
         "premi": 0,
         "matches": [
           {
@@ -1675,12 +2599,12 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 4,
             "chips": [
               {
                 "kind": "goals",
-                "label": "1 gol",
-                "points": 2
+                "label": "2 gol",
+                "points": 4
               }
             ]
           },
@@ -1688,6 +2612,34 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Enrico Bordignon | PINGUINI TRENTINI",
+        "name": "Enrico Bordignon",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
             "total": 8,
             "chips": [
               {
@@ -1701,30 +2653,19 @@
                 "points": 2
               }
             ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Emanuele Tomasoni | 4SINS",
-        "name": "Emanuele Tomasoni",
-        "team": "4SINS",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
           },
           {
             "column": "Match 2",
             "status": "panchina",
             "counted": false,
-            "total": 0,
-            "chips": []
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           },
           {
             "column": "Match 3",
@@ -1751,7 +2692,7 @@
   {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 53,
-    "rank": 7,
+    "rank": 10,
     "players": [
       {
         "slot": "Portiere",
@@ -2023,33 +2964,33 @@
     ]
   },
   {
-    "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 51.5,
-    "rank": 8,
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 52.5,
+    "rank": 11,
     "players": [
       {
         "slot": "Portiere",
-        "player": "Elia Barozzi | I MAGNIFICI",
-        "name": "Elia Barozzi",
-        "team": "I MAGNIFICI",
-        "counted_total": 14.5,
+        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+        "name": "Diego Passerini",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 1.5,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 7,
+            "total": 0,
             "chips": [
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               },
               {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
               }
             ]
           },
@@ -2060,14 +3001,14 @@
             "total": 0.5,
             "chips": [
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               },
               {
                 "kind": "conceded",
-                "label": "3 gol subiti",
-                "points": -1.5
+                "label": "1 gol subito",
+                "points": -0.5
               }
             ]
           },
@@ -2075,7 +3016,7 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 7,
+            "total": 1,
             "chips": [
               {
                 "kind": "win",
@@ -2083,9 +3024,9 @@
                 "points": 2
               },
               {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
               }
             ]
           }
@@ -2093,27 +3034,27 @@
       },
       {
         "slot": "Titolare 1",
-        "player": "Matteo Diener | U.SGUARNA",
-        "name": "Matteo Diener",
-        "team": "U.SGUARNA",
-        "counted_total": 18,
+        "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
+        "name": "Gabriele Gottardi",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 14,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 5,
             "chips": [
               {
                 "kind": "goals",
-                "label": "1 gol",
-                "points": 2
+                "label": "2 gol",
+                "points": 4
               },
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               }
             ]
           },
@@ -2121,17 +3062,63 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 3,
             "chips": [
               {
                 "kind": "goals",
-                "label": "2 gol",
-                "points": 4
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               }
             ]
           },
           {
             "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Nicolò Speziali | F.C. GORILLAZ",
+        "name": "Nicolò Speziali",
+        "team": "F.C. GORILLAZ",
+        "counted_total": 12,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
             "status": "in_campo",
             "counted": true,
             "total": 10,
@@ -2147,15 +3134,28 @@
                 "points": 2
               }
             ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
           }
         ]
       },
       {
-        "slot": "Titolare 2",
+        "slot": "Titolare 3",
         "player": "Andrea Conzatti | FC SAVIGNANO",
         "name": "Andrea Conzatti",
         "team": "FC SAVIGNANO",
-        "counted_total": 13,
+        "counted_total": 25,
         "premi": 0,
         "matches": [
           {
@@ -2196,62 +3196,19 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Federico Zanini | A.C.DENTI",
-        "name": "Federico Zanini",
-        "team": "A.C.DENTI",
-        "counted_total": 6,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 12,
             "chips": [
               {
                 "kind": "goals",
-                "label": "1 gol",
-                "points": 2
+                "label": "5 gol",
+                "points": 10
               },
               {
                 "kind": "win",
                 "label": "vittoria",
                 "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
               }
             ]
           }
@@ -2259,9 +3216,9 @@
       },
       {
         "slot": "Riserva",
-        "player": "Giovanni Raoss | I MAGNIFICI",
-        "name": "Giovanni Raoss",
-        "team": "I MAGNIFICI",
+        "player": "Davide Bazzano | I MONTAGNA",
+        "name": "Davide Bazzano",
+        "team": "I MONTAGNA",
         "counted_total": 0,
         "premi": 0,
         "matches": [
@@ -2269,17 +3226,12 @@
             "column": "Match 1",
             "status": "panchina",
             "counted": false,
-            "total": 6,
+            "total": 1,
             "chips": [
               {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               }
             ]
           },
@@ -2287,13 +3239,8 @@
             "column": "Match 2",
             "status": "panchina",
             "counted": false,
-            "total": 4,
+            "total": 2,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -2319,9 +3266,289 @@
     ]
   },
   {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 51.5,
+    "rank": 12,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+        "name": "Diego Passerini",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 1.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Luca Frasca | CLITORIDERS",
+        "name": "Luca Frasca",
+        "team": "CLITORIDERS",
+        "counted_total": 5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Andrea Roveda | PINGUINI TRENTINI",
+        "name": "Andrea Roveda",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 20,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Marco Renica | FC SALAGIARDINI",
+        "name": "Marco Renica",
+        "team": "FC SALAGIARDINI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Dalila Valzolgher",
     "Punteggio": 48.5,
-    "rank": 9,
+    "rank": 13,
     "players": [
       {
         "slot": "Portiere",
@@ -2605,9 +3832,288 @@
     ]
   },
   {
-    "Allenatore": "Alessio Farinati",
-    "Punteggio": 47.5,
-    "rank": 10,
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 48,
+    "rank": 14,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Riccardo Versini | MODIUM",
+        "name": "Riccardo Versini",
+        "team": "MODIUM",
+        "counted_total": 5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "conceded",
+                "label": "4 gol subiti",
+                "points": -2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "non_giocato",
+            "counted": true,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 25,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Marco Sala | I MONTAGNA",
+        "name": "Marco Sala",
+        "team": "I MONTAGNA",
+        "counted_total": 13,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Federico Giordani | GREP",
+        "name": "Federico Giordani",
+        "team": "GREP",
+        "counted_total": 5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "non_giocato",
+            "counted": true,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Octavian Fusari | FC SCHALKE 104",
+        "name": "Octavian Fusari",
+        "team": "FC SCHALKE 104",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 0,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 45.5,
+    "rank": 15,
     "players": [
       {
         "slot": "Portiere",
@@ -2680,22 +4186,27 @@
       },
       {
         "slot": "Titolare 1",
-        "player": "Federico Andreis | I MONTAGNA",
-        "name": "Federico Andreis",
-        "team": "I MONTAGNA",
-        "counted_total": 11,
+        "player": "Andrea Roveda | PINGUINI TRENTINI",
+        "name": "Andrea Roveda",
+        "team": "PINGUINI TRENTINI",
+        "counted_total": 20,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 1,
+            "total": 12,
             "chips": [
               {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
               }
             ]
           },
@@ -2703,13 +4214,8 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 2,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -2739,285 +4245,18 @@
       },
       {
         "slot": "Titolare 2",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
-        "name": "Giovanni Umberto Di Meo",
-        "team": "PINGUINI TRENTINI",
-        "counted_total": 10,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Octavian Fusari | FC SCHALKE 104",
-        "name": "Octavian Fusari",
-        "team": "FC SCHALKE 104",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Lorenza Simoncelli",
-    "Punteggio": 45,
-    "rank": 11,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Pietro Bernardelli | CLITORIDERS",
-        "name": "Pietro Bernardelli",
+        "player": "Luca Frasca | CLITORIDERS",
+        "name": "Luca Frasca",
         "team": "CLITORIDERS",
-        "counted_total": 14,
+        "counted_total": 5,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 0,
+            "total": 1,
             "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Gabriele Galli | AVANZI",
-        "name": "Gabriele Galli",
-        "team": "AVANZI",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
               {
                 "kind": "draw",
                 "label": "pareggio",
@@ -3029,13 +4268,8 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 10,
+            "total": 2,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -3045,32 +4279,46 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
+            "status": "in_campo",
             "counted": true,
-            "total": 0,
-            "chips": []
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       },
       {
         "slot": "Titolare 3",
-        "player": "Matteo Diener | U.SGUARNA",
-        "name": "Matteo Diener",
-        "team": "U.SGUARNA",
-        "counted_total": 18,
+        "player": "Eduardo Grazioli | FC SAVIGNANO",
+        "name": "Eduardo Grazioli",
+        "team": "FC SAVIGNANO",
+        "counted_total": 7,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 1,
             "chips": [
               {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -3079,28 +4327,15 @@
             ]
           },
           {
-            "column": "Match 2",
+            "column": "Match 3",
             "status": "in_campo",
             "counted": true,
             "total": 4,
             "chips": [
               {
                 "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
+                "label": "1 gol",
+                "points": 2
               },
               {
                 "kind": "win",
@@ -3113,9 +4348,9 @@
       },
       {
         "slot": "Riserva",
-        "player": "Enrico Bordignon | PINGUINI TRENTINI",
-        "name": "Enrico Bordignon",
-        "team": "PINGUINI TRENTINI",
+        "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
+        "name": "Nicola Dalle Donne",
+        "team": "VIGILI DEL FUSTO",
         "counted_total": 0,
         "premi": 0,
         "matches": [
@@ -3123,30 +4358,19 @@
             "column": "Match 1",
             "status": "panchina",
             "counted": false,
-            "total": 8,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "3 gol",
-                "points": 6
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           },
           {
             "column": "Match 2",
             "status": "panchina",
             "counted": false,
-            "total": 2,
+            "total": -2,
             "chips": [
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "yellow",
+                "label": "1 giallo",
+                "points": -2
               }
             ]
           },
@@ -3154,19 +4378,8 @@
             "column": "Match 3",
             "status": "panchina",
             "counted": false,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           }
         ]
       }
@@ -3175,7 +4388,7 @@
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 44,
-    "rank": 12,
+    "rank": 16,
     "players": [
       {
         "slot": "Portiere",
@@ -3454,564 +4667,9 @@
     ]
   },
   {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 41.5,
-    "rank": 13,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Matteo Pilati | PINGUINI TRENTINI",
-        "name": "Matteo Pilati",
-        "team": "PINGUINI TRENTINI",
-        "counted_total": 13.5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 5,
-            "chips": [
-              {
-                "kind": "yellow",
-                "label": "1 giallo",
-                "points": -2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Andrea Roveda | PINGUINI TRENTINI",
-        "name": "Andrea Roveda",
-        "team": "PINGUINI TRENTINI",
-        "counted_total": 20,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 12,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "5 gol",
-                "points": 10
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Luca Frasca | CLITORIDERS",
-        "name": "Luca Frasca",
-        "team": "CLITORIDERS",
-        "counted_total": 5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Eduardo Grazioli | FC SAVIGNANO",
-        "name": "Eduardo Grazioli",
-        "team": "FC SAVIGNANO",
-        "counted_total": 3,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
-        "name": "Nicola Dalle Donne",
-        "team": "VIGILI DEL FUSTO",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "yellow",
-                "label": "1 giallo",
-                "points": -2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 40.5,
-    "rank": 14,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-        "name": "Diego Passerini",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 1.5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
-        "name": "Gabriele Gottardi",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 14,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 5,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Nicolò Speziali | F.C. GORILLAZ",
-        "name": "Nicolò Speziali",
-        "team": "F.C. GORILLAZ",
-        "counted_total": 12,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Davide Bazzano | I MONTAGNA",
-        "name": "Davide Bazzano",
-        "team": "I MONTAGNA",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 40,
-    "rank": 15,
+    "rank": 17,
     "players": [
       {
         "slot": "Portiere",
@@ -4280,33 +4938,33 @@
     ]
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 39.5,
-    "rank": 16,
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 37,
+    "rank": 18,
     "players": [
       {
         "slot": "Portiere",
-        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-        "name": "Diego Passerini",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 1.5,
+        "player": "Federico Zoller | GREP",
+        "name": "Federico Zoller",
+        "team": "GREP",
+        "counted_total": 2,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 0,
+            "total": 1.5,
             "chips": [
               {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
               },
               {
                 "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
+                "label": "1 gol subito",
+                "points": -0.5
               }
             ]
           },
@@ -4330,21 +4988,10 @@
           },
           {
             "column": "Match 3",
-            "status": "in_campo",
+            "status": "non_giocato",
             "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
+            "total": 0,
+            "chips": []
           }
         ]
       },
@@ -4353,7 +5000,7 @@
         "player": "Andrea Conzatti | FC SAVIGNANO",
         "name": "Andrea Conzatti",
         "team": "FC SAVIGNANO",
-        "counted_total": 13,
+        "counted_total": 25,
         "premi": 0,
         "matches": [
           {
@@ -4394,19 +5041,30 @@
           },
           {
             "column": "Match 3",
-            "status": "non_giocato",
+            "status": "in_campo",
             "counted": true,
-            "total": 0,
-            "chips": []
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       },
       {
         "slot": "Titolare 2",
-        "player": "Luca Frasca | CLITORIDERS",
-        "name": "Luca Frasca",
-        "team": "CLITORIDERS",
-        "counted_total": 5,
+        "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+        "name": "Sebastiano Zoller",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 4,
         "premi": 0,
         "matches": [
           {
@@ -4426,12 +5084,12 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 1,
             "chips": [
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               }
             ]
           },
@@ -4452,22 +5110,22 @@
       },
       {
         "slot": "Titolare 3",
-        "player": "Andrea Roveda | PINGUINI TRENTINI",
-        "name": "Andrea Roveda",
-        "team": "PINGUINI TRENTINI",
-        "counted_total": 20,
+        "player": "Federico Nicolodi | U.SGUARNA",
+        "name": "Federico Nicolodi",
+        "team": "U.SGUARNA",
+        "counted_total": 6,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 12,
+            "total": 4,
             "chips": [
               {
                 "kind": "goals",
-                "label": "5 gol",
-                "points": 10
+                "label": "1 gol",
+                "points": 2
               },
               {
                 "kind": "win",
@@ -4480,26 +5138,15 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           },
           {
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 6,
+            "total": 2,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -4511,9 +5158,9 @@
       },
       {
         "slot": "Riserva",
-        "player": "Marco Renica | FC SALAGIARDINI",
-        "name": "Marco Renica",
-        "team": "FC SALAGIARDINI",
+        "player": "Matteo Mazzola | GREP",
+        "name": "Matteo Mazzola",
+        "team": "GREP",
         "counted_total": 0,
         "premi": 0,
         "matches": [
@@ -4521,8 +5168,13 @@
             "column": "Match 1",
             "status": "panchina",
             "counted": false,
-            "total": 2,
+            "total": 4,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -4534,8 +5186,14 @@
             "column": "Match 2",
             "status": "panchina",
             "counted": false,
-            "total": 0,
-            "chips": []
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
           },
           {
             "column": "Match 3",
@@ -4551,7 +5209,7 @@
   {
     "Allenatore": "Michela Menghini",
     "Punteggio": 37,
-    "rank": 17,
+    "rank": 19,
     "players": [
       {
         "slot": "Portiere",
@@ -4820,7 +5478,7 @@
   {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 36.5,
-    "rank": 18,
+    "rank": 20,
     "players": [
       {
         "slot": "Portiere",
@@ -5093,277 +5751,9 @@
     ]
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 36,
-    "rank": 19,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Riccardo Versini | MODIUM",
-        "name": "Riccardo Versini",
-        "team": "MODIUM",
-        "counted_total": 5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "conceded",
-                "label": "4 gol subiti",
-                "points": -2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Marco Sala | I MONTAGNA",
-        "name": "Marco Sala",
-        "team": "I MONTAGNA",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Federico Giordani | GREP",
-        "name": "Federico Giordani",
-        "team": "GREP",
-        "counted_total": 5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Octavian Fusari | FC SCHALKE 104",
-        "name": "Octavian Fusari",
-        "team": "FC SCHALKE 104",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Allenatore": "Matteo Zanlucchi",
     "Punteggio": 36,
-    "rank": 20,
+    "rank": 21,
     "players": [
       {
         "slot": "Portiere",
@@ -5637,7 +6027,7 @@
   {
     "Allenatore": "JAlvin92",
     "Punteggio": 36,
-    "rank": 21,
+    "rank": 22,
     "players": [
       {
         "slot": "Portiere",
@@ -5908,7 +6298,7 @@
   {
     "Allenatore": "Nicolas Giordani",
     "Punteggio": 35,
-    "rank": 22,
+    "rank": 23,
     "players": [
       {
         "slot": "Portiere",
@@ -6199,7 +6589,7 @@
   {
     "Allenatore": "Marco Sala",
     "Punteggio": 35,
-    "rank": 23,
+    "rank": 24,
     "players": [
       {
         "slot": "Portiere",
@@ -6463,7 +6853,7 @@
   {
     "Allenatore": "Niccolò Orsi",
     "Punteggio": 32,
-    "rank": 24,
+    "rank": 25,
     "players": [
       {
         "slot": "Portiere",
@@ -6733,7 +7123,7 @@
   {
     "Allenatore": "Emanuele Miorandi",
     "Punteggio": 30,
-    "rank": 25,
+    "rank": 26,
     "players": [
       {
         "slot": "Portiere",
@@ -6999,9 +7389,301 @@
     ]
   },
   {
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 28.5,
+    "rank": 27,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Nicolas Giordani | FC SAVIGNANO",
+        "name": "Nicolas Giordani",
+        "team": "FC SAVIGNANO",
+        "counted_total": 12.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3.5,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Federico Zanini | A.C.DENTI",
+        "name": "Federico Zanini",
+        "team": "A.C.DENTI",
+        "counted_total": 6,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Luca Frasca | CLITORIDERS",
+        "name": "Luca Frasca",
+        "team": "CLITORIDERS",
+        "counted_total": 5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Jacopo Chemini | I MONTAGNA",
+        "name": "Jacopo Chemini",
+        "team": "I MONTAGNA",
+        "counted_total": 5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Danny Giordani | I MAGNIFICI",
+        "name": "Danny Giordani",
+        "team": "I MAGNIFICI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Marco Sartorelli",
     "Punteggio": 28.5,
-    "rank": 26,
+    "rank": 28,
     "players": [
       {
         "slot": "Portiere",
@@ -7254,7 +7936,7 @@
   {
     "Allenatore": "Davide Zeni",
     "Punteggio": 28.5,
-    "rank": 27,
+    "rank": 29,
     "players": [
       {
         "slot": "Portiere",
@@ -7534,7 +8216,7 @@
   {
     "Allenatore": "Valentina Perghem",
     "Punteggio": 26,
-    "rank": 28,
+    "rank": 30,
     "players": [
       {
         "slot": "Portiere",
@@ -7797,7 +8479,7 @@
   {
     "Allenatore": "Daniele Feltrinelli",
     "Punteggio": 26,
-    "rank": 29,
+    "rank": 31,
     "players": [
       {
         "slot": "Portiere",
@@ -8070,267 +8752,9 @@
     ]
   },
   {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 25,
-    "rank": 30,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Federico Zoller | GREP",
-        "name": "Federico Zoller",
-        "team": "GREP",
-        "counted_total": 2,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 13,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
-        "name": "Sebastiano Zoller",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 4,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Federico Nicolodi | U.SGUARNA",
-        "name": "Federico Nicolodi",
-        "team": "U.SGUARNA",
-        "counted_total": 6,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Matteo Mazzola | GREP",
-        "name": "Matteo Mazzola",
-        "team": "GREP",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Allenatore": "Marco Miotto",
     "Punteggio": 25,
-    "rank": 31,
+    "rank": 32,
     "players": [
       {
         "slot": "Portiere",
@@ -8589,7 +9013,7 @@
   {
     "Allenatore": "Andrea Conzatti",
     "Punteggio": 24,
-    "rank": 32,
+    "rank": 33,
     "players": [
       {
         "slot": "Portiere",
@@ -8859,7 +9283,7 @@
   {
     "Allenatore": "Thomas Pontillo",
     "Punteggio": 24,
-    "rank": 33,
+    "rank": 34,
     "players": [
       {
         "slot": "Portiere",
@@ -9138,287 +9562,6 @@
     ]
   },
   {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 21.5,
-    "rank": 34,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Nicolas Giordani | FC SAVIGNANO",
-        "name": "Nicolas Giordani",
-        "team": "FC SAVIGNANO",
-        "counted_total": 5.5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3.5,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "non_giocato",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Federico Zanini | A.C.DENTI",
-        "name": "Federico Zanini",
-        "team": "A.C.DENTI",
-        "counted_total": 6,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Luca Frasca | CLITORIDERS",
-        "name": "Luca Frasca",
-        "team": "CLITORIDERS",
-        "counted_total": 5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Jacopo Chemini | I MONTAGNA",
-        "name": "Jacopo Chemini",
-        "team": "I MONTAGNA",
-        "counted_total": 5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Danny Giordani | I MAGNIFICI",
-        "name": "Danny Giordani",
-        "team": "I MAGNIFICI",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "Allenatore": "Michele Bertolini",
     "Punteggio": 16,
     "rank": 35,
@@ -9670,8 +9813,14 @@
             "column": "Match 3",
             "status": "panchina",
             "counted": false,
-            "total": 0,
-            "chips": []
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
           }
         ]
       }
