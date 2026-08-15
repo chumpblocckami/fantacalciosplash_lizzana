@@ -53,6 +53,23 @@
     },
     {
       "ranking": 4,
+      "id": 117,
+      "name": "SBARX",
+      "tag": "SBA",
+      "logo_url": "/storage/teams/sbarx.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+      "points": 7,
+      "played": 3,
+      "wins": 2,
+      "draws": 1,
+      "losses": 0,
+      "goals_scored": 13,
+      "goals_conceded": 4,
+      "goal_difference": 9,
+      "disciplinary_points": 1
+    },
+    {
+      "ranking": 5,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -69,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -86,7 +103,7 @@
       "disciplinary_points": 3
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -103,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -120,7 +137,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -137,7 +154,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 9,
+      "ranking": 10,
       "id": 107,
       "name": "CLITORIDERS",
       "tag": "CLI",
@@ -152,23 +169,6 @@
       "goals_conceded": 2,
       "goal_difference": 8,
       "disciplinary_points": 0
-    },
-    {
-      "ranking": 10,
-      "id": 117,
-      "name": "SBARX",
-      "tag": "SBA",
-      "logo_url": "/storage/teams/sbarx.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
-      "points": 4,
-      "played": 2,
-      "wins": 1,
-      "draws": 1,
-      "losses": 0,
-      "goals_scored": 8,
-      "goals_conceded": 2,
-      "goal_difference": 6,
-      "disciplinary_points": 1
     },
     {
       "ranking": 11,
@@ -342,23 +342,6 @@
     },
     {
       "ranking": 21,
-      "id": 96,
-      "name": "FC SALAGIARDINI",
-      "tag": "FCS",
-      "logo_url": "/storage/teams/fcsalagiardini.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsalagiardini.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 3,
-      "goals_conceded": 5,
-      "goal_difference": -2,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 22,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -372,6 +355,23 @@
       "goals_scored": 3,
       "goals_conceded": 7,
       "goal_difference": -4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 22,
+      "id": 96,
+      "name": "FC SALAGIARDINI",
+      "tag": "FCS",
+      "logo_url": "/storage/teams/fcsalagiardini.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcsalagiardini.png",
+      "points": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goals_scored": 5,
+      "goals_conceded": 10,
+      "goal_difference": -5,
       "disciplinary_points": 0
     },
     {

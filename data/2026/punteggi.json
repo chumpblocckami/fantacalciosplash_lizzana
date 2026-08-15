@@ -40,6 +40,14 @@
     "Total": 16
   },
   {
+    "player": "Federico Fasanelli | SBARX",
+    "Match 1": 6,
+    "Match 2": 5,
+    "Match 3": 4,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
     "player": "Emil Enriconi | A.C.DENTI",
     "Match 1": 9,
     "Match 2": 0,
@@ -184,10 +192,10 @@
     "Total": 11
   },
   {
-    "player": "Federico Fasanelli | SBARX",
-    "Match 1": 6,
-    "Match 2": 5,
-    "Match 3": 0,
+    "player": "Alex Manica | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 8,
     "Premi": 0,
     "Total": 11
   },
@@ -264,6 +272,22 @@
     "Total": 9
   },
   {
+    "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 4,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
+    "player": "Niccolò Orsi | SBARX",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
     "player": "Manuel Pedrotti | SUGHI",
     "Match 1": 8,
     "Match 2": 0,
@@ -296,6 +320,14 @@
     "Total": 8
   },
   {
+    "player": "Matteo Zanlucchi | SBARX",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
     "player": "Nicola Conti | FC WANDA TIM",
     "Match 1": 0,
     "Match 2": 8,
@@ -316,6 +348,14 @@
     "Match 1": 4,
     "Match 2": 4,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Massimiliano Rossi | FC SALAGIARDINI",
+    "Match 1": 4,
+    "Match 2": 2,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 8
   },
@@ -376,22 +416,6 @@
     "Total": 7
   },
   {
-    "player": "Niccolò Orsi | SBARX",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Matteo Zanlucchi | SBARX",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
     "player": "Daniele Feltrinelli | SUGHI",
     "Match 1": 6,
     "Match 2": 0,
@@ -443,14 +467,6 @@
     "player": "Riccardo Zaffoni | U.SGUARNA",
     "Match 1": 6,
     "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Massimiliano Rossi | FC SALAGIARDINI",
-    "Match 1": 4,
-    "Match 2": 2,
     "Match 3": 0,
     "Premi": 0,
     "Total": 6
@@ -608,10 +624,26 @@
     "Total": 5
   },
   {
-    "player": "Nicholas Marzadro | SBARX",
-    "Match 1": 4,
+    "player": "Carlo Adami | SBARX",
+    "Match 1": 2,
     "Match 2": 1,
-    "Match 3": 0,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Davide Fontana | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Enrico Parisi | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 5
   },
@@ -688,14 +720,6 @@
     "Total": 5
   },
   {
-    "player": "Giovanni Frizzera | FC SALAGIARDINI",
-    "Match 1": 7,
-    "Match 2": -2.5,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 4.5
-  },
-  {
     "player": "Matteo Bazzanella | POWER GINGER",
     "Match 1": 4,
     "Match 2": 0,
@@ -764,6 +788,14 @@
     "Match 1": 2,
     "Match 2": 2,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Alessandro Fanti | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 4
   },
@@ -924,38 +956,6 @@
     "Match 1": 0,
     "Match 2": 2,
     "Match 3": 1,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Carlo Adami | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Davide Fontana | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Alex Manica | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Enrico Parisi | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 0,
     "Premi": 0,
     "Total": 3
   },
@@ -1192,10 +1192,10 @@
     "Total": 2
   },
   {
-    "player": "Alessandro Fanti | FC SALAGIARDINI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
+    "player": "Giovanni Frizzera | FC SALAGIARDINI",
+    "Match 1": 7,
+    "Match 2": -2.5,
+    "Match 3": -2.5,
     "Premi": 0,
     "Total": 2
   },

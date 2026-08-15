@@ -25,7 +25,7 @@
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 42
+    "Punteggio": 46
   },
   {
     "Allenatore": "Lorenzo Zuani",
@@ -52,6 +52,10 @@
     "Punteggio": 37
   },
   {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 36.5
+  },
+  {
     "Allenatore": "Leonardo Parisi",
     "Punteggio": 36
   },
@@ -62,10 +66,6 @@
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 35
-  },
-  {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 34.5
   },
   {
     "Allenatore": "Nicolas Giordani",
@@ -92,8 +92,16 @@
     "Punteggio": 26.5
   },
   {
+    "Allenatore": "Matteo Zanlucchi",
+    "Punteggio": 26
+  },
+  {
     "Allenatore": "Marco Sala",
     "Punteggio": 26
+  },
+  {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 24
   },
   {
     "Allenatore": "Andrea Conzatti",
@@ -108,19 +116,11 @@
     "Punteggio": 23
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 23
-  },
-  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 23
   },
   {
     "Allenatore": "Thomas Pontillo",
-    "Punteggio": 22
-  },
-  {
-    "Allenatore": "Matteo Zanlucchi",
     "Punteggio": 22
   },
   {
