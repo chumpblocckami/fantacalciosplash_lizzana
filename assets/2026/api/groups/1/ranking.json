@@ -87,6 +87,23 @@
     },
     {
       "ranking": 6,
+      "id": 89,
+      "name": "U.SGUARNA",
+      "tag": "USG",
+      "logo_url": "/storage/teams/usguarna.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
+      "points": 6,
+      "played": 3,
+      "wins": 2,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 18,
+      "goals_conceded": 6,
+      "goal_difference": 12,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 7,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -103,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -120,7 +137,7 @@
       "disciplinary_points": 3
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -137,7 +154,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 9,
+      "ranking": 10,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -154,7 +171,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 10,
+      "ranking": 11,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -171,7 +188,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 11,
+      "ranking": 12,
       "id": 93,
       "name": "FC SAVIGNANO",
       "tag": "SAV",
@@ -188,7 +205,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 12,
+      "ranking": 13,
       "id": 123,
       "name": "SUGHI",
       "tag": "SUG",
@@ -205,7 +222,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 13,
+      "ranking": 14,
       "id": 104,
       "name": "GREP",
       "tag": "GRE",
@@ -222,7 +239,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 14,
+      "ranking": 15,
       "id": 127,
       "name": "BEVEM4TUT",
       "tag": "BEV",
@@ -239,7 +256,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 15,
+      "ranking": 16,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -253,23 +270,6 @@
       "goals_scored": 5,
       "goals_conceded": 7,
       "goal_difference": -2,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 16,
-      "id": 89,
-      "name": "U.SGUARNA",
-      "tag": "USG",
-      "logo_url": "/storage/teams/usguarna.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 9,
-      "goals_conceded": 5,
-      "goal_difference": 4,
       "disciplinary_points": 0
     },
     {
@@ -399,13 +399,13 @@
       "logo_url": "/storage/teams/fcschalke104.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcschalke104.png",
       "points": 1,
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 1,
-      "losses": 1,
-      "goals_scored": 6,
-      "goals_conceded": 9,
-      "goal_difference": -3,
+      "losses": 2,
+      "goals_scored": 7,
+      "goals_conceded": 18,
+      "goal_difference": -11,
       "disciplinary_points": 0
     },
     {

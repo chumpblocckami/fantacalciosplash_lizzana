@@ -20,8 +20,16 @@
     "Punteggio": 57
   },
   {
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 54
+  },
+  {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 53
+  },
+  {
+    "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 51.5
   },
   {
     "Allenatore": "Dalila Valzolgher",
@@ -32,16 +40,12 @@
     "Punteggio": 47.5
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 46
+    "Allenatore": "Lorenza Simoncelli",
+    "Punteggio": 45
   },
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 44
-  },
-  {
-    "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 41.5
   },
   {
     "Allenatore": "Elena Bruschetti",
@@ -50,6 +54,10 @@
   {
     "Allenatore": "Sebastiano Zoller",
     "Punteggio": 40.5
+  },
+  {
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 40
   },
   {
     "Allenatore": "Nicholas Marzadro",
@@ -68,6 +76,10 @@
     "Punteggio": 36
   },
   {
+    "Allenatore": "Matteo Zanlucchi",
+    "Punteggio": 36
+  },
+  {
     "Allenatore": "JAlvin92",
     "Punteggio": 36
   },
@@ -76,19 +88,15 @@
     "Punteggio": 35
   },
   {
-    "Allenatore": "Lorenza Simoncelli",
-    "Punteggio": 35
-  },
-  {
     "Allenatore": "Marco Sala",
     "Punteggio": 35
   },
   {
     "Allenatore": "Niccolò Orsi",
-    "Punteggio": 30
+    "Punteggio": 32
   },
   {
-    "Allenatore": "Matteo Giovanella",
+    "Allenatore": "Emanuele Miorandi",
     "Punteggio": 30
   },
   {
@@ -108,8 +116,8 @@
     "Punteggio": 26
   },
   {
-    "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 26
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 25
   },
   {
     "Allenatore": "Marco Miotto",
@@ -124,16 +132,8 @@
     "Punteggio": 24
   },
   {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 23
-  },
-  {
     "Allenatore": "Danny Giordani",
     "Punteggio": 21.5
-  },
-  {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 20
   },
   {
     "Allenatore": "Michele Bertolini",
