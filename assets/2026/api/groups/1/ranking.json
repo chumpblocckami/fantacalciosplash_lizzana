@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 110,
+      "name": "I MAGNIFICI",
+      "tag": "MAG",
+      "logo_url": "/storage/teams/imagnifici.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+      "points": 9,
+      "played": 3,
+      "wins": 3,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 23,
+      "goals_conceded": 3,
+      "goal_difference": 20,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
       "id": 109,
       "name": "PINGUINI TRENTINI",
       "tag": "PIN",
@@ -16,23 +33,6 @@
       "goals_conceded": 1,
       "goal_difference": 20,
       "disciplinary_points": 1
-    },
-    {
-      "ranking": 2,
-      "id": 110,
-      "name": "I MAGNIFICI",
-      "tag": "MAG",
-      "logo_url": "/storage/teams/imagnifici.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
-      "points": 6,
-      "played": 2,
-      "wins": 2,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 21,
-      "goals_conceded": 3,
-      "goal_difference": 18,
-      "disciplinary_points": 0
     },
     {
       "ranking": 3,
@@ -325,23 +325,6 @@
     },
     {
       "ranking": 20,
-      "id": 87,
-      "name": "DEMOBUSTERS",
-      "tag": "DEM",
-      "logo_url": "/storage/teams/demobusters.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\demobusters.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 3,
-      "goals_conceded": 5,
-      "goal_difference": -2,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 21,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -355,6 +338,23 @@
       "goals_scored": 3,
       "goals_conceded": 5,
       "goal_difference": -2,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 21,
+      "id": 87,
+      "name": "DEMOBUSTERS",
+      "tag": "DEM",
+      "logo_url": "/storage/teams/demobusters.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\demobusters.png",
+      "points": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goals_scored": 3,
+      "goals_conceded": 7,
+      "goal_difference": -4,
       "disciplinary_points": 0
     },
     {

@@ -1,15 +1,15 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 68
-  },
-  {
-    "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 61.5
+    "Punteggio": 74
   },
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 59.5
+    "Punteggio": 72.5
+  },
+  {
+    "Allenatore": "Alessandro Galvagni",
+    "Punteggio": 67.5
   },
   {
     "Allenatore": "Riccardo Zeni",
@@ -24,20 +24,20 @@
     "Punteggio": 41.5
   },
   {
+    "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 40.5
+  },
+  {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 40.5
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 39.5
   },
   {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 36.5
-  },
-  {
-    "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 33.5
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 33.5
   },
   {
     "Allenatore": "Sebastiano Zoller",
@@ -60,12 +60,20 @@
     "Punteggio": 29
   },
   {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 28.5
+  },
+  {
     "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 28
   },
   {
     "Allenatore": "Nicolas Giordani",
     "Punteggio": 26.5
+  },
+  {
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 24.5
   },
   {
     "Allenatore": "Michela Menghini",
@@ -88,10 +96,6 @@
     "Punteggio": 21.5
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 21.5
-  },
-  {
     "Allenatore": "Matteo Mazzola",
     "Punteggio": 21
   },
@@ -110,10 +114,6 @@
   {
     "Allenatore": "Marco Sala",
     "Punteggio": 20
-  },
-  {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 17.5
   },
   {
     "Allenatore": "Thomas Pontillo",

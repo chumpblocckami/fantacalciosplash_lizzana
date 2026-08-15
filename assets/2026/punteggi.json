@@ -4045,6 +4045,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Matteo Gatti | DEMOBUSTERS": [
@@ -4056,6 +4065,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -4085,6 +4103,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Gabriel Melis | DEMOBUSTERS": [
@@ -4105,6 +4132,15 @@
       "goalkeeper_points": -2,
       "mvp_points": 0,
       "total_points": -2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": -1
     }
   ],
   "Samuele Rosà | DEMOBUSTERS": [
@@ -4116,6 +4152,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -4145,6 +4190,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Riccardo Zeni | DEMOBUSTERS": [
@@ -4156,6 +4210,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -4185,6 +4248,15 @@
       "goalkeeper_points": -1.5,
       "mvp_points": 0,
       "total_points": 0.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Filippo Benetti | I MAGNIFICI": [
@@ -4205,9 +4277,27 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Guglielmo Caroli | I MAGNIFICI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    },
     {
       "goals": 0,
       "yellow_cards": 0,
@@ -4245,6 +4335,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Giovanni Raoss | I MAGNIFICI": [
@@ -4265,6 +4364,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Simone Schonsberg | I MAGNIFICI": [
@@ -4285,9 +4393,27 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Lorenzo Zuani | I MAGNIFICI": [
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
+    },
     {
       "goals": 0,
       "yellow_cards": 0,

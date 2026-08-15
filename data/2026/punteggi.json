@@ -3,9 +3,9 @@
     "player": "Filippo Benetti | I MAGNIFICI",
     "Match 1": 22,
     "Match 2": 6,
-    "Match 3": 0,
+    "Match 3": 6,
     "Premi": 0,
-    "Total": 28
+    "Total": 34
   },
   {
     "player": "Andrea Roveda | PINGUINI TRENTINI",
@@ -32,6 +32,22 @@
     "Total": 17
   },
   {
+    "player": "Danny Giordani | I MAGNIFICI",
+    "Match 1": 10,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 16
+  },
+  {
+    "player": "Elia Barozzi | I MAGNIFICI",
+    "Match 1": 7,
+    "Match 2": 0.5,
+    "Match 3": 7,
+    "Premi": 0,
+    "Total": 14.5
+  },
+  {
     "player": "Enrico Bordignon | PINGUINI TRENTINI",
     "Match 1": 8,
     "Match 2": 2,
@@ -51,14 +67,6 @@
     "player": "Leonardo Viola | SHARK ATTACK",
     "Match 1": 8,
     "Match 2": 6,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 14
-  },
-  {
-    "player": "Danny Giordani | I MAGNIFICI",
-    "Match 1": 10,
-    "Match 2": 4,
     "Match 3": 0,
     "Premi": 0,
     "Total": 14
@@ -92,6 +100,14 @@
     "Match 1": 2,
     "Match 2": 2,
     "Match 3": 8,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
+    "player": "Giovanni Raoss | I MAGNIFICI",
+    "Match 1": 6,
+    "Match 2": 4,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 12
   },
@@ -139,14 +155,6 @@
     "player": "Stefano Rosina | FC WANDA TIM",
     "Match 1": 0,
     "Match 2": 10,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Giovanni Raoss | I MAGNIFICI",
-    "Match 1": 6,
-    "Match 2": 4,
     "Match 3": 0,
     "Premi": 0,
     "Total": 10
@@ -256,20 +264,20 @@
     "Total": 8
   },
   {
+    "player": "Simone Schonsberg | I MAGNIFICI",
+    "Match 1": 4,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
     "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
     "Match 1": 5,
     "Match 2": 3,
     "Match 3": 0,
     "Premi": 0,
     "Total": 8
-  },
-  {
-    "player": "Elia Barozzi | I MAGNIFICI",
-    "Match 1": 7,
-    "Match 2": 0.5,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 7.5
   },
   {
     "player": "Pietro Di Liberto | FC SCHALKE 104",
@@ -432,10 +440,18 @@
     "Total": 6
   },
   {
-    "player": "Simone Schonsberg | I MAGNIFICI",
-    "Match 1": 4,
+    "player": "Guglielmo Caroli | I MAGNIFICI",
+    "Match 1": 2,
     "Match 2": 2,
-    "Match 3": 0,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Lorenzo Zuani | I MAGNIFICI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 6
   },
@@ -739,22 +755,6 @@
     "player": "Roberto Barozzi | DEMOBUSTERS",
     "Match 1": 4,
     "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Guglielmo Caroli | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Lorenzo Zuani | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
     "Match 3": 0,
     "Premi": 0,
     "Total": 4
@@ -1576,18 +1576,18 @@
     "Total": -0.5
   },
   {
-    "player": "Gabriel Melis | DEMOBUSTERS",
-    "Match 1": 1.5,
-    "Match 2": -2,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": -0.5
-  },
-  {
     "player": "Federico Madaschi | BEVEM4TUT",
     "Match 1": -2.5,
     "Match 2": 1,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": -1.5
+  },
+  {
+    "player": "Gabriel Melis | DEMOBUSTERS",
+    "Match 1": 1.5,
+    "Match 2": -2,
+    "Match 3": -1,
     "Premi": 0,
     "Total": -1.5
   },
