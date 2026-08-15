@@ -2283,7 +2283,7 @@
       "away_score": 0
     },
     {
-      "id": 90,
+      "id": 92,
       "scheduled_at": "2026-08-16T10:40:00.000Z",
       "status": "scheduled",
       "half_time": "1H",
@@ -2295,17 +2295,17 @@
       "group_name": "Quarti Femminile",
       "gender": "female",
       "home_team": {
-        "id": 99,
-        "name": "SAILOR MONE",
-        "tag": "SAI",
-        "logo_url": "/storage/teams/sailormone.png",
+        "id": 90,
+        "name": "LE BALLE(RINE) IN FIESTA",
+        "tag": "LEB",
+        "logo_url": "/storage/teams/leballerineinfiesta.png",
         "gender": "female"
       },
       "away_team": {
-        "id": 94,
-        "name": "LOVEBUSTERS",
-        "tag": "LOV",
-        "logo_url": "/storage/teams/lovebusters.png",
+        "id": 121,
+        "name": "PANCHAMAHBAHUTA",
+        "tag": "PAN",
+        "logo_url": "/storage/teams/panchamahbahuta.png",
         "gender": "female"
       },
       "home_score": 0,
@@ -2341,7 +2341,7 @@
       "away_score": 0
     },
     {
-      "id": 92,
+      "id": 90,
       "scheduled_at": "2026-08-16T12:40:00.000Z",
       "status": "scheduled",
       "half_time": "1H",
@@ -2353,17 +2353,17 @@
       "group_name": "Quarti Femminile",
       "gender": "female",
       "home_team": {
-        "id": 90,
-        "name": "LE BALLE(RINE) IN FIESTA",
-        "tag": "LEB",
-        "logo_url": "/storage/teams/leballerineinfiesta.png",
+        "id": 99,
+        "name": "SAILOR MONE",
+        "tag": "SAI",
+        "logo_url": "/storage/teams/sailormone.png",
         "gender": "female"
       },
       "away_team": {
-        "id": 121,
-        "name": "PANCHAMAHBAHUTA",
-        "tag": "PAN",
-        "logo_url": "/storage/teams/panchamahbahuta.png",
+        "id": 94,
+        "name": "LOVEBUSTERS",
+        "tag": "LOV",
+        "logo_url": "/storage/teams/lovebusters.png",
         "gender": "female"
       },
       "home_score": 0,

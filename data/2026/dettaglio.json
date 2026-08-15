@@ -4466,7 +4466,7 @@
   },
   {
     "Allenatore": "Elena Bruschetti",
-    "Punteggio": 45.5,
+    "Punteggio": 43.5,
     "rank": 16,
     "players": [
       {
@@ -4651,7 +4651,7 @@
         "player": "Eduardo Grazioli | FC SAVIGNANO",
         "name": "Eduardo Grazioli",
         "team": "FC SAVIGNANO",
-        "counted_total": 7,
+        "counted_total": 5,
         "premi": 0,
         "matches": [
           {
@@ -4684,13 +4684,8 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 2,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -8443,7 +8438,7 @@
   },
   {
     "Allenatore": "Danny Giordani",
-    "Punteggio": 28.5,
+    "Punteggio": 30.5,
     "rank": 30,
     "players": [
       {
@@ -8451,7 +8446,7 @@
         "player": "Nicolas Giordani | FC SAVIGNANO",
         "name": "Nicolas Giordani",
         "team": "FC SAVIGNANO",
-        "counted_total": 12.5,
+        "counted_total": 14.5,
         "premi": 0,
         "matches": [
           {
@@ -8504,8 +8499,13 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 7,
+            "total": 9,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
               {
                 "kind": "win",
                 "label": "vittoria",

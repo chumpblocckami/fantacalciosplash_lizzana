@@ -88,6 +88,14 @@
     "Total": 15
   },
   {
+    "player": "Nicolas Giordani | FC SAVIGNANO",
+    "Match 1": 2,
+    "Match 2": 3.5,
+    "Match 3": 9,
+    "Premi": 0,
+    "Total": 14.5
+  },
+  {
     "player": "Elia Barozzi | I MAGNIFICI",
     "Match 1": 7,
     "Match 2": 0.5,
@@ -174,14 +182,6 @@
     "Match 3": 6,
     "Premi": 0,
     "Total": 13
-  },
-  {
-    "player": "Nicolas Giordani | FC SAVIGNANO",
-    "Match 1": 2,
-    "Match 2": 3.5,
-    "Match 3": 7,
-    "Premi": 0,
-    "Total": 12.5
   },
   {
     "player": "Davide Manica | PINGUINI TRENTINI",
@@ -520,14 +520,6 @@
     "Total": 7
   },
   {
-    "player": "Eduardo Grazioli | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 4,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
     "player": "Thomas Maffei | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 4,
@@ -841,6 +833,14 @@
   },
   {
     "player": "Giacomo De Zambotti | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Eduardo Grazioli | FC SAVIGNANO",
     "Match 1": 1,
     "Match 2": 2,
     "Match 3": 2,
