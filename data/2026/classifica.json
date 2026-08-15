@@ -9,7 +9,7 @@
   },
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 72.5
+    "Punteggio": 75.5
   },
   {
     "Allenatore": "Federico Fasanelli",
@@ -24,6 +24,10 @@
     "Punteggio": 63.5
   },
   {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 60
+  },
+  {
     "Allenatore": "Alessio Farinati",
     "Punteggio": 59.5
   },
@@ -32,12 +36,8 @@
     "Punteggio": 58
   },
   {
-    "Allenatore": "Riccardo Zeni",
-    "Punteggio": 57
-  },
-  {
     "Allenatore": "Leonardo Parisi",
-    "Punteggio": 54
+    "Punteggio": 53
   },
   {
     "Allenatore": "Matteo Pilati",
@@ -56,35 +56,39 @@
     "Punteggio": 48.5
   },
   {
+    "Allenatore": "Jacopo Chemini",
+    "Punteggio": 47
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 45.5
   },
   {
-    "Allenatore": "Jacopo Chemini",
-    "Punteggio": 44
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 43
   },
   {
     "Allenatore": "Marco Sala",
     "Punteggio": 41
   },
   {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 40
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 38
   },
   {
-    "Allenatore": "Michela Menghini",
-    "Punteggio": 37
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 37.5
   },
   {
     "Allenatore": "Matteo Mazzola",
     "Punteggio": 36.5
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 36.5
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 36
   },
   {
-    "Allenatore": "Emanuele Miorandi",
+    "Allenatore": "Nicolas Giordani",
     "Punteggio": 36
   },
   {
@@ -96,27 +100,23 @@
     "Punteggio": 36
   },
   {
-    "Allenatore": "Nicolas Giordani",
+    "Allenatore": "Valentina Perghem",
     "Punteggio": 35
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 32
-  },
-  {
     "Allenatore": "Niccolò Orsi",
-    "Punteggio": 32
-  },
-  {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 28.5
+    "Punteggio": 35
   },
   {
     "Allenatore": "Marco Sartorelli",
-    "Punteggio": 28.5
+    "Punteggio": 31.5
   },
   {
     "Allenatore": "Davide Zeni",
+    "Punteggio": 31.5
+  },
+  {
+    "Allenatore": "Danny Giordani",
     "Punteggio": 28.5
   },
   {
@@ -128,15 +128,15 @@
     "Punteggio": 26
   },
   {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 24
+    "Allenatore": "Michele Bertolini",
+    "Punteggio": 25
   },
   {
     "Allenatore": "Thomas Pontillo",
     "Punteggio": 24
   },
   {
-    "Allenatore": "Michele Bertolini",
-    "Punteggio": 22
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 23
   }
 ]
