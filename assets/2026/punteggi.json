@@ -2943,6 +2943,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Nicola Conti | FC WANDA TIM": [
@@ -2963,6 +2972,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 8
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -3001,6 +3019,15 @@
       "goalkeeper_points": -1,
       "mvp_points": 0,
       "total_points": -1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -3,
+      "mvp_points": 0,
+      "total_points": -3
     }
   ],
   "Stefano Rosina | FC WANDA TIM": [
@@ -3021,6 +3048,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 10
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -3059,6 +3095,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Emanuele Valduga | FC WANDA TIM": [
@@ -3079,6 +3124,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -6458,6 +6512,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO": [
@@ -6487,6 +6550,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Gabriele Gottardi | C.G.B. CHELE DI CHERNO": [
@@ -6507,6 +6579,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 3
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     },
     {
       "goals": 4,
@@ -6545,6 +6626,15 @@
       "goalkeeper_points": -1,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 3
     }
   ],
   "Thomas Perenzoni | C.G.B. CHELE DI CHERNO": [
@@ -6565,6 +6655,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     },
     {
       "goals": 2,
@@ -6603,6 +6702,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Luca Barozzi | MODIUM": [

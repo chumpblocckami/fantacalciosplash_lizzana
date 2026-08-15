@@ -36,6 +36,15 @@
     "Total": 21
   },
   {
+    "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
+    "Match 1": 5,
+    "Match 2": 3,
+    "Match 3": 6,
+    "Match 4": 6,
+    "Premi": 0,
+    "Total": 20
+  },
+  {
     "player": "Manuel Pedrotti | SUGHI",
     "Match 1": 8,
     "Match 2": 0,
@@ -252,15 +261,6 @@
     "Total": 12
   },
   {
-    "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
-    "Match 1": 5,
-    "Match 2": 3,
-    "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 12
-  },
-  {
     "player": "Matteo Pilati | PINGUINI TRENTINI",
     "Match 1": 1.5,
     "Match 2": 7,
@@ -324,6 +324,15 @@
     "Total": 10
   },
   {
+    "player": "Stefano Rosina | FC WANDA TIM",
+    "Match 1": 0,
+    "Match 2": 10,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
     "player": "Tommaso Aste | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
@@ -347,6 +356,15 @@
     "Match 2": 4,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 4,
+    "Match 4": 4,
     "Premi": 0,
     "Total": 10
   },
@@ -450,11 +468,11 @@
     "Total": 8
   },
   {
-    "player": "Stefano Rosina | FC WANDA TIM",
+    "player": "Nicola Conti | FC WANDA TIM",
     "Match 1": 0,
-    "Match 2": 10,
+    "Match 2": 8,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -500,6 +518,24 @@
     "Match 2": 1,
     "Match 3": 1,
     "Match 4": 2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 4,
     "Premi": 0,
     "Total": 8
   },
@@ -648,11 +684,11 @@
     "Total": 6
   },
   {
-    "player": "Nicola Conti | FC WANDA TIM",
+    "player": "Mattia Spagnolli | FC WANDA TIM",
     "Match 1": 0,
-    "Match 2": 8,
+    "Match 2": 2,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 4,
     "Premi": 0,
     "Total": 6
   },
@@ -689,6 +725,15 @@
     "Match 2": 2,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 6
   },
@@ -810,6 +855,15 @@
     "Total": 4.5
   },
   {
+    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+    "Match 1": 0,
+    "Match 2": 0.5,
+    "Match 3": 1,
+    "Match 4": 3,
+    "Premi": 0,
+    "Total": 4.5
+  },
+  {
     "player": "Alessandro Sartori | QUEI STRAZI",
     "Match 1": 0,
     "Match 2": 2,
@@ -851,6 +905,15 @@
     "Match 2": 2,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Emanuele Valduga | FC WANDA TIM",
+    "Match 1": 0,
+    "Match 2": 4,
+    "Match 3": 0,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 4
   },
@@ -931,15 +994,6 @@
     "Match 1": 2,
     "Match 2": 2,
     "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 4,
     "Match 4": -2,
     "Premi": 0,
     "Total": 4
@@ -1233,11 +1287,11 @@
     "Total": 2
   },
   {
-    "player": "Emanuele Valduga | FC WANDA TIM",
+    "player": "Francesco Amadori | FC WANDA TIM",
     "Match 1": 0,
-    "Match 2": 4,
+    "Match 2": 2,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 2
   },
@@ -1283,33 +1337,6 @@
     "Match 2": 0,
     "Match 3": 2,
     "Match 4": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 2
   },
@@ -1449,15 +1476,6 @@
     "Total": 1
   },
   {
-    "player": "Carlo Pomarolli | FC WANDA TIM",
-    "Match 1": -3,
-    "Match 2": 7,
-    "Match 3": -1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
     "player": "Andrea Barozzi | AVANZI",
     "Match 1": 0,
     "Match 2": 0,
@@ -1566,20 +1584,11 @@
     "Total": 0
   },
   {
-    "player": "Francesco Amadori | FC WANDA TIM",
-    "Match 1": 0,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Mattia Spagnolli | FC WANDA TIM",
-    "Match 1": 0,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": -2,
+    "player": "Carlo Pomarolli | FC WANDA TIM",
+    "Match 1": -3,
+    "Match 2": 7,
+    "Match 3": -1,
+    "Match 4": -3,
     "Premi": 0,
     "Total": 0
   },
@@ -1624,15 +1633,6 @@
     "Match 1": 1.5,
     "Match 2": 0.5,
     "Match 3": -0.5,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": -0.5
-  },
-  {
-    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-    "Match 1": 0,
-    "Match 2": 0.5,
-    "Match 3": 1,
     "Match 4": -2,
     "Premi": 0,
     "Total": -0.5
