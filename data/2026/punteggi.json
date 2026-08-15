@@ -40,6 +40,14 @@
     "Total": 16
   },
   {
+    "player": "Emil Enriconi | A.C.DENTI",
+    "Match 1": 9,
+    "Match 2": 0,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
     "player": "Elia Barozzi | I MAGNIFICI",
     "Match 1": 7,
     "Match 2": 0.5,
@@ -72,6 +80,14 @@
     "Total": 14
   },
   {
+    "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
+    "Match 1": 5,
+    "Match 2": 3,
+    "Match 3": 6,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
     "player": "Matteo Pilati | PINGUINI TRENTINI",
     "Match 1": 1.5,
     "Match 2": 7,
@@ -92,6 +108,14 @@
     "Match 1": 3,
     "Match 2": 10,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 13
+  },
+  {
+    "player": "Samuele Kettmaier | A.C.DENTI",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 6,
     "Premi": 0,
     "Total": 13
   },
@@ -184,6 +208,22 @@
     "Total": 10
   },
   {
+    "player": "Leonardo Comper | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Sayf Brick | A.C.DENTI",
+    "Match 1": 6,
+    "Match 2": 3,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
     "player": "Daniele Dalbosco | SDRUMALA",
     "Match 1": 4,
     "Match 2": 5,
@@ -216,25 +256,17 @@
     "Total": 9
   },
   {
+    "player": "Manuel Pedrotti | SUGHI",
+    "Match 1": 8,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
     "player": "Andrea Anzelini | GREP",
     "Match 1": 6,
     "Match 2": 3,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Sayf Brick | A.C.DENTI",
-    "Match 1": 6,
-    "Match 2": 3,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Emil Enriconi | A.C.DENTI",
-    "Match 1": 9,
-    "Match 2": 0,
     "Match 3": 0,
     "Premi": 0,
     "Total": 9
@@ -280,14 +312,6 @@
     "Total": 8
   },
   {
-    "player": "Leonardo Comper | GLI INTROVABILI",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 8
-  },
-  {
     "player": "Alessio Bragagna | SHARK ATTACK",
     "Match 1": 4,
     "Match 2": 4,
@@ -304,10 +328,18 @@
     "Total": 8
   },
   {
-    "player": "Manuel Pedrotti | SUGHI",
-    "Match 1": 8,
-    "Match 2": 0,
-    "Match 3": 0,
+    "player": "Michael Bertè | A.C.DENTI",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Maverick Bertolini | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": 3,
+    "Match 3": 1,
     "Premi": 0,
     "Total": 8
   },
@@ -316,14 +348,6 @@
     "Match 1": 4,
     "Match 2": 2,
     "Match 3": 2,
-    "Premi": 0,
-    "Total": 8
-  },
-  {
-    "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
-    "Match 1": 5,
-    "Match 2": 3,
-    "Match 3": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -360,6 +384,14 @@
     "Total": 7
   },
   {
+    "player": "Daniele Feltrinelli | SUGHI",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Pietro Bernardelli | CLITORIDERS",
     "Match 1": 0,
     "Match 2": 7,
@@ -376,28 +408,12 @@
     "Total": 7
   },
   {
-    "player": "Michael Bertè | A.C.DENTI",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 0,
+    "player": "Federico Leonardi | SUGHI",
+    "Match 1": 1.5,
+    "Match 2": -1,
+    "Match 3": 6,
     "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Maverick Bertolini | A.C.DENTI",
-    "Match 1": 4,
-    "Match 2": 3,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Samuele Kettmaier | A.C.DENTI",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 7
+    "Total": 6.5
   },
   {
     "player": "Andrea Aste | PINGUINI TRENTINI",
@@ -424,14 +440,6 @@
     "Total": 6
   },
   {
-    "player": "Gerardo Todisco | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
     "player": "Massimiliano Rossi | FC SALAGIARDINI",
     "Match 1": 4,
     "Match 2": 2,
@@ -448,18 +456,18 @@
     "Total": 6
   },
   {
-    "player": "Daniele Feltrinelli | SUGHI",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
     "player": "Christian Torboli | 4SINS",
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 6,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Federico Zanini | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 1,
     "Premi": 0,
     "Total": 6
   },
@@ -484,6 +492,14 @@
     "Match 1": 2,
     "Match 2": 2,
     "Match 3": 2,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 4,
     "Premi": 0,
     "Total": 6
   },
@@ -584,6 +600,30 @@
     "Total": 5
   },
   {
+    "player": "Gerardo Todisco | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": -1,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Riccardo Barbiero | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Luca Tonolli | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
     "player": "Davide De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
     "Match 2": 4,
@@ -617,14 +657,6 @@
   },
   {
     "player": "Matteo Mazzola | GREP",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Federico Zanini | A.C.DENTI",
     "Match 1": 4,
     "Match 2": 1,
     "Match 3": 0,
@@ -760,22 +792,6 @@
     "Total": 4
   },
   {
-    "player": "Riccardo Barbiero | SUGHI",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Luca Tonolli | SUGHI",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
     "player": "Tommaso Bruschetti | 4SINS",
     "Match 1": 0,
     "Match 2": 0,
@@ -792,10 +808,42 @@
     "Total": 4
   },
   {
+    "player": "Mario Grifeo | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": -1,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
     "player": "Roberto Barozzi | DEMOBUSTERS",
     "Match 1": 4,
     "Match 2": 0,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+    "Match 1": 1,
+    "Match 2": 1,
+    "Match 3": 2,
     "Premi": 0,
     "Total": 4
   },
@@ -912,6 +960,14 @@
     "Total": 3
   },
   {
+    "player": "Emanuele Miorandi | SUGHI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Premi": 0,
+    "Total": 3
+  },
+  {
     "player": "Giacomo De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
     "Match 2": 2,
@@ -995,14 +1051,6 @@
     "player": "Davide Raffaelli | GREP",
     "Match 1": 2,
     "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Mario Grifeo | A.C.DENTI",
-    "Match 1": 4,
-    "Match 2": -1,
     "Match 3": 0,
     "Premi": 0,
     "Total": 3
@@ -1192,14 +1240,6 @@
     "Total": 2
   },
   {
-    "player": "Emanuele Miorandi | SUGHI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Mario Sinani | 4SINS",
     "Match 1": 0,
     "Match 2": 0,
@@ -1248,38 +1288,6 @@
     "Total": 2
   },
   {
-    "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
-    "Match 1": 1,
-    "Match 2": 1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Luca Barozzi | MODIUM",
     "Match 1": 2,
     "Match 2": 0,
@@ -1304,10 +1312,10 @@
     "Total": 1.5
   },
   {
-    "player": "Thomas Pontillo | GLI INTROVABILI",
-    "Match 1": 1,
+    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+    "Match 1": 0,
     "Match 2": 0.5,
-    "Match 3": 0,
+    "Match 3": 1,
     "Premi": 0,
     "Total": 1.5
   },
@@ -1350,22 +1358,6 @@
     "Match 3": 5.5,
     "Premi": 0,
     "Total": 1
-  },
-  {
-    "player": "Federico Leonardi | SUGHI",
-    "Match 1": 1.5,
-    "Match 2": -1,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 0.5
-  },
-  {
-    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-    "Match 1": 0,
-    "Match 2": 0.5,
-    "Match 3": 0,
-    "Premi": 0,
-    "Total": 0.5
   },
   {
     "player": "Filippo Maraner | POWER GINGER",
@@ -1500,6 +1492,14 @@
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 0,
+    "Premi": 0,
+    "Total": 0
+  },
+  {
+    "player": "Thomas Pontillo | GLI INTROVABILI",
+    "Match 1": 1,
+    "Match 2": 0.5,
+    "Match 3": -1.5,
     "Premi": 0,
     "Total": 0
   },

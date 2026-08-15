@@ -29,27 +29,35 @@
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 40.5
+    "Punteggio": 41.5
   },
   {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 40
   },
   {
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 39.5
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 39.5
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 37.5
   },
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
     "Punteggio": 37
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 36.5
-  },
-  {
     "Allenatore": "Leonardo Parisi",
     "Punteggio": 36
+  },
+  {
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 35
   },
   {
     "Allenatore": "Jacopo Chemini",
@@ -60,15 +68,15 @@
     "Punteggio": 34.5
   },
   {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 32.5
-  },
-  {
-    "Allenatore": "Michela Menghini",
+    "Allenatore": "Nicolas Giordani",
     "Punteggio": 29
   },
   {
-    "Allenatore": "Nicolas Giordani",
+    "Allenatore": "Davide Zeni",
+    "Punteggio": 28.5
+  },
+  {
+    "Allenatore": "Niccolò Orsi",
     "Punteggio": 28
   },
   {
@@ -88,15 +96,27 @@
     "Punteggio": 26
   },
   {
-    "Allenatore": "Davide Zeni",
-    "Punteggio": 25.5
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 24
+  },
+  {
+    "Allenatore": "Daniele Feltrinelli",
+    "Punteggio": 24
+  },
+  {
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 23
   },
   {
     "Allenatore": "Valentina Perghem",
     "Punteggio": 23
   },
   {
-    "Allenatore": "Daniele Feltrinelli",
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 23
+  },
+  {
+    "Allenatore": "Thomas Pontillo",
     "Punteggio": 22
   },
   {
@@ -104,36 +124,16 @@
     "Punteggio": 22
   },
   {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 22
-  },
-  {
-    "Allenatore": "Thomas Pontillo",
-    "Punteggio": 21.5
-  },
-  {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 21
-  },
-  {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 21
-  },
-  {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 21
-  },
-  {
     "Allenatore": "Emanuele Miorandi",
     "Punteggio": 20
   },
   {
     "Allenatore": "Danny Giordani",
-    "Punteggio": 18.5
+    "Punteggio": 19.5
   },
   {
     "Allenatore": "Marco Miotto",
-    "Punteggio": 14
+    "Punteggio": 16
   },
   {
     "Allenatore": "Michele Bertolini",
