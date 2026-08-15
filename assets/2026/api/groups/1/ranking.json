@@ -87,6 +87,23 @@
     },
     {
       "ranking": 6,
+      "id": 106,
+      "name": "F.C. GORILLAZ",
+      "tag": "FCG",
+      "logo_url": "/storage/teams/fcgorillaz.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcgorillaz.png",
+      "points": 5,
+      "played": 3,
+      "wins": 1,
+      "draws": 2,
+      "losses": 0,
+      "goals_scored": 15,
+      "goals_conceded": 5,
+      "goal_difference": 10,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 7,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -103,7 +120,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -117,23 +134,6 @@
       "goals_scored": 6,
       "goals_conceded": 5,
       "goal_difference": 1,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 8,
-      "id": 106,
-      "name": "F.C. GORILLAZ",
-      "tag": "FCG",
-      "logo_url": "/storage/teams/fcgorillaz.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcgorillaz.png",
-      "points": 4,
-      "played": 2,
-      "wins": 1,
-      "draws": 1,
-      "losses": 0,
-      "goals_scored": 13,
-      "goals_conceded": 3,
-      "goal_difference": 10,
       "disciplinary_points": 0
     },
     {
@@ -223,6 +223,23 @@
     },
     {
       "ranking": 14,
+      "id": 127,
+      "name": "BEVEM4TUT",
+      "tag": "BEV",
+      "logo_url": "/storage/teams/bevem4tut.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\bevem4tut.png",
+      "points": 4,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goals_scored": 8,
+      "goals_conceded": 9,
+      "goal_difference": -1,
+      "disciplinary_points": 1
+    },
+    {
+      "ranking": 15,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -239,7 +256,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 15,
+      "ranking": 16,
       "id": 89,
       "name": "U.SGUARNA",
       "tag": "USG",
@@ -256,7 +273,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 16,
+      "ranking": 17,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
@@ -273,7 +290,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 17,
+      "ranking": 18,
       "id": 115,
       "name": "FC WANDA TIM",
       "tag": "FCW",
@@ -290,7 +307,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 18,
+      "ranking": 19,
       "id": 111,
       "name": "4SINS",
       "tag": "4SI",
@@ -307,7 +324,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 19,
+      "ranking": 20,
       "id": 116,
       "name": "POWER GINGER",
       "tag": "PWG",
@@ -320,23 +337,6 @@
       "losses": 1,
       "goals_scored": 7,
       "goals_conceded": 8,
-      "goal_difference": -1,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 20,
-      "id": 127,
-      "name": "BEVEM4TUT",
-      "tag": "BEV",
-      "logo_url": "/storage/teams/bevem4tut.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\bevem4tut.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 6,
-      "goals_conceded": 7,
       "goal_difference": -1,
       "disciplinary_points": 0
     },
