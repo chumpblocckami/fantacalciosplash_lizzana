@@ -11,11 +11,11 @@
         "id": 636,
         "name": "Alberto",
         "surname": "Raffaelli",
-        "username": "-",
+        "username": "Collaboratore familiare",
         "birth_date": "1999-05-12T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\albertoraffaelli.png"
       },
       {
         "id": 637,
@@ -61,11 +61,11 @@
         "id": 641,
         "name": "Marco",
         "surname": "Renica",
-        "username": "-",
+        "username": "Sandro Cazzuola",
         "birth_date": "1998-11-22T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\marcorenica.png"
       },
       {
         "id": 642,

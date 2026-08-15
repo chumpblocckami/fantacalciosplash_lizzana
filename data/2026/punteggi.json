@@ -99,6 +99,15 @@
     "Total": 15
   },
   {
+    "player": "Leonardo Comper | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
     "player": "Danny Giordani | I MAGNIFICI",
     "Match 1": 10,
     "Match 2": 4,
@@ -167,6 +176,15 @@
     "Match 2": 2,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
+    "player": "Moris Benedetti | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 0,
+    "Match 4": 4,
     "Premi": 0,
     "Total": 12
   },
@@ -279,6 +297,15 @@
     "Total": 10
   },
   {
+    "player": "Tommaso Aste | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 0,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
     "player": "Giovanni Raoss | I MAGNIFICI",
     "Match 1": 6,
     "Match 2": 4,
@@ -387,11 +414,29 @@
     "Total": 8
   },
   {
-    "player": "Leonardo Comper | GLI INTROVABILI",
+    "player": "Mattia Kaiserman | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 0,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Andrea Pedrotti | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 0,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Massimiliano Rossi | FC SALAGIARDINI",
     "Match 1": 4,
-    "Match 2": 4,
+    "Match 2": 2,
     "Match 3": 2,
-    "Match 4": -2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -463,6 +508,24 @@
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 5,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Thomas Pontillo | GLI INTROVABILI",
+    "Match 1": 1,
+    "Match 2": 0.5,
+    "Match 3": -1.5,
+    "Match 4": 7,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Gerardo Todisco | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": -1,
     "Match 4": 2,
     "Premi": 0,
     "Total": 7
@@ -544,33 +607,6 @@
     "Match 1": 0,
     "Match 2": 8,
     "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Tommaso Aste | GLI INTROVABILI",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Moris Benedetti | GLI INTROVABILI",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Massimiliano Rossi | FC SALAGIARDINI",
-    "Match 1": 4,
-    "Match 2": 2,
-    "Match 3": 2,
     "Match 4": -2,
     "Premi": 0,
     "Total": 6
@@ -761,6 +797,24 @@
     "Match 2": 2,
     "Match 3": 2,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Alessandro Fanti | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Gianni Sala | FC SALAGIARDINI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 4
   },
@@ -972,15 +1026,6 @@
     "Total": 3
   },
   {
-    "player": "Gerardo Todisco | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": -1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
     "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
     "Match 2": 2,
@@ -1107,38 +1152,38 @@
     "Total": 2
   },
   {
-    "player": "Mattia Kaiserman | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Andrea Pedrotti | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
-    "player": "Alessandro Fanti | FC SALAGIARDINI",
+    "player": "Matteo Calcinardi | FC SALAGIARDINI",
     "Match 1": 2,
     "Match 2": 0,
-    "Match 3": 2,
-    "Match 4": -2,
+    "Match 3": 0,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 2
   },
   {
-    "player": "Gianni Sala | FC SALAGIARDINI",
-    "Match 1": 4,
+    "player": "Alberto Raffaelli | FC SALAGIARDINI",
+    "Match 1": 2,
     "Match 2": 0,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Patrick Raffaelli | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Marco Renica | FC SALAGIARDINI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 2
   },
@@ -1494,46 +1539,10 @@
     "Total": 0
   },
   {
-    "player": "Matteo Calcinardi | FC SALAGIARDINI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
     "player": "Giovanni Frizzera | FC SALAGIARDINI",
     "Match 1": 7,
     "Match 2": -2.5,
     "Match 3": -2.5,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Alberto Raffaelli | FC SALAGIARDINI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Patrick Raffaelli | FC SALAGIARDINI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Marco Renica | FC SALAGIARDINI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
     "Match 4": -2,
     "Premi": 0,
     "Total": 0
@@ -1714,15 +1723,6 @@
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": -2
-  },
-  {
-    "player": "Thomas Pontillo | GLI INTROVABILI",
-    "Match 1": 1,
-    "Match 2": 0.5,
-    "Match 3": -1.5,
     "Match 4": -2,
     "Premi": 0,
     "Total": -2

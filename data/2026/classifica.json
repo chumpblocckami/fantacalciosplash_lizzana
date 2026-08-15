@@ -40,6 +40,14 @@
     "Punteggio": 48
   },
   {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 46.5
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 45.5
+  },
+  {
     "Allenatore": "Leonardo Parisi",
     "Punteggio": 45
   },
@@ -52,20 +60,12 @@
     "Punteggio": 44.5
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 43.5
-  },
-  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 43
   },
   {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 41.5
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 40.5
   },
   {
     "Allenatore": "Jacopo Chemini",
@@ -76,8 +76,16 @@
     "Punteggio": 38
   },
   {
+    "Allenatore": "Thomas Pontillo",
+    "Punteggio": 37
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 35.5
+  },
+  {
+    "Allenatore": "Marco Sala",
+    "Punteggio": 35
   },
   {
     "Allenatore": "Matteo Mazzola",
@@ -85,10 +93,6 @@
   },
   {
     "Allenatore": "Niccolò Orsi",
-    "Punteggio": 33
-  },
-  {
-    "Allenatore": "Marco Sala",
     "Punteggio": 33
   },
   {
@@ -109,7 +113,11 @@
   },
   {
     "Allenatore": "Marco Sartorelli",
-    "Punteggio": 23.5
+    "Punteggio": 25.5
+  },
+  {
+    "Allenatore": "Marco Miotto",
+    "Punteggio": 24
   },
   {
     "Allenatore": "Davide Zeni",
@@ -118,14 +126,6 @@
   {
     "Allenatore": "Danny Giordani",
     "Punteggio": 22.5
-  },
-  {
-    "Allenatore": "Thomas Pontillo",
-    "Punteggio": 22
-  },
-  {
-    "Allenatore": "Marco Miotto",
-    "Punteggio": 18
   },
   {
     "Allenatore": "Daniele Feltrinelli",
