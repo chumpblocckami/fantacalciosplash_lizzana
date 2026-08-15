@@ -53,6 +53,23 @@
     },
     {
       "ranking": 4,
+      "id": 107,
+      "name": "CLITORIDERS",
+      "tag": "CLI",
+      "logo_url": "/storage/teams/clitoriders.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+      "points": 7,
+      "played": 3,
+      "wins": 2,
+      "draws": 1,
+      "losses": 0,
+      "goals_scored": 12,
+      "goals_conceded": 2,
+      "goal_difference": 10,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 5,
       "id": 117,
       "name": "SBARX",
       "tag": "SBA",
@@ -69,7 +86,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -86,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -103,7 +120,7 @@
       "disciplinary_points": 3
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -120,7 +137,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -137,7 +154,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 9,
+      "ranking": 10,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -151,23 +168,6 @@
       "goals_scored": 6,
       "goals_conceded": 5,
       "goal_difference": 1,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 10,
-      "id": 107,
-      "name": "CLITORIDERS",
-      "tag": "CLI",
-      "logo_url": "/storage/teams/clitoriders.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
-      "points": 4,
-      "played": 2,
-      "wins": 1,
-      "draws": 1,
-      "losses": 0,
-      "goals_scored": 10,
-      "goals_conceded": 2,
-      "goal_difference": 8,
       "disciplinary_points": 0
     },
     {
@@ -234,8 +234,8 @@
       "draws": 1,
       "losses": 1,
       "goals_scored": 8,
-      "goals_conceded": 9,
-      "goal_difference": -1,
+      "goals_conceded": 10,
+      "goal_difference": -2,
       "disciplinary_points": 1
     },
     {
@@ -267,9 +267,9 @@
       "wins": 1,
       "draws": 0,
       "losses": 1,
-      "goals_scored": 8,
+      "goals_scored": 9,
       "goals_conceded": 5,
-      "goal_difference": 3,
+      "goal_difference": 4,
       "disciplinary_points": 0
     },
     {
@@ -291,23 +291,6 @@
     },
     {
       "ranking": 18,
-      "id": 115,
-      "name": "FC WANDA TIM",
-      "tag": "FCW",
-      "logo_url": "/storage/teams/fcwandatim.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcwandatim.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 8,
-      "goals_conceded": 6,
-      "goal_difference": 2,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 19,
       "id": 111,
       "name": "4SINS",
       "tag": "4SI",
@@ -321,6 +304,23 @@
       "goals_scored": 11,
       "goals_conceded": 10,
       "goal_difference": 1,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 19,
+      "id": 115,
+      "name": "FC WANDA TIM",
+      "tag": "FCW",
+      "logo_url": "/storage/teams/fcwandatim.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\fcwandatim.png",
+      "points": 3,
+      "played": 3,
+      "wins": 1,
+      "draws": 0,
+      "losses": 2,
+      "goals_scored": 8,
+      "goals_conceded": 8,
+      "goal_difference": 0,
       "disciplinary_points": 0
     },
     {

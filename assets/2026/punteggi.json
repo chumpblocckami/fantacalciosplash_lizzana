@@ -2027,13 +2027,13 @@
   ],
   "Marco Heidempergher | U.SGUARNA": [
     {
-      "goals": 0,
+      "goals": 2,
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 2,
       "goalkeeper_points": 0,
       "mvp_points": 0,
-      "total_points": 2
+      "total_points": 4
     },
     {
       "goals": 2,
@@ -2169,9 +2169,9 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 0,
-      "goalkeeper_points": -2.5,
+      "goalkeeper_points": -3,
       "mvp_points": 0,
-      "total_points": -2.5
+      "total_points": -3
     },
     {
       "goals": 0,
@@ -2529,6 +2529,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Nicola Conti | FC WANDA TIM": [
@@ -2549,6 +2558,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 8
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Carlo Pomarolli | FC WANDA TIM": [
@@ -2569,6 +2587,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": -1
     }
   ],
   "Stefano Rosina | FC WANDA TIM": [
@@ -2589,6 +2616,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 10
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Mattia Spagnolli | FC WANDA TIM": [
@@ -2609,6 +2645,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Emanuele Valduga | FC WANDA TIM": [
@@ -2629,6 +2674,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Andrea Barozzi | AVANZI": [
@@ -4215,6 +4269,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Luca Frasca | CLITORIDERS": [
@@ -4226,6 +4289,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -4255,6 +4327,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Andrea Giordani | CLITORIDERS": [
@@ -4266,6 +4347,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -4295,6 +4385,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Michele Merighi | CLITORIDERS": [
@@ -4306,6 +4405,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -4335,6 +4443,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 12
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Micheal Zanoni | CLITORIDERS": [
@@ -4346,6 +4463,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
