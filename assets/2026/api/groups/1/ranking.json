@@ -240,6 +240,23 @@
     },
     {
       "ranking": 15,
+      "id": 116,
+      "name": "POWER GINGER",
+      "tag": "PWG",
+      "logo_url": "/storage/teams/powerginger.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\powerginger.png",
+      "points": 4,
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goals_scored": 9,
+      "goals_conceded": 10,
+      "goal_difference": -1,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 16,
       "id": 127,
       "name": "BEVEM4TUT",
       "tag": "BEV",
@@ -256,7 +273,7 @@
       "disciplinary_points": 1
     },
     {
-      "ranking": 16,
+      "ranking": 17,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -273,7 +290,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 17,
+      "ranking": 18,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
@@ -290,7 +307,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 18,
+      "ranking": 19,
       "id": 111,
       "name": "4SINS",
       "tag": "4SI",
@@ -307,7 +324,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 19,
+      "ranking": 20,
       "id": 115,
       "name": "FC WANDA TIM",
       "tag": "FCW",
@@ -321,23 +338,6 @@
       "goals_scored": 8,
       "goals_conceded": 8,
       "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 20,
-      "id": 116,
-      "name": "POWER GINGER",
-      "tag": "PWG",
-      "logo_url": "/storage/teams/powerginger.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\powerginger.png",
-      "points": 3,
-      "played": 2,
-      "wins": 1,
-      "draws": 0,
-      "losses": 1,
-      "goals_scored": 7,
-      "goals_conceded": 8,
-      "goal_difference": -1,
       "disciplinary_points": 0
     },
     {
@@ -393,6 +393,23 @@
     },
     {
       "ranking": 24,
+      "id": 112,
+      "name": "AVANZI",
+      "tag": "AVA",
+      "logo_url": "/storage/teams/avanzi.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
+      "points": 1,
+      "played": 3,
+      "wins": 0,
+      "draws": 1,
+      "losses": 2,
+      "goals_scored": 4,
+      "goals_conceded": 13,
+      "goal_difference": -9,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 25,
       "id": 97,
       "name": "FC SCHALKE 104",
       "tag": "SCH",
@@ -409,7 +426,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 25,
+      "ranking": 26,
       "id": 102,
       "name": "P.S.G.",
       "tag": "PSG",
@@ -426,7 +443,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 26,
+      "ranking": 27,
       "id": 103,
       "name": "QUEI STRAZI",
       "tag": "QSZ",
@@ -440,23 +457,6 @@
       "goals_scored": 5,
       "goals_conceded": 10,
       "goal_difference": -5,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 27,
-      "id": 112,
-      "name": "AVANZI",
-      "tag": "AVA",
-      "logo_url": "/storage/teams/avanzi.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
-      "points": 0,
-      "played": 2,
-      "wins": 0,
-      "draws": 0,
-      "losses": 2,
-      "goals_scored": 2,
-      "goals_conceded": 11,
-      "goal_difference": -9,
       "disciplinary_points": 0
     },
     {
