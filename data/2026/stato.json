@@ -1,8 +1,8 @@
 {
   "finished": false,
-  "knockouts_started": false,
-  "apply_malus": false,
-  "rounds": 3,
-  "matches_played": 45,
-  "matches_remaining": 8
+  "knockouts_started": true,
+  "apply_malus": true,
+  "rounds": 4,
+  "matches_played": 47,
+  "matches_remaining": 6
 }

@@ -61,11 +61,11 @@
         "id": 830,
         "name": "Manuel",
         "surname": "Pedrotti",
-        "username": null,
+        "username": "Pesto radicchio e speck",
         "birth_date": "1999-02-27T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\manuelpedrotti.png"
       }
     ]
   }

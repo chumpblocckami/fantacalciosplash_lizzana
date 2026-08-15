@@ -2,6 +2,40 @@
   "data": [
     {
       "ranking": 1,
+      "id": 123,
+      "name": "SUGHI",
+      "tag": "SUG",
+      "logo_url": "/storage/teams/sughi.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sughi.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 8,
+      "goals_conceded": 4,
+      "goal_difference": 4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
+      "id": 89,
+      "name": "U.SGUARNA",
+      "tag": "USG",
+      "logo_url": "/storage/teams/usguarna.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 5,
+      "goals_conceded": 1,
+      "goal_difference": 4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 3,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -18,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 2,
+      "ranking": 4,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -35,24 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
-      "id": 89,
-      "name": "U.SGUARNA",
-      "tag": "USG",
-      "logo_url": "/storage/teams/usguarna.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 4,
+      "ranking": 5,
       "id": 96,
       "name": "FC SALAGIARDINI",
       "tag": "FCS",
@@ -69,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
@@ -86,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 106,
       "name": "F.C. GORILLAZ",
       "tag": "FCG",
@@ -103,41 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
-      "id": 111,
-      "name": "4SINS",
-      "tag": "4SI",
-      "logo_url": "/storage/teams/4sins.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
       "ranking": 8,
-      "id": 112,
-      "name": "AVANZI",
-      "tag": "AVA",
-      "logo_url": "/storage/teams/avanzi.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 9,
       "id": 113,
       "name": "SDRUMALA",
       "tag": "SDR",
@@ -154,7 +137,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 10,
+      "ranking": 9,
       "id": 115,
       "name": "FC WANDA TIM",
       "tag": "FCW",
@@ -171,7 +154,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 11,
+      "ranking": 10,
       "id": 116,
       "name": "POWER GINGER",
       "tag": "PWG",
@@ -188,7 +171,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 12,
+      "ranking": 11,
       "id": 119,
       "name": "C.G.B. CHELE DI CHERNO",
       "tag": "CGB",
@@ -205,24 +188,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 13,
-      "id": 123,
-      "name": "SUGHI",
-      "tag": "SUG",
-      "logo_url": "/storage/teams/sughi.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sughi.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 14,
+      "ranking": 12,
       "id": 124,
       "name": "NAZIONALE FERROVIERI",
       "tag": "NAZ",
@@ -239,7 +205,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 15,
+      "ranking": 13,
       "id": 127,
       "name": "BEVEM4TUT",
       "tag": "BEV",
@@ -256,7 +222,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 16,
+      "ranking": 14,
       "id": 128,
       "name": "A.C.DENTI",
       "tag": "ACD",
@@ -270,6 +236,40 @@
       "goals_scored": 0,
       "goals_conceded": 0,
       "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 15,
+      "id": 111,
+      "name": "4SINS",
+      "tag": "4SI",
+      "logo_url": "/storage/teams/4sins.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 4,
+      "goals_conceded": 8,
+      "goal_difference": -4,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 16,
+      "id": 112,
+      "name": "AVANZI",
+      "tag": "AVA",
+      "logo_url": "/storage/teams/avanzi.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\avanzi.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 5,
+      "goal_difference": -4,
       "disciplinary_points": 0
     }
   ]
