@@ -1070,6 +1070,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -2.5,
+      "mvp_points": 0,
+      "total_points": -2.5
     }
   ],
   "Wilson Bona | NAZIONALE FERROVIERI": [
@@ -1099,6 +1108,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Lorenzo Casari | NAZIONALE FERROVIERI": [
@@ -1128,6 +1146,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Fabio Daves | NAZIONALE FERROVIERI": [
@@ -1157,6 +1184,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Michele Eccel | NAZIONALE FERROVIERI": [
@@ -1186,6 +1222,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Leonardo Fedrigotti | NAZIONALE FERROVIERI": [
@@ -1215,6 +1260,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Pietro Marchesini | NAZIONALE FERROVIERI": [
@@ -1244,6 +1298,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -2.5,
+      "mvp_points": 0,
+      "total_points": -2.5
     }
   ],
   "Andrea Aste | PINGUINI TRENTINI": [
@@ -5660,6 +5723,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Maverick Bertolini | A.C.DENTI": [
@@ -5689,6 +5761,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Sayf Brick | A.C.DENTI": [
@@ -5718,6 +5799,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Emil Enriconi | A.C.DENTI": [
@@ -5747,6 +5837,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -0.5,
+      "mvp_points": 0,
+      "total_points": 1.5
     }
   ],
   "Mario Grifeo | A.C.DENTI": [
@@ -5776,6 +5875,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Samuele Kettmaier | A.C.DENTI": [
@@ -5805,6 +5913,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -0.5,
+      "mvp_points": 0,
+      "total_points": 1.5
     }
   ],
   "Federico Zanini | A.C.DENTI": [
@@ -5834,6 +5951,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Roberto Barozzi | DEMOBUSTERS": [

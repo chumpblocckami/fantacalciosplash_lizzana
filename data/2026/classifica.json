@@ -8,16 +8,16 @@
     "Punteggio": 73
   },
   {
+    "Allenatore": "Lorenzo Zuani",
+    "Punteggio": 67.5
+  },
+  {
     "Allenatore": "Davide Rosà",
     "Punteggio": 67.5
   },
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
     "Punteggio": 66
-  },
-  {
-    "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 63.5
   },
   {
     "Allenatore": "Federico Fasanelli",
@@ -80,6 +80,10 @@
     "Punteggio": 37
   },
   {
+    "Allenatore": "Niccolò Orsi",
+    "Punteggio": 36.5
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 35.5
   },
@@ -92,15 +96,11 @@
     "Punteggio": 34.5
   },
   {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 33
+    "Allenatore": "Nicolas Giordani",
+    "Punteggio": 32
   },
   {
     "Allenatore": "Michela Menghini",
-    "Punteggio": 28
-  },
-  {
-    "Allenatore": "Nicolas Giordani",
     "Punteggio": 28
   },
   {
@@ -110,6 +110,10 @@
   {
     "Allenatore": "Valentina Perghem",
     "Punteggio": 27
+  },
+  {
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 26.5
   },
   {
     "Allenatore": "Marco Sartorelli",
@@ -124,8 +128,8 @@
     "Punteggio": 23.5
   },
   {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 22.5
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 19
   },
   {
     "Allenatore": "Daniele Feltrinelli",
@@ -134,9 +138,5 @@
   {
     "Allenatore": "Michele Bertolini",
     "Punteggio": 17
-  },
-  {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 15
   }
 ]

@@ -72,6 +72,15 @@
     "Total": 18
   },
   {
+    "player": "Emil Enriconi | A.C.DENTI",
+    "Match 1": 9,
+    "Match 2": 0,
+    "Match 3": 6,
+    "Match 4": 1.5,
+    "Premi": 0,
+    "Total": 16.5
+  },
+  {
     "player": "Riccardo Zaffoni | U.SGUARNA",
     "Match 1": 6,
     "Match 2": 0,
@@ -99,11 +108,38 @@
     "Total": 15
   },
   {
+    "player": "Samuele Kettmaier | A.C.DENTI",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 6,
+    "Match 4": 1.5,
+    "Premi": 0,
+    "Total": 14.5
+  },
+  {
     "player": "Leonardo Comper | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
     "Match 3": 2,
     "Match 4": 4,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
+    "player": "Michael Bertè | A.C.DENTI",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
+    "player": "Maverick Bertolini | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": 3,
+    "Match 3": 1,
+    "Match 4": 6,
     "Premi": 0,
     "Total": 14
   },
@@ -129,15 +165,6 @@
     "player": "Andrea Anzelini | GREP",
     "Match 1": 6,
     "Match 2": 3,
-    "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 13
-  },
-  {
-    "player": "Emil Enriconi | A.C.DENTI",
-    "Match 1": 9,
-    "Match 2": 0,
     "Match 3": 6,
     "Match 4": -2,
     "Premi": 0,
@@ -216,6 +243,15 @@
     "Total": 12
   },
   {
+    "player": "Sayf Brick | A.C.DENTI",
+    "Match 1": 6,
+    "Match 2": 3,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
     "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
     "Match 1": 5,
     "Match 2": 3,
@@ -266,15 +302,6 @@
     "Match 2": 0,
     "Match 3": 1,
     "Match 4": 6,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Samuele Kettmaier | A.C.DENTI",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 6,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 11
   },
@@ -405,6 +432,15 @@
     "Total": 9
   },
   {
+    "player": "Michele Eccel | NAZIONALE FERROVIERI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 6,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
     "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
     "Match 1": 4,
     "Match 2": 4,
@@ -450,11 +486,20 @@
     "Total": 8
   },
   {
-    "player": "Sayf Brick | A.C.DENTI",
-    "Match 1": 6,
-    "Match 2": 3,
+    "player": "Mario Grifeo | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": -1,
     "Match 3": 1,
-    "Match 4": -2,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Federico Zanini | A.C.DENTI",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 1,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 8
   },
@@ -576,15 +621,6 @@
     "Total": 6.5
   },
   {
-    "player": "Michele Eccel | NAZIONALE FERROVIERI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
     "player": "Luca Lasta | PINGUINI TRENTINI",
     "Match 1": 2,
     "Match 2": 4,
@@ -626,24 +662,6 @@
     "Match 2": 0,
     "Match 3": 6,
     "Match 4": 0,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Michael Bertè | A.C.DENTI",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Maverick Bertolini | A.C.DENTI",
-    "Match 1": 4,
-    "Match 2": 3,
-    "Match 3": 1,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 6
   },
@@ -810,6 +828,15 @@
     "Total": 4
   },
   {
+    "player": "Wilson Bona | NAZIONALE FERROVIERI",
+    "Match 1": -2,
+    "Match 2": 0,
+    "Match 3": 4,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
     "player": "Andrea Aste | PINGUINI TRENTINI",
     "Match 1": 2,
     "Match 2": 2,
@@ -860,15 +887,6 @@
     "Match 2": 0,
     "Match 3": 4,
     "Match 4": 0,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Federico Zanini | A.C.DENTI",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 1,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 4
   },
@@ -1188,6 +1206,33 @@
     "Total": 2
   },
   {
+    "player": "Lorenzo Casari | NAZIONALE FERROVIERI",
+    "Match 1": 0,
+    "Match 2": 0,
+    "Match 3": 2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Fabio Daves | NAZIONALE FERROVIERI",
+    "Match 1": 0,
+    "Match 2": 0,
+    "Match 3": 2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
+    "player": "Leonardo Fedrigotti | NAZIONALE FERROVIERI",
+    "Match 1": 0,
+    "Match 2": 0,
+    "Match 3": 2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 2
+  },
+  {
     "player": "Emanuele Valduga | FC WANDA TIM",
     "Match 1": 0,
     "Match 2": 4,
@@ -1242,15 +1287,6 @@
     "Total": 2
   },
   {
-    "player": "Mario Grifeo | A.C.DENTI",
-    "Match 1": 4,
-    "Match 2": -1,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -1285,24 +1321,6 @@
     "Match 4": -2,
     "Premi": 0,
     "Total": 2
-  },
-  {
-    "player": "Andrea Bellini | NAZIONALE FERROVIERI",
-    "Match 1": -1.5,
-    "Match 2": -2,
-    "Match 3": 7,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1.5
-  },
-  {
-    "player": "Pietro Marchesini | NAZIONALE FERROVIERI",
-    "Match 1": -1.5,
-    "Match 2": -2,
-    "Match 3": 7,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 1.5
   },
   {
     "player": "Emiliano Bici | POWER GINGER",
@@ -1404,6 +1422,24 @@
     "Total": 1
   },
   {
+    "player": "Andrea Bellini | NAZIONALE FERROVIERI",
+    "Match 1": -1.5,
+    "Match 2": -2,
+    "Match 3": 7,
+    "Match 4": -2.5,
+    "Premi": 0,
+    "Total": 1
+  },
+  {
+    "player": "Pietro Marchesini | NAZIONALE FERROVIERI",
+    "Match 1": -1.5,
+    "Match 2": -2,
+    "Match 3": 7,
+    "Match 4": -2.5,
+    "Premi": 0,
+    "Total": 1
+  },
+  {
     "player": "Maurizio Maffei | BEVEM4TUT",
     "Match 1": 0,
     "Match 2": 2,
@@ -1498,42 +1534,6 @@
     "Match 1": 2,
     "Match 2": 0,
     "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Wilson Bona | NAZIONALE FERROVIERI",
-    "Match 1": -2,
-    "Match 2": 0,
-    "Match 3": 4,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Lorenzo Casari | NAZIONALE FERROVIERI",
-    "Match 1": 0,
-    "Match 2": 0,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Fabio Daves | NAZIONALE FERROVIERI",
-    "Match 1": 0,
-    "Match 2": 0,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Leonardo Fedrigotti | NAZIONALE FERROVIERI",
-    "Match 1": 0,
-    "Match 2": 0,
-    "Match 3": 2,
     "Match 4": -2,
     "Premi": 0,
     "Total": 0

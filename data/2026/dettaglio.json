@@ -713,9 +713,380 @@
     ]
   },
   {
-    "Allenatore": "Davide Rosà",
+    "Allenatore": "Lorenzo Zuani",
     "Punteggio": 67.5,
     "rank": 3,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Elia Barozzi | I MAGNIFICI",
+        "name": "Elia Barozzi",
+        "team": "I MAGNIFICI",
+        "counted_total": 12.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "3 gol subiti",
+                "points": -1.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Matteo Diener | U.SGUARNA",
+        "name": "Matteo Diener",
+        "team": "U.SGUARNA",
+        "counted_total": 24,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 23,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Federico Zanini | A.C.DENTI",
+        "name": "Federico Zanini",
+        "team": "A.C.DENTI",
+        "counted_total": 8,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Giovanni Raoss | I MAGNIFICI",
+        "name": "Giovanni Raoss",
+        "team": "I MAGNIFICI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "panchina",
+            "counted": false,
+            "total": -2,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 67.5,
+    "rank": 4,
     "players": [
       {
         "slot": "Portiere",
@@ -1071,7 +1442,7 @@
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
     "Punteggio": 66,
-    "rank": 4,
+    "rank": 5,
     "players": [
       {
         "slot": "Portiere",
@@ -1426,377 +1797,6 @@
             "status": "subentrato",
             "counted": true,
             "total": 0,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 63.5,
-    "rank": 5,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Elia Barozzi | I MAGNIFICI",
-        "name": "Elia Barozzi",
-        "team": "I MAGNIFICI",
-        "counted_total": 12.5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "3 gol subiti",
-                "points": -1.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Matteo Diener | U.SGUARNA",
-        "name": "Matteo Diener",
-        "team": "U.SGUARNA",
-        "counted_total": 24,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 23,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 12,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "5 gol",
-                "points": 10
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Federico Zanini | A.C.DENTI",
-        "name": "Federico Zanini",
-        "team": "A.C.DENTI",
-        "counted_total": 4,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Giovanni Raoss | I MAGNIFICI",
-        "name": "Giovanni Raoss",
-        "team": "I MAGNIFICI",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "panchina",
-            "counted": false,
-            "total": -2,
             "chips": []
           }
         ]
@@ -7164,9 +7164,359 @@
     ]
   },
   {
+    "Allenatore": "Niccolò Orsi",
+    "Punteggio": 36.5,
+    "rank": 21,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Samuele Kettmaier | A.C.DENTI",
+        "name": "Samuele Kettmaier",
+        "team": "A.C.DENTI",
+        "counted_total": 14.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 7,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Federico Nicolodi | U.SGUARNA",
+        "name": "Federico Nicolodi",
+        "team": "U.SGUARNA",
+        "counted_total": 10,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": []
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Alessio Bragagna | SHARK ATTACK",
+        "name": "Alessio Bragagna",
+        "team": "SHARK ATTACK",
+        "counted_total": 9,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Michele Merighi | CLITORIDERS",
+        "name": "Michele Merighi",
+        "team": "CLITORIDERS",
+        "counted_total": 3,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Davide Bazzano | I MONTAGNA",
+        "name": "Davide Bazzano",
+        "team": "I MONTAGNA",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "panchina",
+            "counted": false,
+            "total": -2,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 35.5,
-    "rank": 21,
+    "rank": 22,
     "players": [
       {
         "slot": "Portiere",
@@ -7495,7 +7845,7 @@
   {
     "Allenatore": "Marco Sala",
     "Punteggio": 35,
-    "rank": 22,
+    "rank": 23,
     "players": [
       {
         "slot": "Portiere",
@@ -7829,7 +8179,7 @@
   {
     "Allenatore": "Matteo Mazzola",
     "Punteggio": 34.5,
-    "rank": 23,
+    "rank": 24,
     "players": [
       {
         "slot": "Portiere",
@@ -8177,38 +8527,20 @@
     ]
   },
   {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 33,
-    "rank": 24,
+    "Allenatore": "Nicolas Giordani",
+    "Punteggio": 32,
+    "rank": 25,
     "players": [
       {
         "slot": "Portiere",
-        "player": "Samuele Kettmaier | A.C.DENTI",
-        "name": "Samuele Kettmaier",
-        "team": "A.C.DENTI",
-        "counted_total": 11,
+        "player": "Daniele Dalbosco | I MONTAGNA",
+        "name": "Daniele Dalbosco",
+        "team": "I MONTAGNA",
+        "counted_total": 0,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 7,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
             "status": "in_campo",
             "counted": true,
             "total": 0,
@@ -8226,20 +8558,38 @@
             ]
           },
           {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "3 gol subiti",
+                "points": -1.5
+              }
+            ]
+          },
+          {
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 6,
+            "total": 1.5,
             "chips": [
               {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
               },
               {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
               }
             ]
           },
@@ -8260,129 +8610,63 @@
       },
       {
         "slot": "Titolare 1",
-        "player": "Federico Nicolodi | U.SGUARNA",
-        "name": "Federico Nicolodi",
-        "team": "U.SGUARNA",
-        "counted_total": 10,
+        "player": "Federico Mortillaro | CLITORIDERS",
+        "name": "Federico Mortillaro",
+        "team": "CLITORIDERS",
+        "counted_total": 21,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 4,
+            "total": 5,
             "chips": [
               {
                 "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": []
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Alessio Bragagna | SHARK ATTACK",
-        "name": "Alessio Bragagna",
-        "team": "SHARK ATTACK",
-        "counted_total": 9,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
+                "label": "2 gol",
+                "points": 4
               },
               {
                 "kind": "draw",
                 "label": "pareggio",
                 "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
               }
             ]
           },
@@ -8402,15 +8686,33 @@
         ]
       },
       {
-        "slot": "Titolare 3",
-        "player": "Michele Merighi | CLITORIDERS",
-        "name": "Michele Merighi",
-        "team": "CLITORIDERS",
-        "counted_total": 3,
+        "slot": "Titolare 2",
+        "player": "Federico Zanini | A.C.DENTI",
+        "name": "Federico Zanini",
+        "team": "A.C.DENTI",
+        "counted_total": 8,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
             "status": "in_campo",
             "counted": true,
             "total": 1,
@@ -8419,6 +8721,55 @@
                 "kind": "draw",
                 "label": "pareggio",
                 "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Gabriele Brentari | SHARK ATTACK",
+        "name": "Gabriele Brentari",
+        "team": "SHARK ATTACK",
+        "counted_total": 3,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
               }
             ]
           },
@@ -8439,12 +8790,12 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 1,
             "chips": [
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               }
             ]
           },
@@ -8465,8 +8816,8 @@
       },
       {
         "slot": "Riserva",
-        "player": "Davide Bazzano | I MONTAGNA",
-        "name": "Davide Bazzano",
+        "player": "Marco Mutinelli | I MONTAGNA",
+        "name": "Marco Mutinelli",
         "team": "I MONTAGNA",
         "counted_total": 0,
         "premi": 0,
@@ -8475,8 +8826,13 @@
             "column": "Match 1",
             "status": "panchina",
             "counted": false,
-            "total": 1,
+            "total": 3,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
               {
                 "kind": "draw",
                 "label": "pareggio",
@@ -8488,8 +8844,13 @@
             "column": "Match 2",
             "status": "panchina",
             "counted": false,
-            "total": 2,
+            "total": 4,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -8524,7 +8885,7 @@
   {
     "Allenatore": "Michela Menghini",
     "Punteggio": 28,
-    "rank": 25,
+    "rank": 26,
     "players": [
       {
         "slot": "Portiere",
@@ -8848,362 +9209,6 @@
             "counted": false,
             "total": 0,
             "chips": []
-          },
-          {
-            "column": "Match 4",
-            "status": "panchina",
-            "counted": false,
-            "total": -2,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Nicolas Giordani",
-    "Punteggio": 28,
-    "rank": 26,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Daniele Dalbosco | I MONTAGNA",
-        "name": "Daniele Dalbosco",
-        "team": "I MONTAGNA",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "3 gol subiti",
-                "points": -1.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Federico Mortillaro | CLITORIDERS",
-        "name": "Federico Mortillaro",
-        "team": "CLITORIDERS",
-        "counted_total": 21,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 5,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 12,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "5 gol",
-                "points": 10
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Federico Zanini | A.C.DENTI",
-        "name": "Federico Zanini",
-        "team": "A.C.DENTI",
-        "counted_total": 4,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Gabriele Brentari | SHARK ATTACK",
-        "name": "Gabriele Brentari",
-        "team": "SHARK ATTACK",
-        "counted_total": 3,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Marco Mutinelli | I MONTAGNA",
-        "name": "Marco Mutinelli",
-        "team": "I MONTAGNA",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
           },
           {
             "column": "Match 4",
@@ -9902,9 +9907,365 @@
     ]
   },
   {
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 26.5,
+    "rank": 29,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Nicolas Giordani | FC SAVIGNANO",
+        "name": "Nicolas Giordani",
+        "team": "FC SAVIGNANO",
+        "counted_total": 12.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3.5,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 9,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "cleansheet",
+                "label": "clean sheet",
+                "points": 5
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Federico Zanini | A.C.DENTI",
+        "name": "Federico Zanini",
+        "team": "A.C.DENTI",
+        "counted_total": 8,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Luca Frasca | CLITORIDERS",
+        "name": "Luca Frasca",
+        "team": "CLITORIDERS",
+        "counted_total": 3,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Jacopo Chemini | I MONTAGNA",
+        "name": "Jacopo Chemini",
+        "team": "I MONTAGNA",
+        "counted_total": 3,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Danny Giordani | I MAGNIFICI",
+        "name": "Danny Giordani",
+        "team": "I MAGNIFICI",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 4,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "panchina",
+            "counted": false,
+            "total": -2,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
     "Allenatore": "Marco Sartorelli",
     "Punteggio": 25.5,
-    "rank": 29,
+    "rank": 30,
     "players": [
       {
         "slot": "Portiere",
@@ -10227,7 +10588,7 @@
   {
     "Allenatore": "Marco Miotto",
     "Punteggio": 24,
-    "rank": 30,
+    "rank": 31,
     "players": [
       {
         "slot": "Portiere",
@@ -10562,7 +10923,7 @@
   {
     "Allenatore": "Davide Zeni",
     "Punteggio": 23.5,
-    "rank": 31,
+    "rank": 32,
     "players": [
       {
         "slot": "Portiere",
@@ -10916,38 +11277,33 @@
     ]
   },
   {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 22.5,
-    "rank": 32,
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 19,
+    "rank": 33,
     "players": [
       {
         "slot": "Portiere",
-        "player": "Nicolas Giordani | FC SAVIGNANO",
-        "name": "Nicolas Giordani",
-        "team": "FC SAVIGNANO",
-        "counted_total": 12.5,
+        "player": "Alberto Cerisara | SHARK ATTACK",
+        "name": "Alberto Cerisara",
+        "team": "SHARK ATTACK",
+        "counted_total": 0,
         "premi": 0,
         "matches": [
           {
             "column": "Match 1",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 1.5,
             "chips": [
               {
-                "kind": "goals",
-                "label": "1 gol",
+                "kind": "win",
+                "label": "vittoria",
                 "points": 2
               },
               {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
                 "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
+                "label": "1 gol subito",
+                "points": -0.5
               }
             ]
           },
@@ -10955,13 +11311,8 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 3.5,
+            "total": 1.5,
             "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -10978,22 +11329,17 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 9,
+            "total": -1,
             "chips": [
               {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
               },
               {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "cleansheet",
-                "label": "clean sheet",
-                "points": 5
+                "kind": "conceded",
+                "label": "4 gol subiti",
+                "points": -2
               }
             ]
           },
@@ -11014,10 +11360,72 @@
       },
       {
         "slot": "Titolare 1",
+        "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
+        "name": "Sebastiano Zoller",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 2,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
         "player": "Federico Zanini | A.C.DENTI",
         "name": "Federico Zanini",
         "team": "A.C.DENTI",
-        "counted_total": 4,
+        "counted_total": 8,
         "premi": 0,
         "matches": [
           {
@@ -11066,42 +11474,6 @@
           },
           {
             "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Luca Frasca | CLITORIDERS",
-        "name": "Luca Frasca",
-        "team": "CLITORIDERS",
-        "counted_total": 3,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
             "status": "in_campo",
             "counted": true,
             "total": 2,
@@ -11110,32 +11482,6 @@
                 "kind": "win",
                 "label": "vittoria",
                 "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
               }
             ]
           }
@@ -11143,10 +11489,10 @@
       },
       {
         "slot": "Titolare 3",
-        "player": "Jacopo Chemini | I MONTAGNA",
-        "name": "Jacopo Chemini",
+        "player": "Federico Andreis | I MONTAGNA",
+        "name": "Federico Andreis",
         "team": "I MONTAGNA",
-        "counted_total": 3,
+        "counted_total": 9,
         "premi": 0,
         "matches": [
           {
@@ -11166,8 +11512,13 @@
             "column": "Match 2",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 4,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -11179,8 +11530,13 @@
             "column": "Match 3",
             "status": "in_campo",
             "counted": true,
-            "total": 2,
+            "total": 6,
             "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
               {
                 "kind": "win",
                 "label": "vittoria",
@@ -11205,9 +11561,9 @@
       },
       {
         "slot": "Riserva",
-        "player": "Danny Giordani | I MAGNIFICI",
-        "name": "Danny Giordani",
-        "team": "I MAGNIFICI",
+        "player": "Octavian Fusari | FC SCHALKE 104",
+        "name": "Octavian Fusari",
+        "team": "FC SCHALKE 104",
         "counted_total": 0,
         "premi": 0,
         "matches": [
@@ -11215,25 +11571,7 @@
             "column": "Match 1",
             "status": "panchina",
             "counted": false,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 4,
+            "total": 3,
             "chips": [
               {
                 "kind": "goals",
@@ -11241,8 +11579,21 @@
                 "points": 2
               },
               {
-                "kind": "win",
-                "label": "vittoria",
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
                 "points": 2
               }
             ]
@@ -11251,14 +11602,8 @@
             "column": "Match 3",
             "status": "panchina",
             "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
+            "total": 0,
+            "chips": []
           },
           {
             "column": "Match 4",
@@ -11274,7 +11619,7 @@
   {
     "Allenatore": "Daniele Feltrinelli",
     "Punteggio": 18,
-    "rank": 33,
+    "rank": 34,
     "players": [
       {
         "slot": "Portiere",
@@ -11608,7 +11953,7 @@
   {
     "Allenatore": "Michele Bertolini",
     "Punteggio": 17,
-    "rank": 34,
+    "rank": 35,
     "players": [
       {
         "slot": "Portiere",
@@ -11939,346 +12284,6 @@
                 "points": 2
               }
             ]
-          },
-          {
-            "column": "Match 4",
-            "status": "panchina",
-            "counted": false,
-            "total": -2,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 15,
-    "rank": 35,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Alberto Cerisara | SHARK ATTACK",
-        "name": "Alberto Cerisara",
-        "team": "SHARK ATTACK",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1.5,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": -1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "4 gol subiti",
-                "points": -2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Sebastiano Zoller | C.G.B. CHELE DI CHERNO",
-        "name": "Sebastiano Zoller",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 2,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Federico Zanini | A.C.DENTI",
-        "name": "Federico Zanini",
-        "team": "A.C.DENTI",
-        "counted_total": 4,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Federico Andreis | I MONTAGNA",
-        "name": "Federico Andreis",
-        "team": "I MONTAGNA",
-        "counted_total": 9,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 4,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Octavian Fusari | FC SCHALKE 104",
-        "name": "Octavian Fusari",
-        "team": "FC SCHALKE 104",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 0,
-            "chips": []
           },
           {
             "column": "Match 4",
