@@ -7,14 +7,14 @@
       "tag": "PAN",
       "logo_url": "/storage/teams/panchamahbahuta.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\panchamahbahuta.png",
-      "points": 6,
-      "played": 2,
-      "wins": 2,
+      "points": 9,
+      "played": 3,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goals_scored": 7,
+      "goals_scored": 12,
       "goals_conceded": 2,
-      "goal_difference": 5,
+      "goal_difference": 10,
       "disciplinary_points": 0
     },
     {
@@ -76,13 +76,13 @@
       "logo_url": "/storage/teams/wanditas.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\wanditas.png",
       "points": 0,
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goals_scored": 1,
-      "goals_conceded": 3,
-      "goal_difference": -2,
+      "goals_conceded": 8,
+      "goal_difference": -7,
       "disciplinary_points": 0
     }
   ]
