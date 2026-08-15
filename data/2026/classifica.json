@@ -40,6 +40,10 @@
     "Punteggio": 48
   },
   {
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 46.5
+  },
+  {
     "Allenatore": "Dalila Valzolgher",
     "Punteggio": 46.5
   },
@@ -54,10 +58,6 @@
   {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 45
-  },
-  {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 44.5
   },
   {
     "Allenatore": "Matteo Giovanella",

@@ -3630,9 +3630,375 @@
     ]
   },
   {
-    "Allenatore": "Dalila Valzolgher",
+    "Allenatore": "Sebastiano Zoller",
     "Punteggio": 46.5,
     "rank": 11,
+    "players": [
+      {
+        "slot": "Portiere",
+        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+        "name": "Diego Passerini",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": -0.5,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0.5,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              },
+              {
+                "kind": "conceded",
+                "label": "1 gol subito",
+                "points": -0.5
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              },
+              {
+                "kind": "conceded",
+                "label": "2 gol subiti",
+                "points": -1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 1",
+        "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
+        "name": "Gabriele Gottardi",
+        "team": "C.G.B. CHELE DI CHERNO",
+        "counted_total": 12,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 5,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 6,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "2 gol",
+                "points": 4
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 2",
+        "player": "Nicolò Speziali | F.C. GORILLAZ",
+        "name": "Nicolò Speziali",
+        "team": "F.C. GORILLAZ",
+        "counted_total": 12,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "in_campo",
+            "counted": true,
+            "total": 0,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "yellow",
+                "label": "1 giallo",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Titolare 3",
+        "player": "Andrea Conzatti | FC SAVIGNANO",
+        "name": "Andrea Conzatti",
+        "team": "FC SAVIGNANO",
+        "counted_total": 23,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "in_campo",
+            "counted": true,
+            "total": 3,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "1 gol",
+                "points": 2
+              },
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "in_campo",
+            "counted": true,
+            "total": 10,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "4 gol",
+                "points": 8
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "in_campo",
+            "counted": true,
+            "total": 12,
+            "chips": [
+              {
+                "kind": "goals",
+                "label": "5 gol",
+                "points": 10
+              },
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "eliminato",
+            "counted": true,
+            "total": -2,
+            "chips": [
+              {
+                "kind": "malus",
+                "label": "fase non disputata",
+                "points": -2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Riserva",
+        "player": "Davide Bazzano | I MONTAGNA",
+        "name": "Davide Bazzano",
+        "team": "I MONTAGNA",
+        "counted_total": 0,
+        "premi": 0,
+        "matches": [
+          {
+            "column": "Match 1",
+            "status": "panchina",
+            "counted": false,
+            "total": 1,
+            "chips": [
+              {
+                "kind": "draw",
+                "label": "pareggio",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "column": "Match 2",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 3",
+            "status": "panchina",
+            "counted": false,
+            "total": 2,
+            "chips": [
+              {
+                "kind": "win",
+                "label": "vittoria",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "column": "Match 4",
+            "status": "panchina",
+            "counted": false,
+            "total": -2,
+            "chips": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 46.5,
+    "rank": 12,
     "players": [
       {
         "slot": "Portiere",
@@ -3988,7 +4354,7 @@
   {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 45.5,
-    "rank": 12,
+    "rank": 13,
     "players": [
       {
         "slot": "Portiere",
@@ -4327,7 +4693,7 @@
   {
     "Allenatore": "Leonardo Parisi",
     "Punteggio": 45,
-    "rank": 13,
+    "rank": 14,
     "players": [
       {
         "slot": "Portiere",
@@ -4687,7 +5053,7 @@
   {
     "Allenatore": "Matteo Pilati",
     "Punteggio": 45,
-    "rank": 14,
+    "rank": 15,
     "players": [
       {
         "slot": "Portiere",
@@ -5009,367 +5375,6 @@
                 "kind": "draw",
                 "label": "pareggio",
                 "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "panchina",
-            "counted": false,
-            "total": -2,
-            "chips": []
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 44.5,
-    "rank": 15,
-    "players": [
-      {
-        "slot": "Portiere",
-        "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-        "name": "Diego Passerini",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": -0.5,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 0.5,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              },
-              {
-                "kind": "conceded",
-                "label": "1 gol subito",
-                "points": -0.5
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              },
-              {
-                "kind": "conceded",
-                "label": "2 gol subiti",
-                "points": -1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 1",
-        "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
-        "name": "Gabriele Gottardi",
-        "team": "C.G.B. CHELE DI CHERNO",
-        "counted_total": 12,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 5,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 6,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "2 gol",
-                "points": 4
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 2",
-        "player": "Nicolò Speziali | F.C. GORILLAZ",
-        "name": "Nicolò Speziali",
-        "team": "F.C. GORILLAZ",
-        "counted_total": 10,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Titolare 3",
-        "player": "Andrea Conzatti | FC SAVIGNANO",
-        "name": "Andrea Conzatti",
-        "team": "FC SAVIGNANO",
-        "counted_total": 23,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "in_campo",
-            "counted": true,
-            "total": 3,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "1 gol",
-                "points": 2
-              },
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "in_campo",
-            "counted": true,
-            "total": 10,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "4 gol",
-                "points": 8
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "in_campo",
-            "counted": true,
-            "total": 12,
-            "chips": [
-              {
-                "kind": "goals",
-                "label": "5 gol",
-                "points": 10
-              },
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 4",
-            "status": "eliminato",
-            "counted": true,
-            "total": -2,
-            "chips": [
-              {
-                "kind": "malus",
-                "label": "fase non disputata",
-                "points": -2
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "slot": "Riserva",
-        "player": "Davide Bazzano | I MONTAGNA",
-        "name": "Davide Bazzano",
-        "team": "I MONTAGNA",
-        "counted_total": 0,
-        "premi": 0,
-        "matches": [
-          {
-            "column": "Match 1",
-            "status": "panchina",
-            "counted": false,
-            "total": 1,
-            "chips": [
-              {
-                "kind": "draw",
-                "label": "pareggio",
-                "points": 1
-              }
-            ]
-          },
-          {
-            "column": "Match 2",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
-              }
-            ]
-          },
-          {
-            "column": "Match 3",
-            "status": "panchina",
-            "counted": false,
-            "total": 2,
-            "chips": [
-              {
-                "kind": "win",
-                "label": "vittoria",
-                "points": 2
               }
             ]
           },

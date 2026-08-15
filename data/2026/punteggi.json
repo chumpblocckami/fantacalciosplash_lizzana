@@ -54,6 +54,15 @@
     "Total": 18
   },
   {
+    "player": "Giovanni Torboli | F.C. GORILLAZ",
+    "Match 1": 5,
+    "Match 2": 12,
+    "Match 3": 1,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 18
+  },
+  {
     "player": "Marco Heidempergher | U.SGUARNA",
     "Match 1": 4,
     "Match 2": 2,
@@ -61,15 +70,6 @@
     "Match 4": 4,
     "Premi": 0,
     "Total": 18
-  },
-  {
-    "player": "Giovanni Torboli | F.C. GORILLAZ",
-    "Match 1": 5,
-    "Match 2": 12,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 16
   },
   {
     "player": "Riccardo Zaffoni | U.SGUARNA",
@@ -180,6 +180,24 @@
     "Total": 12
   },
   {
+    "player": "Samuele Maffei | F.C. GORILLAZ",
+    "Match 1": 1,
+    "Match 2": 6,
+    "Match 3": 5,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
+    "player": "Nicolò Speziali | F.C. GORILLAZ",
+    "Match 1": 1,
+    "Match 2": 10,
+    "Match 3": 1,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
     "player": "Moris Benedetti | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
@@ -270,24 +288,6 @@
     "Total": 10
   },
   {
-    "player": "Samuele Maffei | F.C. GORILLAZ",
-    "Match 1": 1,
-    "Match 2": 6,
-    "Match 3": 5,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Nicolò Speziali | F.C. GORILLAZ",
-    "Match 1": 1,
-    "Match 2": 10,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
     "player": "Federico Nicolodi | U.SGUARNA",
     "Match 1": 4,
     "Match 2": 0,
@@ -302,6 +302,15 @@
     "Match 2": 4,
     "Match 3": 0,
     "Match 4": 2,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Giovanni Giusto | DEMOBUSTERS",
+    "Match 1": 4,
+    "Match 2": 2,
+    "Match 3": 0,
+    "Match 4": 4,
     "Premi": 0,
     "Total": 10
   },
@@ -639,6 +648,24 @@
     "Total": 6
   },
   {
+    "player": "Roberto Barozzi | DEMOBUSTERS",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Matteo Gatti | DEMOBUSTERS",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
     "player": "Simone Schonsberg | I MAGNIFICI",
     "Match 1": 4,
     "Match 2": 2,
@@ -846,11 +873,29 @@
     "Total": 4
   },
   {
-    "player": "Giovanni Giusto | DEMOBUSTERS",
-    "Match 1": 4,
-    "Match 2": 2,
+    "player": "Samuele Rosà | DEMOBUSTERS",
+    "Match 1": 2,
+    "Match 2": 0,
     "Match 3": 0,
-    "Match 4": -2,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Lorenzo Scottini | DEMOBUSTERS",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 4
+  },
+  {
+    "player": "Riccardo Zeni | DEMOBUSTERS",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 0,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 4
   },
@@ -1206,15 +1251,6 @@
     "Total": 2
   },
   {
-    "player": "Roberto Barozzi | DEMOBUSTERS",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 2
-  },
-  {
     "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -1449,6 +1485,15 @@
     "Total": 1
   },
   {
+    "player": "Alessandro Ruele | F.C. GORILLAZ",
+    "Match 1": 0,
+    "Match 2": 1.5,
+    "Match 3": 0,
+    "Match 4": -1,
+    "Premi": 0,
+    "Total": 0.5
+  },
+  {
     "player": "Marco Lutteri | QUEI STRAZI",
     "Match 1": 2,
     "Match 2": 0,
@@ -1566,49 +1611,13 @@
     "Total": 0
   },
   {
-    "player": "Matteo Gatti | DEMOBUSTERS",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
+    "player": "Gabriel Melis | DEMOBUSTERS",
+    "Match 1": 1.5,
+    "Match 2": -2,
+    "Match 3": -1,
+    "Match 4": 1.5,
     "Premi": 0,
     "Total": 0
-  },
-  {
-    "player": "Samuele Rosà | DEMOBUSTERS",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Lorenzo Scottini | DEMOBUSTERS",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Riccardo Zeni | DEMOBUSTERS",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Alessandro Ruele | F.C. GORILLAZ",
-    "Match 1": 0,
-    "Match 2": 1.5,
-    "Match 3": 0,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": -0.5
   },
   {
     "player": "Federico Zoller | GREP",
@@ -1798,15 +1807,6 @@
     "Match 4": -2,
     "Premi": 0,
     "Total": -2.5
-  },
-  {
-    "player": "Gabriel Melis | DEMOBUSTERS",
-    "Match 1": 1.5,
-    "Match 2": -2,
-    "Match 3": -1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": -3.5
   },
   {
     "player": "Federico Madaschi | BEVEM4TUT",
