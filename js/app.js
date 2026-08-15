@@ -152,7 +152,7 @@ function collectLegacySections(extras, edition, data, isCurrentEdition, hasSheet
     extras.push({
       title: `Risultati ⚽ (${data.risultati.length} partite)`,
       id: `risultati-${edition}`,
-      expanded: false,
+      expanded: isCurrentEdition,
       render: (body) => renderScoreboard(body, data.risultati),
     });
   }

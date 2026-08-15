@@ -2,11 +2,10 @@ name: Update Scores
 
 on:
   schedule:
-    # Every 5 minutes, 6am-10pm (UTC), August 13 (tournament day)
-    # Adjust the day/month to match your tournament date
-    - cron: '*/5 6-22 13 8 *'
+    # Every 5 minutes, 6am-10pm (UTC), August 13-16 (tournament days)
+    - cron: '*/5 6-22 13-16 8 *'
     # Once daily the rest of August (for late corrections)
-    - cron: '0 12 14-31 8 *'
+    - cron: '0 12 17-31 8 *'
   workflow_dispatch:
     inputs:
       year:
