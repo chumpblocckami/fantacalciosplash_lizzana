@@ -41,11 +41,11 @@
         "id": 804,
         "name": "Diego",
         "surname": "Passerini",
-        "username": null,
+        "username": "Una bomber",
         "birth_date": "2003-09-29T00:00:00.000Z",
         "is_goalkeeper": true,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\diegopasserini.png"
       },
       {
         "id": 805,
@@ -61,7 +61,7 @@
         "id": 806,
         "name": "Riccardo",
         "surname": "Cesarini Sforza",
-        "username": "",
+        "username": "Quel dal formai",
         "birth_date": "1996-02-18T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",

@@ -21,11 +21,11 @@
         "id": 662,
         "name": "Ilaria",
         "surname": "Stoffella",
-        "username": null,
+        "username": "Fratella",
         "birth_date": "1997-09-22T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\ilariastoffella.png"
       },
       {
         "id": 663,
@@ -51,11 +51,11 @@
         "id": 665,
         "name": "Clara",
         "surname": "Consolati",
-        "username": null,
+        "username": "Erling Haaland",
         "birth_date": "2009-10-12T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultfemale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultfemale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\claraconsolati.png"
       },
       {
         "id": 666,

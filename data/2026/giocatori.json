@@ -86,7 +86,7 @@
   {
     "Nominativo": "Emil Enriconi",
     "Squadra": "A.C.DENTI",
-    "Soprannome": "",
+    "Soprannome": "A-style",
     "Quotazione": 19,
     "Ruolo": "Portiere"
   },
@@ -212,7 +212,7 @@
   {
     "Nominativo": "Diego Passerini",
     "Squadra": "C.G.B. CHELE DI CHERNO",
-    "Soprannome": "",
+    "Soprannome": "Una bomber",
     "Quotazione": 20,
     "Ruolo": "Portiere"
   },
@@ -226,7 +226,7 @@
   {
     "Nominativo": "Riccardo Cesarini Sforza",
     "Squadra": "C.G.B. CHELE DI CHERNO",
-    "Soprannome": "",
+    "Soprannome": "Quel dal formai",
     "Quotazione": 15,
     "Ruolo": "Movimento"
   },
@@ -583,7 +583,7 @@
   {
     "Nominativo": "Tommaso Aste",
     "Squadra": "GLI INTROVABILI",
-    "Soprannome": "",
+    "Soprannome": "Rams23",
     "Quotazione": 19,
     "Ruolo": "Movimento"
   },
@@ -1129,14 +1129,14 @@
   {
     "Nominativo": "Alessandro Sartori",
     "Squadra": "QUEI STRAZI",
-    "Soprannome": "",
+    "Soprannome": "Il sindacalista",
     "Quotazione": 13,
     "Ruolo": "Movimento"
   },
   {
     "Nominativo": "Vincenzo Augusto",
     "Squadra": "QUEI STRAZI",
-    "Soprannome": "",
+    "Soprannome": "Ignoranza artificiale",
     "Quotazione": 12,
     "Ruolo": "Movimento"
   },
@@ -1157,7 +1157,7 @@
   {
     "Nominativo": "Roberto Mancabelli",
     "Squadra": "QUESTI SEN",
-    "Soprannome": "",
+    "Soprannome": "Enunco ",
     "Quotazione": 11,
     "Ruolo": "Portiere"
   },
@@ -1178,7 +1178,7 @@
   {
     "Nominativo": "Massimiliano Baldo",
     "Squadra": "QUESTI SEN",
-    "Soprannome": "",
+    "Soprannome": "Il pirata Pantani",
     "Quotazione": 11,
     "Ruolo": "Portiere"
   },
@@ -1444,7 +1444,7 @@
   {
     "Nominativo": "Marco Heidempergher",
     "Squadra": "U.SGUARNA",
-    "Soprannome": "CAN DAL PORCO",
+    "Soprannome": "Can dal porco",
     "Quotazione": 30,
     "Ruolo": "Movimento"
   },
