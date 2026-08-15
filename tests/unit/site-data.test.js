@@ -41,9 +41,9 @@ describe('the iscrizione deadline', () => {
     assert.equal(String(DEADLINE.getFullYear()), CURRENT_YEAR);
   });
 
-  test('is the one the regolamento sets', () => {
-    // Rule 4: "La squadra va inserita entro e non oltre mercoledi 13 agosto alle ore 23.59."
-    assert.equal(DEADLINE.toISOString(), new Date('2026-08-13T23:59:00+02:00').toISOString());
+  test('closes five minutes before the men\'s kick-off', () => {
+    // js/constants.js: iscrizioni chiuse alle 15:59 ora di Roma, 13 agosto 2026.
+    assert.equal(DEADLINE.toISOString(), new Date('2026-08-13T15:59:00+02:00').toISOString());
   });
 });
 

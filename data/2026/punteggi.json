@@ -112,13 +112,6 @@
     "Total": 9
   },
   {
-    "player": "Thomas Maffei | CLITORIDERS",
-    "Match 1": 0,
-    "Match 2": 9,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
     "player": "Andrea Anzelini | GREP",
     "Match 1": 6,
     "Match 2": 3,
@@ -269,6 +262,13 @@
     "player": "Matteo Zanlucchi | SBARX",
     "Match 1": 7,
     "Match 2": 0,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Pietro Bernardelli | CLITORIDERS",
+    "Match 1": 0,
+    "Match 2": 7,
     "Premi": 0,
     "Total": 7
   },
@@ -435,6 +435,13 @@
   },
   {
     "player": "Davide De Zambotti | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 4,
+    "Premi": 0,
+    "Total": 5
+  },
+  {
+    "player": "Thomas Maffei | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 4,
     "Premi": 0,
@@ -792,13 +799,6 @@
   },
   {
     "player": "Amedeo Malesardi | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Pietro Bernardelli | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 2,
     "Premi": 0,

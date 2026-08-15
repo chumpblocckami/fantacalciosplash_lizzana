@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { fullName } from './names.js';
+import { applyGoalkeeperOverrides } from './goalkeeper-overrides.js';
 import {
   POINTS_PER_GOAL,
   POINTS_PER_YELLOW_CARD,
@@ -131,7 +132,7 @@ function main() {
 
   /** Record one team's contribution to one fixture. */
   const record = (fixtureId, team, concededGoals, mvpId, countsForFanta) => {
-    const players = squad(team);
+    const players = applyGoalkeeperOverrides(squad(team), team.name);
     if (!rosters.has(team.name)) rosters.set(team.name, new Set());
 
     const points = new Map();

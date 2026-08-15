@@ -1,7 +1,7 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 58
+    "Punteggio": 62
   },
   {
     "Allenatore": "Alessandro Galvagni",
@@ -13,11 +13,11 @@
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 38
+    "Punteggio": 42
   },
   {
     "Allenatore": "Riccardo Zeni",
-    "Punteggio": 36
+    "Punteggio": 40
   },
   {
     "Allenatore": "Alessio Farinati",
@@ -32,6 +32,14 @@
     "Punteggio": 32.5
   },
   {
+    "Allenatore": "Matteo Pilati",
+    "Punteggio": 32
+  },
+  {
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 31
+  },
+  {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 30.5
   },
@@ -40,11 +48,15 @@
     "Punteggio": 30
   },
   {
+    "Allenatore": "Jacopo Chemini",
+    "Punteggio": 29
+  },
+  {
     "Allenatore": "Elena Bruschetti",
     "Punteggio": 28.5
   },
   {
-    "Allenatore": "Matteo Pilati",
+    "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 28
   },
   {
@@ -52,20 +64,8 @@
     "Punteggio": 27.5
   },
   {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 27
-  },
-  {
     "Allenatore": "Nicolas Giordani",
     "Punteggio": 26.5
-  },
-  {
-    "Allenatore": "Jacopo Chemini",
-    "Punteggio": 25
-  },
-  {
-    "Allenatore": "Lorenza Simoncelli",
-    "Punteggio": 24
   },
   {
     "Allenatore": "Michela Menghini",
@@ -96,12 +96,20 @@
     "Punteggio": 21
   },
   {
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 21
+  },
+  {
     "Allenatore": "Emanuele Miorandi",
     "Punteggio": 20
   },
   {
-    "Allenatore": "Daniele Feltrinelli",
-    "Punteggio": 18.5
+    "Allenatore": "Marco Sala",
+    "Punteggio": 20
+  },
+  {
+    "Allenatore": "JAlvin92",
+    "Punteggio": 19
   },
   {
     "Allenatore": "Marco Sartorelli",
@@ -112,31 +120,23 @@
     "Punteggio": 17.5
   },
   {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 17
-  },
-  {
     "Allenatore": "Danny Giordani",
     "Punteggio": 16.5
-  },
-  {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 16
   },
   {
     "Allenatore": "Andrea Conzatti",
     "Punteggio": 15
   },
   {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 15
+    "Allenatore": "Daniele Feltrinelli",
+    "Punteggio": 14.5
+  },
+  {
+    "Allenatore": "Marco Miotto",
+    "Punteggio": 14
   },
   {
     "Allenatore": "Michele Bertolini",
     "Punteggio": 12.5
-  },
-  {
-    "Allenatore": "Marco Miotto",
-    "Punteggio": 10
   }
 ]

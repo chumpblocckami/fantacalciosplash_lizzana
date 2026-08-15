@@ -8,6 +8,7 @@
 import { writeFileSync, readFileSync, readdirSync, mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { fullName } from './names.js';
+import { isGoalkeeper } from './goalkeeper-overrides.js';
 import { GSP_API_URL } from '../js/constants.js';
 
 const API_URL = process.env.GSP_API_URL || GSP_API_URL;
@@ -191,7 +192,7 @@ function buildGiocatori(rosters) {
         Squadra: team.name,
         Soprannome: player.username ?? '',
         Quotazione: existing.get(`${name}|${team.name}`) ?? null,
-        Ruolo: player.is_goalkeeper ? 'Portiere' : 'Movimento',
+        Ruolo: isGoalkeeper(player, team.name) ? 'Portiere' : 'Movimento',
       });
     }
   }
