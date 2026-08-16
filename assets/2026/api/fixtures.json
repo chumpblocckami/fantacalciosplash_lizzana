@@ -2634,10 +2634,10 @@
       "id": 102,
       "scheduled_at": "2026-08-16T14:40:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "FI",
-      "state_label": "Fischio d'inizio",
-      "live": false,
+      "half_time": "HT",
+      "state": "INT",
+      "state_label": "Intervallo",
+      "live": true,
       "closed": false,
       "field": null,
       "group_name": "Quarti Maschile",
@@ -2656,8 +2656,8 @@
         "logo_url": "/storage/teams/usguarna.png",
         "gender": "male"
       },
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "id": 103,
