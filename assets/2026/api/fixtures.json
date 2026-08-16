@@ -2460,11 +2460,11 @@
       "id": 97,
       "scheduled_at": "2026-08-16T12:00:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "FI",
-      "state_label": "Fischio d'inizio",
-      "live": true,
-      "closed": false,
+      "half_time": "2H",
+      "state": "FF",
+      "state_label": "Finale",
+      "live": false,
+      "closed": true,
       "field": null,
       "group_name": "Ottavi Maschile",
       "gender": "male",
@@ -2482,18 +2482,18 @@
         "logo_url": "/storage/teams/cgbcheledicherno.png",
         "gender": "male"
       },
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 2,
+      "away_score": 4
     },
     {
       "id": 99,
       "scheduled_at": "2026-08-16T12:20:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "FI",
-      "state_label": "Fischio d'inizio",
+      "half_time": "2H",
+      "state": "FF",
+      "state_label": "Finale",
       "live": false,
-      "closed": false,
+      "closed": true,
       "field": null,
       "group_name": "Ottavi Maschile",
       "gender": "male",
@@ -2511,17 +2511,17 @@
         "logo_url": "/storage/teams/demobusters.png",
         "gender": "male"
       },
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 0
     },
     {
       "id": 90,
       "scheduled_at": "2026-08-16T12:40:00.000Z",
       "status": "scheduled",
-      "half_time": "1H",
-      "state": "FI",
-      "state_label": "Fischio d'inizio",
-      "live": false,
+      "half_time": "HT",
+      "state": "2T",
+      "state_label": "2° tempo",
+      "live": true,
       "closed": false,
       "field": null,
       "group_name": "Quarti Femminile",
@@ -2540,8 +2540,8 @@
         "logo_url": "/storage/teams/lovebusters.png",
         "gender": "female"
       },
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 3,
+      "away_score": 1
     },
     {
       "id": 98,
