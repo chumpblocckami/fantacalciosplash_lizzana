@@ -1,23 +1,23 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 88.5
-  },
-  {
-    "Allenatore": "Federico Fasanelli",
-    "Punteggio": 76.5
+    "Punteggio": 98.5
   },
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 73.5
+    "Punteggio": 87
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 73
+    "Punteggio": 83
+  },
+  {
+    "Allenatore": "Federico Fasanelli",
+    "Punteggio": 80.5
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 67.5
+    "Punteggio": 75
   },
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
@@ -32,16 +32,16 @@
     "Punteggio": 61.5
   },
   {
-    "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 55.5
-  },
-  {
     "Allenatore": "Riccardo Zeni",
-    "Punteggio": 55.5
+    "Punteggio": 59.5
   },
   {
     "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 54.5
+    "Punteggio": 58
+  },
+  {
+    "Allenatore": "Sebastiano Zoller",
+    "Punteggio": 55.5
   },
   {
     "Allenatore": "Jacopo Chemini",
@@ -72,6 +72,10 @@
     "Punteggio": 45.5
   },
   {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 45
+  },
+  {
     "Allenatore": "Marco Sala",
     "Punteggio": 42.5
   },
@@ -84,8 +88,8 @@
     "Punteggio": 42
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 41.5
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 41
   },
   {
     "Allenatore": "Thomas Pontillo",
@@ -100,12 +104,12 @@
     "Punteggio": 39.5
   },
   {
-    "Allenatore": "Matteo Mazzola",
+    "Allenatore": "Danny Giordani",
     "Punteggio": 38.5
   },
   {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 37.5
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 38.5
   },
   {
     "Allenatore": "JAlvin92",
@@ -122,10 +126,6 @@
   {
     "Allenatore": "Michele Bertolini",
     "Punteggio": 31
-  },
-  {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 30.5
   },
   {
     "Allenatore": "Daniele Feltrinelli",

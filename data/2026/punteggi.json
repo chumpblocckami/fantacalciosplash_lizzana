@@ -4,9 +4,9 @@
     "Match 1": 22,
     "Match 2": 6,
     "Match 3": 6,
-    "Match 4": -2,
+    "Match 4": 8,
     "Premi": 0,
-    "Total": 32
+    "Total": 42
   },
   {
     "player": "Federico Mortillaro | CLITORIDERS",
@@ -37,6 +37,25 @@
     "Total": 22
   },
   {
+    "player": "Danny Giordani | I MAGNIFICI",
+    "Match 1": 10,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 6,
+    "Premi": 0,
+    "Total": 22
+  },
+  {
+    "player": "Samuele Pedrotti | BEVEM4TUT",
+    "Match 1": 0,
+    "Match 2": 10,
+    "Match 3": 3,
+    "Match 4": 6,
+    "Match 5": 0,
+    "Premi": 0,
+    "Total": 19
+  },
+  {
     "player": "Andrea Roveda | PINGUINI TRENTINI",
     "Match 1": 12,
     "Match 2": 2,
@@ -54,16 +73,6 @@
     "Match 5": -2,
     "Premi": 0,
     "Total": 18
-  },
-  {
-    "player": "Samuele Pedrotti | BEVEM4TUT",
-    "Match 1": 0,
-    "Match 2": 10,
-    "Match 3": 3,
-    "Match 4": 6,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 17
   },
   {
     "player": "Manuel Pedrotti | SUGHI",
@@ -106,6 +115,15 @@
     "Total": 16
   },
   {
+    "player": "Elia Barozzi | I MAGNIFICI",
+    "Match 1": 7,
+    "Match 2": 0.5,
+    "Match 3": 7,
+    "Match 4": 1.5,
+    "Premi": 0,
+    "Total": 16
+  },
+  {
     "player": "Pietro Bernardelli | CLITORIDERS",
     "Match 1": 0,
     "Match 2": 7,
@@ -113,6 +131,16 @@
     "Match 4": 1.5,
     "Premi": 0,
     "Total": 15.5
+  },
+  {
+    "player": "Matteo Giovannella | BEVEM4TUT",
+    "Match 1": 0,
+    "Match 2": 4,
+    "Match 3": 3,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 15
   },
   {
     "player": "Leonardo Viola | SHARK ATTACK",
@@ -163,11 +191,11 @@
     "Total": 14
   },
   {
-    "player": "Danny Giordani | I MAGNIFICI",
-    "Match 1": 10,
+    "player": "Giovanni Raoss | I MAGNIFICI",
+    "Match 1": 6,
     "Match 2": 4,
     "Match 3": 2,
-    "Match 4": -2,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 14
   },
@@ -194,15 +222,6 @@
     "Match 1": 2,
     "Match 2": 3.5,
     "Match 3": 9,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 12.5
-  },
-  {
-    "player": "Elia Barozzi | I MAGNIFICI",
-    "Match 1": 7,
-    "Match 2": 0.5,
-    "Match 3": 7,
     "Match 4": -2,
     "Premi": 0,
     "Total": 12.5
@@ -284,16 +303,6 @@
     "Total": 11
   },
   {
-    "player": "Matteo Giovannella | BEVEM4TUT",
-    "Match 1": 0,
-    "Match 2": 4,
-    "Match 3": 3,
-    "Match 4": 6,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
     "player": "Thomas Maffei | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 4,
@@ -371,11 +380,11 @@
     "Total": 10
   },
   {
-    "player": "Giovanni Raoss | I MAGNIFICI",
-    "Match 1": 6,
-    "Match 2": 4,
+    "player": "Simone Schonsberg | I MAGNIFICI",
+    "Match 1": 4,
+    "Match 2": 2,
     "Match 3": 2,
-    "Match 4": -2,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 10
   },
@@ -561,6 +570,24 @@
     "Total": 8
   },
   {
+    "player": "Guglielmo Caroli | I MAGNIFICI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Lorenzo Zuani | I MAGNIFICI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
     "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -604,6 +631,16 @@
     "Match 2": 2,
     "Match 3": 6,
     "Match 4": -2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
+    "player": "Riccardo Madaschi | BEVEM4TUT",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 7
   },
@@ -732,15 +769,6 @@
     "Total": 6
   },
   {
-    "player": "Simone Schonsberg | I MAGNIFICI",
-    "Match 1": 4,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
     "player": "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -800,12 +828,12 @@
     "Total": 5
   },
   {
-    "player": "Riccardo Madaschi | BEVEM4TUT",
-    "Match 1": 2,
+    "player": "Maurizio Maffei | BEVEM4TUT",
+    "Match 1": 0,
     "Match 2": 2,
     "Match 3": 1,
     "Match 4": 2,
-    "Match 5": -2,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 5
   },
@@ -1010,24 +1038,6 @@
     "Total": 4
   },
   {
-    "player": "Guglielmo Caroli | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Lorenzo Zuani | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
     "player": "Nicola Bianchi | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -1132,12 +1142,12 @@
     "Total": 3
   },
   {
-    "player": "Maurizio Maffei | BEVEM4TUT",
+    "player": "Daniele Feller | BEVEM4TUT",
     "Match 1": 0,
     "Match 2": 2,
-    "Match 3": 1,
+    "Match 3": -1,
     "Match 4": 2,
-    "Match 5": -2,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 3
   },
@@ -1445,16 +1455,6 @@
     "Match 2": 1,
     "Match 3": 0,
     "Match 4": 0,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 1
-  },
-  {
-    "player": "Daniele Feller | BEVEM4TUT",
-    "Match 1": 0,
-    "Match 2": 2,
-    "Match 3": -1,
-    "Match 4": 2,
     "Match 5": -2,
     "Premi": 0,
     "Total": 1
@@ -1902,9 +1902,9 @@
     "Match 2": 1,
     "Match 3": 0,
     "Match 4": 1,
-    "Match 5": -2,
+    "Match 5": -2.5,
     "Premi": 0,
-    "Total": -3
+    "Total": -3.5
   },
   {
     "player": "Filippo Maraner | POWER GINGER",
