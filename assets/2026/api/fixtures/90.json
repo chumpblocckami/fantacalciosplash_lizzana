@@ -2,33 +2,91 @@
   "data": {
     "id": 90,
     "status": "scheduled",
-    "half_time": "HT",
-    "state": "2T",
-    "state_label": "2° tempo",
-    "live": true,
-    "closed": false,
+    "half_time": "2H",
+    "state": "FF",
+    "state_label": "Finale",
+    "live": false,
+    "closed": true,
     "scheduled_at": "2026-08-16T12:40:00.000Z",
     "field": null,
     "has_shootouts": true,
-    "in_shootout": false,
+    "in_shootout": true,
     "shootout_excluded": {
       "home": [],
-      "away": []
+      "away": [
+        626
+      ]
     },
-    "home_shootout_score": 0,
+    "home_shootout_score": 1,
     "away_shootout_score": 0,
-    "shootout_history": [],
+    "shootout_history": [
+      {
+        "id": 1006,
+        "team_id": 94,
+        "player_id": 629,
+        "player_name": "Simonetta",
+        "player_surname": "Nolfo",
+        "player_username": "Arresti Domiciliari",
+        "avatar_url": "/storage/players/simonettanolfo.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:02:56.232Z"
+      },
+      {
+        "id": 1007,
+        "team_id": 99,
+        "player_id": 660,
+        "player_name": "Valentina",
+        "player_surname": "Perghem",
+        "player_username": "Robocop",
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "scored": true,
+        "created_at": "2026-08-16T13:03:17.342Z"
+      },
+      {
+        "id": 1008,
+        "team_id": 94,
+        "player_id": 627,
+        "player_name": "Carlotta",
+        "player_surname": "Pomarolli",
+        "player_username": "La Predestinata",
+        "avatar_url": "/storage/players/carlottapomarolli.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:03:42.060Z"
+      },
+      {
+        "id": 1009,
+        "team_id": 99,
+        "player_id": 659,
+        "player_name": "Anna",
+        "player_surname": "Zandonati",
+        "player_username": "Lingotto d'oro",
+        "avatar_url": "/storage/players/defaultfemale.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:04:00.902Z"
+      },
+      {
+        "id": 1010,
+        "team_id": 94,
+        "player_id": 628,
+        "player_name": "Alice",
+        "player_surname": "Cappelletti",
+        "player_username": "Polpacci d'oro Fake/gastrocnemio",
+        "avatar_url": "/storage/players/alicecappelletti.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:04:25.061Z"
+      }
+    ],
     "home_score": 3,
-    "away_score": 1,
+    "away_score": 3,
     "timer": {
       "offset": 420,
-      "started_at": "2026-08-16T12:50:32.070Z",
-      "stopped_at": null,
-      "current": 715,
-      "running": true,
-      "minutes": 11,
-      "seconds": 55,
-      "display": "11:55"
+      "started_at": null,
+      "stopped_at": "2026-08-16T12:59:59.433Z",
+      "current": 420,
+      "running": false,
+      "minutes": 7,
+      "seconds": 0,
+      "display": "07:00"
     },
     "home_team": {
       "id": 99,
@@ -122,7 +180,7 @@
           "fouls_ft": 1,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false
@@ -140,7 +198,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         }
@@ -151,7 +209,7 @@
       "name": "LOVEBUSTERS",
       "tag": "LOV",
       "logo_url": "/storage/teams/lovebusters.png",
-      "score": 1,
+      "score": 3,
       "fouls_ht": 0,
       "fouls_ft": 0,
       "own_goals": 0,
@@ -216,13 +274,13 @@
           "username": "Polpacci d'oro Fake/gastrocnemio",
           "avatar_url": "/storage/players/alicecappelletti.png",
           "is_goalkeeper": false,
-          "goals": 0,
+          "goals": 1,
           "fouls_ht": 0,
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -250,13 +308,13 @@
           "username": "Arresti Domiciliari",
           "avatar_url": "/storage/players/simonettanolfo.png",
           "is_goalkeeper": false,
-          "goals": 0,
+          "goals": 1,
           "fouls_ht": 0,
           "fouls_ft": 0,
           "yellow_cards": 2,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -273,7 +331,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         }
