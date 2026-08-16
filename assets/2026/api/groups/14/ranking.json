@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 107,
+      "name": "CLITORIDERS",
+      "tag": "CLI",
+      "logo_url": "/storage/teams/clitoriders.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 10,
+      "goals_conceded": 1,
+      "goal_difference": 9,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
       "id": 87,
       "name": "DEMOBUSTERS",
       "tag": "DEM",
@@ -18,7 +35,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 2,
+      "ranking": 3,
       "id": 88,
       "name": "GLI INTROVABILI",
       "tag": "INT",
@@ -35,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 4,
       "id": 89,
       "name": "U.SGUARNA",
       "tag": "USG",
@@ -52,7 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
+      "ranking": 5,
       "id": 92,
       "name": "I MONTAGNA",
       "tag": "MON",
@@ -69,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 5,
+      "ranking": 6,
       "id": 93,
       "name": "FC SAVIGNANO",
       "tag": "SAV",
@@ -86,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 6,
+      "ranking": 7,
       "id": 95,
       "name": "SHARK ATTACK",
       "tag": "SHA",
@@ -103,7 +120,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 8,
       "id": 98,
       "name": "MODIUM",
       "tag": "MOD",
@@ -120,29 +137,12 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 9,
       "id": 104,
       "name": "GREP",
       "tag": "GRE",
       "logo_url": "/storage/teams/grep.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\grep.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 9,
-      "id": 107,
-      "name": "CLITORIDERS",
-      "tag": "CLI",
-      "logo_url": "/storage/teams/clitoriders.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
       "points": 0,
       "played": 0,
       "wins": 0,
@@ -263,13 +263,13 @@
       "logo_url": "/storage/teams/acdenti.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\acdenti.png",
       "points": 0,
-      "played": 0,
+      "played": 1,
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 10,
+      "goal_difference": -9,
       "disciplinary_points": 0
     }
   ]

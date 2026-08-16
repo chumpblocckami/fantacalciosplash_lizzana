@@ -5529,6 +5529,15 @@
       "goalkeeper_points": 5,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -0.5,
+      "mvp_points": 0,
+      "total_points": 1.5
     }
   ],
   "Luca Frasca | CLITORIDERS": [
@@ -5540,6 +5549,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -5587,6 +5605,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Andrea Giordani | CLITORIDERS": [
@@ -5616,6 +5643,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Thomas Maffei | CLITORIDERS": [
@@ -5645,6 +5681,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Michele Merighi | CLITORIDERS": [
@@ -5674,6 +5719,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Federico Mortillaro | CLITORIDERS": [
@@ -5703,6 +5757,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 6,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 8
     }
   ],
   "Micheal Zanoni | CLITORIDERS": [
@@ -5732,6 +5795,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Andrea Anzelini | GREP": [
@@ -6002,6 +6074,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Maverick Bertolini | A.C.DENTI": [
@@ -6040,6 +6121,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Sayf Brick | A.C.DENTI": [
@@ -6078,6 +6168,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Emil Enriconi | A.C.DENTI": [
@@ -6116,6 +6215,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -5,
+      "mvp_points": 0,
+      "total_points": -5
     }
   ],
   "Mario Grifeo | A.C.DENTI": [
@@ -6154,6 +6262,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Samuele Kettmaier | A.C.DENTI": [
@@ -6192,6 +6309,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -5,
+      "mvp_points": 0,
+      "total_points": -5
     }
   ],
   "Federico Zanini | A.C.DENTI": [
@@ -6230,6 +6356,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Roberto Barozzi | DEMOBUSTERS": [
