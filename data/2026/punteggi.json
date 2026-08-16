@@ -52,6 +52,16 @@
     "Total": 27
   },
   {
+    "player": "Mattia Festi | SHARK ATTACK",
+    "Match 1": 6,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 6,
+    "Premi": 0,
+    "Total": 25
+  },
+  {
     "player": "Andrea Conzatti | FC SAVIGNANO",
     "Match 1": 3,
     "Match 2": 10,
@@ -60,6 +70,26 @@
     "Match 5": -2,
     "Premi": 0,
     "Total": 24
+  },
+  {
+    "player": "Alessio Bragagna | SHARK ATTACK",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 4,
+    "Premi": 0,
+    "Total": 23
+  },
+  {
+    "player": "Leonardo Viola | SHARK ATTACK",
+    "Match 1": 8,
+    "Match 2": 6,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 23
   },
   {
     "player": "Manuel Pedrotti | SUGHI",
@@ -104,16 +134,6 @@
     "Total": 19
   },
   {
-    "player": "Leonardo Viola | SHARK ATTACK",
-    "Match 1": 8,
-    "Match 2": 6,
-    "Match 3": 3,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 19
-  },
-  {
     "player": "Thomas Perenzoni | C.G.B. CHELE DI CHERNO",
     "Match 1": 1,
     "Match 2": 1,
@@ -121,6 +141,17 @@
     "Match 4": 4,
     "Match 5": 6,
     "Match 6": 3,
+    "Premi": 0,
+    "Total": 19
+  },
+  {
+    "player": "Edoardo Pomarolli | MODIUM",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Match 5": 4,
+    "Match 6": 4,
     "Premi": 0,
     "Total": 19
   },
@@ -167,32 +198,23 @@
     "Total": 17
   },
   {
-    "player": "Alessio Bragagna | SHARK ATTACK",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 17
-  },
-  {
-    "player": "Mattia Festi | SHARK ATTACK",
-    "Match 1": 6,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 17
-  },
-  {
     "player": "Elia Barozzi | I MAGNIFICI",
     "Match 1": 7,
     "Match 2": 0.5,
     "Match 3": 7,
     "Match 4": 1.5,
     "Match 5": 1,
+    "Premi": 0,
+    "Total": 17
+  },
+  {
+    "player": "Federico Pomarolli | MODIUM",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 5,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 17
   },
@@ -227,6 +249,16 @@
     "Total": 15
   },
   {
+    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
     "player": "Pietro Bernardelli | CLITORIDERS",
     "Match 1": 0,
     "Match 2": 7,
@@ -237,13 +269,13 @@
     "Total": 15
   },
   {
-    "player": "Federico Pomarolli | MODIUM",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 5,
-    "Match 4": 2,
-    "Match 5": 4,
-    "Match 6": -2,
+    "player": "Marco Sartorelli | MODIUM",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 15
   },
@@ -354,24 +386,13 @@
     "Total": 13
   },
   {
-    "player": "Edoardo Pomarolli | MODIUM",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 3,
-    "Match 4": 4,
-    "Match 5": 4,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 13
-  },
-  {
-    "player": "Marco Sartorelli | MODIUM",
+    "player": "Matteo Lanaro | MODIUM",
     "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 6,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 4,
     "Match 5": 2,
-    "Match 6": -2,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 13
   },
@@ -460,12 +481,22 @@
     "Total": 12
   },
   {
-    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
-    "Match 2": 4,
+    "Match 2": 2,
     "Match 3": 1,
-    "Match 4": 6,
-    "Match 5": -2,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Premi": 0,
+    "Total": 11
+  },
+  {
+    "player": "Alessandro Zeni | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 11
   },
@@ -476,17 +507,6 @@
     "Match 3": 6,
     "Match 4": -2,
     "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Matteo Lanaro | MODIUM",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": 2,
-    "Match 6": -2,
     "Premi": 0,
     "Total": 11
   },
@@ -720,6 +740,17 @@
     "Total": 9
   },
   {
+    "player": "Andrea Bertolini | MODIUM",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 0,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
     "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
     "Match 1": 4,
     "Match 2": 4,
@@ -879,23 +910,13 @@
     "Total": 7
   },
   {
-    "player": "Alessandro Zeni | SHARK ATTACK",
+    "player": "Luca Barozzi | MODIUM",
     "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Andrea Bertolini | MODIUM",
-    "Match 1": 4,
     "Match 2": 0,
     "Match 3": 1,
     "Match 4": 2,
     "Match 5": 2,
-    "Match 6": -2,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 7
   },
@@ -998,16 +1019,6 @@
     "Total": 5
   },
   {
-    "player": "Gabriele Brentari | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
     "player": "Riccardo Baldo | GREP",
     "Match 1": 4,
     "Match 2": 1,
@@ -1039,15 +1050,14 @@
     "Total": 5
   },
   {
-    "player": "Luca Barozzi | MODIUM",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
+    "player": "Alberto Cerisara | SHARK ATTACK",
+    "Match 1": 1.5,
+    "Match 2": 1.5,
+    "Match 3": -1,
+    "Match 4": 1.5,
+    "Match 5": 1,
     "Premi": 0,
-    "Total": 5
+    "Total": 4.5
   },
   {
     "player": "Michele Eccel | NAZIONALE FERROVIERI",
@@ -1342,16 +1352,6 @@
     "Match 6": -2,
     "Premi": 0,
     "Total": 2
-  },
-  {
-    "player": "Alberto Cerisara | SHARK ATTACK",
-    "Match 1": 1.5,
-    "Match 2": 1.5,
-    "Match 3": -1,
-    "Match 4": 1.5,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 1.5
   },
   {
     "player": "Maxim Bot | POWER GINGER",

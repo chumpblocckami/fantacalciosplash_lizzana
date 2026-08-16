@@ -5031,6 +5031,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Alessio Bragagna | SHARK ATTACK": [
@@ -5069,6 +5078,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 8
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Gabriele Brentari | SHARK ATTACK": [
@@ -5107,6 +5125,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Alberto Cerisara | SHARK ATTACK": [
@@ -5145,6 +5172,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Mattia Festi | SHARK ATTACK": [
@@ -5183,6 +5219,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 8
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Leonardo Viola | SHARK ATTACK": [
@@ -5221,6 +5266,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Alessandro Zeni | SHARK ATTACK": [
@@ -5250,6 +5304,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 3
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     },
     {
       "goals": 0,
@@ -8342,6 +8405,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Andrea Bertolini | MODIUM": [
@@ -8389,6 +8461,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Matteo Lanaro | MODIUM": [
@@ -8436,6 +8517,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Edoardo Pomarolli | MODIUM": [
@@ -8480,6 +8570,15 @@
       "yellow_cards": 0,
       "red_cards": 0,
       "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
@@ -8530,6 +8629,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Marco Sartorelli | MODIUM": [
@@ -8577,6 +8685,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Riccardo Versini | MODIUM": [
@@ -8624,6 +8741,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -2,
+      "mvp_points": 0,
+      "total_points": -2
     }
   ]
 }

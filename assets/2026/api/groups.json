@@ -884,6 +884,51 @@
           "players_count": 7
         }
       ]
+    },
+    {
+      "id": 17,
+      "name": "Semi Maschile",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "bracket",
+      "source_group_id": 15,
+      "source_outcome": null,
+      "sort_order": 50,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 119,
+          "name": "C.G.B. CHELE DI CHERNO",
+          "tag": "CGB",
+          "logo_url": "/storage/teams/cgbcheledicherno.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbcheledicherno.png",
+          "players_count": 6
+        },
+        {
+          "id": 110,
+          "name": "I MAGNIFICI",
+          "tag": "MAG",
+          "logo_url": "/storage/teams/imagnifici.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+          "players_count": 7
+        },
+        {
+          "id": 117,
+          "name": "SBARX",
+          "tag": "SBA",
+          "logo_url": "/storage/teams/sbarx.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+          "players_count": 8
+        },
+        {
+          "id": 95,
+          "name": "SHARK ATTACK",
+          "tag": "SHA",
+          "logo_url": "/storage/teams/sharkattack.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+          "players_count": 7
+        }
+      ]
     }
   ]
 }
