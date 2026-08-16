@@ -62,6 +62,17 @@
     "Total": 24
   },
   {
+    "player": "Manuel Pedrotti | SUGHI",
+    "Match 1": 8,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 10,
+    "Match 5": 3,
+    "Match 6": 0,
+    "Premi": 0,
+    "Total": 22
+  },
+  {
     "player": "Marco Heidempergher | U.SGUARNA",
     "Match 1": 4,
     "Match 2": 2,
@@ -73,15 +84,24 @@
     "Total": 20
   },
   {
-    "player": "Manuel Pedrotti | SUGHI",
-    "Match 1": 8,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 10,
-    "Match 5": 3,
-    "Match 6": -2,
+    "player": "Federico Fasanelli | SBARX",
+    "Match 1": 6,
+    "Match 2": 5,
+    "Match 3": 4,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
-    "Total": 20
+    "Total": 19
+  },
+  {
+    "player": "Alex Manica | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 8,
+    "Match 4": 2,
+    "Match 5": 6,
+    "Premi": 0,
+    "Total": 19
   },
   {
     "player": "Leonardo Viola | SHARK ATTACK",
@@ -177,6 +197,16 @@
     "Total": 17
   },
   {
+    "player": "Matteo Zanlucchi | SBARX",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 7,
+    "Match 5": 1.5,
+    "Premi": 0,
+    "Total": 16.5
+  },
+  {
     "player": "Giovanni Raoss | I MAGNIFICI",
     "Match 1": 6,
     "Match 2": 4,
@@ -187,12 +217,12 @@
     "Total": 16
   },
   {
-    "player": "Federico Fasanelli | SBARX",
-    "Match 1": 6,
-    "Match 2": 5,
+    "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Match 2": 1,
     "Match 3": 4,
-    "Match 4": 2,
-    "Match 5": -2,
+    "Match 4": 4,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 15
   },
@@ -282,12 +312,12 @@
     "Total": 13
   },
   {
-    "player": "Matteo Zanlucchi | SBARX",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 7,
-    "Match 5": -2,
+    "player": "Niccolò Orsi | SBARX",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 13
   },
@@ -367,6 +397,17 @@
     "Total": 12
   },
   {
+    "player": "Riccardo Barbiero | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 1,
+    "Match 6": 0,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
     "player": "Emanuele Toss | 4SINS",
     "Match 1": 2,
     "Match 2": 2,
@@ -417,26 +458,6 @@
     "Match 5": 2,
     "Premi": 0,
     "Total": 12
-  },
-  {
-    "player": "Alex Manica | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 8,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Nicholas Marzadro | SBARX",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 4,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
   },
   {
     "player": "Mattia Baldessarini | SHARK ATTACK",
@@ -523,13 +544,24 @@
     "Total": 10
   },
   {
-    "player": "Riccardo Barbiero | SUGHI",
+    "player": "Daniele Feltrinelli | SUGHI",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 1,
+    "Match 6": 0,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Luca Tonolli | SUGHI",
     "Match 1": 4,
     "Match 2": 0,
     "Match 3": 1,
-    "Match 4": 6,
+    "Match 4": 4,
     "Match 5": 1,
-    "Match 6": -2,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 10
   },
@@ -637,12 +669,32 @@
     "Total": 9
   },
   {
-    "player": "Niccolò Orsi | SBARX",
-    "Match 1": 6,
+    "player": "Carlo Adami | SBARX",
+    "Match 1": 2,
     "Match 2": 1,
     "Match 3": 2,
     "Match 4": 2,
-    "Match 5": -2,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
+    "player": "Davide Fontana | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
+    "player": "Enrico Parisi | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 9
   },
@@ -722,24 +774,24 @@
     "Total": 8
   },
   {
-    "player": "Daniele Feltrinelli | SUGHI",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": 1,
-    "Match 6": -2,
+    "player": "Federico Leonardi | SUGHI",
+    "Match 1": 1.5,
+    "Match 2": -1,
+    "Match 3": 6,
+    "Match 4": 0,
+    "Match 5": 0.5,
+    "Match 6": 1,
     "Premi": 0,
     "Total": 8
   },
   {
-    "player": "Luca Tonolli | SUGHI",
-    "Match 1": 4,
+    "player": "Emanuele Miorandi | SUGHI",
+    "Match 1": 2,
     "Match 2": 0,
     "Match 3": 1,
     "Match 4": 4,
     "Match 5": 1,
-    "Match 6": -2,
+    "Match 6": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -902,17 +954,6 @@
     "Total": 6
   },
   {
-    "player": "Emanuele Miorandi | SUGHI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": 1,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
     "player": "Mario Grifeo | A.C.DENTI",
     "Match 1": 4,
     "Match 2": -1,
@@ -957,53 +998,12 @@
     "Total": 5
   },
   {
-    "player": "Carlo Adami | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Davide Fontana | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Enrico Parisi | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
     "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
     "Match 2": 2,
     "Match 3": 1,
     "Match 4": 2,
     "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Federico Leonardi | SUGHI",
-    "Match 1": 1.5,
-    "Match 2": -1,
-    "Match 3": 6,
-    "Match 4": 0,
-    "Match 5": 0.5,
-    "Match 6": -2,
     "Premi": 0,
     "Total": 5
   },

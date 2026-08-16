@@ -2693,10 +2693,10 @@
       "scheduled_at": "2026-08-16T15:20:00.000Z",
       "status": "scheduled",
       "half_time": "2H",
-      "state": "2T",
-      "state_label": "2° tempo",
-      "live": true,
-      "closed": false,
+      "state": "FF",
+      "state_label": "Finale",
+      "live": false,
+      "closed": true,
       "field": null,
       "group_name": "Quarti Maschile",
       "gender": "male",
@@ -2715,16 +2715,16 @@
         "gender": "male"
       },
       "home_score": 1,
-      "away_score": 1
+      "away_score": 2
     },
     {
       "id": 105,
       "scheduled_at": "2026-08-16T15:40:00.000Z",
       "status": "scheduled",
       "half_time": "1H",
-      "state": "FI",
-      "state_label": "Fischio d'inizio",
-      "live": false,
+      "state": "1T",
+      "state_label": "1° tempo",
+      "live": true,
       "closed": false,
       "field": null,
       "group_name": "Quarti Maschile",
@@ -2743,7 +2743,7 @@
         "logo_url": "/storage/teams/modium.png",
         "gender": "male"
       },
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 0
     },
     {

@@ -4,12 +4,12 @@
     "Punteggio": 103
   },
   {
-    "Allenatore": "Davide Rosà",
-    "Punteggio": 92
+    "Allenatore": "Federico Fasanelli",
+    "Punteggio": 94
   },
   {
-    "Allenatore": "Federico Fasanelli",
-    "Punteggio": 90
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 92
   },
   {
     "Allenatore": "Alessandro Galvagni",
@@ -44,16 +44,20 @@
     "Punteggio": 63
   },
   {
+    "Allenatore": "Matteo Zanlucchi",
+    "Punteggio": 60.5
+  },
+  {
     "Allenatore": "Michela Menghini",
     "Punteggio": 59
   },
   {
-    "Allenatore": "Jacopo Chemini",
-    "Punteggio": 57
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 57.5
   },
   {
-    "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 56.5
+    "Allenatore": "Jacopo Chemini",
+    "Punteggio": 57
   },
   {
     "Allenatore": "Dalila Valzolgher",
@@ -68,10 +72,6 @@
     "Punteggio": 55
   },
   {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 53.5
-  },
-  {
     "Allenatore": "Niccolò Orsi",
     "Punteggio": 52.5
   },
@@ -80,19 +80,19 @@
     "Punteggio": 51.5
   },
   {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 51
+  },
+  {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 50.5
+  },
+  {
     "Allenatore": "Matteo Mazzola",
     "Punteggio": 50
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 47
-  },
-  {
     "Allenatore": "Nicolas Giordani",
-    "Punteggio": 47
-  },
-  {
-    "Allenatore": "Nazarena Raos",
     "Punteggio": 47
   },
   {
