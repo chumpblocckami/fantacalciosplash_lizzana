@@ -3,32 +3,80 @@
     "id": 103,
     "status": "scheduled",
     "half_time": "2H",
-    "state": "2T",
-    "state_label": "2° tempo",
-    "live": true,
-    "closed": false,
+    "state": "FF",
+    "state_label": "Finale",
+    "live": false,
+    "closed": true,
     "scheduled_at": "2026-08-16T15:00:00.000Z",
     "field": null,
     "has_shootouts": true,
-    "in_shootout": false,
+    "in_shootout": true,
     "shootout_excluded": {
-      "home": [],
+      "home": [
+        718,
+        717
+      ],
       "away": []
     },
     "home_shootout_score": 0,
-    "away_shootout_score": 0,
-    "shootout_history": [],
+    "away_shootout_score": 2,
+    "shootout_history": [
+      {
+        "id": 1058,
+        "team_id": 119,
+        "player_id": 801,
+        "player_name": "Sebastiano",
+        "player_surname": "Zoller",
+        "player_username": "Carenza di Spritz",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": true,
+        "created_at": "2026-08-16T15:27:11.972Z"
+      },
+      {
+        "id": 1059,
+        "team_id": 107,
+        "player_id": 719,
+        "player_name": "Federico",
+        "player_surname": "Mortillaro",
+        "player_username": "MORTE NERA",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": false,
+        "created_at": "2026-08-16T15:27:29.627Z"
+      },
+      {
+        "id": 1060,
+        "team_id": 119,
+        "player_id": 802,
+        "player_name": "Gabriele",
+        "player_surname": "Gottardi",
+        "player_username": "Centomila dromedari",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": true,
+        "created_at": "2026-08-16T15:27:46.838Z"
+      },
+      {
+        "id": 1061,
+        "team_id": 107,
+        "player_id": 715,
+        "player_name": "Michele",
+        "player_surname": "Merighi",
+        "player_username": "IENA RIDENS",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": false,
+        "created_at": "2026-08-16T15:28:12.745Z"
+      }
+    ],
     "home_score": 3,
     "away_score": 3,
     "timer": {
-      "offset": 420,
-      "started_at": "2026-08-16T15:17:07.450Z",
-      "stopped_at": null,
-      "current": 835,
-      "running": true,
-      "minutes": 13,
-      "seconds": 55,
-      "display": "13:55"
+      "offset": 849,
+      "started_at": null,
+      "stopped_at": "2026-08-16T15:24:16.645Z",
+      "current": 849,
+      "running": false,
+      "minutes": 14,
+      "seconds": 9,
+      "display": "14:09"
     },
     "home_team": {
       "id": 107,
@@ -140,7 +188,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -157,7 +205,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -238,7 +286,7 @@
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false
@@ -289,7 +337,7 @@
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false

@@ -6204,6 +6204,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -0.5
     }
   ],
   "Luca Frasca | CLITORIDERS": [
@@ -6242,6 +6251,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Stefano Galvagni | CLITORIDERS": [
@@ -6280,6 +6298,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
     }
   ],
   "Andrea Giordani | CLITORIDERS": [
@@ -6318,6 +6345,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Thomas Maffei | CLITORIDERS": [
@@ -6356,6 +6392,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Michele Merighi | CLITORIDERS": [
@@ -6394,6 +6439,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Federico Mortillaro | CLITORIDERS": [
@@ -6432,6 +6486,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 8
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 5
     }
   ],
   "Micheal Zanoni | CLITORIDERS": [
@@ -6470,6 +6533,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Andrea Anzelini | GREP": [
@@ -7808,6 +7880,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO": [
@@ -7855,6 +7936,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
     }
   ],
   "Gabriele Gottardi | C.G.B. CHELE DI CHERNO": [
@@ -7902,6 +7992,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
     }
   ],
   "Diego Passerini | C.G.B. CHELE DI CHERNO": [
@@ -7949,6 +8048,15 @@
       "goalkeeper_points": -1,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": -1.5,
+      "mvp_points": 0,
+      "total_points": -0.5
     }
   ],
   "Thomas Perenzoni | C.G.B. CHELE DI CHERNO": [
@@ -7996,6 +8104,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 3
     }
   ],
   "Sebastiano Zoller | C.G.B. CHELE DI CHERNO": [
@@ -8043,6 +8160,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 1,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Luca Barozzi | MODIUM": [
