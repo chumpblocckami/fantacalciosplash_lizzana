@@ -19,6 +19,23 @@
     },
     {
       "ranking": 2,
+      "id": 114,
+      "name": "JÄGERBOMBE",
+      "tag": "JGE",
+      "logo_url": "/storage/teams/jägerbombe.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 2,
+      "goals_conceded": 1,
+      "goal_difference": 1,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 3,
       "id": 94,
       "name": "LOVEBUSTERS",
       "tag": "LOV",
@@ -35,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 4,
       "id": 99,
       "name": "SAILOR MONE",
       "tag": "SAI",
@@ -52,41 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
-      "id": 105,
-      "name": "PECCAMIN(OSÈ)",
-      "tag": "PEC",
-      "logo_url": "/storage/teams/peccaminosè.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\peccaminosè.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
       "ranking": 5,
-      "id": 114,
-      "name": "JÄGERBOMBE",
-      "tag": "JGE",
-      "logo_url": "/storage/teams/jägerbombe.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 6,
       "id": 122,
       "name": "PUTELE DA ALA",
       "tag": "PDA",
@@ -103,7 +86,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 7,
+      "ranking": 6,
       "id": 126,
       "name": "DRIM TIM",
       "tag": "DRI",
@@ -117,6 +100,23 @@
       "goals_scored": 0,
       "goals_conceded": 0,
       "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 7,
+      "id": 105,
+      "name": "PECCAMIN(OSÈ)",
+      "tag": "PEC",
+      "logo_url": "/storage/teams/peccaminosè.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\peccaminosè.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 1,
+      "goals_conceded": 2,
+      "goal_difference": -1,
       "disciplinary_points": 0
     },
     {
