@@ -3,21 +3,79 @@
     "id": 98,
     "status": "scheduled",
     "half_time": "2H",
-    "state": "2T",
-    "state_label": "2° tempo",
-    "live": true,
-    "closed": false,
+    "state": "FF",
+    "state_label": "Finale",
+    "live": false,
+    "closed": true,
     "scheduled_at": "2026-08-16T13:00:00.000Z",
     "field": null,
     "has_shootouts": true,
-    "in_shootout": false,
+    "in_shootout": true,
     "shootout_excluded": {
-      "home": [],
+      "home": [
+        619
+      ],
       "away": []
     },
-    "home_shootout_score": 0,
-    "away_shootout_score": 0,
-    "shootout_history": [],
+    "home_shootout_score": 1,
+    "away_shootout_score": 2,
+    "shootout_history": [
+      {
+        "id": 1017,
+        "team_id": 123,
+        "player_id": 829,
+        "player_name": "Riccardo",
+        "player_surname": "Barbiero",
+        "player_username": "Alabarda Spaziale",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": true,
+        "created_at": "2026-08-16T13:30:04.829Z"
+      },
+      {
+        "id": 1018,
+        "team_id": 93,
+        "player_id": 621,
+        "player_name": "AMEDEO",
+        "player_surname": "MALESARDI",
+        "player_username": "NONO COMANDAMENTO",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": true,
+        "created_at": "2026-08-16T13:30:17.174Z"
+      },
+      {
+        "id": 1019,
+        "team_id": 123,
+        "player_id": 825,
+        "player_name": "Federico",
+        "player_surname": "Leonardi",
+        "player_username": "Pan Carrè",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": true,
+        "created_at": "2026-08-16T13:30:42.641Z"
+      },
+      {
+        "id": 1020,
+        "team_id": 93,
+        "player_id": 622,
+        "player_name": "Davide",
+        "player_surname": "De Zambotti",
+        "player_username": "Il re dell’artigianato",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:31:18.274Z"
+      },
+      {
+        "id": 1021,
+        "team_id": 93,
+        "player_id": 616,
+        "player_name": "ANDREA",
+        "player_surname": "CONZATTI",
+        "player_username": "CALDAIA",
+        "avatar_url": "/storage/players/defaultmale.png",
+        "scored": false,
+        "created_at": "2026-08-16T13:31:48.004Z"
+      }
+    ],
     "home_score": 1,
     "away_score": 1,
     "timer": {
@@ -55,7 +113,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -72,7 +130,7 @@
           "yellow_cards": 0,
           "red_cards": 0,
           "shootout_goals": 0,
-          "shootout_misses": 0,
+          "shootout_misses": 1,
           "diffidato": false,
           "suspended": false
         },
@@ -156,7 +214,7 @@
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false
@@ -187,7 +245,7 @@
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false
@@ -221,7 +279,7 @@
           "fouls_ft": 0,
           "yellow_cards": 0,
           "red_cards": 0,
-          "shootout_goals": 0,
+          "shootout_goals": 1,
           "shootout_misses": 0,
           "diffidato": false,
           "suspended": false

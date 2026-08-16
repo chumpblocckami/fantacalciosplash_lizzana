@@ -28,6 +28,15 @@
     "Total": 26
   },
   {
+    "player": "Andrea Conzatti | FC SAVIGNANO",
+    "Match 1": 3,
+    "Match 2": 10,
+    "Match 3": 12,
+    "Match 4": 1,
+    "Premi": 0,
+    "Total": 26
+  },
+  {
     "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
     "Match 1": 5,
     "Match 2": 3,
@@ -38,13 +47,14 @@
     "Total": 24
   },
   {
-    "player": "Andrea Conzatti | FC SAVIGNANO",
-    "Match 1": 3,
-    "Match 2": 10,
-    "Match 3": 12,
-    "Match 4": -2,
+    "player": "Manuel Pedrotti | SUGHI",
+    "Match 1": 8,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 10,
+    "Match 5": 3,
     "Premi": 0,
-    "Total": 23
+    "Total": 22
   },
   {
     "player": "Danny Giordani | I MAGNIFICI",
@@ -131,16 +141,6 @@
     "Total": 17
   },
   {
-    "player": "Manuel Pedrotti | SUGHI",
-    "Match 1": 8,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 10,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 17
-  },
-  {
     "player": "Giovanni Torboli | F.C. GORILLAZ",
     "Match 1": 5,
     "Match 2": 12,
@@ -213,6 +213,15 @@
     "Match 2": 0,
     "Match 3": 1,
     "Match 4": 7,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
+    "player": "Nicolas Giordani | FC SAVIGNANO",
+    "Match 1": 2,
+    "Match 2": 3.5,
+    "Match 3": 9,
+    "Match 4": 0.5,
     "Premi": 0,
     "Total": 15
   },
@@ -301,15 +310,6 @@
     "Total": 13
   },
   {
-    "player": "Nicolas Giordani | FC SAVIGNANO",
-    "Match 1": 2,
-    "Match 2": 3.5,
-    "Match 3": 9,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 12.5
-  },
-  {
     "player": "Enrico Bordignon | PINGUINI TRENTINI",
     "Match 1": 8,
     "Match 2": 2,
@@ -344,6 +344,16 @@
     "Match 3": 0,
     "Match 4": 4,
     "Match 5": 0,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
+    "player": "Riccardo Barbiero | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 1,
     "Premi": 0,
     "Total": 12
   },
@@ -539,6 +549,44 @@
     "Total": 10
   },
   {
+    "player": "Daniele Feltrinelli | SUGHI",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Luca Tonolli | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 4,
+    "Match 5": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Davide De Zambotti | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 3,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Alessandro Maffei | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 6,
+    "Match 4": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
     "player": "Giovanni Giusto | DEMOBUSTERS",
     "Match 1": 4,
     "Match 2": 2,
@@ -625,16 +673,6 @@
     "Total": 9
   },
   {
-    "player": "Riccardo Barbiero | SUGHI",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 6,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
     "player": "Andrea Giordani | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 2,
@@ -708,6 +746,16 @@
     "Match 3": 0,
     "Match 4": 4,
     "Match 5": 0,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Emanuele Miorandi | SUGHI",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 4,
+    "Match 5": 1,
     "Premi": 0,
     "Total": 8
   },
@@ -816,31 +864,12 @@
     "Total": 7
   },
   {
-    "player": "Daniele Feltrinelli | SUGHI",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Luca Tonolli | SUGHI",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Alessandro Maffei | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
+    "player": "Federico Leonardi | SUGHI",
+    "Match 1": 1.5,
+    "Match 2": -1,
     "Match 3": 6,
-    "Match 4": -2,
+    "Match 4": 0,
+    "Match 5": 0.5,
     "Premi": 0,
     "Total": 7
   },
@@ -907,6 +936,33 @@
     "Match 3": 2,
     "Match 4": 0,
     "Match 5": -2,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Giacomo De Zambotti | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 1,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Eduardo Grazioli | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 1,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Amedeo Malesardi | FC SAVIGNANO",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 1,
     "Premi": 0,
     "Total": 6
   },
@@ -1027,25 +1083,6 @@
     "Total": 5
   },
   {
-    "player": "Emanuele Miorandi | SUGHI",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Davide De Zambotti | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 4,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
     "player": "Michele Bertolini | GREP",
     "Match 1": 2,
     "Match 2": 1,
@@ -1081,16 +1118,6 @@
     "Match 5": -2,
     "Premi": 0,
     "Total": 5
-  },
-  {
-    "player": "Federico Leonardi | SUGHI",
-    "Match 1": 1.5,
-    "Match 2": -1,
-    "Match 3": 6,
-    "Match 4": 0,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 4.5
   },
   {
     "player": "Alessandro Sartori | QUEI STRAZI",
@@ -1261,33 +1288,6 @@
     "Match 3": -1,
     "Match 4": 2,
     "Match 5": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Giacomo De Zambotti | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Eduardo Grazioli | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Amedeo Malesardi | FC SAVIGNANO",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 3
   },
