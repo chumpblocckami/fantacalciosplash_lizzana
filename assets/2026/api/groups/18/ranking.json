@@ -7,14 +7,14 @@
       "tag": "MAG",
       "logo_url": "/storage/teams/imagnifici.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
+      "points": 3,
+      "played": 1,
+      "wins": 1,
       "draws": 0,
       "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
+      "goals_scored": 5,
+      "goals_conceded": 2,
+      "goal_difference": 3,
       "disciplinary_points": 0
     },
     {
@@ -25,14 +25,14 @@
       "logo_url": "/storage/teams/sbarx.png",
       "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
       "points": 0,
-      "played": 0,
+      "played": 1,
       "wins": 0,
       "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
+      "losses": 1,
+      "goals_scored": 2,
+      "goals_conceded": 5,
+      "goal_difference": -3,
+      "disciplinary_points": 1
     }
   ]
 }

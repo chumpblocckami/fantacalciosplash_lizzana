@@ -7,9 +7,9 @@
     "Match 4": 8,
     "Match 5": 4,
     "Match 6": 4,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 48
+    "Match 7": 8,
+    "Premi": 5,
+    "Total": 63
   },
   {
     "player": "Leonardo Viola | SHARK ATTACK",
@@ -22,6 +22,18 @@
     "Match 7": 6,
     "Premi": 0,
     "Total": 36
+  },
+  {
+    "player": "Danny Giordani | I MAGNIFICI",
+    "Match 1": 10,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 6,
+    "Match 5": 6,
+    "Match 6": 2,
+    "Match 7": 4,
+    "Premi": 0,
+    "Total": 34
   },
   {
     "player": "Federico Mortillaro | CLITORIDERS",
@@ -61,6 +73,18 @@
     "Total": 30
   },
   {
+    "player": "Federico Fasanelli | SBARX",
+    "Match 1": 6,
+    "Match 2": 5,
+    "Match 3": 4,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 7,
+    "Match 7": 2,
+    "Premi": 0,
+    "Total": 28
+  },
+  {
     "player": "Mattia Festi | SHARK ATTACK",
     "Match 1": 6,
     "Match 2": 2,
@@ -73,16 +97,16 @@
     "Total": 28
   },
   {
-    "player": "Danny Giordani | I MAGNIFICI",
-    "Match 1": 10,
-    "Match 2": 4,
-    "Match 3": 2,
-    "Match 4": 6,
-    "Match 5": 6,
-    "Match 6": 2,
-    "Match 7": -2,
+    "player": "Elia Barozzi | I MAGNIFICI",
+    "Match 1": 7,
+    "Match 2": 0.5,
+    "Match 3": 7,
+    "Match 4": 1.5,
+    "Match 5": 1,
+    "Match 6": 7,
+    "Match 7": 1,
     "Premi": 0,
-    "Total": 28
+    "Total": 25
   },
   {
     "player": "Matteo Diener | U.SGUARNA",
@@ -98,28 +122,28 @@
     "Total": 24
   },
   {
-    "player": "Federico Fasanelli | SBARX",
-    "Match 1": 6,
-    "Match 2": 5,
-    "Match 3": 4,
+    "player": "Alex Manica | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 8,
     "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 7,
-    "Match 7": -2,
+    "Match 5": 6,
+    "Match 6": 1,
+    "Match 7": 0,
     "Premi": 0,
-    "Total": 24
+    "Total": 20
   },
   {
-    "player": "Elia Barozzi | I MAGNIFICI",
-    "Match 1": 7,
-    "Match 2": 0.5,
-    "Match 3": 7,
-    "Match 4": 1.5,
-    "Match 5": 1,
-    "Match 6": 7,
-    "Match 7": -2,
+    "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 4,
+    "Match 4": 4,
+    "Match 5": 2,
+    "Match 6": 5,
+    "Match 7": 0,
     "Premi": 0,
-    "Total": 22
+    "Total": 20
   },
   {
     "player": "Mattia Baldessarini | SHARK ATTACK",
@@ -159,30 +183,6 @@
     "Total": 19
   },
   {
-    "player": "Alex Manica | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 8,
-    "Match 4": 2,
-    "Match 5": 6,
-    "Match 6": 1,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 18
-  },
-  {
-    "player": "Nicholas Marzadro | SBARX",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 4,
-    "Match 4": 4,
-    "Match 5": 2,
-    "Match 6": 5,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 18
-  },
-  {
     "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
     "Match 2": 2,
@@ -208,6 +208,18 @@
     "Total": 18
   },
   {
+    "player": "Giovanni Raoss | I MAGNIFICI",
+    "Match 1": 6,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 0,
+    "Match 7": 2,
+    "Premi": 0,
+    "Total": 18
+  },
+  {
     "player": "Marco Heidempergher | U.SGUARNA",
     "Match 1": 4,
     "Match 2": 2,
@@ -217,6 +229,18 @@
     "Match 6": 0,
     "Match 7": -2,
     "Match 8": -2,
+    "Premi": 0,
+    "Total": 16
+  },
+  {
+    "player": "Lorenzo Zuani | I MAGNIFICI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 2,
+    "Match 7": 4,
     "Premi": 0,
     "Total": 16
   },
@@ -259,6 +283,18 @@
     "Total": 14
   },
   {
+    "player": "Niccolò Orsi | SBARX",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": 0,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
     "player": "Alessandro Zeni | SHARK ATTACK",
     "Match 1": 2,
     "Match 2": 2,
@@ -283,14 +319,26 @@
     "Total": 14
   },
   {
-    "player": "Giovanni Raoss | I MAGNIFICI",
-    "Match 1": 6,
-    "Match 2": 4,
+    "player": "Guglielmo Caroli | I MAGNIFICI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 2,
+    "Match 7": 2,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
+    "player": "Simone Schonsberg | I MAGNIFICI",
+    "Match 1": 4,
+    "Match 2": 2,
     "Match 3": 2,
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 0,
-    "Match 7": -2,
+    "Match 7": 2,
     "Premi": 0,
     "Total": 14
   },
@@ -304,18 +352,6 @@
     "Match 6": -2,
     "Match 7": -2,
     "Match 8": -2,
-    "Premi": 0,
-    "Total": 13
-  },
-  {
-    "player": "Matteo Zanlucchi | SBARX",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 7,
-    "Match 5": 1.5,
-    "Match 6": -1.5,
-    "Match 7": -2,
     "Premi": 0,
     "Total": 13
   },
@@ -359,16 +395,16 @@
     "Total": 13
   },
   {
-    "player": "Niccolò Orsi | SBARX",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Match 7": -2,
+    "player": "Matteo Zanlucchi | SBARX",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 7,
+    "Match 5": 1.5,
+    "Match 6": -1.5,
+    "Match 7": -2.5,
     "Premi": 0,
-    "Total": 12
+    "Total": 12.5
   },
   {
     "player": "Pietro Bernardelli | CLITORIDERS",
@@ -434,6 +470,42 @@
     "Total": 10
   },
   {
+    "player": "Carlo Adami | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": 0,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Davide Fontana | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": 0,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Enrico Parisi | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": 0,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
     "player": "Maverick Bertolini | A.C.DENTI",
     "Match 1": 4,
     "Match 2": 3,
@@ -443,42 +515,6 @@
     "Match 6": -2,
     "Match 7": -2,
     "Match 8": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Guglielmo Caroli | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 2,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Simone Schonsberg | I MAGNIFICI",
-    "Match 1": 4,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 0,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Lorenzo Zuani | I MAGNIFICI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 2,
-    "Match 7": -2,
     "Premi": 0,
     "Total": 10
   },
@@ -553,42 +589,6 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 8
-  },
-  {
-    "player": "Carlo Adami | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 8
-  },
-  {
-    "player": "Davide Fontana | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 8
-  },
-  {
-    "player": "Enrico Parisi | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
     "Match 7": -2,
     "Premi": 0,
     "Total": 8

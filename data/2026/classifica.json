@@ -1,27 +1,27 @@
 [
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 104
+    "Punteggio": 122
   },
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 93
+    "Punteggio": 108
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 87
+    "Punteggio": 93
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 76
+    "Punteggio": 91
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 76
+    "Punteggio": 83
   },
   {
     "Allenatore": "Riccardo Zeni",
-    "Punteggio": 72
+    "Punteggio": 76
   },
   {
     "Allenatore": "Jacopo Chemini",
@@ -29,19 +29,19 @@
   },
   {
     "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 66
+    "Punteggio": 68
+  },
+  {
+    "Allenatore": "Nazarena Raos",
+    "Punteggio": 67
   },
   {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 64
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 62
-  },
-  {
     "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 61
+    "Punteggio": 63
   },
   {
     "Allenatore": "Sebastiano Zoller",
@@ -60,8 +60,12 @@
     "Punteggio": 53.5
   },
   {
-    "Allenatore": "Valentina Perghem",
+    "Allenatore": "Dalila Valzolgher",
     "Punteggio": 52
+  },
+  {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 51.5
   },
   {
     "Allenatore": "Michela Menghini",
@@ -76,16 +80,12 @@
     "Punteggio": 50
   },
   {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 49
-  },
-  {
     "Allenatore": "Nicolas Giordani",
     "Punteggio": 48
   },
   {
     "Allenatore": "Marco Sartorelli",
-    "Punteggio": 44
+    "Punteggio": 47
   },
   {
     "Allenatore": "Matteo Mazzola",
@@ -104,12 +104,12 @@
     "Punteggio": 35.5
   },
   {
-    "Allenatore": "JAlvin92",
-    "Punteggio": 33
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 34
   },
   {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 28
+    "Allenatore": "JAlvin92",
+    "Punteggio": 33
   },
   {
     "Allenatore": "Andrea Conzatti",
