@@ -7,8 +7,8 @@
     "Match 4": 8,
     "Match 5": 4,
     "Match 6": 4,
-    "Premi": 0,
-    "Total": 50
+    "Premi": 5,
+    "Total": 55
   },
   {
     "player": "Federico Mortillaro | CLITORIDERS",
@@ -20,6 +20,17 @@
     "Match 6": -2,
     "Premi": 0,
     "Total": 34
+  },
+  {
+    "player": "Leonardo Viola | SHARK ATTACK",
+    "Match 1": 8,
+    "Match 2": 6,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Match 5": 2,
+    "Match 6": 7,
+    "Premi": 0,
+    "Total": 30
   },
   {
     "player": "Danny Giordani | I MAGNIFICI",
@@ -57,6 +68,39 @@
     "Total": 26
   },
   {
+    "player": "Federico Fasanelli | SBARX",
+    "Match 1": 6,
+    "Match 2": 5,
+    "Match 3": 4,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 7,
+    "Premi": 0,
+    "Total": 26
+  },
+  {
+    "player": "Alessio Bragagna | SHARK ATTACK",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 4,
+    "Match 6": 3,
+    "Premi": 0,
+    "Total": 26
+  },
+  {
+    "player": "Mattia Festi | SHARK ATTACK",
+    "Match 1": 6,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 6,
+    "Match 6": 1,
+    "Premi": 0,
+    "Total": 26
+  },
+  {
     "player": "Elia Barozzi | I MAGNIFICI",
     "Match 1": 7,
     "Match 2": 0.5,
@@ -66,17 +110,6 @@
     "Match 6": 7,
     "Premi": 0,
     "Total": 24
-  },
-  {
-    "player": "Mattia Festi | SHARK ATTACK",
-    "Match 1": 6,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": 6,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 23
   },
   {
     "player": "Andrea Conzatti | FC SAVIGNANO",
@@ -90,26 +123,26 @@
     "Total": 22
   },
   {
-    "player": "Alessio Bragagna | SHARK ATTACK",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": 4,
-    "Match 6": -2,
+    "player": "Alex Manica | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 8,
+    "Match 4": 2,
+    "Match 5": 6,
+    "Match 6": 1,
     "Premi": 0,
-    "Total": 21
+    "Total": 20
   },
   {
-    "player": "Leonardo Viola | SHARK ATTACK",
-    "Match 1": 8,
-    "Match 2": 6,
-    "Match 3": 3,
+    "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 4,
     "Match 4": 4,
     "Match 5": 2,
-    "Match 6": -2,
+    "Match 6": 5,
     "Premi": 0,
-    "Total": 21
+    "Total": 20
   },
   {
     "player": "Manuel Pedrotti | SUGHI",
@@ -148,28 +181,6 @@
     "Total": 18
   },
   {
-    "player": "Federico Fasanelli | SBARX",
-    "Match 1": 6,
-    "Match 2": 5,
-    "Match 3": 4,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 17
-  },
-  {
-    "player": "Alex Manica | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 8,
-    "Match 4": 2,
-    "Match 5": 6,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 17
-  },
-  {
     "player": "Edoardo Pomarolli | MODIUM",
     "Match 1": 4,
     "Match 2": 0,
@@ -201,6 +212,17 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Premi": 0,
+    "Total": 16
+  },
+  {
+    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Match 6": 1,
     "Premi": 0,
     "Total": 16
   },
@@ -239,6 +261,17 @@
     "Total": 15
   },
   {
+    "player": "Matteo Zanlucchi | SBARX",
+    "Match 1": 7,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 7,
+    "Match 5": 1.5,
+    "Match 6": -1.5,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
     "player": "Federico Pomarolli | MODIUM",
     "Match 1": 6,
     "Match 2": 0,
@@ -251,37 +284,26 @@
     "Total": 15
   },
   {
-    "player": "Matteo Zanlucchi | SBARX",
-    "Match 1": 7,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 7,
-    "Match 5": 1.5,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 14.5
-  },
-  {
-    "player": "Nicholas Marzadro | SBARX",
-    "Match 1": 4,
+    "player": "Niccolò Orsi | SBARX",
+    "Match 1": 6,
     "Match 2": 1,
-    "Match 3": 4,
-    "Match 4": 4,
+    "Match 3": 2,
+    "Match 4": 2,
     "Match 5": 2,
-    "Match 6": -2,
+    "Match 6": 1,
     "Premi": 0,
-    "Total": 13
+    "Total": 14
   },
   {
-    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "player": "Gabriele Brentari | SHARK ATTACK",
     "Match 1": 2,
-    "Match 2": 4,
+    "Match 2": 2,
     "Match 3": 1,
-    "Match 4": 6,
-    "Match 5": 2,
-    "Match 6": -2,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Match 6": 3,
     "Premi": 0,
-    "Total": 13
+    "Total": 14
   },
   {
     "player": "Pietro Bernardelli | CLITORIDERS",
@@ -366,6 +388,17 @@
     "Total": 12
   },
   {
+    "player": "Alessandro Zeni | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
     "player": "Maverick Bertolini | A.C.DENTI",
     "Match 1": 4,
     "Match 2": 3,
@@ -434,17 +467,6 @@
     "Total": 11
   },
   {
-    "player": "Niccolò Orsi | SBARX",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
     "player": "Nicolas Giordani | FC SAVIGNANO",
     "Match 1": 2,
     "Match 2": 3.5,
@@ -475,6 +497,39 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Carlo Adami | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Davide Fontana | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Premi": 0,
+    "Total": 10
+  },
+  {
+    "player": "Enrico Parisi | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
     "Premi": 0,
     "Total": 10
   },
@@ -547,28 +602,6 @@
     "Match 7": -2,
     "Premi": 0,
     "Total": 10
-  },
-  {
-    "player": "Gabriele Brentari | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": 4,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Alessandro Zeni | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 9
   },
   {
     "player": "Andrea Anzelini | GREP",
@@ -762,39 +795,6 @@
     "Match 3": 8,
     "Match 4": 0,
     "Match 5": -2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Carlo Adami | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Davide Fontana | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 7
-  },
-  {
-    "player": "Enrico Parisi | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
     "Match 6": -2,
     "Premi": 0,
     "Total": 7
@@ -1128,6 +1128,17 @@
     "Total": 3
   },
   {
+    "player": "Alberto Cerisara | SHARK ATTACK",
+    "Match 1": 1.5,
+    "Match 2": 1.5,
+    "Match 3": -1,
+    "Match 4": 1.5,
+    "Match 5": 1,
+    "Match 6": -1.5,
+    "Premi": 0,
+    "Total": 3
+  },
+  {
     "player": "Riccardo Baldo | GREP",
     "Match 1": 4,
     "Match 2": 1,
@@ -1148,17 +1159,6 @@
     "Match 6": -2,
     "Premi": 0,
     "Total": 3
-  },
-  {
-    "player": "Alberto Cerisara | SHARK ATTACK",
-    "Match 1": 1.5,
-    "Match 2": 1.5,
-    "Match 3": -1,
-    "Match 4": 1.5,
-    "Match 5": 1,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 2.5
   },
   {
     "player": "Michele Eccel | NAZIONALE FERROVIERI",
