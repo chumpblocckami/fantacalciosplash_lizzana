@@ -46,12 +46,39 @@
     "Total": 22
   },
   {
+    "player": "Leonardo Viola | SHARK ATTACK",
+    "Match 1": 8,
+    "Match 2": 6,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Premi": 0,
+    "Total": 21
+  },
+  {
     "player": "Samuele Pedrotti | BEVEM4TUT",
     "Match 1": 0,
     "Match 2": 10,
     "Match 3": 3,
     "Match 4": 6,
     "Match 5": 0,
+    "Premi": 0,
+    "Total": 19
+  },
+  {
+    "player": "Alessio Bragagna | SHARK ATTACK",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Premi": 0,
+    "Total": 19
+  },
+  {
+    "player": "Mattia Festi | SHARK ATTACK",
+    "Match 1": 6,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 8,
     "Premi": 0,
     "Total": 19
   },
@@ -143,15 +170,6 @@
     "Total": 15
   },
   {
-    "player": "Leonardo Viola | SHARK ATTACK",
-    "Match 1": 8,
-    "Match 2": 6,
-    "Match 3": 3,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 15
-  },
-  {
     "player": "Stefano Galvagni | CLITORIDERS",
     "Match 1": 1,
     "Match 2": 6,
@@ -167,6 +185,16 @@
     "Match 3": 6,
     "Match 4": 4,
     "Match 5": -2,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
+    "player": "Leonardo Comper | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 4,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 14
   },
@@ -209,6 +237,15 @@
     "Total": 13
   },
   {
+    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Premi": 0,
+    "Total": 13
+  },
+  {
     "player": "Andrea Anzelini | GREP",
     "Match 1": 6,
     "Match 2": 3,
@@ -245,12 +282,12 @@
     "Total": 12
   },
   {
-    "player": "Leonardo Comper | GLI INTROVABILI",
+    "player": "Moris Benedetti | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
-    "Match 3": 2,
+    "Match 3": 0,
     "Match 4": 4,
-    "Match 5": -2,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 12
   },
@@ -370,12 +407,12 @@
     "Total": 10
   },
   {
-    "player": "Moris Benedetti | GLI INTROVABILI",
+    "player": "Tommaso Aste | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
     "Match 3": 0,
-    "Match 4": 4,
-    "Match 5": -2,
+    "Match 4": 2,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 10
   },
@@ -426,20 +463,21 @@
     "Total": 9
   },
   {
-    "player": "Alessio Bragagna | SHARK ATTACK",
-    "Match 1": 4,
+    "player": "Gerardo Todisco | GLI INTROVABILI",
+    "Match 1": 2,
     "Match 2": 4,
-    "Match 3": 3,
-    "Match 4": -2,
+    "Match 3": -1,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 9
   },
   {
-    "player": "Mattia Festi | SHARK ATTACK",
-    "Match 1": 6,
+    "player": "Alessandro Zeni | SHARK ATTACK",
+    "Match 1": 2,
     "Match 2": 2,
     "Match 3": 3,
-    "Match 4": -2,
+    "Match 4": 2,
     "Premi": 0,
     "Total": 9
   },
@@ -530,12 +568,22 @@
     "Total": 8
   },
   {
-    "player": "Tommaso Aste | GLI INTROVABILI",
-    "Match 1": 4,
-    "Match 2": 4,
+    "player": "Mattia Kaiserman | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 2,
     "Match 3": 0,
-    "Match 4": 2,
-    "Match 5": -2,
+    "Match 4": 4,
+    "Match 5": 0,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Andrea Pedrotti | GLI INTROVABILI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 0,
+    "Match 4": 4,
+    "Match 5": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -663,6 +711,15 @@
     "Total": 7
   },
   {
+    "player": "Gabriele Brentari | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Daniele Feltrinelli | SUGHI",
     "Match 1": 6,
     "Match 2": 0,
@@ -734,26 +791,6 @@
     "Match 2": 8,
     "Match 3": 0,
     "Match 4": 0,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Mattia Kaiserman | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 6
-  },
-  {
-    "player": "Andrea Pedrotti | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 0,
-    "Match 4": 4,
     "Match 5": -2,
     "Premi": 0,
     "Total": 6
@@ -844,44 +881,6 @@
     "Match 3": 5,
     "Match 4": 2,
     "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Thomas Pontillo | GLI INTROVABILI",
-    "Match 1": 1,
-    "Match 2": 0.5,
-    "Match 3": -1.5,
-    "Match 4": 7,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Gerardo Todisco | GLI INTROVABILI",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": -1,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Mattia Baldessarini | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Alessandro Zeni | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 5
   },
@@ -1048,6 +1047,15 @@
     "Total": 4
   },
   {
+    "player": "Alberto Cerisara | SHARK ATTACK",
+    "Match 1": 1.5,
+    "Match 2": 1.5,
+    "Match 3": -1,
+    "Match 4": 1.5,
+    "Premi": 0,
+    "Total": 3.5
+  },
+  {
     "player": "Maxim Bot | POWER GINGER",
     "Match 1": 2,
     "Match 2": 0,
@@ -1179,15 +1187,6 @@
     "Total": 3
   },
   {
-    "player": "Gabriele Brentari | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 1,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
     "player": "Giacomo De Zambotti | FC SAVIGNANO",
     "Match 1": 1,
     "Match 2": 2,
@@ -1249,6 +1248,16 @@
     "Match 3": 1.5,
     "Match 4": 1.5,
     "Match 5": -2,
+    "Premi": 0,
+    "Total": 2.5
+  },
+  {
+    "player": "Thomas Pontillo | GLI INTROVABILI",
+    "Match 1": 1,
+    "Match 2": 0.5,
+    "Match 3": -1.5,
+    "Match 4": 7,
+    "Match 5": -4.5,
     "Premi": 0,
     "Total": 2.5
   },
@@ -1592,15 +1601,6 @@
     "Match 3": 0,
     "Match 4": 0,
     "Match 5": -2,
-    "Premi": 0,
-    "Total": 0
-  },
-  {
-    "player": "Alberto Cerisara | SHARK ATTACK",
-    "Match 1": 1.5,
-    "Match 2": 1.5,
-    "Match 3": -1,
-    "Match 4": -2,
     "Premi": 0,
     "Total": 0
   },
