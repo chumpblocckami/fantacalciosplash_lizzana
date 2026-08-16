@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "ranking": 1,
+      "id": 110,
+      "name": "I MAGNIFICI",
+      "tag": "MAG",
+      "logo_url": "/storage/teams/imagnifici.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
+      "id": 117,
+      "name": "SBARX",
+      "tag": "SBA",
+      "logo_url": "/storage/teams/sbarx.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    }
+  ]
+}

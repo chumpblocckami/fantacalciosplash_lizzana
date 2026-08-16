@@ -809,6 +809,64 @@
       ]
     },
     {
+      "id": 20,
+      "name": "Finale Femminile",
+      "has_shootouts": true,
+      "gender": "female",
+      "kind": "bracket",
+      "source_group_id": 16,
+      "source_outcome": "winners",
+      "sort_order": 32,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 126,
+          "name": "DRIM TIM",
+          "tag": "DRI",
+          "logo_url": "/storage/teams/drimtim.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+          "players_count": 9
+        },
+        {
+          "id": 99,
+          "name": "SAILOR MONE",
+          "tag": "SAI",
+          "logo_url": "/storage/teams/sailormone.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
+          "players_count": 6
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "3°/4° Posto Femminile",
+      "has_shootouts": true,
+      "gender": "female",
+      "kind": "bracket",
+      "source_group_id": 16,
+      "source_outcome": "losers",
+      "sort_order": 37,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 114,
+          "name": "JÄGERBOMBE",
+          "tag": "JGE",
+          "logo_url": "/storage/teams/jägerbombe.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+          "players_count": 7
+        },
+        {
+          "id": 121,
+          "name": "PANCHAMAHBAHUTA",
+          "tag": "PAN",
+          "logo_url": "/storage/teams/panchamahbahuta.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\panchamahbahuta.png",
+          "players_count": 7
+        }
+      ]
+    },
+    {
       "id": 15,
       "name": "Quarti Maschile",
       "has_shootouts": true,
@@ -919,6 +977,64 @@
           "logo_url": "/storage/teams/sbarx.png",
           "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
           "players_count": 8
+        },
+        {
+          "id": 95,
+          "name": "SHARK ATTACK",
+          "tag": "SHA",
+          "logo_url": "/storage/teams/sharkattack.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+          "players_count": 7
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Finale Maschile",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "bracket",
+      "source_group_id": 17,
+      "source_outcome": "winners",
+      "sort_order": 60,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 110,
+          "name": "I MAGNIFICI",
+          "tag": "MAG",
+          "logo_url": "/storage/teams/imagnifici.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+          "players_count": 7
+        },
+        {
+          "id": 117,
+          "name": "SBARX",
+          "tag": "SBA",
+          "logo_url": "/storage/teams/sbarx.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+          "players_count": 8
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "3°/4° Posto Maschile",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "bracket",
+      "source_group_id": 17,
+      "source_outcome": "losers",
+      "sort_order": 65,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 119,
+          "name": "C.G.B. CHELE DI CHERNO",
+          "tag": "CGB",
+          "logo_url": "/storage/teams/cgbcheledicherno.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbcheledicherno.png",
+          "players_count": 6
         },
         {
           "id": 95,

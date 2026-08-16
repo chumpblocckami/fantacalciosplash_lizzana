@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "ranking": 1,
+      "id": 95,
+      "name": "SHARK ATTACK",
+      "tag": "SHA",
+      "logo_url": "/storage/teams/sharkattack.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
+      "id": 119,
+      "name": "C.G.B. CHELE DI CHERNO",
+      "tag": "CGB",
+      "logo_url": "/storage/teams/cgbcheledicherno.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbcheledicherno.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    }
+  ]
+}
