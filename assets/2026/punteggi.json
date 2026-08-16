@@ -5121,6 +5121,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Alessio Bragagna | SHARK ATTACK": [
@@ -5177,6 +5186,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 3
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Gabriele Brentari | SHARK ATTACK": [
@@ -5233,6 +5251,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 3
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Alberto Cerisara | SHARK ATTACK": [
@@ -5289,6 +5316,15 @@
       "goalkeeper_points": -2.5,
       "mvp_points": 0,
       "total_points": -1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": -1,
+      "mvp_points": 0,
+      "total_points": 1
     }
   ],
   "Mattia Festi | SHARK ATTACK": [
@@ -5345,6 +5381,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Leonardo Viola | SHARK ATTACK": [
@@ -5401,6 +5446,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 7
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 6
     }
   ],
   "Alessandro Zeni | SHARK ATTACK": [
@@ -5457,6 +5511,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Massimiliano Baldo | QUESTI SEN": [
@@ -8285,6 +8348,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Riccardo Cesarini Sforza | C.G.B. CHELE DI CHERNO": [
@@ -8341,6 +8413,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 3
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,
@@ -8415,6 +8496,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 4,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Diego Passerini | C.G.B. CHELE DI CHERNO": [
@@ -8480,6 +8570,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": -0.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -2.5,
+      "mvp_points": 0,
+      "total_points": -2.5
     }
   ],
   "Thomas Perenzoni | C.G.B. CHELE DI CHERNO": [
@@ -8545,6 +8644,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 0
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Sebastiano Zoller | C.G.B. CHELE DI CHERNO": [
@@ -8601,6 +8709,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 1
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     },
     {
       "goals": 0,

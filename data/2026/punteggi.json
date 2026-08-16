@@ -7,19 +7,9 @@
     "Match 4": 8,
     "Match 5": 4,
     "Match 6": 4,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 50
-  },
-  {
-    "player": "Federico Mortillaro | CLITORIDERS",
-    "Match 1": 5,
-    "Match 2": 12,
-    "Match 3": 6,
-    "Match 4": 8,
-    "Match 5": 5,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 34
+    "Total": 48
   },
   {
     "player": "Leonardo Viola | SHARK ATTACK",
@@ -29,19 +19,21 @@
     "Match 4": 4,
     "Match 5": 2,
     "Match 6": 7,
+    "Match 7": 6,
     "Premi": 0,
-    "Total": 30
+    "Total": 36
   },
   {
-    "player": "Danny Giordani | I MAGNIFICI",
-    "Match 1": 10,
-    "Match 2": 4,
-    "Match 3": 2,
-    "Match 4": 6,
-    "Match 5": 6,
-    "Match 6": 2,
+    "player": "Federico Mortillaro | CLITORIDERS",
+    "Match 1": 5,
+    "Match 2": 12,
+    "Match 3": 6,
+    "Match 4": 8,
+    "Match 5": 5,
+    "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 30
+    "Total": 32
   },
   {
     "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
@@ -52,8 +44,45 @@
     "Match 5": 4,
     "Match 6": 3,
     "Match 7": 0,
+    "Match 8": 4,
     "Premi": 0,
-    "Total": 27
+    "Total": 31
+  },
+  {
+    "player": "Alessio Bragagna | SHARK ATTACK",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 4,
+    "Match 6": 3,
+    "Match 7": 4,
+    "Premi": 0,
+    "Total": 30
+  },
+  {
+    "player": "Mattia Festi | SHARK ATTACK",
+    "Match 1": 6,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 8,
+    "Match 5": 6,
+    "Match 6": 1,
+    "Match 7": 2,
+    "Premi": 0,
+    "Total": 28
+  },
+  {
+    "player": "Danny Giordani | I MAGNIFICI",
+    "Match 1": 10,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 6,
+    "Match 5": 6,
+    "Match 6": 2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 28
   },
   {
     "player": "Matteo Diener | U.SGUARNA",
@@ -64,8 +93,9 @@
     "Match 5": 2,
     "Match 6": 2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 26
+    "Total": 24
   },
   {
     "player": "Federico Fasanelli | SBARX",
@@ -75,30 +105,9 @@
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 7,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 26
-  },
-  {
-    "player": "Alessio Bragagna | SHARK ATTACK",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": 4,
-    "Match 6": 3,
-    "Premi": 0,
-    "Total": 26
-  },
-  {
-    "player": "Mattia Festi | SHARK ATTACK",
-    "Match 1": 6,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 8,
-    "Match 5": 6,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 26
+    "Total": 24
   },
   {
     "player": "Elia Barozzi | I MAGNIFICI",
@@ -108,8 +117,21 @@
     "Match 4": 1.5,
     "Match 5": 1,
     "Match 6": 7,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 24
+    "Total": 22
+  },
+  {
+    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": 4,
+    "Premi": 0,
+    "Total": 20
   },
   {
     "player": "Andrea Conzatti | FC SAVIGNANO",
@@ -119,39 +141,6 @@
     "Match 4": 1,
     "Match 5": -2,
     "Match 6": -2,
-    "Premi": 0,
-    "Total": 22
-  },
-  {
-    "player": "Alex Manica | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 8,
-    "Match 4": 2,
-    "Match 5": 6,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 20
-  },
-  {
-    "player": "Nicholas Marzadro | SBARX",
-    "Match 1": 4,
-    "Match 2": 1,
-    "Match 3": 4,
-    "Match 4": 4,
-    "Match 5": 2,
-    "Match 6": 5,
-    "Premi": 0,
-    "Total": 20
-  },
-  {
-    "player": "Manuel Pedrotti | SUGHI",
-    "Match 1": 8,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 10,
-    "Match 5": 3,
-    "Match 6": 0,
     "Match 7": -2,
     "Premi": 0,
     "Total": 20
@@ -165,8 +154,58 @@
     "Match 5": 6,
     "Match 6": 3,
     "Match 7": 0,
+    "Match 8": 0,
     "Premi": 0,
     "Total": 19
+  },
+  {
+    "player": "Alex Manica | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 8,
+    "Match 4": 2,
+    "Match 5": 6,
+    "Match 6": 1,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 18
+  },
+  {
+    "player": "Nicholas Marzadro | SBARX",
+    "Match 1": 4,
+    "Match 2": 1,
+    "Match 3": 4,
+    "Match 4": 4,
+    "Match 5": 2,
+    "Match 6": 5,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 18
+  },
+  {
+    "player": "Gabriele Brentari | SHARK ATTACK",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Match 6": 3,
+    "Match 7": 4,
+    "Premi": 0,
+    "Total": 18
+  },
+  {
+    "player": "Manuel Pedrotti | SUGHI",
+    "Match 1": 8,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 10,
+    "Match 5": 3,
+    "Match 6": 0,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 18
   },
   {
     "player": "Marco Heidempergher | U.SGUARNA",
@@ -177,8 +216,9 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 18
+    "Total": 16
   },
   {
     "player": "Edoardo Pomarolli | MODIUM",
@@ -189,8 +229,9 @@
     "Match 5": 4,
     "Match 6": 4,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 17
+    "Total": 15
   },
   {
     "player": "Andrea Roveda | PINGUINI TRENTINI",
@@ -200,8 +241,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 16
+    "Total": 14
   },
   {
     "player": "Riccardo Zaffoni | U.SGUARNA",
@@ -212,19 +254,21 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 16
+    "Total": 14
   },
   {
-    "player": "Mattia Baldessarini | SHARK ATTACK",
+    "player": "Alessandro Zeni | SHARK ATTACK",
     "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": 6,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 2,
     "Match 5": 2,
     "Match 6": 1,
+    "Match 7": 2,
     "Premi": 0,
-    "Total": 16
+    "Total": 14
   },
   {
     "player": "Stefano Galvagni | CLITORIDERS",
@@ -234,8 +278,9 @@
     "Match 4": 6,
     "Match 5": 3,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 16
+    "Total": 14
   },
   {
     "player": "Giovanni Raoss | I MAGNIFICI",
@@ -245,8 +290,9 @@
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 0,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 16
+    "Total": 14
   },
   {
     "player": "Samuele Pedrotti | BEVEM4TUT",
@@ -257,8 +303,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 15
+    "Total": 13
   },
   {
     "player": "Matteo Zanlucchi | SBARX",
@@ -268,51 +315,7 @@
     "Match 4": 7,
     "Match 5": 1.5,
     "Match 6": -1.5,
-    "Premi": 0,
-    "Total": 15
-  },
-  {
-    "player": "Federico Pomarolli | MODIUM",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 5,
-    "Match 4": 2,
-    "Match 5": 4,
-    "Match 6": 0,
     "Match 7": -2,
-    "Premi": 0,
-    "Total": 15
-  },
-  {
-    "player": "Niccolò Orsi | SBARX",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 14
-  },
-  {
-    "player": "Gabriele Brentari | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": 4,
-    "Match 6": 3,
-    "Premi": 0,
-    "Total": 14
-  },
-  {
-    "player": "Pietro Bernardelli | CLITORIDERS",
-    "Match 1": 0,
-    "Match 2": 7,
-    "Match 3": 7,
-    "Match 4": 1.5,
-    "Match 5": -0.5,
-    "Match 6": -2,
     "Premi": 0,
     "Total": 13
   },
@@ -325,6 +328,7 @@
     "Match 5": 2,
     "Match 6": 3,
     "Match 7": 0,
+    "Match 8": 0,
     "Premi": 0,
     "Total": 13
   },
@@ -337,8 +341,46 @@
     "Match 5": 4,
     "Match 6": 1,
     "Match 7": 0,
+    "Match 8": 0,
     "Premi": 0,
     "Total": 13
+  },
+  {
+    "player": "Federico Pomarolli | MODIUM",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 5,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Match 6": 0,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 13
+  },
+  {
+    "player": "Niccolò Orsi | SBARX",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 12
+  },
+  {
+    "player": "Pietro Bernardelli | CLITORIDERS",
+    "Match 1": 0,
+    "Match 2": 7,
+    "Match 3": 7,
+    "Match 4": 1.5,
+    "Match 5": -0.5,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 11
   },
   {
     "player": "Marco Sartorelli | MODIUM",
@@ -349,8 +391,9 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 13
+    "Total": 11
   },
   {
     "player": "Alessio Farinati | PINGUINI TRENTINI",
@@ -360,8 +403,9 @@
     "Match 4": 2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Giovanni Torboli | F.C. GORILLAZ",
@@ -372,8 +416,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Federico Nicolodi | U.SGUARNA",
@@ -384,19 +429,9 @@
     "Match 5": 2,
     "Match 6": 2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 12
-  },
-  {
-    "player": "Alessandro Zeni | SHARK ATTACK",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Maverick Bertolini | A.C.DENTI",
@@ -407,8 +442,9 @@
     "Match 5": 2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Guglielmo Caroli | I MAGNIFICI",
@@ -418,8 +454,9 @@
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Simone Schonsberg | I MAGNIFICI",
@@ -429,8 +466,9 @@
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 0,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Lorenzo Zuani | I MAGNIFICI",
@@ -440,8 +478,9 @@
     "Match 4": 2,
     "Match 5": 2,
     "Match 6": 2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 12
+    "Total": 10
   },
   {
     "player": "Marco Sala | I MONTAGNA",
@@ -451,8 +490,9 @@
     "Match 4": 2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 11
+    "Total": 9
   },
   {
     "player": "Matteo Giovannella | BEVEM4TUT",
@@ -463,8 +503,9 @@
     "Match 5": 2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 11
+    "Total": 9
   },
   {
     "player": "Nicolas Giordani | FC SAVIGNANO",
@@ -474,143 +515,7 @@
     "Match 4": 0.5,
     "Match 5": -2,
     "Match 6": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Matteo Lanaro | MODIUM",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": 2,
-    "Match 6": 0,
     "Match 7": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Enrico Bordignon | PINGUINI TRENTINI",
-    "Match 1": 8,
-    "Match 2": 2,
-    "Match 3": 4,
-    "Match 4": 0,
-    "Match 5": -2,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Carlo Adami | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Davide Fontana | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Enrico Parisi | SBARX",
-    "Match 1": 2,
-    "Match 2": 1,
-    "Match 3": 2,
-    "Match 4": 2,
-    "Match 5": 2,
-    "Match 6": 1,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Leonardo Comper | GLI INTROVABILI",
-    "Match 1": 4,
-    "Match 2": 4,
-    "Match 3": 2,
-    "Match 4": 4,
-    "Match 5": 0,
-    "Match 6": -2,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Riccardo Barbiero | SUGHI",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 6,
-    "Match 5": 1,
-    "Match 6": 0,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Emanuele Toss | 4SINS",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 8,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Match 6": -2,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Thomas Maffei | CLITORIDERS",
-    "Match 1": 1,
-    "Match 2": 4,
-    "Match 3": 2,
-    "Match 4": 4,
-    "Match 5": 1,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Michele Merighi | CLITORIDERS",
-    "Match 1": 1,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": 6,
-    "Match 5": 1,
-    "Match 6": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Michael Bertè | A.C.DENTI",
-    "Match 1": 6,
-    "Match 2": 1,
-    "Match 3": 1,
-    "Match 4": 6,
-    "Match 5": 0,
-    "Match 6": -2,
-    "Match 7": -2,
-    "Premi": 0,
-    "Total": 10
-  },
-  {
-    "player": "Andrea Anzelini | GREP",
-    "Match 1": 6,
-    "Match 2": 3,
-    "Match 3": 6,
-    "Match 4": -2,
-    "Match 5": -2,
-    "Match 6": -2,
     "Premi": 0,
     "Total": 9
   },
@@ -623,8 +528,158 @@
     "Match 5": 2,
     "Match 6": 1,
     "Match 7": 0,
+    "Match 8": 0,
     "Premi": 0,
     "Total": 9
+  },
+  {
+    "player": "Matteo Lanaro | MODIUM",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 4,
+    "Match 5": 2,
+    "Match 6": 0,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
+    "player": "Enrico Bordignon | PINGUINI TRENTINI",
+    "Match 1": 8,
+    "Match 2": 2,
+    "Match 3": 4,
+    "Match 4": 0,
+    "Match 5": -2,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Carlo Adami | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Davide Fontana | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Enrico Parisi | SBARX",
+    "Match 1": 2,
+    "Match 2": 1,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Match 6": 1,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Leonardo Comper | GLI INTROVABILI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 4,
+    "Match 5": 0,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Riccardo Barbiero | SUGHI",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 1,
+    "Match 6": 0,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Emanuele Toss | 4SINS",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 8,
+    "Match 4": 4,
+    "Match 5": -2,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Thomas Maffei | CLITORIDERS",
+    "Match 1": 1,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 4,
+    "Match 5": 1,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Michele Merighi | CLITORIDERS",
+    "Match 1": 1,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 6,
+    "Match 5": 1,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Michael Bertè | A.C.DENTI",
+    "Match 1": 6,
+    "Match 2": 1,
+    "Match 3": 1,
+    "Match 4": 6,
+    "Match 5": 0,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Match 8": -2,
+    "Premi": 0,
+    "Total": 8
+  },
+  {
+    "player": "Andrea Anzelini | GREP",
+    "Match 1": 6,
+    "Match 2": 3,
+    "Match 3": 6,
+    "Match 4": -2,
+    "Match 5": -2,
+    "Match 6": -2,
+    "Match 7": -2,
+    "Premi": 0,
+    "Total": 7
   },
   {
     "player": "Matteo Pilati | PINGUINI TRENTINI",
@@ -634,8 +689,9 @@
     "Match 4": -1,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 8.5
+    "Total": 6.5
   },
   {
     "player": "Davide Manica | PINGUINI TRENTINI",
@@ -645,8 +701,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Elia Battisti | U.SGUARNA",
@@ -657,8 +714,9 @@
     "Match 5": 7,
     "Match 6": -1.5,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Andrea Gober | U.SGUARNA",
@@ -669,8 +727,9 @@
     "Match 5": 4,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Moris Benedetti | GLI INTROVABILI",
@@ -681,8 +740,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Daniele Feltrinelli | SUGHI",
@@ -693,8 +753,9 @@
     "Match 5": 1,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Luca Tonolli | SUGHI",
@@ -705,8 +766,9 @@
     "Match 5": 1,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Andrea Giordani | CLITORIDERS",
@@ -716,8 +778,9 @@
     "Match 4": 4,
     "Match 5": 1,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Micheal Zanoni | CLITORIDERS",
@@ -727,8 +790,9 @@
     "Match 4": 4,
     "Match 5": 1,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Sayf Brick | A.C.DENTI",
@@ -739,8 +803,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 8
+    "Total": 6
   },
   {
     "player": "Emil Enriconi | A.C.DENTI",
@@ -751,8 +816,9 @@
     "Match 5": -5,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 7.5
+    "Total": 5.5
   },
   {
     "player": "Simone Martini | POWER GINGER",
@@ -763,8 +829,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Federico Andreis | I MONTAGNA",
@@ -774,8 +841,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Federico Manica | I MONTAGNA",
@@ -785,8 +853,9 @@
     "Match 4": 2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Matteo Simoncelli | I MONTAGNA",
@@ -796,8 +865,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Federico Giordani | GREP",
@@ -807,8 +877,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Andrea Bertolini | MODIUM",
@@ -819,8 +890,9 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 7
+    "Total": 5
   },
   {
     "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
@@ -830,8 +902,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Samuele Maffei | F.C. GORILLAZ",
@@ -842,8 +915,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Nicolò Speziali | F.C. GORILLAZ",
@@ -854,8 +928,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "William Pedri | U.SGUARNA",
@@ -866,8 +941,9 @@
     "Match 5": 7,
     "Match 6": -1.5,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Tommaso Aste | GLI INTROVABILI",
@@ -878,8 +954,21 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
+  },
+  {
+    "player": "Alberto Cerisara | SHARK ATTACK",
+    "Match 1": 1.5,
+    "Match 2": 1.5,
+    "Match 3": -1,
+    "Match 4": 1.5,
+    "Match 5": 1,
+    "Match 6": -1.5,
+    "Match 7": 1,
+    "Premi": 0,
+    "Total": 4
   },
   {
     "player": "Federico Leonardi | SUGHI",
@@ -890,8 +979,9 @@
     "Match 5": 0.5,
     "Match 6": 1,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Emanuele Miorandi | SUGHI",
@@ -902,8 +992,9 @@
     "Match 5": 1,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Davide De Zambotti | FC SAVIGNANO",
@@ -913,8 +1004,9 @@
     "Match 4": 3,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Alessandro Maffei | FC SAVIGNANO",
@@ -924,8 +1016,9 @@
     "Match 4": 1,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Luca Frasca | CLITORIDERS",
@@ -935,8 +1028,9 @@
     "Match 4": 2,
     "Match 5": 1,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Giovanni Giusto | DEMOBUSTERS",
@@ -947,8 +1041,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 6
+    "Total": 4
   },
   {
     "player": "Samuele Kettmaier | A.C.DENTI",
@@ -959,8 +1054,9 @@
     "Match 5": -5,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 5.5
+    "Total": 3.5
   },
   {
     "player": "Marco Mutinelli | I MONTAGNA",
@@ -970,8 +1066,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 5
+    "Total": 3
   },
   {
     "player": "Daniel Pedrotti | I MONTAGNA",
@@ -981,8 +1078,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 5
+    "Total": 3
   },
   {
     "player": "Gerardo Todisco | GLI INTROVABILI",
@@ -993,8 +1091,9 @@
     "Match 5": 2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 5
+    "Total": 3
   },
   {
     "player": "Luca Barozzi | MODIUM",
@@ -1005,8 +1104,9 @@
     "Match 5": 2,
     "Match 6": 0,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 5
+    "Total": 3
   },
   {
     "player": "Riccardo Versini | MODIUM",
@@ -1017,20 +1117,9 @@
     "Match 5": 1.5,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 5
-  },
-  {
-    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
-    "Match 1": 0,
-    "Match 2": 0.5,
-    "Match 3": 1,
-    "Match 4": 3,
-    "Match 5": 1,
-    "Match 6": -0.5,
-    "Match 7": -0.5,
-    "Premi": 0,
-    "Total": 4.5
+    "Total": 3
   },
   {
     "player": "Luca Lasta | PINGUINI TRENTINI",
@@ -1040,8 +1129,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
   },
   {
     "player": "Stefano Rosina | FC WANDA TIM",
@@ -1052,8 +1142,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
   },
   {
     "player": "Mattia Kaiserman | GLI INTROVABILI",
@@ -1064,8 +1155,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
   },
   {
     "player": "Andrea Pedrotti | GLI INTROVABILI",
@@ -1076,8 +1168,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
   },
   {
     "player": "Mario Grifeo | A.C.DENTI",
@@ -1088,8 +1181,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
   },
   {
     "player": "Federico Zanini | A.C.DENTI",
@@ -1100,8 +1194,22 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 4
+    "Total": 2
+  },
+  {
+    "player": "Diego Passerini | C.G.B. CHELE DI CHERNO",
+    "Match 1": 0,
+    "Match 2": 0.5,
+    "Match 3": 1,
+    "Match 4": 3,
+    "Match 5": 1,
+    "Match 6": -0.5,
+    "Match 7": -0.5,
+    "Match 8": -2.5,
+    "Premi": 0,
+    "Total": 2
   },
   {
     "player": "Daniele Dalbosco | SDRUMALA",
@@ -1112,8 +1220,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 3
+    "Total": 1
   },
   {
     "player": "Riccardo Madaschi | BEVEM4TUT",
@@ -1124,19 +1233,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Alberto Cerisara | SHARK ATTACK",
-    "Match 1": 1.5,
-    "Match 2": 1.5,
-    "Match 3": -1,
-    "Match 4": 1.5,
-    "Match 5": 1,
-    "Match 6": -1.5,
-    "Premi": 0,
-    "Total": 3
+    "Total": 1
   },
   {
     "player": "Riccardo Baldo | GREP",
@@ -1146,8 +1245,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 3
+    "Total": 1
   },
   {
     "player": "Davide Raffaelli | GREP",
@@ -1157,8 +1257,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 3
+    "Total": 1
   },
   {
     "player": "Michele Eccel | NAZIONALE FERROVIERI",
@@ -1169,8 +1270,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Andrea Aste | PINGUINI TRENTINI",
@@ -1180,8 +1282,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Matteo Brigo | PINGUINI TRENTINI",
@@ -1191,8 +1294,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Nicola Conti | FC WANDA TIM",
@@ -1203,8 +1307,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Massimiliano Rossi | FC SALAGIARDINI",
@@ -1215,8 +1320,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Giacomo De Zambotti | FC SAVIGNANO",
@@ -1226,8 +1332,9 @@
     "Match 4": 1,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Eduardo Grazioli | FC SAVIGNANO",
@@ -1237,8 +1344,9 @@
     "Match 4": 1,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Amedeo Malesardi | FC SAVIGNANO",
@@ -1248,8 +1356,9 @@
     "Match 4": 1,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Roberto Barozzi | DEMOBUSTERS",
@@ -1260,8 +1369,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Matteo Gatti | DEMOBUSTERS",
@@ -1272,8 +1382,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 2
+    "Total": 0
   },
   {
     "player": "Matteo Bazzanella | POWER GINGER",
@@ -1284,8 +1395,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Kevin Vela | POWER GINGER",
@@ -1296,8 +1408,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Pietro Di Liberto | FC SCHALKE 104",
@@ -1307,8 +1420,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Davide Bazzano | I MONTAGNA",
@@ -1318,8 +1432,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Jacopo Chemini | I MONTAGNA",
@@ -1329,8 +1444,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Andrea Pedrotti | I MONTAGNA",
@@ -1340,8 +1456,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Maurizio Maffei | BEVEM4TUT",
@@ -1352,8 +1469,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Matteo Manconi | AVANZI",
@@ -1364,8 +1482,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Michele Bertolini | GREP",
@@ -1375,8 +1494,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Matteo Maraner | GREP",
@@ -1386,8 +1506,9 @@
     "Match 4": 0,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Matteo Mazzola | GREP",
@@ -1397,8 +1518,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 1
+    "Total": -1
   },
   {
     "player": "Alessandro Sartori | QUEI STRAZI",
@@ -1408,8 +1530,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Elias Viesi Lutteri | QUEI STRAZI",
@@ -1419,8 +1542,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Mattia Spagnolli | FC WANDA TIM",
@@ -1431,8 +1555,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Christian Torboli | 4SINS",
@@ -1443,8 +1568,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Samuele Rosà | DEMOBUSTERS",
@@ -1455,8 +1581,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Lorenzo Scottini | DEMOBUSTERS",
@@ -1467,8 +1594,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Riccardo Zeni | DEMOBUSTERS",
@@ -1479,8 +1607,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": 0
+    "Total": -2
   },
   {
     "player": "Maxim Bot | POWER GINGER",
@@ -1491,8 +1620,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Alessandro Rambaldo | P.S.G.",
@@ -1502,8 +1632,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Elia Tomasoni | P.S.G.",
@@ -1513,8 +1644,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Octavian Fusari | FC SCHALKE 104",
@@ -1524,8 +1656,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Alessio Delli Compagni | SDRUMALA",
@@ -1536,8 +1669,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Andrea Menolli | SDRUMALA",
@@ -1548,8 +1682,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Christian Trainotti | SDRUMALA",
@@ -1560,8 +1695,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Daniele Feller | BEVEM4TUT",
@@ -1572,8 +1708,9 @@
     "Match 5": 0,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1
+    "Total": -3
   },
   {
     "player": "Thomas Pontillo | GLI INTROVABILI",
@@ -1584,8 +1721,9 @@
     "Match 5": -4.5,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -1.5
+    "Total": -3.5
   },
   {
     "player": "Fabio Coati | QUEI STRAZI",
@@ -1595,8 +1733,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Wilson Bona | NAZIONALE FERROVIERI",
@@ -1607,8 +1746,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Emanuele Valduga | FC WANDA TIM",
@@ -1619,8 +1759,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Alessandro Fanti | FC SALAGIARDINI",
@@ -1631,8 +1772,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Gianni Sala | FC SALAGIARDINI",
@@ -1643,8 +1785,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Tommaso Bruschetti | 4SINS",
@@ -1655,8 +1798,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Emanuele Tomasoni | 4SINS",
@@ -1667,8 +1811,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -2
+    "Total": -4
   },
   {
     "player": "Emiliano Bici | POWER GINGER",
@@ -1679,8 +1824,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Blendi Capa | POWER GINGER",
@@ -1691,8 +1837,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Gentian Kapa | POWER GINGER",
@@ -1703,8 +1850,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Lorenzo Rossi | POWER GINGER",
@@ -1715,8 +1863,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Mirko Ghiggeri | P.S.G.",
@@ -1726,8 +1875,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Davide Ganganelli | FC SCHALKE 104",
@@ -1737,8 +1887,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Davide Deimichei | SDRUMALA",
@@ -1749,8 +1900,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Manuel Emanuelli | SDRUMALA",
@@ -1761,8 +1913,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Andreas Galli | SDRUMALA",
@@ -1773,8 +1926,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Stefano Mattioli | SDRUMALA",
@@ -1785,8 +1939,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Lorenzo Barozzi | AVANZI",
@@ -1797,8 +1952,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Federico Zoller | GREP",
@@ -1808,8 +1964,9 @@
     "Match 4": -0.5,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -3
+    "Total": -5
   },
   {
     "player": "Marco Lutteri | QUEI STRAZI",
@@ -1819,8 +1976,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Lorenzo Casari | NAZIONALE FERROVIERI",
@@ -1831,8 +1989,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Fabio Daves | NAZIONALE FERROVIERI",
@@ -1843,8 +2002,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Leonardo Fedrigotti | NAZIONALE FERROVIERI",
@@ -1855,8 +2015,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Alessandro Galvagni | GLI SBANDATI",
@@ -1866,8 +2027,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Giovanni Simoncelli | GLI SBANDATI",
@@ -1877,8 +2039,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Daniele Dalbosco | I MONTAGNA",
@@ -1888,8 +2051,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Francesco Amadori | FC WANDA TIM",
@@ -1900,8 +2064,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Matteo Calcinardi | FC SALAGIARDINI",
@@ -1912,8 +2077,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Alberto Raffaelli | FC SALAGIARDINI",
@@ -1924,8 +2090,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Patrick Raffaelli | FC SALAGIARDINI",
@@ -1936,8 +2103,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Marco Renica | FC SALAGIARDINI",
@@ -1948,8 +2116,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Serghei Ungureanu | QUESTI SEN",
@@ -1959,8 +2128,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Mario Sinani | 4SINS",
@@ -1971,8 +2141,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -4
+    "Total": -6
   },
   {
     "player": "Simone Consolati | P.S.G.",
@@ -1982,8 +2153,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Yuri Garau | P.S.G.",
@@ -1993,8 +2165,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Antonio Rambaldo | P.S.G.",
@@ -2004,8 +2177,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Andrea Bellini | NAZIONALE FERROVIERI",
@@ -2016,8 +2190,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Pietro Marchesini | NAZIONALE FERROVIERI",
@@ -2028,8 +2203,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Andrea Barozzi | AVANZI",
@@ -2040,8 +2216,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Pablo Sebastian Chavez Mandressi | AVANZI",
@@ -2052,8 +2229,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Gabriele Galli | AVANZI",
@@ -2064,8 +2242,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Omar Russo | AVANZI",
@@ -2076,8 +2255,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Davide Simoncelli | AVANZI",
@@ -2088,8 +2268,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Giovanni Lasta | 4SINS",
@@ -2100,8 +2281,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Gabriel Melis | DEMOBUSTERS",
@@ -2112,8 +2294,9 @@
     "Match 5": -1,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5
+    "Total": -7
   },
   {
     "player": "Alessandro Ruele | F.C. GORILLAZ",
@@ -2124,8 +2307,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -5.5
+    "Total": -7.5
   },
   {
     "player": "Vincenzo Augusto | QUEI STRAZI",
@@ -2135,8 +2319,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Riccardo Briosi | GLI SBANDATI",
@@ -2146,8 +2331,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Davide Laghi | GLI SBANDATI",
@@ -2157,8 +2343,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Nicola Minuto | GLI SBANDATI",
@@ -2168,8 +2355,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Daniele Ruzzenenti | GLI SBANDATI",
@@ -2179,8 +2367,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Mattia Zomer | GLI SBANDATI",
@@ -2190,8 +2379,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Carlo Pomarolli | FC WANDA TIM",
@@ -2202,8 +2392,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Giovanni Frizzera | FC SALAGIARDINI",
@@ -2214,8 +2405,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Francesco Cristoforetti | VIGILI DEL FUSTO",
@@ -2225,8 +2417,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Andrea Di Filippo | VIGILI DEL FUSTO",
@@ -2236,8 +2429,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Simone Rospocher | VIGILI DEL FUSTO",
@@ -2247,8 +2441,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Pietro Slavik | VIGILI DEL FUSTO",
@@ -2258,8 +2453,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Leonardo Trinco | VIGILI DEL FUSTO",
@@ -2269,8 +2465,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Samuel Campagna | QUESTI SEN",
@@ -2280,8 +2477,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Mattia Rizzoli | QUESTI SEN",
@@ -2291,8 +2489,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -6
+    "Total": -8
   },
   {
     "player": "Federico Madaschi | BEVEM4TUT",
@@ -2303,8 +2502,9 @@
     "Match 5": -2.5,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -7.5
+    "Total": -9.5
   },
   {
     "player": "Filippo Maraner | POWER GINGER",
@@ -2315,8 +2515,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -8
+    "Total": -10
   },
   {
     "player": "Nicola Dalle Donne | VIGILI DEL FUSTO",
@@ -2326,8 +2527,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -8
+    "Total": -10
   },
   {
     "player": "Christian Martinelli | SDRUMALA",
@@ -2338,8 +2540,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -9
+    "Total": -11
   },
   {
     "player": "Mattia Lotti | QUEI STRAZI",
@@ -2349,8 +2552,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -12
+    "Total": -14
   },
   {
     "player": "Mattia Bertolini | QUEI STRAZI",
@@ -2360,8 +2564,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14
+    "Total": -16
   },
   {
     "player": "Andrea Amendola | FC SCHALKE 104",
@@ -2371,8 +2576,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14
+    "Total": -16
   },
   {
     "player": "Michele Ruele | AVANZI",
@@ -2383,8 +2589,9 @@
     "Match 5": -2,
     "Match 6": -2,
     "Match 7": -2,
+    "Match 8": -2,
     "Premi": 0,
-    "Total": -14
+    "Total": -16
   },
   {
     "player": "Massimiliano Baldo | QUESTI SEN",
@@ -2394,8 +2601,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14.5
+    "Total": -16.5
   },
   {
     "player": "Samuel Beber | QUESTI SEN",
@@ -2405,8 +2613,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14.5
+    "Total": -16.5
   },
   {
     "player": "Roberto Mancabelli | QUESTI SEN",
@@ -2416,8 +2625,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14.5
+    "Total": -16.5
   },
   {
     "player": "Nicolò Papalia | QUESTI SEN",
@@ -2427,8 +2637,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -14.5
+    "Total": -16.5
   },
   {
     "player": "Thomas Graiff | VIGILI DEL FUSTO",
@@ -2438,8 +2649,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -15
+    "Total": -17
   },
   {
     "player": "Florian Hoxha | P.S.G.",
@@ -2449,8 +2661,9 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -18
+    "Total": -20
   },
   {
     "player": "Matteo Signorati | GLI SBANDATI",
@@ -2460,7 +2673,8 @@
     "Match 4": -2,
     "Match 5": -2,
     "Match 6": -2,
+    "Match 7": -2,
     "Premi": 0,
-    "Total": -26.5
+    "Total": -28.5
   }
 ]

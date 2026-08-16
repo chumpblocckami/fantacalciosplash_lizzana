@@ -1,23 +1,23 @@
 [
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 108
+    "Punteggio": 104
   },
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 101
+    "Punteggio": 93
   },
   {
     "Allenatore": "Federico Fasanelli",
-    "Punteggio": 95
+    "Punteggio": 87
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 84
+    "Punteggio": 76
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 84
+    "Punteggio": 76
   },
   {
     "Allenatore": "Riccardo Zeni",
@@ -25,118 +25,118 @@
   },
   {
     "Allenatore": "Jacopo Chemini",
-    "Punteggio": 67
+    "Punteggio": 69
   },
   {
-    "Allenatore": "Emanuele Miorandi",
+    "Allenatore": "Matteo Zanlucchi",
     "Punteggio": 66
   },
   {
     "Allenatore": "Matteo Giovanella",
-    "Punteggio": 66
-  },
-  {
-    "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 65
-  },
-  {
-    "Allenatore": "Elia Tomasoni dalla città di Pallet",
     "Punteggio": 64
   },
   {
     "Allenatore": "Nazarena Raos",
-    "Punteggio": 64
+    "Punteggio": 62
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
+    "Punteggio": 61
   },
   {
     "Allenatore": "Sebastiano Zoller",
-    "Punteggio": 61.5
-  },
-  {
-    "Allenatore": "Matteo Pilati",
     "Punteggio": 59
   },
   {
-    "Allenatore": "Lorenza Simoncelli",
-    "Punteggio": 58
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 57
-  },
-  {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 55.5
+    "Allenatore": "Elia Tomasoni dalla città di Pallet",
+    "Punteggio": 56
   },
   {
     "Allenatore": "Davide Zeni",
-    "Punteggio": 54.5
+    "Punteggio": 56
+  },
+  {
+    "Allenatore": "Niccolò Orsi",
+    "Punteggio": 53.5
   },
   {
     "Allenatore": "Valentina Perghem",
-    "Punteggio": 54
-  },
-  {
-    "Allenatore": "Michela Menghini",
-    "Punteggio": 53
-  },
-  {
-    "Allenatore": "Marco Sartorelli",
     "Punteggio": 52
   },
   {
-    "Allenatore": "Nicolas Giordani",
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 51
+  },
+  {
+    "Allenatore": "Matteo Pilati",
+    "Punteggio": 51
+  },
+  {
+    "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 50
   },
   {
-    "Allenatore": "Nicholas Marzadro",
-    "Punteggio": 48.5
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 49
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 47
+    "Allenatore": "Nicolas Giordani",
+    "Punteggio": 48
+  },
+  {
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 44
   },
   {
     "Allenatore": "Matteo Mazzola",
-    "Punteggio": 46
+    "Punteggio": 40
+  },
+  {
+    "Allenatore": "Nicholas Marzadro",
+    "Punteggio": 40
+  },
+  {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 39
   },
   {
     "Allenatore": "Alessio Farinati",
-    "Punteggio": 43.5
+    "Punteggio": 35.5
   },
   {
     "Allenatore": "JAlvin92",
-    "Punteggio": 37
-  },
-  {
-    "Allenatore": "Danny Giordani",
-    "Punteggio": 36
-  },
-  {
-    "Allenatore": "Thomas Pontillo",
-    "Punteggio": 33.5
-  },
-  {
-    "Allenatore": "Marco Sala",
     "Punteggio": 33
   },
   {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 32.5
-  },
-  {
-    "Allenatore": "Marco Miotto",
-    "Punteggio": 31
-  },
-  {
-    "Allenatore": "Daniele Feltrinelli",
-    "Punteggio": 30
+    "Allenatore": "Danny Giordani",
+    "Punteggio": 28
   },
   {
     "Allenatore": "Andrea Conzatti",
-    "Punteggio": 29
+    "Punteggio": 26
+  },
+  {
+    "Allenatore": "Thomas Pontillo",
+    "Punteggio": 25.5
+  },
+  {
+    "Allenatore": "Marco Miotto",
+    "Punteggio": 25
+  },
+  {
+    "Allenatore": "Marco Sala",
+    "Punteggio": 25
+  },
+  {
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 24.5
+  },
+  {
+    "Allenatore": "Daniele Feltrinelli",
+    "Punteggio": 24
   },
   {
     "Allenatore": "Michele Bertolini",
-    "Punteggio": 26
+    "Punteggio": 18
   }
 ]
