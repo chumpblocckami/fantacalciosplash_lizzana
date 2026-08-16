@@ -1,7 +1,7 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 108.5,
+    "Punteggio": 103.5,
     "rank": 1,
     "players": [
       {
@@ -168,8 +168,8 @@
         "player": "Filippo Benetti | I MAGNIFICI",
         "name": "Filippo Benetti",
         "team": "I MAGNIFICI",
-        "counted_total": 47,
-        "premi": 5,
+        "counted_total": 42,
+        "premi": 0,
         "matches": [
           {
             "column": "Match 1",
@@ -353,7 +353,7 @@
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 93,
+    "Punteggio": 88,
     "rank": 2,
     "players": [
       {
@@ -515,8 +515,8 @@
         "player": "Filippo Benetti | I MAGNIFICI",
         "name": "Filippo Benetti",
         "team": "I MAGNIFICI",
-        "counted_total": 47,
-        "premi": 5,
+        "counted_total": 42,
+        "premi": 0,
         "matches": [
           {
             "column": "Match 1",
@@ -717,7 +717,7 @@
   },
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 92,
+    "Punteggio": 87,
     "rank": 3,
     "players": [
       {
@@ -807,8 +807,8 @@
         "player": "Filippo Benetti | I MAGNIFICI",
         "name": "Filippo Benetti",
         "team": "I MAGNIFICI",
-        "counted_total": 47,
-        "premi": 5,
+        "counted_total": 42,
+        "premi": 0,
         "matches": [
           {
             "column": "Match 1",

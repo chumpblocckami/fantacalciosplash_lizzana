@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "ranking": 1,
+      "id": 99,
+      "name": "SAILOR MONE",
+      "tag": "SAI",
+      "logo_url": "/storage/teams/sailormone.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
+      "id": 114,
+      "name": "JÄGERBOMBE",
+      "tag": "JGE",
+      "logo_url": "/storage/teams/jägerbombe.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 3,
+      "id": 121,
+      "name": "PANCHAMAHBAHUTA",
+      "tag": "PAN",
+      "logo_url": "/storage/teams/panchamahbahuta.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\panchamahbahuta.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 4,
+      "id": 126,
+      "name": "DRIM TIM",
+      "tag": "DRI",
+      "logo_url": "/storage/teams/drimtim.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+      "points": 0,
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "goal_difference": 0,
+      "disciplinary_points": 0
+    }
+  ]
+}

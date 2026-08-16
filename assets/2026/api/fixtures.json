@@ -2606,10 +2606,10 @@
       "scheduled_at": "2026-08-16T13:40:00.000Z",
       "status": "scheduled",
       "half_time": "2H",
-      "state": "2T",
-      "state_label": "2° tempo",
-      "live": true,
-      "closed": false,
+      "state": "FF",
+      "state_label": "Finale",
+      "live": false,
+      "closed": true,
       "field": null,
       "group_name": "Quarti Femminile",
       "gender": "female",
@@ -2628,6 +2628,180 @@
         "gender": "female"
       },
       "home_score": 6,
+      "away_score": 0
+    },
+    {
+      "id": 102,
+      "scheduled_at": "2026-08-16T14:40:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Quarti Maschile",
+      "gender": "male",
+      "home_team": {
+        "id": 110,
+        "name": "I MAGNIFICI",
+        "tag": "MAG",
+        "logo_url": "/storage/teams/imagnifici.png",
+        "gender": "male"
+      },
+      "away_team": {
+        "id": 89,
+        "name": "U.SGUARNA",
+        "tag": "USG",
+        "logo_url": "/storage/teams/usguarna.png",
+        "gender": "male"
+      },
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "id": 103,
+      "scheduled_at": "2026-08-16T15:00:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Quarti Maschile",
+      "gender": "male",
+      "home_team": {
+        "id": 107,
+        "name": "CLITORIDERS",
+        "tag": "CLI",
+        "logo_url": "/storage/teams/clitoriders.png",
+        "gender": "male"
+      },
+      "away_team": {
+        "id": 119,
+        "name": "C.G.B. CHELE DI CHERNO",
+        "tag": "CGB",
+        "logo_url": "/storage/teams/cgbcheledicherno.png",
+        "gender": "male"
+      },
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "id": 104,
+      "scheduled_at": "2026-08-16T15:20:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Quarti Maschile",
+      "gender": "male",
+      "home_team": {
+        "id": 123,
+        "name": "SUGHI",
+        "tag": "SUG",
+        "logo_url": "/storage/teams/sughi.png",
+        "gender": "male"
+      },
+      "away_team": {
+        "id": 117,
+        "name": "SBARX",
+        "tag": "SBA",
+        "logo_url": "/storage/teams/sbarx.png",
+        "gender": "male"
+      },
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "id": 105,
+      "scheduled_at": "2026-08-16T15:40:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Quarti Maschile",
+      "gender": "male",
+      "home_team": {
+        "id": 95,
+        "name": "SHARK ATTACK",
+        "tag": "SHA",
+        "logo_url": "/storage/teams/sharkattack.png",
+        "gender": "male"
+      },
+      "away_team": {
+        "id": 98,
+        "name": "MODIUM",
+        "tag": "MOD",
+        "logo_url": "/storage/teams/modium.png",
+        "gender": "male"
+      },
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "id": 106,
+      "scheduled_at": "2026-08-16T17:00:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Semi Femminile",
+      "gender": "female",
+      "home_team": {
+        "id": 99,
+        "name": "SAILOR MONE",
+        "tag": "SAI",
+        "logo_url": "/storage/teams/sailormone.png",
+        "gender": "female"
+      },
+      "away_team": {
+        "id": 114,
+        "name": "JÄGERBOMBE",
+        "tag": "JGE",
+        "logo_url": "/storage/teams/jägerbombe.png",
+        "gender": "female"
+      },
+      "home_score": 0,
+      "away_score": 0
+    },
+    {
+      "id": 107,
+      "scheduled_at": "2026-08-16T17:40:00.000Z",
+      "status": "scheduled",
+      "half_time": "1H",
+      "state": "FI",
+      "state_label": "Fischio d'inizio",
+      "live": false,
+      "closed": false,
+      "field": null,
+      "group_name": "Semi Femminile",
+      "gender": "female",
+      "home_team": {
+        "id": 121,
+        "name": "PANCHAMAHBAHUTA",
+        "tag": "PAN",
+        "logo_url": "/storage/teams/panchamahbahuta.png",
+        "gender": "female"
+      },
+      "away_team": {
+        "id": 126,
+        "name": "DRIM TIM",
+        "tag": "DRI",
+        "logo_url": "/storage/teams/drimtim.png",
+        "gender": "female"
+      },
+      "home_score": 0,
       "away_score": 0
     }
   ]

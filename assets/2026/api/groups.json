@@ -623,6 +623,51 @@
       ]
     },
     {
+      "id": 16,
+      "name": "Semi Femminile",
+      "has_shootouts": true,
+      "gender": "female",
+      "kind": "bracket",
+      "source_group_id": 13,
+      "source_outcome": null,
+      "sort_order": 22,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 126,
+          "name": "DRIM TIM",
+          "tag": "DRI",
+          "logo_url": "/storage/teams/drimtim.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+          "players_count": 9
+        },
+        {
+          "id": 114,
+          "name": "JÄGERBOMBE",
+          "tag": "JGE",
+          "logo_url": "/storage/teams/jägerbombe.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\jägerbombe.png",
+          "players_count": 7
+        },
+        {
+          "id": 121,
+          "name": "PANCHAMAHBAHUTA",
+          "tag": "PAN",
+          "logo_url": "/storage/teams/panchamahbahuta.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\panchamahbahuta.png",
+          "players_count": 7
+        },
+        {
+          "id": 99,
+          "name": "SAILOR MONE",
+          "tag": "SAI",
+          "logo_url": "/storage/teams/sailormone.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sailormone.png",
+          "players_count": 6
+        }
+      ]
+    },
+    {
       "id": 14,
       "name": "Ottavi Maschile",
       "has_shootouts": true,
@@ -728,6 +773,83 @@
           "logo_url": "/storage/teams/pinguinitrentini.png",
           "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\pinguinitrentini.png",
           "players_count": 9
+        },
+        {
+          "id": 117,
+          "name": "SBARX",
+          "tag": "SBA",
+          "logo_url": "/storage/teams/sbarx.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sbarx.png",
+          "players_count": 8
+        },
+        {
+          "id": 95,
+          "name": "SHARK ATTACK",
+          "tag": "SHA",
+          "logo_url": "/storage/teams/sharkattack.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sharkattack.png",
+          "players_count": 7
+        },
+        {
+          "id": 123,
+          "name": "SUGHI",
+          "tag": "SUG",
+          "logo_url": "/storage/teams/sughi.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\sughi.png",
+          "players_count": 6
+        },
+        {
+          "id": 89,
+          "name": "U.SGUARNA",
+          "tag": "USG",
+          "logo_url": "/storage/teams/usguarna.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\usguarna.png",
+          "players_count": 7
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Quarti Maschile",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "bracket",
+      "source_group_id": 14,
+      "source_outcome": null,
+      "sort_order": 40,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 119,
+          "name": "C.G.B. CHELE DI CHERNO",
+          "tag": "CGB",
+          "logo_url": "/storage/teams/cgbcheledicherno.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\cgbcheledicherno.png",
+          "players_count": 6
+        },
+        {
+          "id": 107,
+          "name": "CLITORIDERS",
+          "tag": "CLI",
+          "logo_url": "/storage/teams/clitoriders.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\clitoriders.png",
+          "players_count": 8
+        },
+        {
+          "id": 110,
+          "name": "I MAGNIFICI",
+          "tag": "MAG",
+          "logo_url": "/storage/teams/imagnifici.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\imagnifici.png",
+          "players_count": 7
+        },
+        {
+          "id": 98,
+          "name": "MODIUM",
+          "tag": "MOD",
+          "logo_url": "/storage/teams/modium.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\modium.png",
+          "players_count": 7
         },
         {
           "id": 117,

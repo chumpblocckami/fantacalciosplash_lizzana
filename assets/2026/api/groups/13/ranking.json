@@ -2,6 +2,23 @@
   "data": [
     {
       "ranking": 1,
+      "id": 126,
+      "name": "DRIM TIM",
+      "tag": "DRI",
+      "logo_url": "/storage/teams/drimtim.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
+      "points": 3,
+      "played": 1,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goals_scored": 6,
+      "goals_conceded": 0,
+      "goal_difference": 6,
+      "disciplinary_points": 0
+    },
+    {
+      "ranking": 2,
       "id": 121,
       "name": "PANCHAMAHBAHUTA",
       "tag": "PAN",
@@ -18,7 +35,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 2,
+      "ranking": 3,
       "id": 114,
       "name": "JÄGERBOMBE",
       "tag": "JGE",
@@ -35,7 +52,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 3,
+      "ranking": 4,
       "id": 99,
       "name": "SAILOR MONE",
       "tag": "SAI",
@@ -52,7 +69,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 4,
+      "ranking": 5,
       "id": 94,
       "name": "LOVEBUSTERS",
       "tag": "LOV",
@@ -69,41 +86,7 @@
       "disciplinary_points": 2
     },
     {
-      "ranking": 5,
-      "id": 122,
-      "name": "PUTELE DA ALA",
-      "tag": "PDA",
-      "logo_url": "/storage/teams/puteledaala.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\puteledaala.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
       "ranking": 6,
-      "id": 126,
-      "name": "DRIM TIM",
-      "tag": "DRI",
-      "logo_url": "/storage/teams/drimtim.png",
-      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\drimtim.png",
-      "points": 0,
-      "played": 0,
-      "wins": 0,
-      "draws": 0,
-      "losses": 0,
-      "goals_scored": 0,
-      "goals_conceded": 0,
-      "goal_difference": 0,
-      "disciplinary_points": 0
-    },
-    {
-      "ranking": 7,
       "id": 105,
       "name": "PECCAMIN(OSÈ)",
       "tag": "PEC",
@@ -120,7 +103,7 @@
       "disciplinary_points": 0
     },
     {
-      "ranking": 8,
+      "ranking": 7,
       "id": 90,
       "name": "LE BALLE(RINE) IN FIESTA",
       "tag": "LEB",
@@ -135,6 +118,23 @@
       "goals_conceded": 3,
       "goal_difference": -3,
       "disciplinary_points": 0
+    },
+    {
+      "ranking": 8,
+      "id": 122,
+      "name": "PUTELE DA ALA",
+      "tag": "PDA",
+      "logo_url": "/storage/teams/puteledaala.png",
+      "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\puteledaala.png",
+      "points": 0,
+      "played": 1,
+      "wins": 0,
+      "draws": 0,
+      "losses": 1,
+      "goals_scored": 0,
+      "goals_conceded": 6,
+      "goal_difference": -6,
+      "disciplinary_points": 1
     }
   ]
 }
