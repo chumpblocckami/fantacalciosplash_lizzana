@@ -198,6 +198,28 @@ function isUnplayed(raw, ownScore, applyMalus) {
   return ownScore === 0;
 }
 
+function isMatchColumn(key) {
+  const kl = key.toLowerCase();
+  return kl.startsWith('match') || kl.startsWith('ottavi') || kl.startsWith('quarti')
+    || kl.startsWith('semifinal') || kl.startsWith('final') || kl.startsWith('sedicesimi')
+    || kl.startsWith('bonus');
+}
+
+/** Every Match N column anyone has, so a team that went further still shows those rounds. */
+function collectMatchColumns(punteggi) {
+  const cols = new Set();
+  for (const row of punteggi) {
+    for (const key of Object.keys(row)) {
+      if (isMatchColumn(key)) cols.add(key);
+    }
+  }
+  return [...cols].sort((a, b) => {
+    const na = Number(String(a).replace(/\D/g, '')) || 0;
+    const nb = Number(String(b).replace(/\D/g, '')) || 0;
+    return na - nb || a.localeCompare(b);
+  });
+}
+
 function main() {
   console.log(`\n🏆 Building classifica for ${YEAR}\n`);
 
@@ -223,7 +245,7 @@ function main() {
   const stato = readJson(join(DATA_DIR, 'stato.json'));
   const applyMalus = stato ? Boolean(stato.apply_malus) : true;
   if (!applyMalus) {
-    console.log('  ⏳ Girone in progress: points only, rule 6 malus held back until the knockouts.');
+    console.log('  ⏳ Girone in progress: points only, rule 6 malus held back until the ottavi.');
   }
 
   // Regolamento rule 1: one team per participant. The sheet can still hold a repeat, from a
@@ -232,12 +254,7 @@ function main() {
 
   const pKey = 'player' in punteggi[0] ? 'player' : 'NOME';
   const scoreNames = punteggi.map(p => p[pKey]);
-  const matchCols = Object.keys(punteggi[0]).filter(k => {
-    const kl = k.toLowerCase();
-    return kl.startsWith('match') || kl.startsWith('ottavi') || kl.startsWith('quarti')
-      || kl.startsWith('semifinal') || kl.startsWith('final') || kl.startsWith('sedicesimi')
-      || kl.startsWith('bonus');
-  });
+  const matchCols = collectMatchColumns(punteggi);
 
   const premiCol = Object.keys(punteggi[0]).find(k => k.toLowerCase().includes('premi'));
 
@@ -303,6 +320,11 @@ function main() {
         const ownScore = scoreFor(row, col, applyMalus);
         const raw = (rawRatings[name] ?? [])[mi];
         const eliminated = isOut(name, col);
+        const hasColumn = Boolean(row && Object.prototype.hasOwnProperty.call(row, col));
+
+        // A team that skipped the access play-off has no extra column for it. Do not
+        // invent a malus row — rule 7 says that match is optional.
+        if (row && !hasColumn && !raw) continue;
 
         let status;
         let counted;

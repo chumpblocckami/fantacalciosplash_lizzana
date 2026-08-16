@@ -88,8 +88,10 @@ place to change a number.
 | Capocannoniere | +5 |
 
 A coach fields four players. When one of them goes out with their team, the reserve takes
-their place for the rounds that follow. The third-place play-off pays no fantasy points, but
-its goals still count towards the Capocannoniere.
+their place for the rounds that follow. The access play-off (Playoffs Maschile) counts like
+any other match; teams that skip it are not charged the −2 malus for that extra game. The
+third-place play-off pays no fantasy points, but its goals still count towards the
+Capocannoniere.
 
 ## Tests
 

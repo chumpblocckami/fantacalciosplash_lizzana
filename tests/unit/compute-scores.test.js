@@ -122,14 +122,14 @@ describe('scripts/compute-scores.js', () => {
   });
 
   describe('the elimination malus', () => {
-    test('everybody gets one column per round of the tournament', () => {
-      // ALFA and GAMMA played three matches each, which is the longest run, so that is how
-      // many columns the table has. Nobody is padded beyond it.
+    test('everybody gets one column per required round of the tournament', () => {
+      // ALFA and GAMMA played three required matches each (no access play-off), which is
+      // the longest run, so that is how many columns the table has.
       const columns = punteggi.map(entry => matches(entry.player).length);
       assert.deepEqual([...new Set(columns)], [3]);
     });
 
-    test('a team knocked out at the group stage is charged once per missed round', () => {
+    test('a team knocked out at the group stage is charged once per missed bracket round', () => {
       // Regolamento rule 6: "-2 per ogni fase non disputata dalla sua squadra". BETA and DELTA
       // played the group stage and missed both knockout rounds, so that is two penalties.
       for (const team of ELIMINATED) {
@@ -218,6 +218,120 @@ describe('scripts/compute-scores.js', () => {
       const stato = readOutput(cwd, 'data', YEAR, 'stato.json');
       assert.equal(stato.apply_malus, false);
       assert.equal(stato.knockouts_started, false);
+    });
+  });
+
+  describe('the access play-off (rule 7)', () => {
+    /**
+     * A girone match, an optional Playoffs Maschile, and optionally an ottavi.
+     *
+     * ALFA plays every round. GAMMA skips the play-off and (when asked) plays the ottavi.
+     * BETA is out after the girone.
+     */
+    function accessPlayOff(directory, { ottavi = false } = {}) {
+      const groups = [
+        { id: 1, name: 'Maschile', gender: 'male', kind: 'girone' },
+        { id: 2, name: 'Playoffs Maschile', gender: 'male', kind: 'playoffs' },
+      ];
+      const fixtures = [
+        {
+          id: 1,
+          group_name: 'Maschile',
+          gender: 'male',
+          closed: true,
+          home: team('ALFA', 1, [player(1, 'mario', 'rossi', { goals: 1 })]),
+          away: team('BETA', 0, [player(2, 'luca', 'bianchi')]),
+        },
+        {
+          id: 2,
+          group_name: 'Maschile',
+          gender: 'male',
+          closed: true,
+          home: team('GAMMA', 1, [player(3, 'ennio', 'grigi')]),
+          away: team('DELTA', 0, [player(4, 'gigi', 'argento')]),
+        },
+        {
+          id: 3,
+          group_name: 'Playoffs Maschile',
+          gender: 'male',
+          closed: true,
+          home: team('ALFA', 2, [player(1, 'mario', 'rossi', { goals: 1 })]),
+          away: team('DELTA', 0, [player(4, 'gigi', 'argento')]),
+        },
+      ];
+      if (ottavi) {
+        groups.push({ id: 3, name: 'Ottavi Maschile', gender: 'male', kind: 'bracket' });
+        fixtures.push({
+          id: 4,
+          group_name: 'Ottavi Maschile',
+          gender: 'male',
+          closed: true,
+          home: team('ALFA', 1, [player(1, 'mario', 'rossi')]),
+          away: team('GAMMA', 0, [player(3, 'ennio', 'grigi')]),
+        });
+      }
+
+      const cwd = workspace(directory);
+      writeSnapshot(cwd, YEAR, { groups, fixtures });
+      const run = runScript('compute-scores.js', cwd, { YEAR });
+      assert.equal(run.status, 0, run.stderr);
+      return {
+        punteggi: readOutput(cwd, 'data', YEAR, 'punteggi.json'),
+        stato: readOutput(cwd, 'data', YEAR, 'stato.json'),
+        eliminazioni: readOutput(cwd, 'data', YEAR, 'eliminazioni.json'),
+      };
+    }
+
+    test('counts for the players who played it', () => {
+      const { punteggi: scored } = accessPlayOff('play-in-counts');
+      const mario = scored.find(entry => entry.player === 'Mario Rossi | ALFA');
+      // Girone: a goal and a win. Play-off: a goal and a win. Both count.
+      assert.deepEqual(
+        Object.keys(mario).filter(key => key.startsWith('Match ')),
+        ['Match 1', 'Match 2'],
+      );
+      assert.equal(mario['Match 1'], 2 + 2);
+      assert.equal(mario['Match 2'], 2 + 2);
+      // Every listed fixture is closed, so the capocannoniere is paid on top.
+      assert.equal(mario.Premi, POINTS_TOP_SCORER);
+      assert.equal(mario.Total, 8 + POINTS_TOP_SCORER);
+    });
+
+    test('does not charge a team that skipped it', () => {
+      const { punteggi: scored, eliminazioni: out } = accessPlayOff('play-in-no-malus');
+      const luca = scored.find(entry => entry.player === 'Luca Bianchi | BETA');
+
+      assert.deepEqual(
+        Object.keys(luca).filter(key => key.startsWith('Match ')),
+        ['Match 1'],
+        'BETA is not padded with a play-off column',
+      );
+      assert.equal(luca['Match 1'], 0);
+      assert.equal(luca.Total, 0);
+      assert.equal(out[luca.player], undefined);
+    });
+
+    test('once the ottavi start, a team out at the girone is charged for the ottavi only', () => {
+      const { punteggi: scored, stato: status, eliminazioni: out } =
+        accessPlayOff('play-in-then-ottavi', { ottavi: true });
+
+      assert.equal(status.apply_malus, true);
+
+      const luca = scored.find(entry => entry.player === 'Luca Bianchi | BETA');
+      assert.deepEqual(
+        Object.keys(luca).filter(key => key.startsWith('Match ')),
+        ['Match 1', 'Match 2'],
+      );
+      assert.equal(luca['Match 2'], -2, 'one malus, for the ottavi');
+      assert.deepEqual(out[luca.player], ['Match 2']);
+
+      const ennio = scored.find(entry => entry.player === 'Ennio Grigi | GAMMA');
+      assert.equal(
+        Object.keys(ennio).filter(key => key.startsWith('Match ')).length,
+        2,
+        'GAMMA played girone and ottavi, and is not charged for skipping the play-off',
+      );
+      assert.equal(out[ennio.player], undefined);
     });
   });
 

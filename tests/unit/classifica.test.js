@@ -423,6 +423,54 @@ describe('scripts/build-classifica.js', () => {
     });
   });
 
+  describe('the extra access play-off column', () => {
+    test('counts toward Punteggio for the players who have it', () => {
+      const punteggi = [
+        scores(GOALKEEPER, [5, 8]),
+        scores(STARTER_ONE, [4, 8]),
+        scores(STARTER_TWO, [3]),
+        scores(STARTER_THREE, [2]),
+        scores(RESERVE, [1]),
+      ];
+      const table = rank(
+        'play-in-counts',
+        punteggi,
+        [lineup('Matteo', LINEUP)],
+        {},
+        { apply_malus: false, knockouts_started: true, finished: false }
+      );
+      // The two ALFA players bring an extra play-off 8 each; GAMMA and DELTA skipped it.
+      assert.equal(scoreOf(table, 'Matteo'), 5 + 8 + 4 + 8 + 3 + 2);
+    });
+
+    test('does not invent a malus row for a player who skipped the play-off', () => {
+      const punteggi = [
+        scores(GOALKEEPER, [5, 8]),
+        scores(STARTER_ONE, [4, 8]),
+        scores(STARTER_TWO, [3]),
+        scores(STARTER_THREE, [2]),
+        scores(RESERVE, [1]),
+      ];
+      rank(
+        'play-in-sheet',
+        punteggi,
+        [lineup('Matteo', LINEUP)],
+        {},
+        { apply_malus: false, knockouts_started: true, finished: false }
+      );
+
+      const skipped = slotOf('play-in-sheet', 'Matteo', 'Titolare 2');
+      assert.equal(skipped.matches.length, 1);
+      assert.equal(skipped.counted_total, 3);
+
+      const keeper = slotOf('play-in-sheet', 'Matteo', 'Portiere');
+      assert.equal(keeper.matches.length, 2);
+      assert.equal(keeper.matches[1].status, 'in_campo');
+      assert.equal(keeper.matches[1].counted, true);
+      assert.equal(keeper.counted_total, 13);
+    });
+  });
+
   describe('nothing to rank', () => {
     test('an empty punteggi table produces no classifica', () => {
       const cwd = workspace('classifica-empty');

@@ -38,6 +38,11 @@ const EXCLUDED_GROUPS = ['test grafico'];
 // the group differently from year to year: "Terzo/Quarto M", "terzo quarto", "3/4 M".
 const THIRD_PLACE_PLAY_OFF = /(terzo\s*[/ ]\s*quarto|3\s*\/\s*4)/i;
 
+// Ottavi / quarti / semi / finale / sedicesimi. The access play-off is not in this list:
+// rule 7 treats it as an extra match some teams play, not as a phase everybody must reach.
+const BRACKET_NAME = /(ottavi|quarti|semifinali?|finale|sedicesimi)/i;
+const PLAY_IN_NAME = /playoffs?/i;
+
 function readJson(path) {
   if (!existsSync(path)) return null;
   return JSON.parse(readFileSync(path, 'utf-8'));
@@ -45,7 +50,7 @@ function readJson(path) {
 
 function writeJson(path, data) {
   mkdirSync(join(path, '..'), { recursive: true });
-  writeFileSync(path, JSON.stringify(data, null, 2));
+  writeFileSync(path, JSON.stringify(data, null, 2) + '\n');
   console.log(`  ✓ ${path}`);
 }
 
@@ -64,20 +69,30 @@ function isRelevant(fixture) {
 }
 
 /**
- * Whether a fixture belongs to the knockout / elimination stage rather than the girone.
+ * The play-in for the ottavi ("Playoffs Maschile"). Rule 7: it counts like any other
+ * match, and teams that skip it are not charged the rule 6 malus for that extra game.
  *
- * Rule 6's malus is for a phase a team did not reach. During the group stage that cannot be
- * told apart from a phase it has not played yet, so the penalty stays off the table until at
- * least one men's knockout match has been closed. The group's `kind` is the usual signal;
- * the name is the fallback for a listing that has no groups.json, or that names the round
- * "Semifinali M" / "Ottavi" without setting kind.
+ * `kind === 'playoffs'` is the usual signal; the name is the fallback. Bracket rounds
+ * sometimes reuse kind=playoffs (Semifinali / Finale), so a bracket name wins.
  */
-function isKnockout(fixture, groupsByName) {
+function isPlayIn(fixture, groupsByName) {
   const name = fixture.group_name ?? '';
-  if (THIRD_PLACE_PLAY_OFF.test(name)) return true;
+  if (THIRD_PLACE_PLAY_OFF.test(name) || BRACKET_NAME.test(name)) return false;
   const kind = groupsByName.get(name)?.kind;
-  if (kind && kind.toLowerCase() !== 'girone') return true;
-  return /(ottavi|quarti|semifinali?|finale|playoffs?|sedicesimi)/i.test(name);
+  if (kind && kind.toLowerCase() === 'playoffs') return true;
+  return PLAY_IN_NAME.test(name);
+}
+
+/**
+ * Ottavi / quarti / semi / finale (and the 3rd/4th-place match). Missing one of these
+ * is what rule 6 charges. The access play-off is not a required phase.
+ */
+function isBracket(fixture, groupsByName) {
+  const name = fixture.group_name ?? '';
+  if (THIRD_PLACE_PLAY_OFF.test(name) || BRACKET_NAME.test(name)) return true;
+  if (isPlayIn(fixture, groupsByName)) return false;
+  const kind = groupsByName.get(name)?.kind;
+  return Boolean(kind && kind.toLowerCase() === 'bracket');
 }
 
 function computeMatchPoints(player, teamScore, concededGoals, isMvp) {
@@ -166,8 +181,8 @@ function main() {
     const mvpId = detail.best_player?.id ?? null;
     const stage = fixture.group_name;
 
-    // The play-off is still shown on the scoreboard and still feeds the capocannoniere
-    // standings; it just does not earn anybody fantasy points.
+    // The 3rd/4th-place play-off is still shown on the scoreboard and still feeds the
+    // capocannoniere; it just does not earn anybody fantasy points (rule 8).
     const countsForFanta = !THIRD_PLACE_PLAY_OFF.test(stage ?? '');
 
     record(fixture.id, home, away.score, mvpId, countsForFanta);
@@ -183,22 +198,32 @@ function main() {
 
   console.log(`  Processed ${results.length} matches (${skipped} not played yet)`);
 
-  // Every team is given a column per round, so a team that went out early has a column for
-  // each round it did not play. Regolamento rule 6: -2 per phase the team missed, once.
-  const rounds = Math.max(0, ...[...teamFixtures.values()].map(fixtures => fixtures.length));
+  const fixtureById = new Map(fixtureList.map(fixture => [fixture.id, fixture]));
+  const playInId = id => {
+    const fixture = fixtureById.get(id);
+    return fixture ? isPlayIn(fixture, groupsByName) : false;
+  };
+  // Rule 7: the access play-off is an extra match, not a phase everybody must reach.
+  // Padding and the rule 6 malus are counted on girone + bracket rounds only.
+  const requiredCount = fixtures => fixtures.filter(id => !playInId(id)).length;
+  const rounds = Math.max(0, ...[...teamFixtures.values()].map(requiredCount));
 
   // Regolamento: "Punteggi a fine torneo. Capocannoniere +5." Awarded only once every fixture
   // has been played, so the live table does not hand the prize to whoever is ahead today.
   const finished = results.length > 0 && skipped === 0;
 
-  // The classifica should show what the players actually scored until it is possible to know
-  // who is out. That is the first closed knockout fixture, not the last group-stage one.
-  const knockoutsStarted = fixtureList.some(
-    fixture => isRelevant(fixture) && isPlayed(fixture) && isKnockout(fixture, groupsByName)
+  const playInStarted = fixtureList.some(
+    fixture => isRelevant(fixture) && isPlayed(fixture) && isPlayIn(fixture, groupsByName)
   );
-  const applyMalus = knockoutsStarted || finished;
+  const bracketStarted = fixtureList.some(
+    fixture => isRelevant(fixture) && isPlayed(fixture) && isBracket(fixture, groupsByName)
+  );
+  const knockoutsStarted = playInStarted || bracketStarted;
+  // The malus is for a bracket phase a team did not reach. A closed play-in is not that:
+  // teams that skipped it just never had the extra match.
+  const applyMalus = bracketStarted || finished;
   if (applyMalus) {
-    console.log('  ⚖ Rule 6 malus is on: missed knockout rounds are charged.');
+    console.log('  ⚖ Rule 6 malus is on: missed bracket rounds are charged (not the access play-off).');
   } else {
     console.log('  ⏳ Girone in progress: scoring points only, malus held back.');
   }
@@ -219,24 +244,31 @@ function main() {
       const row = { player: playerId };
       const missed = [];
       let total = 0;
+      let columnIndex = 0;
+      let required = 0;
 
-      for (let i = 0; i < rounds; i++) {
-        const column = `Match ${i + 1}`;
-        if (i < fixtures.length) {
-          // Left out of the squad for a match the team did play: no substitution is due,
-          // because the player has not been eliminated from anything.
-          const points = scored.get(`${fixtures[i]}::${team}`)?.get(playerId);
-          row[column] = points ? points.total_points : POINTS_PER_MISSING_GAME;
-        } else if (applyMalus) {
+      for (const fixtureId of fixtures) {
+        columnIndex += 1;
+        const column = `Match ${columnIndex}`;
+        // Left out of the squad for a match the team did play: no substitution is due,
+        // because the player has not been eliminated from anything.
+        const points = scored.get(`${fixtureId}::${team}`)?.get(playerId);
+        row[column] = points ? points.total_points : POINTS_PER_MISSING_GAME;
+        total += row[column];
+        if (!playInId(fixtureId)) required += 1;
+      }
+
+      while (required < rounds) {
+        columnIndex += 1;
+        const column = `Match ${columnIndex}`;
+        if (applyMalus) {
           row[column] = POINTS_PER_MISSING_GAME;
           missed.push(column);
         } else {
-          // Still in the girone: a team on fewer matches than the leaders has not gone out,
-          // it is simply due to play. Charging rule 6 now would put the whole table below
-          // zero before anybody had missed a phase.
           row[column] = 0;
         }
         total += row[column];
+        required += 1;
       }
 
       row.Premi = topScorers.has(playerId) ? POINTS_TOP_SCORER : 0;
@@ -256,9 +288,10 @@ function main() {
   // regolamento lets a reserve come on.
   writeJson(join(DATA_DIR, 'eliminazioni.json'), eliminazioni);
 
-  // Whether the malus is due yet. Rule 6 punishes a phase a team did not reach, which cannot be
-  // told apart from a phase it has not reached so far until the knockouts begin. The classifica
-  // reads this so it can show earned points only while the girone is still on.
+  // Whether the malus is due yet. Rule 6 punishes a bracket phase a team did not reach,
+  // which cannot be told apart from a phase it has not reached so far until the ottavi
+  // begin. The classifica reads this so it can show earned points only while the girone
+  // (and the access play-off) are still on.
   writeJson(join(DATA_DIR, 'stato.json'), {
     finished,
     knockouts_started: knockoutsStarted,
