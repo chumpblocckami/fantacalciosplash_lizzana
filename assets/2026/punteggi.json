@@ -2442,6 +2442,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Matteo Diener | U.SGUARNA": [
@@ -2480,6 +2489,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Andrea Gober | U.SGUARNA": [
@@ -2518,6 +2536,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 2,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 4
     }
   ],
   "Marco Heidempergher | U.SGUARNA": [
@@ -2556,6 +2583,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Federico Nicolodi | U.SGUARNA": [
@@ -2594,6 +2630,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "William Pedri | U.SGUARNA": [
@@ -2632,6 +2677,15 @@
       "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": 1.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 5,
+      "mvp_points": 0,
+      "total_points": 7
     }
   ],
   "Riccardo Zaffoni | U.SGUARNA": [
@@ -2670,6 +2724,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 2,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 2
     }
   ],
   "Daniele Feller | BEVEM4TUT": [
@@ -6013,6 +6076,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": -2,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": -2
     }
   ],
   "Riccardo Baldo | GREP": [
@@ -6042,6 +6114,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Michele Bertolini | GREP": [
@@ -6071,6 +6152,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Federico Giordani | GREP": [
@@ -6100,6 +6190,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 6
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Matteo Maraner | GREP": [
@@ -6129,6 +6228,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Matteo Mazzola | GREP": [
@@ -6158,6 +6266,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 2
+    },
+    {
+      "goals": 0,
+      "yellow_cards": -2,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": -2
     }
   ],
   "Davide Raffaelli | GREP": [
@@ -6187,6 +6304,15 @@
       "goalkeeper_points": 0,
       "mvp_points": 0,
       "total_points": 4
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": 0,
+      "mvp_points": 0,
+      "total_points": 0
     }
   ],
   "Federico Zoller | GREP": [
@@ -6214,6 +6340,15 @@
       "red_cards": 0,
       "team_points": 2,
       "goalkeeper_points": -2.5,
+      "mvp_points": 0,
+      "total_points": -0.5
+    },
+    {
+      "goals": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "team_points": 0,
+      "goalkeeper_points": -0.5,
       "mvp_points": 0,
       "total_points": -0.5
     }

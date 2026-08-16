@@ -17,14 +17,18 @@
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 75
+    "Punteggio": 77
   },
   {
     "Allenatore": "Elia Tomasoni dalla città di Pallet",
-    "Punteggio": 67.5
+    "Punteggio": 71.5
   },
   {
     "Allenatore": "Riccardo Zeni",
+    "Punteggio": 65.5
+  },
+  {
+    "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 65.5
   },
   {
@@ -32,7 +36,7 @@
     "Punteggio": 62.5
   },
   {
-    "Allenatore": "Lorenza Simoncelli",
+    "Allenatore": "Matteo Zanlucchi",
     "Punteggio": 61.5
   },
   {
@@ -40,40 +44,40 @@
     "Punteggio": 60.5
   },
   {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 58
+    "Allenatore": "Matteo Giovanella",
+    "Punteggio": 58.5
   },
   {
-    "Allenatore": "Matteo Zanlucchi",
-    "Punteggio": 57.5
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 58
   },
   {
     "Allenatore": "Sebastiano Zoller",
     "Punteggio": 55.5
   },
   {
-    "Allenatore": "Matteo Giovanella",
-    "Punteggio": 54.5
-  },
-  {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 53
+  },
+  {
+    "Allenatore": "Leonardo Parisi",
+    "Punteggio": 52.5
   },
   {
     "Allenatore": "Nicholas Marzadro",
     "Punteggio": 52.5
   },
   {
-    "Allenatore": "Alessio Farinati",
+    "Allenatore": "Emanuele Miorandi",
     "Punteggio": 51.5
   },
   {
-    "Allenatore": "Leonardo Parisi",
-    "Punteggio": 50.5
+    "Allenatore": "Niccolò Orsi",
+    "Punteggio": 51.5
   },
   {
-    "Allenatore": "Niccolò Orsi",
-    "Punteggio": 49.5
+    "Allenatore": "Alessio Farinati",
+    "Punteggio": 51.5
   },
   {
     "Allenatore": "Nicolas Giordani",
@@ -84,12 +88,16 @@
     "Punteggio": 45.5
   },
   {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 45.5
+    "Allenatore": "Marco Sala",
+    "Punteggio": 44.5
   },
   {
-    "Allenatore": "Marco Sala",
-    "Punteggio": 42.5
+    "Allenatore": "Matteo Mazzola",
+    "Punteggio": 44
+  },
+  {
+    "Allenatore": "Valentina Perghem",
+    "Punteggio": 43
   },
   {
     "Allenatore": "JAlvin92",
@@ -100,11 +108,11 @@
     "Punteggio": 41
   },
   {
-    "Allenatore": "Valentina Perghem",
-    "Punteggio": 41
+    "Allenatore": "Thomas Pontillo",
+    "Punteggio": 40.5
   },
   {
-    "Allenatore": "Thomas Pontillo",
+    "Allenatore": "Davide Zeni",
     "Punteggio": 40.5
   },
   {
@@ -116,20 +124,12 @@
     "Punteggio": 38.5
   },
   {
-    "Allenatore": "Matteo Mazzola",
-    "Punteggio": 38.5
-  },
-  {
-    "Allenatore": "Davide Zeni",
-    "Punteggio": 38.5
+    "Allenatore": "Michele Bertolini",
+    "Punteggio": 33
   },
   {
     "Allenatore": "Marco Miotto",
     "Punteggio": 31.5
-  },
-  {
-    "Allenatore": "Michele Bertolini",
-    "Punteggio": 31
   },
   {
     "Allenatore": "Daniele Feltrinelli",
