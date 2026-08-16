@@ -5,8 +5,8 @@
     "Match 2": 6,
     "Match 3": 6,
     "Match 4": 8,
-    "Premi": 0,
-    "Total": 42
+    "Premi": 5,
+    "Total": 47
   },
   {
     "player": "Federico Mortillaro | CLITORIDERS",
@@ -75,6 +75,15 @@
     "Total": 21
   },
   {
+    "player": "Andrea Roveda | PINGUINI TRENTINI",
+    "Match 1": 12,
+    "Match 2": 2,
+    "Match 3": 6,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 20
+  },
+  {
     "player": "Marco Heidempergher | U.SGUARNA",
     "Match 1": 4,
     "Match 2": 2,
@@ -113,15 +122,6 @@
     "Total": 19
   },
   {
-    "player": "Andrea Roveda | PINGUINI TRENTINI",
-    "Match 1": 12,
-    "Match 2": 2,
-    "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 18
-  },
-  {
     "player": "Riccardo Zaffoni | U.SGUARNA",
     "Match 1": 6,
     "Match 2": 0,
@@ -139,6 +139,25 @@
     "Match 4": 2,
     "Premi": 0,
     "Total": 17
+  },
+  {
+    "player": "Federico Pomarolli | MODIUM",
+    "Match 1": 6,
+    "Match 2": 0,
+    "Match 3": 5,
+    "Match 4": 2,
+    "Match 5": 4,
+    "Premi": 0,
+    "Total": 17
+  },
+  {
+    "player": "Alessio Farinati | PINGUINI TRENTINI",
+    "Match 1": 10,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 2,
+    "Premi": 0,
+    "Total": 16
   },
   {
     "player": "Giovanni Torboli | F.C. GORILLAZ",
@@ -235,6 +254,35 @@
     "Total": 15
   },
   {
+    "player": "Edoardo Pomarolli | MODIUM",
+    "Match 1": 4,
+    "Match 2": 0,
+    "Match 3": 3,
+    "Match 4": 4,
+    "Match 5": 4,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
+    "player": "Marco Sartorelli | MODIUM",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 3,
+    "Match 4": 6,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 15
+  },
+  {
+    "player": "Enrico Bordignon | PINGUINI TRENTINI",
+    "Match 1": 8,
+    "Match 2": 2,
+    "Match 3": 4,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 14
+  },
+  {
     "player": "Leonardo Comper | GLI INTROVABILI",
     "Match 1": 4,
     "Match 2": 4,
@@ -310,20 +358,30 @@
     "Total": 13
   },
   {
-    "player": "Enrico Bordignon | PINGUINI TRENTINI",
-    "Match 1": 8,
-    "Match 2": 2,
-    "Match 3": 4,
-    "Match 4": -2,
+    "player": "Matteo Lanaro | MODIUM",
+    "Match 1": 2,
+    "Match 2": 4,
+    "Match 3": 1,
+    "Match 4": 4,
+    "Match 5": 2,
     "Premi": 0,
-    "Total": 12
+    "Total": 13
   },
   {
-    "player": "Alessio Farinati | PINGUINI TRENTINI",
-    "Match 1": 10,
+    "player": "Matteo Pilati | PINGUINI TRENTINI",
+    "Match 1": 1.5,
+    "Match 2": 7,
+    "Match 3": 5,
+    "Match 4": -1,
+    "Premi": 0,
+    "Total": 12.5
+  },
+  {
+    "player": "Davide Manica | PINGUINI TRENTINI",
+    "Match 1": 6,
     "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
+    "Match 3": 4,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 12
   },
@@ -376,15 +434,6 @@
     "Match 5": 4,
     "Premi": 0,
     "Total": 12
-  },
-  {
-    "player": "Matteo Pilati | PINGUINI TRENTINI",
-    "Match 1": 1.5,
-    "Match 2": 7,
-    "Match 3": 5,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 11.5
   },
   {
     "player": "Elia Battisti | U.SGUARNA",
@@ -480,31 +529,11 @@
     "Total": 11
   },
   {
-    "player": "Federico Pomarolli | MODIUM",
-    "Match 1": 6,
-    "Match 2": 0,
-    "Match 3": 5,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Marco Sartorelli | MODIUM",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 3,
-    "Match 4": 6,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 11
-  },
-  {
-    "player": "Davide Manica | PINGUINI TRENTINI",
-    "Match 1": 6,
-    "Match 2": 2,
-    "Match 3": 4,
-    "Match 4": -2,
+    "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
+    "Match 1": 4,
+    "Match 2": 4,
+    "Match 3": 2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 10
   },
@@ -691,31 +720,31 @@
     "Total": 9
   },
   {
-    "player": "Matteo Lanaro | MODIUM",
-    "Match 1": 2,
-    "Match 2": 4,
-    "Match 3": 1,
-    "Match 4": 4,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 9
-  },
-  {
-    "player": "Edoardo Pomarolli | MODIUM",
+    "player": "Andrea Bertolini | MODIUM",
     "Match 1": 4,
     "Match 2": 0,
-    "Match 3": 3,
-    "Match 4": 4,
-    "Match 5": -2,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 2,
     "Premi": 0,
     "Total": 9
   },
   {
-    "player": "Giovanni Umberto Di Meo | PINGUINI TRENTINI",
-    "Match 1": 4,
+    "player": "Riccardo Versini | MODIUM",
+    "Match 1": 7,
+    "Match 2": -2,
+    "Match 3": -1,
+    "Match 4": 3.5,
+    "Match 5": 1.5,
+    "Premi": 0,
+    "Total": 9
+  },
+  {
+    "player": "Luca Lasta | PINGUINI TRENTINI",
+    "Match 1": 2,
     "Match 2": 4,
     "Match 3": 2,
-    "Match 4": -2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 8
   },
@@ -901,6 +930,16 @@
     "Total": 7
   },
   {
+    "player": "Luca Barozzi | MODIUM",
+    "Match 1": 2,
+    "Match 2": 0,
+    "Match 3": 1,
+    "Match 4": 2,
+    "Match 5": 2,
+    "Premi": 0,
+    "Total": 7
+  },
+  {
     "player": "Michele Eccel | NAZIONALE FERROVIERI",
     "Match 1": 2,
     "Match 2": 0,
@@ -911,11 +950,20 @@
     "Total": 6
   },
   {
-    "player": "Luca Lasta | PINGUINI TRENTINI",
+    "player": "Andrea Aste | PINGUINI TRENTINI",
     "Match 1": 2,
-    "Match 2": 4,
+    "Match 2": 2,
     "Match 3": 2,
-    "Match 4": -2,
+    "Match 4": 0,
+    "Premi": 0,
+    "Total": 6
+  },
+  {
+    "player": "Matteo Brigo | PINGUINI TRENTINI",
+    "Match 1": 2,
+    "Match 2": 2,
+    "Match 3": 2,
+    "Match 4": 0,
     "Premi": 0,
     "Total": 6
   },
@@ -993,16 +1041,6 @@
     "Match 3": 1,
     "Match 4": 3,
     "Match 5": 1,
-    "Premi": 0,
-    "Total": 5.5
-  },
-  {
-    "player": "Riccardo Versini | MODIUM",
-    "Match 1": 7,
-    "Match 2": -2,
-    "Match 3": -1,
-    "Match 4": 3.5,
-    "Match 5": -2,
     "Premi": 0,
     "Total": 5.5
   },
@@ -1110,16 +1148,6 @@
     "Total": 5
   },
   {
-    "player": "Andrea Bertolini | MODIUM",
-    "Match 1": 4,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": -2,
-    "Premi": 0,
-    "Total": 5
-  },
-  {
     "player": "Alessandro Sartori | QUEI STRAZI",
     "Match 1": 0,
     "Match 2": 2,
@@ -1133,24 +1161,6 @@
     "Match 1": 0,
     "Match 2": 0,
     "Match 3": 6,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Andrea Aste | PINGUINI TRENTINI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
-    "Match 4": -2,
-    "Premi": 0,
-    "Total": 4
-  },
-  {
-    "player": "Matteo Brigo | PINGUINI TRENTINI",
-    "Match 1": 2,
-    "Match 2": 2,
-    "Match 3": 2,
     "Match 4": -2,
     "Premi": 0,
     "Total": 4
@@ -1288,16 +1298,6 @@
     "Match 3": -1,
     "Match 4": 2,
     "Match 5": 0,
-    "Premi": 0,
-    "Total": 3
-  },
-  {
-    "player": "Luca Barozzi | MODIUM",
-    "Match 1": 2,
-    "Match 2": 0,
-    "Match 3": 1,
-    "Match 4": 2,
-    "Match 5": -2,
     "Premi": 0,
     "Total": 3
   },

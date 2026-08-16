@@ -1,15 +1,15 @@
 [
   {
     "Allenatore": "Spagnolli Mattia",
-    "Punteggio": 101.5
-  },
-  {
-    "Allenatore": "Davide Rosà",
-    "Punteggio": 91
+    "Punteggio": 108.5
   },
   {
     "Allenatore": "Alessandro Galvagni",
-    "Punteggio": 86
+    "Punteggio": 93
+  },
+  {
+    "Allenatore": "Davide Rosà",
+    "Punteggio": 92
   },
   {
     "Allenatore": "Federico Fasanelli",
@@ -24,10 +24,6 @@
     "Punteggio": 76
   },
   {
-    "Allenatore": "Riccardo Zeni",
-    "Punteggio": 69.5
-  },
-  {
     "Allenatore": "Lorenza Simoncelli",
     "Punteggio": 68.5
   },
@@ -36,19 +32,23 @@
     "Punteggio": 67.5
   },
   {
+    "Allenatore": "Riccardo Zeni",
+    "Punteggio": 67.5
+  },
+  {
+    "Allenatore": "Matteo Pilati",
+    "Punteggio": 64.5
+  },
+  {
     "Allenatore": "Matteo Giovanella",
     "Punteggio": 62.5
   },
   {
-    "Allenatore": "Matteo Pilati",
-    "Punteggio": 60.5
-  },
-  {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 60
-  },
-  {
     "Allenatore": "Leonardo Parisi",
+    "Punteggio": 61
+  },
+  {
+    "Allenatore": "Alessio Farinati",
     "Punteggio": 59.5
   },
   {
@@ -56,15 +56,19 @@
     "Punteggio": 58.5
   },
   {
-    "Allenatore": "Alessio Farinati",
-    "Punteggio": 56.5
+    "Allenatore": "Michela Menghini",
+    "Punteggio": 57
   },
   {
     "Allenatore": "Jacopo Chemini",
     "Punteggio": 56.5
   },
   {
-    "Allenatore": "Michela Menghini",
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 56
+  },
+  {
+    "Allenatore": "Emanuele Miorandi",
     "Punteggio": 55.5
   },
   {
@@ -74,10 +78,6 @@
   {
     "Allenatore": "Valentina Perghem",
     "Punteggio": 52
-  },
-  {
-    "Allenatore": "Emanuele Miorandi",
-    "Punteggio": 51.5
   },
   {
     "Allenatore": "Niccolò Orsi",
@@ -92,6 +92,10 @@
     "Punteggio": 49.5
   },
   {
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 47
+  },
+  {
     "Allenatore": "Nazarena Raos",
     "Punteggio": 47
   },
@@ -100,20 +104,16 @@
     "Punteggio": 46
   },
   {
+    "Allenatore": "Elena Bruschetti",
+    "Punteggio": 45.5
+  },
+  {
     "Allenatore": "Marco Sala",
     "Punteggio": 44.5
   },
   {
     "Allenatore": "JAlvin92",
-    "Punteggio": 43.5
-  },
-  {
-    "Allenatore": "Elena Bruschetti",
-    "Punteggio": 42.5
-  },
-  {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 41
+    "Punteggio": 41.5
   },
   {
     "Allenatore": "Thomas Pontillo",
@@ -132,11 +132,11 @@
     "Punteggio": 35
   },
   {
-    "Allenatore": "Andrea Conzatti",
-    "Punteggio": 34.5
+    "Allenatore": "Michele Bertolini",
+    "Punteggio": 35
   },
   {
-    "Allenatore": "Michele Bertolini",
-    "Punteggio": 33
+    "Allenatore": "Andrea Conzatti",
+    "Punteggio": 34.5
   }
 ]
