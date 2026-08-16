@@ -71,11 +71,11 @@
         "id": 741,
         "name": "Giovanni",
         "surname": "Raoss",
-        "username": null,
+        "username": "Rossano Rubicondi",
         "birth_date": "2002-02-07T00:00:00.000Z",
         "is_goalkeeper": false,
         "avatar_url": "/storage/players/defaultmale.png",
-        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\defaultmale.png"
+        "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\PLAYER\\giovanniraoss.png"
       }
     ]
   }
