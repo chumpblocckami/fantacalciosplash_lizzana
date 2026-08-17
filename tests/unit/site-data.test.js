@@ -9,6 +9,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync, existsSync, readdirSync } from 'fs';
+import { execSync } from 'child_process';
 import { join } from 'path';
 
 import { ROOT } from '../helpers/paths.js';
@@ -85,6 +86,70 @@ describe('the history file', () => {
   });
 });
 
+describe('the scoring data the site reads', () => {
+  const SCORING_FILES = ['punteggi.json', 'classifica.json', 'squadre.json'];
+  const FRONTEND_LOADERS = [
+    'giocatori.json',
+    'squadre.json',
+    'punteggi.json',
+    'classifica.json',
+    'dettaglio.json',
+    'risultati.json',
+  ];
+
+  test('loadEditionData only reads from ./data/', () => {
+    const api = read('js', 'api.js');
+
+    assert.match(api, /const BASE_DATA_PATH = '\.\/data'/);
+    for (const file of FRONTEND_LOADERS) {
+      assert.match(
+        api,
+        new RegExp(`\\$\\{BASE_DATA_PATH\\}/\\$\\{edition\\}/${file.replace('.', '\\.')}`),
+        file
+      );
+    }
+  });
+
+  test('every edition has the scoring tables the frontend needs', () => {
+    for (const edition of editions) {
+      for (const file of SCORING_FILES) {
+        const path = join(ROOT, 'data', edition, file);
+        assert.ok(existsSync(path), `${edition}/${file}`);
+        const rows = JSON.parse(readFileSync(path, 'utf-8'));
+        assert.ok(Array.isArray(rows) && rows.length > 0, `${edition}/${file} is non-empty`);
+      }
+    }
+  });
+
+  test('the current edition ships a baked dettaglio for the squad sheet', () => {
+    const path = join(ROOT, 'data', CURRENT_YEAR, 'dettaglio.json');
+    assert.ok(existsSync(path), 'dettaglio.json');
+    const rows = JSON.parse(readFileSync(path, 'utf-8'));
+    assert.ok(Array.isArray(rows) && rows.length > 0);
+    assert.ok('players' in rows[0], 'dettaglio rows carry per-slot match breakdown');
+  });
+
+  test('the build inputs that produced the current scores are in the repo', () => {
+    const apiDir = join(ROOT, 'assets', CURRENT_YEAR, 'api');
+    assert.ok(existsSync(join(apiDir, 'fixtures.json')), 'scraped fixtures');
+    assert.ok(existsSync(join(ROOT, 'assets', CURRENT_YEAR, 'punteggi.json')), 'raw ratings');
+    for (const file of ['eliminazioni.json', 'stato.json']) {
+      assert.ok(existsSync(join(ROOT, 'data', CURRENT_YEAR, file)), file);
+    }
+  });
+
+  test('classifica rendering never calls an external API', () => {
+    const sources = [
+      read('js', 'api.js'),
+      read('js', 'app.js'),
+      read('js', 'components', 'classifica.js'),
+      read('js', 'components', 'squad-sheet.js'),
+    ].join('\n');
+
+    assert.doesNotMatch(sources, /fetch\([^)]*https?:\/\/[^)]*(classifica|punteggi|dettaglio)/i);
+  });
+});
+
 describe('the scoring constants', () => {
   test('every script reads them from js/constants.js', () => {
     // They used to be redeclared in compute-scores.js under a comment saying the two copies
@@ -109,20 +174,15 @@ describe('the Python is gone', () => {
     // scripts/. What survives is the pair of jobs that run by hand between editions and
     // never on the site: pricing the new player list, and lifting the old spreadsheets out
     // to Google Sheets. Both want pandas, so both stay Python.
-    const python = [];
-    const walk = dir => {
-      for (const entry of readdirSync(join(ROOT, dir), { withFileTypes: true })) {
-        if (entry.name === 'node_modules' || entry.name.startsWith('.')) continue;
-        const path = join(dir, entry.name);
-        if (entry.isDirectory()) walk(path);
-        else if (entry.name.endsWith('.py')) python.push(path);
-      }
-    };
-    walk('.');
+    const python = execSync('git ls-files "*.py"', { cwd: ROOT, encoding: 'utf-8' })
+      .trim()
+      .split('\n')
+      .filter(Boolean)
+      .sort();
 
-    assert.deepEqual(python.sort(), [
-      join('scripts', 'assign_quotazioni.py'),
-      join('scripts', 'export_legacy_data.py'),
+    assert.deepEqual(python, [
+      'scripts/assign_quotazioni.py',
+      'scripts/export_legacy_data.py',
     ]);
   });
 

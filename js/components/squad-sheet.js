@@ -1,9 +1,11 @@
 import { escapeHtml } from '../html.js';
+import { awardLabel } from '../awards.js';
 
 const STATUS_LABELS = {
   in_campo: 'in campo',
   panchina: 'panchina',
   non_giocato: 'non giocato',
+  non_disputato: 'non disputato',
   eliminato: 'eliminato',
   subentrato: 'subentrato',
 };
@@ -11,6 +13,7 @@ const STATUS_LABELS = {
 const CHIP_CLASSES = {
   goals: 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300',
   win: 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300',
+  loss: 'bg-red-100 text-red-800 dark:bg-red-900/40 dark:text-red-300',
   mvp: 'bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300',
   cleansheet: 'bg-green-100 text-green-800 dark:bg-green-900/40 dark:text-green-300',
   draw: 'bg-gray-100 text-gray-700 dark:bg-gray-700 dark:text-gray-300',
@@ -57,7 +60,7 @@ function renderPlayer(player) {
           ${statusBadge(status)}
         </div>
       </div>
-      ${player.premi ? `<p class="mt-1 text-xs text-amber-700 dark:text-amber-300">Premi +${formatPoints(player.premi)}</p>` : ''}
+      ${renderAwards(player)}
       <div class="mt-2 space-y-2">
         ${(player.matches ?? []).map(match => renderMatch(match)).join('')}
       </div>
@@ -65,12 +68,33 @@ function renderPlayer(player) {
   `;
 }
 
+function renderAwards(player) {
+  const awards = player.awards ?? (player.premi
+    ? [{ id: 'premi', label: 'Premi', points: player.premi }]
+    : []);
+  if (!awards.length) return '';
+  return `
+    <div class="mt-2 flex flex-wrap gap-1.5">
+      ${awards.map(award => `
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium
+                     bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-300">
+          <span>${escapeHtml(awardLabel(award))}</span>
+          <span class="tabular-nums">+${formatPoints(award.points)}</span>
+        </span>
+      `).join('')}
+    </div>
+  `;
+}
+
 function renderMatch(match) {
-  const muted = !match.counted || match.status === 'panchina' || match.status === 'non_giocato';
+  const skipped = match.status === 'non_disputato';
+  const muted = skipped || !match.counted || match.status === 'panchina' || match.status === 'non_giocato';
   return `
     <div class="flex flex-wrap items-center gap-2 text-sm">
-      <span class="text-xs text-gray-400 w-16 shrink-0">${escapeHtml(match.column)}</span>
-      <span class="tabular-nums font-medium ${pointsClass(match.total, muted)}">${formatPoints(match.total)}</span>
+      <span class="text-xs text-gray-400 min-w-[6.5rem] shrink-0">${escapeHtml(match.column)}</span>
+      ${skipped
+    ? '<span class="text-xs text-gray-400 italic">—</span>'
+    : `<span class="tabular-nums font-medium ${pointsClass(match.total, muted)}">${formatPoints(match.total)}</span>`}
       ${statusBadge(match.status)}
       ${(match.chips ?? []).map(chip => `
         <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
@@ -93,13 +117,13 @@ function summaryStatus(player) {
 }
 
 function statusBadge(status) {
+  // Chips and the score already say whether the player took the field.
+  if (status === 'in_campo' || status === 'eliminato') return '';
   const label = STATUS_LABELS[status];
   if (!label) return '';
-  const tone = status === 'in_campo' || status === 'subentrato'
+  const tone = status === 'subentrato'
     ? 'bg-green-50 text-green-700 dark:bg-green-900/20 dark:text-green-300'
-    : status === 'eliminato'
-      ? 'bg-red-50 text-red-700 dark:bg-red-900/20 dark:text-red-300'
-      : 'bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400';
+    : 'bg-gray-100 text-gray-500 dark:bg-gray-700 dark:text-gray-400';
   return `<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${tone}">${label}</span>`;
 }
 

@@ -10,7 +10,7 @@
     "classifica": "node scripts/build-classifica.js",
     "build": "node scripts/scrape.js && node scripts/compute-scores.js && node scripts/fetch-registrations.js && node scripts/build-classifica.js",
     "serve": "npx serve . -p 8080",
-    "test": "node --test tests/"
+    "test": "node --test tests/unit/*.test.js"
   },
   "engines": {
     "node": ">=20"

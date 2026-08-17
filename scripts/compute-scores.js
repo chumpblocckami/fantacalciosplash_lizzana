@@ -22,6 +22,13 @@ import {
   POINTS_MVP,
   POINTS_TOP_SCORER,
 } from '../js/constants.js';
+import { AWARDS, prizePointsForPlayer } from '../js/awards.js';
+import {
+  BRACKET_PHASE_KEYS,
+  phaseByKey,
+  phaseKeyForFixture,
+  isPlayIn,
+} from '../js/match-phases.js';
 
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const API_DIR = join('assets', YEAR, 'api');
@@ -36,12 +43,16 @@ const EXCLUDED_GROUPS = ['test grafico'];
 // Regolamento rule 8: "La finale 3 / 4 posto non conta ai fini dei punteggi fanta, contera
 // invece per le classifiche capocannonieri." Written as a pattern because the organisers spell
 // the group differently from year to year: "Terzo/Quarto M", "terzo quarto", "3/4 M".
-const THIRD_PLACE_PLAY_OFF = /(terzo\s*[/ ]\s*quarto|3\s*\/\s*4)/i;
+const THIRD_PLACE_PLAY_OFF = /(terzo\s*°?\s*[/ ]\s*°?\s*quarto|3\s*°?\s*\/\s*°?\s*4)/i;
 
-// Ottavi / quarti / semi / finale / sedicesimi. The access play-off is not in this list:
-// rule 7 treats it as an extra match some teams play, not as a phase everybody must reach.
+// Ottavi / quarti / semi / finale (and the 3rd/4th-place match). Missing one of these
+// is what rule 6 charges. The access play-off is not a required phase.
 const BRACKET_NAME = /(ottavi|quarti|semifinali?|finale|sedicesimi)/i;
-const PLAY_IN_NAME = /playoffs?/i;
+
+function isGirone(fixture, groupsByName) {
+  const name = fixture.group_name ?? '';
+  return /^maschile$/i.test(name) || groupsByName.get(name)?.kind === 'girone';
+}
 
 function readJson(path) {
   if (!existsSync(path)) return null;
@@ -68,25 +79,6 @@ function isRelevant(fixture) {
   );
 }
 
-/**
- * The play-in for the ottavi ("Playoffs Maschile"). Rule 7: it counts like any other
- * match, and teams that skip it are not charged the rule 6 malus for that extra game.
- *
- * `kind === 'playoffs'` is the usual signal; the name is the fallback. Bracket rounds
- * sometimes reuse kind=playoffs (Semifinali / Finale), so a bracket name wins.
- */
-function isPlayIn(fixture, groupsByName) {
-  const name = fixture.group_name ?? '';
-  if (THIRD_PLACE_PLAY_OFF.test(name) || BRACKET_NAME.test(name)) return false;
-  const kind = groupsByName.get(name)?.kind;
-  if (kind && kind.toLowerCase() === 'playoffs') return true;
-  return PLAY_IN_NAME.test(name);
-}
-
-/**
- * Ottavi / quarti / semi / finale (and the 3rd/4th-place match). Missing one of these
- * is what rule 6 charges. The access play-off is not a required phase.
- */
 function isBracket(fixture, groupsByName) {
   const name = fixture.group_name ?? '';
   if (THIRD_PLACE_PLAY_OFF.test(name) || BRACKET_NAME.test(name)) return true;
@@ -141,14 +133,32 @@ function main() {
   const rosters = new Map();       // team -> Set(playerId), everyone who ever played for it
   const scored = new Map();        // `fixtureId::team` -> Map(playerId -> MatchPoints)
   const teamFixtures = new Map();  // team -> [fixtureId], in the order they were played
+  const fixturePhase = new Map();  // `fixtureId::team` -> phase key
+  const gironeRound = new Map();   // team -> how many Maschile fixtures closed so far
+  const teamPhases = new Map();    // team -> Set(phase key), fanta-counting phases played
+  const teamPhasesAll = new Map(); // team -> Set(phase key), every phase including 3°/4°
   const goalsScored = new Map();   // playerId -> goals, the third-place play-off included
   const results = [];              // [{ home, away, score, stage }]
   let skipped = 0;
 
   /** Record one team's contribution to one fixture. */
-  const record = (fixtureId, team, concededGoals, mvpId, countsForFanta) => {
+  const record = (fixture, fixtureId, team, concededGoals, mvpId, countsForFanta) => {
     const players = applyGoalkeeperOverrides(squad(team), team.name);
     if (!rosters.has(team.name)) rosters.set(team.name, new Set());
+
+    let phaseKey = null;
+    if (isGirone(fixture, groupsByName)) {
+      const round = (gironeRound.get(team.name) ?? 0) + 1;
+      gironeRound.set(team.name, round);
+      phaseKey = phaseKeyForFixture(fixture, groupsByName, round);
+    } else {
+      phaseKey = phaseKeyForFixture(fixture, groupsByName, 0);
+    }
+
+    if (phaseKey) {
+      if (!teamPhasesAll.has(team.name)) teamPhasesAll.set(team.name, new Set());
+      teamPhasesAll.get(team.name).add(phaseKey);
+    }
 
     const points = new Map();
     for (const player of players) {
@@ -162,6 +172,11 @@ function main() {
 
     if (!countsForFanta) return;
     scored.set(`${fixtureId}::${team.name}`, points);
+    fixturePhase.set(`${fixtureId}::${team.name}`, phaseKey);
+    if (phaseKey) {
+      if (!teamPhases.has(team.name)) teamPhases.set(team.name, new Set());
+      teamPhases.get(team.name).add(phaseKey);
+    }
     if (!teamFixtures.has(team.name)) teamFixtures.set(team.name, []);
     teamFixtures.get(team.name).push(fixtureId);
   };
@@ -185,8 +200,8 @@ function main() {
     // capocannoniere; it just does not earn anybody fantasy points (rule 8).
     const countsForFanta = !THIRD_PLACE_PLAY_OFF.test(stage ?? '');
 
-    record(fixture.id, home, away.score, mvpId, countsForFanta);
-    record(fixture.id, away, home.score, mvpId, countsForFanta);
+    record(fixture, fixture.id, home, away.score, mvpId, countsForFanta);
+    record(fixture, fixture.id, away, home.score, mvpId, countsForFanta);
 
     results.push({
       home: home.name,
@@ -234,44 +249,78 @@ function main() {
       : []
   );
 
+  const tournamentBracketPhases = BRACKET_PHASE_KEYS.filter(key =>
+    [...teamPhases.values()].some(phases => phases.has(key))
+  );
+
+  const existingPremi = readJson(join(DATA_DIR, 'premi.json')) ?? {};
+  const premiWinners = {
+    capocannoniere: finished && topScorers.size
+      ? [...topScorers]
+      : (existingPremi.capocannoniere ?? []),
+    miglior_giocatore: existingPremi.miglior_giocatore ?? [],
+    miglior_portiere: existingPremi.miglior_portiere ?? [],
+  };
+
   const punteggiRows = [];
   const eliminazioni = {};
 
   for (const [team, players] of rosters) {
     const fixtures = teamFixtures.get(team) ?? [];
+    const playedPhases = teamPhases.get(team) ?? new Set();
+    const playedAllPhases = teamPhasesAll.get(team) ?? new Set();
+    const finaleLabel = phaseByKey('finale').label;
+
+    let lastBracketIdx = -1;
+    for (let i = 0; i < tournamentBracketPhases.length; i++) {
+      const key = tournamentBracketPhases[i];
+      if (playedPhases.has(key)) {
+        lastBracketIdx = i;
+      } else if (key === 'finale' && playedAllPhases.has('finale')) {
+        // ponytail: rule 8 — 3-4 posto is tracked in teamPhasesAll but not teamPhases.
+        lastBracketIdx = i;
+      }
+    }
 
     for (const playerId of players) {
       const row = { player: playerId };
       const missed = [];
       let total = 0;
-      let columnIndex = 0;
-      let required = 0;
 
       for (const fixtureId of fixtures) {
-        columnIndex += 1;
-        const column = `Match ${columnIndex}`;
+        const phaseKey = fixturePhase.get(`${fixtureId}::${team}`);
+        const phase = phaseByKey(phaseKey);
+        if (!phase) continue;
+        const column = phase.label;
         // Left out of the squad for a match the team did play: no substitution is due,
         // because the player has not been eliminated from anything.
         const points = scored.get(`${fixtureId}::${team}`)?.get(playerId);
         row[column] = points ? points.total_points : POINTS_PER_MISSING_GAME;
         total += row[column];
-        if (!playInId(fixtureId)) required += 1;
       }
 
-      while (required < rounds) {
-        columnIndex += 1;
-        const column = `Match ${columnIndex}`;
-        if (applyMalus) {
-          row[column] = POINTS_PER_MISSING_GAME;
-          missed.push(column);
-        } else {
-          row[column] = 0;
+      // Rule 8: the 3rd/4th-place play-off is the Finale round but earns no fanta points.
+      if (playedAllPhases.has('finale') && !playedPhases.has('finale')
+          && !Object.prototype.hasOwnProperty.call(row, finaleLabel)) {
+        row[finaleLabel] = 0;
+      }
+
+      for (let i = lastBracketIdx + 1; i < tournamentBracketPhases.length; i++) {
+        const phaseKey = tournamentBracketPhases[i];
+        if (phaseKey === 'finale' && playedAllPhases.has('finale') && !playedPhases.has('finale')) {
+          continue;
         }
-        total += row[column];
-        required += 1;
+        const phase = phaseByKey(phaseKey);
+        if (applyMalus) {
+          row[phase.label] = POINTS_PER_MISSING_GAME;
+          missed.push(phase.label);
+        } else {
+          row[phase.label] = 0;
+        }
+        total += row[phase.label];
       }
 
-      row.Premi = topScorers.has(playerId) ? POINTS_TOP_SCORER : 0;
+      row.Premi = prizePointsForPlayer(playerId, premiWinners);
       row.Total = Math.round((total + row.Premi) * 10) / 10;
       punteggiRows.push(row);
       if (missed.length) eliminazioni[playerId] = missed;
@@ -287,6 +336,15 @@ function main() {
   // they scored the penalty. build-classifica.js needs the difference to know when the
   // regolamento lets a reserve come on.
   writeJson(join(DATA_DIR, 'eliminazioni.json'), eliminazioni);
+  writeJson(join(DATA_DIR, 'premi.json'), premiWinners);
+
+  const fasi = Object.fromEntries(
+    [...teamPhasesAll.entries()].map(([teamName, phases]) => [
+      teamName,
+      [...phases].map(key => phaseByKey(key)?.label).filter(Boolean),
+    ])
+  );
+  writeJson(join(DATA_DIR, 'fasi.json'), fasi);
 
   // Whether the malus is due yet. Rule 6 punishes a bracket phase a team did not reach,
   // which cannot be told apart from a phase it has not reached so far until the ottavi
@@ -306,9 +364,14 @@ function main() {
   const rawRatings = {};
   for (const [team, players] of rosters) {
     for (const playerId of players) {
-      rawRatings[playerId] = (teamFixtures.get(team) ?? [])
-        .map(fixtureId => scored.get(`${fixtureId}::${team}`)?.get(playerId))
-        .filter(Boolean);
+      const byPhase = {};
+      for (const fixtureId of teamFixtures.get(team) ?? []) {
+        const phaseKey = fixturePhase.get(`${fixtureId}::${team}`);
+        const phase = phaseByKey(phaseKey);
+        const raw = scored.get(`${fixtureId}::${team}`)?.get(playerId);
+        if (phase && raw) byPhase[phase.label] = raw;
+      }
+      rawRatings[playerId] = byPhase;
     }
   }
   writeJson(join('assets', YEAR, 'punteggi.json'), rawRatings);

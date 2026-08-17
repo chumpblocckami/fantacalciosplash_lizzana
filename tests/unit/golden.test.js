@@ -116,7 +116,7 @@ describe('the classifica from committed scores', () => {
     const dir = workspace('golden-2026-classifica');
     mkdirSync(join(dir, 'data', YEAR), { recursive: true });
     mkdirSync(join(dir, 'assets', YEAR), { recursive: true });
-    for (const file of ['punteggi.json', 'squadre.json', 'eliminazioni.json', 'stato.json']) {
+    for (const file of ['punteggi.json', 'squadre.json', 'eliminazioni.json', 'stato.json', 'fasi.json', 'premi.json']) {
       cpSync(join(ROOT, 'data', YEAR, file), join(dir, 'data', YEAR, file));
     }
     cpSync(join(ROOT, 'assets', YEAR, 'punteggi.json'), join(dir, 'assets', YEAR, 'punteggi.json'));

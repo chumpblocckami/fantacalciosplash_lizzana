@@ -1,5 +1,6 @@
 import { escapeHtml } from '../html.js';
 import { renderSquadSheet } from './squad-sheet.js';
+import { renderPremi } from './premi.js';
 import { parseTeamHash, formatTeamHash, storageKey } from '../team-hash.js';
 
 /**
@@ -9,8 +10,9 @@ import { parseTeamHash, formatTeamHash, storageKey } from '../team-hash.js';
  * @param {Object}      config
  * @param {string}      config.edition
  * @param {Object[]}    config.dettaglio - data/YEAR/dettaglio.json
+ * @param {Object|null} [config.premi] - data/YEAR/premi.json
  */
-export function renderClassifica(container, { edition, dettaglio }) {
+export function renderClassifica(container, { edition, dettaglio, premi }) {
   const teams = dettaglio ?? [];
   const open = new Set();
   const loaded = new Set();
@@ -28,7 +30,10 @@ export function renderClassifica(container, { edition, dettaglio }) {
       ${teams.map(team => renderRow(edition, team)).join('')}
     </div>
     <p class="text-xs text-gray-400 mt-2">${teams.length} squadre</p>
+    <div id="premi-panel-${edition}" class="mt-4"></div>
   `;
+
+  renderPremi(container.querySelector(`#premi-panel-${edition}`), premi);
 
   for (const team of teams) {
     const toggle = container.querySelector(`#coach-toggle-${edition}-${team.rank}`);

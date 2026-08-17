@@ -75,17 +75,22 @@ export async function loadRegistrationCount() {
   }
 }
 
+export async function loadPremi(edition) {
+  return fetchLocal(`${BASE_DATA_PATH}/${edition}/premi.json`);
+}
+
 /**
  * Load all data for a single edition.
  */
 export async function loadEditionData(edition) {
-  const [giocatori, squadre, punteggi, classifica, dettaglio, risultati] = await Promise.all([
+  const [giocatori, squadre, punteggi, classifica, dettaglio, risultati, premi] = await Promise.all([
     loadGiocatori(edition),
     loadSquadre(edition),
     loadPunteggi(edition),
     loadClassifica(edition),
     loadDettaglio(edition),
     loadRisultati(edition),
+    loadPremi(edition),
   ]);
-  return { giocatori, squadre, punteggi, classifica, dettaglio, risultati };
+  return { giocatori, squadre, punteggi, classifica, dettaglio, risultati, premi };
 }

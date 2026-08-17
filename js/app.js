@@ -52,7 +52,7 @@ async function main() {
       const classificaDiv = document.createElement('div');
       classificaDiv.className = 'mb-6';
       contentContainer.appendChild(classificaDiv);
-      renderClassifica(classificaDiv, { edition, dettaglio: data.dettaglio });
+      renderClassifica(classificaDiv, { edition, dettaglio: data.dettaglio, premi: data.premi });
     }
 
     const extras = [];

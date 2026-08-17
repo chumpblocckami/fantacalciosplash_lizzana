@@ -14,9 +14,17 @@ import {
   POINTS_PER_RED_CARD,
   POINTS_PER_VICTORY,
   POINTS_PER_DRAW,
+  POINTS_PER_DEFEAT,
   POINTS_PER_CLEANSHEET,
   POINTS_PER_CONCEDED_GOAL,
 } from '../js/constants.js';
+import {
+  PHASES,
+  PHASE_LABELS,
+  isMatchColumn,
+  phaseByLabel,
+} from '../js/match-phases.js';
+import { AWARDS, awardsForPlayer } from '../js/awards.js';
 
 const YEAR = process.env.YEAR || new Date().getFullYear().toString();
 const DATA_DIR = join('data', YEAR);
@@ -130,8 +138,7 @@ function splitPlayer(id) {
 /**
  * Reason chips for one match, derived from the raw per-match rating.
  *
- * The rating stores points, not event counts, so a `goals` of 4 is two goals. Zero-point
- * lines (a defeat with nothing else) are omitted: the number on the row already says 0.
+ * The rating stores points, not event counts, so a `goals` of 4 is two goals.
  */
 function chipsFrom(raw) {
   if (!raw) return [];
@@ -160,6 +167,8 @@ function chipsFrom(raw) {
     chips.push({ kind: 'win', label: 'vittoria', points: raw.team_points });
   } else if (raw.team_points === POINTS_PER_DRAW) {
     chips.push({ kind: 'draw', label: 'pareggio', points: raw.team_points });
+  } else if (raw.team_points === POINTS_PER_DEFEAT) {
+    chips.push({ kind: 'loss', label: 'sconfitta', points: raw.team_points });
   }
   if (raw.goalkeeper_points === POINTS_PER_CLEANSHEET) {
     chips.push({ kind: 'cleansheet', label: 'clean sheet', points: raw.goalkeeper_points });
@@ -198,26 +207,40 @@ function isUnplayed(raw, ownScore, applyMalus) {
   return ownScore === 0;
 }
 
-function isMatchColumn(key) {
-  const kl = key.toLowerCase();
-  return kl.startsWith('match') || kl.startsWith('ottavi') || kl.startsWith('quarti')
-    || kl.startsWith('semifinal') || kl.startsWith('final') || kl.startsWith('sedicesimi')
-    || kl.startsWith('bonus');
-}
-
-/** Every Match N column anyone has, so a team that went further still shows those rounds. */
-function collectMatchColumns(punteggi) {
-  const cols = new Set();
+/** Every phase label, or legacy Match columns when the edition predates named phases. */
+function collectPhaseColumns(punteggi) {
+  const legacy = new Set();
   for (const row of punteggi) {
     for (const key of Object.keys(row)) {
-      if (isMatchColumn(key)) cols.add(key);
+      if (/^Match \d+$/.test(key)) legacy.add(key);
     }
   }
-  return [...cols].sort((a, b) => {
-    const na = Number(String(a).replace(/\D/g, '')) || 0;
-    const nb = Number(String(b).replace(/\D/g, '')) || 0;
-    return na - nb || a.localeCompare(b);
-  });
+  if (legacy.size) {
+    return [...legacy].sort((a, b) => Number(a.replace(/\D/g, '')) - Number(b.replace(/\D/g, '')));
+  }
+  return PHASE_LABELS;
+}
+
+/**
+ * Whether the real team skipped an optional phase (Playoff).
+ *
+ * @param {Object|null} row - Punteggi row for the player
+ * @param {string}      label - Phase label
+ * @param {string[]}    teamPhaseList - Phases this real team played (from fasi.json)
+ */
+function skippedOptionalPhase(row, label, teamPhaseList) {
+  const phase = phaseByLabel(label);
+  if (!phase || phase.required) return false;
+  if (teamPhaseList.includes(label)) return false;
+  if (row && Object.prototype.hasOwnProperty.call(row, label)) return false;
+  return true;
+}
+
+/** Phases played by the real team behind a "Name | TEAM" id. */
+function teamPhasesFor(playerId, fasiPerTeam) {
+  if (!playerId?.includes('|')) return [];
+  const team = playerId.split('|').pop().trim();
+  return fasiPerTeam[team] ?? [];
 }
 
 function main() {
@@ -240,6 +263,9 @@ function main() {
     console.log('  ⚠ No eliminazioni.json; inferring who is out from the scores instead.');
   }
 
+  const fasiPerTeam = readJson(join(DATA_DIR, 'fasi.json')) ?? {};
+  const premiWinners = readJson(join(DATA_DIR, 'premi.json'));
+
   // Editions that were computed before stato.json existed are all finished ones, so their tables
   // keep the malus they were built with. While the girone is still on, only earned points count.
   const stato = readJson(join(DATA_DIR, 'stato.json'));
@@ -254,12 +280,12 @@ function main() {
 
   const pKey = 'player' in punteggi[0] ? 'player' : 'NOME';
   const scoreNames = punteggi.map(p => p[pKey]);
-  const matchCols = collectMatchColumns(punteggi);
+  const phaseCols = collectPhaseColumns(punteggi);
+  const usesNamedPhases = phaseCols.some(label => phaseByLabel(label));
 
   const premiCol = Object.keys(punteggi[0]).find(k => k.toLowerCase().includes('premi'));
 
-  // Per-match ingredients (goals, cards, win, MVP), aligned with Match 1, Match 2, …
-  // for each team. Absent when an edition predates compute-scores.js writing it.
+  // Per-match ingredients keyed by phase label (or legacy Match N index).
   const rawRatings = readJson(join('assets', YEAR, 'punteggi.json')) ?? {};
 
   const sheets = [];
@@ -296,9 +322,18 @@ function main() {
       matches: [],
     }));
 
-    for (let mi = 0; mi < matchCols.length; mi++) {
-      const col = matchCols[mi];
-      const scores = starters.map(name => scoreFor(scoreMap[name], col, applyMalus));
+    const phaseScore = (name, col) => {
+      const row = scoreMap[name];
+      const teamPhases = teamPhasesFor(name, fasiPerTeam);
+      if (skippedOptionalPhase(row, col, teamPhases)) return 0;
+      const phase = phaseByLabel(col);
+      if (phase && !phase.countsForFanta && teamPhases.includes(col)) return 0;
+      return scoreFor(row, col, applyMalus);
+    };
+
+    for (let mi = 0; mi < phaseCols.length; mi++) {
+      const col = phaseCols[mi];
+      const scores = starters.map(name => phaseScore(name, col));
 
       // Regolamento rules 5 and 6: the reserve comes on the moment one of the starters is
       // eliminated from the tournament, and when a reserve is available to come on there is
@@ -307,7 +342,7 @@ function main() {
       const out = starters.findIndex(name => isOut(name, col));
       const reserveComesOn = out !== -1 && reserve && !isOut(reserve, col);
       if (reserveComesOn) {
-        scores[out] = scoreFor(scoreMap[reserve], col, applyMalus);
+        scores[out] = phaseScore(reserve, col);
         reserveUsed = true;
       }
 
@@ -318,17 +353,24 @@ function main() {
         const isReserve = slots[i].slot === 'Riserva';
         const row = scoreMap[name];
         const ownScore = scoreFor(row, col, applyMalus);
-        const raw = (rawRatings[name] ?? [])[mi];
+        const raw = usesNamedPhases
+          ? rawRatings[name]?.[col]
+          : (rawRatings[name] ?? [])[mi];
         const eliminated = isOut(name, col);
-        const hasColumn = Boolean(row && Object.prototype.hasOwnProperty.call(row, col));
-
-        // A team that skipped the access play-off has no extra column for it. Do not
-        // invent a malus row — rule 7 says that match is optional.
-        if (row && !hasColumn && !raw) continue;
+        const teamPhases = teamPhasesFor(name, fasiPerTeam);
+        const optionalSkip = skippedOptionalPhase(row, col, teamPhases);
+        const finaleNoFanta = col === 'Finale' && teamPhases.includes('Finale')
+          && ownScore === 0 && !eliminated && !raw;
 
         let status;
         let counted;
-        if (isReserve) {
+        if (optionalSkip) {
+          status = 'non_disputato';
+          counted = false;
+        } else if (finaleNoFanta) {
+          status = 'in_campo';
+          counted = false;
+        } else if (isReserve) {
           status = reserveComesOn ? 'subentrato' : 'panchina';
           counted = reserveComesOn;
         } else if (reserveComesOn && i === out) {
@@ -347,10 +389,11 @@ function main() {
 
         slots[i].matches.push({
           column: col,
+          phase: col,
           status,
           counted,
-          total: ownScore,
-          chips: chipsFor(raw, ownScore, status),
+          total: optionalSkip ? null : (finaleNoFanta ? 0 : ownScore),
+          chips: optionalSkip || finaleNoFanta ? [] : chipsFor(raw, ownScore, status),
         });
         if (counted) slots[i].counted_total += ownScore;
       }
@@ -358,16 +401,29 @@ function main() {
 
     // End-of-tournament prizes follow the player, so they count for whoever fielded them.
     // The reserve only counts if they came on, for the same reason their match scores do.
-    if (premiCol) {
-      const earning = new Set(reserveUsed ? players : starters);
-      for (const slot of slots) {
-        if (!earning.has(slot.player)) continue;
+    const earning = new Set(reserveUsed ? players : starters);
+    for (const slot of slots) {
+      if (!earning.has(slot.player)) {
+        slot.awards = [];
+        slot.premi = 0;
+        continue;
+      }
+      if (premiWinners) {
+        slot.awards = awardsForPlayer(slot.player, premiWinners);
+        slot.premi = slot.awards.reduce((sum, award) => sum + award.points, 0);
+      } else if (premiCol) {
         const row = scoreMap[slot.player];
         const prize = row ? parseFloat(row[premiCol]) || 0 : 0;
         slot.premi = prize;
-        slot.counted_total += prize;
-        total += prize;
+        slot.awards = prize
+          ? [{ id: 'premi', label: 'Premi', points: prize }]
+          : [];
+      } else {
+        slot.awards = [];
+        slot.premi = 0;
       }
+      slot.counted_total += slot.premi;
+      total += slot.premi;
     }
 
     for (const slot of slots) slot.counted_total = round1(slot.counted_total);

@@ -66,7 +66,7 @@ function lineup(coach, [goalkeeper, one, two, three, reserve]) {
  * Passing eliminazioni as null leaves the file out altogether, which is how an edition
  * scored before compute-scores.js started writing it looks.
  */
-function rank(name, punteggi, squadre, eliminazioni = {}, stato = null, rawRatings = null) {
+function rank(name, punteggi, squadre, eliminazioni = {}, stato = null, rawRatings = null, fasi = null) {
   const cwd = workspace(`classifica-${name}`);
   const dataDir = join(cwd, 'data', YEAR);
   mkdirSync(dataDir, { recursive: true });
@@ -77,6 +77,9 @@ function rank(name, punteggi, squadre, eliminazioni = {}, stato = null, rawRatin
   }
   if (stato !== null) {
     writeFileSync(join(dataDir, 'stato.json'), JSON.stringify(stato));
+  }
+  if (fasi !== null) {
+    writeFileSync(join(dataDir, 'fasi.json'), JSON.stringify(fasi));
   }
   if (rawRatings !== null) {
     const assetsDir = join(cwd, 'assets', YEAR);
@@ -401,6 +404,32 @@ describe('scripts/build-classifica.js', () => {
       assert.equal(match.chips.reduce((sum, chip) => sum + chip.points, 0), match.total);
     });
 
+    test('a defeat at zero shows a sconfitta chip', () => {
+      const raw = {
+        [STARTER_ONE]: [{
+          goals: 0,
+          yellow_cards: 0,
+          red_cards: 0,
+          team_points: 0,
+          goalkeeper_points: 0,
+          mvp_points: 0,
+          total_points: 0,
+        }],
+      };
+      const punteggi = [
+        scores(GOALKEEPER, [0]),
+        scores(STARTER_ONE, [0]),
+        scores(STARTER_TWO, [0]),
+        scores(STARTER_THREE, [0]),
+        scores(RESERVE, [0]),
+      ];
+      rank('sheet-defeat', punteggi, [lineup('Matteo', LINEUP)], {}, null, raw);
+
+      const match = slotOf('sheet-defeat', 'Matteo', 'Titolare 1').matches[0];
+      assert.equal(match.status, 'in_campo');
+      assert.deepEqual(match.chips.map(chip => chip.label), ['sconfitta']);
+    });
+
     test('the reserve who comes on is subentrato, and the starter they replace is not counted', () => {
       const punteggi = [
         scores(GOALKEEPER, [5]),
@@ -451,23 +480,85 @@ describe('scripts/build-classifica.js', () => {
         scores(STARTER_THREE, [2]),
         scores(RESERVE, [1]),
       ];
+      // Map legacy Match columns to named phases for this scenario.
+      for (const row of punteggi) {
+        if (row['Match 1'] !== undefined) {
+          row['Girone 1'] = row['Match 1'];
+          delete row['Match 1'];
+        }
+        if (row['Match 2'] !== undefined) {
+          row['Playoff'] = row['Match 2'];
+          delete row['Match 2'];
+        }
+      }
+
       rank(
         'play-in-sheet',
         punteggi,
         [lineup('Matteo', LINEUP)],
         {},
-        { apply_malus: false, knockouts_started: true, finished: false }
+        { apply_malus: false, knockouts_started: true, finished: false },
+        {
+          [GOALKEEPER]: { 'Girone 1': {}, 'Playoff': {} },
+          [STARTER_ONE]: { 'Girone 1': {}, 'Playoff': {} },
+          [STARTER_TWO]: { 'Girone 1': {} },
+          [STARTER_THREE]: { 'Girone 1': {} },
+          [RESERVE]: { 'Girone 1': {} },
+        }
       );
 
       const skipped = slotOf('play-in-sheet', 'Matteo', 'Titolare 2');
-      assert.equal(skipped.matches.length, 1);
+      const playoff = skipped.matches.find(match => match.phase === 'Playoff');
+      assert.equal(playoff.status, 'non_disputato');
+      assert.equal(playoff.column, 'Playoff');
       assert.equal(skipped.counted_total, 3);
 
       const keeper = slotOf('play-in-sheet', 'Matteo', 'Portiere');
-      assert.equal(keeper.matches.length, 2);
-      assert.equal(keeper.matches[1].status, 'in_campo');
-      assert.equal(keeper.matches[1].counted, true);
+      const keeperPlayoff = keeper.matches.find(match => match.phase === 'Playoff');
+      assert.equal(keeperPlayoff.status, 'in_campo');
+      assert.equal(keeperPlayoff.counted, true);
       assert.equal(keeper.counted_total, 13);
+    });
+  });
+
+  describe('the final round', () => {
+    test('shows Finale in campo at 0 when the team played the 3-4 match', () => {
+      const player = 'Mario Rossi | ALFA';
+      const punteggi = [{
+        player,
+        'Girone 1': 4,
+        Semifinale: 1,
+        Finale: 0,
+        Premi: 0,
+        Total: 5,
+      }];
+      const squadre = [{
+        Fantallenatore: 'Matteo',
+        Portiere: player,
+        'Titolare 1': 'Luca Bianchi | BETA',
+        'Titolare 2': 'Gino Verdi | GAMMA',
+        'Titolare 3': 'Ada Neri | DELTA',
+        Riserva: 'Ennio Grigi | OMEGA',
+      }];
+
+      rank(
+        'third-place-final-display',
+        punteggi,
+        squadre,
+        {},
+        { apply_malus: true, knockouts_started: true, finished: true },
+        null,
+        { ALFA: ['Girone 1', 'Semifinale', 'Finale'] },
+      );
+
+      const slot = slotOf('third-place-final-display', 'Matteo', 'Portiere');
+      const finale = slot.matches.find(match => match.phase === 'Finale');
+
+      assert.equal(finale.column, 'Finale');
+      assert.equal(finale.status, 'in_campo');
+      assert.equal(finale.total, 0);
+      assert.equal(slot.matches.some(match => match.phase === 'Finale 3-4'), false);
+      assert.equal(slot.counted_total, 5);
     });
   });
 

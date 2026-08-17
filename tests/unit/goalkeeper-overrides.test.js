@@ -76,9 +76,9 @@ describe('compute-scores.js applies the Pietro patch', () => {
     const punteggi = readOutput(cwd, 'data', '2099', 'punteggi.json');
     const row = name => punteggi.find(entry => entry.player === name);
 
-    assert.equal(row('Pietro Bernardelli | CLITORIDERS')['Match 1'], 5 + 2);
+    assert.equal(row('Pietro Bernardelli | CLITORIDERS')['Girone 1'], 5 + 2);
     assert.equal(
-      row('Thomas Maffei | CLITORIDERS')['Match 1'],
+      row('Thomas Maffei | CLITORIDERS')['Girone 1'],
       2 + 2,
       'goal and win only, no second clean sheet'
     );

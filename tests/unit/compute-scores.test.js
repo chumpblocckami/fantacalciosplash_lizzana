@@ -19,6 +19,7 @@ import {
   POINTS_BEST_PLAYER,
   POINTS_BEST_GOALKEEPER,
 } from '../../js/constants.js';
+import { isMatchColumn, PHASE_LABELS } from '../../js/match-phases.js';
 
 const YEAR = '2099';
 
@@ -45,11 +46,13 @@ function row(player) {
   return punteggi.find(entry => entry.player === player);
 }
 
-/** The Match columns of a punteggi row, in order. */
+/** The phase columns of a punteggi row, in tournament order. */
 function matchColumns(entry) {
-  return Object.keys(entry)
-    .filter(key => key.startsWith('Match '))
+  const keys = Object.keys(entry).filter(isMatchColumn);
+  const ordered = PHASE_LABELS.filter(label => keys.includes(label));
+  const legacy = keys.filter(key => /^Match \d+$/.test(key))
     .sort((a, b) => Number(a.slice(6)) - Number(b.slice(6)));
+  return [...ordered, ...legacy];
 }
 
 /** A player's per-match scores, in order. */
@@ -153,7 +156,7 @@ describe('scripts/compute-scores.js', () => {
     test('the rounds a team missed are recorded, so a reserve can be brought on', () => {
       for (const team of ELIMINATED) {
         for (const entry of punteggi.filter(p => p.player.endsWith(`| ${team}`))) {
-          assert.deepEqual(eliminazioni[entry.player], ['Match 2', 'Match 3']);
+          assert.deepEqual(eliminazioni[entry.player], ['Semifinale', 'Finale']);
         }
       }
       for (const team of QUALIFIED) {
@@ -209,11 +212,11 @@ describe('scripts/compute-scores.js', () => {
       const scored = readOutput(cwd, 'data', YEAR, 'punteggi.json');
       const carlo = scored.find(entry => entry.player === 'Carlo Blu | BETA');
       assert.deepEqual(
-        Object.keys(carlo).filter(key => key.startsWith('Match ')),
-        ['Match 1'],
+        matchColumns(carlo),
+        ['Girone 1'],
         'nobody has played a second match, so there is no column to pad'
       );
-      assert.equal(carlo['Match 1'], 2 + 2, 'the goal and the win, nothing else');
+      assert.equal(carlo['Girone 1'], 2 + 2, 'the goal and the win, nothing else');
 
       const stato = readOutput(cwd, 'data', YEAR, 'stato.json');
       assert.equal(stato.apply_malus, false);
@@ -286,12 +289,9 @@ describe('scripts/compute-scores.js', () => {
       const { punteggi: scored } = accessPlayOff('play-in-counts');
       const mario = scored.find(entry => entry.player === 'Mario Rossi | ALFA');
       // Girone: a goal and a win. Play-off: a goal and a win. Both count.
-      assert.deepEqual(
-        Object.keys(mario).filter(key => key.startsWith('Match ')),
-        ['Match 1', 'Match 2'],
-      );
-      assert.equal(mario['Match 1'], 2 + 2);
-      assert.equal(mario['Match 2'], 2 + 2);
+      assert.deepEqual(matchColumns(mario), ['Girone 1', 'Playoff']);
+      assert.equal(mario['Girone 1'], 2 + 2);
+      assert.equal(mario['Playoff'], 2 + 2);
       // Every listed fixture is closed, so the capocannoniere is paid on top.
       assert.equal(mario.Premi, POINTS_TOP_SCORER);
       assert.equal(mario.Total, 8 + POINTS_TOP_SCORER);
@@ -301,12 +301,8 @@ describe('scripts/compute-scores.js', () => {
       const { punteggi: scored, eliminazioni: out } = accessPlayOff('play-in-no-malus');
       const luca = scored.find(entry => entry.player === 'Luca Bianchi | BETA');
 
-      assert.deepEqual(
-        Object.keys(luca).filter(key => key.startsWith('Match ')),
-        ['Match 1'],
-        'BETA is not padded with a play-off column',
-      );
-      assert.equal(luca['Match 1'], 0);
+      assert.deepEqual(matchColumns(luca), ['Girone 1']);
+      assert.equal(luca['Girone 1'], 0);
       assert.equal(luca.Total, 0);
       assert.equal(out[luca.player], undefined);
     });
@@ -318,19 +314,12 @@ describe('scripts/compute-scores.js', () => {
       assert.equal(status.apply_malus, true);
 
       const luca = scored.find(entry => entry.player === 'Luca Bianchi | BETA');
-      assert.deepEqual(
-        Object.keys(luca).filter(key => key.startsWith('Match ')),
-        ['Match 1', 'Match 2'],
-      );
-      assert.equal(luca['Match 2'], -2, 'one malus, for the ottavi');
-      assert.deepEqual(out[luca.player], ['Match 2']);
+      assert.deepEqual(matchColumns(luca), ['Girone 1', 'Ottavi']);
+      assert.equal(luca['Ottavi'], -2, 'one malus, for the ottavi');
+      assert.deepEqual(out[luca.player], ['Ottavi']);
 
       const ennio = scored.find(entry => entry.player === 'Ennio Grigi | GAMMA');
-      assert.equal(
-        Object.keys(ennio).filter(key => key.startsWith('Match ')).length,
-        2,
-        'GAMMA played girone and ottavi, and is not charged for skipping the play-off',
-      );
+      assert.deepEqual(matchColumns(ennio), ['Girone 1', 'Ottavi']);
       assert.equal(out[ennio.player], undefined);
     });
   });
@@ -383,8 +372,9 @@ describe('scripts/compute-scores.js', () => {
       const { punteggi: scored } = playOff('Terzo/Quarto M', 'third-place');
       const mario = scored.find(entry => entry.player === 'Mario Rossi | ALFA');
 
-      assert.equal(matchColumns(mario).length, 1, 'only the group match is scored');
-      assert.equal(mario['Match 1'], 1 * 2 + 2, 'the group goal, and the win');
+      assert.deepEqual(matchColumns(mario), ['Girone 1', 'Finale']);
+      assert.equal(mario.Finale, 0, 'the 3-4 match is the Finale round but worth 0 fanta');
+      assert.equal(mario['Girone 1'], 1 * 2 + 2, 'the group goal, and the win');
     });
 
     test('still appears on the scoreboard', () => {
@@ -410,8 +400,66 @@ describe('scripts/compute-scores.js', () => {
       ]) {
         const { punteggi: scored } = playOff(name, directory);
         const mario = scored.find(entry => entry.player === 'Mario Rossi | ALFA');
-        assert.equal(matchColumns(mario).length, 1, `"${name}" was not recognised`);
+        assert.equal(mario.Finale, 0, `"${name}" was not recognised as the Finale round`);
       }
+    });
+
+    test('satisfies the final round instead of charging a missed Finale', () => {
+      const cwd = workspace('third-place-no-malus');
+      writeSnapshot(cwd, YEAR, {
+        groups: [
+          { id: 1, name: 'Maschile', gender: 'male', kind: 'girone' },
+          { id: 2, name: 'Semifinali M', gender: 'male', kind: 'playoffs' },
+          { id: 3, name: 'Terzo/Quarto M', gender: 'male', kind: 'playoffs' },
+          { id: 4, name: 'Finale M', gender: 'male', kind: 'playoffs' },
+        ],
+        fixtures: [
+          {
+            id: 1,
+            group_name: 'Maschile',
+            gender: 'male',
+            closed: true,
+            home: team('ALFA', 1, [player(1, 'mario', 'rossi', { goals: 1 })]),
+            away: team('BETA', 0, [player(2, 'luca', 'bianchi')]),
+          },
+          {
+            id: 2,
+            group_name: 'Semifinali M',
+            gender: 'male',
+            closed: true,
+            home: team('ALFA', 0, [player(1, 'mario', 'rossi')]),
+            away: team('GAMMA', 1, [player(3, 'ennio', 'grigi', { goals: 1 })]),
+          },
+          {
+            id: 3,
+            group_name: 'Terzo/Quarto M',
+            gender: 'male',
+            closed: true,
+            home: team('ALFA', 2, [player(1, 'mario', 'rossi', { goals: 2 })]),
+            away: team('DELTA', 0, [player(4, 'fabio', 'oro')]),
+          },
+          {
+            id: 4,
+            group_name: 'Finale M',
+            gender: 'male',
+            closed: true,
+            home: team('GAMMA', 1, [player(3, 'ennio', 'grigi', { goals: 1 })]),
+            away: team('DELTA', 0, [player(4, 'fabio', 'oro')]),
+          },
+        ],
+      });
+
+      const run = runScript('compute-scores.js', cwd, { YEAR });
+      assert.equal(run.status, 0, run.stderr);
+
+      const scored = readOutput(cwd, 'data', YEAR, 'punteggi.json');
+      const out = readOutput(cwd, 'data', YEAR, 'eliminazioni.json');
+      const mario = scored.find(entry => entry.player === 'Mario Rossi | ALFA');
+
+      assert.deepEqual(matchColumns(mario), ['Girone 1', 'Semifinale', 'Finale']);
+      assert.equal(mario['Semifinale'], 0);
+      assert.equal(mario.Finale, 0, '3-4 posto is the Finale round at 0 fanta points');
+      assert.equal(out[mario.player], undefined);
     });
   });
 
