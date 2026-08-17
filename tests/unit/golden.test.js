@@ -9,7 +9,7 @@
 
 import { test, describe, before } from 'node:test';
 import assert from 'node:assert/strict';
-import { cpSync, mkdirSync, readFileSync } from 'fs';
+import { cpSync, existsSync, mkdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 
 import { ROOT } from '../helpers/paths.js';
@@ -25,6 +25,10 @@ before(() => {
   mkdirSync(join(cwd, 'assets'), { recursive: true });
   cpSync(join(ROOT, 'assets', YEAR), join(cwd, 'assets', YEAR), { recursive: true });
   mkdirSync(join(cwd, 'data', YEAR), { recursive: true });
+  const premiPath = join(ROOT, 'data', YEAR, 'premi.json');
+  if (existsSync(premiPath)) {
+    cpSync(premiPath, join(cwd, 'data', YEAR, 'premi.json'));
+  }
 
   compute = runScript('compute-scores.js', cwd, { YEAR });
   assert.equal(compute.status, 0, `compute-scores.js failed: ${compute.stderr}`);

@@ -1,7 +1,7 @@
 [
   {
     "Allenatore": "Davide Rosà",
-    "Punteggio": 116
+    "Punteggio": 121
   },
   {
     "Allenatore": "Spagnolli Mattia",
@@ -17,7 +17,7 @@
   },
   {
     "Allenatore": "Lorenzo Zuani",
-    "Punteggio": 81
+    "Punteggio": 86
   },
   {
     "Allenatore": "Riccardo Zeni",
@@ -25,6 +25,10 @@
   },
   {
     "Allenatore": "Matteo Zanlucchi",
+    "Punteggio": 63
+  },
+  {
+    "Allenatore": "Nazarena Raos",
     "Punteggio": 63
   },
   {
@@ -40,10 +44,6 @@
     "Punteggio": 60
   },
   {
-    "Allenatore": "Nazarena Raos",
-    "Punteggio": 58
-  },
-  {
     "Allenatore": "Sebastiano Zoller",
     "Punteggio": 57.5
   },
@@ -52,16 +52,20 @@
     "Punteggio": 56
   },
   {
+    "Allenatore": "Dalila Valzolgher",
+    "Punteggio": 55
+  },
+  {
     "Allenatore": "Davide Zeni",
     "Punteggio": 52.5
   },
   {
-    "Allenatore": "Matteo Pilati",
-    "Punteggio": 51
+    "Allenatore": "Marco Sartorelli",
+    "Punteggio": 52
   },
   {
-    "Allenatore": "Dalila Valzolgher",
-    "Punteggio": 50
+    "Allenatore": "Matteo Pilati",
+    "Punteggio": 51
   },
   {
     "Allenatore": "Lorenza Simoncelli",
@@ -74,10 +78,6 @@
   {
     "Allenatore": "Niccolò Orsi",
     "Punteggio": 47.5
-  },
-  {
-    "Allenatore": "Marco Sartorelli",
-    "Punteggio": 47
   },
   {
     "Allenatore": "Michela Menghini",

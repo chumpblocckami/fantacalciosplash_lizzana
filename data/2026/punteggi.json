@@ -24,6 +24,18 @@
     "Total": 34
   },
   {
+    "player": "Federico Fasanelli | SBARX",
+    "Girone 1": 6,
+    "Girone 2": 5,
+    "Girone 3": 4,
+    "Ottavi": 2,
+    "Quarti": 2,
+    "Semifinale": 7,
+    "Finale": 2,
+    "Premi": 5,
+    "Total": 33
+  },
+  {
     "player": "Federico Mortillaro | CLITORIDERS",
     "Girone 1": 5,
     "Girone 2": 12,
@@ -48,16 +60,16 @@
     "Total": 30
   },
   {
-    "player": "Federico Fasanelli | SBARX",
-    "Girone 1": 6,
-    "Girone 2": 5,
-    "Girone 3": 4,
-    "Ottavi": 2,
-    "Quarti": 2,
+    "player": "Elia Barozzi | I MAGNIFICI",
+    "Girone 1": 7,
+    "Girone 2": 0.5,
+    "Girone 3": 7,
+    "Ottavi": 1.5,
+    "Quarti": 1,
     "Semifinale": 7,
-    "Finale": 2,
-    "Premi": 0,
-    "Total": 28
+    "Finale": 1,
+    "Premi": 5,
+    "Total": 30
   },
   {
     "player": "Gabriele Gottardi | C.G.B. CHELE DI CHERNO",
@@ -95,18 +107,6 @@
     "Finale": 0,
     "Premi": 0,
     "Total": 26
-  },
-  {
-    "player": "Elia Barozzi | I MAGNIFICI",
-    "Girone 1": 7,
-    "Girone 2": 0.5,
-    "Girone 3": 7,
-    "Ottavi": 1.5,
-    "Quarti": 1,
-    "Semifinale": 7,
-    "Finale": 1,
-    "Premi": 0,
-    "Total": 25
   },
   {
     "player": "Matteo Diener | U.SGUARNA",
