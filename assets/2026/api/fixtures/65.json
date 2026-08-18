@@ -9,6 +9,7 @@
     "closed": true,
     "scheduled_at": "2026-08-15T10:40:00.000Z",
     "field": null,
+    "half_duration_seconds": 420,
     "has_shootouts": false,
     "in_shootout": false,
     "shootout_excluded": {
