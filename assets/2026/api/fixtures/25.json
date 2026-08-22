@@ -10,6 +10,8 @@
     "scheduled_at": "2026-08-14T19:20:00.000Z",
     "field": null,
     "half_duration_seconds": 420,
+    "mvp_player_id": null,
+    "goalkeeper_ratings": {},
     "has_shootouts": false,
     "in_shootout": false,
     "shootout_excluded": {

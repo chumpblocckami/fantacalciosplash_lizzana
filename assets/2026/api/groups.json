@@ -1045,6 +1045,35 @@
           "players_count": 7
         }
       ]
+    },
+    {
+      "id": 22,
+      "name": "Test gfx",
+      "has_shootouts": true,
+      "gender": "male",
+      "kind": "playoffs",
+      "source_group_id": null,
+      "source_outcome": null,
+      "sort_order": 66,
+      "tiebreak_head_to_head": false,
+      "teams": [
+        {
+          "id": 111,
+          "name": "4SINS",
+          "tag": "4SI",
+          "logo_url": "/storage/teams/4sins.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\4sins.png",
+          "players_count": 6
+        },
+        {
+          "id": 128,
+          "name": "A.C.DENTI",
+          "tag": "ACD",
+          "logo_url": "/storage/teams/acdenti.png",
+          "production_path": "C:\\PROD\\CALCIOSPLASH\\IMAGES\\TEAM\\acdenti.png",
+          "players_count": 7
+        }
+      ]
     }
   ]
 }
